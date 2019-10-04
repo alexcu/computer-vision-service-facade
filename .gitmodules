@@ -1,0 +1,3 @@
+[submodule "eval"]
+	path = eval
+	url = git@github.com:alexcu/cv-api-eval.git
