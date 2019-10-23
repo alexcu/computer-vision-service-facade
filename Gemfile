@@ -5,3 +5,8 @@ gem 'google-cloud-vision', '0.36.0'
 gem 'aws-sdk-rekognition', '1.30.0'
 
 gem 'down', '5.0.0'
+gem 'rest-client', '2.1.0'
+gem 'tty-prompt', '0.19.0'
+gem 'require_all', '3.0.0'
+gem 'awesome_print', '1.8.0'
+gem 'multipart-post', '2.1.1'
