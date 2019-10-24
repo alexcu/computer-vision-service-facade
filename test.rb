@@ -4,13 +4,13 @@ require 'require_all'
 require 'awesome_print'
 require 'tty-prompt'
 
-require './eval'
+require_all 'src'
 require_all 'test'
 
 module Test
-  @@prompt = TTY::Prompt.new
+  @prompt = TTY::Prompt.new
   def self.prompt
-    @@prompt
+    @prompt
   end
 end
 
@@ -21,7 +21,7 @@ def run_test(m)
   rescue StandardError => e
     puts "*** Error!\n#{e}"
     puts "*** Backtrace:\n  #{e.backtrace.join("\n  ")}"
-    puts "*** Failed!"
+    puts '*** Failed!'
   else
     puts '*** Success!'
   end
