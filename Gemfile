@@ -11,3 +11,4 @@ gem 'multipart-post', '2.1.1'
 
 gem 'sequel', '5.25.0'
 gem 'sqlite3', '1.4.1'
+gem 'rufus-scheduler', '3.6.0'
