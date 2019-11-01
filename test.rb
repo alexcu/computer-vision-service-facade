@@ -27,8 +27,12 @@ def run_test(m)
   end
 end
 
-Test.prompt.select('Execute test:') do |mnu|
+# Don't commit to the real db!!
+Sequel::Model.db.transaction do
+  Test.prompt.select('Execute test:') do |mnu|
   [Test.methods - Object.methods].flatten
                                  .select { |s| s.to_s.start_with?('test') }
                                  .each { |m| mnu.choice m, -> { run_test(m) } }
+  end
+  raise Sequel::Rollback
 end

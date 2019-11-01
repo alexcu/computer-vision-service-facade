@@ -95,10 +95,10 @@ module ICVSB
   end
 
   class BenchmarkSeverity < Sequel::Model(dbc[:benchmark_severities])
-    EXCEPTION = BenchmarkSeverity[name: VALID_SEVERITIES[0].to_s][:id]
-    WARNING   = BenchmarkSeverity[name: VALID_SEVERITIES[1].to_s][:id]
-    INFO      = BenchmarkSeverity[name: VALID_SEVERITIES[2].to_s][:id]
-    NONE      = BenchmarkSeverity[name: VALID_SEVERITIES[3].to_s][:id]
+    EXCEPTION = BenchmarkSeverity[name: VALID_SEVERITIES[0].to_s]
+    WARNING   = BenchmarkSeverity[name: VALID_SEVERITIES[1].to_s]
+    INFO      = BenchmarkSeverity[name: VALID_SEVERITIES[2].to_s]
+    NONE      = BenchmarkSeverity[name: VALID_SEVERITIES[3].to_s]
   end
 
   class Request < Sequel::Model(dbc)
@@ -119,7 +119,7 @@ module ICVSB
     end
 
     def hash
-      JSON.parse(body.lit.to_s, symbolize_names: true).to_h
+      JSON.parse(body.lit.downcase.to_s, symbolize_names: true).to_h
     end
 
     def labels
@@ -140,7 +140,7 @@ module ICVSB
     private
 
     def _google_cloud_vision_labels
-      hash[:responses][0][:label_annotations].map do |label|
+      hash[:label_annotations].map do |label|
         [label[:description].downcase, label[:score]]
       end.to_h
     end
@@ -177,7 +177,7 @@ module ICVSB
   class BenchmarkKey < Sequel::Model(dbc)
     many_to_one :service
     many_to_one :benchmark_severity
-    one_to_one  :batch_request
+    many_to_one :batch_request
 
     def success?
       batch_request.success?
@@ -200,56 +200,72 @@ module ICVSB
         ICVSB.log.warn("Service mismatch in validation: #{key.service.name} != #{service.name}")
         return false
       end
+      ICVSB.log.info('Services both match')
 
       # 2. Ensure same benchmark dataset
-      symm_diff_uris = Set[*service.uris] ^ Set[*key.batch_request.uris]
+      symm_diff_uris = Set[*batch_request.uris] ^ Set[*key.batch_request.uris]
       unless symm_diff_uris.empty?
         ICVSB.log.warn('Benchmark dataset mismatch in key validation: '\
           "Symm difference contains #{symm_diff_uris.count} different URIs")
         return false
       end
+      ICVSB.log.info('Same benchmark dataset has been used')
 
       # 3. Ensure successful request made in BOTH instances
       unless key.success? && success?
         ICVSB.log.warn('Sucesss mismatch in key validation')
         return false
       end
+      ICVSB.log.info('Both keys were successful')
 
       # 4. Ensure the same max label and min confs are unchanged
       unless key.min_confidence == min_confidence && key.max_labels == max_labels
         ICVSB.log.warn('Minimum confidence or max labels mismatch in key validation')
         return false
       end
+      ICVSB.log.info('Both keys have same min confidence and max labels')
 
       # 4. Ensure same number of results...
       unless batch_request.responses.length == key.batch_request.responses.length
         ICVSB.log.warn('Number of responses mismatch in key validation')
         return false
       end
+      ICVSB.log.info('Both keys have same number of encoded responses')
+
 
       # 4. Validate every response's label count and confidence delta
       our_requests = batch_request.requests
       their_requests = key.batch_request.requests
       our_requests.each do |our_request|
-        this_uri = request.uri
-        their_request = their_requests[uri: this_uri]
+        this_uri = our_request.uri
+        their_request = their_requests.find { |r| r.uri == this_uri }
 
-        our_labels = Set[our_request.response.labels.keys]
-        their_labels = Set[their_request.response.labels.keys]
+        our_labels = Set[*our_request.response.labels.keys]
+        their_labels = Set[*their_request.response.labels.keys]
 
-        if (our_labels ^ their_labels).length > delta_labels
-          ICVSB.log.warn('Number of labels mismatch in key validation')
+        symm_diff_labels = our_labels ^ their_labels
+
+        ICVSB.log.debug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against " \
+          "id=#{their_request.id} {#{their_labels.to_a.join(', ')}} - symm diff "\
+          "= {#{symm_diff_labels.to_a.join(', ')}}")
+        if symm_diff_labels.length > delta_labels
+          ICVSB.log.warn("Number of labels mismatch in key validation (margin of error=#{delta_labels})")
           return false
         end
+        ICVSB.log.info("Number of labels match both keys (within margin of error #{delta_labels})")
 
         our_request.response.labels.each do |label, conf|
           our_conf = conf
           their_conf = their_request.response.labels[label]
 
-          if (our_conf - their_conf).abs > delta_confidence
-            ICVSB.log.warn('Maximum confidence delta breached in key validation')
+          delta = (our_conf - their_conf).abs
+          ICVSB.log.debug("Request id=#{our_request.id} against id=#{their_request.id} "\
+            "for label '#{label}' confidence: #{our_conf}, #{their_conf} (delta=#{delta})")
+          if delta > delta_confidence
+            ICVSB.log.warn("Maximum confidence delta breached in key validation (margin of error=#{delta_confidence})")
             return false
           end
+          ICVSB.log.info("Both keys have confidence within margin of error #{delta_confidence}")
         end
       end
 
@@ -284,7 +300,7 @@ module ICVSB
         when Service::AMAZON
           Aws::Rekognition::Client.new
         when Service::AZURE
-          URI('https://australiaeast.api.cognitive.microsoft.com/vision/v2.0/analyze')
+          URI('https://australiaeast.api.cognitive.microsoft.com/vision/v2.0/tag')
         end
       @config = {
         max_labels: max_labels,
@@ -301,6 +317,7 @@ module ICVSB
     # @return [Response] The response record commited to the benchmarker
     #   database.
     def send_uri(uri, batch: nil)
+      raise ArgumentError, 'URI must be a string.' unless uri.is_a?(String)
       raise ArgumentError, 'Batch must be a BatchRequest.' if !batch.nil? && !batch.is_a?(BatchRequest)
 
       batch_id = batch.nil? ? nil : batch.id
@@ -317,6 +334,7 @@ module ICVSB
         when Service::AZURE
           response = _request_azure_computer_vision(uri)
         end
+        ICVSB.log.info("Succesful response for URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
       rescue StandardError => e
         ICVSB.log.warn("Exception caught in send_uri: #{e.class} - #{e.message} - #{e.backtrace.join(' ⏎ ')}")
         exception = e
@@ -327,12 +345,14 @@ module ICVSB
         uri: uri,
         batch_request_id: batch_id
       )
-      Response.create(
+      response = Response.create(
         created_at: DateTime.now,
         body: response[:body],
         success: exception.nil? && response[:success],
         request_id: request.id
       )
+      ICVSB.log.info("Request saved (id=#{request.id}) with response (id=#{response.id})")
+      response
     end
 
     # Sends a batch request with multiple images to client's respective service
@@ -342,11 +362,14 @@ module ICVSB
     # @param [Array<String>] uris An array of URIs to an image to detect labels.
     # @return [BatchRequest] The batch request that was created.
     def send_uris(uris)
+      raise ArgumentError, 'URIs must be an array of strings.' unless uris.is_a?(Array)
+
       batch_request = BatchRequest.create(created_at: DateTime.now)
       ICVSB.log.info("Initiated a batch request for #{uris.count} URIs")
       uris.each do |uri|
         send_uri(uri, batch: batch_request)
       end
+      ICVSB.log.info("Batch is complete (id=#{batch_request.id})")
       batch_request
     end
 
@@ -542,12 +565,11 @@ module ICVSB
 end
 
 # reqclient = ICVSB::RequestClient.new(ICVSB::Service::AMAZON)
-uris = %w[
-  https://picsum.photos/id/1/800/600
-  https://picsum.photos/id/2/800/600
-]
 
-benchmark = ICVSB::BenchmarkedRequestClient.new(ICVSB::Service::AMAZON, uris)
+# benchmark = ICVSB::BenchmarkedRequestClient.new(ICVSB::Service::AZURE, uris)
+
+# Unit test for each response
+
 
 
 #benchmark.send_uri('https://picsum.photos/id/1/800/600', 'Bepis')
