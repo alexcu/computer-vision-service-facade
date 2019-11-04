@@ -39,9 +39,11 @@ module ICVSB
   VALID_SEVERITIES = %i[exception warning info none].freeze
 
   @log = Logger.new(ENV['ICVSB_LOGGER_FILE'] || STDOUT)
+  # Exposes access to the ICVSB logger
   def self.log
     @log
   end
+  private_class_method :log
 
   #################################
   # Database schema creation seed #
@@ -603,6 +605,8 @@ module ICVSB
     # Initialises a new instance of the benchmarked requester to label
     # endpoints.
     # @param [Service] service (see RequestClient#initialize)
+    # @param [Array<String>] benchmark_uris An array of URIs to benchmark
+    #   against.
     # @param [Fixnum] max_labels (see RequestClient#initialize)
     # @param [Float] min_confidence (see RequestClient#initialize)
     # @param [Hash] opts Additional benchmark-related parameters.
@@ -617,20 +621,21 @@ module ICVSB
     #   #BenchmarkKey to expire. Default is 0.01.
     # @option opts [BenchmarkSeverity] :severity The severity of warning for
     #   the #BenchmarkKey to fail. Default is +BenchmarkSeverity::INFO+.
-    def initialize(service, benchmark_dataset, max_labels: 100, min_confidence: 0.50, opts: {})
+    def initialize(service, benchmark_uris, max_labels: 100, min_confidence: 0.50, opts: {})
       super(service, max_labels: max_labels, min_confidence: min_confidence)
       @scheduler = Rufus::Scheduler.new
+      @benchmark_uris = benchmark_uris
       @key_config = {
         reevaluate_on: opts[:reevaluate_on]       || '0 0 * * 0',
         delta_labels: opts[:delta_labels]         || 5,
         delta_confidence: opts[:delta_confidence] || 0.01,
         severity: opts[:severity]                 || BenchmarkSeverity::INFO
       }
-      @current_key = _benchmark_dataset(benchmark_dataset)
+      @current_key = _benchmark_dataset(benchmark_uris)
       @scheduler.cron(@key_config[:reevaluate_on]) do |cronjob|
         ICVSB.log.info("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
-        new_key = _benchmark_dataset(benchmark_dataset)
+        new_key = _benchmark_dataset(benchmark_uris)
         unless @current_key.valid_against?(new_key)
           ICVSB.log.warn("BenchmarkedRequestClient #{self} no longer has a valid key! " \
             "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
@@ -707,14 +712,12 @@ module ICVSB
 
     # Benchmarks this client against a set of URIs, returning this client's
     # configurated key configuration.
-    # @param [Array<String>] uris An array of strings indicating URIs to
-    #   benchmark the client against.
     # @return [BenchmarkKey] A key representing the result of this benchmark.
-    def _benchmark_dataset(uris)
+    def _benchmark_dataset
       raise ArgumentError, 'URIs must be an array of strings.' unless uri.is_a?(Array)
       ICVSB.log.info("Benchmarking dataset for BenchmarkedRequestClient #{self} "\
         "against dataset of #{uris.count} URIs.")
-      br = send_uris_no_key(uris)
+      br = send_uris_no_key(@benchmark_uris)
       BenchmarkKey.create(
         service_id: @service.id,
         benchmark_severity_id: @key_config[:severity],
