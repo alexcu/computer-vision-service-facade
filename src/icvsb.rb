@@ -20,7 +20,22 @@ require 'rufus-scheduler'
 # implements an architectural pattern that helps overcome evolution issues
 # within intelligent computer vision services.
 module ICVSB
+  # The valid services this version of the ICVSB module supports. At present the
+  # only services supported are Google Cloud Vision, Amazon Rekognition, and
+  # Azure Computer Vision and their respective labelling/tagging endpoints.
+  # @see https://cloud.google.com/vision/docs/labels
+  #   Google Cloud Vision labelling endpoint.
+  # @see https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectLabels.html
+  #   Amazon Rekognition's labelling endpoint.
+  # @see https://docs.microsoft.com/en-us/rest/api/cognitiveservices/computervision/tagimage/tagimage
+  #   Azure Computer Visions's tagging endpoint.
   VALID_SERVICES = %i[google_cloud_vision amazon_rekognition azure_computer_vision].freeze
+
+  # A list of the valid severities that the ICVSB module supports. Exception
+  # prevents the response from being accessed; warning will still produce a
+  # response but the +error+ field will be filled in; info will only log
+  # errors to the ICVSB log file and keep +error+ empty and none ignores the
+  # errors entirely.
   VALID_SEVERITIES = %i[exception warning info none].freeze
 
   @log = Logger.new(ENV['ICVSB_LOGGER_FILE'] || STDOUT)
@@ -88,40 +103,90 @@ module ICVSB
     index %i[service_id batch_request_id]
   end
 
+  # Service representing the list of VALID_SERVICES the ICVSB module supports.
   class Service < Sequel::Model(dbc)
+    # The Service representing Google Cloud Vision's labelling endpoint.
+    # @see https://cloud.google.com/vision/docs/labels
+    #   Google Cloud Vision labelling endpoint.
     GOOGLE = Service[name: VALID_SERVICES[0].to_s]
+
+    # The Service representing Amazon Rekognition's labelling endpoint.
+    # @see https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectLabels.html
+    #   Amazon Rekognition's labelling endpoint.
     AMAZON = Service[name: VALID_SERVICES[1].to_s]
+
+    # The Service representing Azure Computer Vision's tagging endpoint.
+    # @see https://docs.microsoft.com/en-us/rest/api/cognitiveservices/computervision/tagimage/tagimage
+    #   Azure Computer Visions's tagging endpoint.
     AZURE  = Service[name: VALID_SERVICES[2].to_s]
   end
 
+  # Severity representing the list of VALID_SEVERITIES the ICVSB module
+  # supports. The severity is encoded within a BenchmarkKey.
   class BenchmarkSeverity < Sequel::Model(dbc[:benchmark_severities])
+    # Exception severities will prevent responses from being accessed. This
+    # disallows access to the Response object encoded within a
+    # BenchmarkRequestClient#send_uri_with_key or
+    # BenchmarkRequestClient#send_uris_with_key result.
     EXCEPTION = BenchmarkSeverity[name: VALID_SEVERITIES[0].to_s]
+
+    # Warning severities will allow the Response from being accessed but will
+    # additionally populate the +error+ value encoded within a
+    # BenchmarkRequestClient#send_uri_with_key or
+    # BenchmarkRequestClient#send_uris_with_key result.
     WARNING   = BenchmarkSeverity[name: VALID_SEVERITIES[1].to_s]
+
+    # Info severities will allow the Response from being accessed encoded within
+    # the result of a BenchmarkRequestClient#send_uri_with_key or
+    # BenchmarkRequestClient#send_uris_with_key call, however, information
+    # pertaining to issues with the request will be logged to the ICVSB log
+    # file.
     INFO      = BenchmarkSeverity[name: VALID_SEVERITIES[2].to_s]
+
+    # None severities will essentially ignore all benchmarking capabilities and
+    # 'switches off' the benchmarking.
     NONE      = BenchmarkSeverity[name: VALID_SEVERITIES[3].to_s]
   end
 
+  # This class represents a single request made to a Service. It encodes the
+  # service, batch of requests (if applicable) and respective response.
   class Request < Sequel::Model(dbc)
     many_to_one :service
     many_to_one :batch
     one_to_one :response
 
+    # See Response#success.
     def success?
       response.success?
     end
   end
 
+  # This class represents a single response returned back from a Service. It
+  # encodes the reqeust that was made to invoke the response.
   class Response < Sequel::Model(dbc)
     many_to_one :request
 
+    # Indicates if the response from the request was successful.
+    # @return [Boolean] True if the response was successful or false if the
+    #   response contained some issue.
     def success?
       success
     end
 
+    # Returns a hash of the entire response object, decoded form its
+    # Service-specific response Ruby type and into a simple hash object.
+    # @return [Hash] A hash representing the entire Service response object
+    #   within a Hash type.
     def hash
       JSON.parse(body.lit.downcase.to_s, symbolize_names: true).to_h
     end
 
+    # Returns hash of labels paired with their respective confidence values.
+    # Decodes each Service's individual response syntax into a simple
+    # key-value-pair that can be used for generalised use, regardless of which
+    # Service actually generated the response.
+    # @return [Hash] A hash with key-value-pairs representing the label (key)
+    #   and value (confidence) of the response.
     def labels
       if success?
         case request.service
@@ -139,18 +204,24 @@ module ICVSB
 
     private
 
+    # Decodes a Google Cloud Vision label endpoint response into a simple hash.
+    # @return [Hash] A key-value-pair representing label => confidence.
     def _google_cloud_vision_labels
       hash[:label_annotations].map do |label|
         [label[:description].downcase, label[:score]]
       end.to_h
     end
 
+    # Decodes an Amazon Rekognition label endpoint response into a simple hash.
+    # @return [Hash] See #{#_google_cloud_vision_labels}.
     def _amazon_rekognition_labels
       hash[:labels].map do |label|
         [label[:name].downcase, label[:confidence] * 0.01]
       end.to_h
     end
 
+    # Decodes an Azure Computer Vision tagging endpoint into a simple hash.
+    # @return [Hash] See #{#_google_cloud_vision_labels}.
     def _azure_computer_vision_labels
       hash[:tags].map do |label|
         [label[:name].downcase, label[:confidence]]
@@ -158,40 +229,71 @@ module ICVSB
     end
   end
 
+  # The batch request class collates multiple requests (URIs) invoked to a
+  # single Service's endpoint in a single request. It encodes all requests
+  # made to the service and can produce all responses back.
   class BatchRequest < Sequel::Model(dbc)
     one_to_many :requests
 
+    # Indicates if every request in the batch of requests made were successful.
+    # @return [Boolean] True if every response was successful, false
+    #   otherwise.
     def success?
       requests.map(&:success?).reduce(:&)
     end
 
+    # Maps all Response objects that were returned back from this batch to an
+    # array.
+    # @return [Array<Response>] An array of Response objects from every Request
+    #  made in this batch.
     def responses
       requests.map(&:response)
     end
 
+    # Maps all URIs that were requested back within this batch.
+    # @return [Array<String>] An array of URI strings from every Request
+    #  made in this batch.
     def uris
       requests.map(&:uri)
     end
   end
 
+  # The Benchmark Key encodes all information pertaining to the evolution of a
+  # specific service and is used to validate if a benchmark dataset has evolved
+  # with time. This key must be used in conjunction with the
+  # BenchmarkRequestClient to ensure that responses made are still reasonable to
+  # use or if the service should be re-benchmarked against a new dataset.
   class BenchmarkKey < Sequel::Model(dbc)
     many_to_one :service
     many_to_one :benchmark_severity
     many_to_one :batch_request
 
+    # See BatchRequest#success?
     def success?
       batch_request.success?
     end
 
+    # An alias for the +expired+ field on the key, adding a question mark at the
+    # end to make the field more 'Ruby-esque'.
+    # @return [Boolean] True if the key has expired and thus should not be used
+    #   for future requests as it is no longer valid.
     def expired?
       expired
     end
 
+    # Expires this key by writing over its +expired+ field and marking it
+    # false.
+    # @return [void]
     def expire
       self.expired = false
       save
     end
 
+    # Validates another key against this key to ensure if the two keys are
+    # compatible or if evolution has occured.
+    # @param [BenchmarkKey] key The second key to validate against.
+    # @return [Boolean] True if this key is valid against the other key, false
+    #   otherwise.
     def valid_against?(key)
       ICVSB.log.info("Validating key id=#{id} with other key id=#{key.id}")
 
@@ -277,7 +379,7 @@ module ICVSB
   # provided service's labelling endpoints. It handles creating respective
   # +Request+ and +Response+ records to be commited to the benchmarker database.
   # Requests made with the +RequestClient+ do *not* ensure that evolution risk
-  # has occured (see #BenchmarkedRequestClient).
+  # has occured (see BenchmarkedRequestClient).
   class RequestClient
     # Initialises a new instance of the requester to label endpoints.
     # @param [Service] service The service to request from.
@@ -309,7 +411,7 @@ module ICVSB
     end
 
     # Sends a request to the client's respective service endpoint. Does *not*
-    # validate a response against a key (see #ICVSB::BenchmarkedRequestClient).
+    # validate a response against a key (see BenchmarkedRequestClient).
     # Params:
     # @param [String] uri A URI to an image to detect labels.
     # @param [BatchRequest] batch The batch that the request is being made
@@ -493,7 +595,7 @@ module ICVSB
   # benchmarker database. Unlike the +RequestClient+, the
   # +BenchmarkedRequestClient+ ensures that, respective to a benchmark dataset,
   # evolution has not occured and thus is safe to use the endpoint without
-  # re-evaluation. Requires a #BenchmarkKey to make any requests.
+  # re-evaluation. Requires a BenchmarkKey to make any requests.
   class BenchmarkedRequestClient < RequestClient
     alias send_uri_no_key send_uri
     alias send_uris_no_key send_uris
