@@ -529,25 +529,89 @@ module ICVSB
         ICVSB.log.info("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
         new_key = _benchmark_dataset(benchmark_dataset)
-        if @current_key.valid_against?(new_key)
+        unless @current_key.valid_against?(new_key)
+          ICVSB.log.warn("BenchmarkedRequestClient #{self} no longer has a valid key! " \
+            "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
           @current_key.expire
           @current_key = new_key
         end
       end
     end
 
+    # Sends an image to this client's respective labelling endpoint, verifying
+    # the key provided has not expired (and thus substantial evolution in the
+    # labelling endpoint has not occured for significant impact to the results).
+    # Depending on the key's varied severity level, a response will be returned
+    # with varied fields populated.
+    # @param [URI] uri (see RequestClient#send_uri)
+    # @param [BenchmarkKey] key The benchmark key required to make a request
+    #   to the service using this client. This key is verified against this
+    #   client's most recent benchmark, thereby ensuring no evolution has occured
+    #   in the back-end service.
+    # @return [Hash] A hash with the following keys: +:response+, the raw
+    #   #Response object returned from the #RequestClient.send_uri method (i.e.,
+    #   a non-benchmarked response) or +nil+ if the #key has expired or invalid
+    #   and the key's severity level is #BenchmarkSeverity::EXCEPTION;
+    #   +:labels:, a shortcut to the #Response.label method of the response or
+    #   +nil+ if the key has expired or was invalid and the key's severity level
+    #   is #BenchmarkSeverity::EXCEPTION; +:error+: an error response indicating
+    #   if the key has expired (a string value) which is only populated if the
+    #   #key has a severity level of #BenchmarkSeverity::EXCEPTION or
+    #   #BenchmarkSeverity::WARNING.
     def send_uri_with_key(uri, key)
       raise ArgumentError, 'URI must be a string.' unless uri.is_a?(String)
-      raise ArgumentError, 'Key must be a BenchmarkKey type.' unless key.is_a?(BenchmarkKey)
+      raise ArgumentError, 'Key must be a BenchmarkKey.' unless key.is_a?(BenchmarkKey)
 
-      valid_key = @current_key.valid_against?(key)
-      # Handle invalid key according to severity level...
-      # send the request accodingly...
+      result = {
+        labels: nil,
+        response: nil,
+        error: nil
+      }
+
+      # Key is valid? All good, just send the request out...
+      if @current_key.valid_against?(key)
+        response = send_uri_no_key(uri)
+        result[:labels] = response.labels
+        result[:response] = response
+        return result
+      end
+
+      # Otherwise, do certain things based on the severity of the key...
+      sev = @current_key.severity
+
+      # Exception or warning will populate the error field...
+      if [BenchmarkSeverity::EXCEPTION, BenchmarkSeverity::WARNING].include?(sev)
+        result = { error: 'This key has expired or is no longer valid.' }
+      end
+
+      # Warning, info and none will populate the labels/response fields...
+      if [BenchmarkSeverity::WARNING, BenchmarkSeverity::INFO, BenchmarkSeverity::NONE].include?(sev)
+        response = send_uri_no_key(uri)
+        result[:labels] = response.labels
+        result[:response] = response
+      end
+
+      # Info will log it to the ICVSB log file...
+      if sev == BenchmarkSeverity::INFO
+        ICVSB.log.info("Benchmarked request made for #{uri} with expired or invalid key " \
+          "(id=#{@current_key.id})")
+      end
+
+      # Return the result with respective fields populated
+      result
     end
 
     private
 
+    # Benchmarks this client against a set of URIs, returning this client's
+    # configurated key configuration.
+    # @param [Array<String>] uris An array of strings indicating URIs to
+    #   benchmark the client against.
+    # @return [BenchmarkKey] A key representing the result of this benchmark.
     def _benchmark_dataset(uris)
+      raise ArgumentError, 'URIs must be an array of strings.' unless uri.is_a?(Array)
+      ICVSB.log.info("Benchmarking dataset for BenchmarkedRequestClient #{self} "\
+        "against dataset of #{uris.count} URIs.")
       br = send_uris_no_key(uris)
       BenchmarkKey.create(
         service_id: @service.id,
