@@ -155,7 +155,7 @@ module ICVSB
     many_to_one :batch
     one_to_one :response
 
-    # See Response#success.
+    # @see Response#success.
     def success?
       response.success?
     end
@@ -268,7 +268,7 @@ module ICVSB
     many_to_one :benchmark_severity
     many_to_one :batch_request
 
-    # See BatchRequest#success?
+    # @see BatchRequest#success?
     def success?
       batch_request.success?
     end
