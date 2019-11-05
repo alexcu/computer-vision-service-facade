@@ -43,7 +43,6 @@ module ICVSB
   def self.log
     @log
   end
-  private_class_method :log
 
   #################################
   # Database schema creation seed #
@@ -54,11 +53,11 @@ module ICVSB
   # Create Services and Severity enums...
   dbc.create_table?(:services) do
     primary_key :id
-    column :name, 'char(32)', null: false, unique: true
+    column :name, String, null: false, unique: true
   end
   dbc.create_table?(:benchmark_severities) do
     primary_key :id
-    column :name, 'char(32)', null: false, unique: true
+    column :name, String, null: false, unique: true
   end
   if dbc[:services].first.nil?
     VALID_SERVICES.each { |s| dbc[:services].insert(name: s.to_s) }
@@ -67,15 +66,15 @@ module ICVSB
   # Create Objects...
   dbc.create_table?(:batch_requests) do
     primary_key :id
-    column :created_at, 'timestamp', null: false
+    column :created_at, DateTime, null: false
   end
   dbc.create_table?(:requests) do
     primary_key :id
     foreign_key :service_id,        :services,       null: false
     foreign_key :batch_request_id,  :batch_requests, null: true
 
-    column :created_at, 'timestamp', null: false
-    column :uri, 'string',           null: false
+    column :created_at, DateTime, null: false
+    column :uri,        String,   null: false
 
     index %i[service_id batch_request_id]
   end
@@ -83,9 +82,9 @@ module ICVSB
     primary_key :id
     foreign_key :request_id, :requests, null: false
 
-    column :created_at, 'timestamp', null: false
-    column :body,       'blob',      null: false
-    column :success,    'boolean',   null: false
+    column :created_at, DateTime,  null: false
+    column :body,       File,      null: false
+    column :success,    TrueClass, null: false
 
     index :request_id
   end
@@ -95,12 +94,12 @@ module ICVSB
     foreign_key :batch_request_id,      :batch_requests,       null: false
     foreign_key :benchmark_severity_id, :benchmark_severities, null: false
 
-    column :created_at,       'timestamp',  null: false
-    column :expired,          'boolean',    null: false
-    column :delta_labels,     'integer',    null: false
-    column :delta_confidence, 'numeric',    null: false
-    column :max_labels,       'integer',    null: false
-    column :min_confidence,   'numeric',    null: false
+    column :created_at,       DateTime,  null: false
+    column :expired,          TrueClass, null: false
+    column :delta_labels,     Integer,   null: false
+    column :delta_confidence, Float,     null: false
+    column :max_labels,       Integer,   null: false
+    column :min_confidence,   Float,     null: false
 
     index %i[service_id batch_request_id]
   end
@@ -462,7 +461,6 @@ module ICVSB
     # Sends a batch request with multiple images to client's respective service
     # endpoint. Does *not* validate a response against a key (see
     # ICVSB::BenchmarkedRequestClient).
-    # Params:
     # @param [Array<String>] uris An array of URIs to an image to detect labels.
     # @return [BatchRequest] The batch request that was created.
     def send_uris(uris)
@@ -475,6 +473,32 @@ module ICVSB
       end
       ICVSB.log.info("Batch is complete (id=#{batch_request.id})")
       batch_request
+    end
+
+    # Performs the same operation as send_uris but performs sends each URI
+    # asynchronously. Saves a lot of time if you have lots of URIs. This method
+    # should not be used with an SQLite database.
+    # @see #send_uris
+    # @param [Array<String>] uri See #send_uris
+    # @return [Array<BatchRequest, Array<Thread>] Returns both the array and an
+    #   array of threads representing each request. Call +threads.join(&:each)+
+    #   to ensure all requests have finished.
+    def send_uris_async(uris)
+      raise ArgumentError, 'URIs must be an array of strings.' unless uris.is_a?(Array)
+      if ICVSB::Request.superclass.db.url.start_with?('sqlite')
+        raise StandardError, 'You are using SQLite and thus async operations are not supported.'
+      end
+
+      threads = []
+      batch_request = BatchRequest.create(created_at: DateTime.now)
+      ICVSB.log.info("Initiated an async batch request for #{uris.count} URIs")
+      uris.each do |uri|
+        threads << Thread.new do
+          send_uri(uri, batch: batch_request)
+        end
+      end
+      ICVSB.log.info("Async batch is complete (id=#{batch_request.id})")
+      [batch_request, threads]
     end
 
     private
@@ -601,6 +625,7 @@ module ICVSB
   class BenchmarkedRequestClient < RequestClient
     alias send_uri_no_key send_uri
     alias send_uris_no_key send_uris
+    alias send_uris_no_key_async send_uris_async
 
     # Initialises a new instance of the benchmarked requester to label
     # endpoints.
@@ -717,7 +742,9 @@ module ICVSB
       raise ArgumentError, 'URIs must be an array of strings.' unless uri.is_a?(Array)
       ICVSB.log.info("Benchmarking dataset for BenchmarkedRequestClient #{self} "\
         "against dataset of #{uris.count} URIs.")
-      br = send_uris_no_key(@benchmark_uris)
+      br, thr = send_uris_no_key_async(@benchmark_uris)
+      # Wait for all threads to finish...
+      thr.each(&:join)
       BenchmarkKey.create(
         service_id: @service.id,
         benchmark_severity_id: @key_config[:severity],
