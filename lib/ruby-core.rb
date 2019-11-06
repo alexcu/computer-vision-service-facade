@@ -8,13 +8,13 @@ class String
   end
 
   def float?
-    to_f.to_s == self
-  end
-
-  def cronline?
-    Rufus::Scheduler::CronLine.new(self)
+    Float(self)
     true
   rescue ArgumentError
     false
+  end
+
+  def cronline?
+    !Rufus::Scheduler.parse_cron(self, no_error: true).nil?
   end
 end

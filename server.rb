@@ -26,7 +26,7 @@ end
 post '/benchmark' do
   # Extract params
   service = params[:service].to_sym
-  benchmark_uris = params[:benchmark_uris]
+  benchmark_uris = params[:benchmark_uris].lines.map(&:strip)
   max_labels = params[:max_labels]
   min_confidence = params[:min_confidence]
   reevaluate_on = params[:reevaluate_on]
@@ -35,16 +35,17 @@ post '/benchmark' do
   severity = params[:severity].to_sym
 
   # Check param types
-  halt 422, "service must be one of #{ICVSB::VALID_SERVICES.join(', ')}" unless ICVSB::VALID_SERVICES.includes?(service)
+  halt 422, "service must be one of #{ICVSB::VALID_SERVICES.join(', ')}" unless ICVSB::VALID_SERVICES.include?(service)
   halt 422, 'max_labels must an integer' unless max_labels.integer?
   halt 422, 'min_confidence must be a float' unless min_confidence.float?
   halt 422, 'reevaluate_on must be a cron string in * * * * * (see man 5 crontab)' unless reevaluate_on.cronline?
   halt 422, 'delta_labels must be an integer' unless delta_labels.integer?
   halt 422, 'delta_confidence must be a float' unless delta_confidence.float?
-  unless ICVSB::VALID_SEVERITIES.includes?(severity)
+  unless ICVSB::VALID_SEVERITIES.include?(severity)
     halt 422, "severity must be one of #{ICVSB::VALID_SEVERITIES.join(', ')}"
   end
-  benchmark_uris.lines.each do |uri|
+
+  benchmark_uris.each do |uri|
     unless uri =~ URI::DEFAULT_PARSER.make_regexp
       halt 422, "benchmark_uris must be a list of uris separated by a newline character; #{uri} is not a valid URI"
     end
@@ -52,15 +53,17 @@ post '/benchmark' do
 
   # Convert params
   brc = ICVSB::BenchmarkedRequestClient.new(
-    ICVSB::Service[name: service],
-    benchmark_uris.lines,
+    ICVSB::Service[name: service.to_s],
+    benchmark_uris,
     max_labels: max_labels.to_i,
     min_confidence: min_confidence.to_f,
-    reevaluate_on: reevaluate_on,
-    delta_labels: delta_labels.to_i,
-    delta_confidence: delta_confidence.to_f,
-    severity: ICVSB::BenchmarkSeverity[name: severity],
-    autobenchmark: false
+    opts: {
+      reevaluate_on: reevaluate_on,
+      delta_labels: delta_labels.to_i,
+      delta_confidence: delta_confidence.to_f,
+      severity: ICVSB::BenchmarkSeverity[name: severity.to_s],
+      autobenchmark: false
+    }
   )
   # Benchmark on new thread
   Thread.new do
@@ -71,12 +74,7 @@ post '/benchmark' do
     end
   end
 
-  store.transaction do
-    store[brc.object_id] = brc
-    store.commit
-  end
-
-  { id: brc.object_id, is_benchmarking: brc.benchmarking? }
+  { id: brc.object_id, is_benchmarking: true }.to_json
 end
 
 get '/benchmark/:id/status' do

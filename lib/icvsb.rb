@@ -57,7 +57,7 @@ module ICVSB
     @log.add(severity, message)
     # Find object_id within request_clients... when found add this message w/
     # severity to that RC's log too
-    caller.length.times do |n|
+    binding.frame_count.times do |n|
       caller_obj_id = binding.of_caller(n).eval('object_id')
       if @request_clients.keys.include?(caller_obj_id)
         @request_clients[caller_obj_id].log(severity, "[RequestClient=#{caller_obj_id}] #{message}")
@@ -137,7 +137,7 @@ module ICVSB
     foreign_key :request_id, :requests, null: false
 
     column :created_at, DateTime,  null: false
-    column :body,       File,      null: false
+    column :body,       File,      null: true
     column :success,    TrueClass, null: false
 
     index :request_id
@@ -508,7 +508,7 @@ module ICVSB
       )
       response = Response.create(
         created_at: DateTime.now,
-        body: response[:body],
+        body: exception.nil? ? response[:body] : nil,
         success: exception.nil? && response[:success],
         request_id: request.id
       )
@@ -738,9 +738,8 @@ module ICVSB
         delta_confidence: opts[:delta_confidence] || 0.01,
         severity: opts[:severity]                 || BenchmarkSeverity::INFO
       }
-      opts[:autobenchmark] ||= true
       @is_benchmarking = false
-      benchmark if opts[:autobenchmark]
+      benchmark if opts[:autobenchmark] == true || opts[:autobenchmark].nil?
       @scheduler.cron(@key_config[:reevaluate_on]) do |cronjob|
         ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
@@ -823,7 +822,7 @@ module ICVSB
     # key.
     def benchmark
       @is_benchmarking = true
-      new_key = _benchmark(@benchmark_uris)
+      new_key = _benchmark
       if @current_key.nil?
         @current_key = new_key
       elsif !@current_key.valid_against?(new_key)
@@ -841,16 +840,14 @@ module ICVSB
     # configurated key configuration.
     # @return [BenchmarkKey] A key representing the result of this benchmark.
     def _benchmark
-      raise ArgumentError, 'URIs must be an array of strings.' unless uri.is_a?(Array)
-
-      ICVSB.linfo("Benchmarking dataset for BenchmarkedRequestClient #{self} "\
-        "against dataset of #{uris.count} URIs.")
+      ICVSB.linfo("Benchmarking dataset for BenchmarkedRequestClient=#{object_id} "\
+        "against dataset of #{@benchmark_uris.count} URIs.")
       br, thr = send_uris_no_key_async(@benchmark_uris)
       # Wait for all threads to finish...
       thr.each(&:join)
       BenchmarkKey.create(
         service_id: @service.id,
-        benchmark_severity_id: @key_config[:severity],
+        benchmark_severity_id: @key_config[:severity].id,
         batch_request_id: br.id,
         created_at: DateTime.now,
         expired: false,

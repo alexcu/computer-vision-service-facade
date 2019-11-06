@@ -1,51 +1,230 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <h1>Computer Vision Evalution Tool</h1>
-    <form onsubmit="return executeRequest();">
-      <fieldset>
-        <legend>Setup</legend>
-        <label for="input-csv">Input CSV File:</label>
-        <input required type="file" accept=".csv" id="input-csv" name="csv">
-        <br/>
-        <small>
-          This file should be in the format:
-          <code>img_name,img_uri,ground_truth_label</code>
-        </small>
-        <hr/>
-        <label for="input-api">Computer Vision API Provider:</label>
-        <select required id="input-api" name="api">
-          <option value="aws">Amazon Rekognition</option>
-          <option value="googlecloud">Google Cloud Vision</option>
-          <option value="azure">Azure Computer Vision API</option>
-        </select>
-      </fieldset>
-      <fieldset>
-        <legend>Expectations</legend>
-        <label for="input-cost">Cost ($):</label>
-        <input required type="number" min="0" id="input-cost" name="cost">
-        <br/>
-        <small>
-          Dollar cost of the computer vision service making a mistake.
-        </small><br/>
-        <hr/>
-        <label for="input-impact">Impact of Mistake:</label>
-        <select required id="input-impact" name="impact">
-          <option value="low">Low Impact</option>
-          <option value="high">High Impact</option>
-        </select>
-        <br/>
-        <small>
-          Describe if the impact of the mistake is either a high impact
-          mistake of a low impact mistake.
-        </small>
-      </fieldset>
-      <br>
-      <input type="submit" value="Execute"/>
-    </form>
-    <pre id="results"></pre>
-  </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+
+  <title>ICVSB</title>
+</head>
+
+<body class="d-flex flex-column">
+  <div id="page-content">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <h1 class="font-weight-light mt-4 text-white">
+            ICVSB Tool
+          </h1>
+          <p class="lead text-white-50">
+            <u>I</u>ntelligent
+            <u>C</u>omputer
+            <u>V</u>ision
+            <u>S</u>ervices
+            <u>B</u>enchmarking
+            Tool
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div id="new-benchmark-card" class="card">
+            <h6 class="card-header"><u>Step 1</u>: Benchmark</h6>
+            <div id="new-benchmark-card-body" class="card-body">
+              <p class="card-text">Complete the following form to create a new benchmark.</p>
+              <form id="new-benchmark-form">
+                <div class="form-group">
+                  <label for="benchmark-uris">
+                    <strong>&#9312;</strong>
+                    Select a list of image URIs to benchmark against:
+                  </label>
+                  <textarea required class="form-control" id="benchmark-uris"
+                    name="benchmark_uris" rows="3""></textarea>
+                  <small class="form-text text-muted">
+                    Enter each URI <strong>on a new line</strong>.
+                  </small>
+                </div><!--/#benchmark-uris-->
+                <hr>
+                <div class="form-group">
+                  <label for="service">
+                    <strong>&#9313;</strong>
+                    Select a Computer Vision API provider:
+                  </label>
+                  <select required class="form-control" id="service" name="service">
+                    <option value="amazon_rekognition">Amazon Rekognition</option>
+                    <option value="google_cloud_vision">Google Cloud Vision</option>
+                    <option value="azure_computer_vision">Azure Computer Vision API</option>
+                  </select>
+                </div><!--/#service-->
+                <hr>
+                <div id="advanced-params" class="form-group">
+                  <label>
+                    <strong>&#9314;</strong>
+                    Select additional advanced parameters:
+                  </label>
+                  <div class="row">
+                    <div class="col">
+                      <label for="max-labels" class="small font-italic">Maximum Labels:</label>
+                      <input id="max-labels" name="max_labesls" type="number" min="1" max="1000"
+                        class="form-control" value="100" required>
+                      <small class="form-text text-muted">
+                        This caps the number of labels the service will return in all requests,
+                        where supported.
+                      </small>
+                    </div><!--.col#max-labels-->
+                    <div class="col">
+                      <label for="min-confidence" class="small font-italic">Minimum Confidence:</label>
+                      <input id="min-confidence" name="min_confidence" type="number" step="0.001"
+                        min="0" max="1" class="form-control" value="0.50" required>
+                      <small class="form-text text-muted">
+                        All results with confidence values below this value will not be included in responses,
+                        where supported.
+                      </small>
+                    </div><!--/.col#min-confidence-->
+                  </div><!--/.row-->
+                  <br>
+                  <div class="row">
+                    <div class="col">
+                      <label for="delta-labels" class="small font-italic">Delta Labels:</label>
+                      <input id="delta-labels" name="delta_labels" type="number" min="1"
+                        max="1000" class="form-control" value="5" required>
+                      <small class="form-text text-muted">
+                        The number of labels that have to change for a benchmark key to expire.
+                      </small>
+                    </div>
+                    <!--.col#delta-labels-->
+                    <div class="col">
+                      <label for="delta-confidence" class="small font-italic">Delta Confidence:</label>
+                      <input id="delta-confidence" name="delta_confidence" type="number" step="0.001" min="0" max="1"
+                        class="form-control" value="0.001" required>
+                      <small class="form-text text-muted">
+                        The amount of shift in any label's confidence value for a benchmark key
+                        to expire.
+                      </small>
+                    </div>
+                    <!--/.col#delta-confidence-->
+                  </div><!--/.row-->
+                  <br>
+                  <div class="row">
+                    <div class="col">
+                      <label for="reevaluate-on" class="small font-italic">Re-Evaluate Cronline:</label>
+                      <input id="reevaluate-on" name="reevaluate_on" class="form-control"
+                        value="0 0 * * 0" required>
+                      <small class="form-text text-muted">
+                        A cronline to indicate when this benchmarker will re-evaluate its current
+                        key and see if evolution has occured in the benchmark dataset.
+                      </small>
+                    </div>
+                    <!--.col#reevaluate-on-->
+                    <div class="col">
+                      <label for="severity" class="small font-italic">Severity:</label>
+                      <select required class="form-control form-small" id="severity" name="severity">
+                        <option value="exception">Exception - Refuse request</option>
+                        <option value="warning">Warning - Populate response error field</option>
+                        <option value="info">Info - Log an info message</option>
+                        <option value="none">None - Do nothing</option>
+                      </select>
+                      <small class="form-text text-muted">
+                        How to handle an expired key when a request is made.
+                      </small>
+                    </div>
+                    <!--/.col#delta-confidence-->
+                  </div><!--/.row-->
+                  <hr>
+                  <div class="row justify-content-center">
+                    <div class="col-4">
+                      <button type="submit" class="btn btn-primary">Create Benchmark</button>
+                    </div>
+                    <div class="col-8">
+                      <div class="card bg-light hide">
+                        <pre id="new-benchmark-form-results" class="card-body">Results will load here</pre>
+                      </div>
+                    </div>
+                  </div><!--/.row-->
+                </div><!--/#advanced-params-->
+              </form><!--/form#new-benchmark-form-->
+            </div><!--/.card-body#new-benchmark-card-body-->
+          </div><!--/.card#new-benchmark-card-->
+          <br>
+          <div id="check-benchmark-card" class="card">
+            <h6 class="card-header">
+              <u>Step 2</u>: Get Status/Log of Benchmark
+            </h6>
+            <div class="card-body" id="#check-benchmark-card-body">
+              <form id="check-benchmark-form">
+                <div class="row">
+                  <div class="col">
+                    <div class="input-group">
+                      <input type="text" id="benchmark-id" name="id" class="form-control form-control-sm" placeholder="benchmark id#">
+                      <div class="input-group-append">
+                        <button type="submit" class="btn btn-primary btn-sm">Check</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!--/.row-->
+              </form><!--/form#check-benchmark-form-->
+              <hr>
+              <div class="card bg-light">
+                <pre id="check-benchmark-status-results" class="card-body">Status will load here</pre>
+              </div>
+              <br>
+              <div class="card text-white bg-dark">
+                <pre id="check-benchmark-log-results" class="card-body text-white">Log will load here</pre>
+              </div>
+            </div><!--/.card#check-benchmark-card-body-->
+          </div><!--/.card#check-benchmark-card-->
+          <br>
+          <div id="submit-request-card" class="card">
+            <h6 class="card-header">
+              <u>Step 3</u>: Submit Request with Benchmark Key
+            </h6>
+            <img id="submit-request-image" class="card-img-top" src="https://via.placeholder.com/600x200">
+            <div id="submit-request-card-body" class="card-body">
+              <form id="submit-request-form">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="form-group">
+                      <input type="text" name="id" class="form-control form-control-sm"
+                        placeholder="http://example.com/dog.jpg">
+                    </div>
+                  </div><!--/.col-->
+                  <div class="col-md-3">
+                    <input type="text" name="id" class="form-control form-control-sm" placeholder="Benchmark #">
+                  </div><!--/.col-->
+                  <div class="col-md-2">
+                    <input type="text" name="id" class="form-control form-control-sm"
+                      placeholder="Key #">
+                  </div><!--/.col-->
+                  <div class="col-md-1">
+                    <button type="submit" class="btn btn-primary btn-sm">&#x23CE;Submit</button>
+                  </div><!--/.col-->
+                </div><!--/.row-->
+              </form><!--/form#submit-request-form-->
+              <hr>
+              <div class="card bg-light">
+                <pre id="submit-request-results" class="card-body">Results will load here</pre>
+              </div>
+            </div><!--/.card-body#submit-request-card-body-->
+          </div><!--/.card#submit-request-card-->
+        </div><!--/.col-md-8-->
+      </div><!--/.row-->
+    </div><!--/.container-->
+  </div><!--/#page-content-->
+  <footer id="footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; Your Website</small>
+    </div>
+  </footer><!--/#footer-->
+</body>
+
 </html>
