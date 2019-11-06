@@ -16,7 +16,10 @@ GEM
       aws-sigv4 (~> 1.1)
     aws-sigv4 (1.1.0)
       aws-eventstream (~> 1.0, >= 1.0.2)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
     concurrent-ruby (1.1.5)
+    debug_inspector (0.0.3)
     dotenv (2.7.5)
     down (5.0.0)
       addressable (~> 2.5)
@@ -107,6 +110,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print (= 1.8.0)
   aws-sdk-rekognition (= 1.30.0)
+  binding_of_caller (= 0.8.0)
   dotenv (= 2.7.5)
   down (= 5.0.0)
   google-cloud-vision (= 0.36.0)

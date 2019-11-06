@@ -6,6 +6,8 @@
 
 require 'sequel'
 require 'logger'
+require 'stringio'
+require 'binding_of_caller'
 require 'dotenv/load'
 require 'google/cloud/vision'
 require 'aws-sdk-rekognition'
@@ -38,10 +40,62 @@ module ICVSB
   # errors entirely.
   VALID_SEVERITIES = %i[exception warning info none].freeze
 
-  @log = Logger.new(ENV['ICVSB_LOGGER_FILE'] || STDOUT)
-  # Exposes access to the ICVSB logger
-  def self.log
-    @log
+  # Logs a messaage to the global ICVSB logger. If called from within the
+  # stack trace of a RequestClient, it will also add the message provided
+  # the RequestClient's log associated with the RequestClient's object id.
+  # @param [Logger::Severity] severity The type of severity to log.
+  # @param [String] message The message to log.
+  def self.lmessage(severity, message)
+    unless [Logger::DEBUG, Logger::INFO, Logger::WARN, Logger::ERROR, Logger::FATAL, Logger::UNKNOWN].include?(severity)
+      raise ArgumentError, 'Severity must be a Logger::Severity type'
+    end
+    raise ArgumentError, 'Message must be a string' unless message.is_a?(String)
+
+    @log ||= Logger.new(ENV['ICVSB_LOGGER_FILE'] || STDOUT)
+
+    # Add message to global ICVSB logger
+    @log.add(severity, message)
+    # Find object_id within request_clients... when found add this message w/
+    # severity to that RC's log too
+    caller.length.times do |n|
+      caller_obj_id = binding.of_caller(n).eval('object_id')
+      if @request_clients.keys.include?(caller_obj_id)
+        @request_clients[caller_obj_id].log(severity, "[RequestClient=#{caller_obj_id}] #{message}")
+      end
+    end
+  end
+
+  # Logs an error to the global ICVSB logger.
+  # @param [String] message The message to log.
+  def self.lerror(message)
+    lmessage(Logger::ERROR, message)
+  end
+
+  # Logs a warning to the global ICVSB logger.
+  # @param [String] message The message to log.
+  def self.lwarn(message)
+    lmessage(Logger::WARN, message)
+  end
+
+  # Logs an info message to the global ICVSB logger.
+  # @param [String] message The message to log.
+  def self.linfo(message)
+    lmessage(Logger::INFO, message)
+  end
+
+  # Logs a debug message to the global ICVSB logger.
+  # @param [String] message The message to log.
+  def self.ldebug(message)
+    lmessage(Logger::DEBUG, message)
+  end
+
+  # Register's a request client to the ICVSB's register of request clients.
+  # @param [RequestClient] request_client The request client to register.
+  def self.register_request_client(request_client)
+    raise ArgumentError, 'request_client must be a RequestClient' unless request_client.is_a?(RequestClient)
+
+    @request_clients ||= {}
+    @request_clients[request_client.object_id] = request_client
   end
 
   #################################
@@ -127,19 +181,19 @@ module ICVSB
   class BenchmarkSeverity < Sequel::Model(dbc[:benchmark_severities])
     # Exception severities will prevent responses from being accessed. This
     # disallows access to the Response object encoded within a
-    # BenchmarkRequestClient#send_uri_with_key or
-    # BenchmarkRequestClient#send_uris_with_key result.
+    # BenchmarkedRequestClient#send_uri_with_key or
+    # BenchmarkedRequestClient#send_uris_with_key result.
     EXCEPTION = BenchmarkSeverity[name: VALID_SEVERITIES[0].to_s]
 
     # Warning severities will allow the Response from being accessed but will
     # additionally populate the +error+ value encoded within a
-    # BenchmarkRequestClient#send_uri_with_key or
-    # BenchmarkRequestClient#send_uris_with_key result.
+    # BenchmarkedRequestClient#send_uri_with_key or
+    # BenchmarkedRequestClient#send_uris_with_key result.
     WARNING   = BenchmarkSeverity[name: VALID_SEVERITIES[1].to_s]
 
     # Info severities will allow the Response from being accessed encoded within
-    # the result of a BenchmarkRequestClient#send_uri_with_key or
-    # BenchmarkRequestClient#send_uris_with_key call, however, information
+    # the result of a BenchmarkedRequestClient#send_uri_with_key or
+    # BenchmarkedRequestClient#send_uris_with_key call, however, information
     # pertaining to issues with the request will be logged to the ICVSB log
     # file.
     INFO      = BenchmarkSeverity[name: VALID_SEVERITIES[2].to_s]
@@ -262,7 +316,7 @@ module ICVSB
   # The Benchmark Key encodes all information pertaining to the evolution of a
   # specific service and is used to validate if a benchmark dataset has evolved
   # with time. This key must be used in conjunction with the
-  # BenchmarkRequestClient to ensure that responses made are still reasonable to
+  # BenchmarkedRequestClient to ensure that responses made are still reasonable to
   # use or if the service should be re-benchmarked against a new dataset.
   class BenchmarkKey < Sequel::Model(dbc)
     many_to_one :service
@@ -296,45 +350,44 @@ module ICVSB
     # @return [Boolean] True if this key is valid against the other key, false
     #   otherwise.
     def valid_against?(key)
-      ICVSB.log.info("Validating key id=#{id} with other key id=#{key.id}")
+      ICVSB.linfo("Validating key id=#{id} with other key id=#{key.id}")
 
       # 1. Ensure same services!
       if key.service != service
-        ICVSB.log.warn("Service mismatch in validation: #{key.service.name} != #{service.name}")
+        ICVSB.lwarn("Service mismatch in validation: #{key.service.name} != #{service.name}")
         return false
       end
-      ICVSB.log.info('Services both match')
+      ICVSB.linfo('Services both match')
 
       # 2. Ensure same benchmark dataset
       symm_diff_uris = Set[*batch_request.uris] ^ Set[*key.batch_request.uris]
       unless symm_diff_uris.empty?
-        ICVSB.log.warn('Benchmark dataset mismatch in key validation: '\
+        ICVSB.lwarn('Benchmark dataset mismatch in key validation: '\
           "Symm difference contains #{symm_diff_uris.count} different URIs")
         return false
       end
-      ICVSB.log.info('Same benchmark dataset has been used')
+      ICVSB.linfo('Same benchmark dataset has been used')
 
       # 3. Ensure successful request made in BOTH instances
       unless key.success? && success?
-        ICVSB.log.warn('Sucesss mismatch in key validation')
+        ICVSB.lwarn('Sucesss mismatch in key validation')
         return false
       end
-      ICVSB.log.info('Both keys were successful')
+      ICVSB.linfo('Both keys were successful')
 
       # 4. Ensure the same max label and min confs are unchanged
       unless key.min_confidence == min_confidence && key.max_labels == max_labels
-        ICVSB.log.warn('Minimum confidence or max labels mismatch in key validation')
+        ICVSB.lwarn('Minimum confidence or max labels mismatch in key validation')
         return false
       end
-      ICVSB.log.info('Both keys have same min confidence and max labels')
+      ICVSB.linfo('Both keys have same min confidence and max labels')
 
       # 4. Ensure same number of results...
       unless batch_request.responses.length == key.batch_request.responses.length
-        ICVSB.log.warn('Number of responses mismatch in key validation')
+        ICVSB.lwarn('Number of responses mismatch in key validation')
         return false
       end
-      ICVSB.log.info('Both keys have same number of encoded responses')
-
+      ICVSB.linfo('Both keys have same number of encoded responses')
 
       # 4. Validate every response's label count and confidence delta
       our_requests = batch_request.requests
@@ -348,27 +401,27 @@ module ICVSB
 
         symm_diff_labels = our_labels ^ their_labels
 
-        ICVSB.log.debug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against " \
+        ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against " \
           "id=#{their_request.id} {#{their_labels.to_a.join(', ')}} - symm diff "\
           "= {#{symm_diff_labels.to_a.join(', ')}}")
         if symm_diff_labels.length > delta_labels
-          ICVSB.log.warn("Number of labels mismatch in key validation (margin of error=#{delta_labels})")
+          ICVSB.lwarn("Number of labels mismatch in key validation (margin of error=#{delta_labels})")
           return false
         end
-        ICVSB.log.info("Number of labels match both keys (within margin of error #{delta_labels})")
+        ICVSB.linfo("Number of labels match both keys (within margin of error #{delta_labels})")
 
         our_request.response.labels.each do |label, conf|
           our_conf = conf
           their_conf = their_request.response.labels[label]
 
           delta = (our_conf - their_conf).abs
-          ICVSB.log.debug("Request id=#{our_request.id} against id=#{their_request.id} "\
+          ICVSB.ldebug("Request id=#{our_request.id} against id=#{their_request.id} "\
             "for label '#{label}' confidence: #{our_conf}, #{their_conf} (delta=#{delta})")
           if delta > delta_confidence
-            ICVSB.log.warn("Maximum confidence delta breached in key validation (margin of error=#{delta_confidence})")
+            ICVSB.lwarn("Maximum confidence delta breached in key validation (margin of error=#{delta_confidence})")
             return false
           end
-          ICVSB.log.info("Both keys have confidence within margin of error #{delta_confidence}")
+          ICVSB.linfo("Both keys have confidence within margin of error #{delta_confidence}")
         end
       end
 
@@ -394,6 +447,10 @@ module ICVSB
       unless service.is_a?(Service) && [Service::GOOGLE, Service::AMAZON, Service::AZURE].include?(service)
         raise ArgumentError, "Service with name #{service.name} not supported."
       end
+
+      # Registers logging for this client
+      ICVSB.register_request_client(self)
+      @log = Logger.new(StringIO.new)
 
       @service = service
       @service_client =
@@ -424,7 +481,7 @@ module ICVSB
       raise ArgumentError, 'Batch must be a BatchRequest.' if !batch.nil? && !batch.is_a?(BatchRequest)
 
       batch_id = batch.nil? ? nil : batch.id
-      ICVSB.log.info("Sending URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
+      ICVSB.linfo("Sending URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
 
       begin
         request_start = DateTime.now
@@ -437,9 +494,9 @@ module ICVSB
         when Service::AZURE
           response = _request_azure_computer_vision(uri)
         end
-        ICVSB.log.info("Succesful response for URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
+        ICVSB.linfo("Succesful response for URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
       rescue StandardError => e
-        ICVSB.log.warn("Exception caught in send_uri: #{e.class} - #{e.message} - #{e.backtrace.join(' ⏎ ')}")
+        ICVSB.lwarn("Exception caught in send_uri: #{e.class} - #{e.message} - #{e.backtrace.join(' ⏎ ')}")
         exception = e
       end
       request = Request.create(
@@ -454,7 +511,7 @@ module ICVSB
         success: exception.nil? && response[:success],
         request_id: request.id
       )
-      ICVSB.log.info("Request saved (id=#{request.id}) with response (id=#{response.id})")
+      ICVSB.linfo("Request saved (id=#{request.id}) with response (id=#{response.id})")
       response
     end
 
@@ -467,11 +524,11 @@ module ICVSB
       raise ArgumentError, 'URIs must be an array of strings.' unless uris.is_a?(Array)
 
       batch_request = BatchRequest.create(created_at: DateTime.now)
-      ICVSB.log.info("Initiated a batch request for #{uris.count} URIs")
+      ICVSB.linfo("Initiated a batch request for #{uris.count} URIs")
       uris.each do |uri|
         send_uri(uri, batch: batch_request)
       end
-      ICVSB.log.info("Batch is complete (id=#{batch_request.id})")
+      ICVSB.linfo("Batch is complete (id=#{batch_request.id})")
       batch_request
     end
 
@@ -491,14 +548,27 @@ module ICVSB
 
       threads = []
       batch_request = BatchRequest.create(created_at: DateTime.now)
-      ICVSB.log.info("Initiated an async batch request for #{uris.count} URIs")
+      ICVSB.linfo("Initiated an async batch request for #{uris.count} URIs")
       uris.each do |uri|
         threads << Thread.new do
           send_uri(uri, batch: batch_request)
         end
       end
-      ICVSB.log.info("Async batch is complete (id=#{batch_request.id})")
+      ICVSB.linfo("Async batch is complete (id=#{batch_request.id})")
       [batch_request, threads]
+    end
+
+    # Adds a message of a specific severity to this client's logger.
+    # @param [Logger::Severity] severity The type of severity to log.
+    # @param [String] message The message to log.
+    def log(severity, message)
+      unless [Logger::DEBUG, Logger::INFO, Logger::WARN, Logger::ERROR, Logger::FATAL, Logger::UNKNOWN]
+             .include?(severity)
+        raise ArgumentError, 'Severity must be a Logger::Severity type'
+      end
+      raise ArgumentError, 'Message must be a string' unless message.is_a?(String)
+
+      @log.add(severity, message)
     end
 
     private
@@ -600,7 +670,7 @@ module ICVSB
       raise ArgumentError, 'Mimes must be an array of strings.' unless mimes.is_a?(Array)
       raise ArgumentError, "Invalid URI specified: #{uri}." unless uri =~ URI::DEFAULT_PARSER.make_regexp
 
-      ICVSB.log.info("Downloading image at URI: #{uri}")
+      ICVSB.linfo("Downloading image at URI: #{uri}")
       file = Down.download(uri)
       mime = file.content_type
 
@@ -656,13 +726,13 @@ module ICVSB
         delta_confidence: opts[:delta_confidence] || 0.01,
         severity: opts[:severity]                 || BenchmarkSeverity::INFO
       }
-      @current_key = _benchmark_dataset(benchmark_uris)
+      @current_key = _benchmark(benchmark_uris)
       @scheduler.cron(@key_config[:reevaluate_on]) do |cronjob|
-        ICVSB.log.info("Cronjob starting for BenchmarkedRequestClient #{self} - "\
+        ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
-        new_key = _benchmark_dataset(benchmark_uris)
+        new_key = _benchmark(benchmark_uris)
         unless @current_key.valid_against?(new_key)
-          ICVSB.log.warn("BenchmarkedRequestClient #{self} no longer has a valid key! " \
+          ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key! ' \
             "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
           @current_key.expire
           @current_key = new_key
@@ -725,7 +795,7 @@ module ICVSB
 
       # Info will log it to the ICVSB log file...
       if sev == BenchmarkSeverity::INFO
-        ICVSB.log.info("Benchmarked request made for #{uri} with expired or invalid key " \
+        ICVSB.linfo("Benchmarked request made for #{uri} with expired or invalid key " \
           "(id=#{@current_key.id})")
       end
 
@@ -738,9 +808,10 @@ module ICVSB
     # Benchmarks this client against a set of URIs, returning this client's
     # configurated key configuration.
     # @return [BenchmarkKey] A key representing the result of this benchmark.
-    def _benchmark_dataset
+    def _benchmark
       raise ArgumentError, 'URIs must be an array of strings.' unless uri.is_a?(Array)
-      ICVSB.log.info("Benchmarking dataset for BenchmarkedRequestClient #{self} "\
+
+      ICVSB.linfo("Benchmarking dataset for BenchmarkedRequestClient #{self} "\
         "against dataset of #{uris.count} URIs.")
       br, thr = send_uris_no_key_async(@benchmark_uris)
       # Wait for all threads to finish...
@@ -759,20 +830,3 @@ module ICVSB
     end
   end
 end
-
-# reqclient = ICVSB::RequestClient.new(ICVSB::Service::AMAZON)
-
-# benchmark = ICVSB::BenchmarkedRequestClient.new(ICVSB::Service::AZURE, uris)
-
-# Unit test for each response
-
-
-
-#benchmark.send_uri('https://picsum.photos/id/1/800/600', 'Bepis')
-
-# r = ICVSB::RequestClient.new(ICVSB::Service::AMAZON)
-# br, ex = r.send_uris(%w[
-#   https://picsum.photos/id/1/800/600
-#   https://picsum.photos/id/2/800/600
-# ])
-# puts br.success?
