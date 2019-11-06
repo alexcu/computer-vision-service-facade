@@ -450,7 +450,8 @@ module ICVSB
 
       # Registers logging for this client
       ICVSB.register_request_client(self)
-      @log = Logger.new(StringIO.new)
+      @logstrio = StringIO.new
+      @log = Logger.new(@logstrio)
 
       @service = service
       @service_client =
@@ -569,6 +570,12 @@ module ICVSB
       raise ArgumentError, 'Message must be a string' unless message.is_a?(String)
 
       @log.add(severity, message)
+    end
+
+    # Gets the log of this client as a string.
+    # @return [String] The entire log.
+    def read_log
+      @logstrio.string
     end
 
     private
@@ -716,6 +723,11 @@ module ICVSB
     #   #BenchmarkKey to expire. Default is 0.01.
     # @option opts [BenchmarkSeverity] :severity The severity of warning for
     #   the #BenchmarkKey to fail. Default is +BenchmarkSeverity::INFO+.
+    # @option opts [Boolean] :autobenchmark Automatically benchmark the client
+    #   as soon as it it initialised. If +false+, then you will need to call
+    #   the #benchmark method immediately (i.e., on your own thread). Defaults
+    #   to true, so will block the current thread before benchmarking is
+    #   complete.
     def initialize(service, benchmark_uris, max_labels: 100, min_confidence: 0.50, opts: {})
       super(service, max_labels: max_labels, min_confidence: min_confidence)
       @scheduler = Rufus::Scheduler.new
@@ -726,18 +738,20 @@ module ICVSB
         delta_confidence: opts[:delta_confidence] || 0.01,
         severity: opts[:severity]                 || BenchmarkSeverity::INFO
       }
-      @current_key = _benchmark(benchmark_uris)
+      opts[:autobenchmark] ||= true
+      @is_benchmarking = false
+      benchmark if opts[:autobenchmark]
       @scheduler.cron(@key_config[:reevaluate_on]) do |cronjob|
         ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
-        new_key = _benchmark(benchmark_uris)
-        unless @current_key.valid_against?(new_key)
-          ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key! ' \
-            "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
-          @current_key.expire
-          @current_key = new_key
-        end
+        benchmark
       end
+    end
+
+    # Exposes whether or not the client is currently benchmarking.
+    # @return [Boolean] True if the client is benchmarking, false otherwise.
+    def benchmarking?
+      @is_benchmarking
     end
 
     # Sends an image to this client's respective labelling endpoint, verifying
@@ -801,6 +815,24 @@ module ICVSB
 
       # Return the result with respective fields populated
       result
+    end
+
+    # Makes a request to benchmark's the client's current key against the
+    # client's URIs to benchmark against. Expires the existing current key
+    # if a new benchmark key is no longer valid against the old benchmark
+    # key.
+    def benchmark
+      @is_benchmarking = true
+      new_key = _benchmark(@benchmark_uris)
+      if @current_key.nil?
+        @current_key = new_key
+      elsif !@current_key.valid_against?(new_key)
+        ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key! ' \
+          "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
+        @current_key.expire
+        @current_key = new_key
+      end
+      @is_benchmarking = false
     end
 
     private

@@ -1,14 +1,113 @@
 # frozen_string_literal: true
 
 require 'sinatra'
-require 'open3'
-require 'eval'
+require 'uri'
+require 'pstore'
+require 'require_all'
+require_all 'lib'
 
 set :root, File.dirname(__FILE__)
 set :public_folder, File.join(File.dirname(__FILE__), 'static')
 
+store = PStore.new('icvsb.pstore')
+
+def check_id(id)
+  halt 422, 'id must be an integer' unless id.integer?
+  store.transaction do
+    halt 422, "No such benchmark request client exists with id=#{id}" unless store.root?(id)
+  end
+end
+
 get '/' do
   File.read(File.expand_path('index.html', settings.public_folder))
+end
+
+# Creates a new benchmark request client with given parameters
+post '/benchmark' do
+  # Extract params
+  service = params[:service].to_sym
+  benchmark_uris = params[:benchmark_uris]
+  max_labels = params[:max_labels]
+  min_confidence = params[:min_confidence]
+  reevaluate_on = params[:reevaluate_on]
+  delta_labels = params[:delta_labels]
+  delta_confidence = params[:delta_confidence]
+  severity = params[:severity].to_sym
+
+  # Check param types
+  halt 422, "service must be one of #{ICVSB::VALID_SERVICES.join(', ')}" unless ICVSB::VALID_SERVICES.includes?(service)
+  halt 422, 'max_labels must an integer' unless max_labels.integer?
+  halt 422, 'min_confidence must be a float' unless min_confidence.float?
+  halt 422, 'reevaluate_on must be a cron string in * * * * * (see man 5 crontab)' unless reevaluate_on.cronline?
+  halt 422, 'delta_labels must be an integer' unless delta_labels.integer?
+  halt 422, 'delta_confidence must be a float' unless delta_confidence.float?
+  unless ICVSB::VALID_SEVERITIES.includes?(severity)
+    halt 422, "severity must be one of #{ICVSB::VALID_SEVERITIES.join(', ')}"
+  end
+  benchmark_uris.lines.each do |uri|
+    unless uri =~ URI::DEFAULT_PARSER.make_regexp
+      halt 422, "benchmark_uris must be a list of uris separated by a newline character; #{uri} is not a valid URI"
+    end
+  end
+
+  # Convert params
+  brc = ICVSB::BenchmarkedRequestClient.new(
+    ICVSB::Service[name: service],
+    benchmark_uris.lines,
+    max_labels: max_labels.to_i,
+    min_confidence: min_confidence.to_f,
+    reevaluate_on: reevaluate_on,
+    delta_labels: delta_labels.to_i,
+    delta_confidence: delta_confidence.to_f,
+    severity: ICVSB::BenchmarkSeverity[name: severity],
+    autobenchmark: false
+  )
+  # Benchmark on new thread
+  Thread.new do
+    brc.benchmark
+    store.transaction do
+      store[brc.object_id] = brc
+      store.commit
+    end
+  end
+
+  store.transaction do
+    store[brc.object_id] = brc
+    store.commit
+  end
+
+  { id: brc.object_id, is_benchmarking: brc.benchmarking? }
+end
+
+get '/benchmark/:id/status' do
+  id = params[:id]
+
+  check_id(id)
+
+  status = nil
+  store.transaction do
+    status = store[id].is_benchmarking?
+  end
+
+  { id: brc.object_id, is_benchmarking: status }
+end
+
+# Gets the log of the benchmark with the given id
+get '/benchmark/:id/log' do
+  id = params[:id]
+
+  check_id(id)
+
+  status = nil
+  store.transaction do
+    status = store[id].is_benchmarking?
+  end
+
+  brc.read_log
+end
+
+# Makes a request against the given benchmark
+post '/request?benchmark_id=' do
 end
 
 post '/results.json' do
