@@ -61,6 +61,7 @@ module ICVSB
       caller_obj_id = binding.of_caller(n).eval('object_id')
       if @request_clients.keys.include?(caller_obj_id)
         @request_clients[caller_obj_id].log(severity, "[RequestClient=#{caller_obj_id}] #{message}")
+        break
       end
     end
   end
@@ -840,12 +841,12 @@ module ICVSB
     # configurated key configuration.
     # @return [BenchmarkKey] A key representing the result of this benchmark.
     def _benchmark
-      ICVSB.linfo("Benchmarking dataset for BenchmarkedRequestClient=#{object_id} "\
+      ICVSB.linfo("Benchmarking dataset "\
         "against dataset of #{@benchmark_uris.count} URIs.")
       br, thr = send_uris_no_key_async(@benchmark_uris)
       # Wait for all threads to finish...
       thr.each(&:join)
-      BenchmarkKey.create(
+      bk = BenchmarkKey.create(
         service_id: @service.id,
         benchmark_severity_id: @key_config[:severity].id,
         batch_request_id: br.id,
@@ -856,6 +857,8 @@ module ICVSB
         max_labels: @config[:max_labels],
         min_confidence: @config[:min_confidence]
       )
+      ICVSB.linfo("Benchmarking dataset is complete. Key from benchmarking is #{bk.id}.")
+      bk
     end
   end
 end

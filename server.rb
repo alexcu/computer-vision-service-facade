@@ -9,13 +9,14 @@ require_all 'lib'
 set :root, File.dirname(__FILE__)
 set :public_folder, File.join(File.dirname(__FILE__), 'static')
 
-store = PStore.new('icvsb.pstore')
+store = {}#{PStore.new('icvsb.pstore')}
 
-def check_id(id)
+def check_id(id, store)
   halt 422, 'id must be an integer' unless id.integer?
-  store.transaction do
-    halt 422, "No such benchmark request client exists with id=#{id}" unless store.root?(id)
-  end
+  # store.transaction do
+  # puts "THE KEY IS", store.key?(id), store.keys, store.keys.map(&:class), store.keys, id.class
+    halt 422, "No such benchmark request client exists with id=#{id}" unless store.key?(id)
+  # end
 end
 
 get '/' do
@@ -68,40 +69,44 @@ post '/benchmark' do
   # Benchmark on new thread
   Thread.new do
     brc.benchmark
-    store.transaction do
+    # store.transaction do
       store[brc.object_id] = brc
-      store.commit
-    end
+      # store.commit
+    # end
   end
 
+  store[brc.object_id] = brc # store.transaction { store[brc.object_id] = brc && store.commit }
+
+  content_type 'application/json'
   { id: brc.object_id, is_benchmarking: true }.to_json
 end
 
 get '/benchmark/:id/status' do
-  id = params[:id]
+  id = params[:id].to_i
 
-  check_id(id)
+  check_id(id, store)
 
-  status = nil
-  store.transaction do
-    status = store[id].is_benchmarking?
-  end
+  # status = nil
+  # store.transaction do
+    # status =
+  # end
 
-  { id: brc.object_id, is_benchmarking: status }
+  content_type 'application/json'
+  { id: id, is_benchmarking: store[id].benchmarking? }.to_json
 end
 
 # Gets the log of the benchmark with the given id
 get '/benchmark/:id/log' do
-  id = params[:id]
+  id = params[:id].to_i
 
-  check_id(id)
+  check_id(id, store)
 
-  status = nil
-  store.transaction do
-    status = store[id].is_benchmarking?
-  end
-
-  brc.read_log
+  # status = nil
+  # store.transaction do
+    # status = store[id].is_benchmarking?
+  # end
+  content_type 'text/plain'
+  store[id].read_log
 end
 
 # Makes a request against the given benchmark
