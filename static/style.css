@@ -15,6 +15,19 @@ pre#new-benchmark-form-results {
   height: 100%;
 }
 pre#check-benchmark-log-results {
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
   height: 100%;
+}
+
+.card-img-top {
+  background-color: #CCCCCC;
+}
+
+img#submit-request-image-preview {
+  vertical-align: middle;
+  border-style: none;
+  margin: 0 auto;
+  display: -webkit-box;
+  max-height: 15rem;
 }

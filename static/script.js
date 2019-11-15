@@ -2,12 +2,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('benchmark-uris').value = [
     'https://picsum.photos/id/1025/800/600.jpg',
     'https://images.dog.ceo/breeds/pug/n02110958_10842.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pug_portrait.jpg/800px-Pug_portrait.jpg'
+    'https://cdn.shopify.com/s/files/1/2193/4553/products/pug_1400x.jpg'
   ].join('\n');
 
   document.getElementById('new-benchmark-form').onsubmit = submitNewBenchmarkForm;
   document.getElementById('check-benchmark-form').onsubmit = submitCheckBenchmarkForm;
-  document.getElementById('submit-request-form').onsubmit = submitCheckBenchmarkForm;
+  document.getElementById('submit-request-form').onsubmit = submitRequestForm;
+  document.getElementById('submit-request-image-uri').oninput = inputImageUri;
 })
 
 function handleResults(e, resultDiv) {
@@ -19,6 +20,10 @@ function handleResults(e, resultDiv) {
   } else if (e.readyState === 4 && e.status != 200) {
     resultDiv.innerHTML = "[HTTP" + e.status + "]: " + e.responseText;
   }
+}
+
+function invalidId(id) {
+  return isNaN(id) || id.trim().length == 0;
 }
 
 function submitNewBenchmarkForm() {
@@ -52,7 +57,10 @@ function submitNewBenchmarkForm() {
 }
 
 function submitCheckBenchmarkForm() {
-  var id = document.getElementById('benchmark-id').value;
+  var id = document.getElementById('check-benchmark-benchmark-id').value;
+
+  if (invalidId(id)) { return false; }
+
   var statusResults = document.getElementById('check-benchmark-status-results');
   var logResults = document.getElementById('check-benchmark-log-results');
 
@@ -69,8 +77,33 @@ function submitCheckBenchmarkForm() {
   return false;
 }
 
-function submitRequestForm() {
+function inputImageUri() {
+  var imageUri = document.getElementById('submit-request-image-uri').value;
+  var imgEl = document.getElementById('submit-request-image-preview');
 
+  imgEl.src = imageUri;
+}
+
+function submitRequestForm() {
+  var benchmarkId = document.getElementById('submit-request-benchmark-id').value;
+  var keyId = document.getElementById('submit-request-key-id').value;
+  var imageUri = document.getElementById('submit-request-image-uri').value;
+
+  if (invalidId(benchmarkId) || invalidId(keyId) || imageUri.trim().length == 0) { return false; }
+
+  var results = document.getElementById('submit-request-results');
+
+  var formData = new FormData();
+  formData.append('benchmark_id', benchmarkId);
+  formData.append('key_id', keyId);
+  formData.append('image_uri', imageUri);
+
+  var req = new XMLHttpRequest();
+  req.onreadystatechange = function () { handleResults(this, results) };
+  req.open('POST', '/request', true);
+  req.send(formData);
+
+  return false;
 }
 
 

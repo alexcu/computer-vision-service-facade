@@ -234,6 +234,8 @@ module ICVSB
     # @return [Hash] A hash representing the entire Service response object
     #   within a Hash type.
     def hash
+      return nil if body.nil?
+
       JSON.parse(body.lit.downcase.to_s, symbolize_names: true).to_h
     end
 
@@ -263,7 +265,7 @@ module ICVSB
     # Decodes a Google Cloud Vision label endpoint response into a simple hash.
     # @return [Hash] A key-value-pair representing label => confidence.
     def _google_cloud_vision_labels
-      hash[:label_annotations].map do |label|
+      hash[:responses][0][:label_annotations].map do |label|
         [label[:description].downcase, label[:score]]
       end.to_h
     end
@@ -401,6 +403,7 @@ module ICVSB
         their_labels = Set[*their_request.response.labels.keys]
 
         symm_diff_labels = our_labels ^ their_labels
+        puts "****>>>", symm_diff_labels.to_a
 
         ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against " \
           "id=#{their_request.id} {#{their_labels.to_a.join(', ')}} - symm diff "\
@@ -414,6 +417,13 @@ module ICVSB
         our_request.response.labels.each do |label, conf|
           our_conf = conf
           their_conf = their_request.response.labels[label]
+
+          if their_conf.nil?
+            ICVSB.linfo("The label #{label} does not exist in the response id=#{their_request.response.id}. Skipping confidence comparison...")
+            next
+          end
+          #puts our_request.response.labels, their_request.response.labels
+          #puts "#{label}, #{our_conf}, #{their_conf}"
 
           delta = (our_conf - their_conf).abs
           ICVSB.ldebug("Request id=#{our_request.id} against id=#{their_request.id} "\
@@ -498,7 +508,7 @@ module ICVSB
         end
         ICVSB.linfo("Succesful response for URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
       rescue StandardError => e
-        ICVSB.lwarn("Exception caught in send_uri: #{e.class} - #{e.message} - #{e.backtrace.join(' ⏎ ')}")
+        ICVSB.lwarn("Exception caught in send_uri: #{e.class} - #{e.message}")
         exception = e
       end
       request = Request.create(
@@ -507,9 +517,10 @@ module ICVSB
         uri: uri,
         batch_request_id: batch_id
       )
+      puts response
       response = Response.create(
         created_at: DateTime.now,
-        body: exception.nil? ? response[:body] : nil,
+        body: response[:body],
         success: exception.nil? && response[:success],
         request_id: request.id
       )
@@ -556,7 +567,7 @@ module ICVSB
           send_uri(uri, batch: batch_request)
         end
       end
-      ICVSB.linfo("Async batch is complete (id=#{batch_request.id})")
+      ICVSB.linfo("Async batch submitted (id=#{batch_request.id}). Wait for this batch to be complete!")
       [batch_request, threads]
     end
 
@@ -610,10 +621,10 @@ module ICVSB
         ).to_h
       rescue Google::Gax::RetryError => e
         exception = e
-        res = { error: "#{e.class} - #{e.message}" }
       end
+      puts "I am about to retunr..."
       {
-        body: res.to_json,
+        body: exception.nil? ? res.to_json : { service_error: "#{exception.class} - #{exception.message}" },
         success: exception.nil? && res.key?(:responses)
       }
     end
@@ -737,7 +748,9 @@ module ICVSB
         reevaluate_on: opts[:reevaluate_on]       || '0 0 * * 0',
         delta_labels: opts[:delta_labels]         || 5,
         delta_confidence: opts[:delta_confidence] || 0.01,
-        severity: opts[:severity]                 || BenchmarkSeverity::INFO
+        severity: opts[:severity]                 || BenchmarkSeverity::INFO,
+        mandatory_labels: opts[:mandatory_labels] || [],
+        callback_uri: opts[:callback_uri]         || nil
       }
       @is_benchmarking = false
       benchmark if opts[:autobenchmark] == true || opts[:autobenchmark].nil?
@@ -778,6 +791,8 @@ module ICVSB
       raise ArgumentError, 'URI must be a string.' unless uri.is_a?(String)
       raise ArgumentError, 'Key must be a BenchmarkKey.' unless key.is_a?(BenchmarkKey)
 
+      return { error: 'No key yet exists for this client.'} if @current_key.nil?
+
       result = {
         labels: nil,
         response: nil,
@@ -788,12 +803,12 @@ module ICVSB
       if @current_key.valid_against?(key)
         response = send_uri_no_key(uri)
         result[:labels] = response.labels
-        result[:response] = response
+        result[:response] = response.hash
         return result
       end
 
       # Otherwise, do certain things based on the severity of the key...
-      sev = @current_key.severity
+      sev = @current_key.benchmark_severity
 
       # Exception or warning will populate the error field...
       if [BenchmarkSeverity::EXCEPTION, BenchmarkSeverity::WARNING].include?(sev)
@@ -804,7 +819,7 @@ module ICVSB
       if [BenchmarkSeverity::WARNING, BenchmarkSeverity::INFO, BenchmarkSeverity::NONE].include?(sev)
         response = send_uri_no_key(uri)
         result[:labels] = response.labels
-        result[:response] = response
+        result[:response] = response.hash
       end
 
       # Info will log it to the ICVSB log file...
@@ -841,11 +856,12 @@ module ICVSB
     # configurated key configuration.
     # @return [BenchmarkKey] A key representing the result of this benchmark.
     def _benchmark
-      ICVSB.linfo("Benchmarking dataset "\
-        "against dataset of #{@benchmark_uris.count} URIs.")
+      ICVSB.linfo("Benchmarking dataset against dataset of #{@benchmark_uris.count} URIs.")
       br, thr = send_uris_no_key_async(@benchmark_uris)
+      ICVSB.linfo("Benchmarking this dataset using batch request with id=#{br.id}.")
       # Wait for all threads to finish...
       thr.each(&:join)
+      ICVSB.linfo("Batch request with id=#{br.id} is now complete!")
       bk = BenchmarkKey.create(
         service_id: @service.id,
         benchmark_severity_id: @key_config[:severity].id,

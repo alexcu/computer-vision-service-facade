@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js"></script>
 
-  <title>ICVSB</title>
+  <title>ICVSB::Intelligent Computer Vision Service Benchmarking Tool</title>
 </head>
 
 <body class="d-flex flex-column">
@@ -165,8 +165,8 @@
                 <div class="row">
                   <div class="col">
                     <div class="input-group">
-                      <input type="text" id="benchmark-id" name="id"
-                        class="form-control form-control-sm" placeholder="benchmark id#">
+                      <input type="text" id="check-benchmark-benchmark-id" name="id"
+                        class="form-control form-control-sm" placeholder="Benchmark ID #">
                       <div class="input-group-append">
                         <button type="submit" class="btn btn-primary btn-sm">Check</button>
                       </div>
@@ -189,22 +189,27 @@
             <h6 class="card-header">
               <u>Step 3</u>: Submit Request with Benchmark Key
             </h6>
-            <img id="submit-request-image" class="card-img-top" src="https://via.placeholder.com/600x200">
+            <div class="card-img-top">
+              <img id="submit-request-image-preview"
+                src="https://via.placeholder.com/600x200"
+                onerror="this.src='https://via.placeholder.com/600x200';">
+            </div>
             <div id="submit-request-card-body" class="card-body">
               <form id="submit-request-form">
                 <div class="row">
                   <div class="col-md-5">
                     <div class="form-group">
-                      <input type="text" name="id" class="form-control form-control-sm"
+                      <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
                         placeholder="http://example.com/dog.jpg">
                     </div>
                   </div><!--/.col-->
                   <div class="col-md-3">
-                    <input type="text" name="id" class="form-control form-control-sm" placeholder="Benchmark #">
+                    <input type="text" id="submit-request-benchmark-id" class="form-control form-control-sm"
+                      placeholder="Benchmark ID #">
                   </div><!--/.col-->
                   <div class="col-md-2">
-                    <input type="text" name="id" class="form-control form-control-sm"
-                      placeholder="Key #">
+                    <input type="text" id="submit-request-key-id" class="form-control form-control-sm"
+                      placeholder="Key ID #">
                   </div><!--/.col-->
                   <div class="col-md-1">
                     <button type="submit" class="btn btn-primary btn-sm">&#x23CE;Submit</button>
@@ -223,7 +228,7 @@
   </div><!--/#page-content-->
   <footer id="footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
-      <small>Copyright &copy; Your Website</small>
+      <small>Copyright &copy; Alex Cummaudo 2019</small>
     </div>
   </footer><!--/#footer-->
 </body>

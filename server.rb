@@ -1,17 +1,18 @@
 # frozen_string_literal: true
 
 require 'sinatra'
-require 'uri'
 require 'pstore'
 require 'require_all'
 require_all 'lib'
 
 set :root, File.dirname(__FILE__)
 set :public_folder, File.join(File.dirname(__FILE__), 'static')
+set :show_exceptions, false
 
 store = {}#{PStore.new('icvsb.pstore')}
 
-def check_id(id, store)
+
+def check_brc_id(id, store)
   halt 422, 'id must be an integer' unless id.integer?
   # store.transaction do
   # puts "THE KEY IS", store.key?(id), store.keys, store.keys.map(&:class), store.keys, id.class
@@ -47,7 +48,7 @@ post '/benchmark' do
   end
 
   benchmark_uris.each do |uri|
-    unless uri =~ URI::DEFAULT_PARSER.make_regexp
+    unless uri.uri?
       halt 422, "benchmark_uris must be a list of uris separated by a newline character; #{uri} is not a valid URI"
     end
   end
@@ -84,7 +85,7 @@ end
 get '/benchmark/:id/status' do
   id = params[:id].to_i
 
-  check_id(id, store)
+  check_brc_id(id, store)
 
   # status = nil
   # store.transaction do
@@ -99,7 +100,7 @@ end
 get '/benchmark/:id/log' do
   id = params[:id].to_i
 
-  check_id(id, store)
+  check_brc_id(id, store)
 
   # status = nil
   # store.transaction do
@@ -110,7 +111,28 @@ get '/benchmark/:id/log' do
 end
 
 # Makes a request against the given benchmark
-post '/request?benchmark_id=' do
+post '/request' do
+  benchmark_id = params[:benchmark_id].to_i
+  key_id = params[:key_id]
+  image_uri = params[:image_uri]
+
+  puts params
+
+  halt 422, 'key_id is not an integer' unless key_id.integer?
+  halt 422, "No such key with id #{key_id} exists!" if ICVSB::BenchmarkKey.where(id: key_id).empty?
+  halt 422, 'image_uri is not a valid URI' unless image_uri.uri?
+  check_brc_id(benchmark_id, store)
+
+  brc = store[benchmark_id]
+  key = ICVSB::BenchmarkKey[id: key_id]
+
+  content_type 'application/json'
+  brc.send_uri_with_key(image_uri, key).to_json
+end
+
+error do |e|
+  content_type 'application/json'
+  halt 500, { error: "Internal server error! #{e.message}." }.to_json
 end
 
 post '/results.json' do
