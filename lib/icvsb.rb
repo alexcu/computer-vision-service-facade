@@ -858,14 +858,16 @@ module ICVSB
     #   request fails making requests for the benchmark to re-evalauate. Must
     #   be a positive, non-zero number for the benchmark to trigger on failure,
     #   else this field is ignored. Default is 0.
-    # @option opts [String] :benchmark_callback_uri The URI to call with results
-    #   of a completed benchmark. Optional.
     # @option opts [BenchmarkSeverity] :severity The severity of warning for
     #   the #BenchmarkKey to fail. Default is +BenchmarkSeverity::INFO+.
+    # @option opts [String] :benchmark_callback_uri The URI to call with results
+    #   of a completed benchmark. Optional. If an invalid URI is specified this
+    #   will default to nil.
     # @option opts [String] :warning_callback_uri Required when the +:severity:+
     #   is +BenchmarkSeverity::WARN+. If left blank, the effect of the benchmark
     #   client is essentially a severity of +BenchmarkSeverity::NONE+, as no
-    #   warning endpoint can be called to notify of issues.
+    #   warning endpoint can be called to notify of issues. If an invalid URI is
+    #   provided, this will default to nil.
     # @option opts [Boolean] :autobenchmark Automatically benchmark the client
     #   as soon as it it initialised. If +false+, then you will need to call
     #   the #benchmark method immediately (i.e., on your own thread). Defaults
@@ -881,7 +883,6 @@ module ICVSB
     #   otherwise. Encoded within the key.
     def initialize(service, dataset, max_labels: 100, min_confidence: 0.50, opts: {})
       super(service, max_labels: max_labels, min_confidence: min_confidence)
-      @scheduler = Rufus::Scheduler.new
       @dataset = dataset
       @super_config = @config
       @key_config = {
@@ -893,14 +894,22 @@ module ICVSB
       @benchmark_config = {
         trigger_on_schedule: opts[:trigger_on_schedule]       || '0 0 * * 0',
         trigger_on_failcount: opts[:trigger_on_failcount]     || 0,
-        benchmark_callback_uri: opts[:benchmark_callback_uri] || nil,
-        warning_callback_uri: opts[:warning_callback_uri]     || nil,
         autobenchmark: opts[:autobenchmark]                   || true
       }
+      # Validate URIs
+      if !opts[:benchmark_callback_uri].nil? &&
+         !opts[:benchmark_callback_uri] =~ URI::DEFAULT_PARSER.make_regexp
+         @benchmark_config[:benchmark_callback_uri] = URI(opts[:benchmark_callback_uri])
+      end
+      if !opts[:warning_callback_uri].nil? &&
+         !opts[:warning_callback_uri] =~ URI::DEFAULT_PARSER.make_regexp
+         @benchmark_config[:warning_callback_uri] = URI(opts[:warning_callback_uri])
+      end
+
       @is_benchmarking = false
       @failure_count = 0
       benchmark if @benchmark_config[:autobenchmark]
-      @scheduler.cron(@benchmark_config[:trigger_on_schedule]) do |cronjob|
+      @scheduler = Rufus::Scheduler.new.cron(@benchmark_config[:trigger_on_schedule]) do |cronjob|
         ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
         benchmark
@@ -912,6 +921,8 @@ module ICVSB
     def benchmarking?
       @is_benchmarking
     end
+
+    attr_accessor :failure_count
 
     # Sends an image to this client's respective labelling endpoint, verifying
     # the key provided has not expired (and thus substantial evolution in the
@@ -1011,25 +1022,30 @@ module ICVSB
 
     # Makes a request to benchmark's the client's current key against the
     # client's URIs to benchmark against. Expires the existing current key
-    # if a new benchmark key is no longer valid against the old benchmark
-    # key.
+    # if a new benchmark key is no longer valid against the old benchmark key.
+    # @returns [void]
     def benchmark
       @is_benchmarking = true
       new_key = _benchmark
+      old_key = @current_key
+      expiry_occured = false
       if @current_key.nil?
         @current_key = new_key
       else
         valid_key, reason = @current_key.valid_against?(new_key)
-        if !valid_key
+        unless valid_key
           ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key!'\
             "Reason='#{reason}'"\
             "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
           @current_key.expire
           @current_key = new_key
+          expiry_occured = true
         end
       end
+      _flag_benchmarking_complete(new_key, old_key, expiry_occured)
       @is_benchmarking = false
     end
+
 
     private
 
@@ -1037,7 +1053,29 @@ module ICVSB
     # @param [Hash] result See #send_uri_with_key
     # @returns [void]
     def _flag_warning(result)
-      # TODO: do it on its own thread
+      return if @benchmark_config[:warning_callback_uri].nil?
+
+      Thread.new do
+        Net::HTTP.post(@benchmark_config[:warning_callback_uri], result.to_json, 'Content-Type': 'application/json')
+      end
+    end
+
+    # Forwards a new key that has been generated due to benchmark trigger and
+    # sends the current or old key (depending on expiry_occured flag.)
+    # @param [BenchmarkKey] new_key The new key that was generated from the
+    #   benchmark that was triggered.
+    # @param [BenchmarkKey] old_or_current_key The current key, if expiry did
+    #   not occur, or the old key if expiry did occur.
+    # @param [Boolean] expiry_occured Indicates if the current_key was expired
+    #   and replaced with the new_key.
+    # @returns [void]
+    def _flag_benchmarking_complete(new_key, old_or_current_key, expiry_occured)
+      return if @benchmark_config[:benchmark_callback_uri].nil?
+
+      data = { new_key: new_key.id, old_key: old_or_current_key.id, expiry_occured: expiry_occured }
+      Thread.new do
+        Net::HTTP.post(@benchmark_config[:benchmark_callback_uri], data.to_json, 'Content-Type': 'application/json')
+      end
     end
 
     # Benchmarks this client against a set of URIs, returning this client's
