@@ -127,6 +127,7 @@ module ICVSB
     primary_key :id
     foreign_key :service_id,        :services,       null: false
     foreign_key :batch_request_id,  :batch_requests, null: true
+    foreign_key :benchmark_key_id,  :benchmark_keys, null: true
 
     column :created_at, DateTime, null: false
     column :uri,        String,   null: false
@@ -326,6 +327,35 @@ module ICVSB
     many_to_one :benchmark_severity
     many_to_one :batch_request
 
+    # Class that encapsulates reasons why a benchmark key can be invalided.
+    class InvalidKeyError
+      module InvalidKeyErrorType
+        NO_KEY_YET = 'No key yet exists. It is likely still benchmarking its results.'
+        SERVICE_MISMATCH = 'Keys use different services'
+        DATASET_MISTMATCH = 'Keys have different benchmark datasets'
+        SUCCESS_MISMATCH = 'One or both keys do not have successful service responses'
+        MIN_CONFIDENCE_MISMATCH = 'Keys have different min confidence values'
+        MAX_LABELS_MISMATCH = 'Keys have different max label values'
+        RESPONSE_LENGTH_MISMATCH = 'Keys have different number of responses'
+        LABEL_DELTA_MISMATCH = 'Number of labels in one key exceeds the label delta threshold'
+        CONFIDENCE_DELTA_MISMATCH = 'Confidence value for a label in one key exceeds the confidence delta threshold'
+        EXPECTED_LABELS_MISMATCH = 'Expected labels missing from response'
+      end
+
+      include InvalidKeyErrorType
+      attr_accessor :reason, :details
+
+      def initialize(errortype, details = '')
+        @errorname = InvalidKeyErrorType.constants.find { |c| InvalidKeyErrorType.const_get(c) == reason }
+        @errorcode = InvalidKeyErrorType.constants.index(errortype)
+        @details = details
+      end
+
+      def to_s
+        "[#{@errorcode}::#{@errorname}] #{@reason}. #{@details}"
+      end
+    end
+
     # @see BatchRequest#success?
     def success?
       batch_request.success?
@@ -347,18 +377,47 @@ module ICVSB
       save
     end
 
+    # Returns the comma-separated mandatory labels list as an set of values
+    # @return [Set<String>] The set of mandatory labels required by this key.
+    def expected_labels_set
+      Set[*expected_labels.split(',').map(&:downcase)]
+    end
+
     # Validates another key against this key to ensure if the two keys are
-    # compatible or if evolution has occured.
-    # @param [BenchmarkKey] key The second key to validate against.
-    # @return [Boolean] True if this key is valid against the other key, false
-    #   otherwise.
-    def valid_against?(key)
+    # compatible or if evolution has occured iff BenchmarkKey is provided to
+    # +key_or_response+. If a Response is provided instead, then validates that
+    # the response is okay against this key's encoded parameters.
+    # @param [BenchmarkKey,Response] key_or_response A key or response to
+    #   validate against.
+    # @return [Array<Boolean,BenchmarkKey::InvalidKeyError>] Returns +true+ if
+    #   this key is valid against the other key OR a tuple with +false+ and
+    #   BenchmarkKey::InvalidKeyError to explain why the key is invalid.
+    def valid_against?(key_or_response)
+      if key_or_response.is_a?(BenchmarkKey)
+        _validate_against_key(key_or_response)
+      elsif key_or_response.is_a?(Response)
+        _validate_against_response(key_or_response)
+      else
+        raise ArgumentError, 'key_or_response must be a BenchmarkKey or Response type'
+      end
+    end
+
+    private
+
+    # Validates a key against this key as per rules encoded within this key.
+    # @param [BenchmarkKey] key The key to validate.
+    # @return See #valid_against?
+    def _validate_against_key(key)
       ICVSB.linfo("Validating key id=#{id} with other key id=#{key.id}")
 
       # 1. Ensure same services!
       if key.service != service
         ICVSB.lwarn("Service mismatch in validation: #{key.service.name} != #{service.name}")
-        return false
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::SERVICE_MISMATCH,
+          "Source key (id=#{id}) service=#{service.name} but "\
+          "validation key (id=#{key.id}) service=#{key.service.name}."
+        )
       end
       ICVSB.linfo('Services both match')
 
@@ -367,32 +426,63 @@ module ICVSB
       unless symm_diff_uris.empty?
         ICVSB.lwarn('Benchmark dataset mismatch in key validation: '\
           "Symm difference contains #{symm_diff_uris.count} different URIs")
-        return false
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::DATASET_MISTMATCH,
+          "Source key (id=#{id}) and valiation key (id=#{key.id}) have different benchmark dataset URIS."\
+          "The symmetric difference is: #{symm_diff_uris.to_a}."
+        )
       end
       ICVSB.linfo('Same benchmark dataset has been used')
 
       # 3. Ensure successful request made in BOTH instances
-      unless key.success? && success?
+      our_key_success = success?
+      their_key_success = key.success?
+      unless our_key_success && their_key_success
         ICVSB.lwarn('Sucesss mismatch in key validation')
-        return false
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::SUCCESS_MISMATCH,
+          "Source key (id=#{id}) success=#{our_key_success} but "\
+          "validation key (id=#{key.id}) success=#{their_key_success}."
+        )
       end
       ICVSB.linfo('Both keys were successful')
 
-      # 4. Ensure the same max label and min confs are unchanged
-      unless key.min_confidence == min_confidence && key.max_labels == max_labels
-        ICVSB.lwarn('Minimum confidence or max labels mismatch in key validation')
-        return false
+      # 4. Ensure the same max labels
+      unless key.max_labels == max_labels
+        ICVSB.lwarn('Max labels mismatch in key validation')
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::MAX_LABELS_MISMATCH,
+          "Source key (id=#{id}) max_labels=#{max_labels} but "\
+          "validation key (id=#{key.id}) max_labels=#{key.service.name}."
+        )
       end
-      ICVSB.linfo('Both keys have same min confidence and max labels')
+      ICVSB.linfo('Both keys have same max labels')
 
-      # 4. Ensure same number of results...
-      unless batch_request.responses.length == key.batch_request.responses.length
+      # 5. Ensure the same min confs
+      unless key.min_confidence == min_confidence
+        ICVSB.lwarn('Minimum confidence or max labels mismatch in key validation')
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::MIN_CONFIDENCE_MISMATCH,
+          "Source key (id=#{id}) min_confience=#{min_confidence} but "\
+          "validation key (id=#{key.id}) min_confidence=#{key.min_confidence}."
+        )
+      end
+      ICVSB.linfo('Both keys have same min confidence')
+
+      # 6. Ensure same number of results... (responses... not labels!)
+      our_response_length = batch_request.responses.length
+      their_response_length = key.batch_request.responses.length
+      unless out_response_length == their_response_length
         ICVSB.lwarn('Number of responses mismatch in key validation')
-        return false
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::RESPONSE_LENGTH_MISMATCH,
+          "Source key (id=#{id}) responses#=#{our_response_length} but "\
+          "validation key (id=#{key.id}) responses#=#{their_response_length}."
+        )
       end
       ICVSB.linfo('Both keys have same number of encoded responses')
 
-      # 4. Validate every response's label count and confidence delta
+      # 7. Validate every label delta and confidence delta
       our_requests = batch_request.requests
       their_requests = key.batch_request.requests
       our_requests.each do |our_request|
@@ -402,41 +492,78 @@ module ICVSB
         our_labels = Set[*our_request.response.labels.keys]
         their_labels = Set[*their_request.response.labels.keys]
 
+        # 7a. Label delta
         symm_diff_labels = our_labels ^ their_labels
-        puts "****>>>", symm_diff_labels.to_a
 
-        ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against " \
+        ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against "\
           "id=#{their_request.id} {#{their_labels.to_a.join(', ')}} - symm diff "\
           "= {#{symm_diff_labels.to_a.join(', ')}}")
         if symm_diff_labels.length > delta_labels
           ICVSB.lwarn("Number of labels mismatch in key validation (margin of error=#{delta_labels})")
-          return false
+          return false, BenchmarkKey::InvalidKeyError.new(
+            BenchmarkKey::InvalidKeyError::LABEL_DELTA_MISMATCH,
+            "Source key (id=#{id}) labels#=#{our_labels.length} but "\
+            "validation key (id=#{key.id}) labels#=#{their_labels.length} "\
+            "which exceeds the delta label value of #{delta_labels}."
+          )
         end
         ICVSB.linfo("Number of labels match both keys (within margin of error #{delta_labels})")
 
+        # 7b. Confidence delta
+        delta_confs_exceeded = []
         our_request.response.labels.each do |label, conf|
           our_conf = conf
           their_conf = their_request.response.labels[label]
 
           if their_conf.nil?
-            ICVSB.linfo("The label #{label} does not exist in the response id=#{their_request.response.id}. Skipping confidence comparison...")
+            ICVSB.linfo("The label #{label} does not exist in the response id=#{their_request.response.id}. "\
+              'Skipping confidence comparison...')
             next
           end
-          #puts our_request.response.labels, their_request.response.labels
-          #puts "#{label}, #{our_conf}, #{their_conf}"
 
           delta = (our_conf - their_conf).abs
           ICVSB.ldebug("Request id=#{our_request.id} against id=#{their_request.id} "\
             "for label '#{label}' confidence: #{our_conf}, #{their_conf} (delta=#{delta})")
           if delta > delta_confidence
             ICVSB.lwarn("Maximum confidence delta breached in key validation (margin of error=#{delta_confidence})")
-            return false
+            delta_confs_exceeded << {
+              label: label,
+              source_key_conf: our_conf,
+              validation_key_conf: their_conf,
+              delta: delta
+            }
           end
-          ICVSB.linfo("Both keys have confidence within margin of error #{delta_confidence}")
         end
+        unless delta_confs_exceeded.empty?
+          return false, BenchmarkKey::InvalidKeyError.new(
+            BenchmarkKey::InvalidKeyError::CONFIDENCE_DELTA_MISMATCH,
+            "Source key (id=#{id}) has exceeded confidence delta of "\
+            "validation key (id=#{key.id}): #{delta_confs_exceeded}."
+          )
+        end
+        ICVSB.linfo("Both keys have confidence within margin of error #{delta_confidence}")
       end
 
-      true
+      # All checks pass...
+      [true, nil]
+    end
+
+    # Validates a response against this key as per rules encoded within this key.
+    # @param [Response] key The response to validate.
+    # @return See #valid_against?
+    def _validate_against_response(response)
+      symm_diff_response_labels = Set[*response.labels.keys] ^ expected_labels_set
+      unless symm_diff_response_labels.empty?
+        return false, BenchmarkKey::InvalidKeyError.new(
+          BenchmarkKey::InvalidKeyError::EXPECTED_LABELS_MISMATCH,
+          "Expected key (id=#{id}) expects the following mandatory labels: '#{mandatory_labels}'."\
+          "However, response (id=#{response.id}) has the following labels: '#{response.labels.keys.join(',')}."\
+          "The following labels are missing: #{symm_diff_response_labels.to_a.join(',')}."
+        )
+      end
+
+      # All checks pass...
+      [true, nil]
     end
   end
 
@@ -517,7 +644,6 @@ module ICVSB
         uri: uri,
         batch_request_id: batch_id
       )
-      puts response
       response = Response.create(
         created_at: DateTime.now,
         body: response[:body],
@@ -622,7 +748,6 @@ module ICVSB
       rescue Google::Gax::RetryError => e
         exception = e
       end
-      puts "I am about to retunr..."
       {
         body: exception.nil? ? res.to_json : { service_error: "#{exception.class} - #{exception.message}" },
         success: exception.nil? && res.key?(:responses)
@@ -674,9 +799,10 @@ module ICVSB
         h.request(http_req)
       end
 
+      tags_present = JSON.parse(http_res.body).key?('tags')
       {
-        body: http_res.body,
-        success: JSON.parse(http_res.body).key?('tags')
+        body: tags_present ? http_res.body : { service_error: http_res.body },
+        success: tags_present
       }
     end
 
@@ -719,42 +845,62 @@ module ICVSB
     # Initialises a new instance of the benchmarked requester to label
     # endpoints.
     # @param [Service] service (see RequestClient#initialize)
-    # @param [Array<String>] benchmark_uris An array of URIs to benchmark
+    # @param [Array<String>] dataset An array of URIs to benchmark
     #   against.
     # @param [Fixnum] max_labels (see RequestClient#initialize)
     # @param [Float] min_confidence (see RequestClient#initialize)
     # @param [Hash] opts Additional benchmark-related parameters.
-    # @option opts [String] :reevaluate_on A cron-tab string (see
+    # @option opts [String] :trigger_on_schedule A cron-tab string (see
     #   +man 5 crontab+) that is used for the benchmarker to re-evaluate if the
     #   current key should be expired. Default is every Sunday at middnight,
     #   i.e., +0 0 * * 0+.
-    # @option opts [Fixnum] :delta_labels Number of labels that change for a
-    #   #BenchmarkKey to expire. Default is 5.
-    # @option opts [Float] :delta_confidences Minimum amount of difference for
-    #   the same label to have changed between the last benchmark for the
-    #   #BenchmarkKey to expire. Default is 0.01.
+    # @option opts [String] :trigger_on_failcount Number of times the benchmark
+    #   request fails making requests for the benchmark to re-evalauate. Must
+    #   be a positive, non-zero number for the benchmark to trigger on failure,
+    #   else this field is ignored. Default is 0.
+    # @option opts [String] :benchmark_callback_uri The URI to call with results
+    #   of a completed benchmark. Optional.
     # @option opts [BenchmarkSeverity] :severity The severity of warning for
     #   the #BenchmarkKey to fail. Default is +BenchmarkSeverity::INFO+.
+    # @option opts [String] :warning_callback_uri Required when the +:severity:+
+    #   is +BenchmarkSeverity::WARN+. If left blank, the effect of the benchmark
+    #   client is essentially a severity of +BenchmarkSeverity::NONE+, as no
+    #   warning endpoint can be called to notify of issues.
     # @option opts [Boolean] :autobenchmark Automatically benchmark the client
     #   as soon as it it initialised. If +false+, then you will need to call
     #   the #benchmark method immediately (i.e., on your own thread). Defaults
     #   to true, so will block the current thread before benchmarking is
     #   complete.
-    def initialize(service, benchmark_uris, max_labels: 100, min_confidence: 0.50, opts: {})
+    # @option opts [Fixnum] :delta_labels Number of labels that change for a
+    #   #BenchmarkKey to expire. Default is 5.
+    # @option opts [Float] :delta_confidences Minimum amount of difference for
+    #   the same label to have changed between the last benchmark for the
+    #   #BenchmarkKey to expire. Default is 0.01.
+    # @option opts [Array<String>] :expected_labels Array of strings for the
+    #   various expected labels that should be expected in every result. Fails
+    #   otherwise. Encoded within the key.
+    def initialize(service, dataset, max_labels: 100, min_confidence: 0.50, opts: {})
       super(service, max_labels: max_labels, min_confidence: min_confidence)
       @scheduler = Rufus::Scheduler.new
-      @benchmark_uris = benchmark_uris
+      @dataset = dataset
+      @super_config = @config
       @key_config = {
-        reevaluate_on: opts[:reevaluate_on]       || '0 0 * * 0',
-        delta_labels: opts[:delta_labels]         || 5,
-        delta_confidence: opts[:delta_confidence] || 0.01,
-        severity: opts[:severity]                 || BenchmarkSeverity::INFO,
-        mandatory_labels: opts[:mandatory_labels] || [],
-        callback_uri: opts[:callback_uri]         || nil
+        delta_labels: opts[:delta_labels]                     || 5,
+        delta_confidence: opts[:delta_confidence]             || 0.01,
+        severity: opts[:severity]                             || BenchmarkSeverity::INFO,
+        expected_labels: opts[:expected_labels]               || []
+      }
+      @benchmark_config = {
+        trigger_on_schedule: opts[:trigger_on_schedule]       || '0 0 * * 0',
+        trigger_on_failcount: opts[:trigger_on_failcount]     || 0,
+        benchmark_callback_uri: opts[:benchmark_callback_uri] || nil,
+        warning_callback_uri: opts[:warning_callback_uri]     || nil,
+        autobenchmark: opts[:autobenchmark]                   || true
       }
       @is_benchmarking = false
-      benchmark if opts[:autobenchmark] == true || opts[:autobenchmark].nil?
-      @scheduler.cron(@key_config[:reevaluate_on]) do |cronjob|
+      @failure_count = 0
+      benchmark if @benchmark_config[:autobenchmark]
+      @scheduler.cron(@benchmark_config[:trigger_on_schedule]) do |cronjob|
         ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
         benchmark
@@ -783,53 +929,84 @@ module ICVSB
     #   and the key's severity level is #BenchmarkSeverity::EXCEPTION;
     #   +:labels:, a shortcut to the #Response.label method of the response or
     #   +nil+ if the key has expired or was invalid and the key's severity level
-    #   is #BenchmarkSeverity::EXCEPTION; +:error+: an error response indicating
-    #   if the key has expired (a string value) which is only populated if the
-    #   #key has a severity level of #BenchmarkSeverity::EXCEPTION or
-    #   #BenchmarkSeverity::WARNING.
+    #   is #BenchmarkSeverity::EXCEPTION; +:key_error+: an error response
+    #   indicating if the key has expired (a string value) which is only
+    #   populated if the key has a severity level of
+    #   #BenchmarkSeverity::EXCEPTION or #BenchmarkSeverity::WARNING;
+    #   +:response_error:+ similar to :key_error: but for the response.
     def send_uri_with_key(uri, key)
       raise ArgumentError, 'URI must be a string.' unless uri.is_a?(String)
       raise ArgumentError, 'Key must be a BenchmarkKey.' unless key.is_a?(BenchmarkKey)
 
-      return { error: 'No key yet exists for this client.'} if @current_key.nil?
+      if @current_key.nil?
+        return { key_error: BenchmarkKey::InvalidKeyError.new(BenchmarkKey::InvalidKeyError::NO_KEY_YET) }
+      end
 
       result = {
         labels: nil,
         response: nil,
-        error: nil
+        key_error: nil,
+        response_error: nil
       }
 
-      # Key is valid? All good, just send the request out...
-      if @current_key.valid_against?(key)
+      # Check for key validity
+      key_valid, key_invalid_reason = @current_key.valid_against?(key)
+      unless key_valid
+        result[:key_error] = key_invalid_reason.to_s
+        @failure_count += 1
+        ICVSB.linfo("Error has occured in key validation. Fail count is now #{@failure_count}.")
+      end
+
+      # If key is valid, raise request and check if response is valid
+      if key_valid
         response = send_uri_no_key(uri)
+        # Update the benchmark key id
+        response.benchmark_key_id = @current_key.id
+        response.save!
+        # Now check to see if it was valid...
+        response_valid, response_invalid_reason = @current_key.valid_against?(response)
         result[:labels] = response.labels
         result[:response] = response.hash
-        return result
+        unless response_valid
+          result[:response_error] = response_invalid_reason.to_s
+          @failure_count += 1
+          ICVSB.linfo("Error has occured in response validation. Fail count is now #{@failure_count}.")
+        end
       end
 
-      # Otherwise, do certain things based on the severity of the key...
-      sev = @current_key.benchmark_severity
-
-      # Exception or warning will populate the error field...
-      if [BenchmarkSeverity::EXCEPTION, BenchmarkSeverity::WARNING].include?(sev)
-        result = { error: 'This key has expired or is no longer valid.' }
+      # If benchmark trigger on num failures is set
+      if @benchmark_config[:trigger_on_failcount].positive? &&
+         @failure_count > @benchmark_config[:trigger_on_failcount]
+        ICVSB.linfo("Benchmark has failed #{@benchmark_config[:trigger_on_failcount]} "\
+          'times... retriggering benchmark...')
+        @failure_count = 0
+        _benchmark
       end
 
-      # Warning, info and none will populate the labels/response fields...
-      if [BenchmarkSeverity::WARNING, BenchmarkSeverity::INFO, BenchmarkSeverity::NONE].include?(sev)
-        response = send_uri_no_key(uri)
-        result[:labels] = response.labels
-        result[:response] = response.hash
+      # Response behaviour is dependent on the severity encoded within the key
+      case @current_key.benchmark_severity
+      when BenchmarkSeverity::EXCEPTION
+        # Only expose errors...
+        { key_error: result[:key_error], response_error: result[:response_error] }
+      when BenchmarkSeverity::WARNING
+        # Flag a warning to the warning endpoint about this result if sev is WARN
+        _flag_warning(result)
+        result
+      when BenchmarkSeverity::INFO
+        # Log to info...
+        unless key_valid
+          ICVSB.lwarn("Benchmarked request made for #{uri} with invalid key "\
+            "(id=#{@current_key.id}) -- #{key_invalid_reason}")
+        end
+        unless response_valid
+          ICVSB.lwarn("Benchmarked request made for #{uri} and response violated current key "\
+            "(id=#{@current_key.id}) -- #{response_invalid_reason}")
+        end
+        result
+      when BenchmarkSeverity::NONE
+        # Passthrough...
+        result
       end
-
-      # Info will log it to the ICVSB log file...
-      if sev == BenchmarkSeverity::INFO
-        ICVSB.linfo("Benchmarked request made for #{uri} with expired or invalid key " \
-          "(id=#{@current_key.id})")
-      end
-
-      # Return the result with respective fields populated
-      result
     end
 
     # Makes a request to benchmark's the client's current key against the
@@ -841,23 +1018,34 @@ module ICVSB
       new_key = _benchmark
       if @current_key.nil?
         @current_key = new_key
-      elsif !@current_key.valid_against?(new_key)
-        ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key! ' \
-          "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
-        @current_key.expire
-        @current_key = new_key
+      else
+        valid_key, reason = @current_key.valid_against?(new_key)
+        if !valid_key
+          ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key!'\
+            "Reason='#{reason}'"\
+            "Expiring old key (id=#{@current_key.id}) with new key (id=#{new_key.id})")
+          @current_key.expire
+          @current_key = new_key
+        end
       end
       @is_benchmarking = false
     end
 
     private
 
+    # Forwards a full result to the benchmarked request client's warning endpoint
+    # @param [Hash] result See #send_uri_with_key
+    # @returns [void]
+    def _flag_warning(result)
+      # TODO: do it on its own thread
+    end
+
     # Benchmarks this client against a set of URIs, returning this client's
     # configurated key configuration.
     # @return [BenchmarkKey] A key representing the result of this benchmark.
     def _benchmark
-      ICVSB.linfo("Benchmarking dataset against dataset of #{@benchmark_uris.count} URIs.")
-      br, thr = send_uris_no_key_async(@benchmark_uris)
+      ICVSB.linfo("Benchmarking dataset against dataset of #{@dataset.count} URIs.")
+      br, thr = send_uris_no_key_async(@dataset)
       ICVSB.linfo("Benchmarking this dataset using batch request with id=#{br.id}.")
       # Wait for all threads to finish...
       thr.each(&:join)
@@ -870,8 +1058,9 @@ module ICVSB
         expired: false,
         delta_labels: @key_config[:delta_labels],
         delta_confidence: @key_config[:delta_confidence],
-        max_labels: @config[:max_labels],
-        min_confidence: @config[:min_confidence]
+        expected_labels: @key_config[:expected_labels].map(&:downcase).join(','),
+        max_labels: @super_config[:max_labels],
+        min_confidence: @super_config[:min_confidence]
       )
       ICVSB.linfo("Benchmarking dataset is complete. Key from benchmarking is #{bk.id}.")
       bk
