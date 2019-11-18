@@ -7,6 +7,21 @@ body {
   background: #FF422E;
 }
 
+label.control-label {
+  font-size: .85em;
+  font-style: italic;
+}
+
+.form-group.required .control-label:after {
+  content: "*";
+  color: #FF422E;
+  font-style: normal;
+}
+
+.card#check-benchmark-log-results-card {
+  height: 15rem;
+}
+
 pre#new-benchmark-form-results {
   height: 100%;
 }

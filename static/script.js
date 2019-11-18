@@ -12,8 +12,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('benchmark-callback-uri').value = window.location.origin + '/callbacks/benchmark';
 
   document.getElementById('severity').onchange = function (e) {
-    document.getElementById('warning-callback-uri').value =
-      e.target.value == 'warning' ? window.location.origin + '/callbacks/warning' : '';
+    var el = document.getElementById('warning-callback-uri')
+    var iswarn = e.target.value == 'warning';
+    el.value = iswarn ? window.location.origin + '/callbacks/warning' : '';
+    el.required = iswarn;
+    document.getElementById('warning-callback-uri-form-group').classList.toggle('required', iswarn);
   }
 });
 

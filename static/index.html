@@ -43,7 +43,7 @@
             <div id="new-benchmark-card-body" class="card-body">
               <p class="card-text">Complete the following form to create a new benchmark.</p>
               <form id="new-benchmark-form">
-                <div class="form-group">
+                <div class="form-group required">
                   <label for="benchmark-dataset">
                     <strong>&#9312;</strong>
                     Enter a dataset of image URIs to benchmark against:
@@ -55,12 +55,12 @@
                   </small>
                 </div><!--/#benchmark-dataset-->
                 <hr>
-                <div class="form-group">
+                <div class="form-group required">
                   <label for="service">
                     <strong>&#9313;</strong>
                     Select a Computer Vision API provider:
                   </label>
-                  <select required class="form-control" id="service"
+                  <select required class="form-control" id="service">
                     <option value="amazon_rekognition">Amazon Rekognition</option>
                     <option value="google_cloud_vision">Google Cloud Vision</option>
                     <option value="azure_computer_vision">Azure Computer Vision API</option>
@@ -73,8 +73,8 @@
                     Select additional advanced parameters:
                   </label>
                   <div class="row">
-                    <div class="col">
-                      <label for="max-labels" class="small font-italic">Maximum Labels:</label>
+                    <div class="col form-group required">
+                      <label for="max-labels" class="control-label">Maximum Labels:</label>
                       <input id="max-labels" type="number" min="1" max="1000"
                         class="form-control" value="100" required>
                       <small class="form-text text-muted">
@@ -82,8 +82,8 @@
                         where supported.
                       </small>
                     </div><!--.col#max-labels-->
-                    <div class="col">
-                      <label for="min-confidence" class="small font-italic">Minimum Confidence:</label>
+                    <div class="col form-group required">
+                      <label for="min-confidence" class="control-label">Minimum Confidence:</label>
                       <input id="min-confidence" type="number" step="0.001"
                         min="0" max="1" class="form-control" value="0.50" required>
                       <small class="form-text text-muted">
@@ -94,8 +94,8 @@
                   </div><!--/.row-->
                   <br>
                   <div class="row">
-                    <div class="col">
-                      <label for="delta-labels" class="small font-italic">Delta Labels:</label>
+                    <div class="col form-group required">
+                      <label for="delta-labels" class="control-label">Delta Labels:</label>
                       <input id="delta-labels" type="number" min="1"
                         max="1000" class="form-control" value="5" required>
                       <small class="form-text text-muted">
@@ -104,8 +104,8 @@
                       </small>
                     </div>
                     <!--.col#delta-labels-->
-                    <div class="col">
-                      <label for="delta-confidence" class="small font-italic">Delta Confidence:</label>
+                    <div class="col form-group required">
+                      <label for="delta-confidence" class="control-label">Delta Confidence:</label>
                       <input id="delta-confidence" type="number" step="0.001" min="0" max="1"
                         class="form-control" value="0.001" required>
                       <small class="form-text text-muted">
@@ -116,8 +116,8 @@
                   </div><!--/.row-->
                   <br>
                   <div class="row">
-                    <div class="col">
-                      <label for="trigger-on-schedule" class="small font-italic">Re-Evaluate Schedule:</label>
+                    <div class="col form-group required">
+                      <label for="trigger-on-schedule" class="control-label">Re-Evaluate Schedule:</label>
                       <input id="trigger-on-schedule" class="form-control"
                         value="0 0 * * 0" required>
                       <small class="form-text text-muted">
@@ -128,9 +128,10 @@
                         every Sunday at middnight</a>).
                       </small>
                     </div><!--.col#trigger-on-schedule-->
-                    <div class="col">
-                      <label for="trigger-on-failcount" class="small font-italic">Re-Evaluate Fail Trigger:</label>
-                      <input id="trigger-on-failcount" class="form-control" type="integer" step="1" min="-1" value="-1" required>
+                    <div class="col form-group required">
+                      <label for="trigger-on-failcount" class="control-label">Re-Evaluate Fail Trigger:</label>
+                      <input id="trigger-on-failcount" class="form-control"
+                        type="integer" step="1" min="-1" value="-1" required>
                       <small class="form-text text-muted">
                         The minimum number of times for a key to be violated
                         before the benchmark is triggered to re-evaluate the current
@@ -141,16 +142,16 @@
                   </div><!--/.row-->
                   <br>
                   <div class="row">
-                    <div class="col">
-                      <label for="expected-labels" class="small font-italic">Expected Labels:</label>
+                    <div class="col form-group">
+                      <label for="expected-labels" class="control-label">Expected Labels:</label>
                       <input id="expected-labels" class="form-control" placeholder="dog,pug">
                       <small class="form-text text-muted">
                         A list of comma-separated labels expected in every response. If one label is missing, the
                         response will be violated according to the response behaviour.
                       </small>
                     </div><!--.col#trigger-on-failcount-->
-                    <div class="col">
-                      <label for="severity" class="small font-italic">Response Behaviour:</label>
+                    <div class="col form-group required">
+                      <label for="severity" class="control-label">Response Behaviour:</label>
                       <select required class="form-control form-small" id="severity">
                         <option value="exception">Exception - Refuse request</option>
                         <option value="warning">Warning - Forward the response to the warning URI endpoint</option>
@@ -182,15 +183,15 @@
                   </div><!--/.row-->
                   <br>
                   <div class="row">
-                    <div class="col">
-                      <label for="benchmark-callback-uri" class="small font-italic">Benchmark Completion Callback:</label>
+                    <div class="col form-group">
+                      <label for="benchmark-callback-uri" class="control-label">Benchmark Completion Callback:</label>
                       <input id="benchmark-callback-uri" class="form-control" placeholder="/callbacks/benchmark">
                       <small class="form-text text-muted">
                         A POST callback URI to indicate the completion of a benchmark.
                       </small>
                     </div><!--.col#benchmark-callback-uri-->
-                    <div class="col">
-                      <label for="warning-callback-uri" class="small font-italic">Warning Callback:</label>
+                    <div class="col form-group" id="warning-callback-uri-form-group">
+                      <label for="warning-callback-uri" class="control-label">Warning Callback:</label>
                       <input id="warning-callback-uri" class="form-control" placeholder="/callbacks/benchmark">
                       <small class="form-text text-muted">
                         A POST callback to indicate an error has occured when response behaviour is set to Warning.
@@ -225,7 +226,8 @@
                 <div class="row">
                   <div class="col">
                     <div class="input-group">
-                      <input type="text" id="check-benchmark-benchmark-id"                         class="form-control form-control-sm" placeholder="Benchmark ID #">
+                      <input type="text" id="check-benchmark-benchmark-id"
+                      class="form-control form-control-sm" placeholder="Benchmark ID #">
                       <div class="input-group-append">
                         <button type="submit" class="btn btn-primary btn-sm">Check</button>
                       </div>
@@ -255,12 +257,26 @@
             </div>
             <div id="submit-request-card-body" class="card-body">
               <form id="submit-request-form">
-                <div class="row">
-                  <div class="col-md-5">
-                    <div class="form-group">
-                      <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
-                        placeholder="http://example.com/dog.jpg">
-                    </div>
+                <div class="col-md-12">
+                  <label for="delta-labels" class="control-label">Request URI:</label>
+                  <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
+                      placeholder="http://example.com/dog.jpg">
+                  <small>
+                    This is a URI to a publically avaliable image that you would like to
+                    make a request against.
+                  </small>
+                </div>
+                <br>
+                <div class="col-md-12">
+                  <label for="delta-labels" class="control-label">If-Match Request Header:<span class="</label>
+                  <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
+                    placeholder="http://example.com/dog.jpg">
+                  <small>
+                    This is a URI to a publically avaliable image that you would like to
+                    make a request against.
+                  </small>
+                </div>
+
                   </div><!--/.col-->
                   <div class="col-md-3">
                     <input type="text" id="submit-request-benchmark-id" class="form-control form-control-sm"
