@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-  document.getElementById('benchmark-uris').value = [
+  document.getElementById('benchmark-dataset').value = [
     'https://picsum.photos/id/1025/800/600.jpg',
     'https://images.dog.ceo/breeds/pug/n02110958_10842.jpg',
     'https://cdn.shopify.com/s/files/1/2193/4553/products/pug_1400x.jpg'
@@ -9,49 +9,76 @@ document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('check-benchmark-form').onsubmit = submitCheckBenchmarkForm;
   document.getElementById('submit-request-form').onsubmit = submitRequestForm;
   document.getElementById('submit-request-image-uri').oninput = inputImageUri;
-})
+  document.getElementById('benchmark-callback-uri').value = window.location.origin + '/callbacks/benchmark';
 
-function handleResults(e, resultDiv) {
-  if (e.readyState != 4) {
-    resultDiv.innerHTML = 'Processing...';
+  document.getElementById('severity').onchange = function (e) {
+    document.getElementById('warning-callback-uri').value =
+      e.target.value == 'warning' ? window.location.origin + '/callbacks/warning' : '';
   }
-  if (e.readyState === 4 && e.status === 200) {
-    resultDiv.innerHTML = e.responseText;
-  } else if (e.readyState === 4 && e.status != 200) {
-    resultDiv.innerHTML = "[HTTP" + e.status + "]: " + e.responseText;
-  }
+});
+
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function handleReadyState(e, data, resultDiv) {
+
 }
 
 function invalidId(id) {
   return isNaN(id) || id.trim().length == 0;
 }
 
+function xhr(method, to, resultDiv, data) {
+  var xhr = new XMLHttpRequest();
+  data = data == undefined ? '' : JSON.stringify(data);
+  url = new URL(to, location)
+  xhr.open(method, to, true);
+  xhr.setRequestHeader('Content-Type', 'application/json;charset=utf-8');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == xhr.DONE) {
+      resultDiv.innerHTML +=
+        (data.length > 0 ? '\r\n\r\n' : '') +
+        '<<<<<<<<<\r\n' +
+        'HTTP/1.1 ' + xhr.status + ' ' + xhr.statusText + '\r\n' +
+        xhr.getAllResponseHeaders() + '\r\n' +
+        escapeHtml(xhr.responseText);
+    }
+  };
+  xhr.send(data);
+  resultDiv.innerHTML =
+    '>>>>>>>>>\r\n' + method + ' ' + to + ' HTTP/1.1\r\n' +
+    'host: ' + url.host + '\r\n' +
+    'user-agent: ' + navigator.userAgent + '\r\n' +
+    'accept: */*\r\n' +
+    'content-type: application/json;charset=utf-8\r\n' +
+    'content-length: ' + data.length +
+    (data.length > 0 ? '\r\n\r\n' + data : '\r\n');
+  return xhr;
+}
+
 function submitNewBenchmarkForm() {
-  var benchmarkUris = document.getElementById('benchmark-uris');
-  var service = document.getElementById('service');
-  var maxLabels = document.getElementById('max-labels');
-  var minConfidence = document.getElementById('min-confidence');
-  var deltaLabels = document.getElementById('delta-labels');
-  var deltaConfidence = document.getElementById('delta-confidence');
-  var reevaluateOn = document.getElementById('reevaluate-on');
-  var severity = document.getElementById('severity');
+  var resultDiv = document.getElementById('new-benchmark-form-results');
 
-  var results = document.getElementById('new-benchmark-form-results');
-
-  var formData = new FormData();
-  formData.append('benchmark_uris', benchmarkUris.value);
-  formData.append('service', service.value);
-  formData.append('max_labels', maxLabels.value);
-  formData.append('min_confidence', minConfidence.value);
-  formData.append('delta_labels', deltaLabels.value);
-  formData.append('delta_confidence', deltaConfidence.value);
-  formData.append('reevaluate_on', reevaluateOn.value);
-  formData.append('severity', severity.value)
-
-  var req = new XMLHttpRequest();
-  req.onreadystatechange = function () { handleResults(this, results) };
-  req.open('POST', '/benchmark', true);
-  req.send(formData);
+  xhr('POST', '/benchmark', resultDiv, {
+    'benchmark_dataset': document.getElementById('benchmark-dataset').value,
+    'service': document.getElementById('service').value,
+    'max_labels': document.getElementById('max-labels').value,
+    'min_confidence': document.getElementById('min-confidence').value,
+    'delta_labels': document.getElementById('delta-labels').value,
+    'delta_confidence': document.getElementById('delta-confidence').value,
+    'trigger_on_schedule': document.getElementById('trigger-on-schedule').value,
+    'trigger_on_failcount': document.getElementById('trigger-on-failcount').value,
+    'expected_labels': document.getElementById('expected-labels').value,
+    'benchmark_callback_uri': document.getElementById('benchmark-callback-uri').value,
+    'warning_callback_uri': document.getElementById('warning-callback-uri').value,
+    'severity': document.getElementById('severity').value
+  })
 
   return false;
 }
@@ -64,16 +91,8 @@ function submitCheckBenchmarkForm() {
   var statusResults = document.getElementById('check-benchmark-status-results');
   var logResults = document.getElementById('check-benchmark-log-results');
 
-  var statusReq = new XMLHttpRequest();
-  statusReq.onreadystatechange = function () { handleResults(this, statusResults); }
-  statusReq.open('GET', '/benchmark/' + id + '/status', true);
-  statusReq.send();
-
-  var logReq = new XMLHttpRequest();
-  logReq.onreadystatechange = function () { handleResults(this, logResults); }
-  logReq.open('GET', '/benchmark/' + id + '/log', true);
-  logReq.send();
-
+  xhr('GET', '/benchmark/' + id, statusResults);
+  xhr('GET', '/benchmark/' + id + '/log', logResults);
   return false;
 }
 

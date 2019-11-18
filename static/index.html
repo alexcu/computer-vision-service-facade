@@ -44,23 +44,23 @@
               <p class="card-text">Complete the following form to create a new benchmark.</p>
               <form id="new-benchmark-form">
                 <div class="form-group">
-                  <label for="benchmark-uris">
+                  <label for="benchmark-dataset">
                     <strong>&#9312;</strong>
-                    Select a list of image URIs to benchmark against:
+                    Enter a dataset of image URIs to benchmark against:
                   </label>
-                  <textarea required class="form-control" id="benchmark-uris"
-                    name="benchmark_uris" rows="3""></textarea>
+                  <textarea required class="form-control" id="benchmark-dataset"
+                    rows="3""></textarea>
                   <small class="form-text text-muted">
                     Enter each URI <strong>on a new line</strong>.
                   </small>
-                </div><!--/#benchmark-uris-->
+                </div><!--/#benchmark-dataset-->
                 <hr>
                 <div class="form-group">
                   <label for="service">
                     <strong>&#9313;</strong>
                     Select a Computer Vision API provider:
                   </label>
-                  <select required class="form-control" id="service" name="service">
+                  <select required class="form-control" id="service"
                     <option value="amazon_rekognition">Amazon Rekognition</option>
                     <option value="google_cloud_vision">Google Cloud Vision</option>
                     <option value="azure_computer_vision">Azure Computer Vision API</option>
@@ -75,7 +75,7 @@
                   <div class="row">
                     <div class="col">
                       <label for="max-labels" class="small font-italic">Maximum Labels:</label>
-                      <input id="max-labels" name="max_labesls" type="number" min="1" max="1000"
+                      <input id="max-labels" type="number" min="1" max="1000"
                         class="form-control" value="100" required>
                       <small class="form-text text-muted">
                         This caps the number of labels the service will return in all requests,
@@ -84,7 +84,7 @@
                     </div><!--.col#max-labels-->
                     <div class="col">
                       <label for="min-confidence" class="small font-italic">Minimum Confidence:</label>
-                      <input id="min-confidence" name="min_confidence" type="number" step="0.001"
+                      <input id="min-confidence" type="number" step="0.001"
                         min="0" max="1" class="form-control" value="0.50" required>
                       <small class="form-text text-muted">
                         All results with confidence values below this value will not be included in responses,
@@ -96,61 +96,121 @@
                   <div class="row">
                     <div class="col">
                       <label for="delta-labels" class="small font-italic">Delta Labels:</label>
-                      <input id="delta-labels" name="delta_labels" type="number" min="1"
+                      <input id="delta-labels" type="number" min="1"
                         max="1000" class="form-control" value="5" required>
                       <small class="form-text text-muted">
-                        The number of labels that have to change for a benchmark key to expire.
+                        The minimum number of labels that have changed (i.e., introduced or dropped)
+                        since the last benchmark was evaluated for the response to be violated.
                       </small>
                     </div>
                     <!--.col#delta-labels-->
                     <div class="col">
                       <label for="delta-confidence" class="small font-italic">Delta Confidence:</label>
-                      <input id="delta-confidence" name="delta_confidence" type="number" step="0.001" min="0" max="1"
+                      <input id="delta-confidence" type="number" step="0.001" min="0" max="1"
                         class="form-control" value="0.001" required>
                       <small class="form-text text-muted">
-                        The amount of shift in any label's confidence value for a benchmark key
-                        to expire.
+                        The minimum amount of shift in any label's confidence value since
+                        the last benchmark was evaliated for for the response to be violated.
                       </small>
-                    </div>
-                    <!--/.col#delta-confidence-->
+                    </div><!--/.col#delta-confidence-->
                   </div><!--/.row-->
                   <br>
                   <div class="row">
                     <div class="col">
-                      <label for="reevaluate-on" class="small font-italic">Re-Evaluate Cronline:</label>
-                      <input id="reevaluate-on" name="reevaluate_on" class="form-control"
+                      <label for="trigger-on-schedule" class="small font-italic">Re-Evaluate Schedule:</label>
+                      <input id="trigger-on-schedule" class="form-control"
                         value="0 0 * * 0" required>
                       <small class="form-text text-muted">
-                        A cronline to indicate when this benchmarker will re-evaluate its current
-                        key and see if evolution has occured in the benchmark dataset.
+                        A string in the sense of a crontab (see <code>man 5 crontab</code>) file line.
+                        This indicates when the benchmarker's schedule will automatically trigger to
+                        re-evaluate the current service's state against the benchmark dataset. The default
+                        is <code>0 0 * * 0</code> (i.e. <a href="https://crontab.guru/#0_0_*_*_0">
+                        every Sunday at middnight</a>).
                       </small>
-                    </div>
-                    <!--.col#reevaluate-on-->
+                    </div><!--.col#trigger-on-schedule-->
                     <div class="col">
-                      <label for="severity" class="small font-italic">Severity:</label>
-                      <select required class="form-control form-small" id="severity" name="severity">
+                      <label for="trigger-on-failcount" class="small font-italic">Re-Evaluate Fail Trigger:</label>
+                      <input id="trigger-on-failcount" class="form-control" type="integer" step="1" min="-1" value="-1" required>
+                      <small class="form-text text-muted">
+                        The minimum number of times for a key to be violated
+                        before the benchmark is triggered to re-evaluate the current
+                        service's state against the benchmark dataset. To disable this, set as <code>-1</code>.
+                        To re-evaluate immediately on a key violation, set as <code>0</code>.
+                      </small>
+                    </div><!--.col#trigger-on-failcount-->
+                  </div><!--/.row-->
+                  <br>
+                  <div class="row">
+                    <div class="col">
+                      <label for="expected-labels" class="small font-italic">Expected Labels:</label>
+                      <input id="expected-labels" class="form-control" placeholder="dog,pug">
+                      <small class="form-text text-muted">
+                        A list of comma-separated labels expected in every response. If one label is missing, the
+                        response will be violated according to the response behaviour.
+                      </small>
+                    </div><!--.col#trigger-on-failcount-->
+                    <div class="col">
+                      <label for="severity" class="small font-italic">Response Behaviour:</label>
+                      <select required class="form-control form-small" id="severity">
                         <option value="exception">Exception - Refuse request</option>
-                        <option value="warning">Warning - Populate response error field</option>
-                        <option value="info">Info - Log an info message</option>
+                        <option value="warning">Warning - Forward the response to the warning URI endpoint</option>
+                        <option value="info">Info - Log an internal info message</option>
                         <option value="none">None - Do nothing</option>
                       </select>
                       <small class="form-text text-muted">
-                        How to handle an expired key when a request is made.
+                        How the response behaviour will change if a response is violated.
+                        <ul>
+                          <li>
+                            <i>Exception = </i> A non-200 HTTP code will be returned if the reponse is invalid
+                            detailing why this response is invalid.
+                          </li>
+                          <li>
+                            <i>Warning = </i> The response object will be returned back but the warning callback
+                            endpoint (below) will be called detailing why this response is invalid violation if
+                            the response is invalid.
+                          </li>
+                          <li>
+                            <i>Info = </i> The response object will be returned back but the details why the response
+                            is invalid is detailed in the log file if the response is invalid.
+                          </li>
+                          <li>
+                            <i>None = </i> If the response is invalid, no noticable behaviour will be obsevred.
+                          </li>
+                        </ul>
                       </small>
-                    </div>
-                    <!--/.col#delta-confidence-->
+                    </div><!--/.col#delta-confidence-->
+                  </div><!--/.row-->
+                  <br>
+                  <div class="row">
+                    <div class="col">
+                      <label for="benchmark-callback-uri" class="small font-italic">Benchmark Completion Callback:</label>
+                      <input id="benchmark-callback-uri" class="form-control" placeholder="/callbacks/benchmark">
+                      <small class="form-text text-muted">
+                        A POST callback URI to indicate the completion of a benchmark.
+                      </small>
+                    </div><!--.col#benchmark-callback-uri-->
+                    <div class="col">
+                      <label for="warning-callback-uri" class="small font-italic">Warning Callback:</label>
+                      <input id="warning-callback-uri" class="form-control" placeholder="/callbacks/benchmark">
+                      <small class="form-text text-muted">
+                        A POST callback to indicate an error has occured when response behaviour is set to Warning.
+                      </small>
+                    </div><!--/.col#delta-confidence-->
                   </div><!--/.row-->
                   <hr>
-                  <div class="row justify-content-center">
-                    <div class="col-4">
-                      <button type="submit" class="btn btn-primary">Create Benchmark</button>
+                  <div class="row">
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary form-control">Create Benchmark</button>
                     </div>
-                    <div class="col-8">
+                  </div><!--/.row-->
+                  <hr>
+                  <div class="row">
+                    <div class="col-12">
                       <div class="card bg-light hide">
                         <pre id="new-benchmark-form-results" class="card-body">Results will load here</pre>
                       </div>
                     </div>
-                  </div><!--/.row-->
+                  </div>
                 </div><!--/#advanced-params-->
               </form><!--/form#new-benchmark-form-->
             </div><!--/.card-body#new-benchmark-card-body-->
@@ -165,8 +225,7 @@
                 <div class="row">
                   <div class="col">
                     <div class="input-group">
-                      <input type="text" id="check-benchmark-benchmark-id" name="id"
-                        class="form-control form-control-sm" placeholder="Benchmark ID #">
+                      <input type="text" id="check-benchmark-benchmark-id"                         class="form-control form-control-sm" placeholder="Benchmark ID #">
                       <div class="input-group-append">
                         <button type="submit" class="btn btn-primary btn-sm">Check</button>
                       </div>
@@ -187,7 +246,7 @@
           <br>
           <div id="submit-request-card" class="card">
             <h6 class="card-header">
-              <u>Step 3</u>: Submit Request with Benchmark Key
+              <u>Step 3</u>: Submit Request with Behaviour Token
             </h6>
             <div class="card-img-top">
               <img id="submit-request-image-preview"

@@ -7,17 +7,12 @@ body {
   background: #FF422E;
 }
 
-.card#check-benchmark-log-results-card {
-  height: 15rem;
-}
-
 pre#new-benchmark-form-results {
   height: 100%;
 }
 pre#check-benchmark-log-results {
   overflow-x: scroll;
   overflow-y: scroll;
-  height: 100%;
 }
 
 .card-img-top {

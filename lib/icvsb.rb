@@ -22,6 +22,7 @@ require 'rufus-scheduler'
 # implements an architectural pattern that helps overcome evolution issues
 # within intelligent computer vision services.
 module ICVSB
+  Thread.abort_on_exception = true
   # The valid services this version of the ICVSB module supports. At present the
   # only services supported are Google Cloud Vision, Amazon Rekognition, and
   # Azure Computer Vision and their respective labelling/tagging endpoints.
@@ -156,6 +157,7 @@ module ICVSB
     column :delta_confidence, Float,     null: false
     column :max_labels,       Integer,   null: false
     column :min_confidence,   Float,     null: false
+    column :expected_labels,  String,    null: true
 
     index %i[service_id batch_request_id]
   end
@@ -203,6 +205,12 @@ module ICVSB
     # None severities will essentially ignore all benchmarking capabilities and
     # 'switches off' the benchmarking.
     NONE      = BenchmarkSeverity[name: VALID_SEVERITIES[3].to_s]
+
+    # Overrides the to_s method to return the name.
+    # @return [String] The name of the severity type.
+    def to_s
+      name
+    end
   end
 
   # This class represents a single request made to a Service. It encodes the
@@ -343,16 +351,16 @@ module ICVSB
       end
 
       include InvalidKeyErrorType
-      attr_accessor :reason, :details
+      attr_reader :errorname, :errorcode, :details
 
       def initialize(errortype, details = '')
-        @errorname = InvalidKeyErrorType.constants.find { |c| InvalidKeyErrorType.const_get(c) == reason }
-        @errorcode = InvalidKeyErrorType.constants.index(errortype)
+        @errorname = InvalidKeyErrorType.constants.find { |c| InvalidKeyErrorType.const_get(c) == errortype }
+        @errorcode = InvalidKeyErrorType.constants.index(@errorname)
         @details = details
       end
 
       def to_s
-        "[#{@errorcode}::#{@errorname}] #{@reason}. #{@details}"
+        "[#{@errorcode}::#{@errorname}] #{@details}"
       end
     end
 
@@ -370,9 +378,17 @@ module ICVSB
     end
 
     # Expires this key by writing over its +expired+ field and marking it
-    # false.
+    # true.
     # @return [void]
     def expire
+      self.expired = true
+      save
+    end
+
+    # Un-expires this key by writing over its +expired+ field and marking it
+    # true.
+    # @return [void]
+    def unexpire
       self.expired = false
       save
     end
@@ -552,13 +568,13 @@ module ICVSB
     # @param [Response] key The response to validate.
     # @return See #valid_against?
     def _validate_against_response(response)
-      symm_diff_response_labels = Set[*response.labels.keys] ^ expected_labels_set
-      unless symm_diff_response_labels.empty?
+      missing_expected_labels = expected_labels_set - Set[*response.labels.keys]
+      unless missing_expected_labels.empty?
         return false, BenchmarkKey::InvalidKeyError.new(
           BenchmarkKey::InvalidKeyError::EXPECTED_LABELS_MISMATCH,
-          "Expected key (id=#{id}) expects the following mandatory labels: '#{mandatory_labels}'."\
-          "However, response (id=#{response.id}) has the following labels: '#{response.labels.keys.join(',')}."\
-          "The following labels are missing: #{symm_diff_response_labels.to_a.join(',')}."
+          "Expected key (id=#{id}) expects the following mandatory labels: '#{expected_labels}'. "\
+          "However, response (id=#{response.id}) has the following labels: '#{response.labels.keys.join(',')}'. "\
+          "The following labels are missing: '#{missing_expected_labels.to_a.join(',')}'."
         )
       end
 
@@ -605,7 +621,11 @@ module ICVSB
         max_labels: max_labels,
         min_confidence: min_confidence
       }
+      @max_labels = max_labels
+      @min_confidence = min_confidence
     end
+
+    attr_reader :max_labels, :min_confidence
 
     # Sends a request to the client's respective service endpoint. Does *not*
     # validate a response against a key (see BenchmarkedRequestClient).
@@ -743,13 +763,14 @@ module ICVSB
         exception = nil
         res = @service_client.label_detection(
           image: image.open,
-          max_results: @config[:max_labels]
+          max_results: @max_labels
         ).to_h
       rescue Google::Gax::RetryError => e
         exception = e
+        res = { service_error: "#{exception.class} - #{exception.message}" }
       end
       {
-        body: exception.nil? ? res.to_json : { service_error: "#{exception.class} - #{exception.message}" },
+        body: res.to_json,
         success: exception.nil? && res.key?(:responses)
       }
     end
@@ -767,12 +788,12 @@ module ICVSB
           image: {
             bytes: image.read
           },
-          max_labels: @config[:max_labels],
-          min_confidence: @config[:min_confidence]
+          max_labels: @max_labels,
+          min_confidence: @min_confidence
         ).to_h
       rescue Aws::Rekognition::Errors => e
         exception = e
-        res = { error: "#{e.class} - #{e.message}" }
+        res = { service_error: "#{e.class} - #{e.message}" }
       end
       {
         body: res.to_json,
@@ -884,7 +905,6 @@ module ICVSB
     def initialize(service, dataset, max_labels: 100, min_confidence: 0.50, opts: {})
       super(service, max_labels: max_labels, min_confidence: min_confidence)
       @dataset = dataset
-      @super_config = @config
       @key_config = {
         delta_labels: opts[:delta_labels]                     || 5,
         delta_confidence: opts[:delta_confidence]             || 0.01,
@@ -894,25 +914,33 @@ module ICVSB
       @benchmark_config = {
         trigger_on_schedule: opts[:trigger_on_schedule]       || '0 0 * * 0',
         trigger_on_failcount: opts[:trigger_on_failcount]     || 0,
-        autobenchmark: opts[:autobenchmark]                   || true
+        autobenchmark: opts[:autobenchmark].nil? ? true : opts[:autobenchmark]
       }
       # Validate URIs
       if !opts[:benchmark_callback_uri].nil? &&
-         !opts[:benchmark_callback_uri] =~ URI::DEFAULT_PARSER.make_regexp
-         @benchmark_config[:benchmark_callback_uri] = URI(opts[:benchmark_callback_uri])
+         !(opts[:benchmark_callback_uri] =~ URI::DEFAULT_PARSER.make_regexp).nil?
+        @benchmark_config[:benchmark_callback_uri] = URI(opts[:benchmark_callback_uri])
       end
       if !opts[:warning_callback_uri].nil? &&
-         !opts[:warning_callback_uri] =~ URI::DEFAULT_PARSER.make_regexp
-         @benchmark_config[:warning_callback_uri] = URI(opts[:warning_callback_uri])
+         !(opts[:warning_callback_uri] =~ URI::DEFAULT_PARSER.make_regexp).nil?
+        @benchmark_config[:warning_callback_uri] = URI(opts[:warning_callback_uri])
       end
 
+      if !opts[:warning_callback_uri].nil? && opts[:severity] != BenchmarkSeverity::WARNING
+        ICVSB.lwarn("A benchmark callback URI #{opts[:warning_callback_uri]} was set but "\
+          'the severity is not WARNING. This callback will be ignored...')
+      end
+
+      @created_at = DateTime.now
       @is_benchmarking = false
-      @failure_count = 0
-      benchmark if @benchmark_config[:autobenchmark]
+      @last_benchmark_time = nil
+      @benchmark_count = 0
+      @invalid_state_count = 0
+      trigger_benchmark if @benchmark_config[:autobenchmark]
       @scheduler = Rufus::Scheduler.new.cron(@benchmark_config[:trigger_on_schedule]) do |cronjob|
         ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
           "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
-        benchmark
+        trigger_benchmark
       end
     end
 
@@ -922,7 +950,17 @@ module ICVSB
       @is_benchmarking
     end
 
-    attr_accessor :failure_count
+    attr_reader *%i[
+      invalid_state_count
+      current_key
+      created_at
+      dataset
+      benchmark_count
+      last_benchmark_time
+      benchmark_config
+      key_config
+      service
+    ]
 
     # Sends an image to this client's respective labelling endpoint, verifying
     # the key provided has not expired (and thus substantial evolution in the
@@ -944,7 +982,9 @@ module ICVSB
     #   indicating if the key has expired (a string value) which is only
     #   populated if the key has a severity level of
     #   #BenchmarkSeverity::EXCEPTION or #BenchmarkSeverity::WARNING;
-    #   +:response_error:+ similar to :key_error: but for the response.
+    #   +:response_error:+ similar to :key_error: but for the response;
+    #   +:cahced:+ an optional boolean indicating that a cached response was
+    #   returned.
     def send_uri_with_key(uri, key)
       raise ArgumentError, 'URI must be a string.' unless uri.is_a?(String)
       raise ArgumentError, 'Key must be a BenchmarkKey.' unless key.is_a?(BenchmarkKey)
@@ -957,15 +997,31 @@ module ICVSB
         labels: nil,
         response: nil,
         key_error: nil,
-        response_error: nil
+        response_error: nil,
+        service_error: nil,
+        cached: false
       }
+
+      # Check for a cached result w/ this service
+      Request.where(uri: uri, service_id: @service.id).order(Sequel.desc(:created_at)).each do |request|
+        response = request.response
+        # Ignore unsuccessful responses
+        next unless response.success?
+
+        # Check if the response's benchmark is still valid -- if so, just
+        # reuse that result... (no need to actually ping service)
+        if @current_key.valid_against?(response.benchmark_key)
+          return { labels: response.labels, response: response.hash, cached: true }
+        end
+      end
 
       # Check for key validity
       key_valid, key_invalid_reason = @current_key.valid_against?(key)
+      # Invalid state count incremement if key error exists...
       unless key_valid
         result[:key_error] = key_invalid_reason.to_s
-        @failure_count += 1
-        ICVSB.linfo("Error has occured in key validation. Fail count is now #{@failure_count}.")
+        @invalid_state_count += 1
+        ICVSB.linfo("Error has occured in key validation. Invalid state count count is now #{@invalid_state_count}.")
       end
 
       # If key is valid, raise request and check if response is valid
@@ -978,10 +1034,13 @@ module ICVSB
         response_valid, response_invalid_reason = @current_key.valid_against?(response)
         result[:labels] = response.labels
         result[:response] = response.hash
+        result[:service_error] = result[:response][:service_error]
+        # Incremenet invalid state count if response error ONLY (i.e., not service error)
         unless response_valid
           result[:response_error] = response_invalid_reason.to_s
-          @failure_count += 1
-          ICVSB.linfo("Error has occured in response validation. Fail count is now #{@failure_count}.")
+          @invalid_state_count += 1
+          ICVSB.linfo('Error has occured in response validation. '\
+            "Invalid state count count is now #{@invalid_state_count}.")
         end
       end
 
@@ -991,7 +1050,7 @@ module ICVSB
         ICVSB.linfo("Benchmark has failed #{@benchmark_config[:trigger_on_failcount]} "\
           'times... retriggering benchmark...')
         @failure_count = 0
-        _benchmark
+        trigger_benchmark
       end
 
       # Response behaviour is dependent on the severity encoded within the key
@@ -1024,7 +1083,7 @@ module ICVSB
     # client's URIs to benchmark against. Expires the existing current key
     # if a new benchmark key is no longer valid against the old benchmark key.
     # @returns [void]
-    def benchmark
+    def trigger_benchmark
       @is_benchmarking = true
       new_key = _benchmark
       old_key = @current_key
@@ -1032,6 +1091,7 @@ module ICVSB
       if @current_key.nil?
         @current_key = new_key
       else
+        # Check if the key is valid
         valid_key, reason = @current_key.valid_against?(new_key)
         unless valid_key
           ICVSB.lerror('BenchmarkedRequestClient no longer has a valid key!'\
@@ -1042,10 +1102,41 @@ module ICVSB
           expiry_occured = true
         end
       end
-      _flag_benchmarking_complete(new_key, old_key, expiry_occured)
+      # Check if the responses are valid against the current key
+      new_key.batch_request.responses.each do |res|
+        valid_response, reason = @current_key.valid_against?(res)
+        unless valid_response
+          ICVSB.lerror('BenchmarkedRequestClient has a violated response!'\
+            "Reason='#{reason}'. Falling back to old key (id=#{old_key.nil? ? '<NONE>' : old_key.id})...")
+          @current_key.expire
+          @current_key = old_key
+          @current_key.unexpire unless @current_key.nil?
+          expiry_occured = true
+          break
+        end
+      end
       @is_benchmarking = false
+      _flag_benchmarking_complete(new_key, old_key, expiry_occured)
     end
 
+
+    def find_key_since(date)
+      candidate_bks = BenchmarkKey.where(
+        service_id: @service.id,
+        benchmark_severity_id: @key_config[:severity].id,
+        max_labels: @max_labels,
+        min_confidence: @min_confidence,
+        delta_labels: @key_config[:delta_labels],
+        delta_confidence: @key_config[:delta_confidence],
+        expected_labels: @key_config[:expected_labels].map(&:downcase).join(','),
+        created_at: date..(DateTime.now)
+      ).reverse_order(:created_at)
+      return nil if candidate_bks.nil?
+
+      candidate_bks.find do |bk|
+        (Set[*bk.batch_request.uris] - Set[@dataset]).empty?
+      end
+    end
 
     private
 
@@ -1053,10 +1144,20 @@ module ICVSB
     # @param [Hash] result See #send_uri_with_key
     # @returns [void]
     def _flag_warning(result)
-      return if @benchmark_config[:warning_callback_uri].nil?
+      return if @benchmark_config[:warning_callback_uri].nil? || @key_config[:severity] != BenchmarkSeverity::WARNING
 
+      uri = @benchmark_config[:warning_callback_uri]
+      data = result
       Thread.new do
-        Net::HTTP.post(@benchmark_config[:warning_callback_uri], result.to_json, 'Content-Type': 'application/json')
+        ICVSB.linfo("POSTing to warning endpoint '#{uri}' data=#{data}")
+        req = Net::HTTP::Post.new(uri)
+        req.body = data.to_json
+        req.content_type = 'application/json;charset=utf8'
+        res = Net::HTTP.start(uri.hostname, uri.port) do |http|
+          http.request(req)
+        end
+        ICVSB.linfo("Response from warning endpoint: #{res.code} #{res.message}")
+        ICVSB.ldebug("Response body is: #{res.body}") if res.is_a?(Net::HTTPSuccess)
       end
     end
 
@@ -1072,17 +1173,30 @@ module ICVSB
     def _flag_benchmarking_complete(new_key, old_or_current_key, expiry_occured)
       return if @benchmark_config[:benchmark_callback_uri].nil?
 
-      data = { new_key: new_key.id, old_key: old_or_current_key.id, expiry_occured: expiry_occured }
+      uri = @benchmark_config[:benchmark_callback_uri]
+      old_or_current_key_id = old_or_current_key.nil? ? nil : old_or_current_key.id
+      data = { new_key: new_key.id, old_key: old_or_current_key_id, expiry_occured: expiry_occured }
       Thread.new do
-        Net::HTTP.post(@benchmark_config[:benchmark_callback_uri], data.to_json, 'Content-Type': 'application/json')
+        ICVSB.linfo("POSTing to benchmark complete endpoint '#{uri}' data=#{data}")
+        req = Net::HTTP::Post.new(uri)
+        req.body = data.to_json
+        req.content_type = 'application/json;charset=utf8'
+        res = Net::HTTP.start(uri.hostname, uri.port) do |http|
+          http.request(req)
+        end
+        ICVSB.linfo("Response from benchmark complete endpoint: #{res.code} #{res.message}")
+        ICVSB.ldebug("Response body is: #{res.body}") if res.is_a?(Net::HTTPSuccess)
       end
     end
 
     # Benchmarks this client against a set of URIs, returning this client's
-    # configurated key configuration.
+    # configurated key configuration. Internal method...
     # @return [BenchmarkKey] A key representing the result of this benchmark.
     def _benchmark
-      ICVSB.linfo("Benchmarking dataset against dataset of #{@dataset.count} URIs.")
+      @last_benchmark_time = DateTime.now
+      @benchmark_count += 1
+      ICVSB.linfo("Benchmarking dataset against dataset of #{@dataset.count} URIs. "\
+        "Times benchmarked=#{benchmark_count}")
       br, thr = send_uris_no_key_async(@dataset)
       ICVSB.linfo("Benchmarking this dataset using batch request with id=#{br.id}.")
       # Wait for all threads to finish...
@@ -1097,10 +1211,16 @@ module ICVSB
         delta_labels: @key_config[:delta_labels],
         delta_confidence: @key_config[:delta_confidence],
         expected_labels: @key_config[:expected_labels].map(&:downcase).join(','),
-        max_labels: @super_config[:max_labels],
-        min_confidence: @super_config[:min_confidence]
+        max_labels: @max_labels,
+        min_confidence: @min_confidence
       )
-      ICVSB.linfo("Benchmarking dataset is complete. Key from benchmarking is #{bk.id}.")
+      # Ensure every response is updated with this key
+      br.responses.each do |res|
+        ICVSB.ldebug("Updating response id=#{res.id} to benchmark key id=#{bk.id}.")
+        res.request.benchmark_key_id = bk.id
+        res.save
+      end
+      ICVSB.linfo("Benchmarking dataset is complete (benchmark key id=#{bk.id}).")
       bk
     end
   end

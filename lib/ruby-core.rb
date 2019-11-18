@@ -2,6 +2,7 @@
 
 require 'rufus-scheduler'
 require 'uri'
+require 'time'
 
 class String
   def integer?
@@ -21,5 +22,12 @@ class String
 
   def uri?
     self =~ URI::DEFAULT_PARSER.make_regexp
+  end
+
+  def httpdate?
+    Time.httpdate(self)
+    true
+  rescue ArgumentError
+    false
   end
 end
