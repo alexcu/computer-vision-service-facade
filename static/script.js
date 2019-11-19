@@ -8,7 +8,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('new-benchmark-form').onsubmit = submitNewBenchmarkForm;
   document.getElementById('check-benchmark-form').onsubmit = submitCheckBenchmarkForm;
   document.getElementById('submit-request-form').onsubmit = submitRequestForm;
-  document.getElementById('submit-request-image-uri').oninput = inputImageUri;
+  document.getElementById('submit-request-image-uri').oninput = function (e) {
+    var imageUri = e.target.value;
+    var imgEl = document.getElementById('submit-request-image-preview');
+    imgEl.src = imageUri;
+  };
   document.getElementById('benchmark-callback-uri').value = window.location.origin + '/callbacks/benchmark';
 
   document.getElementById('severity').onchange = function (e) {
@@ -29,19 +33,14 @@ function escapeHtml(unsafe) {
     .replace(/'/g, "&#039;");
 }
 
-function handleReadyState(e, data, resultDiv) {
-
-}
-
-function invalidId(id) {
-  return isNaN(id) || id.trim().length == 0;
-}
-
-function xhr(method, to, resultDiv, data) {
+function xhr(method, to, resultDiv, data, headers) {
   var xhr = new XMLHttpRequest();
   data = data == undefined ? '' : JSON.stringify(data);
   url = new URL(to, location)
   xhr.open(method, to, true);
+  for (var header in headers) {
+    xhr.setRequestHeader(header, headers[header]);
+  }
   xhr.setRequestHeader('Content-Type', 'application/json;charset=utf-8');
   xhr.onreadystatechange = function () {
     if (xhr.readyState == xhr.DONE) {
@@ -60,8 +59,18 @@ function xhr(method, to, resultDiv, data) {
     'user-agent: ' + navigator.userAgent + '\r\n' +
     'accept: */*\r\n' +
     'content-type: application/json;charset=utf-8\r\n' +
-    'content-length: ' + data.length +
-    (data.length > 0 ? '\r\n\r\n' + data : '\r\n');
+    'content-length: ' + data.length + function () {
+      if (headers == undefined || headers.length == 0) {
+        return data.length > 0 ? '\r\n\r\n' + data : '\r\n'
+      } else {
+        var result = '\r\n';
+        for (var header in headers) {
+          result += header.toLowerCase() + ': ' + headers[header] + '\r\n';
+        }
+        result += data.length > 0 ? '\r\n' + data : '';
+        return result;
+      }
+    }();
   return xhr;
 }
 
@@ -89,7 +98,9 @@ function submitNewBenchmarkForm() {
 function submitCheckBenchmarkForm() {
   var id = document.getElementById('check-benchmark-benchmark-id').value;
 
-  if (invalidId(id)) { return false; }
+  if (isNaN(id) || id.trim().length == 0) {
+    return false;
+  }
 
   var statusResults = document.getElementById('check-benchmark-status-results');
   var logResults = document.getElementById('check-benchmark-log-results');
@@ -99,51 +110,26 @@ function submitCheckBenchmarkForm() {
   return false;
 }
 
-function inputImageUri() {
-  var imageUri = document.getElementById('submit-request-image-uri').value;
-  var imgEl = document.getElementById('submit-request-image-preview');
-
-  imgEl.src = imageUri;
-}
-
 function submitRequestForm() {
-  var benchmarkId = document.getElementById('submit-request-benchmark-id').value;
-  var keyId = document.getElementById('submit-request-key-id').value;
   var imageUri = document.getElementById('submit-request-image-uri').value;
+  var ifMatchValue = document.getElementById('submit-request-if-match').value;
+  var ifUnmodifiedSinceValue = document.getElementById('submit-request-if-unmodified-since').value;
 
-  if (invalidId(benchmarkId) || invalidId(keyId) || imageUri.trim().length == 0) { return false; }
+  if (ifMatchValue.trim().length == 0 || imageUri.trim().length == 0) {
+    return false;
+  }
 
   var results = document.getElementById('submit-request-results');
+  var headers = {
+    'If-Match': ifMatchValue
+  }
+  if (ifUnmodifiedSinceValue.trim().length > 0) {
+    headers['If-Unmodified-Since'] = ifUnmodifiedSinceValue;
+  }
 
-  var formData = new FormData();
-  formData.append('benchmark_id', benchmarkId);
-  formData.append('key_id', keyId);
-  formData.append('image_uri', imageUri);
-
-  var req = new XMLHttpRequest();
-  req.onreadystatechange = function () { handleResults(this, results) };
-  req.open('POST', '/request', true);
-  req.send(formData);
+  xhr('GET', '/labels?image=' + encodeURI(imageUri), results, null, headers);
 
   return false;
 }
 
-
-function resultHandler() {
-
-}
-
-function executeRequest() {
-  var formData = new FormData();
-  formData.append('csv', document.getElementById('input-csv').files[0])
-  formData.append('api', document.getElementById('input-api').value)
-  formData.append('cost', document.getElementById('input-cost').value)
-  formData.append('impact', document.getElementById('input-impact').value)
-
-  var req = new XMLHttpRequest();
-  req.onreadystatechange = resultHandler;
-  req.open('POST', '/results.json', true);
-  req.send(formData);
-
-  return false;
-}
+//   W/"70322956357000;178"

@@ -3,6 +3,7 @@
 require 'sinatra'
 require 'time'
 require 'json'
+require 'cgi'
 require 'require_all'
 require_all 'lib'
 
@@ -11,21 +12,22 @@ set :public_folder, File.join(File.dirname(__FILE__), 'static')
 set :show_exceptions, false
 
 store = {}
-lgger = Logger::Formatter.new
 
 before do
-  logger.formatter = proc { |severity, datetime, progname, msg|
-    lgger.call(severity, datetime, progname, msg.dump)
-  }
   if request.body.size.positive?
     request.body.rewind
     @params = JSON.parse(request.body.read, symbolize_names: true)
   end
 end
 
+def halt!(code, message)
+  content_type 'text/plain'
+  halt code, message
+end
+
 def check_brc_id(id, store)
-  halt 400, 'Benchmark id must be a positive integer' unless id.integer? && id.to_i.positive?
-  halt 400, "No such benchmark request client exists with id=#{id}" unless store.key?(id)
+  halt! 400, 'Benchmark id must be a positive integer' unless id.integer? && id.to_i.positive?
+  halt! 400, "No such benchmark request client exists with id=#{id}" unless store.key?(id)
 end
 
 get '/' do
@@ -50,43 +52,43 @@ post '/benchmark' do
 
   # Check param types
   unless max_labels.integer? && max_labels.to_i.positive?
-    halt 400, 'max_labels must be a positive integer'
+    halt! 400, 'max_labels must be a positive integer'
   end
   unless min_confidence.float? && min_confidence.to_f.positive?
-    halt 400, 'min_confidence must be a positive float'
+    halt! 400, 'min_confidence must be a positive float'
   end
   unless delta_labels.integer? && delta_labels.to_i.positive?
-    halt 400, 'delta_labels must be a positive integer'
+    halt! 400, 'delta_labels must be a positive integer'
   end
   unless delta_confidence.float? && delta_confidence.to_f.positive?
-    halt 400, 'delta_confidence must be a positive float'
+    halt! 400, 'delta_confidence must be a positive float'
   end
   unless ICVSB::VALID_SERVICES.include?(service.to_sym)
-    halt 400, "service must be one of #{ICVSB::VALID_SERVICES.join(', ')}"
+    halt! 400, "service must be one of #{ICVSB::VALID_SERVICES.join(', ')}"
   end
   unless trigger_on_schedule.cronline?
-    halt 400, 'trigger_on_schedule must be a cron string in * * * * * (see man 5 crontab)'
+    halt! 400, 'trigger_on_schedule must be a cron string in * * * * * (see man 5 crontab)'
   end
-  unless trigger_on_failcount.integer? && trigger_on_schedule.to_i >= -1
-    halt 400, 'trigger_on_failcount must be zero or positive integer'
+  unless trigger_on_failcount.integer? && trigger_on_failcount.to_i >= -1
+    halt! 400, 'trigger_on_failcount must be zero or positive integer'
   end
   if !benchmark_callback_uri.empty? && !benchmark_callback_uri.uri?
-    halt 400, 'benchmark_callback_uri is not a valid URI'
+    halt! 400, 'benchmark_callback_uri is not a valid URI'
   end
 
   unless ICVSB::VALID_SEVERITIES.include?(severity.to_sym)
-    halt 400, "severity must be one of #{ICVSB::VALID_SEVERITIES.join(', ')}"
+    halt! 400, "severity must be one of #{ICVSB::VALID_SEVERITIES.join(', ')}"
   end
   if ICVSB::BenchmarkSeverity[name: severity.to_s] == ICVSB::BenchmarkSeverity::WARNING && !warning_callback_uri.uri?
-    halt 400, 'Must provide a valid warning_callback_uri when severity is WARNING'
+    halt! 400, 'Must provide a valid warning_callback_uri when severity is WARNING'
   end
 
-  halt 400, 'benchmark_dataset has not been specified' if benchmark_dataset.empty?
+  halt! 400, 'benchmark_dataset has not been specified' if benchmark_dataset.empty?
   benchmark_dataset = benchmark_dataset.lines.map(&:strip)
   expected_labels = expected_labels.empty? ? [] : expected_labels.split(',').map(&:strip)
   benchmark_dataset.each do |uri|
     unless uri.uri?
-      halt 400, "benchmark_dataset must be a list of uris separated by a newline character; #{uri} is not a valid URI"
+      halt! 400, "benchmark_dataset must be a list of uris separated by a newline character; #{uri} is not a valid URI"
     end
   end
 
@@ -134,8 +136,10 @@ get '/benchmark/:id' do
     created_at: brc.created_at,
     current_key_id: brc.current_key ? brc.current_key.id : nil,
     is_benchmarking: brc.benchmarking?,
-    # last_scheduled_benchmark_time: brc.last_scheduled_benchmark_time,
-    # next_scheduled_benchmark_time: brc.next_scheduled_benchmark_time,
+    last_scheduled_benchmark_time: brc.last_scheduled_benchmark_time,
+    next_scheduled_benchmark_time: brc.next_scheduled_benchmark_time,
+    mean_scheduled_benchmark_duration: brc.mean_scheduled_benchmark_duration,
+    last_scheduled_benchmark_duration: brc.last_scheduled_benchmark_duration,
     invalid_state_count: brc.invalid_state_count,
     last_benchmark_time: brc.last_benchmark_time,
     benchmark_count: brc.benchmark_count,
@@ -155,7 +159,7 @@ get '/benchmark/:id/key' do
   check_brc_id(id, store)
   brc = store[id]
 
-  halt 422, 'The requested benchmark client is still benchmarking its first key' if brc.current_key.nil?
+  halt! 422, 'The requested benchmark client is still benchmarking its first key' if brc.current_key.nil?
 
   current_key_id = brc.current_key.id
   redirect "/key/#{current_key_id}"
@@ -165,8 +169,8 @@ get '/key/:id' do
   id = params[:id].to_i
   bk = BenchmarkKey[id: params[:id]]
 
-  halt 400, 'id must be an integer' unless id.integer?
-  halt 400, "No such benchmark key request client exists with id=#{id}" if bk.nil?
+  halt! 400, 'id must be an integer' unless id.integer?
+  halt! 400, "No such benchmark key request client exists with id=#{id}" if bk.nil?
 
   content_type 'application/json;charset=utf-8'
   {
@@ -196,6 +200,12 @@ get '/benchmark/:id/log' do
 
   content_type 'text/plain'
   store[id].read_log
+end
+
+post '/callbacks/benchmark'
+end
+
+post '/callbacks/warning'
 end
 
 # Labels resources against the provided uri. This is a conditional HTTP request.
@@ -238,9 +248,6 @@ end
 # The endpoint will return one of the following HTTP responses:
 #
 #   - 200 OK if this is the first request made to this URI;
-#   - 304 if the repsonse provided is cached (i.e., no changes to the service
-#     the last time it was benchmarked against the current key to not be
-#     considered a violation);
 #   - 400 Bad Request if invalid parameters were provided by the client;
 #   - 412 Precondition Failed if the key/unmodified time provided is no longer
 #     valid, and thus the key provided (or time provided) is violating the
@@ -250,50 +257,63 @@ end
 #     service cannot process the entity or a bad request was made.
 #   - 500 Internal Server Error if a facade error has occured.
 #
-get '/labels?uri={uri}' do
-  image_uri = params[:uri]
+# The endpont will return the following HTTP response headers:
+#
+#   - ETag: The ETag that was used to successfully generate a response
+#   - Last-Modified: The last time the benchmark-id was benchmarked against
+#       its dataset
+#   - Expires: The next time the benchmark with the provided id will be
+#       benchmarked against its dataset
+#   - Age: Indicates that the repsonse provided is cached (i.e., no changes
+#       to the service the last time it was benchmarked against the dataset
+#       to not be considered a violation); returns the time elapsed in seconds
+#       since then
+get '/labels' do
+  image_uri = CGI.unescape(params[:image])
 
-  if_match = request.env['If-Match']
-  if_unmodified_since = request.env['If-Unmodified-Since']
+  if_match = request.env['HTTP_IF_MATCH'] || ''
+  if_unmodified_since = request.env['IF_UNMODIFIED_SINCE'] || ''
 
-  halt 400, 'URI provided to analyse is not a valid URI' unless image_uri.uri?
-  halt 400, 'Missing If-Match in request header' if if_match.nil?
-  unless if_unmodified_since.nil? || if_unmodified_since.httpdate?
-    halt 400, 'If Unmodified Since must be compliant with the RFC 2616 HTTP date format'
+  halt! 400, 'URI provided to analyse is not a valid URI' unless image_uri.uri?
+  halt! 400, 'Missing If-Match in request header' if if_match.nil?
+  if !if_unmodified_since.empty? && !if_unmodified_since.httpdate?
+    halt! 400, 'If Unmodified Since must be compliant with the RFC 2616 HTTP date format'
   end
 
-  if_unmodified_since_date = Time.httpdate(if_unmodified_since)
+  if_unmodified_since_date = if_unmodified_since.empty? ? nil : Time.httpdate(if_unmodified_since)
 
   relay_body = {}
   relay_etag = nil
+  relay_last_modified = nil
+  relay_expired = nil
 
   # Scan through each comma-separated ETag
   etags = if_match.scan(%r{W\/"(\d+;?\d+)",?})
   etags.each do |etag|
-    benchmark_id, benchmark_key_id = etag[0].split(';')
+    benchmark_id, benchmark_key_id = etag[0].split(';').map(&:to_i)
 
     # Check if we have a valid benchmark id
-    check_brc_id(benchmark_id)
+    check_brc_id(benchmark_id, store)
     brc = store[benchmark_id]
     bk = nil
 
     # Check if we have a key; if no key we must have a If-Unmodified-Since.
     if benchmark_key_id.nil? && if_unmodified_since.nil?
-      halt 400, "You have provided a benchmark id (id=#{benchmark_key_id}) "\
+      halt! 400, "You have provided a benchmark id (id=#{benchmark_key_id}) "\
                 'without a behaviour token. Please provide a behaviour token '\
                 'or include the If-Unmodified-Since request header with a RFC '\
                 '2616-compliant HTTP date string.'
     elsif !benchmark_key_id.nil?
       # Check if valid key
-      halt 400, "No such key with id #{key_id} exists!" if ICVSB::BenchmarkKey.where(id: key_id).empty?
+      halt! 400, "No such key with id #{key_id} exists!" if ICVSB::BenchmarkKey.where(id: benchmark_key_id).empty?
       unless benchmark_key_id.integer? && benchmark_key_id.positive?
-        halt 400, 'Behaviour token must be a positive integer.'
+        halt! 400, 'Behaviour token must be a positive integer.'
       end
 
-      bk = BenchmarkKey[id: benchmark_key_id]
-    elsif !if_unmodified_since.nil?
+      bk = ICVSB::BenchmarkKey[id: benchmark_key_id]
+    elsif !if_unmodified_since_date.nil?
       bk = brc.find_key_since(if_unmodified_since_date)
-      halt 400, "No behaviour token can be found that has been unmodified since #{if_unmodified_since_date}." if bk.nil?
+      halt! 400, "No behaviour token can be found that has been unmodified since #{if_unmodified_since_date}." if bk.nil?
     end
 
     # Process...
@@ -302,27 +322,34 @@ get '/labels?uri={uri}' do
     # Set HTTP status+body as appropriate if there is no more ETags or if
     # this was a successful response (i.e., no errors so don't keep trying other
     # ETags...)
-    error = result.key?(:key_error) || result.key?(:response_error) || result[:response].key?(:service_error)
+    error = result.key?(:key_error) || result.key?(:response_error) || result.key?(:service_error)
     if etag == etags.last || !error
       if result[:key_error] || result[:response_error]
         status 412
+        content_type 'text/plain'
         relay_body = !result[:key_error].nil? ? result[:key_error] : result[:response_error]
-      elsif result[:response].key?(:service_error)
+      elsif result[:service_error]
         status 422
+        content_type 'text/plain'
         relay_body = result[:service_error]
       else
-        status result[:cached] ? 304 : 200
         content_type 'application/json;charset=utf-8'
+        unless result[:cached].nil?
+          response.headers['Age'] = ((DateTime.now - result[:cached]) * 24 * 60 * 60).to_i
+        end
         relay_body = result[:response]
       end
       relay_etag = etag
+      relay_last_modified = brc.current_key.nil? ? brc.created_at.httpdate : brc.current_key.created_at.httpdate
+      relay_expired = brc.next_scheduled_benchmark_time.httpdate
     end
   end
-  response.headers['ETag'] = relay_etag
-  response.headers['Last-Modified'] = brc.current_key.created_at.httpdate
-  relay_body.to_json
+  response.headers['ETag'] = "W/\"#{relay_etag}\""
+  response.headers['Expires'] = relay_expired
+  response.headers['Last-Modified'] = relay_last_modified
+  relay_body
 end
 
 error do |e|
-  halt 500, e.message
+  halt! 500, e.message
 end

@@ -12,7 +12,7 @@ label.control-label {
   font-style: italic;
 }
 
-.form-group.required .control-label:after {
+.form-group.required .control-label:after, label.add-star:after {
   content: "*";
   color: #FF422E;
   font-style: normal;

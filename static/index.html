@@ -44,7 +44,7 @@
               <p class="card-text">Complete the following form to create a new benchmark.</p>
               <form id="new-benchmark-form">
                 <div class="form-group required">
-                  <label for="benchmark-dataset">
+                  <label for="benchmark-dataset" class="add-star">
                     <strong>&#9312;</strong>
                     Enter a dataset of image URIs to benchmark against:
                   </label>
@@ -56,7 +56,7 @@
                 </div><!--/#benchmark-dataset-->
                 <hr>
                 <div class="form-group required">
-                  <label for="service">
+                  <label for="service" class="add-star">
                     <strong>&#9313;</strong>
                     Select a Computer Vision API provider:
                   </label>
@@ -70,7 +70,7 @@
                 <div id="advanced-params" class="form-group">
                   <label>
                     <strong>&#9314;</strong>
-                    Select additional advanced parameters:
+                    Select behaviour parameters:
                   </label>
                   <div class="row">
                     <div class="col form-group required">
@@ -92,7 +92,6 @@
                       </small>
                     </div><!--/.col#min-confidence-->
                   </div><!--/.row-->
-                  <br>
                   <div class="row">
                     <div class="col form-group required">
                       <label for="delta-labels" class="control-label">Delta Labels:</label>
@@ -114,7 +113,6 @@
                       </small>
                     </div><!--/.col#delta-confidence-->
                   </div><!--/.row-->
-                  <br>
                   <div class="row">
                     <div class="col form-group required">
                       <label for="trigger-on-schedule" class="control-label">Re-Evaluate Schedule:</label>
@@ -140,7 +138,6 @@
                       </small>
                     </div><!--.col#trigger-on-failcount-->
                   </div><!--/.row-->
-                  <br>
                   <div class="row">
                     <div class="col form-group">
                       <label for="expected-labels" class="control-label">Expected Labels:</label>
@@ -181,7 +178,6 @@
                       </small>
                     </div><!--/.col#delta-confidence-->
                   </div><!--/.row-->
-                  <br>
                   <div class="row">
                     <div class="col form-group">
                       <label for="benchmark-callback-uri" class="control-label">Benchmark Completion Callback:</label>
@@ -208,7 +204,7 @@
                   <div class="row">
                     <div class="col-12">
                       <div class="card bg-light hide">
-                        <pre id="new-benchmark-form-results" class="card-body">Results will load here</pre>
+                        <pre id="new-benchmark-form-results" class="card-body">HTTP Request/Response for Results</pre>
                       </div>
                     </div>
                   </div>
@@ -224,31 +220,32 @@
             <div class="card-body" id="#check-benchmark-card-body">
               <form id="check-benchmark-form">
                 <div class="row">
-                  <div class="col">
+                  <div class="col form-group required">
                     <div class="input-group">
                       <input type="text" id="check-benchmark-benchmark-id"
-                      class="form-control form-control-sm" placeholder="Benchmark ID #">
+                      class="form-control form-control-sm" placeholder="Benchmark ID #" required>
                       <div class="input-group-append">
                         <button type="submit" class="btn btn-primary btn-sm">Check</button>
                       </div>
                     </div>
+                    <small class="form-text text-muted">Use the benchmark ID that was created in the request above.</small>
                   </div>
                 </div><!--/.row-->
               </form><!--/form#check-benchmark-form-->
               <hr>
               <div class="card bg-light">
-                <pre id="check-benchmark-status-results"  class="card-body">Status will load here</pre>
+                <pre id="check-benchmark-status-results"  class="card-body">HTTP Request/Response for Status</pre>
               </div>
               <br>
               <div class="card text-white bg-dark" id="check-benchmark-log-results-card">
-                <pre id="check-benchmark-log-results" class="card-body text-white">Log will load here</pre>
+                <pre id="check-benchmark-log-results" class="card-body text-white">HTTP Request/Response for Log</pre>
               </div>
             </div><!--/.card#check-benchmark-card-body-->
           </div><!--/.card#check-benchmark-card-->
           <br>
           <div id="submit-request-card" class="card">
             <h6 class="card-header">
-              <u>Step 3</u>: Submit Request with Behaviour Token
+              <u>Step 3</u>: Request Labels for Image
             </h6>
             <div class="card-img-top">
               <img id="submit-request-image-preview"
@@ -257,43 +254,57 @@
             </div>
             <div id="submit-request-card-body" class="card-body">
               <form id="submit-request-form">
-                <div class="col-md-12">
-                  <label for="delta-labels" class="control-label">Request URI:</label>
+                <div class="col form-group required">
+                  <label for="submit-request-image-uri" class="control-label">Image URI:</label>
                   <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
                       placeholder="http://example.com/dog.jpg">
-                  <small>
+                  <small class="form-text text-muted">
                     This is a URI to a publically avaliable image that you would like to
-                    make a request against.
+                    get labels from.
                   </small>
-                </div>
-                <br>
-                <div class="col-md-12">
-                  <label for="delta-labels" class="control-label">If-Match Request Header:<span class="</label>
-                  <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
-                    placeholder="http://example.com/dog.jpg">
-                  <small>
-                    This is a URI to a publically avaliable image that you would like to
-                    make a request against.
+                </div><!--/.col-->
+                <div class="col form-group required">
+                  <label for="submit-request-if-match" class="control-label">If-Match Request Header:</label>
+                  <input type="text" id="submit-request-if-match" class="form-control form-control-sm"
+                    placeholder='W/"70131436679660;100",W/"70131436679660;101",W/"70131436679660"'>
+                  <small class="form-text text-muted">
+                    Provide a weak <a href="https://tools.ietf.org/html/rfc7232#section-2.3">ETag</a> into
+                    the <a href="https://tools.ietf.org/html/rfc7232#section-3.1">If-Match</a>
+                    request header field representing which benchmark and behaviour token you would like
+                    to use to represent the labels. The ETag must be provided in the following format:
+                    <code>W/"&lt;benchmark-id&gt;[;&lt;behaviour-token&gt;]"</code>.
+                    <br><br>
+                    The behaviour token is optional.If NO behaviour token is specified, then then (additionally) you must provide an <a href="https://tools.ietf.org/html/rfc7232#section-3.4">If-Unmodified-Since</a> request
+                    header field (below).
+                    <br><br>
+                    You may also choose to provide multiple ETags that are comma-separated, i.e.:<br>
+                    <code>
+                      W/"&lt;benchmark-id1&gt;[;&lt;behaviour-token1&gt;]",W/"&lt;benchmark-id2&gt;[;&lt;behaviour-token2&gt;]" ...
+                    </code>
                   </small>
-                </div>
-
-                  </div><!--/.col-->
-                  <div class="col-md-3">
-                    <input type="text" id="submit-request-benchmark-id" class="form-control form-control-sm"
-                      placeholder="Benchmark ID #">
-                  </div><!--/.col-->
-                  <div class="col-md-2">
-                    <input type="text" id="submit-request-key-id" class="form-control form-control-sm"
-                      placeholder="Key ID #">
-                  </div><!--/.col-->
-                  <div class="col-md-1">
-                    <button type="submit" class="btn btn-primary btn-sm">&#x23CE;Submit</button>
-                  </div><!--/.col-->
-                </div><!--/.row-->
+                </div><!--/.col-->
+                <div class="col form-group">
+                  <label for="submit-request-if-unmodified-since" class="control-label">
+                    If-Unmodified-Since Request Header:
+                  </label>
+                  <input type="datetime" id="submit-request-if-unmodified-since" class="form-control form-control-sm"
+                    placeholder="Mon, 18 Nov 2019 16:00:00 GMT">
+                  <small class="form-text text-muted">
+                    Used when no behaviour token is specified in the If-Match ETag(s) above.
+                    Indicates the labels for this image must have been unmodified since
+                    the given date. (This will attempt to automatically locate the nearest behaviour token that was
+                    generated after the given date and request the labels against that date.)
+                    <br><br>
+                    Must be formatted as a <a href="https://tools.ietf.org/html/rfc2616#section-3.3">RFC2616-compliant date/time</a> string.
+                  </small>
+                </div><!--/.col-->
+                <div class="col form-group">
+                  <button type="submit" class="btn btn-primary btn-sm form-control">&#x23CE; Submit</button>
+                </div><!--/.col-->
               </form><!--/form#submit-request-form-->
               <hr>
               <div class="card bg-light">
-                <pre id="submit-request-results" class="card-body">Results will load here</pre>
+                <pre id="submit-request-results" class="card-body">HTTP Request/Response for Labelling</pre>
               </div>
             </div><!--/.card-body#submit-request-card-body-->
           </div><!--/.card#submit-request-card-->

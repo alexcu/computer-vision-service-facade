@@ -218,6 +218,7 @@ module ICVSB
   class Request < Sequel::Model(dbc)
     many_to_one :service
     many_to_one :batch
+    many_to_one :benchmark_key
     one_to_one :response
 
     # @see Response#success.
@@ -267,6 +268,34 @@ module ICVSB
       else
         {}
       end
+    end
+
+    # Returns the benchmark key ID of the request.
+    # @return [Integer] The benchmark key id of this response's request.
+    def benchmark_key_id
+      request.benchmark_key.id
+    end
+
+    # Returns the benchmark key of the request.
+    # @return [BenchmarkKey] The benchmark key of this response's request.
+    def benchmark_key
+      request.benchmark_key
+    end
+
+    # Sets the benchmark key of the request.
+    # @param [BenchmarkKey] value The new benchmark key to set.
+    # @return [void]
+    def benchmark_key=(value)
+      request.benchmark_key = value
+      request.save
+    end
+
+    # Sets the benchmark key id of the request.
+    # @param [Integer] value The new benchmark key id to set.
+    # @return [void]
+    def benchmark_key_id=(value)
+      request.benchmark_key_id = value
+      request.save
     end
 
     private
@@ -426,6 +455,9 @@ module ICVSB
     def _validate_against_key(key)
       ICVSB.linfo("Validating key id=#{id} with other key id=#{key.id}")
 
+      # True if same key id...
+      return true if key == self
+
       # 1. Ensure same services!
       if key.service != service
         ICVSB.lwarn("Service mismatch in validation: #{key.service.name} != #{service.name}")
@@ -435,7 +467,7 @@ module ICVSB
           "validation key (id=#{key.id}) service=#{key.service.name}."
         )
       end
-      ICVSB.linfo('Services both match')
+      ICVSB.ldebug('Services both match')
 
       # 2. Ensure same benchmark dataset
       symm_diff_uris = Set[*batch_request.uris] ^ Set[*key.batch_request.uris]
@@ -448,7 +480,7 @@ module ICVSB
           "The symmetric difference is: #{symm_diff_uris.to_a}."
         )
       end
-      ICVSB.linfo('Same benchmark dataset has been used')
+      ICVSB.ldebug('Same benchmark dataset has been used')
 
       # 3. Ensure successful request made in BOTH instances
       our_key_success = success?
@@ -461,7 +493,7 @@ module ICVSB
           "validation key (id=#{key.id}) success=#{their_key_success}."
         )
       end
-      ICVSB.linfo('Both keys were successful')
+      ICVSB.ldebug('Both keys were successful')
 
       # 4. Ensure the same max labels
       unless key.max_labels == max_labels
@@ -472,7 +504,7 @@ module ICVSB
           "validation key (id=#{key.id}) max_labels=#{key.service.name}."
         )
       end
-      ICVSB.linfo('Both keys have same max labels')
+      ICVSB.ldebug('Both keys have same max labels')
 
       # 5. Ensure the same min confs
       unless key.min_confidence == min_confidence
@@ -483,12 +515,12 @@ module ICVSB
           "validation key (id=#{key.id}) min_confidence=#{key.min_confidence}."
         )
       end
-      ICVSB.linfo('Both keys have same min confidence')
+      ICVSB.ldebug('Both keys have same min confidence')
 
       # 6. Ensure same number of results... (responses... not labels!)
       our_response_length = batch_request.responses.length
       their_response_length = key.batch_request.responses.length
-      unless out_response_length == their_response_length
+      unless our_response_length == their_response_length
         ICVSB.lwarn('Number of responses mismatch in key validation')
         return false, BenchmarkKey::InvalidKeyError.new(
           BenchmarkKey::InvalidKeyError::RESPONSE_LENGTH_MISMATCH,
@@ -496,7 +528,7 @@ module ICVSB
           "validation key (id=#{key.id}) responses#=#{their_response_length}."
         )
       end
-      ICVSB.linfo('Both keys have same number of encoded responses')
+      ICVSB.ldebug('Both keys have same number of encoded responses')
 
       # 7. Validate every label delta and confidence delta
       our_requests = batch_request.requests
@@ -515,7 +547,8 @@ module ICVSB
           "id=#{their_request.id} {#{their_labels.to_a.join(', ')}} - symm diff "\
           "= {#{symm_diff_labels.to_a.join(', ')}}")
         if symm_diff_labels.length > delta_labels
-          ICVSB.lwarn("Number of labels mismatch in key validation (margin of error=#{delta_labels})")
+          ICVSB.lwarn("Number of labels mismatch in key validation (margin of error=#{delta_labels}): "\
+            "Symmetric difference = #{symm_diff_labels.to_a}.")
           return false, BenchmarkKey::InvalidKeyError.new(
             BenchmarkKey::InvalidKeyError::LABEL_DELTA_MISMATCH,
             "Source key (id=#{id}) labels#=#{our_labels.length} but "\
@@ -523,7 +556,7 @@ module ICVSB
             "which exceeds the delta label value of #{delta_labels}."
           )
         end
-        ICVSB.linfo("Number of labels match both keys (within margin of error #{delta_labels})")
+        ICVSB.ldebug("Number of labels match both keys (within margin of error #{delta_labels})")
 
         # 7b. Confidence delta
         delta_confs_exceeded = []
@@ -532,7 +565,7 @@ module ICVSB
           their_conf = their_request.response.labels[label]
 
           if their_conf.nil?
-            ICVSB.linfo("The label #{label} does not exist in the response id=#{their_request.response.id}. "\
+            ICVSB.ldebug("The label #{label} does not exist in the response id=#{their_request.response.id}. "\
               'Skipping confidence comparison...')
             next
           end
@@ -557,7 +590,7 @@ module ICVSB
             "validation key (id=#{key.id}): #{delta_confs_exceeded}."
           )
         end
-        ICVSB.linfo("Both keys have confidence within margin of error #{delta_confidence}")
+        ICVSB.ldebug("Both keys have confidence within margin of error #{delta_confidence}")
       end
 
       # All checks pass...
@@ -640,7 +673,7 @@ module ICVSB
       raise ArgumentError, 'Batch must be a BatchRequest.' if !batch.nil? && !batch.is_a?(BatchRequest)
 
       batch_id = batch.nil? ? nil : batch.id
-      ICVSB.linfo("Sending URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
+      ICVSB.ldebug("Sending URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
 
       begin
         request_start = DateTime.now
@@ -653,7 +686,7 @@ module ICVSB
         when Service::AZURE
           response = _request_azure_computer_vision(uri)
         end
-        ICVSB.linfo("Succesful response for URI #{uri} to #{@service.name} - batch_id: #{batch_id}")
+        ICVSB.ldebug("Succesful response for URI #{uri} to #{@service.name} (batch_id=#{batch_id})")
       rescue StandardError => e
         ICVSB.lwarn("Exception caught in send_uri: #{e.class} - #{e.message}")
         exception = e
@@ -670,7 +703,7 @@ module ICVSB
         success: exception.nil? && response[:success],
         request_id: request.id
       )
-      ICVSB.linfo("Request saved (id=#{request.id}) with response (id=#{response.id})")
+      ICVSB.ldebug("Request saved (id=#{request.id}) with response (id=#{response.id})")
       response
     end
 
@@ -836,7 +869,7 @@ module ICVSB
       raise ArgumentError, 'Mimes must be an array of strings.' unless mimes.is_a?(Array)
       raise ArgumentError, "Invalid URI specified: #{uri}." unless uri =~ URI::DEFAULT_PARSER.make_regexp
 
-      ICVSB.linfo("Downloading image at URI: #{uri}")
+      ICVSB.ldebug("Downloading image at URI: #{uri}")
       file = Down.download(uri)
       mime = file.content_type
 
@@ -937,9 +970,9 @@ module ICVSB
       @benchmark_count = 0
       @invalid_state_count = 0
       trigger_benchmark if @benchmark_config[:autobenchmark]
-      @scheduler = Rufus::Scheduler.new.cron(@benchmark_config[:trigger_on_schedule]) do |cronjob|
+      @scheduler = Rufus::Scheduler.new.schedule(@benchmark_config[:trigger_on_schedule]) do |cronjob|
         ICVSB.linfo("Cronjob starting for BenchmarkedRequestClient #{self} - "\
-          "Scheduled at: #{cronjob.scheduled_at} - Last ran at: #{cronjob.last_time}")
+          "Scheduled at: #{cronjob.scheduled_at}; Last ran at: #{cronjob.last_time}.")
         trigger_benchmark
       end
     end
@@ -948,6 +981,31 @@ module ICVSB
     # @return [Boolean] True if the client is benchmarking, false otherwise.
     def benchmarking?
       @is_benchmarking
+    end
+
+    # Returns the next time a schedule to trigger a benchmark will run.
+    # @return [DateTime] The time the next trigger to benchmark will be run.
+    def next_scheduled_benchmark_time
+      DateTime.parse(@scheduler.next_time.to_t.to_s)
+    end
+
+    # Returns the last time a schedule to trigger a benchmark was run.
+    # @return [DateTime,nil] Time next DateTime the benchmark ran or nil if
+    #   the scheduler has never yet run.
+    def last_scheduled_benchmark_time
+      @scheduler.last_time.nil? ? nil : DateTime.parse(@scheduler.last_time.to_t.to_s)
+    end
+
+    # Returns the average time taken to complete the last benchmark.
+    # @return [Float] The time taken.
+    def mean_scheduled_benchmark_duration
+      @scheduler.mean_work_time
+    end
+
+    # Returns the time taken to complete the last benchmark.
+    # @return [Float] The time taken.
+    def last_scheduled_benchmark_duration
+      @scheduler.last_work_time
     end
 
     attr_reader *%i[
@@ -983,14 +1041,16 @@ module ICVSB
     #   populated if the key has a severity level of
     #   #BenchmarkSeverity::EXCEPTION or #BenchmarkSeverity::WARNING;
     #   +:response_error:+ similar to :key_error: but for the response;
-    #   +:cahced:+ an optional boolean indicating that a cached response was
-    #   returned.
+    #   +:cached:+ an optional DateTime inciating that there was no need to make
+    #   a request to the service as the benchmarker holds a cached response that
+    #   is still valid; this indicates the time at which the cached response was
+    #   generated.
     def send_uri_with_key(uri, key)
       raise ArgumentError, 'URI must be a string.' unless uri.is_a?(String)
       raise ArgumentError, 'Key must be a BenchmarkKey.' unless key.is_a?(BenchmarkKey)
 
       if @current_key.nil?
-        return { key_error: BenchmarkKey::InvalidKeyError.new(BenchmarkKey::InvalidKeyError::NO_KEY_YET) }
+        return { key_error: BenchmarkKey::InvalidKeyError.new(BenchmarkKey::InvalidKeyError::NO_KEY_YET).to_s }
       end
 
       result = {
@@ -999,44 +1059,57 @@ module ICVSB
         key_error: nil,
         response_error: nil,
         service_error: nil,
-        cached: false
+        cached: nil
       }
 
       # Check for a cached result w/ this service
+      ICVSB.ldebug("Attempting to use a cached response for #{uri} + #{@service.name}...")
       Request.where(uri: uri, service_id: @service.id).order(Sequel.desc(:created_at)).each do |request|
         response = request.response
+
         # Ignore unsuccessful responses
         next unless response.success?
 
         # Check if the response's benchmark is still valid -- if so, just
         # reuse that result... (no need to actually ping service)
-        if @current_key.valid_against?(response.benchmark_key)
-          return { labels: response.labels, response: response.hash, cached: true }
+        if !response.benchmark_key.nil? && @current_key.valid_against?(response.benchmark_key)
+          return { labels: response.labels, response: response.hash, cached: DateTime.parse(response.created_at.to_s) }
         end
       end
+      ICVSB.ldebug("Cached response failed! Will try to invoke a request to #{@service.name}")
 
       # Check for key validity
+      ICVSB.ldebug("Checking if current key (id=#{@current_key.id}) is valid against key provided (id=#{key.id})...")
       key_valid, key_invalid_reason = @current_key.valid_against?(key)
       # Invalid state count incremement if key error exists...
       unless key_valid
+        ICVSB.ldebug("Validation of current key (id=#{@current_key.id}) failed against key provided (id=#{key.id}). "\
+          "Reason: #{key_invalid_reason}")
         result[:key_error] = key_invalid_reason.to_s
         @invalid_state_count += 1
         ICVSB.linfo("Error has occured in key validation. Invalid state count count is now #{@invalid_state_count}.")
       end
 
       # If key is valid, raise request and check if response is valid
+      ICVSB.ldebug("Key provided #{key.id} is valid against current key #{@current_key.id}!")
       if key_valid
+        ICVSB.ldebug("Invoking a request '#{uri}' to #{@service.name}...")
         response = send_uri_no_key(uri)
+        ICVSB.ldebug("Response returned (id=#{response.id})! Service Error: #{result[:response][:service_error]}; "\
+          "Labels: #{response.labels}")
         # Update the benchmark key id
         response.benchmark_key_id = @current_key.id
-        response.save!
+        ICVSB.ldebug("Updated response (id=#{response.id}) with benchmark key = #{response.benchmark_key_id}...")
         # Now check to see if it was valid...
+        ICVSB.ldebug("Checking if this response (id=#{response.id}) is valid against current key (id=#{key.id})")
         response_valid, response_invalid_reason = @current_key.valid_against?(response)
         result[:labels] = response.labels
         result[:response] = response.hash
-        result[:service_error] = result[:response][:service_error]
+        result[:service_error] = result[:response][:service_error].to_s
         # Incremenet invalid state count if response error ONLY (i.e., not service error)
         unless response_valid
+          ICVSB.ldebug("Validation of current key (id=#{@current_key.id}) failed against response "\
+            "(id=#{response.id}). Reason: #{response_invalid_reason}")
           result[:response_error] = response_invalid_reason.to_s
           @invalid_state_count += 1
           ICVSB.linfo('Error has occured in response validation. '\
@@ -1046,10 +1119,10 @@ module ICVSB
 
       # If benchmark trigger on num failures is set
       if @benchmark_config[:trigger_on_failcount].positive? &&
-         @failure_count > @benchmark_config[:trigger_on_failcount]
+         @invalid_state_count > @benchmark_config[:trigger_on_failcount]
         ICVSB.linfo("Benchmark has failed #{@benchmark_config[:trigger_on_failcount]} "\
           'times... retriggering benchmark...')
-        @failure_count = 0
+        @invalid_state_count = 0
         trigger_benchmark
       end
 
@@ -1217,8 +1290,7 @@ module ICVSB
       # Ensure every response is updated with this key
       br.responses.each do |res|
         ICVSB.ldebug("Updating response id=#{res.id} to benchmark key id=#{bk.id}.")
-        res.request.benchmark_key_id = bk.id
-        res.save
+        res.benchmark_key_id = bk.id
       end
       ICVSB.linfo("Benchmarking dataset is complete (benchmark key id=#{bk.id}).")
       bk
