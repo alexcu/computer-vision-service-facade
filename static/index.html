@@ -255,9 +255,14 @@
             <div id="submit-request-card-body" class="card-body">
               <form id="submit-request-form">
                 <div class="col form-group required">
+                  <div class="input-group">
+                    <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
+                      placeholder="http://example.com/dog.jpg" required>
+                    <div class="input-group-append">
+                      <button onclick="randomImage()" class="btn btn-primary btn-sm">Random</button>
+                    </div>
+                  </div>
                   <label for="submit-request-image-uri" class="control-label">Image URI:</label>
-                  <input type="text" id="submit-request-image-uri" class="form-control form-control-sm"
-                      placeholder="http://example.com/dog.jpg">
                   <small class="form-text text-muted">
                     This is a URI to a publically avaliable image that you would like to
                     get labels from.
@@ -266,7 +271,8 @@
                 <div class="col form-group required">
                   <label for="submit-request-if-match" class="control-label">If-Match Request Header:</label>
                   <input type="text" id="submit-request-if-match" class="form-control form-control-sm"
-                    placeholder='W/"70131436679660;100",W/"70131436679660;101",W/"70131436679660"'>
+                    placeholder='W/"70131436679660;100",W/"70131436679660;101",W/"70131436679660"'
+                    pattern='W\/"(\d+;?\d+)",?' required>
                   <small class="form-text text-muted">
                     Provide a weak <a href="https://tools.ietf.org/html/rfc7232#section-2.3">ETag</a> into
                     the <a href="https://tools.ietf.org/html/rfc7232#section-3.1">If-Match</a>

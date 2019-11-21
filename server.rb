@@ -7,6 +7,7 @@ require 'cgi'
 require 'require_all'
 require_all 'lib'
 
+
 set :root, File.dirname(__FILE__)
 set :public_folder, File.join(File.dirname(__FILE__), 'static')
 set :show_exceptions, false
@@ -153,6 +154,18 @@ get '/benchmark/:id' do
   }.to_json
 end
 
+patch '/benchmark/:id' do
+  # TODO: Set is_benchmarking to true to force the benchmark to reevaluate...
+  # Else, endpoint is ignored
+  id = params[:id].to_i
+  check_brc_id(id, store)
+  brc = store[id]
+
+  brc.trigger_benchmark if params[:is_benchmarking] && !brc.benchmarking?
+
+  status 202
+end
+
 # Gets all auxillary information about this key's benchmark
 get '/benchmark/:id/key' do
   id = params[:id].to_i
@@ -202,10 +215,12 @@ get '/benchmark/:id/log' do
   store[id].read_log
 end
 
-post '/callbacks/benchmark'
+post '/callbacks/benchmark' do
+
 end
 
-post '/callbacks/warning'
+post '/callbacks/warning' do
+
 end
 
 # Labels resources against the provided uri. This is a conditional HTTP request.
@@ -253,6 +268,7 @@ end
 #     valid, and thus the key provided (or time provided) is violating the
 #     valid tolerances embedded within the key (responding further details
 #     reasoning what tolerances were violated as metadata in the response body);
+#   - 428 Precondition Required if no If-Match field is provided in request;
 #   - 422 Unprocessable Entity if a service error has occured, indicating the
 #     service cannot process the entity or a bad request was made.
 #   - 500 Internal Server Error if a facade error has occured.
@@ -272,40 +288,48 @@ get '/labels' do
   image_uri = CGI.unescape(params[:image])
 
   if_match = request.env['HTTP_IF_MATCH'] || ''
-  if_unmodified_since = request.env['IF_UNMODIFIED_SINCE'] || ''
+  if_unmodified_since = request.env['HTTP_IF_UNMODIFIED_SINCE'] || ''
 
   halt! 400, 'URI provided to analyse is not a valid URI' unless image_uri.uri?
-  halt! 400, 'Missing If-Match in request header' if if_match.nil?
+  halt! 428, 'Missing If-Match in request header' if if_match.nil?
   if !if_unmodified_since.empty? && !if_unmodified_since.httpdate?
     halt! 400, 'If Unmodified Since must be compliant with the RFC 2616 HTTP date format'
   end
 
   if_unmodified_since_date = if_unmodified_since.empty? ? nil : Time.httpdate(if_unmodified_since)
 
-  relay_body = {}
+  relay_body = nil
   relay_etag = nil
   relay_last_modified = nil
-  relay_expired = nil
+  relay_expires = nil
 
   # Scan through each comma-separated ETag
   etags = if_match.scan(%r{W\/"(\d+;?\d+)",?})
+  if etags.empty?
+    halt! 428, 'Malformed ETags provided. Ensure you are using the correct format.'
+  end
   etags.each do |etag|
-    benchmark_id, benchmark_key_id = etag[0].split(';').map(&:to_i)
+    etag = etag[0]
+    benchmark_id, benchmark_key_id = etag.split(';').map(&:to_i)
 
     # Check if we have a valid benchmark id
     check_brc_id(benchmark_id, store)
     brc = store[benchmark_id]
     bk = nil
 
+    puts 1
+
     # Check if we have a key; if no key we must have a If-Unmodified-Since.
-    if benchmark_key_id.nil? && if_unmodified_since.nil?
-      halt! 400, "You have provided a benchmark id (id=#{benchmark_key_id}) "\
+    if benchmark_key_id.nil? && if_unmodified_since.empty?
+      halt! 400, "You have provided a benchmark id (id=#{benchmark_id}) "\
                 'without a behaviour token. Please provide a behaviour token '\
                 'or include the If-Unmodified-Since request header with a RFC '\
                 '2616-compliant HTTP date string.'
     elsif !benchmark_key_id.nil?
       # Check if valid key
-      halt! 400, "No such key with id #{key_id} exists!" if ICVSB::BenchmarkKey.where(id: benchmark_key_id).empty?
+      if ICVSB::BenchmarkKey.where(id: benchmark_key_id).empty?
+        halt! 400, "No such key with id #{benchmark_key_id} exists!"
+      end
       unless benchmark_key_id.integer? && benchmark_key_id.positive?
         halt! 400, 'Behaviour token must be a positive integer.'
       end
@@ -313,43 +337,64 @@ get '/labels' do
       bk = ICVSB::BenchmarkKey[id: benchmark_key_id]
     elsif !if_unmodified_since_date.nil?
       bk = brc.find_key_since(if_unmodified_since_date)
-      halt! 400, "No behaviour token can be found that has been unmodified since #{if_unmodified_since_date}." if bk.nil?
+      halt! 412, "No compatible behaviour token found unmodified since #{if_unmodified_since_date}." if bk.nil?
     end
+
+    puts 2
 
     # Process...
     result = brc.send_uri_with_key(image_uri, bk)
+
+    puts 3
 
     # Set HTTP status+body as appropriate if there is no more ETags or if
     # this was a successful response (i.e., no errors so don't keep trying other
     # ETags...)
     error = result.key?(:key_error) || result.key?(:response_error) || result.key?(:service_error)
-    if etag == etags.last || !error
+    puts 4
+    puts etag.inspect, etags.inspect
+    puts etag == etags.last || !error
+    puts !error
+    puts "***"
+    if [etag] == etags.last || !error
+      puts 5
       if result[:key_error] || result[:response_error]
+        puts 6
         status 412
         content_type 'text/plain'
-        relay_body = !result[:key_error].nil? ? result[:key_error] : result[:response_error]
+        relay_body = result[:key_error] ? result[:key_error] : result[:response_error]
+        puts "RELAY BODY SET TO #{result[:key_error] ? result[:key_error] : result[:response_error]}"
       elsif result[:service_error]
+        puts 7
         status 422
         content_type 'text/plain'
         relay_body = result[:service_error]
       else
+        puts 8
         content_type 'application/json;charset=utf-8'
         unless result[:cached].nil?
-          response.headers['Age'] = ((DateTime.now - result[:cached]) * 24 * 60 * 60).to_i
+          age_sec = ((DateTime.now - result[:cached]) * 24 * 60 * 60).to_i.to_s
+          headers 'Age' => age_sec
         end
-        relay_body = result[:response]
+        puts 9
+        status 200
+        relay_body = result[:response].to_json
       end
+      puts 10
       relay_etag = etag
       relay_last_modified = brc.current_key.nil? ? brc.created_at.httpdate : brc.current_key.created_at.httpdate
-      relay_expired = brc.next_scheduled_benchmark_time.httpdate
+      relay_expires = brc.next_scheduled_benchmark_time.httpdate
     end
   end
-  response.headers['ETag'] = "W/\"#{relay_etag}\""
-  response.headers['Expires'] = relay_expired
-  response.headers['Last-Modified'] = relay_last_modified
-  relay_body
+  headers \
+    'ETag' => "W/\"#{relay_etag}\"", \
+    'Expires' => relay_expires, \
+    'Last-Modified' => relay_last_modified
+  body relay_body
 end
 
 error do |e|
   halt! 500, e.message
 end
+
+

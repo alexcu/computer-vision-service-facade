@@ -501,7 +501,7 @@ module ICVSB
         return false, BenchmarkKey::InvalidKeyError.new(
           BenchmarkKey::InvalidKeyError::MAX_LABELS_MISMATCH,
           "Source key (id=#{id}) max_labels=#{max_labels} but "\
-          "validation key (id=#{key.id}) max_labels=#{key.service.name}."
+          "validation key (id=#{key.id}) max_labels=#{key.max_labels}."
         )
       end
       ICVSB.ldebug('Both keys have same max labels')
@@ -543,17 +543,17 @@ module ICVSB
         # 7a. Label delta
         symm_diff_labels = our_labels ^ their_labels
 
-        ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a.join(', ')}} against "\
-          "id=#{their_request.id} {#{their_labels.to_a.join(', ')}} - symm diff "\
-          "= {#{symm_diff_labels.to_a.join(', ')}}")
+        ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a}} against "\
+          "id=#{their_request.id} {#{their_labels.to_a}} - symm diff "\
+          "= {#{symm_diff_labels.to_a}}")
         if symm_diff_labels.length > delta_labels
           ICVSB.lwarn("Number of labels mismatch in key validation (margin of error=#{delta_labels}): "\
             "Symmetric difference = #{symm_diff_labels.to_a}.")
           return false, BenchmarkKey::InvalidKeyError.new(
             BenchmarkKey::InvalidKeyError::LABEL_DELTA_MISMATCH,
-            "Source key (id=#{id}) labels#=#{our_labels.length} but "\
-            "validation key (id=#{key.id}) labels#=#{their_labels.length} "\
-            "which exceeds the delta label value of #{delta_labels}."
+            "Source key (id=#{id}) and validation key (id=#{key.id}) have #{symm_diff_labels.length} "\
+            "differing labels, which exceeds the delta label value of #{delta_labels}. "\
+            "Symmetric difference is #{symm_diff_labels.to_a}."
           )
         end
         ICVSB.ldebug("Number of labels match both keys (within margin of error #{delta_labels})")
@@ -798,7 +798,7 @@ module ICVSB
           image: image.open,
           max_results: @max_labels
         ).to_h
-      rescue Google::Gax::RetryError => e
+      rescue StandardError => e
         exception = e
         res = { service_error: "#{exception.class} - #{exception.message}" }
       end
@@ -824,7 +824,7 @@ module ICVSB
           max_labels: @max_labels,
           min_confidence: @min_confidence
         ).to_h
-      rescue Aws::Rekognition::Errors => e
+      rescue StandardError => e
         exception = e
         res = { service_error: "#{e.class} - #{e.message}" }
       end
@@ -960,7 +960,7 @@ module ICVSB
       end
 
       if !opts[:warning_callback_uri].nil? && opts[:severity] != BenchmarkSeverity::WARNING
-        ICVSB.lwarn("A benchmark callback URI #{opts[:warning_callback_uri]} was set but "\
+        ICVSB.lwarn("A warning callback URI #{opts[:warning_callback_uri]} was set but "\
           'the severity is not WARNING. This callback will be ignored...')
       end
 
@@ -1068,7 +1068,7 @@ module ICVSB
         response = request.response
 
         # Ignore unsuccessful responses
-        next unless response.success?
+        next if response.nil? || !response.success?
 
         # Check if the response's benchmark is still valid -- if so, just
         # reuse that result... (no need to actually ping service)
@@ -1095,8 +1095,7 @@ module ICVSB
       if key_valid
         ICVSB.ldebug("Invoking a request '#{uri}' to #{@service.name}...")
         response = send_uri_no_key(uri)
-        ICVSB.ldebug("Response returned (id=#{response.id})! Service Error: #{result[:response][:service_error]}; "\
-          "Labels: #{response.labels}")
+        ICVSB.ldebug("Response returned (id=#{response.id})! Labels: #{response.labels}")
         # Update the benchmark key id
         response.benchmark_key_id = @current_key.id
         ICVSB.ldebug("Updated response (id=#{response.id}) with benchmark key = #{response.benchmark_key_id}...")
@@ -1130,7 +1129,7 @@ module ICVSB
       case @current_key.benchmark_severity
       when BenchmarkSeverity::EXCEPTION
         # Only expose errors...
-        { key_error: result[:key_error], response_error: result[:response_error] }
+        { key_error: result[:key_error], response_error: result[:response_error], service_error: result[:service_error] }
       when BenchmarkSeverity::WARNING
         # Flag a warning to the warning endpoint about this result if sev is WARN
         _flag_warning(result)
@@ -1183,7 +1182,7 @@ module ICVSB
             "Reason='#{reason}'. Falling back to old key (id=#{old_key.nil? ? '<NONE>' : old_key.id})...")
           @current_key.expire
           @current_key = old_key
-          @current_key.unexpire unless @current_key.nil?
+          @current_key&.unexpire
           expiry_occured = true
           break
         end
@@ -1202,12 +1201,11 @@ module ICVSB
         delta_labels: @key_config[:delta_labels],
         delta_confidence: @key_config[:delta_confidence],
         expected_labels: @key_config[:expected_labels].map(&:downcase).join(','),
-        created_at: date..(DateTime.now)
-      ).reverse_order(:created_at)
+      ).where(Sequel[:created_at] > date).reverse_order(:created_at)
       return nil if candidate_bks.nil?
 
       candidate_bks.find do |bk|
-        (Set[*bk.batch_request.uris] - Set[@dataset]).empty?
+        (Set[*bk.batch_request.uris] ^ Set[*@dataset]).empty?
       end
     end
 

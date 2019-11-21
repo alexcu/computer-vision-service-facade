@@ -8,11 +8,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('new-benchmark-form').onsubmit = submitNewBenchmarkForm;
   document.getElementById('check-benchmark-form').onsubmit = submitCheckBenchmarkForm;
   document.getElementById('submit-request-form').onsubmit = submitRequestForm;
-  document.getElementById('submit-request-image-uri').oninput = function (e) {
-    var imageUri = e.target.value;
-    var imgEl = document.getElementById('submit-request-image-preview');
-    imgEl.src = imageUri;
-  };
+  document.getElementById('submit-request-image-uri').oninput = updateImagePreview;
   document.getElementById('benchmark-callback-uri').value = window.location.origin + '/callbacks/benchmark';
 
   document.getElementById('severity').onchange = function (e) {
@@ -23,6 +19,18 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById('warning-callback-uri-form-group').classList.toggle('required', iswarn);
   }
 });
+
+function updateImagePreview() {
+  var imageUri = document.getElementById('submit-request-image-uri').value;
+  var imgEl = document.getElementById('submit-request-image-preview');
+  imgEl.src = imageUri;
+}
+
+function randomImage() {
+  document.getElementById('submit-request-image-uri').value =
+    'https://picsum.photos/seed/' + Math.floor(Math.random() * 10000) + '/800/600'
+  updateImagePreview();
+}
 
 function escapeHtml(unsafe) {
   return unsafe
