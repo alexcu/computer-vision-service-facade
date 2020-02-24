@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7684727907180786,
+      "topicality": 0.7684727907180786
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.6242249608039856,
+      "topicality": 0.6242249608039856
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.502187192440033,
+      "topicality": 0.502187192440033
+    }
+  ]
+}

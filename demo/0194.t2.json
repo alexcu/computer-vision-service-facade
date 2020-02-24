@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01nr56",
+      "description": "latte",
+      "score": 0.9694903492927551,
+      "topicality": 0.9694903492927551
+    },
+    {
+      "mid": "/m/08gqpm",
+      "description": "cup",
+      "score": 0.9671328067779541,
+      "topicality": 0.9671328067779541
+    },
+    {
+      "mid": "/m/07ptj3n",
+      "description": "cup",
+      "score": 0.9615261554718018,
+      "topicality": 0.9615261554718018
+    },
+    {
+      "mid": "/m/0296jp",
+      "description": "caff\u00e8 macchiato",
+      "score": 0.9546303153038025,
+      "topicality": 0.9546303153038025
+    },
+    {
+      "mid": "/m/046jml",
+      "description": "cortado",
+      "score": 0.9393932223320007,
+      "topicality": 0.9393932223320007
+    },
+    {
+      "mid": "/m/09702",
+      "description": "cappuccino",
+      "score": 0.9376639723777771,
+      "topicality": 0.9376639723777771
+    },
+    {
+      "mid": "/m/0364jn",
+      "description": "caf\u00e9 au lait",
+      "score": 0.9261486530303955,
+      "topicality": 0.9261486530303955
+    },
+    {
+      "mid": "/m/087bpd",
+      "description": "flat white",
+      "score": 0.9255891442298889,
+      "topicality": 0.9255891442298889
+    },
+    {
+      "mid": "/m/02vqfm",
+      "description": "coffee",
+      "score": 0.9197433590888977,
+      "topicality": 0.9197433590888977
+    },
+    {
+      "mid": "/m/05wgwh",
+      "description": "sweetness",
+      "score": 0.9195029139518738,
+      "topicality": 0.9195029139518738
+    }
+  ]
+}

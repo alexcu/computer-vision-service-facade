@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0191_7",
+      "description": "retail",
+      "score": 0.8987482190132141,
+      "topicality": 0.8987482190132141
+    },
+    {
+      "mid": "/m/09bgkl",
+      "description": "outlet store",
+      "score": 0.6046280264854431,
+      "topicality": 0.6046280264854431
+    },
+    {
+      "mid": "/m/025s8bs",
+      "description": "shopping mall",
+      "score": 0.601527750492096,
+      "topicality": 0.601527750492096
+    },
+    {
+      "mid": "/m/0crjs",
+      "description": "convenience store",
+      "score": 0.5926509499549866,
+      "topicality": 0.5926509499549866
+    },
+    {
+      "mid": "/m/0dnkv",
+      "description": "supermarket",
+      "score": 0.5582058429718018,
+      "topicality": 0.5582058429718018
+    },
+    {
+      "mid": "/m/011s0",
+      "description": "advertising",
+      "score": 0.5332703590393066,
+      "topicality": 0.5332703590393066
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.5001225471496582,
+      "topicality": 0.5001225471496582
+    }
+  ]
+}

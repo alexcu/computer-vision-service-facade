@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9763481020927429,
+      "topicality": 0.9763481020927429
+    },
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9586912989616394,
+      "topicality": 0.9586912989616394
+    },
+    {
+      "mid": "/m/03d28y3",
+      "description": "natural landscape",
+      "score": 0.8855189085006714,
+      "topicality": 0.8855189085006714
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.8651674389839172,
+      "topicality": 0.8651674389839172
+    },
+    {
+      "mid": "/m/02hnx9",
+      "description": "woody plant",
+      "score": 0.8402574062347412,
+      "topicality": 0.8402574062347412
+    },
+    {
+      "mid": "/m/0swq_",
+      "description": "nature reserve",
+      "score": 0.8341526985168457,
+      "topicality": 0.8341526985168457
+    },
+    {
+      "mid": "/m/01jb4",
+      "description": "biome",
+      "score": 0.8192582726478577,
+      "topicality": 0.8192582726478577
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.8046593070030212,
+      "topicality": 0.8046593070030212
+    },
+    {
+      "mid": "/m/0hnc1",
+      "description": "woodland",
+      "score": 0.7970800995826721,
+      "topicality": 0.7970800995826721
+    },
+    {
+      "mid": "/m/06600f2",
+      "description": "plant community",
+      "score": 0.7531729340553284,
+      "topicality": 0.7531729340553284
+    }
+  ]
+}

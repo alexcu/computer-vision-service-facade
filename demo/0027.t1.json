@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/068mqj",
+      "description": "automotive design",
+      "score": 0.7512691617012024,
+      "topicality": 0.7512691617012024
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.7451644539833069,
+      "topicality": 0.7451644539833069
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.7035850286483765,
+      "topicality": 0.7035850286483765
+    },
+    {
+      "mid": "/m/0h8ls87",
+      "description": "automotive exterior",
+      "score": 0.6950415968894958,
+      "topicality": 0.6950415968894958
+    },
+    {
+      "mid": "/m/01jwgf",
+      "description": "product",
+      "score": 0.6606065034866333,
+      "topicality": 0.6606065034866333
+    },
+    {
+      "mid": "/m/0ffjr",
+      "description": "personal protective equipment",
+      "score": 0.6346031427383423,
+      "topicality": 0.6346031427383423
+    },
+    {
+      "mid": "/m/03qtgkw",
+      "description": "hardware",
+      "score": 0.5253342986106873,
+      "topicality": 0.5253342986106873
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.5249391198158264,
+      "topicality": 0.5249391198158264
+    },
+    {
+      "mid": "/m/01cd9",
+      "description": "brand",
+      "score": 0.5095885396003723,
+      "topicality": 0.5095885396003723
+    }
+  ]
+}

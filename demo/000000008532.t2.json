@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09g5pq",
+      "description": "people",
+      "score": 0.9343461394309998,
+      "topicality": 0.9343461394309998
+    },
+    {
+      "mid": "/m/0jyfg",
+      "description": "glasses",
+      "score": 0.926969051361084,
+      "topicality": 0.926969051361084
+    },
+    {
+      "mid": "/m/0j272k5",
+      "description": "eyewear",
+      "score": 0.862449049949646,
+      "topicality": 0.862449049949646
+    },
+    {
+      "mid": "/m/05zppz",
+      "description": "male",
+      "score": 0.808988630771637,
+      "topicality": 0.808988630771637
+    },
+    {
+      "mid": "/m/0dgw9r",
+      "description": "human",
+      "score": 0.8087015151977539,
+      "topicality": 0.8087015151977539
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.7731727361679077,
+      "topicality": 0.7731727361679077
+    },
+    {
+      "mid": "/m/019p5q",
+      "description": "gentleman",
+      "score": 0.7709087133407593,
+      "topicality": 0.7709087133407593
+    },
+    {
+      "mid": "/m/01443y",
+      "description": "headgear",
+      "score": 0.7367963790893555,
+      "topicality": 0.7367963790893555
+    },
+    {
+      "mid": "/m/01kq3x",
+      "description": "white-collar worker",
+      "score": 0.6728239059448242,
+      "topicality": 0.6728239059448242
+    },
+    {
+      "mid": "/m/01rkbr",
+      "description": "tie",
+      "score": 0.6505475044250488,
+      "topicality": 0.6505475044250488
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9934034943580627,
+      "topicality": 0.9934034943580627
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9903261065483093,
+      "topicality": 0.9903261065483093
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9864208102226257,
+      "topicality": 0.9864208102226257
+    },
+    {
+      "mid": "/m/0270h",
+      "description": "dessert",
+      "score": 0.9154948592185974,
+      "topicality": 0.9154948592185974
+    },
+    {
+      "mid": "/m/079dl7",
+      "description": "chocolate cake",
+      "score": 0.8939638733863831,
+      "topicality": 0.8939638733863831
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.8915150165557861,
+      "topicality": 0.8915150165557861
+    },
+    {
+      "mid": "/m/0fszt",
+      "description": "cake",
+      "score": 0.8895964622497559,
+      "topicality": 0.8895964622497559
+    },
+    {
+      "mid": "/m/020vl",
+      "description": "chocolate",
+      "score": 0.8627654910087585,
+      "topicality": 0.8627654910087585
+    },
+    {
+      "mid": "/m/052lwg6",
+      "description": "baked goods",
+      "score": 0.8458966016769409,
+      "topicality": 0.8458966016769409
+    },
+    {
+      "mid": "/m/0465mr4",
+      "description": "frozen dessert",
+      "score": 0.8093794584274292,
+      "topicality": 0.8093794584274292
+    }
+  ]
+}

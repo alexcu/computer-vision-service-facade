@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9903261065483093,
+      "topicality": 0.9903261065483093
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9539156556129456,
+      "topicality": 0.9539156556129456
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9447744488716125,
+      "topicality": 0.9447744488716125
+    },
+    {
+      "mid": "/m/07ptj3n",
+      "description": "cup",
+      "score": 0.9385675191879272,
+      "topicality": 0.9385675191879272
+    },
+    {
+      "mid": "/m/08gqpm",
+      "description": "cup",
+      "score": 0.9377174973487854,
+      "topicality": 0.9377174973487854
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.9207317233085632,
+      "topicality": 0.9207317233085632
+    },
+    {
+      "mid": "/m/02p5f1q",
+      "description": "coffee cup",
+      "score": 0.9142976999282837,
+      "topicality": 0.9142976999282837
+    },
+    {
+      "mid": "/m/0ctfk",
+      "description": "espresso",
+      "score": 0.8942238092422485,
+      "topicality": 0.8942238092422485
+    },
+    {
+      "mid": "/m/02vqfm",
+      "description": "coffee",
+      "score": 0.8812168836593628,
+      "topicality": 0.8812168836593628
+    },
+    {
+      "mid": "/m/08b1tb",
+      "description": "cuban espresso",
+      "score": 0.8722335696220398,
+      "topicality": 0.8722335696220398
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09g5pq",
+      "description": "people",
+      "score": 0.950478196144104,
+      "topicality": 0.950478196144104
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7475100755691528,
+      "topicality": 0.7475100755691528
+    },
+    {
+      "mid": "/m/01gq53",
+      "description": "performance",
+      "score": 0.5767292976379395,
+      "topicality": 0.5767292976379395
+    },
+    {
+      "mid": "/m/0ytgt",
+      "description": "child",
+      "score": 0.5202996134757996,
+      "topicality": 0.5202996134757996
+    },
+    {
+      "mid": "/m/03qtwd",
+      "description": "crowd",
+      "score": 0.5069608092308044,
+      "topicality": 0.5069608092308044
+    },
+    {
+      "mid": "/m/0250x",
+      "description": "costume",
+      "score": 0.502637505531311,
+      "topicality": 0.502637505531311
+    }
+  ]
+}

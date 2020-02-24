@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/071k0",
+      "description": "skiing",
+      "score": 0.9370942711830139,
+      "topicality": 0.9370942711830139
+    },
+    {
+      "mid": "/m/09_b4",
+      "description": "freestyle skiing",
+      "score": 0.8624423742294312,
+      "topicality": 0.8624423742294312
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8452635407447815,
+      "topicality": 0.8452635407447815
+    },
+    {
+      "mid": "/m/08nxyq",
+      "description": "ski cross",
+      "score": 0.8162500858306885,
+      "topicality": 0.8162500858306885
+    },
+    {
+      "mid": "/m/06_dn",
+      "description": "snow",
+      "score": 0.8150163888931274,
+      "topicality": 0.8150163888931274
+    },
+    {
+      "mid": "/m/086mh",
+      "description": "winter",
+      "score": 0.797209620475769,
+      "topicality": 0.797209620475769
+    },
+    {
+      "mid": "/m/09qf5",
+      "description": "winter sport",
+      "score": 0.7911157011985779,
+      "topicality": 0.7911157011985779
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.7776483297348022,
+      "topicality": 0.7776483297348022
+    },
+    {
+      "mid": "/m/04wxr",
+      "description": "mountain range",
+      "score": 0.7511245608329773,
+      "topicality": 0.7511245608329773
+    },
+    {
+      "mid": "/m/01z27",
+      "description": "cross country skiing",
+      "score": 0.7389575839042664,
+      "topicality": 0.7389575839042664
+    }
+  ]
+}

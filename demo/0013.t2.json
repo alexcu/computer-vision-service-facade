@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.9847100973129272,
+      "topicality": 0.9847100973129272
+    },
+    {
+      "mid": "/m/04gv79h",
+      "description": "headland",
+      "score": 0.9638985395431519,
+      "topicality": 0.9638985395431519
+    },
+    {
+      "mid": "/m/01lxd",
+      "description": "coast",
+      "score": 0.9633286595344543,
+      "topicality": 0.9633286595344543
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.952150285243988,
+      "topicality": 0.952150285243988
+    },
+    {
+      "mid": "/m/02r3_7_",
+      "description": "promontory",
+      "score": 0.9474060535430908,
+      "topicality": 0.9474060535430908
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.9355228543281555,
+      "topicality": 0.9355228543281555
+    },
+    {
+      "mid": "/m/05v17t",
+      "description": "bight",
+      "score": 0.9176977276802063,
+      "topicality": 0.9176977276802063
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.9131792783737183,
+      "topicality": 0.9131792783737183
+    },
+    {
+      "mid": "/m/09fkjm",
+      "description": "klippe",
+      "score": 0.8677597045898438,
+      "topicality": 0.8677597045898438
+    },
+    {
+      "mid": "/m/028ltj",
+      "description": "raised beach",
+      "score": 0.8580690622329712,
+      "topicality": 0.8580690622329712
+    }
+  ]
+}

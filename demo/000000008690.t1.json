@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04cmwn",
+      "description": "goats",
+      "score": 0.928973913192749,
+      "topicality": 0.928973913192749
+    },
+    {
+      "mid": "/m/03fwl",
+      "description": "goat",
+      "score": 0.8751894235610962,
+      "topicality": 0.8751894235610962
+    },
+    {
+      "mid": "/m/0ch8v",
+      "description": "livestock",
+      "score": 0.6904138922691345,
+      "topicality": 0.6904138922691345
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.6116361618041992,
+      "topicality": 0.6116361618041992
+    }
+  ]
+}

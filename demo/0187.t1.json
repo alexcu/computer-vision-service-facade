@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.7681289911270142,
+      "topicality": 0.7681289911270142
+    },
+    {
+      "mid": "/m/029zz6",
+      "description": "display device",
+      "score": 0.7272699475288391,
+      "topicality": 0.7272699475288391
+    },
+    {
+      "mid": "/m/011s0",
+      "description": "advertising",
+      "score": 0.6864508390426636,
+      "topicality": 0.6864508390426636
+    },
+    {
+      "mid": "/m/02_784",
+      "description": "display advertising",
+      "score": 0.6671634912490845,
+      "topicality": 0.6671634912490845
+    },
+    {
+      "mid": "/m/0m9cj",
+      "description": "banner",
+      "score": 0.5377363562583923,
+      "topicality": 0.5377363562583923
+    }
+  ]
+}

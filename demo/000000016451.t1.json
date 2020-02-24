@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.9401037693023682,
+      "topicality": 0.9401037693023682
+    },
+    {
+      "mid": "/m/0b3yr",
+      "description": "beach",
+      "score": 0.9391470551490784,
+      "topicality": 0.9391470551490784
+    },
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.935194730758667,
+      "topicality": 0.935194730758667
+    },
+    {
+      "mid": "/m/02jwqh",
+      "description": "vacation",
+      "score": 0.9126836061477661,
+      "topicality": 0.9126836061477661
+    },
+    {
+      "mid": "/m/02fm9k",
+      "description": "shore",
+      "score": 0.8893529772758484,
+      "topicality": 0.8893529772758484
+    },
+    {
+      "mid": "/m/0bq66hh",
+      "description": "surfing equipment and supplies",
+      "score": 0.8448973894119263,
+      "topicality": 0.8448973894119263
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.8256939649581909,
+      "topicality": 0.8256939649581909
+    },
+    {
+      "mid": "/m/078qz",
+      "description": "summer",
+      "score": 0.8087031841278076,
+      "topicality": 0.8087031841278076
+    },
+    {
+      "mid": "/m/05kq4",
+      "description": "ocean",
+      "score": 0.8015084266662598,
+      "topicality": 0.8015084266662598
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.7741919159889221,
+      "topicality": 0.7741919159889221
+    }
+  ]
+}

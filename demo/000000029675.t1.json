@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01b9xk",
+      "description": "hot dog",
+      "score": 0.933716893196106,
+      "topicality": 0.933716893196106
+    },
+    {
+      "mid": "/m/01_bhs",
+      "description": "fast food",
+      "score": 0.8358865976333618,
+      "topicality": 0.8358865976333618
+    },
+    {
+      "mid": "/m/0c2nz8",
+      "description": "hot dog variations",
+      "score": 0.8075678944587708,
+      "topicality": 0.8075678944587708
+    },
+    {
+      "mid": "/m/05ztbl",
+      "description": "chicago style hot dog",
+      "score": 0.7920571565628052,
+      "topicality": 0.7920571565628052
+    },
+    {
+      "mid": "/m/027x8l3",
+      "description": "breakfast sandwich",
+      "score": 0.7720861434936523,
+      "topicality": 0.7720861434936523
+    },
+    {
+      "mid": "/m/0b3dyl",
+      "description": "finger food",
+      "score": 0.6974906325340271,
+      "topicality": 0.6974906325340271
+    },
+    {
+      "mid": "/m/0hhrcvd",
+      "description": "frankfurter w\u00fcrstchen",
+      "score": 0.6847708821296692,
+      "topicality": 0.6847708821296692
+    },
+    {
+      "mid": "/m/07jl02",
+      "description": "coney island hot dog",
+      "score": 0.6390963792800903,
+      "topicality": 0.6390963792800903
+    },
+    {
+      "mid": "/m/0h55b",
+      "description": "junk food",
+      "score": 0.6377131342887878,
+      "topicality": 0.6377131342887878
+    },
+    {
+      "mid": "/m/07vh6y",
+      "description": "hot dog bun",
+      "score": 0.637444019317627,
+      "topicality": 0.637444019317627
+    }
+  ]
+}

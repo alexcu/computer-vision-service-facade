@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bq66hh",
+      "description": "surfing equipment and supplies",
+      "score": 0.9689040780067444,
+      "topicality": 0.9689040780067444
+    },
+    {
+      "mid": "/m/019w40",
+      "description": "surfboard",
+      "score": 0.9559168219566345,
+      "topicality": 0.9559168219566345
+    },
+    {
+      "mid": "/m/06_g7",
+      "description": "surfing",
+      "score": 0.9345809817314148,
+      "topicality": 0.9345809817314148
+    },
+    {
+      "mid": "/m/09qkx",
+      "description": "boardsport",
+      "score": 0.8984599709510803,
+      "topicality": 0.8984599709510803
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.8940578103065491,
+      "topicality": 0.8940578103065491
+    },
+    {
+      "mid": "/m/02p0sll",
+      "description": "wave",
+      "score": 0.8848937749862671,
+      "topicality": 0.8848937749862671
+    },
+    {
+      "mid": "/m/02fhdf",
+      "description": "water sport",
+      "score": 0.8123570680618286,
+      "topicality": 0.8123570680618286
+    },
+    {
+      "mid": "/m/0gkc82",
+      "description": "wakesurfing",
+      "score": 0.7849644422531128,
+      "topicality": 0.7849644422531128
+    },
+    {
+      "mid": "/m/0dxnmb",
+      "description": "surface water sports",
+      "score": 0.7566652297973633,
+      "topicality": 0.7566652297973633
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7041599750518799,
+      "topicality": 0.7041599750518799
+    }
+  ]
+}

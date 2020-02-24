@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.9155990481376648,
+      "topicality": 0.9155990481376648
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9013437032699585,
+      "topicality": 0.9013437032699585
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.8679763674736023,
+      "topicality": 0.8679763674736023
+    },
+    {
+      "mid": "/m/01tbcv",
+      "description": "non vascular land plant",
+      "score": 0.8323174715042114,
+      "topicality": 0.8323174715042114
+    },
+    {
+      "mid": "/m/0184yy",
+      "description": "moss",
+      "score": 0.8031038641929626,
+      "topicality": 0.8031038641929626
+    },
+    {
+      "mid": "/m/018ssc",
+      "description": "groundcover",
+      "score": 0.646891713142395,
+      "topicality": 0.646891713142395
+    }
+  ]
+}

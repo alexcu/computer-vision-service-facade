@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.9550372958183289,
+      "topicality": 0.9550372958183289
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9233642220497131,
+      "topicality": 0.9233642220497131
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9010037183761597,
+      "topicality": 0.9010037183761597
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8956539630889893,
+      "topicality": 0.8956539630889893
+    },
+    {
+      "mid": "/m/037xy",
+      "description": "gas",
+      "score": 0.5575143694877625,
+      "topicality": 0.5575143694877625
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.527410626411438,
+      "topicality": 0.527410626411438
+    }
+  ]
+}

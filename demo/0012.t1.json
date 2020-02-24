@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02jp1h",
+      "description": "marketplace",
+      "score": 0.7999247312545776,
+      "topicality": 0.7999247312545776
+    },
+    {
+      "mid": "/m/09y4pm",
+      "description": "market",
+      "score": 0.5698814392089844,
+      "topicality": 0.5698814392089844
+    },
+    {
+      "mid": "/m/02prwx",
+      "description": "bazaar",
+      "score": 0.5020049214363098,
+      "topicality": 0.5020049214363098
+    }
+  ]
+}

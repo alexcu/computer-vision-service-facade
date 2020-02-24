@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.7285952568054199,
+      "topicality": 0.7285952568054199
+    },
+    {
+      "mid": "/m/089v3",
+      "description": "zoo",
+      "score": 0.6976608037948608,
+      "topicality": 0.6976608037948608
+    },
+    {
+      "mid": "/m/09dv7",
+      "description": "soil",
+      "score": 0.5852300524711609,
+      "topicality": 0.5852300524711609
+    },
+    {
+      "mid": "/m/052bc",
+      "description": "marsupial",
+      "score": 0.5710833668708801,
+      "topicality": 0.5710833668708801
+    },
+    {
+      "mid": "/m/0276krm",
+      "description": "fawn",
+      "score": 0.5301428437232971,
+      "topicality": 0.5301428437232971
+    }
+  ]
+}

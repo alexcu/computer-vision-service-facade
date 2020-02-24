@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bwd_0j",
+      "description": "elephant",
+      "score": 0.9939969182014465,
+      "topicality": 0.9939969182014465
+    },
+    {
+      "mid": "/m/07kbbhf",
+      "description": "elephants and mammoths",
+      "score": 0.9872144460678101,
+      "topicality": 0.9872144460678101
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.945564866065979,
+      "topicality": 0.945564866065979
+    },
+    {
+      "mid": "/m/0dflpy",
+      "description": "indian elephant",
+      "score": 0.9348434805870056,
+      "topicality": 0.9348434805870056
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.9308229088783264,
+      "topicality": 0.9308229088783264
+    },
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9247934818267822,
+      "topicality": 0.9247934818267822
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.8947197198867798,
+      "topicality": 0.8947197198867798
+    },
+    {
+      "mid": "/m/01n_j_",
+      "description": "tusk",
+      "score": 0.8712161779403687,
+      "topicality": 0.8712161779403687
+    },
+    {
+      "mid": "/m/04_r5c",
+      "description": "african elephant",
+      "score": 0.8516871333122253,
+      "topicality": 0.8516871333122253
+    },
+    {
+      "mid": "/m/089v3",
+      "description": "zoo",
+      "score": 0.8470187783241272,
+      "topicality": 0.8470187783241272
+    }
+  ]
+}

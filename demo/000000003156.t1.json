@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/083jv",
+      "description": "white",
+      "score": 0.9616622924804688,
+      "topicality": 0.9616622924804688
+    },
+    {
+      "mid": "/m/019sc",
+      "description": "black",
+      "score": 0.9550482630729675,
+      "topicality": 0.9550482630729675
+    },
+    {
+      "mid": "/m/068jd",
+      "description": "photograph",
+      "score": 0.9539625644683838,
+      "topicality": 0.9539625644683838
+    },
+    {
+      "mid": "/m/04yx4",
+      "description": "man",
+      "score": 0.9338598251342773,
+      "topicality": 0.9338598251342773
+    },
+    {
+      "mid": "/m/015c4z",
+      "description": "sitting",
+      "score": 0.9327330589294434,
+      "topicality": 0.9327330589294434
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "black and white",
+      "score": 0.9003282189369202,
+      "topicality": 0.9003282189369202
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.8449593782424927,
+      "topicality": 0.8449593782424927
+    },
+    {
+      "mid": "/m/06pg22",
+      "description": "snapshot",
+      "score": 0.8176745176315308,
+      "topicality": 0.8176745176315308
+    },
+    {
+      "mid": "/m/03d49p1",
+      "description": "monochrome photography",
+      "score": 0.775286853313446,
+      "topicality": 0.775286853313446
+    },
+    {
+      "mid": "/m/071j9r",
+      "description": "cool",
+      "score": 0.7243363857269287,
+      "topicality": 0.7243363857269287
+    }
+  ]
+}

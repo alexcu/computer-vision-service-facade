@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.9194647669792175,
+      "topicality": 0.9194647669792175
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.9126051664352417,
+      "topicality": 0.9126051664352417
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8812883496284485,
+      "topicality": 0.8812883496284485
+    },
+    {
+      "mid": "/m/01c34b",
+      "description": "flooring",
+      "score": 0.821668803691864,
+      "topicality": 0.821668803691864
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.8160087466239929,
+      "topicality": 0.8160087466239929
+    },
+    {
+      "mid": "/m/02cwm",
+      "description": "design",
+      "score": 0.7375450134277344,
+      "topicality": 0.7375450134277344
+    },
+    {
+      "mid": "/m/021w6f",
+      "description": "tile",
+      "score": 0.7061090469360352,
+      "topicality": 0.7061090469360352
+    },
+    {
+      "mid": "/m/027dwg0",
+      "description": "lobby",
+      "score": 0.7033885717391968,
+      "topicality": 0.7033885717391968
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.6566392779350281,
+      "topicality": 0.6566392779350281
+    },
+    {
+      "mid": "/m/025s8bs",
+      "description": "shopping mall",
+      "score": 0.6514049172401428,
+      "topicality": 0.6514049172401428
+    }
+  ]
+}

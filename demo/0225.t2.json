@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/015kr",
+      "description": "bridge",
+      "score": 0.8946775197982788,
+      "topicality": 0.8946775197982788
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8365494012832642,
+      "topicality": 0.8365494012832642
+    },
+    {
+      "mid": "/m/025rw19",
+      "description": "iron",
+      "score": 0.7572209239006042,
+      "topicality": 0.7572209239006042
+    },
+    {
+      "mid": "/m/02500f",
+      "description": "overpass",
+      "score": 0.7365456819534302,
+      "topicality": 0.7365456819534302
+    },
+    {
+      "mid": "/m/017kvv",
+      "description": "infrastructure",
+      "score": 0.716813862323761,
+      "topicality": 0.716813862323761
+    },
+    {
+      "mid": "/m/0df8xq",
+      "description": "nonbuilding structure",
+      "score": 0.5656000971794128,
+      "topicality": 0.5656000971794128
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.5134755373001099,
+      "topicality": 0.5134755373001099
+    },
+    {
+      "mid": "/m/06qqb",
+      "description": "steel",
+      "score": 0.5102375149726868,
+      "topicality": 0.5102375149726868
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.507937490940094,
+      "topicality": 0.507937490940094
+    }
+  ]
+}

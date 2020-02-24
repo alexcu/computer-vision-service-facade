@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/099fz",
+      "description": "sand",
+      "score": 0.8699544072151184,
+      "topicality": 0.8699544072151184
+    },
+    {
+      "mid": "/m/025s3q0",
+      "description": "landscape",
+      "score": 0.7762146592140198,
+      "topicality": 0.7762146592140198
+    },
+    {
+      "mid": "/m/09dv7",
+      "description": "soil",
+      "score": 0.7390718460083008,
+      "topicality": 0.7390718460083008
+    },
+    {
+      "mid": "/m/0284w",
+      "description": "desert",
+      "score": 0.7257641553878784,
+      "topicality": 0.7257641553878784
+    },
+    {
+      "mid": "/m/01w1vt",
+      "description": "sahara",
+      "score": 0.7108308672904968,
+      "topicality": 0.7108308672904968
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.5709657073020935,
+      "topicality": 0.5709657073020935
+    },
+    {
+      "mid": "/m/01x_v",
+      "description": "camel",
+      "score": 0.5467222332954407,
+      "topicality": 0.5467222332954407
+    }
+  ]
+}

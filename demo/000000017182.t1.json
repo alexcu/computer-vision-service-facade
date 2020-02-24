@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.9035611748695374,
+      "topicality": 0.9035611748695374
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.8854246139526367,
+      "topicality": 0.8854246139526367
+    },
+    {
+      "mid": "/m/09qqq",
+      "description": "wall",
+      "score": 0.8042184710502625,
+      "topicality": 0.8042184710502625
+    },
+    {
+      "mid": "/m/01y9k5",
+      "description": "desk",
+      "score": 0.7363920211791992,
+      "topicality": 0.7363920211791992
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.7074437141418457,
+      "topicality": 0.7074437141418457
+    },
+    {
+      "mid": "/m/083vt",
+      "description": "wood",
+      "score": 0.6928804516792297,
+      "topicality": 0.6928804516792297
+    },
+    {
+      "mid": "/m/01c34b",
+      "description": "flooring",
+      "score": 0.6587148308753967,
+      "topicality": 0.6587148308753967
+    },
+    {
+      "mid": "/m/04bcr3",
+      "description": "table",
+      "score": 0.6481738090515137,
+      "topicality": 0.6481738090515137
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.6451058983802795,
+      "topicality": 0.6451058983802795
+    },
+    {
+      "mid": "/m/020g49",
+      "description": "hardwood",
+      "score": 0.6353772282600403,
+      "topicality": 0.6353772282600403
+    }
+  ]
+}

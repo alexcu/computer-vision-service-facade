@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04rd7",
+      "description": "mural",
+      "score": 0.861149787902832,
+      "topicality": 0.861149787902832
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.8546314835548401,
+      "topicality": 0.8546314835548401
+    },
+    {
+      "mid": "/m/09qqq",
+      "description": "wall",
+      "score": 0.8288863301277161,
+      "topicality": 0.8288863301277161
+    },
+    {
+      "mid": "/m/03g3w",
+      "description": "history",
+      "score": 0.7206674218177795,
+      "topicality": 0.7206674218177795
+    },
+    {
+      "mid": "/m/0lym8",
+      "description": "tapestry",
+      "score": 0.7166455388069153,
+      "topicality": 0.7166455388069153
+    },
+    {
+      "mid": "/m/04rjz",
+      "description": "middle ages",
+      "score": 0.6675187349319458,
+      "topicality": 0.6675187349319458
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.6233359575271606,
+      "topicality": 0.6233359575271606
+    },
+    {
+      "mid": "/m/0dgsmq8",
+      "description": "artwork",
+      "score": 0.601563572883606,
+      "topicality": 0.601563572883606
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5170671343803406,
+      "topicality": 0.5170671343803406
+    }
+  ]
+}

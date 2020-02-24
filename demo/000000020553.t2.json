@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0284w",
+      "description": "desert",
+      "score": 0.8229734897613525,
+      "topicality": 0.8229734897613525
+    },
+    {
+      "mid": "/m/025s3q0",
+      "description": "landscape",
+      "score": 0.750670850276947,
+      "topicality": 0.750670850276947
+    },
+    {
+      "mid": "/m/03r_vp",
+      "description": "adaptation",
+      "score": 0.7408301830291748,
+      "topicality": 0.7408301830291748
+    },
+    {
+      "mid": "/m/099fz",
+      "description": "sand",
+      "score": 0.7149883508682251,
+      "topicality": 0.7149883508682251
+    },
+    {
+      "mid": "/m/04gvhhy",
+      "description": "aeolian landform",
+      "score": 0.6755195260047913,
+      "topicality": 0.6755195260047913
+    },
+    {
+      "mid": "/m/01w1vt",
+      "description": "sahara",
+      "score": 0.5726660490036011,
+      "topicality": 0.5726660490036011
+    }
+  ]
+}

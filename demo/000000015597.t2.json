@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06zfw",
+      "description": "skateboarding",
+      "score": 0.8531118631362915,
+      "topicality": 0.8531118631362915
+    },
+    {
+      "mid": "/m/06pg22",
+      "description": "snapshot",
+      "score": 0.832730770111084,
+      "topicality": 0.832730770111084
+    },
+    {
+      "mid": "/m/036jvk",
+      "description": "stock photography",
+      "score": 0.7391677498817444,
+      "topicality": 0.7391677498817444
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.6778864860534668,
+      "topicality": 0.6778864860534668
+    },
+    {
+      "mid": "/m/06_fw",
+      "description": "skateboard",
+      "score": 0.6768061518669128,
+      "topicality": 0.6768061518669128
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.669558584690094,
+      "topicality": 0.669558584690094
+    },
+    {
+      "mid": "/m/01gl72",
+      "description": "skatepark",
+      "score": 0.6517421007156372,
+      "topicality": 0.6517421007156372
+    },
+    {
+      "mid": "/m/0bmgjqz",
+      "description": "sport venue",
+      "score": 0.5418516397476196,
+      "topicality": 0.5418516397476196
+    },
+    {
+      "mid": "/m/0bpn3c2",
+      "description": "skateboarding equipment",
+      "score": 0.5336803197860718,
+      "topicality": 0.5336803197860718
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.5187400579452515,
+      "topicality": 0.5187400579452515
+    }
+  ]
+}

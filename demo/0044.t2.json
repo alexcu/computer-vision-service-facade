@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.9278772473335266,
+      "topicality": 0.9278772473335266
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9189974069595337,
+      "topicality": 0.9189974069595337
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8593178391456604,
+      "topicality": 0.8593178391456604
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.8528950810432434,
+      "topicality": 0.8528950810432434
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.7089554071426392,
+      "topicality": 0.7089554071426392
+    },
+    {
+      "mid": "/m/07jdr",
+      "description": "train",
+      "score": 0.6702028512954712,
+      "topicality": 0.6702028512954712
+    },
+    {
+      "mid": "/m/053xrq",
+      "description": "cabin",
+      "score": 0.6621522903442383,
+      "topicality": 0.6621522903442383
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.6545118689537048,
+      "topicality": 0.6545118689537048
+    },
+    {
+      "mid": "/m/025s53m",
+      "description": "rolling stock",
+      "score": 0.643867552280426,
+      "topicality": 0.643867552280426
+    },
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.5937383770942688,
+      "topicality": 0.5937383770942688
+    }
+  ]
+}

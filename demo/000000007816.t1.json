@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04_sv",
+      "description": "motorcycle",
+      "score": 0.9620265364646912,
+      "topicality": 0.9620265364646912
+    },
+    {
+      "mid": "/m/025sn53",
+      "description": "motorcycling",
+      "score": 0.920691192150116,
+      "topicality": 0.920691192150116
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.9194408655166626,
+      "topicality": 0.9194408655166626
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9136373996734619,
+      "topicality": 0.9136373996734619
+    },
+    {
+      "mid": "/m/0dfbw",
+      "description": "racing",
+      "score": 0.8979035019874573,
+      "topicality": 0.8979035019874573
+    },
+    {
+      "mid": "/m/032wfk",
+      "description": "road racing",
+      "score": 0.8100775480270386,
+      "topicality": 0.8100775480270386
+    },
+    {
+      "mid": "/m/06d4_",
+      "description": "race",
+      "score": 0.7477487921714783,
+      "topicality": 0.7477487921714783
+    },
+    {
+      "mid": "/m/03gq92j",
+      "description": "motorcycle racing",
+      "score": 0.7431532740592957,
+      "topicality": 0.7431532740592957
+    },
+    {
+      "mid": "/m/010dmf",
+      "description": "isle of man tt",
+      "score": 0.6743081212043762,
+      "topicality": 0.6743081212043762
+    },
+    {
+      "mid": "/m/0410tth",
+      "description": "motorsport",
+      "score": 0.6483647227287292,
+      "topicality": 0.6483647227287292
+    }
+  ]
+}

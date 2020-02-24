@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04jph85",
+      "description": "street sign",
+      "score": 0.9061540961265564,
+      "topicality": 0.9061540961265564
+    },
+    {
+      "mid": "/m/02pv19",
+      "description": "stop sign",
+      "score": 0.876040518283844,
+      "topicality": 0.876040518283844
+    },
+    {
+      "mid": "/m/0bkqqh",
+      "description": "signage",
+      "score": 0.8699173331260681,
+      "topicality": 0.8699173331260681
+    },
+    {
+      "mid": "/m/06zsq",
+      "description": "sign",
+      "score": 0.8304347395896912,
+      "topicality": 0.8304347395896912
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.7538859844207764,
+      "topicality": 0.7538859844207764
+    },
+    {
+      "mid": "/m/01mqdt",
+      "description": "traffic sign",
+      "score": 0.7464521527290344,
+      "topicality": 0.7464521527290344
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.7324775457382202,
+      "topicality": 0.7324775457382202
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.7205634117126465,
+      "topicality": 0.7205634117126465
+    },
+    {
+      "mid": "/m/033j3c",
+      "description": "lane",
+      "score": 0.6614073514938354,
+      "topicality": 0.6614073514938354
+    }
+  ]
+}

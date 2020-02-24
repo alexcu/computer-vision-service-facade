@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/073bxn",
+      "description": "tripod",
+      "score": 0.9820614457130432,
+      "topicality": 0.9820614457130432
+    },
+    {
+      "mid": "/m/0h8jz98",
+      "description": "camera accessory",
+      "score": 0.9763071537017822,
+      "topicality": 0.9763071537017822
+    },
+    {
+      "mid": "/m/035zq3",
+      "description": "studio",
+      "score": 0.9064553380012512,
+      "topicality": 0.9064553380012512
+    },
+    {
+      "mid": "/m/025xf_8",
+      "description": "microphone stand",
+      "score": 0.8962796330451965,
+      "topicality": 0.8962796330451965
+    },
+    {
+      "mid": "/m/0ggjh_8",
+      "description": "cameras & optics",
+      "score": 0.8528525233268738,
+      "topicality": 0.8528525233268738
+    },
+    {
+      "mid": "/m/01j3j8",
+      "description": "recording studio",
+      "score": 0.7463800311088562,
+      "topicality": 0.7463800311088562
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.7245198488235474,
+      "topicality": 0.7245198488235474
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.7139228582382202,
+      "topicality": 0.7139228582382202
+    },
+    {
+      "mid": "/m/03r8gp",
+      "description": "filmmaking",
+      "score": 0.6907436847686768,
+      "topicality": 0.6907436847686768
+    },
+    {
+      "mid": "/m/054k0",
+      "description": "film studio",
+      "score": 0.6565171480178833,
+      "topicality": 0.6565171480178833
+    }
+  ]
+}

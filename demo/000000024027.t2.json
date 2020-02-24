@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02zt3",
+      "description": "kite",
+      "score": 0.9560067057609558,
+      "topicality": 0.9560067057609558
+    },
+    {
+      "mid": "/m/018hjb",
+      "description": "sport kite",
+      "score": 0.8909909129142761,
+      "topicality": 0.8909909129142761
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.862245500087738,
+      "topicality": 0.862245500087738
+    },
+    {
+      "mid": "/m/01ctsf",
+      "description": "atmosphere",
+      "score": 0.7751701474189758,
+      "topicality": 0.7751701474189758
+    },
+    {
+      "mid": "/m/07pltdk",
+      "description": "pole",
+      "score": 0.7590422630310059,
+      "topicality": 0.7590422630310059
+    },
+    {
+      "mid": "/m/0wgq355",
+      "description": "kite sports",
+      "score": 0.7452642321586609,
+      "topicality": 0.7452642321586609
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.742751955986023,
+      "topicality": 0.742751955986023
+    },
+    {
+      "mid": "/m/03m9d0z",
+      "description": "wind",
+      "score": 0.7172964215278625,
+      "topicality": 0.7172964215278625
+    },
+    {
+      "mid": "/g/11k2xz7mr",
+      "description": "meteorological phenomenon",
+      "score": 0.5558523535728455,
+      "topicality": 0.5558523535728455
+    },
+    {
+      "mid": "/m/0csh5",
+      "description": "cumulus",
+      "score": 0.5177497267723083,
+      "topicality": 0.5177497267723083
+    }
+  ]
+}

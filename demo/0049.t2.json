@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.9878599047660828,
+      "topicality": 0.9878599047660828
+    },
+    {
+      "mid": "/m/015s2f",
+      "description": "water resources",
+      "score": 0.9848712682723999,
+      "topicality": 0.9848712682723999
+    },
+    {
+      "mid": "/m/06cnp",
+      "description": "river",
+      "score": 0.9444982409477234,
+      "topicality": 0.9444982409477234
+    },
+    {
+      "mid": "/m/03d28y3",
+      "description": "natural landscape",
+      "score": 0.9398155808448792,
+      "topicality": 0.9398155808448792
+    },
+    {
+      "mid": "/m/093shy",
+      "description": "reservoir",
+      "score": 0.9387192130088806,
+      "topicality": 0.9387192130088806
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9100271463394165,
+      "topicality": 0.9100271463394165
+    },
+    {
+      "mid": "/m/0125ny",
+      "description": "lake district",
+      "score": 0.8862349390983582,
+      "topicality": 0.8862349390983582
+    },
+    {
+      "mid": "/m/04h4w",
+      "description": "lake",
+      "score": 0.8825046420097351,
+      "topicality": 0.8825046420097351
+    },
+    {
+      "mid": "/m/017m8l",
+      "description": "waterway",
+      "score": 0.8709391951560974,
+      "topicality": 0.8709391951560974
+    },
+    {
+      "mid": "/m/04p25",
+      "description": "loch",
+      "score": 0.864507257938385,
+      "topicality": 0.864507257938385
+    }
+  ]
+}

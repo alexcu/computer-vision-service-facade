@@ -1,0 +1,16 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/083vt",
+      "description": "wood",
+      "score": 0.7316781878471375,
+      "topicality": 0.7316781878471375
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.6046640872955322,
+      "topicality": 0.6046640872955322
+    }
+  ]
+}

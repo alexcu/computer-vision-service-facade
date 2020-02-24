@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.9161068201065063,
+      "topicality": 0.9161068201065063
+    },
+    {
+      "mid": "/m/04rd7",
+      "description": "mural",
+      "score": 0.8699966073036194,
+      "topicality": 0.8699966073036194
+    },
+    {
+      "mid": "/m/0lym8",
+      "description": "tapestry",
+      "score": 0.8551506400108337,
+      "topicality": 0.8551506400108337
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.8132379651069641,
+      "topicality": 0.8132379651069641
+    },
+    {
+      "mid": "/m/0dnr7",
+      "description": "textile",
+      "score": 0.7992925047874451,
+      "topicality": 0.7992925047874451
+    },
+    {
+      "mid": "/m/09qqq",
+      "description": "wall",
+      "score": 0.7846120595932007,
+      "topicality": 0.7846120595932007
+    },
+    {
+      "mid": "/m/066dv",
+      "description": "prophet",
+      "score": 0.694140613079071,
+      "topicality": 0.694140613079071
+    },
+    {
+      "mid": "/m/0p9xx",
+      "description": "visual arts",
+      "score": 0.5502874255180359,
+      "topicality": 0.5502874255180359
+    },
+    {
+      "mid": "/m/0gmk4",
+      "description": "mosaic",
+      "score": 0.5465288162231445,
+      "topicality": 0.5465288162231445
+    },
+    {
+      "mid": "/m/04rjz",
+      "description": "middle ages",
+      "score": 0.5151384472846985,
+      "topicality": 0.5151384472846985
+    }
+  ]
+}

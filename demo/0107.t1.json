@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bt_c3",
+      "description": "book",
+      "score": 0.744131326675415,
+      "topicality": 0.744131326675415
+    },
+    {
+      "mid": "/m/011s0",
+      "description": "advertising",
+      "score": 0.6034795641899109,
+      "topicality": 0.6034795641899109
+    },
+    {
+      "mid": "/m/01h1dd",
+      "description": "publication",
+      "score": 0.5084068775177002,
+      "topicality": 0.5084068775177002
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09qqq",
+      "description": "wall",
+      "score": 0.8726653456687927,
+      "topicality": 0.8726653456687927
+    },
+    {
+      "mid": "/m/083vt",
+      "description": "wood",
+      "score": 0.8253567218780518,
+      "topicality": 0.8253567218780518
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8112617135047913,
+      "topicality": 0.8112617135047913
+    },
+    {
+      "mid": "/m/0n68_",
+      "description": "structure",
+      "score": 0.8039206266403198,
+      "topicality": 0.8039206266403198
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.738257110118866,
+      "topicality": 0.738257110118866
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.6728093028068542,
+      "topicality": 0.6728093028068542
+    },
+    {
+      "mid": "/m/02dgv",
+      "description": "door",
+      "score": 0.6504794359207153,
+      "topicality": 0.6504794359207153
+    },
+    {
+      "mid": "/m/02zkn_",
+      "description": "log cabin",
+      "score": 0.6371757388114929,
+      "topicality": 0.6371757388114929
+    },
+    {
+      "mid": "/m/02yj3w",
+      "description": "beam",
+      "score": 0.598514974117279,
+      "topicality": 0.598514974117279
+    },
+    {
+      "mid": "/m/0k2n5",
+      "description": "daylighting",
+      "score": 0.5513153672218323,
+      "topicality": 0.5513153672218323
+    }
+  ]
+}

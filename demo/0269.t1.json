@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.96707683801651,
+      "topicality": 0.96707683801651
+    },
+    {
+      "mid": "/m/0j2kx",
+      "description": "waterfall",
+      "score": 0.9539684057235718,
+      "topicality": 0.9539684057235718
+    },
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9468056559562683,
+      "topicality": 0.9468056559562683
+    },
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.9353798031806946,
+      "topicality": 0.9353798031806946
+    },
+    {
+      "mid": "/m/0j6m2",
+      "description": "stream",
+      "score": 0.8517248034477234,
+      "topicality": 0.8517248034477234
+    },
+    {
+      "mid": "/m/03kj4q",
+      "description": "watercourse",
+      "score": 0.8435665965080261,
+      "topicality": 0.8435665965080261
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.7976075410842896,
+      "topicality": 0.7976075410842896
+    },
+    {
+      "mid": "/m/090j23",
+      "description": "water feature",
+      "score": 0.7766641974449158,
+      "topicality": 0.7766641974449158
+    },
+    {
+      "mid": "/m/015s2f",
+      "description": "water resources",
+      "score": 0.7691506743431091,
+      "topicality": 0.7691506743431091
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.6711924076080322,
+      "topicality": 0.6711924076080322
+    }
+  ]
+}

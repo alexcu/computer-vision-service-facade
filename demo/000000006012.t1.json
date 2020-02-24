@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02xwb",
+      "description": "fruit",
+      "score": 0.9514418840408325,
+      "topicality": 0.9514418840408325
+    },
+    {
+      "mid": "/m/09qck",
+      "description": "banana",
+      "score": 0.9308677315711975,
+      "topicality": 0.9308677315711975
+    },
+    {
+      "mid": "/m/013xk6",
+      "description": "banana family",
+      "score": 0.9270080327987671,
+      "topicality": 0.9270080327987671
+    },
+    {
+      "mid": "/m/036qh8",
+      "description": "produce",
+      "score": 0.9005270004272461,
+      "topicality": 0.9005270004272461
+    },
+    {
+      "mid": "/m/08tlbj",
+      "description": "natural foods",
+      "score": 0.8666293621063232,
+      "topicality": 0.8666293621063232
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8561372756958008,
+      "topicality": 0.8561372756958008
+    },
+    {
+      "mid": "/m/01hxyd",
+      "description": "local food",
+      "score": 0.8010237812995911,
+      "topicality": 0.8010237812995911
+    },
+    {
+      "mid": "/m/0f4s2w",
+      "description": "vegetable",
+      "score": 0.6910584568977356,
+      "topicality": 0.6910584568977356
+    },
+    {
+      "mid": "/m/027_ny3",
+      "description": "still life photography",
+      "score": 0.6206955909729004,
+      "topicality": 0.6206955909729004
+    },
+    {
+      "mid": "/m/090mrr",
+      "description": "diet food",
+      "score": 0.5827614665031433,
+      "topicality": 0.5827614665031433
+    }
+  ]
+}

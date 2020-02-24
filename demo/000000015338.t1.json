@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.856067419052124,
+      "topicality": 0.856067419052124
+    },
+    {
+      "mid": "/m/0180xr",
+      "description": "neighbourhood",
+      "score": 0.8459705114364624,
+      "topicality": 0.8459705114364624
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.8456700444221497,
+      "topicality": 0.8456700444221497
+    },
+    {
+      "mid": "/m/01lqfm",
+      "description": "public space",
+      "score": 0.8443006277084351,
+      "topicality": 0.8443006277084351
+    },
+    {
+      "mid": "/m/0dx1j",
+      "description": "town",
+      "score": 0.8437619805335999,
+      "topicality": 0.8437619805335999
+    },
+    {
+      "mid": "/m/0j_s4",
+      "description": "metropolitan area",
+      "score": 0.8391349911689758,
+      "topicality": 0.8391349911689758
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8343185782432556,
+      "topicality": 0.8343185782432556
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.8290084004402161,
+      "topicality": 0.8290084004402161
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8176236152648926,
+      "topicality": 0.8176236152648926
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.7928838133811951,
+      "topicality": 0.7928838133811951
+    }
+  ]
+}

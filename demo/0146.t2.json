@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.983884871006012,
+      "topicality": 0.983884871006012
+    },
+    {
+      "mid": "/m/02fm9k",
+      "description": "shore",
+      "score": 0.9721248149871826,
+      "topicality": 0.9721248149871826
+    },
+    {
+      "mid": "/m/0b3yr",
+      "description": "beach",
+      "score": 0.969603419303894,
+      "topicality": 0.969603419303894
+    },
+    {
+      "mid": "/m/01lxd",
+      "description": "coast",
+      "score": 0.9553348422050476,
+      "topicality": 0.9553348422050476
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.9507631063461304,
+      "topicality": 0.9507631063461304
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9420714974403381,
+      "topicality": 0.9420714974403381
+    },
+    {
+      "mid": "/m/05kq4",
+      "description": "ocean",
+      "score": 0.9298623204231262,
+      "topicality": 0.9298623204231262
+    },
+    {
+      "mid": "/m/02py09",
+      "description": "natural environment",
+      "score": 0.9058710336685181,
+      "topicality": 0.9058710336685181
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.8968436121940613,
+      "topicality": 0.8968436121940613
+    },
+    {
+      "mid": "/m/0hl08",
+      "description": "tropics",
+      "score": 0.8861791491508484,
+      "topicality": 0.8861791491508484
+    }
+  ]
+}

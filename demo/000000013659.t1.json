@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01lhf",
+      "description": "communication",
+      "score": 0.7010717988014221,
+      "topicality": 0.7010717988014221
+    },
+    {
+      "mid": "/m/04115t2",
+      "description": "job",
+      "score": 0.6128900051116943,
+      "topicality": 0.6128900051116943
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.6091294884681702,
+      "topicality": 0.6091294884681702
+    },
+    {
+      "mid": "/m/026zs_",
+      "description": "workshop",
+      "score": 0.6009665727615356,
+      "topicality": 0.6009665727615356
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.5511001944541931,
+      "topicality": 0.5511001944541931
+    },
+    {
+      "mid": "/m/0191f8",
+      "description": "learning",
+      "score": 0.5160325765609741,
+      "topicality": 0.5160325765609741
+    },
+    {
+      "mid": "/m/021sj1",
+      "description": "office",
+      "score": 0.5023283362388611,
+      "topicality": 0.5023283362388611
+    }
+  ]
+}

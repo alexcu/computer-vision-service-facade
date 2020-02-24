@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7562512159347534,
+      "topicality": 0.7562512159347534
+    },
+    {
+      "mid": "/m/0dgw9r",
+      "description": "human",
+      "score": 0.711766242980957,
+      "topicality": 0.711766242980957
+    },
+    {
+      "mid": "/m/01f5gx",
+      "description": "eating",
+      "score": 0.7006961703300476,
+      "topicality": 0.7006961703300476
+    },
+    {
+      "mid": "/m/0283dt1",
+      "description": "mouth",
+      "score": 0.6738249659538269,
+      "topicality": 0.6738249659538269
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.5805146098136902,
+      "topicality": 0.5805146098136902
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.503210723400116,
+      "topicality": 0.503210723400116
+    }
+  ]
+}

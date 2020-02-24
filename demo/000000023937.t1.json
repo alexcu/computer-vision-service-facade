@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.9557517170906067,
+      "topicality": 0.9557517170906067
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.9139101505279541,
+      "topicality": 0.9139101505279541
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.9008080959320068,
+      "topicality": 0.9008080959320068
+    },
+    {
+      "mid": "/m/02mhj",
+      "description": "ecosystem",
+      "score": 0.8983794450759888,
+      "topicality": 0.8983794450759888
+    },
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.8965745568275452,
+      "topicality": 0.8965745568275452
+    },
+    {
+      "mid": "/m/0brn2d",
+      "description": "field",
+      "score": 0.8710268139839172,
+      "topicality": 0.8710268139839172
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.8193187713623047,
+      "topicality": 0.8193187713623047
+    },
+    {
+      "mid": "/m/0hkvx",
+      "description": "prairie",
+      "score": 0.77259761095047,
+      "topicality": 0.77259761095047
+    },
+    {
+      "mid": "/m/025st_8",
+      "description": "meadow",
+      "score": 0.7652453184127808,
+      "topicality": 0.7652453184127808
+    },
+    {
+      "mid": "/m/0fkrk",
+      "description": "grass family",
+      "score": 0.7264646291732788,
+      "topicality": 0.7264646291732788
+    }
+  ]
+}

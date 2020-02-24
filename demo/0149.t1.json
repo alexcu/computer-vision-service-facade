@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.5573917627334595,
+      "topicality": 0.5573917627334595
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.5378937721252441,
+      "topicality": 0.5378937721252441
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.5244385600090027,
+      "topicality": 0.5244385600090027
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5108394622802734,
+      "topicality": 0.5108394622802734
+    }
+  ]
+}

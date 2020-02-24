@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0643t",
+      "description": "personal computer",
+      "score": 0.7648122906684875,
+      "topicality": 0.7648122906684875
+    },
+    {
+      "mid": "/m/01c648",
+      "description": "laptop",
+      "score": 0.7624621987342834,
+      "topicality": 0.7624621987342834
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7406390309333801,
+      "topicality": 0.7406390309333801
+    },
+    {
+      "mid": "/m/02cwm",
+      "description": "design",
+      "score": 0.7375450134277344,
+      "topicality": 0.7375450134277344
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.7320890426635742,
+      "topicality": 0.7320890426635742
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.7089406251907349,
+      "topicality": 0.7089406251907349
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7039424180984497,
+      "topicality": 0.7039424180984497
+    },
+    {
+      "mid": "/m/01m3v",
+      "description": "computer",
+      "score": 0.7006053328514099,
+      "topicality": 0.7006053328514099
+    },
+    {
+      "mid": "/m/01h8n0",
+      "description": "conversation",
+      "score": 0.5841111540794373,
+      "topicality": 0.5841111540794373
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.5923161506652832,
+      "topicality": 0.5923161506652832
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.5319517254829407,
+      "topicality": 0.5319517254829407
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.5251277089118958,
+      "topicality": 0.5251277089118958
+    }
+  ]
+}

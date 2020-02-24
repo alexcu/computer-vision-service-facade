@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01w5c_",
+      "description": "aerial photography",
+      "score": 0.9872101545333862,
+      "topicality": 0.9872101545333862
+    },
+    {
+      "mid": "/m/0j_s4",
+      "description": "metropolitan area",
+      "score": 0.9795495271682739,
+      "topicality": 0.9795495271682739
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.9678441882133484,
+      "topicality": 0.9678441882133484
+    },
+    {
+      "mid": "/m/08863x",
+      "description": "bird's-eye view",
+      "score": 0.9622848033905029,
+      "topicality": 0.9622848033905029
+    },
+    {
+      "mid": "/m/034z7h",
+      "description": "cityscape",
+      "score": 0.944583535194397,
+      "topicality": 0.944583535194397
+    },
+    {
+      "mid": "/m/02q7ylj",
+      "description": "daytime",
+      "score": 0.927628755569458,
+      "topicality": 0.927628755569458
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.9193020462989807,
+      "topicality": 0.9193020462989807
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9014298319816589,
+      "topicality": 0.9014298319816589
+    },
+    {
+      "mid": "/m/0750y",
+      "description": "suburb",
+      "score": 0.8872852325439453,
+      "topicality": 0.8872852325439453
+    },
+    {
+      "mid": "/m/0d9wj",
+      "description": "urban design",
+      "score": 0.8528355360031128,
+      "topicality": 0.8528355360031128
+    }
+  ]
+}

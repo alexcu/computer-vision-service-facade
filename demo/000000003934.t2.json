@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.8587601184844971,
+      "topicality": 0.8587601184844971
+    },
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.7072644829750061,
+      "topicality": 0.7072644829750061
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7039424180984497,
+      "topicality": 0.7039424180984497
+    },
+    {
+      "mid": "/m/01d40f",
+      "description": "dress",
+      "score": 0.6300275325775146,
+      "topicality": 0.6300275325775146
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.6273695826530457,
+      "topicality": 0.6273695826530457
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.5928719639778137,
+      "topicality": 0.5928719639778137
+    },
+    {
+      "mid": "/m/02jwqh",
+      "description": "vacation",
+      "score": 0.5459582805633545,
+      "topicality": 0.5459582805633545
+    }
+  ]
+}

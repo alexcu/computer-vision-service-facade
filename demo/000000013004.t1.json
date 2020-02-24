@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.773932695388794,
+      "topicality": 0.773932695388794
+    },
+    {
+      "mid": "/m/04brg2",
+      "description": "tableware",
+      "score": 0.6938875317573547,
+      "topicality": 0.6938875317573547
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.5413111448287964,
+      "topicality": 0.5413111448287964
+    },
+    {
+      "mid": "/m/04kkgm",
+      "description": "bowl",
+      "score": 0.5200755000114441,
+      "topicality": 0.5200755000114441
+    }
+  ]
+}

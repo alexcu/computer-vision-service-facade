@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.9441357851028442,
+      "topicality": 0.9441357851028442
+    },
+    {
+      "mid": "/m/05wrt",
+      "description": "property",
+      "score": 0.9409045577049255,
+      "topicality": 0.9409045577049255
+    },
+    {
+      "mid": "/m/03nxtz",
+      "description": "cottage",
+      "score": 0.9130895733833313,
+      "topicality": 0.9130895733833313
+    },
+    {
+      "mid": "/m/01l0mw",
+      "description": "home",
+      "score": 0.8806207180023193,
+      "topicality": 0.8806207180023193
+    },
+    {
+      "mid": "/m/038t8_",
+      "description": "estate",
+      "score": 0.8244771957397461,
+      "topicality": 0.8244771957397461
+    },
+    {
+      "mid": "/m/06hyd",
+      "description": "roof",
+      "score": 0.789948582649231,
+      "topicality": 0.789948582649231
+    },
+    {
+      "mid": "/m/02nfxt",
+      "description": "residential area",
+      "score": 0.7803898453712463,
+      "topicality": 0.7803898453712463
+    },
+    {
+      "mid": "/m/080sjd",
+      "description": "farmhouse",
+      "score": 0.7586206197738647,
+      "topicality": 0.7586206197738647
+    },
+    {
+      "mid": "/m/02dpc4",
+      "description": "almshouse",
+      "score": 0.717239260673523,
+      "topicality": 0.717239260673523
+    },
+    {
+      "mid": "/m/023907r",
+      "description": "real estate",
+      "score": 0.7133080959320068,
+      "topicality": 0.7133080959320068
+    }
+  ]
+}

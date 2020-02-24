@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8828806281089783,
+      "topicality": 0.8828806281089783
+    },
+    {
+      "mid": "/m/01pwl3",
+      "description": "maritime museum",
+      "score": 0.7882546186447144,
+      "topicality": 0.7882546186447144
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.7869223356246948,
+      "topicality": 0.7869223356246948
+    },
+    {
+      "mid": "/m/03q1p7",
+      "description": "deck",
+      "score": 0.7534359097480774,
+      "topicality": 0.7534359097480774
+    },
+    {
+      "mid": "/m/01rzcn",
+      "description": "watercraft",
+      "score": 0.6988393068313599,
+      "topicality": 0.6988393068313599
+    },
+    {
+      "mid": "/m/06q74",
+      "description": "ship",
+      "score": 0.6579645276069641,
+      "topicality": 0.6579645276069641
+    },
+    {
+      "mid": "/m/083vt",
+      "description": "wood",
+      "score": 0.6534817218780518,
+      "topicality": 0.6534817218780518
+    },
+    {
+      "mid": "/m/019jd",
+      "description": "boat",
+      "score": 0.6379181742668152,
+      "topicality": 0.6379181742668152
+    },
+    {
+      "mid": "/m/09cmq",
+      "description": "museum",
+      "score": 0.541361927986145,
+      "topicality": 0.541361927986145
+    }
+  ]
+}

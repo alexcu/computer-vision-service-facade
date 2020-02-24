@@ -1,0 +1,74 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9934034943580627,
+      "topicality": 0.9934034943580627,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9903261065483093,
+      "topicality": 0.9903261065483093,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0cc7bks",
+      "description": "buffalo burger",
+      "score": 0.9500547051429749,
+      "topicality": 0.9500547051429749,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0cdn1",
+      "description": "hamburger",
+      "score": 0.9464776515960693,
+      "topicality": 0.9464776515960693,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9447744488716125,
+      "topicality": 0.9447744488716125,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0h55b",
+      "description": "junk food",
+      "score": 0.9404066801071167,
+      "topicality": 0.9404066801071167,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.9207317233085632,
+      "topicality": 0.9207317233085632,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/03f476",
+      "description": "veggie burger",
+      "score": 0.9043950438499451,
+      "topicality": 0.9043950438499451,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/025vd_8",
+      "description": "patty",
+      "score": 0.8628442883491516,
+      "topicality": 0.8628442883491516,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/027wqvm",
+      "description": "burger king premium burgers",
+      "score": 0.8582444190979004,
+      "topicality": 0.8582444190979004,
+      "bounding_poly": {}
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.741563081741333,
+      "topicality": 0.741563081741333
+    },
+    {
+      "mid": "/m/01vkl",
+      "description": "circle",
+      "score": 0.7366552352905273,
+      "topicality": 0.7366552352905273
+    },
+    {
+      "mid": "/m/03scnj",
+      "description": "line",
+      "score": 0.6735882759094238,
+      "topicality": 0.6735882759094238
+    },
+    {
+      "mid": "/m/02cwm",
+      "description": "design",
+      "score": 0.6485075354576111,
+      "topicality": 0.6485075354576111
+    },
+    {
+      "mid": "/m/01sdr3",
+      "description": "hubcap",
+      "score": 0.6000064611434937,
+      "topicality": 0.6000064611434937
+    },
+    {
+      "mid": "/m/047vmg8",
+      "description": "rim",
+      "score": 0.5955030918121338,
+      "topicality": 0.5955030918121338
+    },
+    {
+      "mid": "/m/01l0y0",
+      "description": "material",
+      "score": 0.5899237990379333,
+      "topicality": 0.5899237990379333
+    },
+    {
+      "mid": "/m/06y47",
+      "description": "sphere",
+      "score": 0.579117476940155,
+      "topicality": 0.579117476940155
+    },
+    {
+      "mid": "/m/0mwc",
+      "description": "angle",
+      "score": 0.5565521121025085,
+      "topicality": 0.5565521121025085
+    },
+    {
+      "mid": "/m/03w43x",
+      "description": "computer wallpaper",
+      "score": 0.5340092182159424,
+      "topicality": 0.5340092182159424
+    }
+  ]
+}

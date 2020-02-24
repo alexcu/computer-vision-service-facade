@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9681901335716248,
+      "topicality": 0.9681901335716248
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9575344920158386,
+      "topicality": 0.9575344920158386
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9467726349830627,
+      "topicality": 0.9467726349830627
+    },
+    {
+      "mid": "/m/0fkwjg",
+      "description": "commercial vehicle",
+      "score": 0.8833822011947632,
+      "topicality": 0.8833822011947632
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.8752545118331909,
+      "topicality": 0.8752545118331909
+    },
+    {
+      "mid": "/m/01bjv",
+      "description": "bus",
+      "score": 0.8346034288406372,
+      "topicality": 0.8346034288406372
+    },
+    {
+      "mid": "/m/07r04",
+      "description": "truck",
+      "score": 0.6989172697067261,
+      "topicality": 0.6989172697067261
+    },
+    {
+      "mid": "/m/0h8ls87",
+      "description": "automotive exterior",
+      "score": 0.690218985080719,
+      "topicality": 0.690218985080719
+    },
+    {
+      "mid": "/m/045jsc",
+      "description": "minibus",
+      "score": 0.6659570336341858,
+      "topicality": 0.6659570336341858
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.6508902311325073,
+      "topicality": 0.6508902311325073
+    }
+  ]
+}

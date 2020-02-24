@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0c9ph5",
+      "description": "flower",
+      "score": 0.9658621549606323,
+      "topicality": 0.9658621549606323
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.8946781158447266,
+      "topicality": 0.8946781158447266
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.8699746131896973,
+      "topicality": 0.8699746131896973
+    },
+    {
+      "mid": "/m/0b5gs",
+      "description": "branch",
+      "score": 0.8510883450508118,
+      "topicality": 0.8510883450508118
+    },
+    {
+      "mid": "/m/01wh_8",
+      "description": "cherry blossom",
+      "score": 0.8203949332237244,
+      "topicality": 0.8203949332237244
+    },
+    {
+      "mid": "/m/0j7ty",
+      "description": "blossom",
+      "score": 0.7931019067764282,
+      "topicality": 0.7931019067764282
+    },
+    {
+      "mid": "/m/01txr2",
+      "description": "spring",
+      "score": 0.780059278011322,
+      "topicality": 0.780059278011322
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.6543582081794739,
+      "topicality": 0.6543582081794739
+    },
+    {
+      "mid": "/m/09dv7",
+      "description": "soil",
+      "score": 0.6287404298782349,
+      "topicality": 0.6287404298782349
+    },
+    {
+      "mid": "/m/016nqt",
+      "description": "twig",
+      "score": 0.5105587840080261,
+      "topicality": 0.5105587840080261
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.9471739530563354,
+      "topicality": 0.9471739530563354
+    },
+    {
+      "mid": "/m/0swq_",
+      "description": "nature reserve",
+      "score": 0.927130937576294,
+      "topicality": 0.927130937576294
+    },
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.9175477027893066,
+      "topicality": 0.9175477027893066
+    },
+    {
+      "mid": "/m/02mhj",
+      "description": "ecosystem",
+      "score": 0.8943387269973755,
+      "topicality": 0.8943387269973755
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.875012993812561,
+      "topicality": 0.875012993812561
+    },
+    {
+      "mid": "/m/05sm1",
+      "description": "plain",
+      "score": 0.8650481104850769,
+      "topicality": 0.8650481104850769
+    },
+    {
+      "mid": "/m/0hkvx",
+      "description": "prairie",
+      "score": 0.8179278373718262,
+      "topicality": 0.8179278373718262
+    },
+    {
+      "mid": "/m/06w1j5",
+      "description": "shrubland",
+      "score": 0.797434389591217,
+      "topicality": 0.797434389591217
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.7903761267662048,
+      "topicality": 0.7903761267662048
+    },
+    {
+      "mid": "/m/01c7d3",
+      "description": "savanna",
+      "score": 0.781690776348114,
+      "topicality": 0.781690776348114
+    }
+  ]
+}

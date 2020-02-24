@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0n68_",
+      "description": "structure",
+      "score": 0.8444443941116333,
+      "topicality": 0.8444443941116333
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8194146156311035,
+      "topicality": 0.8194146156311035
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8139334321022034,
+      "topicality": 0.8139334321022034
+    },
+    {
+      "mid": "/m/025rw19",
+      "description": "iron",
+      "score": 0.7777003049850464,
+      "topicality": 0.7777003049850464
+    },
+    {
+      "mid": "/m/04t7l",
+      "description": "metal",
+      "score": 0.6564598083496094,
+      "topicality": 0.6564598083496094
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.5403660535812378,
+      "topicality": 0.5403660535812378
+    },
+    {
+      "mid": "/m/06qqb",
+      "description": "steel",
+      "score": 0.5364910364151001,
+      "topicality": 0.5364910364151001
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5325775146484375,
+      "topicality": 0.5325775146484375
+    },
+    {
+      "mid": "/m/0h8pb3l",
+      "description": "automotive tire",
+      "score": 0.5031335949897766,
+      "topicality": 0.5031335949897766
+    }
+  ]
+}

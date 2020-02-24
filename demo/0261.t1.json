@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04k84",
+      "description": "light",
+      "score": 0.8391236662864685,
+      "topicality": 0.8391236662864685
+    },
+    {
+      "mid": "/m/01d74z",
+      "description": "night",
+      "score": 0.8216547966003418,
+      "topicality": 0.8216547966003418
+    },
+    {
+      "mid": "/m/019sc6",
+      "description": "lighting",
+      "score": 0.7854854464530945,
+      "topicality": 0.7854854464530945
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.7737162113189697,
+      "topicality": 0.7737162113189697
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6107046604156494,
+      "topicality": 0.6107046604156494
+    },
+    {
+      "mid": "/m/04g3r",
+      "description": "leisure",
+      "score": 0.593176007270813,
+      "topicality": 0.593176007270813
+    },
+    {
+      "mid": "/m/09nm_",
+      "description": "world",
+      "score": 0.5262203812599182,
+      "topicality": 0.5262203812599182
+    }
+  ]
+}

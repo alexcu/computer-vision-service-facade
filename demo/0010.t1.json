@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/019sc",
+      "description": "black",
+      "score": 0.9495028853416443,
+      "topicality": 0.9495028853416443
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "black and white",
+      "score": 0.9029942154884338,
+      "topicality": 0.9029942154884338
+    },
+    {
+      "mid": "/m/03d49p1",
+      "description": "monochrome photography",
+      "score": 0.7298117876052856,
+      "topicality": 0.7298117876052856
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "monochrome",
+      "score": 0.7166767716407776,
+      "topicality": 0.7166767716407776
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.5460913181304932,
+      "topicality": 0.5460913181304932
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.5443029999732971,
+      "topicality": 0.5443029999732971
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.5368876457214355,
+      "topicality": 0.5368876457214355
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9794264435768127,
+      "topicality": 0.9794264435768127
+    },
+    {
+      "mid": "/m/0py27",
+      "description": "train station",
+      "score": 0.9720636010169983,
+      "topicality": 0.9720636010169983
+    },
+    {
+      "mid": "/m/01vk9q",
+      "description": "track",
+      "score": 0.9448544383049011,
+      "topicality": 0.9448544383049011
+    },
+    {
+      "mid": "/m/025s53m",
+      "description": "rolling stock",
+      "score": 0.9278594255447388,
+      "topicality": 0.9278594255447388
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "black-and-white",
+      "score": 0.9199554324150085,
+      "topicality": 0.9199554324150085
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.9184823036193848,
+      "topicality": 0.9184823036193848
+    },
+    {
+      "mid": "/m/0467y7",
+      "description": "passenger car",
+      "score": 0.9014878273010254,
+      "topicality": 0.9014878273010254
+    },
+    {
+      "mid": "/m/07jdr",
+      "description": "train",
+      "score": 0.8888244032859802,
+      "topicality": 0.8888244032859802
+    },
+    {
+      "mid": "/m/01p3xl",
+      "description": "metro station",
+      "score": 0.8570507764816284,
+      "topicality": 0.8570507764816284
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8290426731109619,
+      "topicality": 0.8290426731109619
+    }
+  ]
+}

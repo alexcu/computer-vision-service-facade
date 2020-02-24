@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0hr8",
+      "description": "asphalt",
+      "score": 0.9814626574516296,
+      "topicality": 0.9814626574516296
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9774692058563232,
+      "topicality": 0.9774692058563232
+    },
+    {
+      "mid": "/m/033j3c",
+      "description": "lane",
+      "score": 0.9637677073478699,
+      "topicality": 0.9637677073478699
+    },
+    {
+      "mid": "/m/01k0mv",
+      "description": "road surface",
+      "score": 0.9066304564476013,
+      "topicality": 0.9066304564476013
+    },
+    {
+      "mid": "/m/017kvv",
+      "description": "infrastructure",
+      "score": 0.8054084181785583,
+      "topicality": 0.8054084181785583
+    },
+    {
+      "mid": "/m/0bm8qyq",
+      "description": "thoroughfare",
+      "score": 0.7923038601875305,
+      "topicality": 0.7923038601875305
+    },
+    {
+      "mid": "/m/02mgm6",
+      "description": "shoulder",
+      "score": 0.7831493020057678,
+      "topicality": 0.7831493020057678
+    },
+    {
+      "mid": "/m/03scnj",
+      "description": "line",
+      "score": 0.773042619228363,
+      "topicality": 0.773042619228363
+    },
+    {
+      "mid": "/m/05by2s",
+      "description": "tar",
+      "score": 0.7368896007537842,
+      "topicality": 0.7368896007537842
+    },
+    {
+      "mid": "/m/0cz_0",
+      "description": "highway",
+      "score": 0.659739077091217,
+      "topicality": 0.659739077091217
+    }
+  ]
+}

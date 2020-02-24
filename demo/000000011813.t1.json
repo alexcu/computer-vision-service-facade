@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0h8jz98",
+      "description": "camera accessory",
+      "score": 0.8921904563903809,
+      "topicality": 0.8921904563903809
+    },
+    {
+      "mid": "/m/073bxn",
+      "description": "tripod",
+      "score": 0.808282196521759,
+      "topicality": 0.808282196521759
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.5811419486999512,
+      "topicality": 0.5811419486999512
+    },
+    {
+      "mid": "/m/035zq3",
+      "description": "studio",
+      "score": 0.5132213830947876,
+      "topicality": 0.5132213830947876
+    }
+  ]
+}

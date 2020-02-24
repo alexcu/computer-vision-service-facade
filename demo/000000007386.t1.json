@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9782826900482178,
+      "topicality": 0.9782826900482178
+    },
+    {
+      "mid": "/m/04_sv",
+      "description": "motorcycle",
+      "score": 0.8914363980293274,
+      "topicality": 0.8914363980293274
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8654522895812988,
+      "topicality": 0.8654522895812988
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.6162126064300537,
+      "topicality": 0.6162126064300537
+    },
+    {
+      "mid": "/m/0362v5",
+      "description": "chopper",
+      "score": 0.578084409236908,
+      "topicality": 0.578084409236908
+    }
+  ]
+}

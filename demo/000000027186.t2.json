@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02pkb8",
+      "description": "lady",
+      "score": 0.8917462825775146,
+      "topicality": 0.8917462825775146
+    },
+    {
+      "mid": "/m/01fklc",
+      "description": "pink",
+      "score": 0.879741907119751,
+      "topicality": 0.879741907119751
+    },
+    {
+      "mid": "/m/01f43",
+      "description": "beauty",
+      "score": 0.8674901723861694,
+      "topicality": 0.8674901723861694
+    },
+    {
+      "mid": "/m/06z04",
+      "description": "skin",
+      "score": 0.859302818775177,
+      "topicality": 0.859302818775177
+    },
+    {
+      "mid": "/m/0294jb",
+      "description": "blond",
+      "score": 0.8472776412963867,
+      "topicality": 0.8472776412963867
+    },
+    {
+      "mid": "/m/01ssh5",
+      "description": "shoulder",
+      "score": 0.8012816905975342,
+      "topicality": 0.8012816905975342
+    },
+    {
+      "mid": "/m/01d40f",
+      "description": "dress",
+      "score": 0.7849066853523254,
+      "topicality": 0.7849066853523254
+    },
+    {
+      "mid": "/m/06pj2k",
+      "description": "lip",
+      "score": 0.754080057144165,
+      "topicality": 0.754080057144165
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.7444316148757935,
+      "topicality": 0.7444316148757935
+    },
+    {
+      "mid": "/m/02pd__z",
+      "description": "long hair",
+      "score": 0.7427447438240051,
+      "topicality": 0.7427447438240051
+    }
+  ]
+}

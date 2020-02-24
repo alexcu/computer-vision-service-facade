@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/014dsx",
+      "description": "travel",
+      "score": 0.8704544901847839,
+      "topicality": 0.8704544901847839
+    },
+    {
+      "mid": "/m/03w7y7",
+      "description": "baggage",
+      "score": 0.634249746799469,
+      "topicality": 0.634249746799469
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.6273695826530457,
+      "topicality": 0.6273695826530457
+    },
+    {
+      "mid": "/m/0hf58v5",
+      "description": "luggage and bags",
+      "score": 0.563646137714386,
+      "topicality": 0.563646137714386
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.5404295921325684,
+      "topicality": 0.5404295921325684
+    },
+    {
+      "mid": "/m/07bxq",
+      "description": "tourism",
+      "score": 0.5114328861236572,
+      "topicality": 0.5114328861236572
+    }
+  ]
+}

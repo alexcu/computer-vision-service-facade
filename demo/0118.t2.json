@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.9212028384208679,
+      "topicality": 0.9212028384208679
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8024595379829407,
+      "topicality": 0.8024595379829407
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.7326111197471619,
+      "topicality": 0.7326111197471619
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.7174863219261169,
+      "topicality": 0.7174863219261169
+    },
+    {
+      "mid": "/m/0dvh9",
+      "description": "classical architecture",
+      "score": 0.6656898856163025,
+      "topicality": 0.6656898856163025
+    },
+    {
+      "mid": "/m/0dpvm",
+      "description": "arch",
+      "score": 0.6638603806495667,
+      "topicality": 0.6638603806495667
+    },
+    {
+      "mid": "/m/01_hct",
+      "description": "triumphal arch",
+      "score": 0.6432790756225586,
+      "topicality": 0.6432790756225586
+    },
+    {
+      "mid": "/m/02ljgl",
+      "description": "monument",
+      "score": 0.6396923661231995,
+      "topicality": 0.6396923661231995
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.6313194632530212,
+      "topicality": 0.6313194632530212
+    },
+    {
+      "mid": "/m/04rd7",
+      "description": "mural",
+      "score": 0.5341809391975403,
+      "topicality": 0.5341809391975403
+    }
+  ]
+}

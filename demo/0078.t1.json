@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8542441129684448,
+      "topicality": 0.8542441129684448
+    },
+    {
+      "mid": "/m/07pt9wt",
+      "description": "appetizer",
+      "score": 0.824724018573761,
+      "topicality": 0.824724018573761
+    },
+    {
+      "mid": "/m/0dw_m",
+      "description": "brunch",
+      "score": 0.7580594420433044,
+      "topicality": 0.7580594420433044
+    },
+    {
+      "mid": "/m/07_lq",
+      "description": "vegetarian food",
+      "score": 0.7549462914466858,
+      "topicality": 0.7549462914466858
+    },
+    {
+      "mid": "/m/0h55b",
+      "description": "junk food",
+      "score": 0.7229859232902527,
+      "topicality": 0.7229859232902527
+    },
+    {
+      "mid": "/m/0b3dyl",
+      "description": "finger food",
+      "score": 0.7182154655456543,
+      "topicality": 0.7182154655456543
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.7179052233695984,
+      "topicality": 0.7179052233695984
+    },
+    {
+      "mid": "/m/027x8l3",
+      "description": "breakfast sandwich",
+      "score": 0.6757813096046448,
+      "topicality": 0.6757813096046448
+    },
+    {
+      "mid": "/m/0hz4q",
+      "description": "breakfast",
+      "score": 0.6007596850395203,
+      "topicality": 0.6007596850395203
+    },
+    {
+      "mid": "/m/0l515",
+      "description": "sandwich",
+      "score": 0.5752516984939575,
+      "topicality": 0.5752516984939575
+    }
+  ]
+}

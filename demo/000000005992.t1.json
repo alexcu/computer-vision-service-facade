@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07bgp",
+      "description": "sheep",
+      "score": 0.9622207283973694,
+      "topicality": 0.9622207283973694
+    },
+    {
+      "mid": "/m/08hhz2",
+      "description": "sheep",
+      "score": 0.937436044216156,
+      "topicality": 0.937436044216156
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.8567549586296082,
+      "topicality": 0.8567549586296082
+    },
+    {
+      "mid": "/m/03vd46",
+      "description": "herd",
+      "score": 0.7907707095146179,
+      "topicality": 0.7907707095146179
+    },
+    {
+      "mid": "/m/01k050",
+      "description": "cow goat family",
+      "score": 0.7849311828613281,
+      "topicality": 0.7849311828613281
+    },
+    {
+      "mid": "/m/0ch8v",
+      "description": "livestock",
+      "score": 0.712617039680481,
+      "topicality": 0.712617039680481
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.6748245358467102,
+      "topicality": 0.6748245358467102
+    },
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.6482676863670349,
+      "topicality": 0.6482676863670349
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.6274521946907043,
+      "topicality": 0.6274521946907043
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.5652381777763367,
+      "topicality": 0.5652381777763367
+    }
+  ]
+}

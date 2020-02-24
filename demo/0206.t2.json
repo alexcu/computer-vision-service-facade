@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.7632943391799927,
+      "topicality": 0.7632943391799927
+    },
+    {
+      "mid": "/m/01d74z",
+      "description": "night",
+      "score": 0.7460061311721802,
+      "topicality": 0.7460061311721802
+    },
+    {
+      "mid": "/m/039jq",
+      "description": "glass",
+      "score": 0.6446477174758911,
+      "topicality": 0.6446477174758911
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5942134261131287,
+      "topicality": 0.5942134261131287
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.5813031792640686,
+      "topicality": 0.5813031792640686
+    },
+    {
+      "mid": "/m/011y23",
+      "description": "stained glass",
+      "score": 0.5693196654319763,
+      "topicality": 0.5693196654319763
+    },
+    {
+      "mid": "/m/02nvjx",
+      "description": "place of worship",
+      "score": 0.5650871992111206,
+      "topicality": 0.5650871992111206
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.5536633729934692,
+      "topicality": 0.5536633729934692
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.5380262732505798,
+      "topicality": 0.5380262732505798
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.5134755373001099,
+      "topicality": 0.5134755373001099
+    }
+  ]
+}

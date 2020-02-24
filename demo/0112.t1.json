@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0hsgr",
+      "description": "chestnut",
+      "score": 0.7716422080993652,
+      "topicality": 0.7716422080993652
+    },
+    {
+      "mid": "/m/02492f",
+      "description": "azuki bean",
+      "score": 0.6829196214675903,
+      "topicality": 0.6829196214675903
+    },
+    {
+      "mid": "/m/01lbxg",
+      "description": "nut",
+      "score": 0.6447727680206299,
+      "topicality": 0.6447727680206299
+    },
+    {
+      "mid": "/m/0ggk1v7",
+      "description": "nuts & seeds",
+      "score": 0.6429421305656433,
+      "topicality": 0.6429421305656433
+    },
+    {
+      "mid": "/m/01fp9",
+      "description": "bean",
+      "score": 0.6310920715332031,
+      "topicality": 0.6310920715332031
+    },
+    {
+      "mid": "/m/06wcblr",
+      "description": "hazelnut",
+      "score": 0.6013628244400024,
+      "topicality": 0.6013628244400024
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.5969966650009155,
+      "topicality": 0.5969966650009155
+    },
+    {
+      "mid": "/m/04jdhxy",
+      "description": "superfood",
+      "score": 0.5814289450645447,
+      "topicality": 0.5814289450645447
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.5811943411827087,
+      "topicality": 0.5811943411827087
+    },
+    {
+      "mid": "/m/09dh0",
+      "description": "seed",
+      "score": 0.5391315221786499,
+      "topicality": 0.5391315221786499
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.9839377403259277,
+      "topicality": 0.9839377403259277
+    },
+    {
+      "mid": "/m/033j3c",
+      "description": "lane",
+      "score": 0.9497477412223816,
+      "topicality": 0.9497477412223816
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9302453398704529,
+      "topicality": 0.9302453398704529
+    },
+    {
+      "mid": "/m/017kvv",
+      "description": "infrastructure",
+      "score": 0.8959611058235168,
+      "topicality": 0.8959611058235168
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.8884812593460083,
+      "topicality": 0.8884812593460083
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8736491203308105,
+      "topicality": 0.8736491203308105
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8696591854095459,
+      "topicality": 0.8696591854095459
+    },
+    {
+      "mid": "/m/0hr8",
+      "description": "asphalt",
+      "score": 0.8691489696502686,
+      "topicality": 0.8691489696502686
+    },
+    {
+      "mid": "/m/017r8p",
+      "description": "pedestrian",
+      "score": 0.8679665923118591,
+      "topicality": 0.8679665923118591
+    },
+    {
+      "mid": "/m/01lqfm",
+      "description": "public space",
+      "score": 0.8570141792297363,
+      "topicality": 0.8570141792297363
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01prls",
+      "description": "land vehicle",
+      "score": 0.9961627125740051,
+      "topicality": 0.9961627125740051
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9903031587600708,
+      "topicality": 0.9903031587600708
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9820787310600281,
+      "topicality": 0.9820787310600281
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.9736444354057312,
+      "topicality": 0.9736444354057312
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9676748514175415,
+      "topicality": 0.9676748514175415
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.9440270662307739,
+      "topicality": 0.9440270662307739
+    },
+    {
+      "mid": "/m/0fkwjg",
+      "description": "commercial vehicle",
+      "score": 0.9436919093132019,
+      "topicality": 0.9436919093132019
+    },
+    {
+      "mid": "/m/0h2r6",
+      "description": "van",
+      "score": 0.7532160878181458,
+      "topicality": 0.7532160878181458
+    },
+    {
+      "mid": "/m/01bjv",
+      "description": "bus",
+      "score": 0.7135013341903687,
+      "topicality": 0.7135013341903687
+    },
+    {
+      "mid": "/m/045jsc",
+      "description": "minibus",
+      "score": 0.6529307961463928,
+      "topicality": 0.6529307961463928
+    }
+  ]
+}

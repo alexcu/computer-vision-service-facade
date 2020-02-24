@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0173tc",
+      "description": "chapel",
+      "score": 0.8386000990867615,
+      "topicality": 0.8386000990867615
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.776976466178894,
+      "topicality": 0.776976466178894
+    },
+    {
+      "mid": "/m/02nvjx",
+      "description": "place of worship",
+      "score": 0.7305428385734558,
+      "topicality": 0.7305428385734558
+    },
+    {
+      "mid": "/m/0f85g",
+      "description": "basilica",
+      "score": 0.6951996088027954,
+      "topicality": 0.6951996088027954
+    },
+    {
+      "mid": "/m/01_m7",
+      "description": "column",
+      "score": 0.6877415776252747,
+      "topicality": 0.6877415776252747
+    },
+    {
+      "mid": "/m/0h64tv6",
+      "description": "religious institute",
+      "score": 0.6630935668945312,
+      "topicality": 0.6630935668945312
+    },
+    {
+      "mid": "/m/0pgl9",
+      "description": "tourist attraction",
+      "score": 0.6561744809150696,
+      "topicality": 0.6561744809150696
+    },
+    {
+      "mid": "/m/01sqnx",
+      "description": "byzantine architecture",
+      "score": 0.6424961686134338,
+      "topicality": 0.6424961686134338
+    },
+    {
+      "mid": "/m/01wb7",
+      "description": "church",
+      "score": 0.6362460255622864,
+      "topicality": 0.6362460255622864
+    },
+    {
+      "mid": "/m/07yr8h",
+      "description": "historic site",
+      "score": 0.5672413110733032,
+      "topicality": 0.5672413110733032
+    }
+  ]
+}

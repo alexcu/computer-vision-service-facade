@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9790798425674438,
+      "topicality": 0.9790798425674438
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9721962213516235,
+      "topicality": 0.9721962213516235
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9497416615486145,
+      "topicality": 0.9497416615486145
+    },
+    {
+      "mid": "/m/07r04",
+      "description": "truck",
+      "score": 0.9210613369941711,
+      "topicality": 0.9210613369941711
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.8752565383911133,
+      "topicality": 0.8752565383911133
+    },
+    {
+      "mid": "/m/0fkwjg",
+      "description": "commercial vehicle",
+      "score": 0.8312743306159973,
+      "topicality": 0.8312743306159973
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.8184174299240112,
+      "topicality": 0.8184174299240112
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.6394508481025696,
+      "topicality": 0.6394508481025696
+    },
+    {
+      "mid": "/m/016znt",
+      "description": "public utility",
+      "score": 0.6279709935188293,
+      "topicality": 0.6279709935188293
+    },
+    {
+      "mid": "/m/0h8ls87",
+      "description": "automotive exterior",
+      "score": 0.6265801191329956,
+      "topicality": 0.6265801191329956
+    }
+  ]
+}

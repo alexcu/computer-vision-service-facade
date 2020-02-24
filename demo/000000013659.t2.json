@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04115t2",
+      "description": "job",
+      "score": 0.7876315712928772,
+      "topicality": 0.7876315712928772
+    },
+    {
+      "mid": "/m/0191f8",
+      "description": "learning",
+      "score": 0.6568770408630371,
+      "topicality": 0.6568770408630371
+    },
+    {
+      "mid": "/m/01tqrk",
+      "description": "employment",
+      "score": 0.6336323022842407,
+      "topicality": 0.6336323022842407
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.6273695826530457,
+      "topicality": 0.6273695826530457
+    },
+    {
+      "mid": "/m/026zs_",
+      "description": "workshop",
+      "score": 0.5892003774642944,
+      "topicality": 0.5892003774642944
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0clmf",
+      "description": "radio telescope",
+      "score": 0.9890550374984741,
+      "topicality": 0.9890550374984741
+    },
+    {
+      "mid": "/m/019mbd",
+      "description": "antenna",
+      "score": 0.952006995677948,
+      "topicality": 0.952006995677948
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9127334952354431,
+      "topicality": 0.9127334952354431
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.8453892469406128,
+      "topicality": 0.8453892469406128
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.7989127039909363,
+      "topicality": 0.7989127039909363
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.7871291637420654,
+      "topicality": 0.7871291637420654
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.7523223161697388,
+      "topicality": 0.7523223161697388
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.742751955986023,
+      "topicality": 0.742751955986023
+    },
+    {
+      "mid": "/m/027j84c",
+      "description": "telecommunications engineering",
+      "score": 0.7108749747276306,
+      "topicality": 0.7108749747276306
+    },
+    {
+      "mid": "/m/025s3q0",
+      "description": "landscape",
+      "score": 0.6504039168357849,
+      "topicality": 0.6504039168357849
+    }
+  ]
+}

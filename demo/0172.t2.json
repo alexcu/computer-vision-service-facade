@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09686",
+      "description": "vertebrate",
+      "score": 0.9851104021072388,
+      "topicality": 0.9851104021072388
+    },
+    {
+      "mid": "/m/07bgp",
+      "description": "sheep",
+      "score": 0.9815810322761536,
+      "topicality": 0.9815810322761536
+    },
+    {
+      "mid": "/m/08hhz2",
+      "description": "sheep",
+      "score": 0.9686001539230347,
+      "topicality": 0.9686001539230347
+    },
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.8642850518226624,
+      "topicality": 0.8642850518226624
+    },
+    {
+      "mid": "/m/0ch8v",
+      "description": "livestock",
+      "score": 0.822231113910675,
+      "topicality": 0.822231113910675
+    },
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.7838771343231201,
+      "topicality": 0.7838771343231201
+    },
+    {
+      "mid": "/m/01k050",
+      "description": "cow-goat family",
+      "score": 0.7459118962287903,
+      "topicality": 0.7459118962287903
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.7443860769271851,
+      "topicality": 0.7443860769271851
+    },
+    {
+      "mid": "/m/01hcps",
+      "description": "lamb and mutton",
+      "score": 0.6976280808448792,
+      "topicality": 0.6976280808448792
+    },
+    {
+      "mid": "/m/03hh2k",
+      "description": "grazing",
+      "score": 0.6965684294700623,
+      "topicality": 0.6965684294700623
+    }
+  ]
+}

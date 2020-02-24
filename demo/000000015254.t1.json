@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0krfg",
+      "description": "meal",
+      "score": 0.9670590162277222,
+      "topicality": 0.9670590162277222
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9611097574234009,
+      "topicality": 0.9611097574234009
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9091231226921082,
+      "topicality": 0.9091231226921082
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8923898935317993,
+      "topicality": 0.8923898935317993
+    },
+    {
+      "mid": "/m/0jfd5",
+      "description": "lunch",
+      "score": 0.871593177318573,
+      "topicality": 0.871593177318573
+    },
+    {
+      "mid": "/m/01r1z5",
+      "description": "asian food",
+      "score": 0.7123388051986694,
+      "topicality": 0.7123388051986694
+    },
+    {
+      "mid": "/m/012x5p",
+      "description": "bento",
+      "score": 0.7029781341552734,
+      "topicality": 0.7029781341552734
+    },
+    {
+      "mid": "/m/0g9vs81",
+      "description": "steamed rice",
+      "score": 0.6443028450012207,
+      "topicality": 0.6443028450012207
+    },
+    {
+      "mid": "/m/04q6ng",
+      "description": "comfort food",
+      "score": 0.5531521439552307,
+      "topicality": 0.5531521439552307
+    },
+    {
+      "mid": "/m/0p57p",
+      "description": "recipe",
+      "score": 0.5479651093482971,
+      "topicality": 0.5479651093482971
+    }
+  ]
+}

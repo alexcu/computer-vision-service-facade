@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0lqk",
+      "description": "alcohol",
+      "score": 0.8354007601737976,
+      "topicality": 0.8354007601737976
+    },
+    {
+      "mid": "/m/0271t",
+      "description": "drink",
+      "score": 0.8028646111488342,
+      "topicality": 0.8028646111488342
+    },
+    {
+      "mid": "/m/0h8nvcj",
+      "description": "barware",
+      "score": 0.7703999280929565,
+      "topicality": 0.7703999280929565
+    },
+    {
+      "mid": "/m/04qgp",
+      "description": "liqueur",
+      "score": 0.6755709648132324,
+      "topicality": 0.6755709648132324
+    },
+    {
+      "mid": "/m/050h26",
+      "description": "drinkware",
+      "score": 0.6704040765762329,
+      "topicality": 0.6704040765762329
+    },
+    {
+      "mid": "/m/039jq",
+      "description": "glass",
+      "score": 0.6646498441696167,
+      "topicality": 0.6646498441696167
+    },
+    {
+      "mid": "/m/04shl0",
+      "description": "distilled beverage",
+      "score": 0.6133933663368225,
+      "topicality": 0.6133933663368225
+    },
+    {
+      "mid": "/m/04brg2",
+      "description": "tableware",
+      "score": 0.5611824989318848,
+      "topicality": 0.5611824989318848
+    },
+    {
+      "mid": "/m/01599",
+      "description": "beer",
+      "score": 0.5247370600700378,
+      "topicality": 0.5247370600700378
+    },
+    {
+      "mid": "/m/050h0q",
+      "description": "stemware",
+      "score": 0.5066564083099365,
+      "topicality": 0.5066564083099365
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.7845246195793152,
+      "topicality": 0.7845246195793152
+    },
+    {
+      "mid": "/m/036hv",
+      "description": "geology",
+      "score": 0.76427161693573,
+      "topicality": 0.76427161693573
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.5422748923301697,
+      "topicality": 0.5422748923301697
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9227799773216248,
+      "topicality": 0.9227799773216248
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.8481998443603516,
+      "topicality": 0.8481998443603516
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.8442925214767456,
+      "topicality": 0.8442925214767456
+    },
+    {
+      "mid": "/m/068mqj",
+      "description": "automotive design",
+      "score": 0.7795788049697876,
+      "topicality": 0.7795788049697876
+    },
+    {
+      "mid": "/m/07k6w8",
+      "description": "small to medium sized cats",
+      "score": 0.7763199806213379,
+      "topicality": 0.7763199806213379
+    },
+    {
+      "mid": "/m/01yrx",
+      "description": "cat",
+      "score": 0.7669874429702759,
+      "topicality": 0.7669874429702759
+    },
+    {
+      "mid": "/m/02cwm",
+      "description": "design",
+      "score": 0.6480235457420349,
+      "topicality": 0.6480235457420349
+    },
+    {
+      "mid": "/m/0307l",
+      "description": "cat like mammal",
+      "score": 0.5689339637756348,
+      "topicality": 0.5689339637756348
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.5391830801963806,
+      "topicality": 0.5391830801963806
+    }
+  ]
+}

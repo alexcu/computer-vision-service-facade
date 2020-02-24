@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9787759184837341,
+      "topicality": 0.9787759184837341
+    },
+    {
+      "mid": "/m/01bjv",
+      "description": "bus",
+      "score": 0.978521466255188,
+      "topicality": 0.978521466255188
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.9684925675392151,
+      "topicality": 0.9684925675392151
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.963193953037262,
+      "topicality": 0.963193953037262
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9010037183761597,
+      "topicality": 0.9010037183761597
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.8955718278884888,
+      "topicality": 0.8955718278884888
+    },
+    {
+      "mid": "/m/05zdp",
+      "description": "public transport",
+      "score": 0.8520606160163879,
+      "topicality": 0.8520606160163879
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8029192090034485,
+      "topicality": 0.8029192090034485
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.7326111197471619,
+      "topicality": 0.7326111197471619
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.7263345718383789,
+      "topicality": 0.7263345718383789
+    }
+  ]
+}

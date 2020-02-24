@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/027_ny3",
+      "description": "still life photography",
+      "score": 0.6158120036125183,
+      "topicality": 0.6158120036125183
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.5422748923301697,
+      "topicality": 0.5422748923301697
+    },
+    {
+      "mid": "/m/04t7l",
+      "description": "metal",
+      "score": 0.5114516019821167,
+      "topicality": 0.5114516019821167
+    }
+  ]
+}

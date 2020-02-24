@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.7457471489906311,
+      "topicality": 0.7457471489906311
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.73484867811203,
+      "topicality": 0.73484867811203
+    },
+    {
+      "mid": "/m/015c4z",
+      "description": "sitting",
+      "score": 0.7291122674942017,
+      "topicality": 0.7291122674942017
+    },
+    {
+      "mid": "/m/02mf1n",
+      "description": "gadget",
+      "score": 0.6182721853256226,
+      "topicality": 0.6182721853256226
+    },
+    {
+      "mid": "/m/01kq3x",
+      "description": "white-collar worker",
+      "score": 0.6114333271980286,
+      "topicality": 0.6114333271980286
+    },
+    {
+      "mid": "/m/0191f8",
+      "description": "learning",
+      "score": 0.5729158520698547,
+      "topicality": 0.5729158520698547
+    },
+    {
+      "mid": "/m/01y9k5",
+      "description": "desk",
+      "score": 0.5717760324478149,
+      "topicality": 0.5717760324478149
+    },
+    {
+      "mid": "/m/01m3v",
+      "description": "computer",
+      "score": 0.5706600546836853,
+      "topicality": 0.5706600546836853
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.9860472083091736,
+      "topicality": 0.9860472083091736
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9796577095985413,
+      "topicality": 0.9796577095985413
+    },
+    {
+      "mid": "/m/01prls",
+      "description": "land vehicle",
+      "score": 0.9758467078208923,
+      "topicality": 0.9758467078208923
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9623607993125916,
+      "topicality": 0.9623607993125916
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.8947775959968567,
+      "topicality": 0.8947775959968567
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.8752536773681641,
+      "topicality": 0.8752536773681641
+    },
+    {
+      "mid": "/m/068mqj",
+      "description": "automotive design",
+      "score": 0.835429310798645,
+      "topicality": 0.835429310798645
+    },
+    {
+      "mid": "/m/0h8pb3l",
+      "description": "automotive tire",
+      "score": 0.8181090354919434,
+      "topicality": 0.8181090354919434
+    },
+    {
+      "mid": "/m/0ctrp",
+      "description": "sport utility vehicle",
+      "score": 0.804434061050415,
+      "topicality": 0.804434061050415
+    },
+    {
+      "mid": "/m/0h9mv",
+      "description": "tire",
+      "score": 0.7856707572937012,
+      "topicality": 0.7856707572937012
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.9091898798942566,
+      "topicality": 0.9091898798942566
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.804423451423645,
+      "topicality": 0.804423451423645
+    },
+    {
+      "mid": "/m/02nfxt",
+      "description": "residential area",
+      "score": 0.7764307856559753,
+      "topicality": 0.7764307856559753
+    },
+    {
+      "mid": "/m/020ys5",
+      "description": "condominium",
+      "score": 0.7620735168457031,
+      "topicality": 0.7620735168457031
+    },
+    {
+      "mid": "/m/0180xr",
+      "description": "neighbourhood",
+      "score": 0.7581642270088196,
+      "topicality": 0.7581642270088196
+    },
+    {
+      "mid": "/m/01nblt",
+      "description": "apartment",
+      "score": 0.7470956444740295,
+      "topicality": 0.7470956444740295
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.731651782989502,
+      "topicality": 0.731651782989502
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.6983435750007629,
+      "topicality": 0.6983435750007629
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.6570429801940918,
+      "topicality": 0.6570429801940918
+    },
+    {
+      "mid": "/m/023907r",
+      "description": "real estate",
+      "score": 0.637158215045929,
+      "topicality": 0.637158215045929
+    }
+  ]
+}

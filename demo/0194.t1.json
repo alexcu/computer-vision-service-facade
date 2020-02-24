@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09702",
+      "description": "cappuccino",
+      "score": 0.9661949872970581,
+      "topicality": 0.9661949872970581
+    },
+    {
+      "mid": "/m/02vqfm",
+      "description": "coffee",
+      "score": 0.9242123961448669,
+      "topicality": 0.9242123961448669
+    },
+    {
+      "mid": "/m/01nr56",
+      "description": "latte",
+      "score": 0.9162346720695496,
+      "topicality": 0.9162346720695496
+    },
+    {
+      "mid": "/m/08gqpm",
+      "description": "cup",
+      "score": 0.8943948745727539,
+      "topicality": 0.8943948745727539
+    },
+    {
+      "mid": "/m/07ptj3n",
+      "description": "cup",
+      "score": 0.8905760645866394,
+      "topicality": 0.8905760645866394
+    },
+    {
+      "mid": "/m/0296jp",
+      "description": "caff\u00e8 macchiato",
+      "score": 0.8587548732757568,
+      "topicality": 0.8587548732757568
+    },
+    {
+      "mid": "/m/02p5f1q",
+      "description": "coffee cup",
+      "score": 0.8508499264717102,
+      "topicality": 0.8508499264717102
+    },
+    {
+      "mid": "/m/0ctfk",
+      "description": "espresso",
+      "score": 0.8478516340255737,
+      "topicality": 0.8478516340255737
+    },
+    {
+      "mid": "/m/087bpd",
+      "description": "flat white",
+      "score": 0.8297907710075378,
+      "topicality": 0.8297907710075378
+    },
+    {
+      "mid": "/m/06jdrl",
+      "description": "mocaccino",
+      "score": 0.8271535634994507,
+      "topicality": 0.8271535634994507
+    }
+  ]
+}

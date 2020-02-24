@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0hnnb",
+      "description": "umbrella",
+      "score": 0.9785122871398926,
+      "topicality": 0.9785122871398926
+    },
+    {
+      "mid": "/m/01g5v",
+      "description": "blue",
+      "score": 0.9371774196624756,
+      "topicality": 0.9371774196624756
+    },
+    {
+      "mid": "/m/01fklc",
+      "description": "pink",
+      "score": 0.8651782274246216,
+      "topicality": 0.8651782274246216
+    },
+    {
+      "mid": "/m/02vwbzz",
+      "description": "electric blue",
+      "score": 0.8651675581932068,
+      "topicality": 0.8651675581932068
+    },
+    {
+      "mid": "/m/09ggk",
+      "description": "purple",
+      "score": 0.826901912689209,
+      "topicality": 0.826901912689209
+    },
+    {
+      "mid": "/m/0463sg",
+      "description": "fashion accessory",
+      "score": 0.7416483163833618,
+      "topicality": 0.7416483163833618
+    },
+    {
+      "mid": "/m/0ckc5",
+      "description": "magenta",
+      "score": 0.6965740323066711,
+      "topicality": 0.6965740323066711
+    },
+    {
+      "mid": "/m/0bgmt1",
+      "description": "child model",
+      "score": 0.6391860246658325,
+      "topicality": 0.6391860246658325
+    },
+    {
+      "mid": "/m/0fly7",
+      "description": "jeans",
+      "score": 0.6269205212593079,
+      "topicality": 0.6269205212593079
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.5404295921325684,
+      "topicality": 0.5404295921325684
+    }
+  ]
+}

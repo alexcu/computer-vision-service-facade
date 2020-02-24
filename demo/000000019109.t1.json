@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04_sv",
+      "description": "motorcycle",
+      "score": 0.9534025192260742,
+      "topicality": 0.9534025192260742
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.875101625919342,
+      "topicality": 0.875101625919342
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8630288243293762,
+      "topicality": 0.8630288243293762
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.8570893406867981,
+      "topicality": 0.8570893406867981
+    },
+    {
+      "mid": "/m/0dx1j",
+      "description": "town",
+      "score": 0.8356282711029053,
+      "topicality": 0.8356282711029053
+    },
+    {
+      "mid": "/m/0180xr",
+      "description": "neighbourhood",
+      "score": 0.8354748487472534,
+      "topicality": 0.8354748487472534
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.7968625426292419,
+      "topicality": 0.7968625426292419
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.6819413900375366,
+      "topicality": 0.6819413900375366
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.6499008536338806,
+      "topicality": 0.6499008536338806
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.6404345035552979,
+      "topicality": 0.6404345035552979
+    }
+  ]
+}

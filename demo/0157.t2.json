@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9759840965270996,
+      "topicality": 0.9759840965270996
+    },
+    {
+      "mid": "/m/09t49",
+      "description": "leaf",
+      "score": 0.971066951751709,
+      "topicality": 0.971066951751709
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9709687829017639,
+      "topicality": 0.9709687829017639
+    },
+    {
+      "mid": "/m/01bwr",
+      "description": "botany",
+      "score": 0.8399863243103027,
+      "topicality": 0.8399863243103027
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.8280451893806458,
+      "topicality": 0.8280451893806458
+    },
+    {
+      "mid": "/m/03rbf6",
+      "description": "macro photography",
+      "score": 0.7740263938903809,
+      "topicality": 0.7740263938903809
+    },
+    {
+      "mid": "/m/0c9ph5",
+      "description": "flower",
+      "score": 0.7424386143684387,
+      "topicality": 0.7424386143684387
+    },
+    {
+      "mid": "/m/02cqfm",
+      "description": "close-up",
+      "score": 0.7332175970077515,
+      "topicality": 0.7332175970077515
+    },
+    {
+      "mid": "/m/0184rb",
+      "description": "pond",
+      "score": 0.6835880875587463,
+      "topicality": 0.6835880875587463
+    },
+    {
+      "mid": "/m/01dqkc",
+      "description": "pest",
+      "score": 0.6665738224983215,
+      "topicality": 0.6665738224983215
+    }
+  ]
+}

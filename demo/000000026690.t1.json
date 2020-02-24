@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/08fgwk",
+      "description": "contact sport",
+      "score": 0.8320339918136597,
+      "topicality": 0.8320339918136597
+    },
+    {
+      "mid": "/m/01gq53",
+      "description": "performance",
+      "score": 0.8137021660804749,
+      "topicality": 0.8137021660804749
+    },
+    {
+      "mid": "/m/03bt1gh",
+      "description": "games",
+      "score": 0.8008490204811096,
+      "topicality": 0.8008490204811096
+    },
+    {
+      "mid": "/m/018tl7",
+      "description": "competition",
+      "score": 0.789562463760376,
+      "topicality": 0.789562463760376
+    },
+    {
+      "mid": "/m/02jjt",
+      "description": "entertainment",
+      "score": 0.7874985933303833,
+      "topicality": 0.7874985933303833
+    },
+    {
+      "mid": "/m/02vzx9",
+      "description": "player",
+      "score": 0.7234545350074768,
+      "topicality": 0.7234545350074768
+    },
+    {
+      "mid": "/m/06ntj",
+      "description": "sports",
+      "score": 0.7195636034011841,
+      "topicality": 0.7195636034011841
+    },
+    {
+      "mid": "/m/05qjc",
+      "description": "performing arts",
+      "score": 0.6871500015258789,
+      "topicality": 0.6871500015258789
+    },
+    {
+      "mid": "/m/0b4_rz",
+      "description": "championship",
+      "score": 0.643149197101593,
+      "topicality": 0.643149197101593
+    },
+    {
+      "mid": "/g/116c3n66l",
+      "description": "public event",
+      "score": 0.6063011288642883,
+      "topicality": 0.6063011288642883
+    }
+  ]
+}

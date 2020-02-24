@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01j2bj",
+      "description": "bathroom",
+      "score": 0.9479315876960754,
+      "topicality": 0.9479315876960754
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.9396510720252991,
+      "topicality": 0.9396510720252991
+    },
+    {
+      "mid": "/m/05wrt",
+      "description": "property",
+      "score": 0.913824200630188,
+      "topicality": 0.913824200630188
+    },
+    {
+      "mid": "/m/01l0mw",
+      "description": "home",
+      "score": 0.8166970014572144,
+      "topicality": 0.8166970014572144
+    },
+    {
+      "mid": "/m/023907r",
+      "description": "real estate",
+      "score": 0.7354526519775391,
+      "topicality": 0.7354526519775391
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.6741048693656921,
+      "topicality": 0.6741048693656921
+    },
+    {
+      "mid": "/m/038t8_",
+      "description": "estate",
+      "score": 0.6586304306983948,
+      "topicality": 0.6586304306983948
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.6494879126548767,
+      "topicality": 0.6494879126548767
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.5983812808990479,
+      "topicality": 0.5983812808990479
+    },
+    {
+      "mid": "/m/01c34b",
+      "description": "flooring",
+      "score": 0.5850926637649536,
+      "topicality": 0.5850926637649536
+    }
+  ]
+}

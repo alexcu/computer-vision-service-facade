@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.9212028384208679,
+      "topicality": 0.9212028384208679
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8792744874954224,
+      "topicality": 0.8792744874954224
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8571352362632751,
+      "topicality": 0.8571352362632751
+    },
+    {
+      "mid": "/m/02nfxt",
+      "description": "residential area",
+      "score": 0.8394526243209839,
+      "topicality": 0.8394526243209839
+    },
+    {
+      "mid": "/m/088fh",
+      "description": "yellow",
+      "score": 0.8363301753997803,
+      "topicality": 0.8363301753997803
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.835134744644165,
+      "topicality": 0.835134744644165
+    },
+    {
+      "mid": "/m/0dx1j",
+      "description": "town",
+      "score": 0.8293768167495728,
+      "topicality": 0.8293768167495728
+    },
+    {
+      "mid": "/m/0c1vxg",
+      "description": "mixed-use",
+      "score": 0.7709423303604126,
+      "topicality": 0.7709423303604126
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.7437886595726013,
+      "topicality": 0.7437886595726013
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.7423370480537415,
+      "topicality": 0.7423370480537415
+    }
+  ]
+}

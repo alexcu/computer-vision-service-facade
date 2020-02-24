@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ntj",
+      "description": "sports",
+      "score": 0.9889867305755615,
+      "topicality": 0.9889867305755615
+    },
+    {
+      "mid": "/m/03x045",
+      "description": "team sport",
+      "score": 0.9755526781082153,
+      "topicality": 0.9755526781082153
+    },
+    {
+      "mid": "/m/020m7t",
+      "description": "ball game",
+      "score": 0.9741889834403992,
+      "topicality": 0.9741889834403992
+    },
+    {
+      "mid": "/m/02vzx9",
+      "description": "player",
+      "score": 0.973020076751709,
+      "topicality": 0.973020076751709
+    },
+    {
+      "mid": "/m/01b5r_",
+      "description": "women's football",
+      "score": 0.9237475395202637,
+      "topicality": 0.9237475395202637
+    },
+    {
+      "mid": "/m/02vx4",
+      "description": "soccer",
+      "score": 0.9113630652427673,
+      "topicality": 0.9113630652427673
+    },
+    {
+      "mid": "/m/05y5lj",
+      "description": "sports equipment",
+      "score": 0.8642022013664246,
+      "topicality": 0.8642022013664246
+    },
+    {
+      "mid": "/m/011l78",
+      "description": "team",
+      "score": 0.859260082244873,
+      "topicality": 0.859260082244873
+    },
+    {
+      "mid": "/m/08c1x8",
+      "description": "ladies' gaelic football",
+      "score": 0.848694384098053,
+      "topicality": 0.848694384098053
+    },
+    {
+      "mid": "/m/0gl2ny2",
+      "description": "football player",
+      "score": 0.8173374533653259,
+      "topicality": 0.8173374533653259
+    }
+  ]
+}

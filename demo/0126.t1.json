@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9325217008590698,
+      "topicality": 0.9325217008590698
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9075682163238525,
+      "topicality": 0.9075682163238525
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.7973103523254395,
+      "topicality": 0.7973103523254395
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.7445153594017029,
+      "topicality": 0.7445153594017029
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.7243543863296509,
+      "topicality": 0.7243543863296509
+    },
+    {
+      "mid": "/m/0brn2d",
+      "description": "field",
+      "score": 0.6841974258422852,
+      "topicality": 0.6841974258422852
+    },
+    {
+      "mid": "/m/025s3q0",
+      "description": "landscape",
+      "score": 0.6666292548179626,
+      "topicality": 0.6666292548179626
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.5882574915885925,
+      "topicality": 0.5882574915885925
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.5840281248092651,
+      "topicality": 0.5840281248092651
+    },
+    {
+      "mid": "/m/04_5sg",
+      "description": "hill",
+      "score": 0.5770091414451599,
+      "topicality": 0.5770091414451599
+    }
+  ]
+}

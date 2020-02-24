@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02p0tk3",
+      "description": "human body",
+      "score": 0.7411763668060303,
+      "topicality": 0.7411763668060303
+    },
+    {
+      "mid": "/m/0dzf4",
+      "description": "arm",
+      "score": 0.6938979625701904,
+      "topicality": 0.6938979625701904
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.64522784948349,
+      "topicality": 0.64522784948349
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.5654935240745544,
+      "topicality": 0.5654935240745544
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.5601719617843628,
+      "topicality": 0.5601719617843628
+    }
+  ]
+}

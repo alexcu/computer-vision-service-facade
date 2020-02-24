@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/g/11jxkqbpp",
+      "description": "mountainous landforms",
+      "score": 0.9572263956069946,
+      "topicality": 0.9572263956069946
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9543997049331665,
+      "topicality": 0.9543997049331665
+    },
+    {
+      "mid": "/m/06_dn",
+      "description": "snow",
+      "score": 0.9425173997879028,
+      "topicality": 0.9425173997879028
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.9332653284072876,
+      "topicality": 0.9332653284072876
+    },
+    {
+      "mid": "/m/0355cw",
+      "description": "ridge",
+      "score": 0.9245404005050659,
+      "topicality": 0.9245404005050659
+    },
+    {
+      "mid": "/m/04wxr",
+      "description": "mountain range",
+      "score": 0.9233370423316956,
+      "topicality": 0.9233370423316956
+    },
+    {
+      "mid": "/m/086mh",
+      "description": "winter",
+      "score": 0.9162960648536682,
+      "topicality": 0.9162960648536682
+    },
+    {
+      "mid": "/m/09d_r",
+      "description": "mountain",
+      "score": 0.9069843292236328,
+      "topicality": 0.9069843292236328
+    },
+    {
+      "mid": "/m/09j5n",
+      "description": "footwear",
+      "score": 0.9042455554008484,
+      "topicality": 0.9042455554008484
+    },
+    {
+      "mid": "/m/071k0",
+      "description": "skiing",
+      "score": 0.89094078540802,
+      "topicality": 0.89094078540802
+    }
+  ]
+}

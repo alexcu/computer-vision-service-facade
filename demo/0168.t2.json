@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09j2d",
+      "description": "clothing",
+      "score": 0.9781380295753479,
+      "topicality": 0.9781380295753479
+    },
+    {
+      "mid": "/m/047vlmn",
+      "description": "outerwear",
+      "score": 0.9473419189453125,
+      "topicality": 0.9473419189453125
+    },
+    {
+      "mid": "/m/032b3c",
+      "description": "jacket",
+      "score": 0.9115857481956482,
+      "topicality": 0.9115857481956482
+    },
+    {
+      "mid": "/m/062581",
+      "description": "sleeve",
+      "score": 0.8483656644821167,
+      "topicality": 0.8483656644821167
+    },
+    {
+      "mid": "/m/0ksls",
+      "description": "clothes hanger",
+      "score": 0.7450593113899231,
+      "topicality": 0.7450593113899231
+    },
+    {
+      "mid": "/m/01xygc",
+      "description": "coat",
+      "score": 0.6516237258911133,
+      "topicality": 0.6516237258911133
+    },
+    {
+      "mid": "/m/03tvvb",
+      "description": "overcoat",
+      "score": 0.6274778246879578,
+      "topicality": 0.6274778246879578
+    },
+    {
+      "mid": "/m/014621",
+      "description": "parka",
+      "score": 0.5154616832733154,
+      "topicality": 0.5154616832733154
+    }
+  ]
+}

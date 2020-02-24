@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/027cfwk",
+      "description": "stand up paddle surfing",
+      "score": 0.97467440366745,
+      "topicality": 0.97467440366745
+    },
+    {
+      "mid": "/m/0bq66hh",
+      "description": "surfing equipment",
+      "score": 0.9707704186439514,
+      "topicality": 0.9707704186439514
+    },
+    {
+      "mid": "/m/0dxnmb",
+      "description": "surface water sports",
+      "score": 0.9380760192871094,
+      "topicality": 0.9380760192871094
+    },
+    {
+      "mid": "/m/02wzbmj",
+      "description": "standing",
+      "score": 0.9260706901550293,
+      "topicality": 0.9260706901550293
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9100271463394165,
+      "topicality": 0.9100271463394165
+    },
+    {
+      "mid": "/m/019w40",
+      "description": "surfboard",
+      "score": 0.9071204662322998,
+      "topicality": 0.9071204662322998
+    },
+    {
+      "mid": "/m/02p0sll",
+      "description": "wave",
+      "score": 0.887527346611023,
+      "topicality": 0.887527346611023
+    },
+    {
+      "mid": "/m/034srq",
+      "description": "wind wave",
+      "score": 0.8685083389282227,
+      "topicality": 0.8685083389282227
+    },
+    {
+      "mid": "/m/02fm9k",
+      "description": "shore",
+      "score": 0.8519548773765564,
+      "topicality": 0.8519548773765564
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.7941349744796753,
+      "topicality": 0.7941349744796753
+    }
+  ]
+}

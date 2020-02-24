@@ -1,0 +1,74 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01prls",
+      "description": "land vehicle",
+      "score": 0.9961627125740051,
+      "topicality": 0.9961627125740051,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9903031587600708,
+      "topicality": 0.9903031587600708,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.9870125651359558,
+      "topicality": 0.9870125651359558,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/068mqj",
+      "description": "automotive design",
+      "score": 0.9123082160949707,
+      "topicality": 0.9123082160949707,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9010037183761597,
+      "topicality": 0.9010037183761597,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/03vnt4",
+      "description": "mid-size car",
+      "score": 0.8878143429756165,
+      "topicality": 0.8878143429756165,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/01lcwm",
+      "description": "luxury vehicle",
+      "score": 0.8222509622573853,
+      "topicality": 0.8222509622573853,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0ctrp",
+      "description": "sport utility vehicle",
+      "score": 0.7991766333580017,
+      "topicality": 0.7991766333580017,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/03_qhc",
+      "description": "grille",
+      "score": 0.6912620067596436,
+      "topicality": 0.6912620067596436,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/02mnkq",
+      "description": "bumper",
+      "score": 0.6843474507331848,
+      "topicality": 0.6843474507331848,
+      "bounding_poly": {}
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8719857931137085,
+      "topicality": 0.8719857931137085
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.83451247215271,
+      "topicality": 0.83451247215271
+    },
+    {
+      "mid": "/m/0n68_",
+      "description": "structure",
+      "score": 0.8079414963722229,
+      "topicality": 0.8079414963722229
+    },
+    {
+      "mid": "/m/0c1vxg",
+      "description": "mixed use",
+      "score": 0.7544247508049011,
+      "topicality": 0.7544247508049011
+    },
+    {
+      "mid": "/m/01_x9",
+      "description": "campus",
+      "score": 0.7329494953155518,
+      "topicality": 0.7329494953155518
+    },
+    {
+      "mid": "/m/03c8phm",
+      "description": "corporate headquarters",
+      "score": 0.6974626183509827,
+      "topicality": 0.6974626183509827
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.6884838342666626,
+      "topicality": 0.6884838342666626
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.6298683881759644,
+      "topicality": 0.6298683881759644
+    },
+    {
+      "mid": "/m/023907r",
+      "description": "real estate",
+      "score": 0.6136060953140259,
+      "topicality": 0.6136060953140259
+    },
+    {
+      "mid": "/m/02p0qmm",
+      "description": "college",
+      "score": 0.5631270408630371,
+      "topicality": 0.5631270408630371
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03vt0",
+      "description": "insect",
+      "score": 0.8564048409461975,
+      "topicality": 0.8564048409461975
+    },
+    {
+      "mid": "/m/083vt",
+      "description": "wood",
+      "score": 0.8256784677505493,
+      "topicality": 0.8256784677505493
+    },
+    {
+      "mid": "/m/01dqkc",
+      "description": "pest",
+      "score": 0.7132142186164856,
+      "topicality": 0.7132142186164856
+    },
+    {
+      "mid": "/m/06hyd",
+      "description": "roof",
+      "score": 0.6908379793167114,
+      "topicality": 0.6908379793167114
+    },
+    {
+      "mid": "/m/06lml",
+      "description": "rust",
+      "score": 0.5372838377952576,
+      "topicality": 0.5372838377952576
+    },
+    {
+      "mid": "/m/03mp1",
+      "description": "membrane-winged insect",
+      "score": 0.5369468927383423,
+      "topicality": 0.5369468927383423
+    },
+    {
+      "mid": "/m/05bm6",
+      "description": "nail",
+      "score": 0.5035476684570312,
+      "topicality": 0.5035476684570312
+    }
+  ]
+}

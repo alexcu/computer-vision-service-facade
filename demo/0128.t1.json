@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/017m8l",
+      "description": "waterway",
+      "score": 0.9730186462402344,
+      "topicality": 0.9730186462402344
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9559977650642395,
+      "topicality": 0.9559977650642395
+    },
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.934032678604126,
+      "topicality": 0.934032678604126
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9329904913902283,
+      "topicality": 0.9329904913902283
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.9124552607536316,
+      "topicality": 0.9124552607536316
+    },
+    {
+      "mid": "/m/01pvk",
+      "description": "canal",
+      "score": 0.841863751411438,
+      "topicality": 0.841863751411438
+    },
+    {
+      "mid": "/m/06cnp",
+      "description": "river",
+      "score": 0.7772571444511414,
+      "topicality": 0.7772571444511414
+    },
+    {
+      "mid": "/m/02l215",
+      "description": "reflection",
+      "score": 0.7405670285224915,
+      "topicality": 0.7405670285224915
+    },
+    {
+      "mid": "/m/0pgl9",
+      "description": "tourist attraction",
+      "score": 0.7120655179023743,
+      "topicality": 0.7120655179023743
+    },
+    {
+      "mid": "/m/02yybg",
+      "description": "bayou",
+      "score": 0.7042162418365479,
+      "topicality": 0.7042162418365479
+    }
+  ]
+}

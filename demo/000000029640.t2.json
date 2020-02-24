@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9934034943580627,
+      "topicality": 0.9934034943580627
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9903261065483093,
+      "topicality": 0.9903261065483093
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9864208102226257,
+      "topicality": 0.9864208102226257
+    },
+    {
+      "mid": "/m/0hkxq",
+      "description": "broccoli",
+      "score": 0.9734950661659241,
+      "topicality": 0.9734950661659241
+    },
+    {
+      "mid": "/m/0f4s2w",
+      "description": "vegetable",
+      "score": 0.9508527517318726,
+      "topicality": 0.9508527517318726
+    },
+    {
+      "mid": "/m/0bn7bg",
+      "description": "cruciferous vegetables",
+      "score": 0.9215307235717773,
+      "topicality": 0.9215307235717773
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.9207317233085632,
+      "topicality": 0.9207317233085632
+    },
+    {
+      "mid": "/m/05f725",
+      "description": "leaf vegetable",
+      "score": 0.8566997051239014,
+      "topicality": 0.8566997051239014
+    },
+    {
+      "mid": "/m/0dxr0",
+      "description": "stir frying",
+      "score": 0.8296299576759338,
+      "topicality": 0.8296299576759338
+    },
+    {
+      "mid": "/m/036qh8",
+      "description": "produce",
+      "score": 0.7814560532569885,
+      "topicality": 0.7814560532569885
+    }
+  ]
+}

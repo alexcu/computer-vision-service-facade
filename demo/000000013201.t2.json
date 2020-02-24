@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0235lp9",
+      "description": "skateboarder",
+      "score": 0.9286969304084778,
+      "topicality": 0.9286969304084778
+    },
+    {
+      "mid": "/m/06_fw",
+      "description": "skateboard",
+      "score": 0.9213370084762573,
+      "topicality": 0.9213370084762573
+    },
+    {
+      "mid": "/m/06zfw",
+      "description": "skateboarding",
+      "score": 0.9103684425354004,
+      "topicality": 0.9103684425354004
+    },
+    {
+      "mid": "/m/0hbfd",
+      "description": "kickflip",
+      "score": 0.8932741284370422,
+      "topicality": 0.8932741284370422
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.8667852878570557,
+      "topicality": 0.8667852878570557
+    },
+    {
+      "mid": "/m/0bpn3c2",
+      "description": "skateboarding equipment",
+      "score": 0.8645123243331909,
+      "topicality": 0.8645123243331909
+    },
+    {
+      "mid": "/m/09qkx",
+      "description": "boardsport",
+      "score": 0.81638103723526,
+      "topicality": 0.81638103723526
+    },
+    {
+      "mid": "/m/06ntj",
+      "description": "sports",
+      "score": 0.8156690001487732,
+      "topicality": 0.8156690001487732
+    },
+    {
+      "mid": "/m/05y5lj",
+      "description": "sports equipment",
+      "score": 0.8134973049163818,
+      "topicality": 0.8134973049163818
+    },
+    {
+      "mid": "/m/08t0vy",
+      "description": "individual sports",
+      "score": 0.768559992313385,
+      "topicality": 0.768559992313385
+    }
+  ]
+}

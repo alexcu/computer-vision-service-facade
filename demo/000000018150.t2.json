@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.6566392779350281,
+      "topicality": 0.6566392779350281
+    },
+    {
+      "mid": "/m/03bt1gh",
+      "description": "games",
+      "score": 0.6313320398330688,
+      "topicality": 0.6313320398330688
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.5942989587783813,
+      "topicality": 0.5942989587783813
+    },
+    {
+      "mid": "/m/0ytgt",
+      "description": "child",
+      "score": 0.5733055472373962,
+      "topicality": 0.5733055472373962
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.5165413022041321,
+      "topicality": 0.5165413022041321
+    },
+    {
+      "mid": "/m/01h8n0",
+      "description": "conversation",
+      "score": 0.5063962936401367,
+      "topicality": 0.5063962936401367
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9668610095977783,
+      "topicality": 0.9668610095977783
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9474793076515198,
+      "topicality": 0.9474793076515198
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9349826574325562,
+      "topicality": 0.9349826574325562
+    },
+    {
+      "mid": "/m/0663v",
+      "description": "pizza",
+      "score": 0.9046930074691772,
+      "topicality": 0.9046930074691772
+    },
+    {
+      "mid": "/m/0krfg",
+      "description": "meal",
+      "score": 0.7946054935455322,
+      "topicality": 0.7946054935455322
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.7708351612091064,
+      "topicality": 0.7708351612091064
+    },
+    {
+      "mid": "/m/09y2k2",
+      "description": "italian food",
+      "score": 0.7158799767494202,
+      "topicality": 0.7158799767494202
+    },
+    {
+      "mid": "/m/04q6ng",
+      "description": "comfort food",
+      "score": 0.7131031155586243,
+      "topicality": 0.7131031155586243
+    },
+    {
+      "mid": "/m/033xwr",
+      "description": "moussaka",
+      "score": 0.7047315835952759,
+      "topicality": 0.7047315835952759
+    },
+    {
+      "mid": "/m/0jfd5",
+      "description": "lunch",
+      "score": 0.7023529410362244,
+      "topicality": 0.7023529410362244
+    }
+  ]
+}

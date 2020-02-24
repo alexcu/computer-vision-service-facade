@@ -1,0 +1,16 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01d40f",
+      "description": "dress",
+      "score": 0.6556962132453918,
+      "topicality": 0.6556962132453918
+    },
+    {
+      "mid": "/m/0250x",
+      "description": "costume",
+      "score": 0.6313170790672302,
+      "topicality": 0.6313170790672302
+    }
+  ]
+}

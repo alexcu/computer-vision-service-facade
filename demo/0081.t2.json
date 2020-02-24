@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0335j",
+      "description": "freeway",
+      "score": 0.9571043252944946,
+      "topicality": 0.9571043252944946
+    },
+    {
+      "mid": "/m/0j_s4",
+      "description": "metropolitan area",
+      "score": 0.9496566653251648,
+      "topicality": 0.9496566653251648
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9373595714569092,
+      "topicality": 0.9373595714569092
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9213254451751709,
+      "topicality": 0.9213254451751709
+    },
+    {
+      "mid": "/m/07pw27b",
+      "description": "atmospheric phenomenon",
+      "score": 0.9153590202331543,
+      "topicality": 0.9153590202331543
+    },
+    {
+      "mid": "/m/0cz_0",
+      "description": "highway",
+      "score": 0.9076821804046631,
+      "topicality": 0.9076821804046631
+    },
+    {
+      "mid": "/m/079cl",
+      "description": "skyscraper",
+      "score": 0.8991400003433228,
+      "topicality": 0.8991400003433228
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.875800609588623,
+      "topicality": 0.875800609588623
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8732315897941589,
+      "topicality": 0.8732315897941589
+    },
+    {
+      "mid": "/m/02q7ylj",
+      "description": "daytime",
+      "score": 0.8634399771690369,
+      "topicality": 0.8634399771690369
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9096486568450928,
+      "topicality": 0.9096486568450928
+    },
+    {
+      "mid": "/m/0271t",
+      "description": "drink",
+      "score": 0.8851397633552551,
+      "topicality": 0.8851397633552551
+    },
+    {
+      "mid": "/m/01599",
+      "description": "beer",
+      "score": 0.8218672871589661,
+      "topicality": 0.8218672871589661
+    },
+    {
+      "mid": "/m/04dr76w",
+      "description": "bottle",
+      "score": 0.802909791469574,
+      "topicality": 0.802909791469574
+    },
+    {
+      "mid": "/m/012mj",
+      "description": "alcoholic beverage",
+      "score": 0.7908194065093994,
+      "topicality": 0.7908194065093994
+    },
+    {
+      "mid": "/m/039jq",
+      "description": "glass",
+      "score": 0.6824299097061157,
+      "topicality": 0.6824299097061157
+    },
+    {
+      "mid": "/m/089mxq",
+      "description": "glass bottle",
+      "score": 0.6267116665840149,
+      "topicality": 0.6267116665840149
+    },
+    {
+      "mid": "/m/02jwqh",
+      "description": "vacation",
+      "score": 0.5313591957092285,
+      "topicality": 0.5313591957092285
+    },
+    {
+      "mid": "/m/044gvx",
+      "description": "beer bottle",
+      "score": 0.5261862277984619,
+      "topicality": 0.5261862277984619
+    },
+    {
+      "mid": "/m/01gj4c",
+      "description": "pint us",
+      "score": 0.5027056932449341,
+      "topicality": 0.5027056932449341
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/019jd",
+      "description": "boat",
+      "score": 0.9596700072288513,
+      "topicality": 0.9596700072288513
+    },
+    {
+      "mid": "/m/03htg",
+      "description": "harbor",
+      "score": 0.9542503356933594,
+      "topicality": 0.9542503356933594
+    },
+    {
+      "mid": "/m/02q13x7",
+      "description": "fishing vessel",
+      "score": 0.9454930424690247,
+      "topicality": 0.9454930424690247
+    },
+    {
+      "mid": "/m/01cs_p",
+      "description": "marina",
+      "score": 0.9326163530349731,
+      "topicality": 0.9326163530349731
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9113239645957947,
+      "topicality": 0.9113239645957947
+    },
+    {
+      "mid": "/m/0p1c1",
+      "description": "port",
+      "score": 0.8741374015808105,
+      "topicality": 0.8741374015808105
+    },
+    {
+      "mid": "/m/01rzcn",
+      "description": "watercraft",
+      "score": 0.8383026719093323,
+      "topicality": 0.8383026719093323
+    },
+    {
+      "mid": "/m/03b0sm",
+      "description": "fishing trawler",
+      "score": 0.8119122385978699,
+      "topicality": 0.8119122385978699
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.7326111197471619,
+      "topicality": 0.7326111197471619
+    },
+    {
+      "mid": "/m/017kvv",
+      "description": "infrastructure",
+      "score": 0.716813862323761,
+      "topicality": 0.716813862323761
+    }
+  ]
+}

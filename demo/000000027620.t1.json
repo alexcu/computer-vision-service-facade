@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.9465438723564148,
+      "topicality": 0.9465438723564148
+    },
+    {
+      "mid": "/m/01y9k5",
+      "description": "desk",
+      "score": 0.8814469575881958,
+      "topicality": 0.8814469575881958
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.8188966512680054,
+      "topicality": 0.8188966512680054
+    },
+    {
+      "mid": "/m/04bcr3",
+      "description": "table",
+      "score": 0.778807520866394,
+      "topicality": 0.778807520866394
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.7271612882614136,
+      "topicality": 0.7271612882614136
+    },
+    {
+      "mid": "/m/021sj1",
+      "description": "office",
+      "score": 0.7028685212135315,
+      "topicality": 0.7028685212135315
+    },
+    {
+      "mid": "/m/01mzpv",
+      "description": "chair",
+      "score": 0.6781786680221558,
+      "topicality": 0.6781786680221558
+    },
+    {
+      "mid": "/m/02mrp",
+      "description": "electronics",
+      "score": 0.6745096445083618,
+      "topicality": 0.6745096445083618
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.6156911253929138,
+      "topicality": 0.6156911253929138
+    },
+    {
+      "mid": "/m/01c34b",
+      "description": "flooring",
+      "score": 0.6060720682144165,
+      "topicality": 0.6060720682144165
+    }
+  ]
+}

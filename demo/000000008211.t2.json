@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06pg22",
+      "description": "snapshot",
+      "score": 0.8643892407417297,
+      "topicality": 0.8643892407417297
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.852620005607605,
+      "topicality": 0.852620005607605
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.835134744644165,
+      "topicality": 0.835134744644165
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.7828729152679443,
+      "topicality": 0.7828729152679443
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.7497134804725647,
+      "topicality": 0.7497134804725647
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.7326111197471619,
+      "topicality": 0.7326111197471619
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6869218349456787,
+      "topicality": 0.6869218349456787
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.6554402112960815,
+      "topicality": 0.6554402112960815
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.6542643904685974,
+      "topicality": 0.6542643904685974
+    },
+    {
+      "mid": "/m/0hr8",
+      "description": "asphalt",
+      "score": 0.6205499768257141,
+      "topicality": 0.6205499768257141
+    }
+  ]
+}

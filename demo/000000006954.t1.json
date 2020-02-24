@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.8721894025802612,
+      "topicality": 0.8721894025802612
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.8333642482757568,
+      "topicality": 0.8333642482757568
+    },
+    {
+      "mid": "/m/0ytgt",
+      "description": "child",
+      "score": 0.8175950646400452,
+      "topicality": 0.8175950646400452
+    },
+    {
+      "mid": "/m/01qls",
+      "description": "community",
+      "score": 0.7904792428016663,
+      "topicality": 0.7904792428016663
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.7674474120140076,
+      "topicality": 0.7674474120140076
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.6501492261886597,
+      "topicality": 0.6501492261886597
+    },
+    {
+      "mid": "/m/011l78",
+      "description": "team",
+      "score": 0.6427622437477112,
+      "topicality": 0.6427622437477112
+    },
+    {
+      "mid": "/m/06ntj",
+      "description": "sports",
+      "score": 0.5953836441040039,
+      "topicality": 0.5953836441040039
+    },
+    {
+      "mid": "/m/06wtgq",
+      "description": "play",
+      "score": 0.5637667179107666,
+      "topicality": 0.5637667179107666
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.5421897768974304,
+      "topicality": 0.5421897768974304
+    }
+  ]
+}

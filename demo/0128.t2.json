@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9490840435028076,
+      "topicality": 0.9490840435028076
+    },
+    {
+      "mid": "/m/017m8l",
+      "description": "waterway",
+      "score": 0.9424462914466858,
+      "topicality": 0.9424462914466858
+    },
+    {
+      "mid": "/m/05t0z3q",
+      "description": "bank",
+      "score": 0.8916212916374207,
+      "topicality": 0.8916212916374207
+    },
+    {
+      "mid": "/m/01pvk",
+      "description": "canal",
+      "score": 0.8708995580673218,
+      "topicality": 0.8708995580673218
+    },
+    {
+      "mid": "/m/06cnp",
+      "description": "river",
+      "score": 0.8526772260665894,
+      "topicality": 0.8526772260665894
+    },
+    {
+      "mid": "/m/02yybg",
+      "description": "bayou",
+      "score": 0.8283249735832214,
+      "topicality": 0.8283249735832214
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.8073040843009949,
+      "topicality": 0.8073040843009949
+    },
+    {
+      "mid": "/m/01txr2",
+      "description": "spring",
+      "score": 0.7775745391845703,
+      "topicality": 0.7775745391845703
+    },
+    {
+      "mid": "/m/02hnx9",
+      "description": "woody plant",
+      "score": 0.7638684511184692,
+      "topicality": 0.7638684511184692
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.7543185949325562,
+      "topicality": 0.7543185949325562
+    }
+  ]
+}

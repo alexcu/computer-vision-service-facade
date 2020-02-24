@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07bgp",
+      "description": "sheep",
+      "score": 0.9396789073944092,
+      "topicality": 0.9396789073944092
+    },
+    {
+      "mid": "/m/08hhz2",
+      "description": "sheep",
+      "score": 0.9312341809272766,
+      "topicality": 0.9312341809272766
+    },
+    {
+      "mid": "/m/01k050",
+      "description": "cow goat family",
+      "score": 0.8032282590866089,
+      "topicality": 0.8032282590866089
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.8025248646736145,
+      "topicality": 0.8025248646736145
+    },
+    {
+      "mid": "/m/0ch8v",
+      "description": "livestock",
+      "score": 0.762992799282074,
+      "topicality": 0.762992799282074
+    },
+    {
+      "mid": "/m/06_dn",
+      "description": "snow",
+      "score": 0.6563525795936584,
+      "topicality": 0.6563525795936584
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.6135264039039612,
+      "topicality": 0.6135264039039612
+    },
+    {
+      "mid": "/m/089v3",
+      "description": "zoo",
+      "score": 0.5213561654090881,
+      "topicality": 0.5213561654090881
+    }
+  ]
+}

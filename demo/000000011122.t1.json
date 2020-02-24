@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0blz9",
+      "description": "fence",
+      "score": 0.858110785484314,
+      "topicality": 0.858110785484314
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.8479934334754944,
+      "topicality": 0.8479934334754944
+    },
+    {
+      "mid": "/m/0cd3bj",
+      "description": "chain link fencing",
+      "score": 0.8354266881942749,
+      "topicality": 0.8354266881942749
+    },
+    {
+      "mid": "/m/0h8xdq1",
+      "description": "wire fencing",
+      "score": 0.7747528553009033,
+      "topicality": 0.7747528553009033
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.7611391544342041,
+      "topicality": 0.7611391544342041
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.7558491826057434,
+      "topicality": 0.7558491826057434
+    },
+    {
+      "mid": "/m/0h8lhsd",
+      "description": "outdoor structure",
+      "score": 0.6917997598648071,
+      "topicality": 0.6917997598648071
+    },
+    {
+      "mid": "/m/0n0j",
+      "description": "area",
+      "score": 0.6720095872879028,
+      "topicality": 0.6720095872879028
+    },
+    {
+      "mid": "/m/0lhr",
+      "description": "arecales",
+      "score": 0.5413535833358765,
+      "topicality": 0.5413535833358765
+    },
+    {
+      "mid": "/m/0h8jv05",
+      "description": "home fencing",
+      "score": 0.5411019921302795,
+      "topicality": 0.5411019921302795
+    }
+  ]
+}

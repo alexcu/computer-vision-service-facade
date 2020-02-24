@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9064134955406189,
+      "topicality": 0.9064134955406189
+    },
+    {
+      "mid": "/m/015kr",
+      "description": "bridge",
+      "score": 0.8266803026199341,
+      "topicality": 0.8266803026199341
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.8234965801239014,
+      "topicality": 0.8234965801239014
+    },
+    {
+      "mid": "/m/015p6",
+      "description": "bird",
+      "score": 0.7510229349136353,
+      "topicality": 0.7510229349136353
+    },
+    {
+      "mid": "/m/01515d",
+      "description": "flight",
+      "score": 0.6660998463630676,
+      "topicality": 0.6660998463630676
+    },
+    {
+      "mid": "/m/051gs3",
+      "description": "fixed link",
+      "score": 0.6408171653747559,
+      "topicality": 0.6408171653747559
+    },
+    {
+      "mid": "/m/083s2",
+      "description": "wing",
+      "score": 0.6326655149459839,
+      "topicality": 0.6326655149459839
+    },
+    {
+      "mid": "/m/0fzyg",
+      "description": "aviation",
+      "score": 0.6147715449333191,
+      "topicality": 0.6147715449333191
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6057072877883911,
+      "topicality": 0.6057072877883911
+    }
+  ]
+}

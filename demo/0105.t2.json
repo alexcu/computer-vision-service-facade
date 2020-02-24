@@ -1,0 +1,74 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09j2d",
+      "description": "clothing",
+      "score": 0.9391640424728394,
+      "topicality": 0.9391640424728394,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/032tl",
+      "description": "fashion",
+      "score": 0.8881467580795288,
+      "topicality": 0.8881467580795288,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0408t8_",
+      "description": "street fashion",
+      "score": 0.8852699398994446,
+      "topicality": 0.8852699398994446,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/06pg22",
+      "description": "snapshot",
+      "score": 0.8250965476036072,
+      "topicality": 0.8250965476036072,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/09j5n",
+      "description": "footwear",
+      "score": 0.8162633180618286,
+      "topicality": 0.8162633180618286,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/01ssh5",
+      "description": "shoulder",
+      "score": 0.7507902979850769,
+      "topicality": 0.7507902979850769,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/01dvt1",
+      "description": "joint",
+      "score": 0.739563524723053,
+      "topicality": 0.739563524723053,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/019swr",
+      "description": "knee",
+      "score": 0.7209324240684509,
+      "topicality": 0.7209324240684509,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/0dzd8",
+      "description": "neck",
+      "score": 0.689909040927887,
+      "topicality": 0.689909040927887,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/02jwqh",
+      "description": "vacation",
+      "score": 0.6860960721969604,
+      "topicality": 0.6860960721969604,
+      "bounding_poly": {}
+    }
+  ]
+}

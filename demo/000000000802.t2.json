@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.9542873501777649,
+      "topicality": 0.9542873501777649
+    },
+    {
+      "mid": "/m/05wrt",
+      "description": "property",
+      "score": 0.9437494874000549,
+      "topicality": 0.9437494874000549
+    },
+    {
+      "mid": "/m/017_cz",
+      "description": "major appliance",
+      "score": 0.9019787311553955,
+      "topicality": 0.9019787311553955
+    },
+    {
+      "mid": "/m/0d4wf",
+      "description": "kitchen",
+      "score": 0.7882729172706604,
+      "topicality": 0.7882729172706604
+    },
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.7804588675498962,
+      "topicality": 0.7804588675498962
+    },
+    {
+      "mid": "/m/01s105",
+      "description": "cabinetry",
+      "score": 0.7600469589233398,
+      "topicality": 0.7600469589233398
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.7577666640281677,
+      "topicality": 0.7577666640281677
+    },
+    {
+      "mid": "/m/02zcbn",
+      "description": "freezer",
+      "score": 0.7457993626594543,
+      "topicality": 0.7457993626594543
+    },
+    {
+      "mid": "/m/019dx1",
+      "description": "home appliance",
+      "score": 0.6718595027923584,
+      "topicality": 0.6718595027923584
+    },
+    {
+      "mid": "/m/040b_t",
+      "description": "refrigerator",
+      "score": 0.6462389230728149,
+      "topicality": 0.6462389230728149
+    }
+  ]
+}

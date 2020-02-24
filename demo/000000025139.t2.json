@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.9900908470153809,
+      "topicality": 0.9900908470153809
+    },
+    {
+      "mid": "/m/0898b",
+      "description": "zebra",
+      "score": 0.9852967262268066,
+      "topicality": 0.9852967262268066
+    },
+    {
+      "mid": "/m/09686",
+      "description": "vertebrate",
+      "score": 0.9851104021072388,
+      "topicality": 0.9851104021072388
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.9831042885780334,
+      "topicality": 0.9831042885780334
+    },
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9705943465232849,
+      "topicality": 0.9705943465232849
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.8251876831054688,
+      "topicality": 0.8251876831054688
+    },
+    {
+      "mid": "/m/089v3",
+      "description": "zoo",
+      "score": 0.818219780921936,
+      "topicality": 0.818219780921936
+    },
+    {
+      "mid": "/m/05nnm",
+      "description": "organism",
+      "score": 0.7671774625778198,
+      "topicality": 0.7671774625778198
+    },
+    {
+      "mid": "/m/03r_vp",
+      "description": "adaptation",
+      "score": 0.6696612238883972,
+      "topicality": 0.6696612238883972
+    },
+    {
+      "mid": "/m/0199b0",
+      "description": "safari",
+      "score": 0.5970922112464905,
+      "topicality": 0.5970922112464905
+    }
+  ]
+}

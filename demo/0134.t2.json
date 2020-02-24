@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jc_p",
+      "description": "orange",
+      "score": 0.8505952954292297,
+      "topicality": 0.8505952954292297
+    },
+    {
+      "mid": "/m/088fh",
+      "description": "yellow",
+      "score": 0.8363301753997803,
+      "topicality": 0.8363301753997803
+    },
+    {
+      "mid": "/m/08g_yr",
+      "description": "temple",
+      "score": 0.6256434917449951,
+      "topicality": 0.6256434917449951
+    },
+    {
+      "mid": "/m/0250x",
+      "description": "costume",
+      "score": 0.5535626411437988,
+      "topicality": 0.5535626411437988
+    }
+  ]
+}

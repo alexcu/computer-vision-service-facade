@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bt9lr",
+      "description": "dog",
+      "score": 0.9544222950935364,
+      "topicality": 0.9544222950935364
+    },
+    {
+      "mid": "/m/01z5f",
+      "description": "dog like mammal",
+      "score": 0.9199488162994385,
+      "topicality": 0.9199488162994385
+    },
+    {
+      "mid": "/m/05zmzn1",
+      "description": "street dog",
+      "score": 0.9021533131599426,
+      "topicality": 0.9021533131599426
+    },
+    {
+      "mid": "/m/0kpmf",
+      "description": "dog breed",
+      "score": 0.855333685874939,
+      "topicality": 0.855333685874939
+    },
+    {
+      "mid": "/m/099fz",
+      "description": "sand",
+      "score": 0.8226938843727112,
+      "topicality": 0.8226938843727112
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.7238700985908508,
+      "topicality": 0.7238700985908508
+    },
+    {
+      "mid": "/m/01lrl",
+      "description": "carnivoran",
+      "score": 0.6082692742347717,
+      "topicality": 0.6082692742347717
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.5641719102859497,
+      "topicality": 0.5641719102859497
+    }
+  ]
+}

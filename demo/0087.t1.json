@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03d1rd",
+      "description": "ruins",
+      "score": 0.8240551948547363,
+      "topicality": 0.8240551948547363
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.815293550491333,
+      "topicality": 0.815293550491333
+    },
+    {
+      "mid": "/m/012ww9",
+      "description": "archaeological site",
+      "score": 0.7837174534797668,
+      "topicality": 0.7837174534797668
+    },
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.6279617547988892,
+      "topicality": 0.6279617547988892
+    },
+    {
+      "mid": "/m/036hv",
+      "description": "geology",
+      "score": 0.5958623886108398,
+      "topicality": 0.5958623886108398
+    },
+    {
+      "mid": "/m/07cwvn",
+      "description": "outcrop",
+      "score": 0.5805683732032776,
+      "topicality": 0.5805683732032776
+    },
+    {
+      "mid": "/m/0djmp",
+      "description": "ancient history",
+      "score": 0.5599029064178467,
+      "topicality": 0.5599029064178467
+    },
+    {
+      "mid": "/m/07yr8h",
+      "description": "historic site",
+      "score": 0.528258204460144,
+      "topicality": 0.528258204460144
+    },
+    {
+      "mid": "/m/07bxq",
+      "description": "tourism",
+      "score": 0.5110760927200317,
+      "topicality": 0.5110760927200317
+    },
+    {
+      "mid": "/m/0f0q9",
+      "description": "village",
+      "score": 0.5006565451622009,
+      "topicality": 0.5006565451622009
+    }
+  ]
+}

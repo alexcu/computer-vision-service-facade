@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.9342126846313477,
+      "topicality": 0.9342126846313477
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.916959285736084,
+      "topicality": 0.916959285736084
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9126266837120056,
+      "topicality": 0.9126266837120056
+    },
+    {
+      "mid": "/m/02p0sll",
+      "description": "wave",
+      "score": 0.8496671319007874,
+      "topicality": 0.8496671319007874
+    },
+    {
+      "mid": "/m/01b2q6",
+      "description": "sunrise",
+      "score": 0.8402132391929626,
+      "topicality": 0.8402132391929626
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8354628682136536,
+      "topicality": 0.8354628682136536
+    },
+    {
+      "mid": "/m/05kq4",
+      "description": "ocean",
+      "score": 0.8181536793708801,
+      "topicality": 0.8181536793708801
+    },
+    {
+      "mid": "/m/0bq66hh",
+      "description": "surfing equipment and supplies",
+      "score": 0.7988934516906738,
+      "topicality": 0.7988934516906738
+    },
+    {
+      "mid": "/m/02jwqh",
+      "description": "vacation",
+      "score": 0.7880889177322388,
+      "topicality": 0.7880889177322388
+    },
+    {
+      "mid": "/m/07sn5gn",
+      "description": "geological phenomenon",
+      "score": 0.7618951201438904,
+      "topicality": 0.7618951201438904
+    }
+  ]
+}

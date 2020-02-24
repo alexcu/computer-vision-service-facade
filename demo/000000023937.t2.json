@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.97422856092453,
+      "topicality": 0.97422856092453
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.9254313707351685,
+      "topicality": 0.9254313707351685
+    },
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.9154049158096313,
+      "topicality": 0.9154049158096313
+    },
+    {
+      "mid": "/m/025st_8",
+      "description": "meadow",
+      "score": 0.8672419190406799,
+      "topicality": 0.8672419190406799
+    },
+    {
+      "mid": "/m/0fkrk",
+      "description": "grass family",
+      "score": 0.7962877750396729,
+      "topicality": 0.7962877750396729
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6869218349456787,
+      "topicality": 0.6869218349456787
+    },
+    {
+      "mid": "/m/03hh2k",
+      "description": "grazing",
+      "score": 0.6734868288040161,
+      "topicality": 0.6734868288040161
+    },
+    {
+      "mid": "/m/01v327",
+      "description": "lawn",
+      "score": 0.6733375191688538,
+      "topicality": 0.6733375191688538
+    },
+    {
+      "mid": "/m/0hkvx",
+      "description": "prairie",
+      "score": 0.662157416343689,
+      "topicality": 0.662157416343689
+    },
+    {
+      "mid": "/m/0brn2d",
+      "description": "field",
+      "score": 0.6526976823806763,
+      "topicality": 0.6526976823806763
+    }
+  ]
+}

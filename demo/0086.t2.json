@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8129662275314331,
+      "topicality": 0.8129662275314331
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.6566392779350281,
+      "topicality": 0.6566392779350281
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.6264234185218811,
+      "topicality": 0.6264234185218811
+    },
+    {
+      "mid": "/m/04vmpm",
+      "description": "loft",
+      "score": 0.6204596757888794,
+      "topicality": 0.6204596757888794
+    },
+    {
+      "mid": "/m/0d4vn",
+      "description": "hall",
+      "score": 0.6037712693214417,
+      "topicality": 0.6037712693214417
+    },
+    {
+      "mid": "/m/01c34b",
+      "description": "flooring",
+      "score": 0.6004095673561096,
+      "topicality": 0.6004095673561096
+    }
+  ]
+}

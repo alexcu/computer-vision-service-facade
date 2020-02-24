@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9158686995506287,
+      "topicality": 0.9158686995506287
+    },
+    {
+      "mid": "/m/01jb4",
+      "description": "biome",
+      "score": 0.8350723385810852,
+      "topicality": 0.8350723385810852
+    },
+    {
+      "mid": "/m/021krv",
+      "description": "state park",
+      "score": 0.8216054439544678,
+      "topicality": 0.8216054439544678
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.8201246857643127,
+      "topicality": 0.8201246857643127
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.7787725925445557,
+      "topicality": 0.7787725925445557
+    },
+    {
+      "mid": "/m/07cwvn",
+      "description": "outcrop",
+      "score": 0.7415021657943726,
+      "topicality": 0.7415021657943726
+    },
+    {
+      "mid": "/m/06600f2",
+      "description": "plant community",
+      "score": 0.7266137599945068,
+      "topicality": 0.7266137599945068
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.7207983136177063,
+      "topicality": 0.7207983136177063
+    },
+    {
+      "mid": "/m/02zr8",
+      "description": "forest",
+      "score": 0.7096933126449585,
+      "topicality": 0.7096933126449585
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.6902275681495667,
+      "topicality": 0.6902275681495667
+    }
+  ]
+}

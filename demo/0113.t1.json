@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/08mm4m",
+      "description": "billiard room",
+      "score": 0.9859951734542847,
+      "topicality": 0.9859951734542847
+    },
+    {
+      "mid": "/m/01p58g",
+      "description": "english billiards",
+      "score": 0.9701537489891052,
+      "topicality": 0.9701537489891052
+    },
+    {
+      "mid": "/m/04p0qw",
+      "description": "billiard table",
+      "score": 0.9572133421897888,
+      "topicality": 0.9572133421897888
+    },
+    {
+      "mid": "/m/03f6tc",
+      "description": "recreation room",
+      "score": 0.9445306062698364,
+      "topicality": 0.9445306062698364
+    },
+    {
+      "mid": "/m/0b42l9",
+      "description": "indoor games and sports",
+      "score": 0.9390115737915039,
+      "topicality": 0.9390115737915039
+    },
+    {
+      "mid": "/m/04bcr3",
+      "description": "table",
+      "score": 0.917578935623169,
+      "topicality": 0.917578935623169
+    },
+    {
+      "mid": "/m/04p0xr",
+      "description": "pool",
+      "score": 0.870745062828064,
+      "topicality": 0.870745062828064
+    },
+    {
+      "mid": "/m/015_x",
+      "description": "cue sports",
+      "score": 0.8133154511451721,
+      "topicality": 0.8133154511451721
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.7869475483894348,
+      "topicality": 0.7869475483894348
+    },
+    {
+      "mid": "/m/03bt1gh",
+      "description": "games",
+      "score": 0.7755046486854553,
+      "topicality": 0.7755046486854553
+    }
+  ]
+}

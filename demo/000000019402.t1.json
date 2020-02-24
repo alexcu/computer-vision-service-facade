@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9573330879211426,
+      "topicality": 0.9573330879211426
+    },
+    {
+      "mid": "/m/0cnmr",
+      "description": "fur",
+      "score": 0.8297719955444336,
+      "topicality": 0.8297719955444336
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.8206517696380615,
+      "topicality": 0.8206517696380615
+    },
+    {
+      "mid": "/m/02tjx",
+      "description": "emotion",
+      "score": 0.8101266622543335,
+      "topicality": 0.8101266622543335
+    },
+    {
+      "mid": "/m/014sv8",
+      "description": "eye",
+      "score": 0.7686241865158081,
+      "topicality": 0.7686241865158081
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7357578873634338,
+      "topicality": 0.7357578873634338
+    },
+    {
+      "mid": "/m/02qd0r",
+      "description": "human behavior",
+      "score": 0.6860502362251282,
+      "topicality": 0.6860502362251282
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6280806660652161,
+      "topicality": 0.6280806660652161
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.5379034280776978,
+      "topicality": 0.5379034280776978
+    },
+    {
+      "mid": "/m/07c97b",
+      "description": "fur clothing",
+      "score": 0.5351092219352722,
+      "topicality": 0.5351092219352722
+    }
+  ]
+}

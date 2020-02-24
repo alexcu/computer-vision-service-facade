@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8143385648727417,
+      "topicality": 0.8143385648727417
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8060234785079956,
+      "topicality": 0.8060234785079956
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.6461443305015564,
+      "topicality": 0.6461443305015564
+    },
+    {
+      "mid": "/m/02ljgl",
+      "description": "monument",
+      "score": 0.6043881773948669,
+      "topicality": 0.6043881773948669
+    },
+    {
+      "mid": "/m/02nvjx",
+      "description": "place of worship",
+      "score": 0.5641825795173645,
+      "topicality": 0.5641825795173645
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.5569936037063599,
+      "topicality": 0.5569936037063599
+    }
+  ]
+}

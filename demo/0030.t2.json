@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09686",
+      "description": "vertebrate",
+      "score": 0.9851104021072388,
+      "topicality": 0.9851104021072388
+    },
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.975814163684845,
+      "topicality": 0.975814163684845
+    },
+    {
+      "mid": "/m/04cmwn",
+      "description": "goats",
+      "score": 0.9172998666763306,
+      "topicality": 0.9172998666763306
+    },
+    {
+      "mid": "/m/03fwl",
+      "description": "goat",
+      "score": 0.8249436616897583,
+      "topicality": 0.8249436616897583
+    },
+    {
+      "mid": "/m/0kpmf",
+      "description": "dog breed",
+      "score": 0.7664697170257568,
+      "topicality": 0.7664697170257568
+    },
+    {
+      "mid": "/m/01z5f",
+      "description": "canidae",
+      "score": 0.764419674873352,
+      "topicality": 0.764419674873352
+    },
+    {
+      "mid": "/m/0jzz1",
+      "description": "bovine",
+      "score": 0.7526174783706665,
+      "topicality": 0.7526174783706665
+    },
+    {
+      "mid": "/m/01k050",
+      "description": "cow-goat family",
+      "score": 0.7193155884742737,
+      "topicality": 0.7193155884742737
+    },
+    {
+      "mid": "/m/0cnmr",
+      "description": "fur",
+      "score": 0.7167397141456604,
+      "topicality": 0.7167397141456604
+    },
+    {
+      "mid": "/m/0265rtm",
+      "description": "sporting group",
+      "score": 0.6977496147155762,
+      "topicality": 0.6977496147155762
+    }
+  ]
+}

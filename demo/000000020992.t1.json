@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0283dt1",
+      "description": "mouth",
+      "score": 0.7307372093200684,
+      "topicality": 0.7307372093200684
+    },
+    {
+      "mid": "/m/01f5gx",
+      "description": "eating",
+      "score": 0.6478172540664673,
+      "topicality": 0.6478172540664673
+    },
+    {
+      "mid": "/m/01k9lj",
+      "description": "jaw",
+      "score": 0.5656290054321289,
+      "topicality": 0.5656290054321289
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.5067050457000732,
+      "topicality": 0.5067050457000732
+    }
+  ]
+}

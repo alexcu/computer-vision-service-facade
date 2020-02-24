@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.9609587788581848,
+      "topicality": 0.9609587788581848
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9020489454269409,
+      "topicality": 0.9020489454269409
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8916006088256836,
+      "topicality": 0.8916006088256836
+    },
+    {
+      "mid": "/m/0dx1j",
+      "description": "town",
+      "score": 0.8616222739219666,
+      "topicality": 0.8616222739219666
+    },
+    {
+      "mid": "/m/08863x",
+      "description": "bird's eye view",
+      "score": 0.7441332340240479,
+      "topicality": 0.7441332340240479
+    },
+    {
+      "mid": "/m/034z7h",
+      "description": "cityscape",
+      "score": 0.7002291083335876,
+      "topicality": 0.7002291083335876
+    },
+    {
+      "mid": "/m/0204fg",
+      "description": "skyline",
+      "score": 0.692244291305542,
+      "topicality": 0.692244291305542
+    },
+    {
+      "mid": "/m/07yr8h",
+      "description": "historic site",
+      "score": 0.6697145700454712,
+      "topicality": 0.6697145700454712
+    },
+    {
+      "mid": "/m/0f0q9",
+      "description": "village",
+      "score": 0.6637923717498779,
+      "topicality": 0.6637923717498779
+    },
+    {
+      "mid": "/m/0djmp",
+      "description": "ancient history",
+      "score": 0.6384217143058777,
+      "topicality": 0.6384217143058777
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01_12b",
+      "description": "granny smith",
+      "score": 0.9863894581794739,
+      "topicality": 0.9863894581794739
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9734369516372681,
+      "topicality": 0.9734369516372681
+    },
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9587113857269287,
+      "topicality": 0.9587113857269287
+    },
+    {
+      "mid": "/m/02xwb",
+      "description": "fruit",
+      "score": 0.9574785828590393,
+      "topicality": 0.9574785828590393
+    },
+    {
+      "mid": "/m/08tlbj",
+      "description": "natural foods",
+      "score": 0.9401142001152039,
+      "topicality": 0.9401142001152039
+    },
+    {
+      "mid": "/m/014j1m",
+      "description": "apple",
+      "score": 0.9054452776908875,
+      "topicality": 0.9054452776908875
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.8609086871147156,
+      "topicality": 0.8609086871147156
+    },
+    {
+      "mid": "/m/036qh8",
+      "description": "produce",
+      "score": 0.7814560532569885,
+      "topicality": 0.7814560532569885
+    },
+    {
+      "mid": "/m/052w_x",
+      "description": "vegan nutrition",
+      "score": 0.6582263708114624,
+      "topicality": 0.6582263708114624
+    },
+    {
+      "mid": "/m/01hxyd",
+      "description": "local food",
+      "score": 0.6492462754249573,
+      "topicality": 0.6492462754249573
+    }
+  ]
+}

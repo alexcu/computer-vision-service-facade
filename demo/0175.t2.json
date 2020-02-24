@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.9322541952133179,
+      "topicality": 0.9322541952133179
+    },
+    {
+      "mid": "/m/0fkrk",
+      "description": "grass family",
+      "score": 0.8218854069709778,
+      "topicality": 0.8218854069709778
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.7026593685150146,
+      "topicality": 0.7026593685150146
+    },
+    {
+      "mid": "/m/06600f2",
+      "description": "plant community",
+      "score": 0.6891077756881714,
+      "topicality": 0.6891077756881714
+    }
+  ]
+}

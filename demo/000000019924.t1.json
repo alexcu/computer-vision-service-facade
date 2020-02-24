@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01g6gs",
+      "description": "black and white",
+      "score": 0.9253544807434082,
+      "topicality": 0.9253544807434082
+    },
+    {
+      "mid": "/m/01f43",
+      "description": "beauty",
+      "score": 0.8705108165740967,
+      "topicality": 0.8705108165740967
+    },
+    {
+      "mid": "/m/0463sg",
+      "description": "fashion accessory",
+      "score": 0.8606710433959961,
+      "topicality": 0.8606710433959961
+    },
+    {
+      "mid": "/m/03d49p1",
+      "description": "monochrome photography",
+      "score": 0.8352102041244507,
+      "topicality": 0.8352102041244507
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.8229581117630005,
+      "topicality": 0.8229581117630005
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.806746244430542,
+      "topicality": 0.806746244430542
+    },
+    {
+      "mid": "/m/01443y",
+      "description": "headgear",
+      "score": 0.7830827236175537,
+      "topicality": 0.7830827236175537
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.7212141752243042,
+      "topicality": 0.7212141752243042
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "monochrome",
+      "score": 0.688919186592102,
+      "topicality": 0.688919186592102
+    },
+    {
+      "mid": "/m/0hg7b",
+      "description": "microphone",
+      "score": 0.661932110786438,
+      "topicality": 0.661932110786438
+    }
+  ]
+}

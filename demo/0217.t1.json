@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8389142751693726,
+      "topicality": 0.8389142751693726
+    },
+    {
+      "mid": "/m/0n68_",
+      "description": "structure",
+      "score": 0.7988016605377197,
+      "topicality": 0.7988016605377197
+    },
+    {
+      "mid": "/m/03gfsp",
+      "description": "ceiling",
+      "score": 0.7000563144683838,
+      "topicality": 0.7000563144683838
+    },
+    {
+      "mid": "/m/06wqb",
+      "description": "space",
+      "score": 0.5560624599456787,
+      "topicality": 0.5560624599456787
+    },
+    {
+      "mid": "/m/0k2n5",
+      "description": "daylighting",
+      "score": 0.5181512236595154,
+      "topicality": 0.5181512236595154
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.5176177620887756,
+      "topicality": 0.5176177620887756
+    }
+  ]
+}

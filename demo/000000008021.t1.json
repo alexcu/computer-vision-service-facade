@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/068k4",
+      "description": "public speaking",
+      "score": 0.8789464235305786,
+      "topicality": 0.8789464235305786
+    },
+    {
+      "mid": "/m/0f2f9",
+      "description": "television program",
+      "score": 0.8159980177879333,
+      "topicality": 0.8159980177879333
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.7374233603477478,
+      "topicality": 0.7374233603477478
+    },
+    {
+      "mid": "/m/01lhf",
+      "description": "communication",
+      "score": 0.7204093337059021,
+      "topicality": 0.7204093337059021
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.6429547071456909,
+      "topicality": 0.6429547071456909
+    },
+    {
+      "mid": "/m/029zz6",
+      "description": "display device",
+      "score": 0.6417496800422668,
+      "topicality": 0.6417496800422668
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.6114863753318787,
+      "topicality": 0.6114863753318787
+    },
+    {
+      "mid": "/m/0hpjt",
+      "description": "orator",
+      "score": 0.5531604886054993,
+      "topicality": 0.5531604886054993
+    },
+    {
+      "mid": "/m/01h8n0",
+      "description": "conversation",
+      "score": 0.5334704518318176,
+      "topicality": 0.5334704518318176
+    },
+    {
+      "mid": "/m/02y3rj",
+      "description": "presentation",
+      "score": 0.5166654586791992,
+      "topicality": 0.5166654586791992
+    }
+  ]
+}

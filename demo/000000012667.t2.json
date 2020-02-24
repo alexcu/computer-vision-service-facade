@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0h8lkj8",
+      "description": "corded phone",
+      "score": 0.9842743873596191,
+      "topicality": 0.9842743873596191
+    },
+    {
+      "mid": "/m/07cx4",
+      "description": "telephone",
+      "score": 0.8983827829360962,
+      "topicality": 0.8983827829360962
+    },
+    {
+      "mid": "/m/0bhmh",
+      "description": "telephony",
+      "score": 0.8654166460037231,
+      "topicality": 0.8654166460037231
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.8121237754821777,
+      "topicality": 0.8121237754821777
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.7801225781440735,
+      "topicality": 0.7801225781440735
+    },
+    {
+      "mid": "/m/01lsc5",
+      "description": "answering machine",
+      "score": 0.5315104126930237,
+      "topicality": 0.5315104126930237
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7684727907180786,
+      "topicality": 0.7684727907180786
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.7514083981513977,
+      "topicality": 0.7514083981513977
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.6880232691764832,
+      "topicality": 0.6880232691764832
+    },
+    {
+      "mid": "/m/0dm6dl",
+      "description": "barechested",
+      "score": 0.6103091835975647,
+      "topicality": 0.6103091835975647
+    }
+  ]
+}

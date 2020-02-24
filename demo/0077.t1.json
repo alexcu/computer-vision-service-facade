@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01lxd",
+      "description": "coast",
+      "score": 0.9288884401321411,
+      "topicality": 0.9288884401321411
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.9268536567687988,
+      "topicality": 0.9268536567687988
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.8932218551635742,
+      "topicality": 0.8932218551635742
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8771412968635559,
+      "topicality": 0.8771412968635559
+    },
+    {
+      "mid": "/m/01jnvt",
+      "description": "badlands",
+      "score": 0.8584036231040955,
+      "topicality": 0.8584036231040955
+    },
+    {
+      "mid": "/m/02r3_7_",
+      "description": "promontory",
+      "score": 0.8424915671348572,
+      "topicality": 0.8424915671348572
+    },
+    {
+      "mid": "/m/018vpr",
+      "description": "cliff",
+      "score": 0.8334776163101196,
+      "topicality": 0.8334776163101196
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.7927584052085876,
+      "topicality": 0.7927584052085876
+    },
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.7660855650901794,
+      "topicality": 0.7660855650901794
+    },
+    {
+      "mid": "/m/02fm9k",
+      "description": "shore",
+      "score": 0.7660749554634094,
+      "topicality": 0.7660749554634094
+    }
+  ]
+}

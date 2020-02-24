@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0dpvm",
+      "description": "arch",
+      "score": 0.915314257144928,
+      "topicality": 0.915314257144928
+    },
+    {
+      "mid": "/m/0n68_",
+      "description": "structure",
+      "score": 0.8518012166023254,
+      "topicality": 0.8518012166023254
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.826755166053772,
+      "topicality": 0.826755166053772
+    },
+    {
+      "mid": "/m/01jf71",
+      "description": "arcade",
+      "score": 0.7372754812240601,
+      "topicality": 0.7372754812240601
+    },
+    {
+      "mid": "/m/03gfsp",
+      "description": "ceiling",
+      "score": 0.6411502361297607,
+      "topicality": 0.6411502361297607
+    },
+    {
+      "mid": "/m/0k2n5",
+      "description": "daylighting",
+      "score": 0.6060519218444824,
+      "topicality": 0.6060519218444824
+    },
+    {
+      "mid": "/m/01_m7",
+      "description": "column",
+      "score": 0.6010007262229919,
+      "topicality": 0.6010007262229919
+    },
+    {
+      "mid": "/m/0l7_8",
+      "description": "floor",
+      "score": 0.5786206126213074,
+      "topicality": 0.5786206126213074
+    },
+    {
+      "mid": "/m/027dwg0",
+      "description": "lobby",
+      "score": 0.5465012192726135,
+      "topicality": 0.5465012192726135
+    },
+    {
+      "mid": "/m/0f28m",
+      "description": "symmetry",
+      "score": 0.5386501550674438,
+      "topicality": 0.5386501550674438
+    }
+  ]
+}

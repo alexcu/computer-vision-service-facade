@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/g/11jxkqbpp",
+      "description": "mountainous landforms",
+      "score": 0.9673504829406738,
+      "topicality": 0.9673504829406738
+    },
+    {
+      "mid": "/m/04wxr",
+      "description": "mountain range",
+      "score": 0.9514766335487366,
+      "topicality": 0.9514766335487366
+    },
+    {
+      "mid": "/m/086mh",
+      "description": "winter",
+      "score": 0.9475638270378113,
+      "topicality": 0.9475638270378113
+    },
+    {
+      "mid": "/m/06_dn",
+      "description": "snow",
+      "score": 0.9456788301467896,
+      "topicality": 0.9456788301467896
+    },
+    {
+      "mid": "/m/09d_r",
+      "description": "mountain",
+      "score": 0.9323773980140686,
+      "topicality": 0.9323773980140686
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9244478344917297,
+      "topicality": 0.9244478344917297
+    },
+    {
+      "mid": "/m/055s40",
+      "description": "glacial landform",
+      "score": 0.8342140316963196,
+      "topicality": 0.8342140316963196
+    },
+    {
+      "mid": "/m/0lcd",
+      "description": "alps",
+      "score": 0.8248507976531982,
+      "topicality": 0.8248507976531982
+    },
+    {
+      "mid": "/m/01pbgp",
+      "description": "massif",
+      "score": 0.8198712468147278,
+      "topicality": 0.8198712468147278
+    },
+    {
+      "mid": "/m/07sn5gn",
+      "description": "geological phenomenon",
+      "score": 0.8078803420066833,
+      "topicality": 0.8078803420066833
+    }
+  ]
+}

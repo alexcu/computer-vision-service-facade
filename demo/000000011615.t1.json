@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04jph85",
+      "description": "street sign",
+      "score": 0.9222615361213684,
+      "topicality": 0.9222615361213684
+    },
+    {
+      "mid": "/m/01mqdt",
+      "description": "traffic sign",
+      "score": 0.9174603819847107,
+      "topicality": 0.9174603819847107
+    },
+    {
+      "mid": "/m/0bkqqh",
+      "description": "signage",
+      "score": 0.9004395604133606,
+      "topicality": 0.9004395604133606
+    },
+    {
+      "mid": "/m/06zsq",
+      "description": "sign",
+      "score": 0.8906521797180176,
+      "topicality": 0.8906521797180176
+    },
+    {
+      "mid": "/m/0n0j",
+      "description": "area",
+      "score": 0.6720095872879028,
+      "topicality": 0.6720095872879028
+    }
+  ]
+}

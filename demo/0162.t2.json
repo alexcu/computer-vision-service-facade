@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01_m7",
+      "description": "column",
+      "score": 0.804509699344635,
+      "topicality": 0.804509699344635
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8042545914649963,
+      "topicality": 0.8042545914649963
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.7856568098068237,
+      "topicality": 0.7856568098068237
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6869218349456787,
+      "topicality": 0.6869218349456787
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.6313194632530212,
+      "topicality": 0.6313194632530212
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5942134261131287,
+      "topicality": 0.5942134261131287
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.585474967956543,
+      "topicality": 0.585474967956543
+    },
+    {
+      "mid": "/m/04m6gz",
+      "description": "porch",
+      "score": 0.5549677014350891,
+      "topicality": 0.5549677014350891
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.5430720448493958,
+      "topicality": 0.5430720448493958
+    }
+  ]
+}

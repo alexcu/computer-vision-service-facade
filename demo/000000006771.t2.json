@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09g5pq",
+      "description": "people",
+      "score": 0.9588589072227478,
+      "topicality": 0.9588589072227478
+    },
+    {
+      "mid": "/m/0j272k5",
+      "description": "eyewear",
+      "score": 0.862449049949646,
+      "topicality": 0.862449049949646
+    },
+    {
+      "mid": "/m/03qtwd",
+      "description": "crowd",
+      "score": 0.8602898716926575,
+      "topicality": 0.8602898716926575
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.8461087942123413,
+      "topicality": 0.8461087942123413
+    },
+    {
+      "mid": "/m/032tl",
+      "description": "fashion",
+      "score": 0.8057913780212402,
+      "topicality": 0.8057913780212402
+    },
+    {
+      "mid": "/m/017ftj",
+      "description": "sunglasses",
+      "score": 0.6949280500411987,
+      "topicality": 0.6949280500411987
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.6944891214370728,
+      "topicality": 0.6944891214370728
+    },
+    {
+      "mid": "/m/07bxq",
+      "description": "tourism",
+      "score": 0.6617092490196228,
+      "topicality": 0.6617092490196228
+    },
+    {
+      "mid": "/m/0hr5k",
+      "description": "festival",
+      "score": 0.6564064621925354,
+      "topicality": 0.6564064621925354
+    },
+    {
+      "mid": "/m/0250x",
+      "description": "costume",
+      "score": 0.6504913568496704,
+      "topicality": 0.6504913568496704
+    }
+  ]
+}

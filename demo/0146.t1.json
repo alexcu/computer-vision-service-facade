@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.9509317278862,
+      "topicality": 0.9509317278862
+    },
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.9350814819335938,
+      "topicality": 0.9350814819335938
+    },
+    {
+      "mid": "/m/02fm9k",
+      "description": "shore",
+      "score": 0.9341846704483032,
+      "topicality": 0.9341846704483032
+    },
+    {
+      "mid": "/m/0b3yr",
+      "description": "beach",
+      "score": 0.9309220910072327,
+      "topicality": 0.9309220910072327
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.920579195022583,
+      "topicality": 0.920579195022583
+    },
+    {
+      "mid": "/m/01lxd",
+      "description": "coast",
+      "score": 0.911133885383606,
+      "topicality": 0.911133885383606
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8652544021606445,
+      "topicality": 0.8652544021606445
+    },
+    {
+      "mid": "/m/05kq4",
+      "description": "ocean",
+      "score": 0.8398237228393555,
+      "topicality": 0.8398237228393555
+    },
+    {
+      "mid": "/m/0hl08",
+      "description": "tropics",
+      "score": 0.8118497133255005,
+      "topicality": 0.8118497133255005
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.769956648349762,
+      "topicality": 0.769956648349762
+    }
+  ]
+}

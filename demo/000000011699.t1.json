@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06fvc",
+      "description": "red",
+      "score": 0.9568495154380798,
+      "topicality": 0.9568495154380798
+    },
+    {
+      "mid": "/m/03bt1vf",
+      "description": "woman",
+      "score": 0.9410234093666077,
+      "topicality": 0.9410234093666077
+    },
+    {
+      "mid": "/m/01f43",
+      "description": "beauty",
+      "score": 0.8556206226348877,
+      "topicality": 0.8556206226348877
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.8228247165679932,
+      "topicality": 0.8228247165679932
+    },
+    {
+      "mid": "/m/01ssh5",
+      "description": "shoulder",
+      "score": 0.8132573962211609,
+      "topicality": 0.8132573962211609
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.8020831942558289,
+      "topicality": 0.8020831942558289
+    },
+    {
+      "mid": "/m/032tl",
+      "description": "fashion",
+      "score": 0.7762914299964905,
+      "topicality": 0.7762914299964905
+    },
+    {
+      "mid": "/m/01jwgf",
+      "description": "product",
+      "score": 0.7740709185600281,
+      "topicality": 0.7740709185600281
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7514403462409973,
+      "topicality": 0.7514403462409973
+    }
+  ]
+}

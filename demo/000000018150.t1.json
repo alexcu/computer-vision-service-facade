@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7606804370880127,
+      "topicality": 0.7606804370880127
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7258219122886658,
+      "topicality": 0.7258219122886658
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.5789735317230225,
+      "topicality": 0.5789735317230225
+    },
+    {
+      "mid": "/m/01h8n0",
+      "description": "conversation",
+      "score": 0.5442379117012024,
+      "topicality": 0.5442379117012024
+    },
+    {
+      "mid": "/m/04n7gmg",
+      "description": "senior citizen",
+      "score": 0.5373184680938721,
+      "topicality": 0.5373184680938721
+    },
+    {
+      "mid": "/m/02qd0r",
+      "description": "human behavior",
+      "score": 0.5357553958892822,
+      "topicality": 0.5357553958892822
+    },
+    {
+      "mid": "/m/0ds5b",
+      "description": "facial hair",
+      "score": 0.5150453448295593,
+      "topicality": 0.5150453448295593
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.5137382745742798,
+      "topicality": 0.5137382745742798
+    }
+  ]
+}

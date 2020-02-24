@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9381980895996094,
+      "topicality": 0.9381980895996094
+    },
+    {
+      "mid": "/m/06_g7",
+      "description": "surfing",
+      "score": 0.9153299927711487,
+      "topicality": 0.9153299927711487
+    },
+    {
+      "mid": "/m/02p0sll",
+      "description": "wave",
+      "score": 0.9061272144317627,
+      "topicality": 0.9061272144317627
+    },
+    {
+      "mid": "/m/07pw27b",
+      "description": "atmospheric phenomenon",
+      "score": 0.8569148182868958,
+      "topicality": 0.8569148182868958
+    },
+    {
+      "mid": "/m/019w40",
+      "description": "surfboard",
+      "score": 0.8208719491958618,
+      "topicality": 0.8208719491958618
+    },
+    {
+      "mid": "/m/0dxnmb",
+      "description": "surface water sports",
+      "score": 0.8171268105506897,
+      "topicality": 0.8171268105506897
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.803440272808075,
+      "topicality": 0.803440272808075
+    },
+    {
+      "mid": "/m/09qkx",
+      "description": "boardsport",
+      "score": 0.7571297287940979,
+      "topicality": 0.7571297287940979
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.7356995344161987,
+      "topicality": 0.7356995344161987
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.7144820094108582,
+      "topicality": 0.7144820094108582
+    }
+  ]
+}

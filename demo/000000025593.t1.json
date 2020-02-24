@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04jph85",
+      "description": "street sign",
+      "score": 0.885164201259613,
+      "topicality": 0.885164201259613
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8702824711799622,
+      "topicality": 0.8702824711799622
+    },
+    {
+      "mid": "/m/0bkqqh",
+      "description": "signage",
+      "score": 0.8292471170425415,
+      "topicality": 0.8292471170425415
+    },
+    {
+      "mid": "/m/06zsq",
+      "description": "sign",
+      "score": 0.8088594675064087,
+      "topicality": 0.8088594675064087
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6804249882698059,
+      "topicality": 0.6804249882698059
+    },
+    {
+      "mid": "/m/01mqdt",
+      "description": "traffic sign",
+      "score": 0.6354262828826904,
+      "topicality": 0.6354262828826904
+    }
+  ]
+}

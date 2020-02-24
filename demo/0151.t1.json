@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.7127974629402161,
+      "topicality": 0.7127974629402161
+    },
+    {
+      "mid": "/m/0911jt",
+      "description": "silo",
+      "score": 0.6629689335823059,
+      "topicality": 0.6629689335823059
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.5885546207427979,
+      "topicality": 0.5885546207427979
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.5723975896835327,
+      "topicality": 0.5723975896835327
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5336675047874451,
+      "topicality": 0.5336675047874451
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9727270603179932,
+      "topicality": 0.9727270603179932
+    },
+    {
+      "mid": "/m/01z5f",
+      "description": "canidae",
+      "score": 0.8972906470298767,
+      "topicality": 0.8972906470298767
+    },
+    {
+      "mid": "/m/04cmwn",
+      "description": "goats",
+      "score": 0.8817991614341736,
+      "topicality": 0.8817991614341736
+    },
+    {
+      "mid": "/m/03fwl",
+      "description": "goat",
+      "score": 0.8760094046592712,
+      "topicality": 0.8760094046592712
+    },
+    {
+      "mid": "/m/0bt9lr",
+      "description": "dog",
+      "score": 0.8748262524604797,
+      "topicality": 0.8748262524604797
+    },
+    {
+      "mid": "/m/0gz2b",
+      "description": "australian kelpie",
+      "score": 0.836622416973114,
+      "topicality": 0.836622416973114
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.6944891214370728,
+      "topicality": 0.6944891214370728
+    },
+    {
+      "mid": "/m/0kpmf",
+      "description": "dog breed",
+      "score": 0.6658886075019836,
+      "topicality": 0.6658886075019836
+    },
+    {
+      "mid": "/m/0276krm",
+      "description": "fawn",
+      "score": 0.6113284826278687,
+      "topicality": 0.6113284826278687
+    },
+    {
+      "mid": "/m/047g84",
+      "description": "guard dog",
+      "score": 0.5893104672431946,
+      "topicality": 0.5893104672431946
+    }
+  ]
+}

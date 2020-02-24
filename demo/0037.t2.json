@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9516122937202454,
+      "topicality": 0.9516122937202454
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9396060705184937,
+      "topicality": 0.9396060705184937
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.8244960904121399,
+      "topicality": 0.8244960904121399
+    },
+    {
+      "mid": "/m/01bwr",
+      "description": "botany",
+      "score": 0.7869240641593933,
+      "topicality": 0.7869240641593933
+    },
+    {
+      "mid": "/m/09qqq",
+      "description": "wall",
+      "score": 0.7846120595932007,
+      "topicality": 0.7846120595932007
+    },
+    {
+      "mid": "/m/09t49",
+      "description": "leaf",
+      "score": 0.7594611644744873,
+      "topicality": 0.7594611644744873
+    },
+    {
+      "mid": "/m/02hnx9",
+      "description": "woody plant",
+      "score": 0.7532340288162231,
+      "topicality": 0.7532340288162231
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.7356945872306824,
+      "topicality": 0.7356945872306824
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.7335856556892395,
+      "topicality": 0.7335856556892395
+    },
+    {
+      "mid": "/m/04rd7",
+      "description": "mural",
+      "score": 0.7245770692825317,
+      "topicality": 0.7245770692825317
+    }
+  ]
+}

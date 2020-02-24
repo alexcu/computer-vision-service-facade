@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03d28y3",
+      "description": "natural landscape",
+      "score": 0.9844722747802734,
+      "topicality": 0.9844722747802734
+    },
+    {
+      "mid": "/m/03ktm1",
+      "description": "body of water",
+      "score": 0.9844713807106018,
+      "topicality": 0.9844713807106018
+    },
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9743272066116333,
+      "topicality": 0.9743272066116333
+    },
+    {
+      "mid": "/m/015s2f",
+      "description": "water resources",
+      "score": 0.9730333089828491,
+      "topicality": 0.9730333089828491
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9646815657615662,
+      "topicality": 0.9646815657615662
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9617570638656616,
+      "topicality": 0.9617570638656616
+    },
+    {
+      "mid": "/m/0bl0l",
+      "description": "garden",
+      "score": 0.9516518115997314,
+      "topicality": 0.9516518115997314
+    },
+    {
+      "mid": "/m/0184rb",
+      "description": "pond",
+      "score": 0.9429889917373657,
+      "topicality": 0.9429889917373657
+    },
+    {
+      "mid": "/m/03kj4q",
+      "description": "watercourse",
+      "score": 0.939030647277832,
+      "topicality": 0.939030647277832
+    },
+    {
+      "mid": "/m/0j2hg",
+      "description": "botanical garden",
+      "score": 0.9128907918930054,
+      "topicality": 0.9128907918930054
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/025t3bg",
+      "description": "air travel",
+      "score": 0.9821516275405884,
+      "topicality": 0.9821516275405884
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9614005088806152,
+      "topicality": 0.9614005088806152
+    },
+    {
+      "mid": "/m/0cmf2",
+      "description": "airplane",
+      "score": 0.9602205157279968,
+      "topicality": 0.9602205157279968
+    },
+    {
+      "mid": "/m/0vg8",
+      "description": "airline",
+      "score": 0.8901534676551819,
+      "topicality": 0.8901534676551819
+    },
+    {
+      "mid": "/m/02q7ylj",
+      "description": "daytime",
+      "score": 0.8634399771690369,
+      "topicality": 0.8634399771690369
+    },
+    {
+      "mid": "/m/0fzyg",
+      "description": "aviation",
+      "score": 0.8632882833480835,
+      "topicality": 0.8632882833480835
+    },
+    {
+      "mid": "/m/04wv_",
+      "description": "moon",
+      "score": 0.8469604253768921,
+      "topicality": 0.8469604253768921
+    },
+    {
+      "mid": "/m/0w7s",
+      "description": "aerospace engineering",
+      "score": 0.8159216046333313,
+      "topicality": 0.8159216046333313
+    },
+    {
+      "mid": "/m/01515d",
+      "description": "flight",
+      "score": 0.8145638108253479,
+      "topicality": 0.8145638108253479
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.8068918585777283,
+      "topicality": 0.8068918585777283
+    }
+  ]
+}

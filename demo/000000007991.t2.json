@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9934034943580627,
+      "topicality": 0.9934034943580627
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9903261065483093,
+      "topicality": 0.9903261065483093
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9864208102226257,
+      "topicality": 0.9864208102226257
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.9207317233085632,
+      "topicality": 0.9207317233085632
+    },
+    {
+      "mid": "/m/0d8jd0",
+      "description": "baby carrot",
+      "score": 0.7956140041351318,
+      "topicality": 0.7956140041351318
+    },
+    {
+      "mid": "/m/036qh8",
+      "description": "produce",
+      "score": 0.7814560532569885,
+      "topicality": 0.7814560532569885
+    },
+    {
+      "mid": "/m/01ww8y",
+      "description": "snack",
+      "score": 0.6742009520530701,
+      "topicality": 0.6742009520530701
+    },
+    {
+      "mid": "/m/07_lq",
+      "description": "vegetarian food",
+      "score": 0.6618611216545105,
+      "topicality": 0.6618611216545105
+    },
+    {
+      "mid": "/m/0f4s2w",
+      "description": "vegetable",
+      "score": 0.650178074836731,
+      "topicality": 0.650178074836731
+    },
+    {
+      "mid": "/m/0fj52s",
+      "description": "carrot",
+      "score": 0.6424285173416138,
+      "topicality": 0.6424285173416138
+    }
+  ]
+}

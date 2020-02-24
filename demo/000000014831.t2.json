@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03q69",
+      "description": "hair",
+      "score": 0.9887507557868958,
+      "topicality": 0.9887507557868958
+    },
+    {
+      "mid": "/m/06z04",
+      "description": "skin",
+      "score": 0.9059545993804932,
+      "topicality": 0.9059545993804932
+    },
+    {
+      "mid": "/m/0ds4x",
+      "description": "hairstyle",
+      "score": 0.8735474944114685,
+      "topicality": 0.8735474944114685
+    },
+    {
+      "mid": "/m/0294jb",
+      "description": "blond",
+      "score": 0.8636689782142639,
+      "topicality": 0.8636689782142639
+    },
+    {
+      "mid": "/m/0cnmr",
+      "description": "fur",
+      "score": 0.8549774885177612,
+      "topicality": 0.8549774885177612
+    },
+    {
+      "mid": "/m/0dgw9r",
+      "description": "human",
+      "score": 0.7832198143005371,
+      "topicality": 0.7832198143005371
+    },
+    {
+      "mid": "/m/025kyy",
+      "description": "forehead",
+      "score": 0.7822763919830322,
+      "topicality": 0.7822763919830322
+    },
+    {
+      "mid": "/m/09rv68q",
+      "description": "lace wig",
+      "score": 0.6677381992340088,
+      "topicality": 0.6677381992340088
+    },
+    {
+      "mid": "/m/039xj_",
+      "description": "ear",
+      "score": 0.6655469536781311,
+      "topicality": 0.6655469536781311
+    },
+    {
+      "mid": "/m/01hzl4",
+      "description": "wig",
+      "score": 0.6593908071517944,
+      "topicality": 0.6593908071517944
+    }
+  ]
+}

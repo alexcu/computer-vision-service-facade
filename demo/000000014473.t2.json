@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01prls",
+      "description": "land vehicle",
+      "score": 0.9961627125740051,
+      "topicality": 0.9961627125740051
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9903031587600708,
+      "topicality": 0.9903031587600708
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9878130555152893,
+      "topicality": 0.9878130555152893
+    },
+    {
+      "mid": "/m/01rh7y",
+      "description": "scale model",
+      "score": 0.9798717498779297,
+      "topicality": 0.9798717498779297
+    },
+    {
+      "mid": "/m/07jdr",
+      "description": "train",
+      "score": 0.9783410429954529,
+      "topicality": 0.9783410429954529
+    },
+    {
+      "mid": "/m/06d_3",
+      "description": "railway",
+      "score": 0.977921724319458,
+      "topicality": 0.977921724319458
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.93523770570755,
+      "topicality": 0.93523770570755
+    },
+    {
+      "mid": "/m/025s53m",
+      "description": "rolling stock",
+      "score": 0.9297937750816345,
+      "topicality": 0.9297937750816345
+    },
+    {
+      "mid": "/m/01vk9q",
+      "description": "track",
+      "score": 0.9146388173103333,
+      "topicality": 0.9146388173103333
+    },
+    {
+      "mid": "/m/04h5c",
+      "description": "locomotive",
+      "score": 0.8879898190498352,
+      "topicality": 0.8879898190498352
+    }
+  ]
+}

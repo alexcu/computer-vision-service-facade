@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/033rq4",
+      "description": "street light",
+      "score": 0.9852097034454346,
+      "topicality": 0.9852097034454346
+    },
+    {
+      "mid": "/m/015qff",
+      "description": "traffic light",
+      "score": 0.9821168780326843,
+      "topicality": 0.9821168780326843
+    },
+    {
+      "mid": "/m/08jpwt",
+      "description": "light fixture",
+      "score": 0.9726381897926331,
+      "topicality": 0.9726381897926331
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9718846082687378,
+      "topicality": 0.9718846082687378
+    },
+    {
+      "mid": "/m/07q3ylx",
+      "description": "signaling device",
+      "score": 0.9644854664802551,
+      "topicality": 0.9644854664802551
+    },
+    {
+      "mid": "/m/019sc6",
+      "description": "lighting",
+      "score": 0.9643055200576782,
+      "topicality": 0.9643055200576782
+    },
+    {
+      "mid": "/m/01d74z",
+      "description": "night",
+      "score": 0.9528172016143799,
+      "topicality": 0.9528172016143799
+    },
+    {
+      "mid": "/m/04k84",
+      "description": "light",
+      "score": 0.9067520499229431,
+      "topicality": 0.9067520499229431
+    },
+    {
+      "mid": "/m/01kyr8",
+      "description": "darkness",
+      "score": 0.839087188243866,
+      "topicality": 0.839087188243866
+    },
+    {
+      "mid": "/m/03scnj",
+      "description": "line",
+      "score": 0.8157843947410583,
+      "topicality": 0.8157843947410583
+    }
+  ]
+}

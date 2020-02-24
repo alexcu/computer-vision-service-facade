@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/019jd",
+      "description": "boat",
+      "score": 0.9514435529708862,
+      "topicality": 0.9514435529708862
+    },
+    {
+      "mid": "/m/08rrcl",
+      "description": "water transportation",
+      "score": 0.924047589302063,
+      "topicality": 0.924047589302063
+    },
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9178795218467712,
+      "topicality": 0.9178795218467712
+    },
+    {
+      "mid": "/m/017m8l",
+      "description": "waterway",
+      "score": 0.9085888266563416,
+      "topicality": 0.9085888266563416
+    },
+    {
+      "mid": "/m/01rzcn",
+      "description": "watercraft",
+      "score": 0.8404296636581421,
+      "topicality": 0.8404296636581421
+    },
+    {
+      "mid": "/m/03m4wn",
+      "description": "boating",
+      "score": 0.7862147688865662,
+      "topicality": 0.7862147688865662
+    },
+    {
+      "mid": "/m/03htg",
+      "description": "harbor",
+      "score": 0.7837995886802673,
+      "topicality": 0.7837995886802673
+    },
+    {
+      "mid": "/m/02l215",
+      "description": "reflection",
+      "score": 0.7663364410400391,
+      "topicality": 0.7663364410400391
+    },
+    {
+      "mid": "/m/02q13x7",
+      "description": "fishing vessel",
+      "score": 0.6958991289138794,
+      "topicality": 0.6958991289138794
+    },
+    {
+      "mid": "/m/01cs_p",
+      "description": "marina",
+      "score": 0.6261537671089172,
+      "topicality": 0.6261537671089172
+    }
+  ]
+}

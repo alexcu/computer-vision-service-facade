@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9620494246482849,
+      "topicality": 0.9620494246482849
+    },
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9564022421836853,
+      "topicality": 0.9564022421836853
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.9425103664398193,
+      "topicality": 0.9425103664398193
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9386259913444519,
+      "topicality": 0.9386259913444519
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.9049280881881714,
+      "topicality": 0.9049280881881714
+    },
+    {
+      "mid": "/m/0fbflw",
+      "description": "terrestrial plant",
+      "score": 0.8878982663154602,
+      "topicality": 0.8878982663154602
+    },
+    {
+      "mid": "/m/01tbcv",
+      "description": "non-vascular land plant",
+      "score": 0.7934664487838745,
+      "topicality": 0.7934664487838745
+    },
+    {
+      "mid": "/m/018ssc",
+      "description": "groundcover",
+      "score": 0.792324960231781,
+      "topicality": 0.792324960231781
+    },
+    {
+      "mid": "/m/0fkrk",
+      "description": "grass family",
+      "score": 0.7709067463874817,
+      "topicality": 0.7709067463874817
+    },
+    {
+      "mid": "/m/09t49",
+      "description": "leaf",
+      "score": 0.7594611644744873,
+      "topicality": 0.7594611644744873
+    }
+  ]
+}

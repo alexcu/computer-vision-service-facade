@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07kbbhf",
+      "description": "elephants and mammoths",
+      "score": 0.9942594766616821,
+      "topicality": 0.9942594766616821
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.9914712905883789,
+      "topicality": 0.9914712905883789
+    },
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9890478253364563,
+      "topicality": 0.9890478253364563
+    },
+    {
+      "mid": "/m/0dflpy",
+      "description": "indian elephant",
+      "score": 0.9851746559143066,
+      "topicality": 0.9851746559143066
+    },
+    {
+      "mid": "/m/09686",
+      "description": "vertebrate",
+      "score": 0.9851104021072388,
+      "topicality": 0.9851104021072388
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.9739809632301331,
+      "topicality": 0.9739809632301331
+    },
+    {
+      "mid": "/m/04_r5c",
+      "description": "african elephant",
+      "score": 0.9690690040588379,
+      "topicality": 0.9690690040588379
+    },
+    {
+      "mid": "/m/06z04",
+      "description": "skin",
+      "score": 0.859302818775177,
+      "topicality": 0.859302818775177
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.8526162505149841,
+      "topicality": 0.8526162505149841
+    },
+    {
+      "mid": "/m/07_gml",
+      "description": "working animal",
+      "score": 0.8272032141685486,
+      "topicality": 0.8272032141685486
+    }
+  ]
+}

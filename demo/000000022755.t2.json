@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/054_l",
+      "description": "mirror",
+      "score": 0.8349790573120117,
+      "topicality": 0.8349790573120117
+    },
+    {
+      "mid": "/m/0h8lk4b",
+      "description": "automotive mirror",
+      "score": 0.8109362125396729,
+      "topicality": 0.8109362125396729
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.8081701397895813,
+      "topicality": 0.8081701397895813
+    },
+    {
+      "mid": "/m/05j11x",
+      "description": "rear-view mirror",
+      "score": 0.7850720286369324,
+      "topicality": 0.7850720286369324
+    },
+    {
+      "mid": "/m/02l215",
+      "description": "reflection",
+      "score": 0.7635136842727661,
+      "topicality": 0.7635136842727661
+    },
+    {
+      "mid": "/m/08dz3q",
+      "description": "auto part",
+      "score": 0.6117739677429199,
+      "topicality": 0.6117739677429199
+    },
+    {
+      "mid": "/m/039jq",
+      "description": "glass",
+      "score": 0.53797447681427,
+      "topicality": 0.53797447681427
+    }
+  ]
+}

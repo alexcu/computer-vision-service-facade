@@ -1,0 +1,16 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06wtgq",
+      "description": "play",
+      "score": 0.8011793494224548,
+      "topicality": 0.8011793494224548
+    },
+    {
+      "mid": "/m/0ytgt",
+      "description": "child",
+      "score": 0.7116445302963257,
+      "topicality": 0.7116445302963257
+    }
+  ]
+}

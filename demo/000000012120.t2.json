@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ntj",
+      "description": "sports",
+      "score": 0.9889867305755615,
+      "topicality": 0.9889867305755615
+    },
+    {
+      "mid": "/m/0bmgjqz",
+      "description": "sport venue",
+      "score": 0.9862433075904846,
+      "topicality": 0.9862433075904846
+    },
+    {
+      "mid": "/m/07bs0",
+      "description": "tennis",
+      "score": 0.9698213338851929,
+      "topicality": 0.9698213338851929
+    },
+    {
+      "mid": "/m/01g5v",
+      "description": "blue",
+      "score": 0.9445302486419678,
+      "topicality": 0.9445302486419678
+    },
+    {
+      "mid": "/m/0bps4xh",
+      "description": "tennis equipment",
+      "score": 0.9389878511428833,
+      "topicality": 0.9389878511428833
+    },
+    {
+      "mid": "/m/02xhr73",
+      "description": "tennis player",
+      "score": 0.9387040734291077,
+      "topicality": 0.9387040734291077
+    },
+    {
+      "mid": "/m/07gcy",
+      "description": "tennis court",
+      "score": 0.9244602918624878,
+      "topicality": 0.9244602918624878
+    },
+    {
+      "mid": "/m/05y5lj",
+      "description": "sports equipment",
+      "score": 0.8712157011032104,
+      "topicality": 0.8712157011032104
+    },
+    {
+      "mid": "/m/02ql4yj",
+      "description": "racketlon",
+      "score": 0.8673228621482849,
+      "topicality": 0.8673228621482849
+    },
+    {
+      "mid": "/m/01qhp_",
+      "description": "racquet sport",
+      "score": 0.8659310340881348,
+      "topicality": 0.8659310340881348
+    }
+  ]
+}

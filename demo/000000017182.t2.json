@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.9161972999572754,
+      "topicality": 0.9161972999572754
+    },
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.9037210941314697,
+      "topicality": 0.9037210941314697
+    },
+    {
+      "mid": "/m/05wrt",
+      "description": "property",
+      "score": 0.8880240321159363,
+      "topicality": 0.8880240321159363
+    },
+    {
+      "mid": "/m/09qqq",
+      "description": "wall",
+      "score": 0.8397860527038574,
+      "topicality": 0.8397860527038574
+    },
+    {
+      "mid": "/m/01y9k5",
+      "description": "desk",
+      "score": 0.7533803582191467,
+      "topicality": 0.7533803582191467
+    },
+    {
+      "mid": "/m/01s105",
+      "description": "cabinetry",
+      "score": 0.7521606683731079,
+      "topicality": 0.7521606683731079
+    },
+    {
+      "mid": "/m/0457gc6",
+      "description": "material property",
+      "score": 0.6991998553276062,
+      "topicality": 0.6991998553276062
+    },
+    {
+      "mid": "/m/02rfdq",
+      "description": "interior design",
+      "score": 0.6861365437507629,
+      "topicality": 0.6861365437507629
+    },
+    {
+      "mid": "/m/0jh8w",
+      "description": "plywood",
+      "score": 0.596000611782074,
+      "topicality": 0.596000611782074
+    },
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.5928719639778137,
+      "topicality": 0.5928719639778137
+    }
+  ]
+}

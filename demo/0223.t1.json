@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.9531815052032471,
+      "topicality": 0.9531815052032471
+    },
+    {
+      "mid": "/m/0215n",
+      "description": "cartoon",
+      "score": 0.8054298758506775,
+      "topicality": 0.8054298758506775
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.7224241495132446,
+      "topicality": 0.7224241495132446
+    },
+    {
+      "mid": "/m/02h7lkt",
+      "description": "fictional character",
+      "score": 0.7084610462188721,
+      "topicality": 0.7084610462188721
+    },
+    {
+      "mid": "/m/06h5_j",
+      "description": "child art",
+      "score": 0.7060503363609314,
+      "topicality": 0.7060503363609314
+    },
+    {
+      "mid": "/m/04db_z",
+      "description": "psychedelic art",
+      "score": 0.6991991400718689,
+      "topicality": 0.6991991400718689
+    },
+    {
+      "mid": "/m/01kr8f",
+      "description": "illustration",
+      "score": 0.68034827709198,
+      "topicality": 0.68034827709198
+    },
+    {
+      "mid": "/m/015r61",
+      "description": "modern art",
+      "score": 0.6704744696617126,
+      "topicality": 0.6704744696617126
+    },
+    {
+      "mid": "/m/011lx",
+      "description": "acrylic paint",
+      "score": 0.6609737873077393,
+      "topicality": 0.6609737873077393
+    },
+    {
+      "mid": "/m/05nnm",
+      "description": "organism",
+      "score": 0.6492981910705566,
+      "topicality": 0.6492981910705566
+    }
+  ]
+}

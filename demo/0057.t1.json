@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9699351191520691,
+      "topicality": 0.9699351191520691
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9585190415382385,
+      "topicality": 0.9585190415382385
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.9282398223876953,
+      "topicality": 0.9282398223876953
+    },
+    {
+      "mid": "/m/03cjrt",
+      "description": "highland",
+      "score": 0.9130714535713196,
+      "topicality": 0.9130714535713196
+    },
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.9070680141448975,
+      "topicality": 0.9070680141448975
+    },
+    {
+      "mid": "/m/02mhj",
+      "description": "ecosystem",
+      "score": 0.902912974357605,
+      "topicality": 0.902912974357605
+    },
+    {
+      "mid": "/m/023bbt",
+      "description": "wilderness",
+      "score": 0.8668290972709656,
+      "topicality": 0.8668290972709656
+    },
+    {
+      "mid": "/m/0hkvx",
+      "description": "prairie",
+      "score": 0.8372638821601868,
+      "topicality": 0.8372638821601868
+    },
+    {
+      "mid": "/m/04_5sg",
+      "description": "hill",
+      "score": 0.8066701292991638,
+      "topicality": 0.8066701292991638
+    },
+    {
+      "mid": "/m/05sm1",
+      "description": "plain",
+      "score": 0.805709719657898,
+      "topicality": 0.805709719657898
+    }
+  ]
+}

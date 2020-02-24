@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0d1n2",
+      "description": "horizon",
+      "score": 0.9412612915039062,
+      "topicality": 0.9412612915039062
+    },
+    {
+      "mid": "/m/06m_p",
+      "description": "sun",
+      "score": 0.9116033315658569,
+      "topicality": 0.9116033315658569
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9112740755081177,
+      "topicality": 0.9112740755081177
+    },
+    {
+      "mid": "/m/01b2q6",
+      "description": "sunrise",
+      "score": 0.9025010466575623,
+      "topicality": 0.9025010466575623
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.8559821248054504,
+      "topicality": 0.8559821248054504
+    },
+    {
+      "mid": "/m/01ctsf",
+      "description": "atmosphere",
+      "score": 0.8260834813117981,
+      "topicality": 0.8260834813117981
+    },
+    {
+      "mid": "/m/02_ktj",
+      "description": "morning",
+      "score": 0.7968852519989014,
+      "topicality": 0.7968852519989014
+    },
+    {
+      "mid": "/m/01b2w5",
+      "description": "sunset",
+      "score": 0.7800731658935547,
+      "topicality": 0.7800731658935547
+    },
+    {
+      "mid": "/m/06z0n",
+      "description": "sunlight",
+      "score": 0.7521868944168091,
+      "topicality": 0.7521868944168091
+    },
+    {
+      "mid": "/m/09738",
+      "description": "arctic",
+      "score": 0.7508803606033325,
+      "topicality": 0.7508803606033325
+    }
+  ]
+}

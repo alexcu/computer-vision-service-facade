@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04h8h",
+      "description": "library",
+      "score": 0.9544597268104553,
+      "topicality": 0.9544597268104553
+    },
+    {
+      "mid": "/m/018w1s",
+      "description": "public library",
+      "score": 0.8951758742332458,
+      "topicality": 0.8951758742332458
+    },
+    {
+      "mid": "/m/08hnjb",
+      "description": "bookselling",
+      "score": 0.8315533399581909,
+      "topicality": 0.8315533399581909
+    },
+    {
+      "mid": "/m/03__z0",
+      "description": "bookcase",
+      "score": 0.8265920281410217,
+      "topicality": 0.8265920281410217
+    },
+    {
+      "mid": "/m/0h8n982",
+      "description": "shelving",
+      "score": 0.7529903054237366,
+      "topicality": 0.7529903054237366
+    },
+    {
+      "mid": "/m/0bt_c3",
+      "description": "book",
+      "score": 0.7325866222381592,
+      "topicality": 0.7325866222381592
+    },
+    {
+      "mid": "/m/02n3pb",
+      "description": "product",
+      "score": 0.6839083433151245,
+      "topicality": 0.6839083433151245
+    },
+    {
+      "mid": "/m/0gjbg72",
+      "description": "shelf",
+      "score": 0.599349319934845,
+      "topicality": 0.599349319934845
+    },
+    {
+      "mid": "/m/02pqjcv",
+      "description": "self help book",
+      "score": 0.5796038508415222,
+      "topicality": 0.5796038508415222
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.5397743582725525,
+      "topicality": 0.5397743582725525
+    }
+  ]
+}

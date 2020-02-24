@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.9725311994552612,
+      "topicality": 0.9725311994552612
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.9618196487426758,
+      "topicality": 0.9618196487426758
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9066678285598755,
+      "topicality": 0.9066678285598755
+    },
+    {
+      "mid": "/m/0dx1j",
+      "description": "town",
+      "score": 0.8961411118507385,
+      "topicality": 0.8961411118507385
+    },
+    {
+      "mid": "/m/02nfxt",
+      "description": "residential area",
+      "score": 0.8556622862815857,
+      "topicality": 0.8556622862815857
+    },
+    {
+      "mid": "/m/0750y",
+      "description": "suburb",
+      "score": 0.8555493354797363,
+      "topicality": 0.8555493354797363
+    },
+    {
+      "mid": "/m/0j_s4",
+      "description": "metropolitan area",
+      "score": 0.826022744178772,
+      "topicality": 0.826022744178772
+    },
+    {
+      "mid": "/m/034z7h",
+      "description": "cityscape",
+      "score": 0.8017070293426514,
+      "topicality": 0.8017070293426514
+    },
+    {
+      "mid": "/m/0180xr",
+      "description": "neighbourhood",
+      "score": 0.7669632434844971,
+      "topicality": 0.7669632434844971
+    },
+    {
+      "mid": "/m/02q7ylj",
+      "description": "daytime",
+      "score": 0.7456408143043518,
+      "topicality": 0.7456408143043518
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9934034943580627,
+      "topicality": 0.9934034943580627
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9903261065483093,
+      "topicality": 0.9903261065483093
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9864208102226257,
+      "topicality": 0.9864208102226257
+    },
+    {
+      "mid": "/m/0h55b",
+      "description": "junk food",
+      "score": 0.9306854009628296,
+      "topicality": 0.9306854009628296
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.9207317233085632,
+      "topicality": 0.9207317233085632
+    },
+    {
+      "mid": "/m/0krfg",
+      "description": "meal",
+      "score": 0.8105272054672241,
+      "topicality": 0.8105272054672241
+    },
+    {
+      "mid": "/m/036qh8",
+      "description": "produce",
+      "score": 0.7814560532569885,
+      "topicality": 0.7814560532569885
+    },
+    {
+      "mid": "/m/01_bhs",
+      "description": "fast food",
+      "score": 0.7262757420539856,
+      "topicality": 0.7262757420539856
+    },
+    {
+      "mid": "/m/0jfd5",
+      "description": "lunch",
+      "score": 0.7023529410362244,
+      "topicality": 0.7023529410362244
+    },
+    {
+      "mid": "/m/07l8p5",
+      "description": "side dish",
+      "score": 0.6946198344230652,
+      "topicality": 0.6946198344230652
+    }
+  ]
+}

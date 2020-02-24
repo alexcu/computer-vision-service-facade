@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/08_4sd",
+      "description": "collection",
+      "score": 0.7801881432533264,
+      "topicality": 0.7801881432533264
+    },
+    {
+      "mid": "/m/03gq5hm",
+      "description": "font",
+      "score": 0.6857237815856934,
+      "topicality": 0.6857237815856934
+    },
+    {
+      "mid": "/m/05c0n6k",
+      "description": "label",
+      "score": 0.6647916436195374,
+      "topicality": 0.6647916436195374
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/065zs54",
+      "description": "holy places",
+      "score": 0.9118549227714539,
+      "topicality": 0.9118549227714539
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.8521328568458557,
+      "topicality": 0.8521328568458557
+    },
+    {
+      "mid": "/m/0gmk4",
+      "description": "mosaic",
+      "score": 0.8204634785652161,
+      "topicality": 0.8204634785652161
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.7263345718383789,
+      "topicality": 0.7263345718383789
+    },
+    {
+      "mid": "/m/03g3w",
+      "description": "history",
+      "score": 0.626179039478302,
+      "topicality": 0.626179039478302
+    },
+    {
+      "mid": "/m/03gfsp",
+      "description": "ceiling",
+      "score": 0.6243212819099426,
+      "topicality": 0.6243212819099426
+    },
+    {
+      "mid": "/m/01sqnx",
+      "description": "byzantine architecture",
+      "score": 0.6124057173728943,
+      "topicality": 0.6124057173728943
+    },
+    {
+      "mid": "/m/0djmp",
+      "description": "ancient history",
+      "score": 0.582735002040863,
+      "topicality": 0.582735002040863
+    },
+    {
+      "mid": "/m/0f85g",
+      "description": "basilica",
+      "score": 0.5429584980010986,
+      "topicality": 0.5429584980010986
+    },
+    {
+      "mid": "/m/05qdh",
+      "description": "painting",
+      "score": 0.5336347818374634,
+      "topicality": 0.5336347818374634
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9689261317253113,
+      "topicality": 0.9689261317253113
+    },
+    {
+      "mid": "/m/02l215",
+      "description": "reflection",
+      "score": 0.9579014182090759,
+      "topicality": 0.9579014182090759
+    },
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9478992223739624,
+      "topicality": 0.9478992223739624
+    },
+    {
+      "mid": "/m/0swq_",
+      "description": "nature reserve",
+      "score": 0.9228408932685852,
+      "topicality": 0.9228408932685852
+    },
+    {
+      "mid": "/m/015s2f",
+      "description": "water resources",
+      "score": 0.9190191030502319,
+      "topicality": 0.9190191030502319
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.8931084871292114,
+      "topicality": 0.8931084871292114
+    },
+    {
+      "mid": "/m/03kj4q",
+      "description": "watercourse",
+      "score": 0.8483887910842896,
+      "topicality": 0.8483887910842896
+    },
+    {
+      "mid": "/m/0pvlz",
+      "description": "wetland",
+      "score": 0.847187876701355,
+      "topicality": 0.847187876701355
+    },
+    {
+      "mid": "/m/06cnp",
+      "description": "river",
+      "score": 0.8409684896469116,
+      "topicality": 0.8409684896469116
+    },
+    {
+      "mid": "/m/0j6m2",
+      "description": "stream",
+      "score": 0.8409446477890015,
+      "topicality": 0.8409446477890015
+    }
+  ]
+}

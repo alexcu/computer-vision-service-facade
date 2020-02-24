@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07yr8h",
+      "description": "historic site",
+      "score": 0.8777262568473816,
+      "topicality": 0.8777262568473816
+    },
+    {
+      "mid": "/m/0djmp",
+      "description": "ancient history",
+      "score": 0.8558919429779053,
+      "topicality": 0.8558919429779053
+    },
+    {
+      "mid": "/m/03d1rd",
+      "description": "ruins",
+      "score": 0.8500404357910156,
+      "topicality": 0.8500404357910156
+    },
+    {
+      "mid": "/m/012ww9",
+      "description": "archaeological site",
+      "score": 0.8317082524299622,
+      "topicality": 0.8317082524299622
+    },
+    {
+      "mid": "/m/0dpvm",
+      "description": "arch",
+      "score": 0.6532288193702698,
+      "topicality": 0.6532288193702698
+    },
+    {
+      "mid": "/m/03g3w",
+      "description": "history",
+      "score": 0.6493669152259827,
+      "topicality": 0.6493669152259827
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.5872322916984558,
+      "topicality": 0.5872322916984558
+    },
+    {
+      "mid": "/m/07bxq",
+      "description": "tourism",
+      "score": 0.5260143280029297,
+      "topicality": 0.5260143280029297
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.5080518126487732,
+      "topicality": 0.5080518126487732
+    }
+  ]
+}

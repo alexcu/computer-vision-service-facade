@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06z04",
+      "description": "skin",
+      "score": 0.9308338165283203,
+      "topicality": 0.9308338165283203
+    },
+    {
+      "mid": "/m/0cnmr",
+      "description": "fur",
+      "score": 0.9144297242164612,
+      "topicality": 0.9144297242164612
+    },
+    {
+      "mid": "/m/02cqfm",
+      "description": "close up",
+      "score": 0.7882949709892273,
+      "topicality": 0.7882949709892273
+    },
+    {
+      "mid": "/m/025kyy",
+      "description": "forehead",
+      "score": 0.7710208296775818,
+      "topicality": 0.7710208296775818
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.6616742014884949,
+      "topicality": 0.6616742014884949
+    },
+    {
+      "mid": "/m/0fy9p2",
+      "description": "mane",
+      "score": 0.572759747505188,
+      "topicality": 0.572759747505188
+    },
+    {
+      "mid": "/m/06z_nw",
+      "description": "tail",
+      "score": 0.5505211353302002,
+      "topicality": 0.5505211353302002
+    },
+    {
+      "mid": "/m/039xj_",
+      "description": "ear",
+      "score": 0.5427536964416504,
+      "topicality": 0.5427536964416504
+    }
+  ]
+}

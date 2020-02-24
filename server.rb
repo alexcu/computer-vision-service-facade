@@ -11,6 +11,7 @@ require_all 'lib'
 set :root, File.dirname(__FILE__)
 set :public_folder, File.join(File.dirname(__FILE__), 'static')
 set :show_exceptions, false
+set :demo_folder, File.join(File.dirname(__FILE__), 'demo')
 
 store = {}
 
@@ -397,4 +398,53 @@ error do |e|
   halt! 500, e.message
 end
 
+###
+# DEMONSTRATION RELATED API
+###
+get '/demo/categories.json' do
+  content_type 'application/json;charset=utf-8'
+  send_file(File.join(settings.demo_folder, 'categories.json'))
+end
 
+get '/demo/random/:type.jpg' do
+  category_data = JSON.parse(
+    File.read(File.join(settings.demo_folder, 'categories.json'))
+  )
+  ok_categories = category_data.keys
+
+  category = params[:type]
+
+  halt! 400, 'No category provided' if category.empty?
+  unless ok_categories.include?(category)
+    halt! 400, "Unknown category '#{category}'. Accepted category types are: '#{ok_categories.join("', '")}'."
+  end
+
+  id = category_data[category].sample
+
+  redirect "/demo/data/#{id}.jpg"
+end
+
+get '/demo/data/:id.*' do |_, ext|
+  image_id = params[:id].split('.').first
+  time_id = params[:id].split('.').last
+
+  unless File.exist?(File.join(settings.demo_folder, image_id + '.jpg'))
+    halt! 400, "No such image with id '#{image_id}' exists in the demo database."
+  end
+  puts ext
+  unless %w[jpg jpeg json].include?(ext)
+    halt! 400, 'Invalid file extension. Suffix with .jp[e]g or .t1.json or .t2.json.'
+  end
+  ext = 'jpg' if ext == 'jpeg'
+
+  if ext == 'jpg'
+    content_type 'image/jpeg'
+  else
+    content_type 'application/json;charset=utf-8'
+    puts time_id
+    halt! 400, 'Missing time id (.t1 or .t2).' if time_id.empty? || !%w[t1 t2].include?(time_id)
+    image_id += '.' + time_id
+  end
+
+  send_file(File.join(settings.demo_folder, image_id + '.' + ext))
+end

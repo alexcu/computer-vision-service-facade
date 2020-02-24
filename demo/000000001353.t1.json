@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01gq53",
+      "description": "performance",
+      "score": 0.7800348997116089,
+      "topicality": 0.7800348997116089
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.6449427008628845,
+      "topicality": 0.6449427008628845
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.6203888058662415,
+      "topicality": 0.6203888058662415
+    },
+    {
+      "mid": "/m/01jwgf",
+      "description": "product",
+      "score": 0.5224574208259583,
+      "topicality": 0.5224574208259583
+    }
+  ]
+}

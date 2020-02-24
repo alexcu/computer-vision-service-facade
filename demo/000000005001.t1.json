@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01b4q9",
+      "description": "social group",
+      "score": 0.9097520709037781,
+      "topicality": 0.9097520709037781
+    },
+    {
+      "mid": "/m/03qtwd",
+      "description": "crowd",
+      "score": 0.8597409129142761,
+      "topicality": 0.8597409129142761
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7345008254051208,
+      "topicality": 0.7345008254051208
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7025184631347656,
+      "topicality": 0.7025184631347656
+    },
+    {
+      "mid": "/m/01gq53",
+      "description": "performance",
+      "score": 0.6346125602722168,
+      "topicality": 0.6346125602722168
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.632315993309021,
+      "topicality": 0.632315993309021
+    },
+    {
+      "mid": "/m/01350r",
+      "description": "performance art",
+      "score": 0.5689696073532104,
+      "topicality": 0.5689696073532104
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.529493510723114,
+      "topicality": 0.529493510723114
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.5125721096992493,
+      "topicality": 0.5125721096992493
+    }
+  ]
+}

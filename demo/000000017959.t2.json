@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.7399447560310364,
+      "topicality": 0.7399447560310364
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.7326111197471619,
+      "topicality": 0.7326111197471619
+    },
+    {
+      "mid": "/m/03m9d0z",
+      "description": "wind",
+      "score": 0.7228415012359619,
+      "topicality": 0.7228415012359619
+    },
+    {
+      "mid": "/m/02zt3",
+      "description": "kite",
+      "score": 0.7088432908058167,
+      "topicality": 0.7088432908058167
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7039424180984497,
+      "topicality": 0.7039424180984497
+    },
+    {
+      "mid": "/m/08dz3q",
+      "description": "auto part",
+      "score": 0.6117739677429199,
+      "topicality": 0.6117739677429199
+    },
+    {
+      "mid": "/m/018hjb",
+      "description": "sport kite",
+      "score": 0.5386348962783813,
+      "topicality": 0.5386348962783813
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.5251690745353699,
+      "topicality": 0.5251690745353699
+    },
+    {
+      "mid": "/m/03bt1gh",
+      "description": "games",
+      "score": 0.5211578011512756,
+      "topicality": 0.5211578011512756
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02z6033",
+      "description": "horse harness",
+      "score": 0.968189537525177,
+      "topicality": 0.968189537525177
+    },
+    {
+      "mid": "/m/03k3r",
+      "description": "horse",
+      "score": 0.9435001015663147,
+      "topicality": 0.9435001015663147
+    },
+    {
+      "mid": "/m/01pvc5",
+      "description": "jockey",
+      "score": 0.9379487037658691,
+      "topicality": 0.9379487037658691
+    },
+    {
+      "mid": "/m/0jxxt",
+      "description": "horse racing",
+      "score": 0.9211337566375732,
+      "topicality": 0.9211337566375732
+    },
+    {
+      "mid": "/m/019ww6",
+      "description": "harness racing",
+      "score": 0.8733881711959839,
+      "topicality": 0.8733881711959839
+    },
+    {
+      "mid": "/m/07hgcp",
+      "description": "rein",
+      "score": 0.8490252494812012,
+      "topicality": 0.8490252494812012
+    },
+    {
+      "mid": "/m/02s3y",
+      "description": "horse like mammal",
+      "score": 0.8165908455848694,
+      "topicality": 0.8165908455848694
+    },
+    {
+      "mid": "/m/0wfrc8w",
+      "description": "animal sports",
+      "score": 0.7801247835159302,
+      "topicality": 0.7801247835159302
+    },
+    {
+      "mid": "/m/03pgm",
+      "description": "horse tack",
+      "score": 0.7423345446586609,
+      "topicality": 0.7423345446586609
+    },
+    {
+      "mid": "/m/03b3nf",
+      "description": "horse trainer",
+      "score": 0.7066594362258911,
+      "topicality": 0.7066594362258911
+    }
+  ]
+}

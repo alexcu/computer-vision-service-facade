@@ -1,0 +1,74 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/08rrcl",
+      "description": "water transportation",
+      "score": 0.9842963218688965,
+      "topicality": 0.9842963218688965,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/017m8l",
+      "description": "waterway",
+      "score": 0.9768667221069336,
+      "topicality": 0.9768667221069336,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.963193953037262,
+      "topicality": 0.963193953037262,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/02068x",
+      "description": "gondola",
+      "score": 0.9580689668655396,
+      "topicality": 0.9580689668655396,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/019jd",
+      "description": "boat",
+      "score": 0.9532259106636047,
+      "topicality": 0.9532259106636047,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/01pvk",
+      "description": "canal",
+      "score": 0.9473047256469727,
+      "topicality": 0.9473047256469727,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/056ks2",
+      "description": "watercraft rowing",
+      "score": 0.9468817114830017,
+      "topicality": 0.9468817114830017,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/03m4wn",
+      "description": "boating",
+      "score": 0.9279769062995911,
+      "topicality": 0.9279769062995911,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/01rzcn",
+      "description": "watercraft",
+      "score": 0.9050890207290649,
+      "topicality": 0.9050890207290649,
+      "bounding_poly": {}
+    },
+    {
+      "mid": "/m/06f41",
+      "description": "rowing",
+      "score": 0.8298186659812927,
+      "topicality": 0.8298186659812927,
+      "bounding_poly": {}
+    }
+  ]
+}

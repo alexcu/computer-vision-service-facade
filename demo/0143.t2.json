@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02zr8",
+      "description": "forest",
+      "score": 0.9382768273353577,
+      "topicality": 0.9382768273353577
+    },
+    {
+      "mid": "/m/02py09",
+      "description": "natural environment",
+      "score": 0.936836838722229,
+      "topicality": 0.936836838722229
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9351451992988586,
+      "topicality": 0.9351451992988586
+    },
+    {
+      "mid": "/m/0swq_",
+      "description": "nature reserve",
+      "score": 0.9243337512016296,
+      "topicality": 0.9243337512016296
+    },
+    {
+      "mid": "/m/042g2h",
+      "description": "old-growth forest",
+      "score": 0.9240098595619202,
+      "topicality": 0.9240098595619202
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9037216901779175,
+      "topicality": 0.9037216901779175
+    },
+    {
+      "mid": "/m/023bbt",
+      "description": "wilderness",
+      "score": 0.8993619680404663,
+      "topicality": 0.8993619680404663
+    },
+    {
+      "mid": "/m/03kj4q",
+      "description": "watercourse",
+      "score": 0.8719809651374817,
+      "topicality": 0.8719809651374817
+    },
+    {
+      "mid": "/m/01jb4",
+      "description": "biome",
+      "score": 0.8708949685096741,
+      "topicality": 0.8708949685096741
+    },
+    {
+      "mid": "/m/02jvk3",
+      "description": "valdivian temperate rain forest",
+      "score": 0.841313362121582,
+      "topicality": 0.841313362121582
+    }
+  ]
+}

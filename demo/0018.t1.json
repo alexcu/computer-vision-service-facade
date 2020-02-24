@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9321375489234924,
+      "topicality": 0.9321375489234924
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.9225125312805176,
+      "topicality": 0.9225125312805176
+    },
+    {
+      "mid": "/m/01wb7",
+      "description": "church",
+      "score": 0.8273769021034241,
+      "topicality": 0.8273769021034241
+    },
+    {
+      "mid": "/m/02nvjx",
+      "description": "place of worship",
+      "score": 0.7431333661079407,
+      "topicality": 0.7431333661079407
+    },
+    {
+      "mid": "/m/0173tc",
+      "description": "chapel",
+      "score": 0.7155575752258301,
+      "topicality": 0.7155575752258301
+    },
+    {
+      "mid": "/m/01f4td",
+      "description": "rural area",
+      "score": 0.7060747146606445,
+      "topicality": 0.7060747146606445
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6646101474761963,
+      "topicality": 0.6646101474761963
+    },
+    {
+      "mid": "/m/051rmm",
+      "description": "steeple",
+      "score": 0.640458345413208,
+      "topicality": 0.640458345413208
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.5881242156028748,
+      "topicality": 0.5881242156028748
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.5569537878036499,
+      "topicality": 0.5569537878036499
+    }
+  ]
+}

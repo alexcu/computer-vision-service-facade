@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0663v",
+      "description": "pizza",
+      "score": 0.9820523262023926,
+      "topicality": 0.9820523262023926
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9562329053878784,
+      "topicality": 0.9562329053878784
+    },
+    {
+      "mid": "/m/068_x",
+      "description": "pizza cheese",
+      "score": 0.9526483416557312,
+      "topicality": 0.9526483416557312
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9187955856323242,
+      "topicality": 0.9187955856323242
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8978162407875061,
+      "topicality": 0.8978162407875061
+    },
+    {
+      "mid": "/m/09y2k2",
+      "description": "italian food",
+      "score": 0.8727169632911682,
+      "topicality": 0.8727169632911682
+    },
+    {
+      "mid": "/m/02lggn",
+      "description": "european food",
+      "score": 0.8310608267784119,
+      "topicality": 0.8310608267784119
+    },
+    {
+      "mid": "/m/03ck38",
+      "description": "zwiebelkuchen",
+      "score": 0.7801645994186401,
+      "topicality": 0.7801645994186401
+    },
+    {
+      "mid": "/m/09yjm8",
+      "description": "sicilian pizza",
+      "score": 0.7419615983963013,
+      "topicality": 0.7419615983963013
+    },
+    {
+      "mid": "/m/079ftr",
+      "description": "tarte flamb\u00e9e",
+      "score": 0.7101317048072815,
+      "topicality": 0.7101317048072815
+    }
+  ]
+}

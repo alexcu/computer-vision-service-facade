@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03d28y3",
+      "description": "natural landscape",
+      "score": 0.965950071811676,
+      "topicality": 0.965950071811676
+    },
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.9655547738075256,
+      "topicality": 0.9655547738075256
+    },
+    {
+      "mid": "/m/02py09",
+      "description": "natural environment",
+      "score": 0.9503213167190552,
+      "topicality": 0.9503213167190552
+    },
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.9452276825904846,
+      "topicality": 0.9452276825904846
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9123501181602478,
+      "topicality": 0.9123501181602478
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.9078847169876099,
+      "topicality": 0.9078847169876099
+    },
+    {
+      "mid": "/m/0swq_",
+      "description": "nature reserve",
+      "score": 0.896547794342041,
+      "topicality": 0.896547794342041
+    },
+    {
+      "mid": "/m/0gs32y",
+      "description": "land lot",
+      "score": 0.893606424331665,
+      "topicality": 0.893606424331665
+    },
+    {
+      "mid": "/m/05sm1",
+      "description": "plain",
+      "score": 0.867202639579773,
+      "topicality": 0.867202639579773
+    },
+    {
+      "mid": "/m/025st_8",
+      "description": "meadow",
+      "score": 0.8467745184898376,
+      "topicality": 0.8467745184898376
+    }
+  ]
+}

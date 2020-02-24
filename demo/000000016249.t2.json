@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/015c4z",
+      "description": "sitting",
+      "score": 0.9011800289154053,
+      "topicality": 0.9011800289154053
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7105559706687927,
+      "topicality": 0.7105559706687927
+    },
+    {
+      "mid": "/m/01h8n0",
+      "description": "conversation",
+      "score": 0.6760315895080566,
+      "topicality": 0.6760315895080566
+    },
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.5674918293952942,
+      "topicality": 0.5674918293952942
+    },
+    {
+      "mid": "/m/09jwl",
+      "description": "musician",
+      "score": 0.5296785831451416,
+      "topicality": 0.5296785831451416
+    }
+  ]
+}

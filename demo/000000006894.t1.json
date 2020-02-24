@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bwd_0j",
+      "description": "elephant",
+      "score": 0.9904757142066956,
+      "topicality": 0.9904757142066956
+    },
+    {
+      "mid": "/m/07kbbhf",
+      "description": "elephants and mammoths",
+      "score": 0.9871305823326111,
+      "topicality": 0.9871305823326111
+    },
+    {
+      "mid": "/m/0dflpy",
+      "description": "indian elephant",
+      "score": 0.9346016645431519,
+      "topicality": 0.9346016645431519
+    },
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9265878796577454,
+      "topicality": 0.9265878796577454
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.886188805103302,
+      "topicality": 0.886188805103302
+    },
+    {
+      "mid": "/m/01n_j_",
+      "description": "tusk",
+      "score": 0.8712302446365356,
+      "topicality": 0.8712302446365356
+    },
+    {
+      "mid": "/m/04_r5c",
+      "description": "african elephant",
+      "score": 0.8655017614364624,
+      "topicality": 0.8655017614364624
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.7481687664985657,
+      "topicality": 0.7481687664985657
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.6660534143447876,
+      "topicality": 0.6660534143447876
+    },
+    {
+      "mid": "/m/02pd88",
+      "description": "mahout",
+      "score": 0.6311100125312805,
+      "topicality": 0.6311100125312805
+    }
+  ]
+}

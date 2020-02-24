@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0hr5k",
+      "description": "festival",
+      "score": 0.8934082984924316,
+      "topicality": 0.8934082984924316
+    },
+    {
+      "mid": "/m/03qtwd",
+      "description": "crowd",
+      "score": 0.886944591999054,
+      "topicality": 0.886944591999054
+    },
+    {
+      "mid": "/m/02jf28",
+      "description": "fair",
+      "score": 0.8820300698280334,
+      "topicality": 0.8820300698280334
+    },
+    {
+      "mid": "/m/04k84",
+      "description": "light",
+      "score": 0.8368174433708191,
+      "topicality": 0.8368174433708191
+    },
+    {
+      "mid": "/m/01d74z",
+      "description": "night",
+      "score": 0.8352658748626709,
+      "topicality": 0.8352658748626709
+    },
+    {
+      "mid": "/m/02jjt",
+      "description": "entertainment",
+      "score": 0.8288573026657104,
+      "topicality": 0.8288573026657104
+    },
+    {
+      "mid": "/m/017rnr",
+      "description": "amusement ride",
+      "score": 0.7677352428436279,
+      "topicality": 0.7677352428436279
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7543501257896423,
+      "topicality": 0.7543501257896423
+    },
+    {
+      "mid": "/m/04_5hy",
+      "description": "stage",
+      "score": 0.7502727508544922,
+      "topicality": 0.7502727508544922
+    },
+    {
+      "mid": "/m/019sc6",
+      "description": "lighting",
+      "score": 0.7189841270446777,
+      "topicality": 0.7189841270446777
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0vg8",
+      "description": "airline",
+      "score": 0.9947197437286377,
+      "topicality": 0.9947197437286377
+    },
+    {
+      "mid": "/m/025t3bg",
+      "description": "air travel",
+      "score": 0.9908380508422852,
+      "topicality": 0.9908380508422852
+    },
+    {
+      "mid": "/m/0dhz0",
+      "description": "airliner",
+      "score": 0.9904128313064575,
+      "topicality": 0.9904128313064575
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9903031587600708,
+      "topicality": 0.9903031587600708
+    },
+    {
+      "mid": "/m/0cmf2",
+      "description": "airplane",
+      "score": 0.9892838597297668,
+      "topicality": 0.9892838597297668
+    },
+    {
+      "mid": "/m/018rqw",
+      "description": "wide-body aircraft",
+      "score": 0.9869082570075989,
+      "topicality": 0.9869082570075989
+    },
+    {
+      "mid": "/m/0k5j",
+      "description": "aircraft",
+      "score": 0.9695473313331604,
+      "topicality": 0.9695473313331604
+    },
+    {
+      "mid": "/m/0fzyg",
+      "description": "aviation",
+      "score": 0.9678101539611816,
+      "topicality": 0.9678101539611816
+    },
+    {
+      "mid": "/m/03y999",
+      "description": "flap",
+      "score": 0.9553476572036743,
+      "topicality": 0.9553476572036743
+    },
+    {
+      "mid": "/m/0w7s",
+      "description": "aerospace engineering",
+      "score": 0.9516867399215698,
+      "topicality": 0.9516867399215698
+    }
+  ]
+}

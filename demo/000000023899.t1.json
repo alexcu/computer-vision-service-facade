@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.8110479712486267,
+      "topicality": 0.8110479712486267
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.7100486159324646,
+      "topicality": 0.7100486159324646
+    },
+    {
+      "mid": "/m/01kyr8",
+      "description": "darkness",
+      "score": 0.6969684958457947,
+      "topicality": 0.6969684958457947
+    },
+    {
+      "mid": "/m/0h91fqv",
+      "description": "audio",
+      "score": 0.6775581240653992,
+      "topicality": 0.6775581240653992
+    },
+    {
+      "mid": "/m/01yttv",
+      "description": "audio equipment",
+      "score": 0.6118588447570801,
+      "topicality": 0.6118588447570801
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.6058015823364258,
+      "topicality": 0.6058015823364258
+    }
+  ]
+}

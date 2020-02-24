@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04k84",
+      "description": "light",
+      "score": 0.8994030356407166,
+      "topicality": 0.8994030356407166
+    },
+    {
+      "mid": "/m/01d74z",
+      "description": "night",
+      "score": 0.8669844269752502,
+      "topicality": 0.8669844269752502
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.8461087942123413,
+      "topicality": 0.8461087942123413
+    },
+    {
+      "mid": "/m/019sc6",
+      "description": "lighting",
+      "score": 0.8434011340141296,
+      "topicality": 0.8434011340141296
+    },
+    {
+      "mid": "/m/01fklc",
+      "description": "pink",
+      "score": 0.8146790266036987,
+      "topicality": 0.8146790266036987
+    },
+    {
+      "mid": "/m/0hr5k",
+      "description": "festival",
+      "score": 0.814079761505127,
+      "topicality": 0.814079761505127
+    },
+    {
+      "mid": "/g/116c3n66l",
+      "description": "public event",
+      "score": 0.7804786562919617,
+      "topicality": 0.7804786562919617
+    },
+    {
+      "mid": "/m/03qtwd",
+      "description": "crowd",
+      "score": 0.7760763168334961,
+      "topicality": 0.7760763168334961
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7684727907180786,
+      "topicality": 0.7684727907180786
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.6869218349456787,
+      "topicality": 0.6869218349456787
+    }
+  ]
+}

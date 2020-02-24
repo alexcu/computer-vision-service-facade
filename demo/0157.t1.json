@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0838f",
+      "description": "water",
+      "score": 0.9729608297348022,
+      "topicality": 0.9729608297348022
+    },
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9480904340744019,
+      "topicality": 0.9480904340744019
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9116836786270142,
+      "topicality": 0.9116836786270142
+    },
+    {
+      "mid": "/m/09t49",
+      "description": "leaf",
+      "score": 0.910996675491333,
+      "topicality": 0.910996675491333
+    },
+    {
+      "mid": "/m/02mhj",
+      "description": "ecosystem",
+      "score": 0.8803095817565918,
+      "topicality": 0.8803095817565918
+    },
+    {
+      "mid": "/m/02cqfm",
+      "description": "close up",
+      "score": 0.7909599542617798,
+      "topicality": 0.7909599542617798
+    },
+    {
+      "mid": "/m/05nnm",
+      "description": "organism",
+      "score": 0.7358617782592773,
+      "topicality": 0.7358617782592773
+    },
+    {
+      "mid": "/m/03rbf6",
+      "description": "macro photography",
+      "score": 0.7100120186805725,
+      "topicality": 0.7100120186805725
+    },
+    {
+      "mid": "/m/03vt0",
+      "description": "insect",
+      "score": 0.6025702357292175,
+      "topicality": 0.6025702357292175
+    },
+    {
+      "mid": "/m/02t59k",
+      "description": "moisture",
+      "score": 0.5884115099906921,
+      "topicality": 0.5884115099906921
+    }
+  ]
+}

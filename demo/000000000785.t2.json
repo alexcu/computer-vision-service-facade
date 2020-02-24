@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02h6653",
+      "description": "skier",
+      "score": 0.9857955574989319,
+      "topicality": 0.9857955574989319
+    },
+    {
+      "mid": "/m/071p9",
+      "description": "ski",
+      "score": 0.985358476638794,
+      "topicality": 0.985358476638794
+    },
+    {
+      "mid": "/m/06_dn",
+      "description": "snow",
+      "score": 0.9804313778877258,
+      "topicality": 0.9804313778877258
+    },
+    {
+      "mid": "/m/071k0",
+      "description": "skiing",
+      "score": 0.9768637418746948,
+      "topicality": 0.9768637418746948
+    },
+    {
+      "mid": "/m/09w1n",
+      "description": "alpine skiing",
+      "score": 0.9708600044250488,
+      "topicality": 0.9708600044250488
+    },
+    {
+      "mid": "/m/01z27",
+      "description": "cross-country skiing",
+      "score": 0.9627986550331116,
+      "topicality": 0.9627986550331116
+    },
+    {
+      "mid": "/m/0cl9t3p",
+      "description": "ski equipment",
+      "score": 0.9624389410018921,
+      "topicality": 0.9624389410018921
+    },
+    {
+      "mid": "/m/03pj6l",
+      "description": "ski pole",
+      "score": 0.9619677066802979,
+      "topicality": 0.9619677066802979
+    },
+    {
+      "mid": "/m/01c2f2",
+      "description": "ski binding",
+      "score": 0.9590784907341003,
+      "topicality": 0.9590784907341003
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.9260134696960449,
+      "topicality": 0.9260134696960449
+    }
+  ]
+}

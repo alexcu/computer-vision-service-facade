@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/016br2",
+      "description": "dome",
+      "score": 0.737229585647583,
+      "topicality": 0.737229585647583
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.7058616280555725,
+      "topicality": 0.7058616280555725
+    },
+    {
+      "mid": "/m/0gmk4",
+      "description": "mosaic",
+      "score": 0.5979896187782288,
+      "topicality": 0.5979896187782288
+    },
+    {
+      "mid": "/m/0djmp",
+      "description": "ancient history",
+      "score": 0.5565734505653381,
+      "topicality": 0.5565734505653381
+    },
+    {
+      "mid": "/m/02bqth",
+      "description": "vault",
+      "score": 0.5103261470794678,
+      "topicality": 0.5103261470794678
+    },
+    {
+      "mid": "/m/04rjz",
+      "description": "middle ages",
+      "score": 0.501837968826294,
+      "topicality": 0.501837968826294
+    }
+  ]
+}

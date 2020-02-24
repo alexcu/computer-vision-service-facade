@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.9182277321815491,
+      "topicality": 0.9182277321815491
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.8222064971923828,
+      "topicality": 0.8222064971923828
+    },
+    {
+      "mid": "/m/01lhf",
+      "description": "communication",
+      "score": 0.7398360371589661,
+      "topicality": 0.7398360371589661
+    },
+    {
+      "mid": "/m/02cwm",
+      "description": "design",
+      "score": 0.6805955171585083,
+      "topicality": 0.6805955171585083
+    },
+    {
+      "mid": "/m/04rlf",
+      "description": "music",
+      "score": 0.6647897958755493,
+      "topicality": 0.6647897958755493
+    },
+    {
+      "mid": "/m/01h8n0",
+      "description": "conversation",
+      "score": 0.6319518685340881,
+      "topicality": 0.6319518685340881
+    },
+    {
+      "mid": "/m/0h91fqv",
+      "description": "audio",
+      "score": 0.6270869374275208,
+      "topicality": 0.6270869374275208
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.6037524938583374,
+      "topicality": 0.6037524938583374
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.5298768877983093,
+      "topicality": 0.5298768877983093
+    }
+  ]
+}

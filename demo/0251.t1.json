@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0271t",
+      "description": "drink",
+      "score": 0.9683443307876587,
+      "topicality": 0.9683443307876587
+    },
+    {
+      "mid": "/m/057yl",
+      "description": "mojito",
+      "score": 0.9438826441764832,
+      "topicality": 0.9438826441764832
+    },
+    {
+      "mid": "/m/024g6",
+      "description": "cocktail",
+      "score": 0.8655691742897034,
+      "topicality": 0.8655691742897034
+    },
+    {
+      "mid": "/m/0dpj6t",
+      "description": "non alcoholic beverage",
+      "score": 0.8057646751403809,
+      "topicality": 0.8057646751403809
+    },
+    {
+      "mid": "/m/028ylt",
+      "description": "mint julep",
+      "score": 0.7791212201118469,
+      "topicality": 0.7791212201118469
+    },
+    {
+      "mid": "/m/012mj",
+      "description": "alcoholic beverage",
+      "score": 0.7575071454048157,
+      "topicality": 0.7575071454048157
+    },
+    {
+      "mid": "/m/0207sy",
+      "description": "caipirinha",
+      "score": 0.7489557862281799,
+      "topicality": 0.7489557862281799
+    },
+    {
+      "mid": "/m/0gj9vcf",
+      "description": "rebujito",
+      "score": 0.7225395441055298,
+      "topicality": 0.7225395441055298
+    },
+    {
+      "mid": "/m/027ct3y",
+      "description": "cocktail garnish",
+      "score": 0.6403809189796448,
+      "topicality": 0.6403809189796448
+    },
+    {
+      "mid": "/m/015b1y",
+      "description": "mai tai",
+      "score": 0.5678074955940247,
+      "topicality": 0.5678074955940247
+    }
+  ]
+}

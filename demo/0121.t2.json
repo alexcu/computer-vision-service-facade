@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0271t",
+      "description": "drink",
+      "score": 0.9121452569961548,
+      "topicality": 0.9121452569961548
+    },
+    {
+      "mid": "/m/04dr76w",
+      "description": "bottle",
+      "score": 0.8328824639320374,
+      "topicality": 0.8328824639320374
+    },
+    {
+      "mid": "/m/089mxq",
+      "description": "glass bottle",
+      "score": 0.7655490636825562,
+      "topicality": 0.7655490636825562
+    },
+    {
+      "mid": "/m/012mj",
+      "description": "alcoholic beverage",
+      "score": 0.7509512901306152,
+      "topicality": 0.7509512901306152
+    },
+    {
+      "mid": "/m/01599",
+      "description": "beer",
+      "score": 0.7371744513511658,
+      "topicality": 0.7371744513511658
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.7275333404541016,
+      "topicality": 0.7275333404541016
+    },
+    {
+      "mid": "/m/02jwqh",
+      "description": "vacation",
+      "score": 0.7185976505279541,
+      "topicality": 0.7185976505279541
+    },
+    {
+      "mid": "/m/05kq4",
+      "description": "ocean",
+      "score": 0.6972188353538513,
+      "topicality": 0.6972188353538513
+    },
+    {
+      "mid": "/m/0b3yr",
+      "description": "beach",
+      "score": 0.6357071399688721,
+      "topicality": 0.6357071399688721
+    },
+    {
+      "mid": "/m/04shl0",
+      "description": "distilled beverage",
+      "score": 0.6037694811820984,
+      "topicality": 0.6037694811820984
+    }
+  ]
+}

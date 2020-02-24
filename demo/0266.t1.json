@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01r8w",
+      "description": "cave",
+      "score": 0.952987551689148,
+      "topicality": 0.952987551689148
+    },
+    {
+      "mid": "/m/022y9b",
+      "description": "speleothem",
+      "score": 0.9254167675971985,
+      "topicality": 0.9254167675971985
+    },
+    {
+      "mid": "/m/01gcvq",
+      "description": "stalagmite",
+      "score": 0.8866958022117615,
+      "topicality": 0.8866958022117615
+    },
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.8840179443359375,
+      "topicality": 0.8840179443359375
+    },
+    {
+      "mid": "/m/078q0",
+      "description": "stalactite",
+      "score": 0.8816413879394531,
+      "topicality": 0.8816413879394531
+    },
+    {
+      "mid": "/m/036hv",
+      "description": "geology",
+      "score": 0.7701587080955505,
+      "topicality": 0.7701587080955505
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.7700211405754089,
+      "topicality": 0.7700211405754089
+    },
+    {
+      "mid": "/m/01r8g",
+      "description": "caving",
+      "score": 0.559792160987854,
+      "topicality": 0.559792160987854
+    },
+    {
+      "mid": "/g/113rytswc",
+      "description": "karst landforms",
+      "score": 0.5547620058059692,
+      "topicality": 0.5547620058059692
+    },
+    {
+      "mid": "/m/02p1_8d",
+      "description": "narrows",
+      "score": 0.5220357775688171,
+      "topicality": 0.5220357775688171
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9863408207893372,
+      "topicality": 0.9863408207893372
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.9816640019416809,
+      "topicality": 0.9816640019416809
+    },
+    {
+      "mid": "/m/05h0n",
+      "description": "nature",
+      "score": 0.9759530425071716,
+      "topicality": 0.9759530425071716
+    },
+    {
+      "mid": "/m/02zr8",
+      "description": "forest",
+      "score": 0.9705884456634521,
+      "topicality": 0.9705884456634521
+    },
+    {
+      "mid": "/m/042g2h",
+      "description": "old-growth forest",
+      "score": 0.967842698097229,
+      "topicality": 0.967842698097229
+    },
+    {
+      "mid": "/m/02py09",
+      "description": "natural environment",
+      "score": 0.9666608572006226,
+      "topicality": 0.9666608572006226
+    },
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.9604751467704773,
+      "topicality": 0.9604751467704773
+    },
+    {
+      "mid": "/m/01cv9m",
+      "description": "tropical and subtropical coniferous forests",
+      "score": 0.9561352133750916,
+      "topicality": 0.9561352133750916
+    },
+    {
+      "mid": "/m/01y3fy",
+      "description": "jungle",
+      "score": 0.9546788930892944,
+      "topicality": 0.9546788930892944
+    },
+    {
+      "mid": "/m/02jvk3",
+      "description": "valdivian temperate rain forest",
+      "score": 0.9387353658676147,
+      "topicality": 0.9387353658676147
+    }
+  ]
+}

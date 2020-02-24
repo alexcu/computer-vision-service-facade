@@ -1,0 +1,46 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9219302535057068,
+      "topicality": 0.9219302535057068
+    },
+    {
+      "mid": "/m/029t6m",
+      "description": "liverwurst",
+      "score": 0.8249149322509766,
+      "topicality": 0.8249149322509766
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.8199031949043274,
+      "topicality": 0.8199031949043274
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.809687077999115,
+      "topicality": 0.809687077999115
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.6312757134437561,
+      "topicality": 0.6312757134437561
+    },
+    {
+      "mid": "/m/09370d",
+      "description": "bockwurst",
+      "score": 0.6218798756599426,
+      "topicality": 0.6218798756599426
+    },
+    {
+      "mid": "/m/02pcnz",
+      "description": "weisswurst",
+      "score": 0.5413426160812378,
+      "topicality": 0.5413426160812378
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0f4s2w",
+      "description": "vegetable",
+      "score": 0.9508587718009949,
+      "topicality": 0.9508587718009949
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.9207553863525391,
+      "topicality": 0.9207553863525391
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8695695996284485,
+      "topicality": 0.8695695996284485
+    },
+    {
+      "mid": "/m/07_lq",
+      "description": "vegetarian food",
+      "score": 0.8236939311027527,
+      "topicality": 0.8236939311027527
+    },
+    {
+      "mid": "/m/0hkxq",
+      "description": "broccoli",
+      "score": 0.8183435201644897,
+      "topicality": 0.8183435201644897
+    },
+    {
+      "mid": "/m/05f725",
+      "description": "leaf vegetable",
+      "score": 0.7219431400299072,
+      "topicality": 0.7219431400299072
+    },
+    {
+      "mid": "/m/0grw1",
+      "description": "salad",
+      "score": 0.6218903064727783,
+      "topicality": 0.6218903064727783
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.5722584128379822,
+      "topicality": 0.5722584128379822
+    },
+    {
+      "mid": "/m/0p57p",
+      "description": "recipe",
+      "score": 0.5608955025672913,
+      "topicality": 0.5608955025672913
+    },
+    {
+      "mid": "/m/01r1z5",
+      "description": "asian food",
+      "score": 0.534731388092041,
+      "topicality": 0.534731388092041
+    }
+  ]
+}

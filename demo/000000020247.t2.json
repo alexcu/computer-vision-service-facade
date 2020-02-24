@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01dxs",
+      "description": "brown bear",
+      "score": 0.9855417609214783,
+      "topicality": 0.9855417609214783
+    },
+    {
+      "mid": "/m/09686",
+      "description": "vertebrate",
+      "score": 0.9851104021072388,
+      "topicality": 0.9851104021072388
+    },
+    {
+      "mid": "/m/037_v",
+      "description": "grizzly bear",
+      "score": 0.9783941507339478,
+      "topicality": 0.9783941507339478
+    },
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.975814163684845,
+      "topicality": 0.975814163684845
+    },
+    {
+      "mid": "/m/01dws",
+      "description": "bear",
+      "score": 0.9694287180900574,
+      "topicality": 0.9694287180900574
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.9634320139884949,
+      "topicality": 0.9634320139884949
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.9234272241592407,
+      "topicality": 0.9234272241592407
+    },
+    {
+      "mid": "/m/01lrl",
+      "description": "carnivore",
+      "score": 0.8058992624282837,
+      "topicality": 0.8058992624282837
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.7342774271965027,
+      "topicality": 0.7342774271965027
+    },
+    {
+      "mid": "/m/05nnm",
+      "description": "organism",
+      "score": 0.7151590585708618,
+      "topicality": 0.7151590585708618
+    }
+  ]
+}

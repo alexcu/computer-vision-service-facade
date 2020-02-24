@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.7489848136901855,
+      "topicality": 0.7489848136901855
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.534371018409729,
+      "topicality": 0.534371018409729
+    },
+    {
+      "mid": "/m/06hyd",
+      "description": "roof",
+      "score": 0.5320813655853271,
+      "topicality": 0.5320813655853271
+    }
+  ]
+}

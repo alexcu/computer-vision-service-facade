@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0463sg",
+      "description": "fashion accessory",
+      "score": 0.8365299105644226,
+      "topicality": 0.8365299105644226
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.7958781123161316,
+      "topicality": 0.7958781123161316
+    },
+    {
+      "mid": "/m/01443y",
+      "description": "headgear",
+      "score": 0.7615455985069275,
+      "topicality": 0.7615455985069275
+    },
+    {
+      "mid": "/m/03qtwd",
+      "description": "crowd",
+      "score": 0.7247728705406189,
+      "topicality": 0.7247728705406189
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7106266617774963,
+      "topicality": 0.7106266617774963
+    },
+    {
+      "mid": "/m/0dgw9r",
+      "description": "human",
+      "score": 0.7003998756408691,
+      "topicality": 0.7003998756408691
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.6992873549461365,
+      "topicality": 0.6992873549461365
+    },
+    {
+      "mid": "/m/0250x",
+      "description": "costume",
+      "score": 0.5796160101890564,
+      "topicality": 0.5796160101890564
+    },
+    {
+      "mid": "/m/06bm2",
+      "description": "recreation",
+      "score": 0.5587879419326782,
+      "topicality": 0.5587879419326782
+    },
+    {
+      "mid": "/m/017ftj",
+      "description": "sunglasses",
+      "score": 0.5472669005393982,
+      "topicality": 0.5472669005393982
+    }
+  ]
+}

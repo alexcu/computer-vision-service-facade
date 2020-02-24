@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/038hg",
+      "description": "green",
+      "score": 0.945163369178772,
+      "topicality": 0.945163369178772
+    },
+    {
+      "mid": "/m/0271t",
+      "description": "drink",
+      "score": 0.937667191028595,
+      "topicality": 0.937667191028595
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.9236958622932434,
+      "topicality": 0.9236958622932434
+    },
+    {
+      "mid": "/m/01z1kdw",
+      "description": "juice",
+      "score": 0.827349841594696,
+      "topicality": 0.827349841594696
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.7727845311164856,
+      "topicality": 0.7727845311164856
+    },
+    {
+      "mid": "/m/0dpj6t",
+      "description": "non-alcoholic beverage",
+      "score": 0.6700415015220642,
+      "topicality": 0.6700415015220642
+    },
+    {
+      "mid": "/m/02kpym",
+      "description": "\u00c0 la carte food",
+      "score": 0.6579174995422363,
+      "topicality": 0.6579174995422363
+    },
+    {
+      "mid": "/m/039jq",
+      "description": "glass",
+      "score": 0.6195089817047119,
+      "topicality": 0.6195089817047119
+    },
+    {
+      "mid": "/m/06l8d",
+      "description": "restaurant",
+      "score": 0.618117094039917,
+      "topicality": 0.618117094039917
+    },
+    {
+      "mid": "/m/024g6",
+      "description": "cocktail",
+      "score": 0.5751413702964783,
+      "topicality": 0.5751413702964783
+    }
+  ]
+}

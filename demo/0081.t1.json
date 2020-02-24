@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9894396066665649,
+      "topicality": 0.9894396066665649
+    },
+    {
+      "mid": "/m/0j_s4",
+      "description": "metropolitan area",
+      "score": 0.9623051881790161,
+      "topicality": 0.9623051881790161
+    },
+    {
+      "mid": "/m/0cz_0",
+      "description": "highway",
+      "score": 0.9234408140182495,
+      "topicality": 0.9234408140182495
+    },
+    {
+      "mid": "/m/0335j",
+      "description": "controlled access highway",
+      "score": 0.9063268303871155,
+      "topicality": 0.9063268303871155
+    },
+    {
+      "mid": "/m/017kvv",
+      "description": "infrastructure",
+      "score": 0.9036824107170105,
+      "topicality": 0.9036824107170105
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8907880187034607,
+      "topicality": 0.8907880187034607
+    },
+    {
+      "mid": "/m/033j3c",
+      "description": "lane",
+      "score": 0.851571261882782,
+      "topicality": 0.851571261882782
+    },
+    {
+      "mid": "/m/02500f",
+      "description": "overpass",
+      "score": 0.8485426306724548,
+      "topicality": 0.8485426306724548
+    },
+    {
+      "mid": "/m/051gs3",
+      "description": "fixed link",
+      "score": 0.8359141945838928,
+      "topicality": 0.8359141945838928
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.8270447850227356,
+      "topicality": 0.8270447850227356
+    }
+  ]
+}

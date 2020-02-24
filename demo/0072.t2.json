@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.9309110641479492,
+      "topicality": 0.9309110641479492
+    },
+    {
+      "mid": "/m/018vpr",
+      "description": "cliff",
+      "score": 0.9087074398994446,
+      "topicality": 0.9087074398994446
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.8957043290138245,
+      "topicality": 0.8957043290138245
+    },
+    {
+      "mid": "/m/01lxd",
+      "description": "coast",
+      "score": 0.8483349680900574,
+      "topicality": 0.8483349680900574
+    },
+    {
+      "mid": "/m/06npx",
+      "description": "sea",
+      "score": 0.8325468897819519,
+      "topicality": 0.8325468897819519
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8220894932746887,
+      "topicality": 0.8220894932746887
+    },
+    {
+      "mid": "/m/036hv",
+      "description": "geology",
+      "score": 0.7720815539360046,
+      "topicality": 0.7720815539360046
+    },
+    {
+      "mid": "/m/025tn5c",
+      "description": "terrain",
+      "score": 0.7541883587837219,
+      "topicality": 0.7541883587837219
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.7368265986442566,
+      "topicality": 0.7368265986442566
+    },
+    {
+      "mid": "/m/07cwvn",
+      "description": "outcrop",
+      "score": 0.7276612520217896,
+      "topicality": 0.7276612520217896
+    }
+  ]
+}

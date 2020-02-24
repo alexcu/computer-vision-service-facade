@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.8996149301528931,
+      "topicality": 0.8996149301528931
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.8869041800498962,
+      "topicality": 0.8869041800498962
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8730167150497437,
+      "topicality": 0.8730167150497437
+    },
+    {
+      "mid": "/m/01f79n",
+      "description": "quiche",
+      "score": 0.7399501800537109,
+      "topicality": 0.7399501800537109
+    },
+    {
+      "mid": "/m/07_lq",
+      "description": "vegetarian food",
+      "score": 0.7190972566604614,
+      "topicality": 0.7190972566604614
+    },
+    {
+      "mid": "/m/02lggn",
+      "description": "european food",
+      "score": 0.6365197896957397,
+      "topicality": 0.6365197896957397
+    },
+    {
+      "mid": "/m/052lwg6",
+      "description": "baked goods",
+      "score": 0.6155410408973694,
+      "topicality": 0.6155410408973694
+    },
+    {
+      "mid": "/m/0p57p",
+      "description": "recipe",
+      "score": 0.5754514336585999,
+      "topicality": 0.5754514336585999
+    },
+    {
+      "mid": "/m/0b3dyl",
+      "description": "finger food",
+      "score": 0.5671203136444092,
+      "topicality": 0.5671203136444092
+    },
+    {
+      "mid": "/m/0663v",
+      "description": "pizza",
+      "score": 0.5308728218078613,
+      "topicality": 0.5308728218078613
+    }
+  ]
+}

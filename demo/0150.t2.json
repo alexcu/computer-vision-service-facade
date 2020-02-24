@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/019sc6",
+      "description": "lighting",
+      "score": 0.9395768642425537,
+      "topicality": 0.9395768642425537
+    },
+    {
+      "mid": "/m/01jfsr",
+      "description": "lantern",
+      "score": 0.9111769795417786,
+      "topicality": 0.9111769795417786
+    },
+    {
+      "mid": "/m/04k84",
+      "description": "light",
+      "score": 0.8929581642150879,
+      "topicality": 0.8929581642150879
+    },
+    {
+      "mid": "/m/0h8lyfz",
+      "description": "lighting accessory",
+      "score": 0.6557638049125671,
+      "topicality": 0.6557638049125671
+    },
+    {
+      "mid": "/m/01t98f",
+      "description": "mid-autumn festival",
+      "score": 0.5399559736251831,
+      "topicality": 0.5399559736251831
+    },
+    {
+      "mid": "/m/03yp9t",
+      "description": "nightlight",
+      "score": 0.53513103723526,
+      "topicality": 0.53513103723526
+    }
+  ]
+}

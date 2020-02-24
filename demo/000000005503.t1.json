@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/019sc",
+      "description": "black",
+      "score": 0.9527103900909424,
+      "topicality": 0.9527103900909424
+    },
+    {
+      "mid": "/m/09g1w",
+      "description": "toilet",
+      "score": 0.9388245940208435,
+      "topicality": 0.9388245940208435
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "black and white",
+      "score": 0.9151378273963928,
+      "topicality": 0.9151378273963928
+    },
+    {
+      "mid": "/m/02pkr5",
+      "description": "plumbing fixture",
+      "score": 0.8700500130653381,
+      "topicality": 0.8700500130653381
+    },
+    {
+      "mid": "/m/03d49p1",
+      "description": "monochrome photography",
+      "score": 0.7572639584541321,
+      "topicality": 0.7572639584541321
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "monochrome",
+      "score": 0.7395839095115662,
+      "topicality": 0.7395839095115662
+    },
+    {
+      "mid": "/m/03qtgkw",
+      "description": "hardware",
+      "score": 0.7186547517776489,
+      "topicality": 0.7186547517776489
+    },
+    {
+      "mid": "/m/0b_zf",
+      "description": "plumbing",
+      "score": 0.7113960385322571,
+      "topicality": 0.7113960385322571
+    },
+    {
+      "mid": "/m/02553v",
+      "description": "toilet seat",
+      "score": 0.7059052586555481,
+      "topicality": 0.7059052586555481
+    },
+    {
+      "mid": "/m/0130jx",
+      "description": "sink",
+      "score": 0.6847003698348999,
+      "topicality": 0.6847003698348999
+    }
+  ]
+}

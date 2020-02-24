@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.6253476738929749,
+      "topicality": 0.6253476738929749
+    },
+    {
+      "mid": "/m/02q3d5",
+      "description": "memorial",
+      "score": 0.5518031716346741,
+      "topicality": 0.5518031716346741
+    },
+    {
+      "mid": "/m/06msq",
+      "description": "sculpture",
+      "score": 0.5110080242156982,
+      "topicality": 0.5110080242156982
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9550930857658386,
+      "topicality": 0.9550930857658386
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9431381225585938,
+      "topicality": 0.9431381225585938
+    },
+    {
+      "mid": "/m/03d28y3",
+      "description": "natural landscape",
+      "score": 0.9398155808448792,
+      "topicality": 0.9398155808448792
+    },
+    {
+      "mid": "/g/11jxkqbpp",
+      "description": "mountainous landforms",
+      "score": 0.9200654625892639,
+      "topicality": 0.9200654625892639
+    },
+    {
+      "mid": "/m/06nmjv",
+      "description": "dirt road",
+      "score": 0.9156453609466553,
+      "topicality": 0.9156453609466553
+    },
+    {
+      "mid": "/m/02py09",
+      "description": "natural environment",
+      "score": 0.8714959025382996,
+      "topicality": 0.8714959025382996
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.8671237230300903,
+      "topicality": 0.8671237230300903
+    },
+    {
+      "mid": "/m/03cjrt",
+      "description": "highland",
+      "score": 0.8515521287918091,
+      "topicality": 0.8515521287918091
+    },
+    {
+      "mid": "/m/023bbt",
+      "description": "wilderness",
+      "score": 0.8419836759567261,
+      "topicality": 0.8419836759567261
+    },
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.8405985236167908,
+      "topicality": 0.8405985236167908
+    }
+  ]
+}

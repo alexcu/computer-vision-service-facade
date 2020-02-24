@@ -1,0 +1,22 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.7428237199783325,
+      "topicality": 0.7428237199783325
+    },
+    {
+      "mid": "/m/09dv7",
+      "description": "soil",
+      "score": 0.7351296544075012,
+      "topicality": 0.7351296544075012
+    },
+    {
+      "mid": "/m/0c9ph5",
+      "description": "flower",
+      "score": 0.7297558188438416,
+      "topicality": 0.7297558188438416
+    }
+  ]
+}

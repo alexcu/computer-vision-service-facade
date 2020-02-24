@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.9224671125411987,
+      "topicality": 0.9224671125411987
+    },
+    {
+      "mid": "/m/05_5t0l",
+      "description": "landmark",
+      "score": 0.8891448974609375,
+      "topicality": 0.8891448974609375
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8194815516471863,
+      "topicality": 0.8194815516471863
+    },
+    {
+      "mid": "/m/01x314",
+      "description": "facade",
+      "score": 0.7453672885894775,
+      "topicality": 0.7453672885894775
+    },
+    {
+      "mid": "/m/0d4v4",
+      "description": "window",
+      "score": 0.6656184792518616,
+      "topicality": 0.6656184792518616
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.5864297151565552,
+      "topicality": 0.5864297151565552
+    }
+  ]
+}

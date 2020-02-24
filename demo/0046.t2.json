@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.9718034863471985,
+      "topicality": 0.9718034863471985
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9010037183761597,
+      "topicality": 0.9010037183761597
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9004321694374084,
+      "topicality": 0.9004321694374084
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.8629129528999329,
+      "topicality": 0.8629129528999329
+    },
+    {
+      "mid": "/m/01lrnl",
+      "description": "windshield",
+      "score": 0.8218786120414734,
+      "topicality": 0.8218786120414734
+    },
+    {
+      "mid": "/m/0h8lhq_",
+      "description": "automotive window part",
+      "score": 0.7803475856781006,
+      "topicality": 0.7803475856781006
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.736030101776123,
+      "topicality": 0.736030101776123
+    },
+    {
+      "mid": "/m/0hr8",
+      "description": "asphalt",
+      "score": 0.7093935608863831,
+      "topicality": 0.7093935608863831
+    },
+    {
+      "mid": "/m/0180xr",
+      "description": "neighbourhood",
+      "score": 0.6886566877365112,
+      "topicality": 0.6886566877365112
+    },
+    {
+      "mid": "/m/08dz3q",
+      "description": "auto part",
+      "score": 0.6821197867393494,
+      "topicality": 0.6821197867393494
+    }
+  ]
+}

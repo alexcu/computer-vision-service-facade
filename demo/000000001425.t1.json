@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01g6gs",
+      "description": "black and white",
+      "score": 0.941320538520813,
+      "topicality": 0.941320538520813
+    },
+    {
+      "mid": "/m/03d49p1",
+      "description": "monochrome photography",
+      "score": 0.8895832300186157,
+      "topicality": 0.8895832300186157
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.8036459684371948,
+      "topicality": 0.8036459684371948
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "monochrome",
+      "score": 0.7633354067802429,
+      "topicality": 0.7633354067802429
+    },
+    {
+      "mid": "/m/02cqfm",
+      "description": "close up",
+      "score": 0.7618314623832703,
+      "topicality": 0.7618314623832703
+    },
+    {
+      "mid": "/m/027_ny3",
+      "description": "still life photography",
+      "score": 0.6753478646278381,
+      "topicality": 0.6753478646278381
+    },
+    {
+      "mid": "/m/0270h",
+      "description": "dessert",
+      "score": 0.6250977516174316,
+      "topicality": 0.6250977516174316
+    },
+    {
+      "mid": "/m/0dv34",
+      "description": "baking",
+      "score": 0.5996823310852051,
+      "topicality": 0.5996823310852051
+    },
+    {
+      "mid": "/m/0cxn2",
+      "description": "ice cream",
+      "score": 0.5366636514663696,
+      "topicality": 0.5366636514663696
+    },
+    {
+      "mid": "/m/03rbf6",
+      "description": "macro photography",
+      "score": 0.5328798294067383,
+      "topicality": 0.5328798294067383
+    }
+  ]
+}

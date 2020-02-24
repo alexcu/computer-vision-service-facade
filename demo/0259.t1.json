@@ -1,0 +1,16 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01gq53",
+      "description": "performance",
+      "score": 0.6100368499755859,
+      "topicality": 0.6100368499755859
+    },
+    {
+      "mid": "/m/0138tl",
+      "description": "toy",
+      "score": 0.5243175625801086,
+      "topicality": 0.5243175625801086
+    }
+  ]
+}

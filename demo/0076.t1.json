@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.880798876285553,
+      "topicality": 0.880798876285553
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.8781291246414185,
+      "topicality": 0.8781291246414185
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.8424774408340454,
+      "topicality": 0.8424774408340454
+    },
+    {
+      "mid": "/m/01mr6j",
+      "description": "cookware and bakeware",
+      "score": 0.832004725933075,
+      "topicality": 0.832004725933075
+    },
+    {
+      "mid": "/m/01mtb",
+      "description": "cooking",
+      "score": 0.5373284220695496,
+      "topicality": 0.5373284220695496
+    },
+    {
+      "mid": "/m/0krfg",
+      "description": "meal",
+      "score": 0.5323823690414429,
+      "topicality": 0.5323823690414429
+    },
+    {
+      "mid": "/m/03qnfyd",
+      "description": "animal source foods",
+      "score": 0.5225644111633301,
+      "topicality": 0.5225644111633301
+    },
+    {
+      "mid": "/m/07xgrh",
+      "description": "ingredient",
+      "score": 0.505286693572998,
+      "topicality": 0.505286693572998
+    }
+  ]
+}

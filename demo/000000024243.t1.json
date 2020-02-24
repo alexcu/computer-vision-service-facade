@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09j5n",
+      "description": "footwear",
+      "score": 0.9418998956680298,
+      "topicality": 0.9418998956680298
+    },
+    {
+      "mid": "/m/017kvv",
+      "description": "infrastructure",
+      "score": 0.8721277713775635,
+      "topicality": 0.8721277713775635
+    },
+    {
+      "mid": "/m/02wzbmj",
+      "description": "standing",
+      "score": 0.8450183868408203,
+      "topicality": 0.8450183868408203
+    },
+    {
+      "mid": "/m/035r7c",
+      "description": "leg",
+      "score": 0.8417757153511047,
+      "topicality": 0.8417757153511047
+    },
+    {
+      "mid": "/m/06pg22",
+      "description": "snapshot",
+      "score": 0.8176745176315308,
+      "topicality": 0.8176745176315308
+    },
+    {
+      "mid": "/m/05r655",
+      "description": "girl",
+      "score": 0.7723101377487183,
+      "topicality": 0.7723101377487183
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.7708906531333923,
+      "topicality": 0.7708906531333923
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.7575920820236206,
+      "topicality": 0.7575920820236206
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.6897122859954834,
+      "topicality": 0.6897122859954834
+    },
+    {
+      "mid": "/m/06rrc",
+      "description": "shoe",
+      "score": 0.654870331287384,
+      "topicality": 0.654870331287384
+    }
+  ]
+}

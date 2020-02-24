@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06_dn",
+      "description": "snow",
+      "score": 0.9919360280036926,
+      "topicality": 0.9919360280036926
+    },
+    {
+      "mid": "/m/026vz7",
+      "description": "ski mountaineering",
+      "score": 0.9639579057693481,
+      "topicality": 0.9639579057693481
+    },
+    {
+      "mid": "/g/11jxkqbpp",
+      "description": "mountainous landforms",
+      "score": 0.9566600322723389,
+      "topicality": 0.9566600322723389
+    },
+    {
+      "mid": "/m/09d_r",
+      "description": "mountain",
+      "score": 0.9513351917266846,
+      "topicality": 0.9513351917266846
+    },
+    {
+      "mid": "/m/086mh",
+      "description": "winter",
+      "score": 0.9505659937858582,
+      "topicality": 0.9505659937858582
+    },
+    {
+      "mid": "/m/03vcgb",
+      "description": "ski touring",
+      "score": 0.9275173544883728,
+      "topicality": 0.9275173544883728
+    },
+    {
+      "mid": "/m/071k0",
+      "description": "skiing",
+      "score": 0.9259770512580872,
+      "topicality": 0.9259770512580872
+    },
+    {
+      "mid": "/m/05b0n7k",
+      "description": "outdoor recreation",
+      "score": 0.9133282899856567,
+      "topicality": 0.9133282899856567
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9127334952354431,
+      "topicality": 0.9127334952354431
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.9029417037963867,
+      "topicality": 0.9029417037963867
+    }
+  ]
+}

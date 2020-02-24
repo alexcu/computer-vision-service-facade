@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01xyhv",
+      "description": "suit",
+      "score": 0.9031447768211365,
+      "topicality": 0.9031447768211365
+    },
+    {
+      "mid": "/m/019p5q",
+      "description": "gentleman",
+      "score": 0.8605065941810608,
+      "topicality": 0.8605065941810608
+    },
+    {
+      "mid": "/m/02w3_2",
+      "description": "formal wear",
+      "score": 0.7123610973358154,
+      "topicality": 0.7123610973358154
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.6778864860534668,
+      "topicality": 0.6778864860534668
+    },
+    {
+      "mid": "/m/0jyfg",
+      "description": "glasses",
+      "score": 0.6522085666656494,
+      "topicality": 0.6522085666656494
+    },
+    {
+      "mid": "/m/0280yrc",
+      "description": "tuxedo",
+      "score": 0.5974624156951904,
+      "topicality": 0.5974624156951904
+    },
+    {
+      "mid": "/m/012t_z",
+      "description": "businessperson",
+      "score": 0.5739582777023315,
+      "topicality": 0.5739582777023315
+    },
+    {
+      "mid": "/m/09x0r",
+      "description": "speech",
+      "score": 0.570644736289978,
+      "topicality": 0.570644736289978
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0663v",
+      "description": "pizza",
+      "score": 0.9557158350944519,
+      "topicality": 0.9557158350944519
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.9060777425765991,
+      "topicality": 0.9060777425765991
+    },
+    {
+      "mid": "/m/02q08p0",
+      "description": "dish",
+      "score": 0.879803478717804,
+      "topicality": 0.879803478717804
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.8224890232086182,
+      "topicality": 0.8224890232086182
+    },
+    {
+      "mid": "/m/09y2k2",
+      "description": "italian food",
+      "score": 0.6229092478752136,
+      "topicality": 0.6229092478752136
+    },
+    {
+      "mid": "/m/0krfg",
+      "description": "meal",
+      "score": 0.5155414938926697,
+      "topicality": 0.5155414938926697
+    },
+    {
+      "mid": "/m/02lggn",
+      "description": "european food",
+      "score": 0.50632643699646,
+      "topicality": 0.50632643699646
+    },
+    {
+      "mid": "/m/0h55b",
+      "description": "junk food",
+      "score": 0.5023175477981567,
+      "topicality": 0.5023175477981567
+    }
+  ]
+}

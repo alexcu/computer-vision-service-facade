@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0jyfg",
+      "description": "glasses",
+      "score": 0.8912227153778076,
+      "topicality": 0.8912227153778076
+    },
+    {
+      "mid": "/m/0h8jxfl",
+      "description": "vision care",
+      "score": 0.8291619420051575,
+      "topicality": 0.8291619420051575
+    },
+    {
+      "mid": "/m/04n7gmg",
+      "description": "senior citizen",
+      "score": 0.6981680393218994,
+      "topicality": 0.6981680393218994
+    },
+    {
+      "mid": "/m/01443y",
+      "description": "headgear",
+      "score": 0.6889512538909912,
+      "topicality": 0.6889512538909912
+    },
+    {
+      "mid": "/m/0dgw9r",
+      "description": "human",
+      "score": 0.6868872046470642,
+      "topicality": 0.6868872046470642
+    },
+    {
+      "mid": "/m/0j272k5",
+      "description": "eyewear",
+      "score": 0.6565932035446167,
+      "topicality": 0.6565932035446167
+    },
+    {
+      "mid": "/m/017ftj",
+      "description": "sunglasses",
+      "score": 0.5708653330802917,
+      "topicality": 0.5708653330802917
+    },
+    {
+      "mid": "/m/019nj4",
+      "description": "smile",
+      "score": 0.5247323513031006,
+      "topicality": 0.5247323513031006
+    },
+    {
+      "mid": "/m/027v9wk",
+      "description": "elder",
+      "score": 0.5074074268341064,
+      "topicality": 0.5074074268341064
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0283dt1",
+      "description": "mouth",
+      "score": 0.7148311138153076,
+      "topicality": 0.7148311138153076
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7039424180984497,
+      "topicality": 0.7039424180984497
+    },
+    {
+      "mid": "/m/01f5gx",
+      "description": "eating",
+      "score": 0.7005449533462524,
+      "topicality": 0.7005449533462524
+    },
+    {
+      "mid": "/m/02wbm",
+      "description": "food",
+      "score": 0.6785622239112854,
+      "topicality": 0.6785622239112854
+    },
+    {
+      "mid": "/m/01ykh",
+      "description": "cuisine",
+      "score": 0.5597306489944458,
+      "topicality": 0.5597306489944458
+    }
+  ]
+}

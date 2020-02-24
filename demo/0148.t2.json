@@ -1,0 +1,58 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/09686",
+      "description": "vertebrate",
+      "score": 0.9851104021072388,
+      "topicality": 0.9851104021072388
+    },
+    {
+      "mid": "/m/0gv1x",
+      "description": "parrot",
+      "score": 0.9295457601547241,
+      "topicality": 0.9295457601547241
+    },
+    {
+      "mid": "/m/015p6",
+      "description": "bird",
+      "score": 0.9197468757629395,
+      "topicality": 0.9197468757629395
+    },
+    {
+      "mid": "/m/01c4rd",
+      "description": "beak",
+      "score": 0.8538804650306702,
+      "topicality": 0.8538804650306702
+    },
+    {
+      "mid": "/m/089v3",
+      "description": "zoo",
+      "score": 0.7472360730171204,
+      "topicality": 0.7472360730171204
+    },
+    {
+      "mid": "/m/0jt59tb",
+      "description": "cockatoo",
+      "score": 0.6698046326637268,
+      "topicality": 0.6698046326637268
+    },
+    {
+      "mid": "/m/03r_vp",
+      "description": "adaptation",
+      "score": 0.6696612238883972,
+      "topicality": 0.6696612238883972
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.6244105100631714,
+      "topicality": 0.6244105100631714
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.5761504173278809,
+      "topicality": 0.5761504173278809
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/022y9b",
+      "description": "speleothem",
+      "score": 0.9869915246963501,
+      "topicality": 0.9869915246963501
+    },
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.980668306350708,
+      "topicality": 0.980668306350708
+    },
+    {
+      "mid": "/m/01gcvq",
+      "description": "stalagmite",
+      "score": 0.977390706539154,
+      "topicality": 0.977390706539154
+    },
+    {
+      "mid": "/m/01r8w",
+      "description": "cave",
+      "score": 0.9631196856498718,
+      "topicality": 0.9631196856498718
+    },
+    {
+      "mid": "/m/078q0",
+      "description": "stalactite",
+      "score": 0.9620140790939331,
+      "topicality": 0.9620140790939331
+    },
+    {
+      "mid": "/m/036hv",
+      "description": "geology",
+      "score": 0.8930113911628723,
+      "topicality": 0.8930113911628723
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.8426777720451355,
+      "topicality": 0.8426777720451355
+    },
+    {
+      "mid": "/m/02c9_23",
+      "description": "coastal and oceanic landforms",
+      "score": 0.6803857088088989,
+      "topicality": 0.6803857088088989
+    },
+    {
+      "mid": "/m/02n1k",
+      "description": "erosion",
+      "score": 0.6603816151618958,
+      "topicality": 0.6603816151618958
+    },
+    {
+      "mid": "/m/01jnvt",
+      "description": "badlands",
+      "score": 0.5608764886856079,
+      "topicality": 0.5608764886856079
+    }
+  ]
+}

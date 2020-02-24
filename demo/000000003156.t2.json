@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/05zppz",
+      "description": "male",
+      "score": 0.8259705305099487,
+      "topicality": 0.8259705305099487
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "black-and-white",
+      "score": 0.7811979055404663,
+      "topicality": 0.7811979055404663
+    },
+    {
+      "mid": "/m/015c4z",
+      "description": "sitting",
+      "score": 0.7579451203346252,
+      "topicality": 0.7579451203346252
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "photography",
+      "score": 0.7060428261756897,
+      "topicality": 0.7060428261756897
+    },
+    {
+      "mid": "/m/071j9r",
+      "description": "cool",
+      "score": 0.703183650970459,
+      "topicality": 0.703183650970459
+    },
+    {
+      "mid": "/m/035r7c",
+      "description": "leg",
+      "score": 0.6920332312583923,
+      "topicality": 0.6920332312583923
+    },
+    {
+      "mid": "/m/06ht1",
+      "description": "room",
+      "score": 0.6566392779350281,
+      "topicality": 0.6566392779350281
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "monochrome",
+      "score": 0.6431529521942139,
+      "topicality": 0.6431529521942139
+    },
+    {
+      "mid": "/m/02pkr5",
+      "description": "plumbing fixture",
+      "score": 0.5740160346031189,
+      "topicality": 0.5740160346031189
+    },
+    {
+      "mid": "/m/01vm1p",
+      "description": "elbow",
+      "score": 0.5481367707252502,
+      "topicality": 0.5481367707252502
+    }
+  ]
+}

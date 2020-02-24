@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/04rky",
+      "description": "mammal",
+      "score": 0.9240904450416565,
+      "topicality": 0.9240904450416565
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.8002699017524719,
+      "topicality": 0.8002699017524719
+    },
+    {
+      "mid": "/m/05mqq3",
+      "description": "snout",
+      "score": 0.5952560901641846,
+      "topicality": 0.5952560901641846
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.5185272097587585,
+      "topicality": 0.5185272097587585
+    }
+  ]
+}

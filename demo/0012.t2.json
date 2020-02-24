@@ -1,0 +1,28 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0dnr7",
+      "description": "textile",
+      "score": 0.6563324928283691,
+      "topicality": 0.6563324928283691
+    },
+    {
+      "mid": "/m/02prwx",
+      "description": "bazaar",
+      "score": 0.5898219347000122,
+      "topicality": 0.5898219347000122
+    },
+    {
+      "mid": "/m/02jp1h",
+      "description": "marketplace",
+      "score": 0.5103756189346313,
+      "topicality": 0.5103756189346313
+    },
+    {
+      "mid": "/m/0jjw",
+      "description": "art",
+      "score": 0.502187192440033,
+      "topicality": 0.502187192440033
+    }
+  ]
+}

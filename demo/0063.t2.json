@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01vkl",
+      "description": "circle",
+      "score": 0.7330208420753479,
+      "topicality": 0.7330208420753479
+    },
+    {
+      "mid": "/m/0h8ly30",
+      "description": "automotive wheel system",
+      "score": 0.7195293307304382,
+      "topicality": 0.7195293307304382
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.7170332670211792,
+      "topicality": 0.7170332670211792
+    },
+    {
+      "mid": "/m/047vmg8",
+      "description": "rim",
+      "score": 0.708760678768158,
+      "topicality": 0.708760678768158
+    },
+    {
+      "mid": "/m/03gfsp",
+      "description": "ceiling",
+      "score": 0.6624311208724976,
+      "topicality": 0.6624311208724976
+    },
+    {
+      "mid": "/m/01sdr3",
+      "description": "hubcap",
+      "score": 0.5125579833984375,
+      "topicality": 0.5125579833984375
+    }
+  ]
+}

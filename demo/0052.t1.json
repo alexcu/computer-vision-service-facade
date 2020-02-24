@@ -1,0 +1,52 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/06bt6",
+      "description": "reptile",
+      "score": 0.9505682587623596,
+      "topicality": 0.9505682587623596
+    },
+    {
+      "mid": "/m/01vq7_",
+      "description": "iguana",
+      "score": 0.9470042586326599,
+      "topicality": 0.9470042586326599
+    },
+    {
+      "mid": "/m/08_jw6",
+      "description": "iguania",
+      "score": 0.9404283165931702,
+      "topicality": 0.9404283165931702
+    },
+    {
+      "mid": "/m/01shdw",
+      "description": "scaled reptile",
+      "score": 0.9183269143104553,
+      "topicality": 0.9183269143104553
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.8122181296348572,
+      "topicality": 0.8122181296348572
+    },
+    {
+      "mid": "/m/04m9y",
+      "description": "lizard",
+      "score": 0.7979230284690857,
+      "topicality": 0.7979230284690857
+    },
+    {
+      "mid": "/m/05nnm",
+      "description": "organism",
+      "score": 0.6662027835845947,
+      "topicality": 0.6662027835845947
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.5267912149429321,
+      "topicality": 0.5267912149429321
+    }
+  ]
+}

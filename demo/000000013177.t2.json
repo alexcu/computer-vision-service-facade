@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0h9mv",
+      "description": "tire",
+      "score": 0.9769978523254395,
+      "topicality": 0.9769978523254395
+    },
+    {
+      "mid": "/m/0h8pb3l",
+      "description": "automotive tire",
+      "score": 0.9686542749404907,
+      "topicality": 0.9686542749404907
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9222511649131775,
+      "topicality": 0.9222511649131775
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.9205356240272522,
+      "topicality": 0.9205356240272522
+    },
+    {
+      "mid": "/m/016xt7",
+      "description": "spoke",
+      "score": 0.9147195219993591,
+      "topicality": 0.9147195219993591
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.9010037183761597,
+      "topicality": 0.9010037183761597
+    },
+    {
+      "mid": "/m/08dz3q",
+      "description": "auto part",
+      "score": 0.8587836027145386,
+      "topicality": 0.8587836027145386
+    },
+    {
+      "mid": "/m/01bqk0",
+      "description": "bicycle wheel",
+      "score": 0.8443655371665955,
+      "topicality": 0.8443655371665955
+    },
+    {
+      "mid": "/m/0h8ly30",
+      "description": "automotive wheel system",
+      "score": 0.8355597853660583,
+      "topicality": 0.8355597853660583
+    },
+    {
+      "mid": "/m/03f_s3",
+      "description": "mechanic",
+      "score": 0.7905232906341553,
+      "topicality": 0.7905232906341553
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/02wzbmj",
+      "description": "standing",
+      "score": 0.7958223819732666,
+      "topicality": 0.7958223819732666
+    },
+    {
+      "mid": "/m/081pkj",
+      "description": "event",
+      "score": 0.7534741759300232,
+      "topicality": 0.7534741759300232
+    },
+    {
+      "mid": "/m/019p5q",
+      "description": "gentleman",
+      "score": 0.7192652821540833,
+      "topicality": 0.7192652821540833
+    },
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.7039424180984497,
+      "topicality": 0.7039424180984497
+    },
+    {
+      "mid": "/m/01d74z",
+      "description": "night",
+      "score": 0.5393705368041992,
+      "topicality": 0.5393705368041992
+    },
+    {
+      "mid": "/m/02w3_2",
+      "description": "formal wear",
+      "score": 0.5228210091590881,
+      "topicality": 0.5228210091590881
+    }
+  ]
+}

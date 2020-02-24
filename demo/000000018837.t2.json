@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01prls",
+      "description": "land vehicle",
+      "score": 0.9961627125740051,
+      "topicality": 0.9961627125740051
+    },
+    {
+      "mid": "/m/07yv9",
+      "description": "vehicle",
+      "score": 0.9903031587600708,
+      "topicality": 0.9903031587600708
+    },
+    {
+      "mid": "/m/079bkr",
+      "description": "mode of transport",
+      "score": 0.9867182970046997,
+      "topicality": 0.9867182970046997
+    },
+    {
+      "mid": "/m/07bsy",
+      "description": "transport",
+      "score": 0.9815657138824463,
+      "topicality": 0.9815657138824463
+    },
+    {
+      "mid": "/m/012f08",
+      "description": "motor vehicle",
+      "score": 0.962722659111023,
+      "topicality": 0.962722659111023
+    },
+    {
+      "mid": "/m/0fkwjg",
+      "description": "commercial vehicle",
+      "score": 0.9431832432746887,
+      "topicality": 0.9431832432746887
+    },
+    {
+      "mid": "/m/0k4j",
+      "description": "car",
+      "score": 0.9123747944831848,
+      "topicality": 0.9123747944831848
+    },
+    {
+      "mid": "/m/07r04",
+      "description": "truck",
+      "score": 0.9097964763641357,
+      "topicality": 0.9097964763641357
+    },
+    {
+      "mid": "/m/0h8ly30",
+      "description": "automotive wheel system",
+      "score": 0.6540399193763733,
+      "topicality": 0.6540399193763733
+    },
+    {
+      "mid": "/m/083wq",
+      "description": "wheel",
+      "score": 0.5251690745353699,
+      "topicality": 0.5251690745353699
+    }
+  ]
+}

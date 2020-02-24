@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0j7ty",
+      "description": "blossom",
+      "score": 0.932409942150116,
+      "topicality": 0.932409942150116
+    },
+    {
+      "mid": "/m/0c9ph5",
+      "description": "flower",
+      "score": 0.9298317432403564,
+      "topicality": 0.9298317432403564
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.9202536344528198,
+      "topicality": 0.9202536344528198
+    },
+    {
+      "mid": "/m/0b5gs",
+      "description": "branch",
+      "score": 0.9195570349693298,
+      "topicality": 0.9195570349693298
+    },
+    {
+      "mid": "/m/01txr2",
+      "description": "spring",
+      "score": 0.9167687296867371,
+      "topicality": 0.9167687296867371
+    },
+    {
+      "mid": "/m/05s2s",
+      "description": "plant",
+      "score": 0.8699547052383423,
+      "topicality": 0.8699547052383423
+    },
+    {
+      "mid": "/m/01wh_8",
+      "description": "cherry blossom",
+      "score": 0.8686034083366394,
+      "topicality": 0.8686034083366394
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.7871291637420654,
+      "topicality": 0.7871291637420654
+    },
+    {
+      "mid": "/m/02hnx9",
+      "description": "woody plant",
+      "score": 0.7723292708396912,
+      "topicality": 0.7723292708396912
+    },
+    {
+      "mid": "/m/036jvk",
+      "description": "stock photography",
+      "score": 0.6396147608757019,
+      "topicality": 0.6396147608757019
+    }
+  ]
+}

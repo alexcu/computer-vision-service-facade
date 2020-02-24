@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/01w5c_",
+      "description": "aerial photography",
+      "score": 0.9698500037193298,
+      "topicality": 0.9698500037193298
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.9593178629875183,
+      "topicality": 0.9593178629875183
+    },
+    {
+      "mid": "/m/01ctsf",
+      "description": "atmosphere",
+      "score": 0.9380539059638977,
+      "topicality": 0.9380539059638977
+    },
+    {
+      "mid": "/m/0csh5",
+      "description": "cumulus",
+      "score": 0.9265838265419006,
+      "topicality": 0.9265838265419006
+    },
+    {
+      "mid": "/m/0csby",
+      "description": "cloud",
+      "score": 0.9209716320037842,
+      "topicality": 0.9209716320037842
+    },
+    {
+      "mid": "/m/08863x",
+      "description": "bird's eye view",
+      "score": 0.8753947019577026,
+      "topicality": 0.8753947019577026
+    },
+    {
+      "mid": "/m/0d1n2",
+      "description": "horizon",
+      "score": 0.8369274139404297,
+      "topicality": 0.8369274139404297
+    },
+    {
+      "mid": "/m/015s2f",
+      "description": "water resources",
+      "score": 0.8309127688407898,
+      "topicality": 0.8309127688407898
+    },
+    {
+      "mid": "/m/02q7ylj",
+      "description": "daytime",
+      "score": 0.7945629954338074,
+      "topicality": 0.7945629954338074
+    },
+    {
+      "mid": "/m/025t3bg",
+      "description": "air travel",
+      "score": 0.7889126539230347,
+      "topicality": 0.7889126539230347
+    }
+  ]
+}

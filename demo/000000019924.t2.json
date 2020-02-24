@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/083jv",
+      "description": "white",
+      "score": 0.9547066688537598,
+      "topicality": 0.9547066688537598
+    },
+    {
+      "mid": "/m/019sc",
+      "description": "black",
+      "score": 0.9535553455352783,
+      "topicality": 0.9535553455352783
+    },
+    {
+      "mid": "/m/06pj2k",
+      "description": "lip",
+      "score": 0.9506000876426697,
+      "topicality": 0.9506000876426697
+    },
+    {
+      "mid": "/m/02dl1y",
+      "description": "hat",
+      "score": 0.9232353568077087,
+      "topicality": 0.9232353568077087
+    },
+    {
+      "mid": "/m/01f43",
+      "description": "beauty",
+      "score": 0.8674901723861694,
+      "topicality": 0.8674901723861694
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "black-and-white",
+      "score": 0.853537917137146,
+      "topicality": 0.853537917137146
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "monochrome",
+      "score": 0.7833997011184692,
+      "topicality": 0.7833997011184692
+    },
+    {
+      "mid": "/m/02wbtzl",
+      "description": "sun hat",
+      "score": 0.7756453156471252,
+      "topicality": 0.7756453156471252
+    },
+    {
+      "mid": "/m/0463sg",
+      "description": "fashion accessory",
+      "score": 0.7706897258758545,
+      "topicality": 0.7706897258758545
+    },
+    {
+      "mid": "/m/0283dt1",
+      "description": "mouth",
+      "score": 0.769237756729126,
+      "topicality": 0.769237756729126
+    }
+  ]
+}

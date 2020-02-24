@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bq66hh",
+      "description": "surfing equipment",
+      "score": 0.989138126373291,
+      "topicality": 0.989138126373291
+    },
+    {
+      "mid": "/m/02p0sll",
+      "description": "wave",
+      "score": 0.9857462048530579,
+      "topicality": 0.9857462048530579
+    },
+    {
+      "mid": "/m/06_g7",
+      "description": "surfing",
+      "score": 0.9773600697517395,
+      "topicality": 0.9773600697517395
+    },
+    {
+      "mid": "/m/09qkx",
+      "description": "boardsport",
+      "score": 0.9752753973007202,
+      "topicality": 0.9752753973007202
+    },
+    {
+      "mid": "/m/019w40",
+      "description": "surfboard",
+      "score": 0.9667372703552246,
+      "topicality": 0.9667372703552246
+    },
+    {
+      "mid": "/m/034srq",
+      "description": "wind wave",
+      "score": 0.9621184468269348,
+      "topicality": 0.9621184468269348
+    },
+    {
+      "mid": "/m/0dxnmb",
+      "description": "surface water sports",
+      "score": 0.9577908515930176,
+      "topicality": 0.9577908515930176
+    },
+    {
+      "mid": "/m/0292vy",
+      "description": "skimboarding",
+      "score": 0.9564540386199951,
+      "topicality": 0.9564540386199951
+    },
+    {
+      "mid": "/m/02fhdf",
+      "description": "water sport",
+      "score": 0.882868766784668,
+      "topicality": 0.882868766784668
+    },
+    {
+      "mid": "/m/01814z",
+      "description": "bodyboarding",
+      "score": 0.8826355934143066,
+      "topicality": 0.8826355934143066
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03k5cs",
+      "description": "formation",
+      "score": 0.9314013123512268,
+      "topicality": 0.9314013123512268
+    },
+    {
+      "mid": "/m/07sn5gn",
+      "description": "geological phenomenon",
+      "score": 0.8752388954162598,
+      "topicality": 0.8752388954162598
+    },
+    {
+      "mid": "/m/036hv",
+      "description": "geology",
+      "score": 0.8589167594909668,
+      "topicality": 0.8589167594909668
+    },
+    {
+      "mid": "/m/01cbzq",
+      "description": "rock",
+      "score": 0.8426777720451355,
+      "topicality": 0.8426777720451355
+    },
+    {
+      "mid": "/m/01jnvt",
+      "description": "badlands",
+      "score": 0.7870334982872009,
+      "topicality": 0.7870334982872009
+    },
+    {
+      "mid": "/m/07cwvn",
+      "description": "outcrop",
+      "score": 0.7644400596618652,
+      "topicality": 0.7644400596618652
+    },
+    {
+      "mid": "/m/0308t8",
+      "description": "bedrock",
+      "score": 0.7524319887161255,
+      "topicality": 0.7524319887161255
+    },
+    {
+      "mid": "/m/06jlgc",
+      "description": "cliff dwelling",
+      "score": 0.7001886367797852,
+      "topicality": 0.7001886367797852
+    },
+    {
+      "mid": "/m/09dv7",
+      "description": "soil",
+      "score": 0.698230504989624,
+      "topicality": 0.698230504989624
+    },
+    {
+      "mid": "/m/0kh8w",
+      "description": "canyon",
+      "score": 0.6669448614120483,
+      "topicality": 0.6669448614120483
+    }
+  ]
+}

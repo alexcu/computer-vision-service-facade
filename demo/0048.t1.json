@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0swq_",
+      "description": "nature reserve",
+      "score": 0.8821867108345032,
+      "topicality": 0.8821867108345032
+    },
+    {
+      "mid": "/m/01fnns",
+      "description": "vegetation",
+      "score": 0.8692509531974792,
+      "topicality": 0.8692509531974792
+    },
+    {
+      "mid": "/m/01w5c_",
+      "description": "aerial photography",
+      "score": 0.8418470025062561,
+      "topicality": 0.8418470025062561
+    },
+    {
+      "mid": "/m/015s2f",
+      "description": "water resources",
+      "score": 0.8121777772903442,
+      "topicality": 0.8121777772903442
+    },
+    {
+      "mid": "/m/0pvlz",
+      "description": "wetland",
+      "score": 0.7499309778213501,
+      "topicality": 0.7499309778213501
+    },
+    {
+      "mid": "/m/0j6jq",
+      "description": "floodplain",
+      "score": 0.7242250442504883,
+      "topicality": 0.7242250442504883
+    },
+    {
+      "mid": "/m/05sm1",
+      "description": "plain",
+      "score": 0.712188184261322,
+      "topicality": 0.712188184261322
+    },
+    {
+      "mid": "/m/06cnp",
+      "description": "river",
+      "score": 0.6870318651199341,
+      "topicality": 0.6870318651199341
+    },
+    {
+      "mid": "/m/0kh77",
+      "description": "estuary",
+      "score": 0.6771189570426941,
+      "topicality": 0.6771189570426941
+    },
+    {
+      "mid": "/m/08863x",
+      "description": "bird's eye view",
+      "score": 0.6738482713699341,
+      "topicality": 0.6738482713699341
+    }
+  ]
+}

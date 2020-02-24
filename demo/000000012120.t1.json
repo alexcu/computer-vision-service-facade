@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0bmgjqz",
+      "description": "sport venue",
+      "score": 0.9812559485435486,
+      "topicality": 0.9812559485435486
+    },
+    {
+      "mid": "/m/06ntj",
+      "description": "sports",
+      "score": 0.9594711065292358,
+      "topicality": 0.9594711065292358
+    },
+    {
+      "mid": "/m/07bs0",
+      "description": "tennis",
+      "score": 0.9577251672744751,
+      "topicality": 0.9577251672744751
+    },
+    {
+      "mid": "/m/01qhp_",
+      "description": "racquet sport",
+      "score": 0.9470770359039307,
+      "topicality": 0.9470770359039307
+    },
+    {
+      "mid": "/m/02xhr73",
+      "description": "tennis player",
+      "score": 0.9307125210762024,
+      "topicality": 0.9307125210762024
+    },
+    {
+      "mid": "/m/07gcy",
+      "description": "tennis court",
+      "score": 0.8391561508178711,
+      "topicality": 0.8391561508178711
+    },
+    {
+      "mid": "/m/020m7t",
+      "description": "ball game",
+      "score": 0.7833682298660278,
+      "topicality": 0.7833682298660278
+    },
+    {
+      "mid": "/m/0bps4xh",
+      "description": "tennis equipment and supplies",
+      "score": 0.7759881615638733,
+      "topicality": 0.7759881615638733
+    },
+    {
+      "mid": "/m/018tl7",
+      "description": "competition",
+      "score": 0.7363839149475098,
+      "topicality": 0.7363839149475098
+    },
+    {
+      "mid": "/m/012sbd",
+      "description": "tournament",
+      "score": 0.7362247705459595,
+      "topicality": 0.7362247705459595
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0c_jw",
+      "description": "furniture",
+      "score": 0.9226252436637878,
+      "topicality": 0.9226252436637878
+    },
+    {
+      "mid": "/m/0643t",
+      "description": "personal computer",
+      "score": 0.8773706555366516,
+      "topicality": 0.8773706555366516
+    },
+    {
+      "mid": "/m/01y9k5",
+      "description": "desk",
+      "score": 0.8731663227081299,
+      "topicality": 0.8731663227081299
+    },
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.8611496686935425,
+      "topicality": 0.8611496686935425
+    },
+    {
+      "mid": "/m/021sj1",
+      "description": "office",
+      "score": 0.8536772131919861,
+      "topicality": 0.8536772131919861
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.8524529337882996,
+      "topicality": 0.8524529337882996
+    },
+    {
+      "mid": "/m/0dvvc",
+      "description": "desktop computer",
+      "score": 0.8073084950447083,
+      "topicality": 0.8073084950447083
+    },
+    {
+      "mid": "/m/01m3v",
+      "description": "computer",
+      "score": 0.6855142116546631,
+      "topicality": 0.6855142116546631
+    },
+    {
+      "mid": "/m/029zz6",
+      "description": "display device",
+      "score": 0.628184974193573,
+      "topicality": 0.628184974193573
+    },
+    {
+      "mid": "/m/02522",
+      "description": "computer monitor",
+      "score": 0.600740909576416,
+      "topicality": 0.600740909576416
+    }
+  ]
+}

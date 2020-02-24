@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0ds99lh",
+      "description": "fun",
+      "score": 0.8220452070236206,
+      "topicality": 0.8220452070236206
+    },
+    {
+      "mid": "/m/0dpm1v",
+      "description": "soccer ball",
+      "score": 0.8061925172805786,
+      "topicality": 0.8061925172805786
+    },
+    {
+      "mid": "/m/01226z",
+      "description": "football",
+      "score": 0.7863256931304932,
+      "topicality": 0.7863256931304932
+    },
+    {
+      "mid": "/m/011l78",
+      "description": "team",
+      "score": 0.77446448802948,
+      "topicality": 0.77446448802948
+    },
+    {
+      "mid": "/m/018xm",
+      "description": "ball",
+      "score": 0.7732847332954407,
+      "topicality": 0.7732847332954407
+    },
+    {
+      "mid": "/m/03x045",
+      "description": "team sport",
+      "score": 0.7288511991500854,
+      "topicality": 0.7288511991500854
+    },
+    {
+      "mid": "/m/06bqd",
+      "description": "rugby",
+      "score": 0.685221791267395,
+      "topicality": 0.685221791267395
+    },
+    {
+      "mid": "/m/02vx4",
+      "description": "soccer",
+      "score": 0.6517159342765808,
+      "topicality": 0.6517159342765808
+    },
+    {
+      "mid": "/m/0wdt60w",
+      "description": "rugby ball",
+      "score": 0.6215416789054871,
+      "topicality": 0.6215416789054871
+    },
+    {
+      "mid": "/m/02vzx9",
+      "description": "player",
+      "score": 0.582064151763916,
+      "topicality": 0.582064151763916
+    }
+  ]
+}

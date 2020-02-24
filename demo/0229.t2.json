@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/0dx1j",
+      "description": "town",
+      "score": 0.9553806185722351,
+      "topicality": 0.9553806185722351
+    },
+    {
+      "mid": "/m/0180xr",
+      "description": "neighbourhood",
+      "score": 0.939661979675293,
+      "topicality": 0.939661979675293
+    },
+    {
+      "mid": "/m/039jbq",
+      "description": "urban area",
+      "score": 0.9370647668838501,
+      "topicality": 0.9370647668838501
+    },
+    {
+      "mid": "/m/01c8br",
+      "description": "street",
+      "score": 0.9333257675170898,
+      "topicality": 0.9333257675170898
+    },
+    {
+      "mid": "/m/01n32",
+      "description": "city",
+      "score": 0.9309162497520447,
+      "topicality": 0.9309162497520447
+    },
+    {
+      "mid": "/m/06gfj",
+      "description": "road",
+      "score": 0.9161447286605835,
+      "topicality": 0.9161447286605835
+    },
+    {
+      "mid": "/m/0fpdgl",
+      "description": "human settlement",
+      "score": 0.893509030342102,
+      "topicality": 0.893509030342102
+    },
+    {
+      "mid": "/m/0j_s4",
+      "description": "metropolitan area",
+      "score": 0.8739041686058044,
+      "topicality": 0.8739041686058044
+    },
+    {
+      "mid": "/m/0bm8qyq",
+      "description": "thoroughfare",
+      "score": 0.8738200068473816,
+      "topicality": 0.8738200068473816
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.8723349571228027,
+      "topicality": 0.8723349571228027
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/07c1v",
+      "description": "technology",
+      "score": 0.9088115096092224,
+      "topicality": 0.9088115096092224
+    },
+    {
+      "mid": "/m/0bs7_0t",
+      "description": "electronic device",
+      "score": 0.901515007019043,
+      "topicality": 0.901515007019043
+    },
+    {
+      "mid": "/m/02mrp",
+      "description": "electronics",
+      "score": 0.8330174088478088,
+      "topicality": 0.8330174088478088
+    },
+    {
+      "mid": "/m/02mf1n",
+      "description": "gadget",
+      "score": 0.8189283609390259,
+      "topicality": 0.8189283609390259
+    },
+    {
+      "mid": "/m/02cqfm",
+      "description": "close up",
+      "score": 0.7242351174354553,
+      "topicality": 0.7242351174354553
+    },
+    {
+      "mid": "/m/050k8",
+      "description": "mobile phone",
+      "score": 0.6604430675506592,
+      "topicality": 0.6604430675506592
+    },
+    {
+      "mid": "/m/03qtgkw",
+      "description": "hardware",
+      "score": 0.5730205178260803,
+      "topicality": 0.5730205178260803
+    },
+    {
+      "mid": "/m/020fsy",
+      "description": "portable communications device",
+      "score": 0.5642318725585938,
+      "topicality": 0.5642318725585938
+    },
+    {
+      "mid": "/m/01jwgf",
+      "description": "product",
+      "score": 0.5457262992858887,
+      "topicality": 0.5457262992858887
+    },
+    {
+      "mid": "/m/0h8ksfs",
+      "description": "electronics accessory",
+      "score": 0.5011258721351624,
+      "topicality": 0.5011258721351624
+    }
+  ]
+}

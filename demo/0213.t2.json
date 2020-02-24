@@ -1,0 +1,64 @@
+{
+  "label_annotations": [
+    {
+      "mid": "/m/03jm5",
+      "description": "house",
+      "score": 0.9209244251251221,
+      "topicality": 0.9209244251251221
+    },
+    {
+      "mid": "/m/03nfmq",
+      "description": "architecture",
+      "score": 0.9133018255233765,
+      "topicality": 0.9133018255233765
+    },
+    {
+      "mid": "/m/0cgh4",
+      "description": "building",
+      "score": 0.8486295342445374,
+      "topicality": 0.8486295342445374
+    },
+    {
+      "mid": "/m/07j7r",
+      "description": "tree",
+      "score": 0.8254543542861938,
+      "topicality": 0.8254543542861938
+    },
+    {
+      "mid": "/m/01l0mw",
+      "description": "home",
+      "score": 0.8229971528053284,
+      "topicality": 0.8229971528053284
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.8220894932746887,
+      "topicality": 0.8220894932746887
+    },
+    {
+      "mid": "/m/01yjfd",
+      "description": "japanese architecture",
+      "score": 0.7035951018333435,
+      "topicality": 0.7035951018333435
+    },
+    {
+      "mid": "/m/06hyd",
+      "description": "roof",
+      "score": 0.6908379793167114,
+      "topicality": 0.6908379793167114
+    },
+    {
+      "mid": "/m/08t9c_",
+      "description": "grass",
+      "score": 0.6880232691764832,
+      "topicality": 0.6880232691764832
+    },
+    {
+      "mid": "/m/038t8_",
+      "description": "estate",
+      "score": 0.6529709696769714,
+      "topicality": 0.6529709696769714
+    }
+  ]
+}
