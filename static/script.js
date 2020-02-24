@@ -1,3 +1,5 @@
+var category_data = null;
+
 document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('benchmark-dataset').value = [
     'https://picsum.photos/id/1025/800/600.jpg',
@@ -9,16 +11,35 @@ document.addEventListener("DOMContentLoaded", function (event) {
   document.getElementById('check-benchmark-form').onsubmit = submitCheckBenchmarkForm;
   document.getElementById('submit-request-form').onsubmit = submitRequestForm;
   document.getElementById('submit-request-image-uri').oninput = updateImagePreview;
-  document.getElementById('benchmark-callback-uri').value = window.location.origin + '/callbacks/benchmark';
+  document.getElementById('benchmark-callback-uri').value = '/callbacks/benchmark';
 
   document.getElementById('severity').onchange = function (e) {
     var el = document.getElementById('warning-callback-uri')
     var iswarn = e.target.value == 'warning';
-    el.value = iswarn ? window.location.origin + '/callbacks/warning' : '';
+    el.value = iswarn ? '/callbacks/warning' : '';
     el.required = iswarn;
     document.getElementById('warning-callback-uri-form-group').classList.toggle('required', iswarn);
   }
+
+  // Load categories
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/demo/categories.json', true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == xhr.DONE) {
+      category_data = JSON.parse(xhr.responseText);
+    }
+  }
+  xhr.send();
 });
+
+function prefillDatasetWith(type) {
+  document.getElementById('benchmark-dataset').value = category_data[type].map(function (v) {
+    return "/demo/data/" + v + ".jpeg";
+  }).join("\n");
+  if (type != 'all') {
+    document.getElementById('expected-labels').value = type;
+  }
+}
 
 function updateImagePreview() {
   var imageUri = document.getElementById('submit-request-image-uri').value;
@@ -29,6 +50,12 @@ function updateImagePreview() {
 function randomImage() {
   document.getElementById('submit-request-image-uri').value =
     'https://picsum.photos/seed/' + Math.floor(Math.random() * 10000) + '/800/600'
+  updateImagePreview();
+}
+
+function randomTestImage(type) {
+  document.getElementById('submit-request-image-uri').value =
+    '/demo/random/' + type + '.jpg'
   updateImagePreview();
 }
 
@@ -139,5 +166,3 @@ function submitRequestForm() {
 
   return false;
 }
-
-//   W/"70322956357000;178"

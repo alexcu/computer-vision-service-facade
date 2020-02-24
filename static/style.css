@@ -41,3 +41,8 @@ img#submit-request-image-preview {
   display: -webkit-box;
   max-height: 15rem;
 }
+
+.btn-sm {
+  font-size: .5rem;
+  font-weight: bold;
+}

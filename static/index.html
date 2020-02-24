@@ -6,9 +6,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js"></script>
@@ -44,10 +50,27 @@
               <p class="card-text">Complete the following form to create a new benchmark.</p>
               <form id="new-benchmark-form">
                 <div class="form-group required">
-                  <label for="benchmark-dataset" class="add-star">
+                  <label for="benchmark-dataset" class="add-star float-left">
                     <strong>&#9312;</strong>
                     Enter a dataset of image URIs to benchmark against:
                   </label>
+                  <div class="dropdown">
+                    <button class="btn btn-primary btn-sm dropdown-toggle float-right"
+                      type="button"
+                      id="benchmark-dataset-prefill"
+                      data-toggle="dropdown">
+                      Pre-fill...
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" onclick="prefillDatasetWith('animal');">Animals</a>
+                      <a class="dropdown-item" onclick="prefillDatasetWith('vehicle');">Vehicles</a>
+                      <a class="dropdown-item" onclick="prefillDatasetWith('person');">People</a>
+                      <a class="dropdown-item" onclick="prefillDatasetWith('food');">Foods</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" onclick="prefillDatasetWith('all');">All Demo Data</a>
+                    </div>
+                  </div>
+
                   <textarea required class="form-control" id="benchmark-dataset"
                     rows="3""></textarea>
                   <small class="form-text text-muted">
@@ -61,6 +84,7 @@
                     Select a Computer Vision API provider:
                   </label>
                   <select required class="form-control" id="service">
+                    <option value="demo">Demo</option>
                     <option value="amazon_rekognition">Amazon Rekognition</option>
                     <option value="google_cloud_vision">Google Cloud Vision</option>
                     <option value="azure_computer_vision">Azure Computer Vision API</option>
@@ -188,7 +212,7 @@
                     </div><!--.col#benchmark-callback-uri-->
                     <div class="col form-group" id="warning-callback-uri-form-group">
                       <label for="warning-callback-uri" class="control-label">Warning Callback:</label>
-                      <input id="warning-callback-uri" class="form-control" placeholder="/callbacks/benchmark">
+                      <input id="warning-callback-uri" class="form-control" placeholder="/callbacks/warning">
                       <small class="form-text text-muted">
                         A POST callback to indicate an error has occured when response behaviour is set to Warning.
                       </small>
@@ -260,6 +284,18 @@
                       placeholder="http://example.com/dog.jpg" required>
                     <div class="input-group-append">
                       <button onclick="randomImage()" class="btn btn-primary btn-sm">Random</button>
+                      <button type="button" class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split"
+                        data-toggle="dropdown">
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" onclick="randomTestImage('animal')">Random Animal</a>
+                        <a class="dropdown-item" onclick="randomTestImage('vehicle')">Random Vehicle</a>
+                        <a class="dropdown-item" onclick="randomTestImage('person')">Random Person</a>
+                        <a class="dropdown-item" onclick="randomTestImage('food')">Random Food</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" onclick="randomTestImage('all')">Random From Demo Dataset</a>
+                      </div>
                     </div>
                   </div>
                   <label for="submit-request-image-uri" class="control-label">Image URI:</label>
