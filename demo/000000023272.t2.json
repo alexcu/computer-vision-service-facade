@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9014317393302917,
-      "topicality": 0.9014317393302917
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9010037183761597,
-      "topicality": 0.9010037183761597
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.8905084729194641,
-      "topicality": 0.8905084729194641
-    },
-    {
-      "mid": "/m/0bt9lr",
-      "description": "dog",
-      "score": 0.8595659732818604,
-      "topicality": 0.8595659732818604
-    },
-    {
-      "mid": "/m/01lcwm",
-      "description": "luxury vehicle",
-      "score": 0.8491225838661194,
-      "topicality": 0.8491225838661194
-    },
-    {
-      "mid": "/m/01z5f",
-      "description": "canidae",
-      "score": 0.8435097336769104,
-      "topicality": 0.8435097336769104
-    },
-    {
-      "mid": "/m/01lrnl",
-      "description": "windshield",
-      "score": 0.7990504503250122,
-      "topicality": 0.7990504503250122
-    },
-    {
-      "mid": "/m/02417f",
-      "description": "windscreen wiper",
-      "score": 0.7934655547142029,
-      "topicality": 0.7934655547142029
-    },
-    {
-      "mid": "/m/0h8lhq_",
-      "description": "automotive window part",
-      "score": 0.7460302114486694,
-      "topicality": 0.7460302114486694
-    },
-    {
-      "mid": "/m/02df64",
-      "description": "hood",
-      "score": 0.7354758381843567,
-      "topicality": 0.7354758381843567
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9014317393302917,
+    "topicality": 0.9014317393302917
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9010037183761597,
+    "topicality": 0.9010037183761597
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.8905084729194641,
+    "topicality": 0.8905084729194641
+  },
+  {
+    "mid": "/m/0bt9lr",
+    "description": "dog",
+    "score": 0.8595659732818604,
+    "topicality": 0.8595659732818604
+  },
+  {
+    "mid": "/m/01lcwm",
+    "description": "luxury vehicle",
+    "score": 0.8491225838661194,
+    "topicality": 0.8491225838661194
+  },
+  {
+    "mid": "/m/01z5f",
+    "description": "canidae",
+    "score": 0.8435097336769104,
+    "topicality": 0.8435097336769104
+  },
+  {
+    "mid": "/m/01lrnl",
+    "description": "windshield",
+    "score": 0.7990504503250122,
+    "topicality": 0.7990504503250122
+  },
+  {
+    "mid": "/m/02417f",
+    "description": "windscreen wiper",
+    "score": 0.7934655547142029,
+    "topicality": 0.7934655547142029
+  },
+  {
+    "mid": "/m/0h8lhq_",
+    "description": "automotive window part",
+    "score": 0.7460302114486694,
+    "topicality": 0.7460302114486694
+  },
+  {
+    "mid": "/m/02df64",
+    "description": "hood",
+    "score": 0.7354758381843567,
+    "topicality": 0.7354758381843567
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/088fh",
-      "description": "yellow",
-      "score": 0.8649448752403259,
-      "topicality": 0.8649448752403259
-    },
-    {
-      "mid": "/m/033j3c",
-      "description": "lane",
-      "score": 0.8571351170539856,
-      "topicality": 0.8571351170539856
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.8499442934989929,
-      "topicality": 0.8499442934989929
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.8424296379089355,
-      "topicality": 0.8424296379089355
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8394080996513367,
-      "topicality": 0.8394080996513367
-    },
-    {
-      "mid": "/m/0hr8",
-      "description": "asphalt",
-      "score": 0.8250408172607422,
-      "topicality": 0.8250408172607422
-    },
-    {
-      "mid": "/m/017r8p",
-      "description": "pedestrian",
-      "score": 0.8099969029426575,
-      "topicality": 0.8099969029426575
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.7801249027252197,
-      "topicality": 0.7801249027252197
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.7712700963020325,
-      "topicality": 0.7712700963020325
-    },
-    {
-      "mid": "/m/017kvv",
-      "description": "infrastructure",
-      "score": 0.763900876045227,
-      "topicality": 0.763900876045227
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/088fh",
+    "description": "yellow",
+    "score": 0.8649448752403259,
+    "topicality": 0.8649448752403259
+  },
+  {
+    "mid": "/m/033j3c",
+    "description": "lane",
+    "score": 0.8571351170539856,
+    "topicality": 0.8571351170539856
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.8499442934989929,
+    "topicality": 0.8499442934989929
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.8424296379089355,
+    "topicality": 0.8424296379089355
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8394080996513367,
+    "topicality": 0.8394080996513367
+  },
+  {
+    "mid": "/m/0hr8",
+    "description": "asphalt",
+    "score": 0.8250408172607422,
+    "topicality": 0.8250408172607422
+  },
+  {
+    "mid": "/m/017r8p",
+    "description": "pedestrian",
+    "score": 0.8099969029426575,
+    "topicality": 0.8099969029426575
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.7801249027252197,
+    "topicality": 0.7801249027252197
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.7712700963020325,
+    "topicality": 0.7712700963020325
+  },
+  {
+    "mid": "/m/017kvv",
+    "description": "infrastructure",
+    "score": 0.763900876045227,
+    "topicality": 0.763900876045227
+  }
+]

@@ -1,46 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9581797122955322,
-      "topicality": 0.9581797122955322
-    },
-    {
-      "mid": "/m/0898b",
-      "description": "zebra",
-      "score": 0.9535110592842102,
-      "topicality": 0.9535110592842102
-    },
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.9190946817398071,
-      "topicality": 0.9190946817398071
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9091840982437134,
-      "topicality": 0.9091840982437134
-    },
-    {
-      "mid": "/m/089v3",
-      "description": "zoo",
-      "score": 0.6724036931991577,
-      "topicality": 0.6724036931991577
-    },
-    {
-      "mid": "/m/02s3y",
-      "description": "horse like mammal",
-      "score": 0.6499645113945007,
-      "topicality": 0.6499645113945007
-    },
-    {
-      "mid": "/m/05mqq3",
-      "description": "snout",
-      "score": 0.5780693292617798,
-      "topicality": 0.5780693292617798
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9581797122955322,
+    "topicality": 0.9581797122955322
+  },
+  {
+    "mid": "/m/0898b",
+    "description": "zebra",
+    "score": 0.9535110592842102,
+    "topicality": 0.9535110592842102
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.9396552273462893,
+    "topicality": 0.9396552273462893
+  },
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.9190946817398071,
+    "topicality": 0.9190946817398071
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9091840982437134,
+    "topicality": 0.9091840982437134
+  },
+  {
+    "mid": "/m/089v3",
+    "description": "zoo",
+    "score": 0.6724036931991577,
+    "topicality": 0.6724036931991577
+  },
+  {
+    "mid": "/m/02s3y",
+    "description": "horse like mammal",
+    "score": 0.6499645113945007,
+    "topicality": 0.6499645113945007
+  },
+  {
+    "mid": "/m/05mqq3",
+    "description": "snout",
+    "score": 0.5780693292617798,
+    "topicality": 0.5780693292617798
+  }
+]

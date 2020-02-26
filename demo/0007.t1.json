@@ -1,46 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/088fh",
-      "description": "yellow",
-      "score": 0.9059896469116211,
-      "topicality": 0.9059896469116211
-    },
-    {
-      "mid": "/m/019sc6",
-      "description": "lighting",
-      "score": 0.8003946542739868,
-      "topicality": 0.8003946542739868
-    },
-    {
-      "mid": "/m/027_ny3",
-      "description": "still life photography",
-      "score": 0.7070422172546387,
-      "topicality": 0.7070422172546387
-    },
-    {
-      "mid": "/m/01spzs",
-      "description": "still life",
-      "score": 0.6903589367866516,
-      "topicality": 0.6903589367866516
-    },
-    {
-      "mid": "/m/01d74z",
-      "description": "night",
-      "score": 0.6315258741378784,
-      "topicality": 0.6315258741378784
-    },
-    {
-      "mid": "/m/01jfsr",
-      "description": "lantern",
-      "score": 0.5594797730445862,
-      "topicality": 0.5594797730445862
-    },
-    {
-      "mid": "/m/03w43x",
-      "description": "computer wallpaper",
-      "score": 0.501228392124176,
-      "topicality": 0.501228392124176
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/088fh",
+    "description": "yellow",
+    "score": 0.9059896469116211,
+    "topicality": 0.9059896469116211
+  },
+  {
+    "mid": "/m/019sc6",
+    "description": "lighting",
+    "score": 0.8003946542739868,
+    "topicality": 0.8003946542739868
+  },
+  {
+    "mid": "/m/027_ny3",
+    "description": "still life photography",
+    "score": 0.7070422172546387,
+    "topicality": 0.7070422172546387
+  },
+  {
+    "mid": "/m/01spzs",
+    "description": "still life",
+    "score": 0.6903589367866516,
+    "topicality": 0.6903589367866516
+  },
+  {
+    "mid": "/m/01d74z",
+    "description": "night",
+    "score": 0.6315258741378784,
+    "topicality": 0.6315258741378784
+  },
+  {
+    "mid": "/m/01jfsr",
+    "description": "lantern",
+    "score": 0.5594797730445862,
+    "topicality": 0.5594797730445862
+  },
+  {
+    "mid": "/m/03w43x",
+    "description": "computer wallpaper",
+    "score": 0.501228392124176,
+    "topicality": 0.501228392124176
+  }
+]

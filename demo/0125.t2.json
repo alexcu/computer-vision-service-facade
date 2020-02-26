@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9903031587600708,
-      "topicality": 0.9903031587600708
-    },
-    {
-      "mid": "/m/08rrcl",
-      "description": "water transportation",
-      "score": 0.9842531085014343,
-      "topicality": 0.9842531085014343
-    },
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.9596700072288513,
-      "topicality": 0.9596700072288513
-    },
-    {
-      "mid": "/m/03_5t7",
-      "description": "pilot boat",
-      "score": 0.925622820854187,
-      "topicality": 0.925622820854187
-    },
-    {
-      "mid": "/m/03htg",
-      "description": "harbor",
-      "score": 0.8908373713493347,
-      "topicality": 0.8908373713493347
-    },
-    {
-      "mid": "/m/01rzcn",
-      "description": "watercraft",
-      "score": 0.8898230195045471,
-      "topicality": 0.8898230195045471
-    },
-    {
-      "mid": "/m/01fpmd",
-      "description": "tugboat",
-      "score": 0.8693552613258362,
-      "topicality": 0.8693552613258362
-    },
-    {
-      "mid": "/m/02q13x7",
-      "description": "fishing vessel",
-      "score": 0.8649908304214478,
-      "topicality": 0.8649908304214478
-    },
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.8413860201835632,
-      "topicality": 0.8413860201835632
-    },
-    {
-      "mid": "/m/01cs_p",
-      "description": "marina",
-      "score": 0.7923488616943359,
-      "topicality": 0.7923488616943359
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9903031587600708,
+    "topicality": 0.9903031587600708
+  },
+  {
+    "mid": "/m/08rrcl",
+    "description": "water transportation",
+    "score": 0.9842531085014343,
+    "topicality": 0.9842531085014343
+  },
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.9596700072288513,
+    "topicality": 0.9596700072288513
+  },
+  {
+    "mid": "/m/03_5t7",
+    "description": "pilot boat",
+    "score": 0.925622820854187,
+    "topicality": 0.925622820854187
+  },
+  {
+    "mid": "/m/03htg",
+    "description": "harbor",
+    "score": 0.8908373713493347,
+    "topicality": 0.8908373713493347
+  },
+  {
+    "mid": "/m/01rzcn",
+    "description": "watercraft",
+    "score": 0.8898230195045471,
+    "topicality": 0.8898230195045471
+  },
+  {
+    "mid": "/m/01fpmd",
+    "description": "tugboat",
+    "score": 0.8693552613258362,
+    "topicality": 0.8693552613258362
+  },
+  {
+    "mid": "/m/02q13x7",
+    "description": "fishing vessel",
+    "score": 0.8649908304214478,
+    "topicality": 0.8649908304214478
+  },
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.8413860201835632,
+    "topicality": 0.8413860201835632
+  },
+  {
+    "mid": "/m/01cs_p",
+    "description": "marina",
+    "score": 0.7923488616943359,
+    "topicality": 0.7923488616943359
+  }
+]

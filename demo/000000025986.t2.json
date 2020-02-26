@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9934034943580627,
-      "topicality": 0.9934034943580627
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9903261065483093,
-      "topicality": 0.9903261065483093
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9864208102226257,
-      "topicality": 0.9864208102226257
-    },
-    {
-      "mid": "/m/0krfg",
-      "description": "meal",
-      "score": 0.9839728474617004,
-      "topicality": 0.9839728474617004
-    },
-    {
-      "mid": "/m/0dw_m",
-      "description": "brunch",
-      "score": 0.9329434037208557,
-      "topicality": 0.9329434037208557
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.9207317233085632,
-      "topicality": 0.9207317233085632
-    },
-    {
-      "mid": "/m/0jfd5",
-      "description": "lunch",
-      "score": 0.9009320139884949,
-      "topicality": 0.9009320139884949
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.8775196671485901,
-      "topicality": 0.8775196671485901
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.7814560532569885,
-      "topicality": 0.7814560532569885
-    },
-    {
-      "mid": "/m/0hyyb",
-      "description": "supper",
-      "score": 0.7352314591407776,
-      "topicality": 0.7352314591407776
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9934034943580627,
+    "topicality": 0.9934034943580627
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9903261065483093,
+    "topicality": 0.9903261065483093
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9864208102226257,
+    "topicality": 0.9864208102226257
+  },
+  {
+    "mid": "/m/0krfg",
+    "description": "meal",
+    "score": 0.9839728474617004,
+    "topicality": 0.9839728474617004
+  },
+  {
+    "mid": "/m/0dw_m",
+    "description": "brunch",
+    "score": 0.9329434037208557,
+    "topicality": 0.9329434037208557
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.9207317233085632,
+    "topicality": 0.9207317233085632
+  },
+  {
+    "mid": "/m/0jfd5",
+    "description": "lunch",
+    "score": 0.9009320139884949,
+    "topicality": 0.9009320139884949
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.8775196671485901,
+    "topicality": 0.8775196671485901
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.7814560532569885,
+    "topicality": 0.7814560532569885
+  },
+  {
+    "mid": "/m/0hyyb",
+    "description": "supper",
+    "score": 0.7352314591407776,
+    "topicality": 0.7352314591407776
+  }
+]

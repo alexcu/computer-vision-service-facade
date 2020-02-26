@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03vcw7",
-      "description": "dairy cow",
-      "score": 0.9884327054023743,
-      "topicality": 0.9884327054023743
-    },
-    {
-      "mid": "/m/0jzz1",
-      "description": "bovine",
-      "score": 0.9757903814315796,
-      "topicality": 0.9757903814315796
-    },
-    {
-      "mid": "/m/0fktr",
-      "description": "dairy",
-      "score": 0.9535167217254639,
-      "topicality": 0.9535167217254639
-    },
-    {
-      "mid": "/m/01k050",
-      "description": "cow-goat family",
-      "score": 0.8175645470619202,
-      "topicality": 0.8175645470619202
-    },
-    {
-      "mid": "/m/04zpv",
-      "description": "milk",
-      "score": 0.795648455619812,
-      "topicality": 0.795648455619812
-    },
-    {
-      "mid": "/m/0ch8v",
-      "description": "livestock",
-      "score": 0.746468186378479,
-      "topicality": 0.746468186378479
-    },
-    {
-      "mid": "/m/0284d",
-      "description": "dairy",
-      "score": 0.6247290968894958,
-      "topicality": 0.6247290968894958
-    },
-    {
-      "mid": "/m/01qkg",
-      "description": "calf",
-      "score": 0.5783510804176331,
-      "topicality": 0.5783510804176331
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03vcw7",
+    "description": "dairy cow",
+    "score": 0.9884327054023743,
+    "topicality": 0.9884327054023743
+  },
+  {
+    "mid": "/m/0jzz1",
+    "description": "bovine",
+    "score": 0.9757903814315796,
+    "topicality": 0.9757903814315796
+  },
+  {
+    "mid": "/m/0fktr",
+    "description": "dairy",
+    "score": 0.9535167217254639,
+    "topicality": 0.9535167217254639
+  },
+  {
+    "mid": "/m/01k050",
+    "description": "cow-goat family",
+    "score": 0.8175645470619202,
+    "topicality": 0.8175645470619202
+  },
+  {
+    "mid": "/m/04zpv",
+    "description": "milk",
+    "score": 0.795648455619812,
+    "topicality": 0.795648455619812
+  },
+  {
+    "mid": "/m/0ch8v",
+    "description": "livestock",
+    "score": 0.746468186378479,
+    "topicality": 0.746468186378479
+  },
+  {
+    "mid": "/m/0284d",
+    "description": "dairy",
+    "score": 0.6247290968894958,
+    "topicality": 0.6247290968894958
+  },
+  {
+    "mid": "/m/01qkg",
+    "description": "calf",
+    "score": 0.5783510804176331,
+    "topicality": 0.5783510804176331
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/08rrcl",
-      "description": "water transportation",
-      "score": 0.9842864871025085,
-      "topicality": 0.9842864871025085
-    },
-    {
-      "mid": "/m/01cs_p",
-      "description": "marina",
-      "score": 0.9588862061500549,
-      "topicality": 0.9588862061500549
-    },
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.9378461837768555,
-      "topicality": 0.9378461837768555
-    },
-    {
-      "mid": "/m/03htg",
-      "description": "harbor",
-      "score": 0.9229698777198792,
-      "topicality": 0.9229698777198792
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9151052832603455,
-      "topicality": 0.9151052832603455
-    },
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.9041926264762878,
-      "topicality": 0.9041926264762878
-    },
-    {
-      "mid": "/m/03218s",
-      "description": "dock",
-      "score": 0.8849939107894897,
-      "topicality": 0.8849939107894897
-    },
-    {
-      "mid": "/m/0p1c1",
-      "description": "port",
-      "score": 0.8295989036560059,
-      "topicality": 0.8295989036560059
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.8073040843009949,
-      "topicality": 0.8073040843009949
-    },
-    {
-      "mid": "/m/01rzcn",
-      "description": "watercraft",
-      "score": 0.7685524821281433,
-      "topicality": 0.7685524821281433
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/08rrcl",
+    "description": "water transportation",
+    "score": 0.9842864871025085,
+    "topicality": 0.9842864871025085
+  },
+  {
+    "mid": "/m/01cs_p",
+    "description": "marina",
+    "score": 0.9588862061500549,
+    "topicality": 0.9588862061500549
+  },
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.9378461837768555,
+    "topicality": 0.9378461837768555
+  },
+  {
+    "mid": "/m/03htg",
+    "description": "harbor",
+    "score": 0.9229698777198792,
+    "topicality": 0.9229698777198792
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9151052832603455,
+    "topicality": 0.9151052832603455
+  },
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.9041926264762878,
+    "topicality": 0.9041926264762878
+  },
+  {
+    "mid": "/m/03218s",
+    "description": "dock",
+    "score": 0.8849939107894897,
+    "topicality": 0.8849939107894897
+  },
+  {
+    "mid": "/m/0p1c1",
+    "description": "port",
+    "score": 0.8295989036560059,
+    "topicality": 0.8295989036560059
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.8073040843009949,
+    "topicality": 0.8073040843009949
+  },
+  {
+    "mid": "/m/01rzcn",
+    "description": "watercraft",
+    "score": 0.7685524821281433,
+    "topicality": 0.7685524821281433
+  }
+]

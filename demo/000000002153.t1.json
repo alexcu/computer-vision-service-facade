@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02h664g",
-      "description": "baseball player",
-      "score": 0.9792278409004211,
-      "topicality": 0.9792278409004211
-    },
-    {
-      "mid": "/m/0bmgjqz",
-      "description": "sport venue",
-      "score": 0.9746333360671997,
-      "topicality": 0.9746333360671997
-    },
-    {
-      "mid": "/m/027zgtw",
-      "description": "bat and ball games",
-      "score": 0.9665083885192871,
-      "topicality": 0.9665083885192871
-    },
-    {
-      "mid": "/m/04xc_d",
-      "description": "college baseball",
-      "score": 0.9445465207099915,
-      "topicality": 0.9445465207099915
-    },
-    {
-      "mid": "/m/018kg",
-      "description": "baseball positions",
-      "score": 0.9414229989051819,
-      "topicality": 0.9414229989051819
-    },
-    {
-      "mid": "/m/02vzx9",
-      "description": "player",
-      "score": 0.9388123750686646,
-      "topicality": 0.9388123750686646
-    },
-    {
-      "mid": "/m/019cfy",
-      "description": "stadium",
-      "score": 0.9344280362129211,
-      "topicality": 0.9344280362129211
-    },
-    {
-      "mid": "/m/03v7tf",
-      "description": "baseball field",
-      "score": 0.933668315410614,
-      "topicality": 0.933668315410614
-    },
-    {
-      "mid": "/m/03bt1gh",
-      "description": "games",
-      "score": 0.9233850240707397,
-      "topicality": 0.9233850240707397
-    },
-    {
-      "mid": "/m/018jz",
-      "description": "baseball",
-      "score": 0.9198310971260071,
-      "topicality": 0.9198310971260071
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02h664g",
+    "description": "baseball player",
+    "score": 0.9792278409004211,
+    "topicality": 0.9792278409004211
+  },
+  {
+    "mid": "/m/0bmgjqz",
+    "description": "sport venue",
+    "score": 0.9746333360671997,
+    "topicality": 0.9746333360671997
+  },
+  {
+    "mid": "/m/027zgtw",
+    "description": "bat and ball games",
+    "score": 0.9665083885192871,
+    "topicality": 0.9665083885192871
+  },
+  {
+    "mid": "/m/04xc_d",
+    "description": "college baseball",
+    "score": 0.9445465207099915,
+    "topicality": 0.9445465207099915
+  },
+  {
+    "mid": "/m/018kg",
+    "description": "baseball positions",
+    "score": 0.9414229989051819,
+    "topicality": 0.9414229989051819
+  },
+  {
+    "mid": "/m/02vzx9",
+    "description": "player",
+    "score": 0.9388123750686646,
+    "topicality": 0.9388123750686646
+  },
+  {
+    "mid": "/m/019cfy",
+    "description": "stadium",
+    "score": 0.9344280362129211,
+    "topicality": 0.9344280362129211
+  },
+  {
+    "mid": "/m/03v7tf",
+    "description": "baseball field",
+    "score": 0.933668315410614,
+    "topicality": 0.933668315410614
+  },
+  {
+    "mid": "/m/03bt1gh",
+    "description": "games",
+    "score": 0.9233850240707397,
+    "topicality": 0.9233850240707397
+  },
+  {
+    "mid": "/m/018jz",
+    "description": "baseball",
+    "score": 0.9198310971260071,
+    "topicality": 0.9198310971260071
+  }
+]

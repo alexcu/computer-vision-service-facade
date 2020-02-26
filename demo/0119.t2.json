@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9093363285064697,
-      "topicality": 0.9093363285064697
-    },
-    {
-      "mid": "/m/05wrt",
-      "description": "property",
-      "score": 0.8992060422897339,
-      "topicality": 0.8992060422897339
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8832325339317322,
-      "topicality": 0.8832325339317322
-    },
-    {
-      "mid": "/m/020ys5",
-      "description": "condominium",
-      "score": 0.8428938388824463,
-      "topicality": 0.8428938388824463
-    },
-    {
-      "mid": "/m/02nfxt",
-      "description": "residential area",
-      "score": 0.8394526243209839,
-      "topicality": 0.8394526243209839
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.8390477299690247,
-      "topicality": 0.8390477299690247
-    },
-    {
-      "mid": "/m/01nblt",
-      "description": "apartment",
-      "score": 0.8369650840759277,
-      "topicality": 0.8369650840759277
-    },
-    {
-      "mid": "/m/0vlys",
-      "description": "tower block",
-      "score": 0.7803152203559875,
-      "topicality": 0.7803152203559875
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.7497134804725647,
-      "topicality": 0.7497134804725647
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9093363285064697,
+    "topicality": 0.9093363285064697
+  },
+  {
+    "mid": "/m/05wrt",
+    "description": "property",
+    "score": 0.8992060422897339,
+    "topicality": 0.8992060422897339
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8832325339317322,
+    "topicality": 0.8832325339317322
+  },
+  {
+    "mid": "/m/020ys5",
+    "description": "condominium",
+    "score": 0.8428938388824463,
+    "topicality": 0.8428938388824463
+  },
+  {
+    "mid": "/m/02nfxt",
+    "description": "residential area",
+    "score": 0.8394526243209839,
+    "topicality": 0.8394526243209839
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.8390477299690247,
+    "topicality": 0.8390477299690247
+  },
+  {
+    "mid": "/m/01nblt",
+    "description": "apartment",
+    "score": 0.8369650840759277,
+    "topicality": 0.8369650840759277
+  },
+  {
+    "mid": "/m/0vlys",
+    "description": "tower block",
+    "score": 0.7803152203559875,
+    "topicality": 0.7803152203559875
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.7497134804725647,
+    "topicality": 0.7497134804725647
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  }
+]

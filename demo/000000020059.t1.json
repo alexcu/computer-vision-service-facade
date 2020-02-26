@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9525473117828369,
-      "topicality": 0.9525473117828369
-    },
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.8985682725906372,
-      "topicality": 0.8985682725906372
-    },
-    {
-      "mid": "/m/089v3",
-      "description": "zoo",
-      "score": 0.8848510384559631,
-      "topicality": 0.8848510384559631
-    },
-    {
-      "mid": "/m/0898b",
-      "description": "zebra",
-      "score": 0.8628432750701904,
-      "topicality": 0.8628432750701904
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8067271709442139,
-      "topicality": 0.8067271709442139
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.7786660194396973,
-      "topicality": 0.7786660194396973
-    },
-    {
-      "mid": "/m/05gz5",
-      "description": "national park",
-      "score": 0.6735128164291382,
-      "topicality": 0.6735128164291382
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6021544337272644,
-      "topicality": 0.6021544337272644
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.5847087502479553,
-      "topicality": 0.5847087502479553
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.5844087600708008,
-      "topicality": 0.5844087600708008
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9525473117828369,
+    "topicality": 0.9525473117828369
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.9173509335071637,
+    "topicality": 0.9173509335071637
+  },
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.8985682725906372,
+    "topicality": 0.8985682725906372
+  },
+  {
+    "mid": "/m/089v3",
+    "description": "zoo",
+    "score": 0.8848510384559631,
+    "topicality": 0.8848510384559631
+  },
+  {
+    "mid": "/m/0898b",
+    "description": "zebra",
+    "score": 0.8628432750701904,
+    "topicality": 0.8628432750701904
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8067271709442139,
+    "topicality": 0.8067271709442139
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.7786660194396973,
+    "topicality": 0.7786660194396973
+  },
+  {
+    "mid": "/m/05gz5",
+    "description": "national park",
+    "score": 0.6735128164291382,
+    "topicality": 0.6735128164291382
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6021544337272644,
+    "topicality": 0.6021544337272644
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.5847087502479553,
+    "topicality": 0.5847087502479553
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.5844087600708008,
+    "topicality": 0.5844087600708008
+  }
+]

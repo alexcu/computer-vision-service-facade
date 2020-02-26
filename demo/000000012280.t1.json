@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.8519386053085327,
-      "topicality": 0.8519386053085327
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.7334566116333008,
-      "topicality": 0.7334566116333008
-    },
-    {
-      "mid": "/m/039jq",
-      "description": "glass",
-      "score": 0.6785874366760254,
-      "topicality": 0.6785874366760254
-    },
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.518825888633728,
-      "topicality": 0.518825888633728
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.8519386053085327,
+    "topicality": 0.8519386053085327
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.7334566116333008,
+    "topicality": 0.7334566116333008
+  },
+  {
+    "mid": "/m/039jq",
+    "description": "glass",
+    "score": 0.6785874366760254,
+    "topicality": 0.6785874366760254
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.518825888633728,
+    "topicality": 0.518825888633728
+  }
+]

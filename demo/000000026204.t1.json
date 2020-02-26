@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.9865351915359497,
-      "topicality": 0.9865351915359497
-    },
-    {
-      "mid": "/m/01prls",
-      "description": "land vehicle",
-      "score": 0.97206711769104,
-      "topicality": 0.97206711769104
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9606019854545593,
-      "topicality": 0.9606019854545593
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9474323987960815,
-      "topicality": 0.9474323987960815
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9305102825164795,
-      "topicality": 0.9305102825164795
-    },
-    {
-      "mid": "/m/01lcwm",
-      "description": "luxury vehicle",
-      "score": 0.9233953952789307,
-      "topicality": 0.9233953952789307
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9167540073394775,
-      "topicality": 0.9167540073394775
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.8859145045280457,
-      "topicality": 0.8859145045280457
-    },
-    {
-      "mid": "/m/088l6h",
-      "description": "family car",
-      "score": 0.8755436539649963,
-      "topicality": 0.8755436539649963
-    },
-    {
-      "mid": "/m/033j3c",
-      "description": "lane",
-      "score": 0.8685109615325928,
-      "topicality": 0.8685109615325928
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.9865351915359497,
+    "topicality": 0.9865351915359497
+  },
+  {
+    "mid": "/m/01prls",
+    "description": "land vehicle",
+    "score": 0.97206711769104,
+    "topicality": 0.97206711769104
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9606019854545593,
+    "topicality": 0.9606019854545593
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9474323987960815,
+    "topicality": 0.9474323987960815
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9305102825164795,
+    "topicality": 0.9305102825164795
+  },
+  {
+    "mid": "/m/01lcwm",
+    "description": "luxury vehicle",
+    "score": 0.9233953952789307,
+    "topicality": 0.9233953952789307
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9167540073394775,
+    "topicality": 0.9167540073394775
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.8859145045280457,
+    "topicality": 0.8859145045280457
+  },
+  {
+    "mid": "/m/088l6h",
+    "description": "family car",
+    "score": 0.8755436539649963,
+    "topicality": 0.8755436539649963
+  },
+  {
+    "mid": "/m/033j3c",
+    "description": "lane",
+    "score": 0.8685109615325928,
+    "topicality": 0.8685109615325928
+  }
+]

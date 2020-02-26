@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9512578248977661,
-      "topicality": 0.9512578248977661
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.893493115901947,
-      "topicality": 0.893493115901947
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.862245500087738,
-      "topicality": 0.862245500087738
-    },
-    {
-      "mid": "/m/05t0z3q",
-      "description": "bank",
-      "score": 0.8366542458534241,
-      "topicality": 0.8366542458534241
-    },
-    {
-      "mid": "/m/02fm9k",
-      "description": "shore",
-      "score": 0.8172381520271301,
-      "topicality": 0.8172381520271301
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.8095865249633789,
-      "topicality": 0.8095865249633789
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.7806442975997925,
-      "topicality": 0.7806442975997925
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7469744682312012,
-      "topicality": 0.7469744682312012
-    },
-    {
-      "mid": "/m/0b3yr",
-      "description": "beach",
-      "score": 0.7410687804222107,
-      "topicality": 0.7410687804222107
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.7390329241752625,
-      "topicality": 0.7390329241752625
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9512578248977661,
+    "topicality": 0.9512578248977661
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.893493115901947,
+    "topicality": 0.893493115901947
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.862245500087738,
+    "topicality": 0.862245500087738
+  },
+  {
+    "mid": "/m/05t0z3q",
+    "description": "bank",
+    "score": 0.8366542458534241,
+    "topicality": 0.8366542458534241
+  },
+  {
+    "mid": "/m/02fm9k",
+    "description": "shore",
+    "score": 0.8172381520271301,
+    "topicality": 0.8172381520271301
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.8095865249633789,
+    "topicality": 0.8095865249633789
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.7806442975997925,
+    "topicality": 0.7806442975997925
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7469744682312012,
+    "topicality": 0.7469744682312012
+  },
+  {
+    "mid": "/m/0b3yr",
+    "description": "beach",
+    "score": 0.7410687804222107,
+    "topicality": 0.7410687804222107
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.7390329241752625,
+    "topicality": 0.7390329241752625
+  }
+]

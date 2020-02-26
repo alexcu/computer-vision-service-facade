@@ -156,15 +156,26 @@ get '/benchmark/:id' do
 end
 
 patch '/benchmark/:id' do
-  # TODO: Set is_benchmarking to true to force the benchmark to reevaluate...
+  # Set is_benchmarking to true to force the benchmark to reevaluate...
   # Else, endpoint is ignored
-  id = params[:id].to_i
+  id = params['id'].to_i
   check_brc_id(id, store)
   brc = store[id]
 
   brc.trigger_benchmark if params[:is_benchmarking] && !brc.benchmarking?
 
   status 202
+  response = {
+    id: id,
+    service: brc.service.name,
+    current_key_id: brc.current_key ? brc.current_key.id : nil,
+    is_benchmarking: brc.benchmarking?
+  }
+  if brc.service == ICVSB::Service::DEMO && params[:flip_demo_timestamp]
+    brc.flip_demo_timestamp
+    response[:timestamp] = brc.demo_timestamp
+  end
+  response.to_json
 end
 
 # Gets all auxillary information about this key's benchmark
@@ -217,11 +228,11 @@ get '/benchmark/:id/log' do
 end
 
 post '/callbacks/benchmark' do
-
+  "Acknowledged benchmark completion with params: '#{params}'..."
 end
 
 post '/callbacks/warning' do
-
+  "Acknowledged benchmark warning params: '#{params}'..."
 end
 
 # Labels resources against the provided uri. This is a conditional HTTP request.
@@ -318,7 +329,6 @@ get '/labels' do
     brc = store[benchmark_id]
     bk = nil
 
-    puts 1
 
     # Check if we have a key; if no key we must have a If-Unmodified-Since.
     if benchmark_key_id.nil? && if_unmodified_since.empty?
@@ -341,47 +351,31 @@ get '/labels' do
       halt! 412, "No compatible behaviour token found unmodified since #{if_unmodified_since_date}." if bk.nil?
     end
 
-    puts 2
-
     # Process...
     result = brc.send_uri_with_key(image_uri, bk)
-
-    puts 3
 
     # Set HTTP status+body as appropriate if there is no more ETags or if
     # this was a successful response (i.e., no errors so don't keep trying other
     # ETags...)
     error = result.key?(:key_error) || result.key?(:response_error) || result.key?(:service_error)
-    puts 4
-    puts etag.inspect, etags.inspect
-    puts etag == etags.last || !error
-    puts !error
-    puts "***"
     if [etag] == etags.last || !error
-      puts 5
       if result[:key_error] || result[:response_error]
-        puts 6
         status 412
         content_type 'text/plain'
-        relay_body = result[:key_error] ? result[:key_error] : result[:response_error]
-        puts "RELAY BODY SET TO #{result[:key_error] ? result[:key_error] : result[:response_error]}"
+        relay_body = result[:key_error] || result[:response_error]
       elsif result[:service_error]
-        puts 7
         status 422
         content_type 'text/plain'
         relay_body = result[:service_error]
       else
-        puts 8
         content_type 'application/json;charset=utf-8'
         unless result[:cached].nil?
           age_sec = ((DateTime.now - result[:cached]) * 24 * 60 * 60).to_i.to_s
           headers 'Age' => age_sec
         end
-        puts 9
         status 200
         relay_body = result[:response].to_json
       end
-      puts 10
       relay_etag = etag
       relay_last_modified = brc.current_key.nil? ? brc.created_at.httpdate : brc.current_key.created_at.httpdate
       relay_expires = brc.next_scheduled_benchmark_time.httpdate
@@ -431,7 +425,6 @@ get '/demo/data/:id.*' do |_, ext|
   unless File.exist?(File.join(settings.demo_folder, image_id + '.jpg'))
     halt! 400, "No such image with id '#{image_id}' exists in the demo database."
   end
-  puts ext
   unless %w[jpg jpeg json].include?(ext)
     halt! 400, 'Invalid file extension. Suffix with .jp[e]g or .t1.json or .t2.json.'
   end
@@ -441,7 +434,6 @@ get '/demo/data/:id.*' do |_, ext|
     content_type 'image/jpeg'
   else
     content_type 'application/json;charset=utf-8'
-    puts time_id
     halt! 400, 'Missing time id (.t1 or .t2).' if time_id.empty? || !%w[t1 t2].include?(time_id)
     image_id += '.' + time_id
   end

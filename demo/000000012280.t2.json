@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8104214668273926,
-      "topicality": 0.8104214668273926
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8042545914649963,
-      "topicality": 0.8042545914649963
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.7938456535339355,
-      "topicality": 0.7938456535339355
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.654179573059082,
-      "topicality": 0.654179573059082
-    },
-    {
-      "mid": "/m/021w6f",
-      "description": "tile",
-      "score": 0.6087659001350403,
-      "topicality": 0.6087659001350403
-    },
-    {
-      "mid": "/m/02dgv",
-      "description": "door",
-      "score": 0.6034024357795715,
-      "topicality": 0.6034024357795715
-    },
-    {
-      "mid": "/m/039jq",
-      "description": "glass",
-      "score": 0.5861915946006775,
-      "topicality": 0.5861915946006775
-    },
-    {
-      "mid": "/m/01mxf",
-      "description": "concrete",
-      "score": 0.523566484451294,
-      "topicality": 0.523566484451294
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8104214668273926,
+    "topicality": 0.8104214668273926
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8042545914649963,
+    "topicality": 0.8042545914649963
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.7938456535339355,
+    "topicality": 0.7938456535339355
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.654179573059082,
+    "topicality": 0.654179573059082
+  },
+  {
+    "mid": "/m/021w6f",
+    "description": "tile",
+    "score": 0.6087659001350403,
+    "topicality": 0.6087659001350403
+  },
+  {
+    "mid": "/m/02dgv",
+    "description": "door",
+    "score": 0.6034024357795715,
+    "topicality": 0.6034024357795715
+  },
+  {
+    "mid": "/m/039jq",
+    "description": "glass",
+    "score": 0.5861915946006775,
+    "topicality": 0.5861915946006775
+  },
+  {
+    "mid": "/m/01mxf",
+    "description": "concrete",
+    "score": 0.523566484451294,
+    "topicality": 0.523566484451294
+  }
+]

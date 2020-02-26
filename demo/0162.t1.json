@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0n68_",
-      "description": "structure",
-      "score": 0.8203992247581482,
-      "topicality": 0.8203992247581482
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.7002209424972534,
-      "topicality": 0.7002209424972534
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.6782872676849365,
-      "topicality": 0.6782872676849365
-    },
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.6702590584754944,
-      "topicality": 0.6702590584754944
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.5778811573982239,
-      "topicality": 0.5778811573982239
-    },
-    {
-      "mid": "/m/039jq",
-      "description": "glass",
-      "score": 0.5270217061042786,
-      "topicality": 0.5270217061042786
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0n68_",
+    "description": "structure",
+    "score": 0.8203992247581482,
+    "topicality": 0.8203992247581482
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.7002209424972534,
+    "topicality": 0.7002209424972534
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.6782872676849365,
+    "topicality": 0.6782872676849365
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.6702590584754944,
+    "topicality": 0.6702590584754944
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.5778811573982239,
+    "topicality": 0.5778811573982239
+  },
+  {
+    "mid": "/m/039jq",
+    "description": "glass",
+    "score": 0.5270217061042786,
+    "topicality": 0.5270217061042786
+  }
+]

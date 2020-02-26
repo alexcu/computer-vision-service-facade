@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.8905615210533142,
-      "topicality": 0.8905615210533142
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.87864089012146,
-      "topicality": 0.87864089012146
-    },
-    {
-      "mid": "/m/02zh30",
-      "description": "path",
-      "score": 0.8107646703720093,
-      "topicality": 0.8107646703720093
-    },
-    {
-      "mid": "/m/0hm03",
-      "description": "trail",
-      "score": 0.7830985188484192,
-      "topicality": 0.7830985188484192
-    },
-    {
-      "mid": "/m/0h_m",
-      "description": "adventure",
-      "score": 0.7701663970947266,
-      "topicality": 0.7701663970947266
-    },
-    {
-      "mid": "/m/0d4djn",
-      "description": "dog hiking",
-      "score": 0.7396261096000671,
-      "topicality": 0.7396261096000671
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6955165863037109,
-      "topicality": 0.6955165863037109
-    },
-    {
-      "mid": "/m/0464z4",
-      "description": "pack animal",
-      "score": 0.6841222643852234,
-      "topicality": 0.6841222643852234
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.5794873237609863,
-      "topicality": 0.5794873237609863
-    },
-    {
-      "mid": "/m/083mg",
-      "description": "walking",
-      "score": 0.5649514198303223,
-      "topicality": 0.5649514198303223
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.8905615210533142,
+    "topicality": 0.8905615210533142
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.87864089012146,
+    "topicality": 0.87864089012146
+  },
+  {
+    "mid": "/m/02zh30",
+    "description": "path",
+    "score": 0.8107646703720093,
+    "topicality": 0.8107646703720093
+  },
+  {
+    "mid": "/m/0hm03",
+    "description": "trail",
+    "score": 0.7830985188484192,
+    "topicality": 0.7830985188484192
+  },
+  {
+    "mid": "/m/0h_m",
+    "description": "adventure",
+    "score": 0.7701663970947266,
+    "topicality": 0.7701663970947266
+  },
+  {
+    "mid": "/m/0d4djn",
+    "description": "dog hiking",
+    "score": 0.7396261096000671,
+    "topicality": 0.7396261096000671
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6955165863037109,
+    "topicality": 0.6955165863037109
+  },
+  {
+    "mid": "/m/0464z4",
+    "description": "pack animal",
+    "score": 0.6841222643852234,
+    "topicality": 0.6841222643852234
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.5794873237609863,
+    "topicality": 0.5794873237609863
+  },
+  {
+    "mid": "/m/083mg",
+    "description": "walking",
+    "score": 0.5649514198303223,
+    "topicality": 0.5649514198303223
+  }
+]

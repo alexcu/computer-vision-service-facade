@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8962741494178772,
-      "topicality": 0.8962741494178772
-    },
-    {
-      "mid": "/m/05wrt",
-      "description": "property",
-      "score": 0.8799220323562622,
-      "topicality": 0.8799220323562622
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.878182053565979,
-      "topicality": 0.878182053565979
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.8727861046791077,
-      "topicality": 0.8727861046791077
-    },
-    {
-      "mid": "/m/0bl0l",
-      "description": "garden",
-      "score": 0.8460177183151245,
-      "topicality": 0.8460177183151245
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.7575271725654602,
-      "topicality": 0.7575271725654602
-    },
-    {
-      "mid": "/m/03bmqb",
-      "description": "flora",
-      "score": 0.7538267970085144,
-      "topicality": 0.7538267970085144
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.6950024366378784,
-      "topicality": 0.6950024366378784
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.6811172366142273,
-      "topicality": 0.6811172366142273
-    },
-    {
-      "mid": "/m/038t8_",
-      "description": "estate",
-      "score": 0.6716068983078003,
-      "topicality": 0.6716068983078003
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8962741494178772,
+    "topicality": 0.8962741494178772
+  },
+  {
+    "mid": "/m/05wrt",
+    "description": "property",
+    "score": 0.8799220323562622,
+    "topicality": 0.8799220323562622
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.878182053565979,
+    "topicality": 0.878182053565979
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.8727861046791077,
+    "topicality": 0.8727861046791077
+  },
+  {
+    "mid": "/m/0bl0l",
+    "description": "garden",
+    "score": 0.8460177183151245,
+    "topicality": 0.8460177183151245
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.7575271725654602,
+    "topicality": 0.7575271725654602
+  },
+  {
+    "mid": "/m/03bmqb",
+    "description": "flora",
+    "score": 0.7538267970085144,
+    "topicality": 0.7538267970085144
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.6950024366378784,
+    "topicality": 0.6950024366378784
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.6811172366142273,
+    "topicality": 0.6811172366142273
+  },
+  {
+    "mid": "/m/038t8_",
+    "description": "estate",
+    "score": 0.6716068983078003,
+    "topicality": 0.6716068983078003
+  }
+]

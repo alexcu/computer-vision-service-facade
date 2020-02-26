@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.9522453546524048,
-      "topicality": 0.9522453546524048
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9518349766731262,
-      "topicality": 0.9518349766731262
-    },
-    {
-      "mid": "/m/01w5c_",
-      "description": "aerial photography",
-      "score": 0.9518133401870728,
-      "topicality": 0.9518133401870728
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9498654007911682,
-      "topicality": 0.9498654007911682
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.9434581398963928,
-      "topicality": 0.9434581398963928
-    },
-    {
-      "mid": "/m/08863x",
-      "description": "bird's eye view",
-      "score": 0.9342584013938904,
-      "topicality": 0.9342584013938904
-    },
-    {
-      "mid": "/m/0750y",
-      "description": "suburb",
-      "score": 0.8932453989982605,
-      "topicality": 0.8932453989982605
-    },
-    {
-      "mid": "/m/02q7ylj",
-      "description": "daytime",
-      "score": 0.8528432846069336,
-      "topicality": 0.8528432846069336
-    },
-    {
-      "mid": "/m/0d1n2",
-      "description": "horizon",
-      "score": 0.8487459421157837,
-      "topicality": 0.8487459421157837
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.8405594825744629,
-      "topicality": 0.8405594825744629
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.9522453546524048,
+    "topicality": 0.9522453546524048
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9518349766731262,
+    "topicality": 0.9518349766731262
+  },
+  {
+    "mid": "/m/01w5c_",
+    "description": "aerial photography",
+    "score": 0.9518133401870728,
+    "topicality": 0.9518133401870728
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9498654007911682,
+    "topicality": 0.9498654007911682
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.9434581398963928,
+    "topicality": 0.9434581398963928
+  },
+  {
+    "mid": "/m/08863x",
+    "description": "bird's eye view",
+    "score": 0.9342584013938904,
+    "topicality": 0.9342584013938904
+  },
+  {
+    "mid": "/m/0750y",
+    "description": "suburb",
+    "score": 0.8932453989982605,
+    "topicality": 0.8932453989982605
+  },
+  {
+    "mid": "/m/02q7ylj",
+    "description": "daytime",
+    "score": 0.8528432846069336,
+    "topicality": 0.8528432846069336
+  },
+  {
+    "mid": "/m/0d1n2",
+    "description": "horizon",
+    "score": 0.8487459421157837,
+    "topicality": 0.8487459421157837
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.8405594825744629,
+    "topicality": 0.8405594825744629
+  }
+]

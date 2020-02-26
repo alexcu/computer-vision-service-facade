@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.7039542198181152,
-      "topicality": 0.7039542198181152
-    },
-    {
-      "mid": "/m/09dv7",
-      "description": "soil",
-      "score": 0.6776648163795471,
-      "topicality": 0.6776648163795471
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.5778928399085999,
-      "topicality": 0.5778928399085999
-    },
-    {
-      "mid": "/m/0hkf",
-      "description": "agriculture",
-      "score": 0.5098994970321655,
-      "topicality": 0.5098994970321655
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.7039542198181152,
+    "topicality": 0.7039542198181152
+  },
+  {
+    "mid": "/m/09dv7",
+    "description": "soil",
+    "score": 0.6776648163795471,
+    "topicality": 0.6776648163795471
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.5778928399085999,
+    "topicality": 0.5778928399085999
+  },
+  {
+    "mid": "/m/0hkf",
+    "description": "agriculture",
+    "score": 0.5098994970321655,
+    "topicality": 0.5098994970321655
+  }
+]

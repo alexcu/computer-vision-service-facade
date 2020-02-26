@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.9522140622138977,
-      "topicality": 0.9522140622138977
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9520909190177917,
-      "topicality": 0.9520909190177917
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.9352868795394897,
-      "topicality": 0.9352868795394897
-    },
-    {
-      "mid": "/m/034z7h",
-      "description": "cityscape",
-      "score": 0.9128110408782959,
-      "topicality": 0.9128110408782959
-    },
-    {
-      "mid": "/m/0fpdgl",
-      "description": "human settlement",
-      "score": 0.893509030342102,
-      "topicality": 0.893509030342102
-    },
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.8913570046424866,
-      "topicality": 0.8913570046424866
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.8908006548881531,
-      "topicality": 0.8908006548881531
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8220894932746887,
-      "topicality": 0.8220894932746887
-    },
-    {
-      "mid": "/m/08863x",
-      "description": "bird's-eye view",
-      "score": 0.8104705214500427,
-      "topicality": 0.8104705214500427
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.804541289806366,
-      "topicality": 0.804541289806366
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.9522140622138977,
+    "topicality": 0.9522140622138977
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9520909190177917,
+    "topicality": 0.9520909190177917
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.9352868795394897,
+    "topicality": 0.9352868795394897
+  },
+  {
+    "mid": "/m/034z7h",
+    "description": "cityscape",
+    "score": 0.9128110408782959,
+    "topicality": 0.9128110408782959
+  },
+  {
+    "mid": "/m/0fpdgl",
+    "description": "human settlement",
+    "score": 0.893509030342102,
+    "topicality": 0.893509030342102
+  },
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.8913570046424866,
+    "topicality": 0.8913570046424866
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.8908006548881531,
+    "topicality": 0.8908006548881531
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8220894932746887,
+    "topicality": 0.8220894932746887
+  },
+  {
+    "mid": "/m/08863x",
+    "description": "bird's-eye view",
+    "score": 0.8104705214500427,
+    "topicality": 0.8104705214500427
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.804541289806366,
+    "topicality": 0.804541289806366
+  }
+]

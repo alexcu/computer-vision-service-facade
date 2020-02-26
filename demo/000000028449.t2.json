@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9930020570755005,
-      "topicality": 0.9930020570755005
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9890478253364563,
-      "topicality": 0.9890478253364563
-    },
-    {
-      "mid": "/m/09686",
-      "description": "vertebrate",
-      "score": 0.9851104021072388,
-      "topicality": 0.9851104021072388
-    },
-    {
-      "mid": "/m/07kbbhf",
-      "description": "elephants and mammoths",
-      "score": 0.9836908578872681,
-      "topicality": 0.9836908578872681
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9815188646316528,
-      "topicality": 0.9815188646316528
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9643703699111938,
-      "topicality": 0.9643703699111938
-    },
-    {
-      "mid": "/m/04_r5c",
-      "description": "african elephant",
-      "score": 0.942085325717926,
-      "topicality": 0.942085325717926
-    },
-    {
-      "mid": "/m/0dflpy",
-      "description": "indian elephant",
-      "score": 0.9312528371810913,
-      "topicality": 0.9312528371810913
-    },
-    {
-      "mid": "/m/0199b0",
-      "description": "safari",
-      "score": 0.8774926662445068,
-      "topicality": 0.8774926662445068
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.8745309114456177,
-      "topicality": 0.8745309114456177
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9930020570755005,
+    "topicality": 0.9930020570755005
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9890478253364563,
+    "topicality": 0.9890478253364563
+  },
+  {
+    "mid": "/m/09686",
+    "description": "vertebrate",
+    "score": 0.9851104021072388,
+    "topicality": 0.9851104021072388
+  },
+  {
+    "mid": "/m/07kbbhf",
+    "description": "elephants and mammoths",
+    "score": 0.9836908578872681,
+    "topicality": 0.9836908578872681
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9815188646316528,
+    "topicality": 0.9815188646316528
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9643703699111938,
+    "topicality": 0.9643703699111938
+  },
+  {
+    "mid": "/m/04_r5c",
+    "description": "african elephant",
+    "score": 0.942085325717926,
+    "topicality": 0.942085325717926
+  },
+  {
+    "mid": "/m/0dflpy",
+    "description": "indian elephant",
+    "score": 0.9312528371810913,
+    "topicality": 0.9312528371810913
+  },
+  {
+    "mid": "/m/0199b0",
+    "description": "safari",
+    "score": 0.8774926662445068,
+    "topicality": 0.8774926662445068
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.8745309114456177,
+    "topicality": 0.8745309114456177
+  }
+]

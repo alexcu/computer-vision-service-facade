@@ -1,10 +1,8 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/030zlf",
-      "description": "colorfulness",
-      "score": 0.6783446073532104,
-      "topicality": 0.6783446073532104
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/030zlf",
+    "description": "colorfulness",
+    "score": 0.6783446073532104,
+    "topicality": 0.6783446073532104
+  }
+]

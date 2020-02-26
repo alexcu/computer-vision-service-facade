@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9529381394386292,
-      "topicality": 0.9529381394386292
-    },
-    {
-      "mid": "/m/0bq66hh",
-      "description": "surfing equipment and supplies",
-      "score": 0.9406693577766418,
-      "topicality": 0.9406693577766418
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.9269827008247375,
-      "topicality": 0.9269827008247375
-    },
-    {
-      "mid": "/m/02c9_23",
-      "description": "coastal and oceanic landforms",
-      "score": 0.9122822880744934,
-      "topicality": 0.9122822880744934
-    },
-    {
-      "mid": "/m/02p0sll",
-      "description": "wave",
-      "score": 0.8989775776863098,
-      "topicality": 0.8989775776863098
-    },
-    {
-      "mid": "/m/01g6gs",
-      "description": "black and white",
-      "score": 0.8852142691612244,
-      "topicality": 0.8852142691612244
-    },
-    {
-      "mid": "/m/02fm9k",
-      "description": "shore",
-      "score": 0.8693354725837708,
-      "topicality": 0.8693354725837708
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.865038275718689,
-      "topicality": 0.865038275718689
-    },
-    {
-      "mid": "/m/09qkx",
-      "description": "boardsport",
-      "score": 0.8638879656791687,
-      "topicality": 0.8638879656791687
-    },
-    {
-      "mid": "/m/019w40",
-      "description": "surfboard",
-      "score": 0.8568027019500732,
-      "topicality": 0.8568027019500732
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9529381394386292,
+    "topicality": 0.9529381394386292
+  },
+  {
+    "mid": "/m/0bq66hh",
+    "description": "surfing equipment and supplies",
+    "score": 0.9406693577766418,
+    "topicality": 0.9406693577766418
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.9269827008247375,
+    "topicality": 0.9269827008247375
+  },
+  {
+    "mid": "/m/02c9_23",
+    "description": "coastal and oceanic landforms",
+    "score": 0.9122822880744934,
+    "topicality": 0.9122822880744934
+  },
+  {
+    "mid": "/m/02p0sll",
+    "description": "wave",
+    "score": 0.8989775776863098,
+    "topicality": 0.8989775776863098
+  },
+  {
+    "mid": "/m/01g6gs",
+    "description": "black and white",
+    "score": 0.8852142691612244,
+    "topicality": 0.8852142691612244
+  },
+  {
+    "mid": "/m/02fm9k",
+    "description": "shore",
+    "score": 0.8693354725837708,
+    "topicality": 0.8693354725837708
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.865038275718689,
+    "topicality": 0.865038275718689
+  },
+  {
+    "mid": "/m/09qkx",
+    "description": "boardsport",
+    "score": 0.8638879656791687,
+    "topicality": 0.8638879656791687
+  },
+  {
+    "mid": "/m/019w40",
+    "description": "surfboard",
+    "score": 0.8568027019500732,
+    "topicality": 0.8568027019500732
+  }
+]

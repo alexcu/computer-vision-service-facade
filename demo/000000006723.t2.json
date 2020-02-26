@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02nfxt",
-      "description": "residential area",
-      "score": 0.9851951599121094,
-      "topicality": 0.9851951599121094
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.9632881283760071,
-      "topicality": 0.9632881283760071
-    },
-    {
-      "mid": "/m/033j3c",
-      "description": "lane",
-      "score": 0.9619672894477844,
-      "topicality": 0.9619672894477844
-    },
-    {
-      "mid": "/m/0180xr",
-      "description": "neighbourhood",
-      "score": 0.9599767923355103,
-      "topicality": 0.9599767923355103
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.9260943531990051,
-      "topicality": 0.9260943531990051
-    },
-    {
-      "mid": "/m/05wrt",
-      "description": "property",
-      "score": 0.9195656776428223,
-      "topicality": 0.9195656776428223
-    },
-    {
-      "mid": "/m/0750y",
-      "description": "suburb",
-      "score": 0.907917857170105,
-      "topicality": 0.907917857170105
-    },
-    {
-      "mid": "/m/0bm8qyq",
-      "description": "thoroughfare",
-      "score": 0.891650378704071,
-      "topicality": 0.891650378704071
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.8875318765640259,
-      "topicality": 0.8875318765640259
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.8571352362632751,
-      "topicality": 0.8571352362632751
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02nfxt",
+    "description": "residential area",
+    "score": 0.9851951599121094,
+    "topicality": 0.9851951599121094
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.9632881283760071,
+    "topicality": 0.9632881283760071
+  },
+  {
+    "mid": "/m/033j3c",
+    "description": "lane",
+    "score": 0.9619672894477844,
+    "topicality": 0.9619672894477844
+  },
+  {
+    "mid": "/m/0180xr",
+    "description": "neighbourhood",
+    "score": 0.9599767923355103,
+    "topicality": 0.9599767923355103
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.9260943531990051,
+    "topicality": 0.9260943531990051
+  },
+  {
+    "mid": "/m/05wrt",
+    "description": "property",
+    "score": 0.9195656776428223,
+    "topicality": 0.9195656776428223
+  },
+  {
+    "mid": "/m/0750y",
+    "description": "suburb",
+    "score": 0.907917857170105,
+    "topicality": 0.907917857170105
+  },
+  {
+    "mid": "/m/0bm8qyq",
+    "description": "thoroughfare",
+    "score": 0.891650378704071,
+    "topicality": 0.891650378704071
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.8875318765640259,
+    "topicality": 0.8875318765640259
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.8571352362632751,
+    "topicality": 0.8571352362632751
+  }
+]

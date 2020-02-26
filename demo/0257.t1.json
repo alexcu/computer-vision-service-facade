@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9728923439979553,
-      "topicality": 0.9728923439979553
-    },
-    {
-      "mid": "/m/02zr8",
-      "description": "forest",
-      "score": 0.9550902843475342,
-      "topicality": 0.9550902843475342
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9523278474807739,
-      "topicality": 0.9523278474807739
-    },
-    {
-      "mid": "/m/042g2h",
-      "description": "old growth forest",
-      "score": 0.9431003332138062,
-      "topicality": 0.9431003332138062
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.942805826663971,
-      "topicality": 0.942805826663971
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9396469593048096,
-      "topicality": 0.9396469593048096
-    },
-    {
-      "mid": "/m/02mhj",
-      "description": "ecosystem",
-      "score": 0.934663712978363,
-      "topicality": 0.934663712978363
-    },
-    {
-      "mid": "/m/0d8cn",
-      "description": "rainforest",
-      "score": 0.9194308519363403,
-      "topicality": 0.9194308519363403
-    },
-    {
-      "mid": "/m/01cv9m",
-      "description": "tropical and subtropical coniferous forests",
-      "score": 0.9110589623451233,
-      "topicality": 0.9110589623451233
-    },
-    {
-      "mid": "/m/01y3fy",
-      "description": "jungle",
-      "score": 0.8874639272689819,
-      "topicality": 0.8874639272689819
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9728923439979553,
+    "topicality": 0.9728923439979553
+  },
+  {
+    "mid": "/m/02zr8",
+    "description": "forest",
+    "score": 0.9550902843475342,
+    "topicality": 0.9550902843475342
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9523278474807739,
+    "topicality": 0.9523278474807739
+  },
+  {
+    "mid": "/m/042g2h",
+    "description": "old growth forest",
+    "score": 0.9431003332138062,
+    "topicality": 0.9431003332138062
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.942805826663971,
+    "topicality": 0.942805826663971
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9396469593048096,
+    "topicality": 0.9396469593048096
+  },
+  {
+    "mid": "/m/02mhj",
+    "description": "ecosystem",
+    "score": 0.934663712978363,
+    "topicality": 0.934663712978363
+  },
+  {
+    "mid": "/m/0d8cn",
+    "description": "rainforest",
+    "score": 0.9194308519363403,
+    "topicality": 0.9194308519363403
+  },
+  {
+    "mid": "/m/01cv9m",
+    "description": "tropical and subtropical coniferous forests",
+    "score": 0.9110589623451233,
+    "topicality": 0.9110589623451233
+  },
+  {
+    "mid": "/m/01y3fy",
+    "description": "jungle",
+    "score": 0.8874639272689819,
+    "topicality": 0.8874639272689819
+  }
+]

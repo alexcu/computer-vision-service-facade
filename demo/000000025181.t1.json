@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01vk9q",
-      "description": "track",
-      "score": 0.9796295762062073,
-      "topicality": 0.9796295762062073
-    },
-    {
-      "mid": "/m/0py27",
-      "description": "train station",
-      "score": 0.9776061773300171,
-      "topicality": 0.9776061773300171
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9623606204986572,
-      "topicality": 0.9623606204986572
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9447277784347534,
-      "topicality": 0.9447277784347534
-    },
-    {
-      "mid": "/m/01g6gs",
-      "description": "black and white",
-      "score": 0.9108003973960876,
-      "topicality": 0.9108003973960876
-    },
-    {
-      "mid": "/m/05zdp",
-      "description": "public transport",
-      "score": 0.8659999966621399,
-      "topicality": 0.8659999966621399
-    },
-    {
-      "mid": "/m/025s53m",
-      "description": "rolling stock",
-      "score": 0.8624124526977539,
-      "topicality": 0.8624124526977539
-    },
-    {
-      "mid": "/m/07jdr",
-      "description": "train",
-      "score": 0.8548908233642578,
-      "topicality": 0.8548908233642578
-    },
-    {
-      "mid": "/m/01p3xl",
-      "description": "metro station",
-      "score": 0.8495926260948181,
-      "topicality": 0.8495926260948181
-    },
-    {
-      "mid": "/m/0195fx",
-      "description": "rapid transit",
-      "score": 0.8346118927001953,
-      "topicality": 0.8346118927001953
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01vk9q",
+    "description": "track",
+    "score": 0.9796295762062073,
+    "topicality": 0.9796295762062073
+  },
+  {
+    "mid": "/m/0py27",
+    "description": "train station",
+    "score": 0.9776061773300171,
+    "topicality": 0.9776061773300171
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9623606204986572,
+    "topicality": 0.9623606204986572
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9447277784347534,
+    "topicality": 0.9447277784347534
+  },
+  {
+    "mid": "/m/01g6gs",
+    "description": "black and white",
+    "score": 0.9108003973960876,
+    "topicality": 0.9108003973960876
+  },
+  {
+    "mid": "/m/05zdp",
+    "description": "public transport",
+    "score": 0.8659999966621399,
+    "topicality": 0.8659999966621399
+  },
+  {
+    "mid": "/m/025s53m",
+    "description": "rolling stock",
+    "score": 0.8624124526977539,
+    "topicality": 0.8624124526977539
+  },
+  {
+    "mid": "/m/07jdr",
+    "description": "train",
+    "score": 0.8548908233642578,
+    "topicality": 0.8548908233642578
+  },
+  {
+    "mid": "/m/01p3xl",
+    "description": "metro station",
+    "score": 0.8495926260948181,
+    "topicality": 0.8495926260948181
+  },
+  {
+    "mid": "/m/0195fx",
+    "description": "rapid transit",
+    "score": 0.8346118927001953,
+    "topicality": 0.8346118927001953
+  }
+]

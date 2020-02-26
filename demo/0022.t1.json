@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.8750758171081543,
-      "topicality": 0.8750758171081543
-    },
-    {
-      "mid": "/m/06bt6",
-      "description": "reptile",
-      "score": 0.7167035937309265,
-      "topicality": 0.7167035937309265
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.6967900991439819,
-      "topicality": 0.6967900991439819
-    },
-    {
-      "mid": "/m/01bvtk",
-      "description": "crocodilia",
-      "score": 0.665280818939209,
-      "topicality": 0.665280818939209
-    },
-    {
-      "mid": "/m/09f_2",
-      "description": "crocodile",
-      "score": 0.6432363390922546,
-      "topicality": 0.6432363390922546
-    },
-    {
-      "mid": "/m/05t0z3q",
-      "description": "bank",
-      "score": 0.5740444660186768,
-      "topicality": 0.5740444660186768
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.5477372407913208,
-      "topicality": 0.5477372407913208
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.5271480679512024,
-      "topicality": 0.5271480679512024
-    },
-    {
-      "mid": "/m/0308t8",
-      "description": "bedrock",
-      "score": 0.5247634053230286,
-      "topicality": 0.5247634053230286
-    },
-    {
-      "mid": "/m/01shdw",
-      "description": "scaled reptile",
-      "score": 0.5243732333183289,
-      "topicality": 0.5243732333183289
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.8750758171081543,
+    "topicality": 0.8750758171081543
+  },
+  {
+    "mid": "/m/06bt6",
+    "description": "reptile",
+    "score": 0.7167035937309265,
+    "topicality": 0.7167035937309265
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.6967900991439819,
+    "topicality": 0.6967900991439819
+  },
+  {
+    "mid": "/m/01bvtk",
+    "description": "crocodilia",
+    "score": 0.665280818939209,
+    "topicality": 0.665280818939209
+  },
+  {
+    "mid": "/m/09f_2",
+    "description": "crocodile",
+    "score": 0.6432363390922546,
+    "topicality": 0.6432363390922546
+  },
+  {
+    "mid": "/m/05t0z3q",
+    "description": "bank",
+    "score": 0.5740444660186768,
+    "topicality": 0.5740444660186768
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.5477372407913208,
+    "topicality": 0.5477372407913208
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.5271480679512024,
+    "topicality": 0.5271480679512024
+  },
+  {
+    "mid": "/m/0308t8",
+    "description": "bedrock",
+    "score": 0.5247634053230286,
+    "topicality": 0.5247634053230286
+  },
+  {
+    "mid": "/m/01shdw",
+    "description": "scaled reptile",
+    "score": 0.5243732333183289,
+    "topicality": 0.5243732333183289
+  }
+]

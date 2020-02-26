@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0270h",
-      "description": "dessert",
-      "score": 0.8886581659317017,
-      "topicality": 0.8886581659317017
-    },
-    {
-      "mid": "/m/020vl",
-      "description": "chocolate",
-      "score": 0.8442428708076477,
-      "topicality": 0.8442428708076477
-    },
-    {
-      "mid": "/m/03cpkpj",
-      "description": "flourless chocolate cake",
-      "score": 0.819187581539154,
-      "topicality": 0.819187581539154
-    },
-    {
-      "mid": "/m/03m7wd",
-      "description": "sachertorte",
-      "score": 0.7815155982971191,
-      "topicality": 0.7815155982971191
-    },
-    {
-      "mid": "/m/02hlnc",
-      "description": "chocolate brownie",
-      "score": 0.7385260462760925,
-      "topicality": 0.7385260462760925
-    },
-    {
-      "mid": "/m/079dl7",
-      "description": "chocolate cake",
-      "score": 0.6939635276794434,
-      "topicality": 0.6939635276794434
-    },
-    {
-      "mid": "/m/06dg4d",
-      "description": "chocolate spread",
-      "score": 0.6734065413475037,
-      "topicality": 0.6734065413475037
-    },
-    {
-      "mid": "/m/0465mr4",
-      "description": "frozen dessert",
-      "score": 0.6601455211639404,
-      "topicality": 0.6601455211639404
-    },
-    {
-      "mid": "/m/0cdkwh",
-      "description": "treacle tart",
-      "score": 0.6252250671386719,
-      "topicality": 0.6252250671386719
-    },
-    {
-      "mid": "/m/01b7zv",
-      "description": "pudding",
-      "score": 0.6236775517463684,
-      "topicality": 0.6236775517463684
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0270h",
+    "description": "dessert",
+    "score": 0.8886581659317017,
+    "topicality": 0.8886581659317017
+  },
+  {
+    "mid": "/m/020vl",
+    "description": "chocolate",
+    "score": 0.8442428708076477,
+    "topicality": 0.8442428708076477
+  },
+  {
+    "mid": "/m/03cpkpj",
+    "description": "flourless chocolate cake",
+    "score": 0.819187581539154,
+    "topicality": 0.819187581539154
+  },
+  {
+    "mid": "/m/03m7wd",
+    "description": "sachertorte",
+    "score": 0.7815155982971191,
+    "topicality": 0.7815155982971191
+  },
+  {
+    "mid": "/m/02hlnc",
+    "description": "chocolate brownie",
+    "score": 0.7385260462760925,
+    "topicality": 0.7385260462760925
+  },
+  {
+    "mid": "/m/079dl7",
+    "description": "chocolate cake",
+    "score": 0.6939635276794434,
+    "topicality": 0.6939635276794434
+  },
+  {
+    "mid": "/m/06dg4d",
+    "description": "chocolate spread",
+    "score": 0.6734065413475037,
+    "topicality": 0.6734065413475037
+  },
+  {
+    "mid": "/m/0465mr4",
+    "description": "frozen dessert",
+    "score": 0.6601455211639404,
+    "topicality": 0.6601455211639404
+  },
+  {
+    "mid": "/m/0cdkwh",
+    "description": "treacle tart",
+    "score": 0.6252250671386719,
+    "topicality": 0.6252250671386719
+  },
+  {
+    "mid": "/m/01b7zv",
+    "description": "pudding",
+    "score": 0.6236775517463684,
+    "topicality": 0.6236775517463684
+  }
+]

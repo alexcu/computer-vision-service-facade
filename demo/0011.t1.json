@@ -1,10 +1,8 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cxp1",
-      "description": "commodity",
-      "score": 0.5083727240562439,
-      "topicality": 0.5083727240562439
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cxp1",
+    "description": "commodity",
+    "score": 0.5083727240562439,
+    "topicality": 0.5083727240562439
+  }
+]

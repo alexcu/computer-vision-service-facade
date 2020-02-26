@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0vlys",
-      "description": "tower block",
-      "score": 0.937432587146759,
-      "topicality": 0.937432587146759
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9289714097976685,
-      "topicality": 0.9289714097976685
-    },
-    {
-      "mid": "/m/079cl",
-      "description": "skyscraper",
-      "score": 0.9126827716827393,
-      "topicality": 0.9126827716827393
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.9017511606216431,
-      "topicality": 0.9017511606216431
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.8956159949302673,
-      "topicality": 0.8956159949302673
-    },
-    {
-      "mid": "/m/020ys5",
-      "description": "condominium",
-      "score": 0.8789663910865784,
-      "topicality": 0.8789663910865784
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8280864953994751,
-      "topicality": 0.8280864953994751
-    },
-    {
-      "mid": "/m/02nfxt",
-      "description": "residential area",
-      "score": 0.8253887891769409,
-      "topicality": 0.8253887891769409
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.8098441958427429,
-      "topicality": 0.8098441958427429
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.8004857301712036,
-      "topicality": 0.8004857301712036
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0vlys",
+    "description": "tower block",
+    "score": 0.937432587146759,
+    "topicality": 0.937432587146759
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9289714097976685,
+    "topicality": 0.9289714097976685
+  },
+  {
+    "mid": "/m/079cl",
+    "description": "skyscraper",
+    "score": 0.9126827716827393,
+    "topicality": 0.9126827716827393
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.9017511606216431,
+    "topicality": 0.9017511606216431
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.8956159949302673,
+    "topicality": 0.8956159949302673
+  },
+  {
+    "mid": "/m/020ys5",
+    "description": "condominium",
+    "score": 0.8789663910865784,
+    "topicality": 0.8789663910865784
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8280864953994751,
+    "topicality": 0.8280864953994751
+  },
+  {
+    "mid": "/m/02nfxt",
+    "description": "residential area",
+    "score": 0.8253887891769409,
+    "topicality": 0.8253887891769409
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.8098441958427429,
+    "topicality": 0.8098441958427429
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.8004857301712036,
+    "topicality": 0.8004857301712036
+  }
+]

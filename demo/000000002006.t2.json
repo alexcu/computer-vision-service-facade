@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01prls",
-      "description": "land vehicle",
-      "score": 0.9961627125740051,
-      "topicality": 0.9961627125740051
-    },
-    {
-      "mid": "/m/01bjv",
-      "description": "bus",
-      "score": 0.9957892298698425,
-      "topicality": 0.9957892298698425
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9903031587600708,
-      "topicality": 0.9903031587600708
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.988624095916748,
-      "topicality": 0.988624095916748
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.9876441359519958,
-      "topicality": 0.9876441359519958
-    },
-    {
-      "mid": "/m/05zdp",
-      "description": "public transport",
-      "score": 0.9573086500167847,
-      "topicality": 0.9573086500167847
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.937602162361145,
-      "topicality": 0.937602162361145
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9010037183761597,
-      "topicality": 0.9010037183761597
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.8351601958274841,
-      "topicality": 0.8351601958274841
-    },
-    {
-      "mid": "/m/033j3c",
-      "description": "lane",
-      "score": 0.7878267168998718,
-      "topicality": 0.7878267168998718
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01prls",
+    "description": "land vehicle",
+    "score": 0.9961627125740051,
+    "topicality": 0.9961627125740051
+  },
+  {
+    "mid": "/m/01bjv",
+    "description": "bus",
+    "score": 0.9957892298698425,
+    "topicality": 0.9957892298698425
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9903031587600708,
+    "topicality": 0.9903031587600708
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.988624095916748,
+    "topicality": 0.988624095916748
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.9876441359519958,
+    "topicality": 0.9876441359519958
+  },
+  {
+    "mid": "/m/05zdp",
+    "description": "public transport",
+    "score": 0.9573086500167847,
+    "topicality": 0.9573086500167847
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.937602162361145,
+    "topicality": 0.937602162361145
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9010037183761597,
+    "topicality": 0.9010037183761597
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.8351601958274841,
+    "topicality": 0.8351601958274841
+  },
+  {
+    "mid": "/m/033j3c",
+    "description": "lane",
+    "score": 0.7878267168998718,
+    "topicality": 0.7878267168998718
+  }
+]

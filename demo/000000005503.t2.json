@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/09g1w",
-      "description": "toilet",
-      "score": 0.9889346361160278,
-      "topicality": 0.9889346361160278
-    },
-    {
-      "mid": "/m/02553v",
-      "description": "toilet seat",
-      "score": 0.9842997193336487,
-      "topicality": 0.9842997193336487
-    },
-    {
-      "mid": "/m/02pkr5",
-      "description": "plumbing fixture",
-      "score": 0.9066628813743591,
-      "topicality": 0.9066628813743591
-    },
-    {
-      "mid": "/m/01vbnl",
-      "description": "bidet",
-      "score": 0.6899659037590027,
-      "topicality": 0.6899659037590027
-    },
-    {
-      "mid": "/m/0b_zf",
-      "description": "plumbing",
-      "score": 0.6589804291725159,
-      "topicality": 0.6589804291725159
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.6566392779350281,
-      "topicality": 0.6566392779350281
-    },
-    {
-      "mid": "/m/01g6gs",
-      "description": "black-and-white",
-      "score": 0.5640789866447449,
-      "topicality": 0.5640789866447449
-    },
-    {
-      "mid": "/m/01mwkf",
-      "description": "monochrome",
-      "score": 0.5442906022071838,
-      "topicality": 0.5442906022071838
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/09g1w",
+    "description": "toilet",
+    "score": 0.9889346361160278,
+    "topicality": 0.9889346361160278
+  },
+  {
+    "mid": "/m/02553v",
+    "description": "toilet seat",
+    "score": 0.9842997193336487,
+    "topicality": 0.9842997193336487
+  },
+  {
+    "mid": "/m/02pkr5",
+    "description": "plumbing fixture",
+    "score": 0.9066628813743591,
+    "topicality": 0.9066628813743591
+  },
+  {
+    "mid": "/m/01vbnl",
+    "description": "bidet",
+    "score": 0.6899659037590027,
+    "topicality": 0.6899659037590027
+  },
+  {
+    "mid": "/m/0b_zf",
+    "description": "plumbing",
+    "score": 0.6589804291725159,
+    "topicality": 0.6589804291725159
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.6566392779350281,
+    "topicality": 0.6566392779350281
+  },
+  {
+    "mid": "/m/01g6gs",
+    "description": "black-and-white",
+    "score": 0.5640789866447449,
+    "topicality": 0.5640789866447449
+  },
+  {
+    "mid": "/m/01mwkf",
+    "description": "monochrome",
+    "score": 0.5442906022071838,
+    "topicality": 0.5442906022071838
+  }
+]

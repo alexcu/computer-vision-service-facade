@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9572659730911255,
-      "topicality": 0.9572659730911255
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9004324078559875,
-      "topicality": 0.9004324078559875
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.8826563358306885,
-      "topicality": 0.8826563358306885
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8752507567405701,
-      "topicality": 0.8752507567405701
-    },
-    {
-      "mid": "/m/018p4k",
-      "description": "cart",
-      "score": 0.6993676424026489,
-      "topicality": 0.6993676424026489
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.6331440210342407,
-      "topicality": 0.6331440210342407
-    },
-    {
-      "mid": "/m/0swpk6b",
-      "description": "rickshaw",
-      "score": 0.5962120294570923,
-      "topicality": 0.5962120294570923
-    },
-    {
-      "mid": "/m/016znt",
-      "description": "public utility",
-      "score": 0.5217146873474121,
-      "topicality": 0.5217146873474121
-    },
-    {
-      "mid": "/m/0242gd",
-      "description": "wagon",
-      "score": 0.519541323184967,
-      "topicality": 0.519541323184967
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9572659730911255,
+    "topicality": 0.9572659730911255
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9004324078559875,
+    "topicality": 0.9004324078559875
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.8826563358306885,
+    "topicality": 0.8826563358306885
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8752507567405701,
+    "topicality": 0.8752507567405701
+  },
+  {
+    "mid": "/m/018p4k",
+    "description": "cart",
+    "score": 0.6993676424026489,
+    "topicality": 0.6993676424026489
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.6331440210342407,
+    "topicality": 0.6331440210342407
+  },
+  {
+    "mid": "/m/0swpk6b",
+    "description": "rickshaw",
+    "score": 0.5962120294570923,
+    "topicality": 0.5962120294570923
+  },
+  {
+    "mid": "/m/016znt",
+    "description": "public utility",
+    "score": 0.5217146873474121,
+    "topicality": 0.5217146873474121
+  },
+  {
+    "mid": "/m/0242gd",
+    "description": "wagon",
+    "score": 0.519541323184967,
+    "topicality": 0.519541323184967
+  }
+]

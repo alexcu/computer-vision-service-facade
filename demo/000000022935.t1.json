@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03x045",
-      "description": "team sport",
-      "score": 0.973787784576416,
-      "topicality": 0.973787784576416
-    },
-    {
-      "mid": "/m/01g5v",
-      "description": "blue",
-      "score": 0.9683626890182495,
-      "topicality": 0.9683626890182495
-    },
-    {
-      "mid": "/m/06ntj",
-      "description": "sports",
-      "score": 0.9524196982383728,
-      "topicality": 0.9524196982383728
-    },
-    {
-      "mid": "/m/02vzx9",
-      "description": "player",
-      "score": 0.9391506910324097,
-      "topicality": 0.9391506910324097
-    },
-    {
-      "mid": "/m/03bt1gh",
-      "description": "games",
-      "score": 0.9144278168678284,
-      "topicality": 0.9144278168678284
-    },
-    {
-      "mid": "/m/0pcq81q",
-      "description": "soccer player",
-      "score": 0.8836213946342468,
-      "topicality": 0.8836213946342468
-    },
-    {
-      "mid": "/m/01b5r_",
-      "description": "women's football",
-      "score": 0.8775877356529236,
-      "topicality": 0.8775877356529236
-    },
-    {
-      "mid": "/m/011l78",
-      "description": "team",
-      "score": 0.8542211055755615,
-      "topicality": 0.8542211055755615
-    },
-    {
-      "mid": "/m/0gl2ny2",
-      "description": "football player",
-      "score": 0.8384536504745483,
-      "topicality": 0.8384536504745483
-    },
-    {
-      "mid": "/m/020m7t",
-      "description": "ball game",
-      "score": 0.7951223850250244,
-      "topicality": 0.7951223850250244
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03x045",
+    "description": "team sport",
+    "score": 0.973787784576416,
+    "topicality": 0.973787784576416
+  },
+  {
+    "mid": "/m/01g5v",
+    "description": "blue",
+    "score": 0.9683626890182495,
+    "topicality": 0.9683626890182495
+  },
+  {
+    "mid": "/m/06ntj",
+    "description": "sports",
+    "score": 0.9524196982383728,
+    "topicality": 0.9524196982383728
+  },
+  {
+    "mid": "/m/02vzx9",
+    "description": "player",
+    "score": 0.9391506910324097,
+    "topicality": 0.9391506910324097
+  },
+  {
+    "mid": "/m/03bt1gh",
+    "description": "games",
+    "score": 0.9144278168678284,
+    "topicality": 0.9144278168678284
+  },
+  {
+    "mid": "/m/0pcq81q",
+    "description": "soccer player",
+    "score": 0.8836213946342468,
+    "topicality": 0.8836213946342468
+  },
+  {
+    "mid": "/m/01b5r_",
+    "description": "women's football",
+    "score": 0.8775877356529236,
+    "topicality": 0.8775877356529236
+  },
+  {
+    "mid": "/m/011l78",
+    "description": "team",
+    "score": 0.8542211055755615,
+    "topicality": 0.8542211055755615
+  },
+  {
+    "mid": "/m/0gl2ny2",
+    "description": "football player",
+    "score": 0.8384536504745483,
+    "topicality": 0.8384536504745483
+  },
+  {
+    "mid": "/m/020m7t",
+    "description": "ball game",
+    "score": 0.7951223850250244,
+    "topicality": 0.7951223850250244
+  }
+]

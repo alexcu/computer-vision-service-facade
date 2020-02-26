@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9934034943580627,
-      "topicality": 0.9934034943580627
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9734369516372681,
-      "topicality": 0.9734369516372681
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9447744488716125,
-      "topicality": 0.9447744488716125
-    },
-    {
-      "mid": "/m/01mr6j",
-      "description": "cookware and bakeware",
-      "score": 0.8987616300582886,
-      "topicality": 0.8987616300582886
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.7787950038909912,
-      "topicality": 0.7787950038909912
-    },
-    {
-      "mid": "/m/01xnc_",
-      "description": "dutch oven",
-      "score": 0.7100530862808228,
-      "topicality": 0.7100530862808228
-    },
-    {
-      "mid": "/m/0p57p",
-      "description": "recipe",
-      "score": 0.628849446773529,
-      "topicality": 0.628849446773529
-    },
-    {
-      "mid": "/m/0jnxw",
-      "description": "stew",
-      "score": 0.5918638110160828,
-      "topicality": 0.5918638110160828
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.5712106823921204,
-      "topicality": 0.5712106823921204
-    },
-    {
-      "mid": "/m/01mtb",
-      "description": "cooking",
-      "score": 0.5667325854301453,
-      "topicality": 0.5667325854301453
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9934034943580627,
+    "topicality": 0.9934034943580627
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9734369516372681,
+    "topicality": 0.9734369516372681
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9447744488716125,
+    "topicality": 0.9447744488716125
+  },
+  {
+    "mid": "/m/01mr6j",
+    "description": "cookware and bakeware",
+    "score": 0.8987616300582886,
+    "topicality": 0.8987616300582886
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.7787950038909912,
+    "topicality": 0.7787950038909912
+  },
+  {
+    "mid": "/m/01xnc_",
+    "description": "dutch oven",
+    "score": 0.7100530862808228,
+    "topicality": 0.7100530862808228
+  },
+  {
+    "mid": "/m/0p57p",
+    "description": "recipe",
+    "score": 0.628849446773529,
+    "topicality": 0.628849446773529
+  },
+  {
+    "mid": "/m/0jnxw",
+    "description": "stew",
+    "score": 0.5918638110160828,
+    "topicality": 0.5918638110160828
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.5712106823921204,
+    "topicality": 0.5712106823921204
+  },
+  {
+    "mid": "/m/01mtb",
+    "description": "cooking",
+    "score": 0.5667325854301453,
+    "topicality": 0.5667325854301453
+  }
+]

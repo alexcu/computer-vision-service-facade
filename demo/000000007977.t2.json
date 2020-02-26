@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06zfw",
-      "description": "skateboarding",
-      "score": 0.9440908432006836,
-      "topicality": 0.9440908432006836
-    },
-    {
-      "mid": "/m/0235lp9",
-      "description": "skateboarder",
-      "score": 0.8842517733573914,
-      "topicality": 0.8842517733573914
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.867573082447052,
-      "topicality": 0.867573082447052
-    },
-    {
-      "mid": "/m/06_fw",
-      "description": "skateboard",
-      "score": 0.8607136607170105,
-      "topicality": 0.8607136607170105
-    },
-    {
-      "mid": "/m/0hbfd",
-      "description": "kickflip",
-      "score": 0.8404824733734131,
-      "topicality": 0.8404824733734131
-    },
-    {
-      "mid": "/m/09qkx",
-      "description": "boardsport",
-      "score": 0.8330141305923462,
-      "topicality": 0.8330141305923462
-    },
-    {
-      "mid": "/m/0bmgjqz",
-      "description": "sport venue",
-      "score": 0.8142653703689575,
-      "topicality": 0.8142653703689575
-    },
-    {
-      "mid": "/m/05y5lj",
-      "description": "sports equipment",
-      "score": 0.7839303016662598,
-      "topicality": 0.7839303016662598
-    },
-    {
-      "mid": "/m/09j5n",
-      "description": "footwear",
-      "score": 0.7505035400390625,
-      "topicality": 0.7505035400390625
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7469744682312012,
-      "topicality": 0.7469744682312012
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06zfw",
+    "description": "skateboarding",
+    "score": 0.9440908432006836,
+    "topicality": 0.9440908432006836
+  },
+  {
+    "mid": "/m/0235lp9",
+    "description": "skateboarder",
+    "score": 0.8842517733573914,
+    "topicality": 0.8842517733573914
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.867573082447052,
+    "topicality": 0.867573082447052
+  },
+  {
+    "mid": "/m/06_fw",
+    "description": "skateboard",
+    "score": 0.8607136607170105,
+    "topicality": 0.8607136607170105
+  },
+  {
+    "mid": "/m/0hbfd",
+    "description": "kickflip",
+    "score": 0.8404824733734131,
+    "topicality": 0.8404824733734131
+  },
+  {
+    "mid": "/m/09qkx",
+    "description": "boardsport",
+    "score": 0.8330141305923462,
+    "topicality": 0.8330141305923462
+  },
+  {
+    "mid": "/m/0bmgjqz",
+    "description": "sport venue",
+    "score": 0.8142653703689575,
+    "topicality": 0.8142653703689575
+  },
+  {
+    "mid": "/m/05y5lj",
+    "description": "sports equipment",
+    "score": 0.7839303016662598,
+    "topicality": 0.7839303016662598
+  },
+  {
+    "mid": "/m/09j5n",
+    "description": "footwear",
+    "score": 0.7505035400390625,
+    "topicality": 0.7505035400390625
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7469744682312012,
+    "topicality": 0.7469744682312012
+  }
+]

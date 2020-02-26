@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.98157799243927,
-      "topicality": 0.98157799243927
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.9775534868240356,
-      "topicality": 0.9775534868240356
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9219115972518921,
-      "topicality": 0.9219115972518921
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.9071024656295776,
-      "topicality": 0.9071024656295776
-    },
-    {
-      "mid": "/m/02hnx9",
-      "description": "woody plant",
-      "score": 0.886786699295044,
-      "topicality": 0.886786699295044
-    },
-    {
-      "mid": "/m/017kvv",
-      "description": "infrastructure",
-      "score": 0.8842958211898804,
-      "topicality": 0.8842958211898804
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8751949071884155,
-      "topicality": 0.8751949071884155
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.8735895156860352,
-      "topicality": 0.8735895156860352
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.8366469740867615,
-      "topicality": 0.8366469740867615
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.7825323343276978,
-      "topicality": 0.7825323343276978
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.98157799243927,
+    "topicality": 0.98157799243927
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.9775534868240356,
+    "topicality": 0.9775534868240356
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9219115972518921,
+    "topicality": 0.9219115972518921
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.9071024656295776,
+    "topicality": 0.9071024656295776
+  },
+  {
+    "mid": "/m/02hnx9",
+    "description": "woody plant",
+    "score": 0.886786699295044,
+    "topicality": 0.886786699295044
+  },
+  {
+    "mid": "/m/017kvv",
+    "description": "infrastructure",
+    "score": 0.8842958211898804,
+    "topicality": 0.8842958211898804
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8751949071884155,
+    "topicality": 0.8751949071884155
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.8735895156860352,
+    "topicality": 0.8735895156860352
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.8366469740867615,
+    "topicality": 0.8366469740867615
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.7825323343276978,
+    "topicality": 0.7825323343276978
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.7242810928948058,
+    "topicality": 0.7242810928948058
+  }
+]

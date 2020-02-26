@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/025t002",
-      "description": "humpback bridge",
-      "score": 0.9749966859817505,
-      "topicality": 0.9749966859817505
-    },
-    {
-      "mid": "/m/01v4lt",
-      "description": "arch bridge",
-      "score": 0.9729102849960327,
-      "topicality": 0.9729102849960327
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9578154683113098,
-      "topicality": 0.9578154683113098
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.953452467918396,
-      "topicality": 0.953452467918396
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.9457682967185974,
-      "topicality": 0.9457682967185974
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.9398155808448792,
-      "topicality": 0.9398155808448792
-    },
-    {
-      "mid": "/m/03kj4q",
-      "description": "watercourse",
-      "score": 0.923713207244873,
-      "topicality": 0.923713207244873
-    },
-    {
-      "mid": "/m/0f6rkr",
-      "description": "devil's bridge",
-      "score": 0.8990306854248047,
-      "topicality": 0.8990306854248047
-    },
-    {
-      "mid": "/m/015kr",
-      "description": "bridge",
-      "score": 0.8970648646354675,
-      "topicality": 0.8970648646354675
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.8802157640457153,
-      "topicality": 0.8802157640457153
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/025t002",
+    "description": "humpback bridge",
+    "score": 0.9749966859817505,
+    "topicality": 0.9749966859817505
+  },
+  {
+    "mid": "/m/01v4lt",
+    "description": "arch bridge",
+    "score": 0.9729102849960327,
+    "topicality": 0.9729102849960327
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9578154683113098,
+    "topicality": 0.9578154683113098
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.953452467918396,
+    "topicality": 0.953452467918396
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.9457682967185974,
+    "topicality": 0.9457682967185974
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.9398155808448792,
+    "topicality": 0.9398155808448792
+  },
+  {
+    "mid": "/m/03kj4q",
+    "description": "watercourse",
+    "score": 0.923713207244873,
+    "topicality": 0.923713207244873
+  },
+  {
+    "mid": "/m/0f6rkr",
+    "description": "devil's bridge",
+    "score": 0.8990306854248047,
+    "topicality": 0.8990306854248047
+  },
+  {
+    "mid": "/m/015kr",
+    "description": "bridge",
+    "score": 0.8970648646354675,
+    "topicality": 0.8970648646354675
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.8802157640457153,
+    "topicality": 0.8802157640457153
+  }
+]

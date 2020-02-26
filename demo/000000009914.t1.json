@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02y6n",
-      "description": "french fries",
-      "score": 0.9309955835342407,
-      "topicality": 0.9309955835342407
-    },
-    {
-      "mid": "/m/0h55b",
-      "description": "junk food",
-      "score": 0.9258893132209778,
-      "topicality": 0.9258893132209778
-    },
-    {
-      "mid": "/m/0krfg",
-      "description": "meal",
-      "score": 0.9020875692367554,
-      "topicality": 0.9020875692367554
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.8666934967041016,
-      "topicality": 0.8666934967041016
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.8391140103340149,
-      "topicality": 0.8391140103340149
-    },
-    {
-      "mid": "/m/02qhwc4",
-      "description": "full breakfast",
-      "score": 0.7924878597259521,
-      "topicality": 0.7924878597259521
-    },
-    {
-      "mid": "/m/01_bhs",
-      "description": "fast food",
-      "score": 0.7857338190078735,
-      "topicality": 0.7857338190078735
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.7767252922058105,
-      "topicality": 0.7767252922058105
-    },
-    {
-      "mid": "/m/0cdn1",
-      "description": "hamburger",
-      "score": 0.7597424983978271,
-      "topicality": 0.7597424983978271
-    },
-    {
-      "mid": "/m/0jfd5",
-      "description": "lunch",
-      "score": 0.7563683390617371,
-      "topicality": 0.7563683390617371
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02y6n",
+    "description": "french fries",
+    "score": 0.9309955835342407,
+    "topicality": 0.9309955835342407
+  },
+  {
+    "mid": "/m/0h55b",
+    "description": "junk food",
+    "score": 0.9258893132209778,
+    "topicality": 0.9258893132209778
+  },
+  {
+    "mid": "/m/0krfg",
+    "description": "meal",
+    "score": 0.9020875692367554,
+    "topicality": 0.9020875692367554
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.8666934967041016,
+    "topicality": 0.8666934967041016
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.8391140103340149,
+    "topicality": 0.8391140103340149
+  },
+  {
+    "mid": "/m/02qhwc4",
+    "description": "full breakfast",
+    "score": 0.7924878597259521,
+    "topicality": 0.7924878597259521
+  },
+  {
+    "mid": "/m/01_bhs",
+    "description": "fast food",
+    "score": 0.7857338190078735,
+    "topicality": 0.7857338190078735
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.7767252922058105,
+    "topicality": 0.7767252922058105
+  },
+  {
+    "mid": "/m/0cdn1",
+    "description": "hamburger",
+    "score": 0.7597424983978271,
+    "topicality": 0.7597424983978271
+  },
+  {
+    "mid": "/m/0jfd5",
+    "description": "lunch",
+    "score": 0.7563683390617371,
+    "topicality": 0.7563683390617371
+  }
+]

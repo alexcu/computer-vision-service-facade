@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/015kr",
-      "description": "bridge",
-      "score": 0.8304500579833984,
-      "topicality": 0.8304500579833984
-    },
-    {
-      "mid": "/m/07p_zw",
-      "description": "handrail",
-      "score": 0.7722631692886353,
-      "topicality": 0.7722631692886353
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7212002873420715,
-      "topicality": 0.7212002873420715
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7097872495651245,
-      "topicality": 0.7097872495651245
-    },
-    {
-      "mid": "/m/0csy8",
-      "description": "suspension bridge",
-      "score": 0.7092331051826477,
-      "topicality": 0.7092331051826477
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.6853960752487183,
-      "topicality": 0.6853960752487183
-    },
-    {
-      "mid": "/m/07p__m",
-      "description": "guard rail",
-      "score": 0.6071769595146179,
-      "topicality": 0.6071769595146179
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.5900003910064697,
-      "topicality": 0.5900003910064697
-    },
-    {
-      "mid": "/m/05mf2t",
-      "description": "concrete bridge",
-      "score": 0.5763437151908875,
-      "topicality": 0.5763437151908875
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.5656062364578247,
-      "topicality": 0.5656062364578247
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/015kr",
+    "description": "bridge",
+    "score": 0.8304500579833984,
+    "topicality": 0.8304500579833984
+  },
+  {
+    "mid": "/m/07p_zw",
+    "description": "handrail",
+    "score": 0.7722631692886353,
+    "topicality": 0.7722631692886353
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7212002873420715,
+    "topicality": 0.7212002873420715
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7097872495651245,
+    "topicality": 0.7097872495651245
+  },
+  {
+    "mid": "/m/0csy8",
+    "description": "suspension bridge",
+    "score": 0.7092331051826477,
+    "topicality": 0.7092331051826477
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.6853960752487183,
+    "topicality": 0.6853960752487183
+  },
+  {
+    "mid": "/m/07p__m",
+    "description": "guard rail",
+    "score": 0.6071769595146179,
+    "topicality": 0.6071769595146179
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.5900003910064697,
+    "topicality": 0.5900003910064697
+  },
+  {
+    "mid": "/m/05mf2t",
+    "description": "concrete bridge",
+    "score": 0.5763437151908875,
+    "topicality": 0.5763437151908875
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.5656062364578247,
+    "topicality": 0.5656062364578247
+  }
+]

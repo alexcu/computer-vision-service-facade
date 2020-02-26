@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07s6nbt",
-      "description": "text",
-      "score": 0.8524878621101379,
-      "topicality": 0.8524878621101379
-    },
-    {
-      "mid": "/m/09cx8",
-      "description": "finger",
-      "score": 0.7454788684844971,
-      "topicality": 0.7454788684844971
-    },
-    {
-      "mid": "/m/0k65p",
-      "description": "hand",
-      "score": 0.7399766445159912,
-      "topicality": 0.7399766445159912
-    },
-    {
-      "mid": "/m/03gq5hm",
-      "description": "font",
-      "score": 0.6857237815856934,
-      "topicality": 0.6857237815856934
-    },
-    {
-      "mid": "/m/06wtgq",
-      "description": "play",
-      "score": 0.6753500699996948,
-      "topicality": 0.6753500699996948
-    },
-    {
-      "mid": "/m/03r_vp",
-      "description": "adaptation",
-      "score": 0.6696612238883972,
-      "topicality": 0.6696612238883972
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07s6nbt",
+    "description": "text",
+    "score": 0.8524878621101379,
+    "topicality": 0.8524878621101379
+  },
+  {
+    "mid": "/m/09cx8",
+    "description": "finger",
+    "score": 0.7454788684844971,
+    "topicality": 0.7454788684844971
+  },
+  {
+    "mid": "/m/0k65p",
+    "description": "hand",
+    "score": 0.7399766445159912,
+    "topicality": 0.7399766445159912
+  },
+  {
+    "mid": "/m/03gq5hm",
+    "description": "font",
+    "score": 0.6857237815856934,
+    "topicality": 0.6857237815856934
+  },
+  {
+    "mid": "/m/06wtgq",
+    "description": "play",
+    "score": 0.6753500699996948,
+    "topicality": 0.6753500699996948
+  },
+  {
+    "mid": "/m/03r_vp",
+    "description": "adaptation",
+    "score": 0.6696612238883972,
+    "topicality": 0.6696612238883972
+  }
+]

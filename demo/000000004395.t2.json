@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/019p5q",
-      "description": "gentleman",
-      "score": 0.8877101540565491,
-      "topicality": 0.8877101540565491
-    },
-    {
-      "mid": "/m/05zppz",
-      "description": "male",
-      "score": 0.8521828651428223,
-      "topicality": 0.8521828651428223
-    },
-    {
-      "mid": "/m/01xyhv",
-      "description": "suit",
-      "score": 0.8403529524803162,
-      "topicality": 0.8403529524803162
-    },
-    {
-      "mid": "/m/02w3_2",
-      "description": "formal wear",
-      "score": 0.8316690325737,
-      "topicality": 0.8316690325737
-    },
-    {
-      "mid": "/m/0f9swq",
-      "description": "chin",
-      "score": 0.8275078535079956,
-      "topicality": 0.8275078535079956
-    },
-    {
-      "mid": "/m/01rkbr",
-      "description": "tie",
-      "score": 0.8026878237724304,
-      "topicality": 0.8026878237724304
-    },
-    {
-      "mid": "/m/06hwcd",
-      "description": "dress shirt",
-      "score": 0.790492594242096,
-      "topicality": 0.790492594242096
-    },
-    {
-      "mid": "/m/025kyy",
-      "description": "forehead",
-      "score": 0.7822763919830322,
-      "topicality": 0.7822763919830322
-    },
-    {
-      "mid": "/m/0dgw9r",
-      "description": "human",
-      "score": 0.746764600276947,
-      "topicality": 0.746764600276947
-    },
-    {
-      "mid": "/m/01kq3x",
-      "description": "white-collar worker",
-      "score": 0.7417646646499634,
-      "topicality": 0.7417646646499634
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/019p5q",
+    "description": "gentleman",
+    "score": 0.8877101540565491,
+    "topicality": 0.8877101540565491
+  },
+  {
+    "mid": "/m/05zppz",
+    "description": "male",
+    "score": 0.8521828651428223,
+    "topicality": 0.8521828651428223
+  },
+  {
+    "mid": "/m/01xyhv",
+    "description": "suit",
+    "score": 0.8403529524803162,
+    "topicality": 0.8403529524803162
+  },
+  {
+    "mid": "/m/02w3_2",
+    "description": "formal wear",
+    "score": 0.8316690325737,
+    "topicality": 0.8316690325737
+  },
+  {
+    "mid": "/m/0f9swq",
+    "description": "chin",
+    "score": 0.8275078535079956,
+    "topicality": 0.8275078535079956
+  },
+  {
+    "mid": "/m/01rkbr",
+    "description": "tie",
+    "score": 0.8026878237724304,
+    "topicality": 0.8026878237724304
+  },
+  {
+    "mid": "/m/06hwcd",
+    "description": "dress shirt",
+    "score": 0.790492594242096,
+    "topicality": 0.790492594242096
+  },
+  {
+    "mid": "/m/025kyy",
+    "description": "forehead",
+    "score": 0.7822763919830322,
+    "topicality": 0.7822763919830322
+  },
+  {
+    "mid": "/m/0dgw9r",
+    "description": "human",
+    "score": 0.746764600276947,
+    "topicality": 0.746764600276947
+  },
+  {
+    "mid": "/m/01kq3x",
+    "description": "white-collar worker",
+    "score": 0.7417646646499634,
+    "topicality": 0.7417646646499634
+  }
+]

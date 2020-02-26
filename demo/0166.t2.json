@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.9093667268753052,
-      "topicality": 0.9093667268753052
-    },
-    {
-      "mid": "/m/09bgkl",
-      "description": "outlet store",
-      "score": 0.8684607148170471,
-      "topicality": 0.8684607148170471
-    },
-    {
-      "mid": "/m/0191_7",
-      "description": "retail",
-      "score": 0.786408543586731,
-      "topicality": 0.786408543586731
-    },
-    {
-      "mid": "/m/025s8bs",
-      "description": "shopping mall",
-      "score": 0.7087439298629761,
-      "topicality": 0.7087439298629761
-    },
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.601280927658081,
-      "topicality": 0.601280927658081
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.5914002060890198,
-      "topicality": 0.5914002060890198
-    },
-    {
-      "mid": "/m/07br0",
-      "description": "trade",
-      "score": 0.5827521085739136,
-      "topicality": 0.5827521085739136
-    },
-    {
-      "mid": "/m/0crjs",
-      "description": "convenience store",
-      "score": 0.5602087378501892,
-      "topicality": 0.5602087378501892
-    },
-    {
-      "mid": "/m/011s0",
-      "description": "advertising",
-      "score": 0.5303263664245605,
-      "topicality": 0.5303263664245605
-    },
-    {
-      "mid": "/m/0hhdb",
-      "description": "shopping",
-      "score": 0.5053358674049377,
-      "topicality": 0.5053358674049377
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.9093667268753052,
+    "topicality": 0.9093667268753052
+  },
+  {
+    "mid": "/m/09bgkl",
+    "description": "outlet store",
+    "score": 0.8684607148170471,
+    "topicality": 0.8684607148170471
+  },
+  {
+    "mid": "/m/0191_7",
+    "description": "retail",
+    "score": 0.786408543586731,
+    "topicality": 0.786408543586731
+  },
+  {
+    "mid": "/m/025s8bs",
+    "description": "shopping mall",
+    "score": 0.7087439298629761,
+    "topicality": 0.7087439298629761
+  },
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.601280927658081,
+    "topicality": 0.601280927658081
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.5914002060890198,
+    "topicality": 0.5914002060890198
+  },
+  {
+    "mid": "/m/07br0",
+    "description": "trade",
+    "score": 0.5827521085739136,
+    "topicality": 0.5827521085739136
+  },
+  {
+    "mid": "/m/0crjs",
+    "description": "convenience store",
+    "score": 0.5602087378501892,
+    "topicality": 0.5602087378501892
+  },
+  {
+    "mid": "/m/011s0",
+    "description": "advertising",
+    "score": 0.5303263664245605,
+    "topicality": 0.5303263664245605
+  },
+  {
+    "mid": "/m/0hhdb",
+    "description": "shopping",
+    "score": 0.5053358674049377,
+    "topicality": 0.5053358674049377
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.940420925617218,
-      "topicality": 0.940420925617218
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9045094847679138,
-      "topicality": 0.9045094847679138
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.900394082069397,
-      "topicality": 0.900394082069397
-    },
-    {
-      "mid": "/m/02zr8",
-      "description": "forest",
-      "score": 0.897057831287384,
-      "topicality": 0.897057831287384
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.8855189085006714,
-      "topicality": 0.8855189085006714
-    },
-    {
-      "mid": "/m/01jb4",
-      "description": "biome",
-      "score": 0.8609395027160645,
-      "topicality": 0.8609395027160645
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.8363603949546814,
-      "topicality": 0.8363603949546814
-    },
-    {
-      "mid": "/m/021krv",
-      "description": "state park",
-      "score": 0.7842482328414917,
-      "topicality": 0.7842482328414917
-    },
-    {
-      "mid": "/m/042g2h",
-      "description": "old-growth forest",
-      "score": 0.7816967368125916,
-      "topicality": 0.7816967368125916
-    },
-    {
-      "mid": "/m/0hm03",
-      "description": "trail",
-      "score": 0.7635489702224731,
-      "topicality": 0.7635489702224731
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.940420925617218,
+    "topicality": 0.940420925617218
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9045094847679138,
+    "topicality": 0.9045094847679138
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.900394082069397,
+    "topicality": 0.900394082069397
+  },
+  {
+    "mid": "/m/02zr8",
+    "description": "forest",
+    "score": 0.897057831287384,
+    "topicality": 0.897057831287384
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.8855189085006714,
+    "topicality": 0.8855189085006714
+  },
+  {
+    "mid": "/m/01jb4",
+    "description": "biome",
+    "score": 0.8609395027160645,
+    "topicality": 0.8609395027160645
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.8363603949546814,
+    "topicality": 0.8363603949546814
+  },
+  {
+    "mid": "/m/021krv",
+    "description": "state park",
+    "score": 0.7842482328414917,
+    "topicality": 0.7842482328414917
+  },
+  {
+    "mid": "/m/042g2h",
+    "description": "old-growth forest",
+    "score": 0.7816967368125916,
+    "topicality": 0.7816967368125916
+  },
+  {
+    "mid": "/m/0hm03",
+    "description": "trail",
+    "score": 0.7635489702224731,
+    "topicality": 0.7635489702224731
+  }
+]

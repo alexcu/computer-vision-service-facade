@@ -1,28 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/04cmwn",
-      "description": "goats",
-      "score": 0.9345462918281555,
-      "topicality": 0.9345462918281555
-    },
-    {
-      "mid": "/m/03fwl",
-      "description": "goat",
-      "score": 0.8734792470932007,
-      "topicality": 0.8734792470932007
-    },
-    {
-      "mid": "/m/0ch8v",
-      "description": "livestock",
-      "score": 0.696467399597168,
-      "topicality": 0.696467399597168
-    },
-    {
-      "mid": "/m/01k050",
-      "description": "cow goat family",
-      "score": 0.5344383716583252,
-      "topicality": 0.5344383716583252
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/04cmwn",
+    "description": "goats",
+    "score": 0.9345462918281555,
+    "topicality": 0.9345462918281555
+  },
+  {
+    "mid": "/m/03fwl",
+    "description": "goat",
+    "score": 0.8734792470932007,
+    "topicality": 0.8734792470932007
+  },
+  {
+    "mid": "/m/0ch8v",
+    "description": "livestock",
+    "score": 0.696467399597168,
+    "topicality": 0.696467399597168
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.6546510692859296,
+    "topicality": 0.6546510692859296
+  },
+  {
+    "mid": "/m/01k050",
+    "description": "cow goat family",
+    "score": 0.5344383716583252,
+    "topicality": 0.5344383716583252
+  }
+]

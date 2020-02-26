@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.9091620445251465,
-      "topicality": 0.9091620445251465
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.8931475281715393,
-      "topicality": 0.8931475281715393
-    },
-    {
-      "mid": "/m/051rmm",
-      "description": "steeple",
-      "score": 0.8879336714744568,
-      "topicality": 0.8879336714744568
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8857545852661133,
-      "topicality": 0.8857545852661133
-    },
-    {
-      "mid": "/m/05wrt",
-      "description": "property",
-      "score": 0.8843256235122681,
-      "topicality": 0.8843256235122681
-    },
-    {
-      "mid": "/m/0173tc",
-      "description": "chapel",
-      "score": 0.8792741298675537,
-      "topicality": 0.8792741298675537
-    },
-    {
-      "mid": "/m/01wb7",
-      "description": "church",
-      "score": 0.8744335770606995,
-      "topicality": 0.8744335770606995
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8024595379829407,
-      "topicality": 0.8024595379829407
-    },
-    {
-      "mid": "/m/01ht1r",
-      "description": "medieval architecture",
-      "score": 0.7896825075149536,
-      "topicality": 0.7896825075149536
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.7263345718383789,
-      "topicality": 0.7263345718383789
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.9091620445251465,
+    "topicality": 0.9091620445251465
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.8931475281715393,
+    "topicality": 0.8931475281715393
+  },
+  {
+    "mid": "/m/051rmm",
+    "description": "steeple",
+    "score": 0.8879336714744568,
+    "topicality": 0.8879336714744568
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8857545852661133,
+    "topicality": 0.8857545852661133
+  },
+  {
+    "mid": "/m/05wrt",
+    "description": "property",
+    "score": 0.8843256235122681,
+    "topicality": 0.8843256235122681
+  },
+  {
+    "mid": "/m/0173tc",
+    "description": "chapel",
+    "score": 0.8792741298675537,
+    "topicality": 0.8792741298675537
+  },
+  {
+    "mid": "/m/01wb7",
+    "description": "church",
+    "score": 0.8744335770606995,
+    "topicality": 0.8744335770606995
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8024595379829407,
+    "topicality": 0.8024595379829407
+  },
+  {
+    "mid": "/m/01ht1r",
+    "description": "medieval architecture",
+    "score": 0.7896825075149536,
+    "topicality": 0.7896825075149536
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.7263345718383789,
+    "topicality": 0.7263345718383789
+  }
+]

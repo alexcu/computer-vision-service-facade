@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.9574499726295471,
-      "topicality": 0.9574499726295471
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.936836838722229,
-      "topicality": 0.936836838722229
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.9138745069503784,
-      "topicality": 0.9138745069503784
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9123501181602478,
-      "topicality": 0.9123501181602478
-    },
-    {
-      "mid": "/m/07cylb",
-      "description": "thermokarst",
-      "score": 0.8964030146598816,
-      "topicality": 0.8964030146598816
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.8960593342781067,
-      "topicality": 0.8960593342781067
-    },
-    {
-      "mid": "/m/08863x",
-      "description": "bird's-eye view",
-      "score": 0.8621652126312256,
-      "topicality": 0.8621652126312256
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.8502108454704285,
-      "topicality": 0.8502108454704285
-    },
-    {
-      "mid": "/m/01c7cq",
-      "description": "grassland",
-      "score": 0.8460693359375,
-      "topicality": 0.8460693359375
-    },
-    {
-      "mid": "/m/0j6jq",
-      "description": "floodplain",
-      "score": 0.8424304127693176,
-      "topicality": 0.8424304127693176
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.9574499726295471,
+    "topicality": 0.9574499726295471
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.936836838722229,
+    "topicality": 0.936836838722229
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.9138745069503784,
+    "topicality": 0.9138745069503784
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9123501181602478,
+    "topicality": 0.9123501181602478
+  },
+  {
+    "mid": "/m/07cylb",
+    "description": "thermokarst",
+    "score": 0.8964030146598816,
+    "topicality": 0.8964030146598816
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.8960593342781067,
+    "topicality": 0.8960593342781067
+  },
+  {
+    "mid": "/m/08863x",
+    "description": "bird's-eye view",
+    "score": 0.8621652126312256,
+    "topicality": 0.8621652126312256
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.8502108454704285,
+    "topicality": 0.8502108454704285
+  },
+  {
+    "mid": "/m/01c7cq",
+    "description": "grassland",
+    "score": 0.8460693359375,
+    "topicality": 0.8460693359375
+  },
+  {
+    "mid": "/m/0j6jq",
+    "description": "floodplain",
+    "score": 0.8424304127693176,
+    "topicality": 0.8424304127693176
+  }
+]

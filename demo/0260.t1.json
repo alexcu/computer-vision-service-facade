@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.9235521554946899,
-      "topicality": 0.9235521554946899
-    },
-    {
-      "mid": "/m/0lhr",
-      "description": "arecales",
-      "score": 0.7343316674232483,
-      "topicality": 0.7343316674232483
-    },
-    {
-      "mid": "/m/0fm3zh",
-      "description": "flowerpot",
-      "score": 0.7116410136222839,
-      "topicality": 0.7116410136222839
-    },
-    {
-      "mid": "/m/0cdl1",
-      "description": "palm tree",
-      "score": 0.6819601058959961,
-      "topicality": 0.6819601058959961
-    },
-    {
-      "mid": "/m/0c9ph5",
-      "description": "flower",
-      "score": 0.6700828075408936,
-      "topicality": 0.6700828075408936
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.66146320104599,
-      "topicality": 0.66146320104599
-    },
-    {
-      "mid": "/m/03fp41",
-      "description": "houseplant",
-      "score": 0.6223817467689514,
-      "topicality": 0.6223817467689514
-    },
-    {
-      "mid": "/m/02hcw1",
-      "description": "floristry",
-      "score": 0.5701820850372314,
-      "topicality": 0.5701820850372314
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.9235521554946899,
+    "topicality": 0.9235521554946899
+  },
+  {
+    "mid": "/m/0lhr",
+    "description": "arecales",
+    "score": 0.7343316674232483,
+    "topicality": 0.7343316674232483
+  },
+  {
+    "mid": "/m/0fm3zh",
+    "description": "flowerpot",
+    "score": 0.7116410136222839,
+    "topicality": 0.7116410136222839
+  },
+  {
+    "mid": "/m/0cdl1",
+    "description": "palm tree",
+    "score": 0.6819601058959961,
+    "topicality": 0.6819601058959961
+  },
+  {
+    "mid": "/m/0c9ph5",
+    "description": "flower",
+    "score": 0.6700828075408936,
+    "topicality": 0.6700828075408936
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.66146320104599,
+    "topicality": 0.66146320104599
+  },
+  {
+    "mid": "/m/03fp41",
+    "description": "houseplant",
+    "score": 0.6223817467689514,
+    "topicality": 0.6223817467689514
+  },
+  {
+    "mid": "/m/02hcw1",
+    "description": "floristry",
+    "score": 0.5701820850372314,
+    "topicality": 0.5701820850372314
+  }
+]

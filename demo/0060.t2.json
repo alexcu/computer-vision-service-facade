@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/065zs54",
-      "description": "holy places",
-      "score": 0.9002916812896729,
-      "topicality": 0.9002916812896729
-    },
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.8931249976158142,
-      "topicality": 0.8931249976158142
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.817379355430603,
-      "topicality": 0.817379355430603
-    },
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.7964803576469421,
-      "topicality": 0.7964803576469421
-    },
-    {
-      "mid": "/m/016br2",
-      "description": "dome",
-      "score": 0.725415825843811,
-      "topicality": 0.725415825843811
-    },
-    {
-      "mid": "/m/01sqnx",
-      "description": "byzantine architecture",
-      "score": 0.7141086459159851,
-      "topicality": 0.7141086459159851
-    },
-    {
-      "mid": "/m/0p9xx",
-      "description": "visual arts",
-      "score": 0.5931773781776428,
-      "topicality": 0.5931773781776428
-    },
-    {
-      "mid": "/m/02bqth",
-      "description": "vault",
-      "score": 0.578858494758606,
-      "topicality": 0.578858494758606
-    },
-    {
-      "mid": "/m/0gmk4",
-      "description": "mosaic",
-      "score": 0.5592221617698669,
-      "topicality": 0.5592221617698669
-    },
-    {
-      "mid": "/m/09nm_",
-      "description": "world",
-      "score": 0.5313754081726074,
-      "topicality": 0.5313754081726074
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/065zs54",
+    "description": "holy places",
+    "score": 0.9002916812896729,
+    "topicality": 0.9002916812896729
+  },
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.8931249976158142,
+    "topicality": 0.8931249976158142
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.817379355430603,
+    "topicality": 0.817379355430603
+  },
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.7964803576469421,
+    "topicality": 0.7964803576469421
+  },
+  {
+    "mid": "/m/016br2",
+    "description": "dome",
+    "score": 0.725415825843811,
+    "topicality": 0.725415825843811
+  },
+  {
+    "mid": "/m/01sqnx",
+    "description": "byzantine architecture",
+    "score": 0.7141086459159851,
+    "topicality": 0.7141086459159851
+  },
+  {
+    "mid": "/m/0p9xx",
+    "description": "visual arts",
+    "score": 0.5931773781776428,
+    "topicality": 0.5931773781776428
+  },
+  {
+    "mid": "/m/02bqth",
+    "description": "vault",
+    "score": 0.578858494758606,
+    "topicality": 0.578858494758606
+  },
+  {
+    "mid": "/m/0gmk4",
+    "description": "mosaic",
+    "score": 0.5592221617698669,
+    "topicality": 0.5592221617698669
+  },
+  {
+    "mid": "/m/09nm_",
+    "description": "world",
+    "score": 0.5313754081726074,
+    "topicality": 0.5313754081726074
+  }
+]

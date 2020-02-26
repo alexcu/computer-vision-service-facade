@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9934034943580627,
-      "topicality": 0.9934034943580627
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9903261065483093,
-      "topicality": 0.9903261065483093
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9447744488716125,
-      "topicality": 0.9447744488716125
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.9207317233085632,
-      "topicality": 0.9207317233085632
-    },
-    {
-      "mid": "/m/0dw_m",
-      "description": "brunch",
-      "score": 0.8394389748573303,
-      "topicality": 0.8394389748573303
-    },
-    {
-      "mid": "/m/022tld",
-      "description": "staple food",
-      "score": 0.7494956851005554,
-      "topicality": 0.7494956851005554
-    },
-    {
-      "mid": "/m/019xdq",
-      "description": "sourdough",
-      "score": 0.7452624440193176,
-      "topicality": 0.7452624440193176
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.7425037622451782,
-      "topicality": 0.7425037622451782
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.7236197590827942,
-      "topicality": 0.7236197590827942
-    },
-    {
-      "mid": "/m/04q6ng",
-      "description": "comfort food",
-      "score": 0.7131031155586243,
-      "topicality": 0.7131031155586243
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9934034943580627,
+    "topicality": 0.9934034943580627
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9903261065483093,
+    "topicality": 0.9903261065483093
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9447744488716125,
+    "topicality": 0.9447744488716125
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.9207317233085632,
+    "topicality": 0.9207317233085632
+  },
+  {
+    "mid": "/m/0dw_m",
+    "description": "brunch",
+    "score": 0.8394389748573303,
+    "topicality": 0.8394389748573303
+  },
+  {
+    "mid": "/m/022tld",
+    "description": "staple food",
+    "score": 0.7494956851005554,
+    "topicality": 0.7494956851005554
+  },
+  {
+    "mid": "/m/019xdq",
+    "description": "sourdough",
+    "score": 0.7452624440193176,
+    "topicality": 0.7452624440193176
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.7425037622451782,
+    "topicality": 0.7425037622451782
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.7236197590827942,
+    "topicality": 0.7236197590827942
+  },
+  {
+    "mid": "/m/04q6ng",
+    "description": "comfort food",
+    "score": 0.7131031155586243,
+    "topicality": 0.7131031155586243
+  }
+]

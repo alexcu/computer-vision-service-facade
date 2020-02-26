@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01y9k5",
-      "description": "desk",
-      "score": 0.9130076169967651,
-      "topicality": 0.9130076169967651
-    },
-    {
-      "mid": "/m/0643t",
-      "description": "personal computer",
-      "score": 0.8836106657981873,
-      "topicality": 0.8836106657981873
-    },
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.7940655946731567,
-      "topicality": 0.7940655946731567
-    },
-    {
-      "mid": "/m/021sj1",
-      "description": "office",
-      "score": 0.7578034996986389,
-      "topicality": 0.7578034996986389
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.7560265064239502,
-      "topicality": 0.7560265064239502
-    },
-    {
-      "mid": "/m/01m3v",
-      "description": "computer",
-      "score": 0.7487092614173889,
-      "topicality": 0.7487092614173889
-    },
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.73484867811203,
-      "topicality": 0.73484867811203
-    },
-    {
-      "mid": "/m/029bm2",
-      "description": "computer desk",
-      "score": 0.7322490215301514,
-      "topicality": 0.7322490215301514
-    },
-    {
-      "mid": "/m/0dvvc",
-      "description": "desktop computer",
-      "score": 0.6808638572692871,
-      "topicality": 0.6808638572692871
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.6566392779350281,
-      "topicality": 0.6566392779350281
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01y9k5",
+    "description": "desk",
+    "score": 0.9130076169967651,
+    "topicality": 0.9130076169967651
+  },
+  {
+    "mid": "/m/0643t",
+    "description": "personal computer",
+    "score": 0.8836106657981873,
+    "topicality": 0.8836106657981873
+  },
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.7940655946731567,
+    "topicality": 0.7940655946731567
+  },
+  {
+    "mid": "/m/021sj1",
+    "description": "office",
+    "score": 0.7578034996986389,
+    "topicality": 0.7578034996986389
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.7560265064239502,
+    "topicality": 0.7560265064239502
+  },
+  {
+    "mid": "/m/01m3v",
+    "description": "computer",
+    "score": 0.7487092614173889,
+    "topicality": 0.7487092614173889
+  },
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.73484867811203,
+    "topicality": 0.73484867811203
+  },
+  {
+    "mid": "/m/029bm2",
+    "description": "computer desk",
+    "score": 0.7322490215301514,
+    "topicality": 0.7322490215301514
+  },
+  {
+    "mid": "/m/0dvvc",
+    "description": "desktop computer",
+    "score": 0.6808638572692871,
+    "topicality": 0.6808638572692871
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.6566392779350281,
+    "topicality": 0.6566392779350281
+  }
+]

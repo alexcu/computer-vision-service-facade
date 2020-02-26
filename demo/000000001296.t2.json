@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02pkb8",
-      "description": "lady",
-      "score": 0.8953210711479187,
-      "topicality": 0.8953210711479187
-    },
-    {
-      "mid": "/m/01f43",
-      "description": "beauty",
-      "score": 0.8638556003570557,
-      "topicality": 0.8638556003570557
-    },
-    {
-      "mid": "/m/06pg22",
-      "description": "snapshot",
-      "score": 0.8250965476036072,
-      "topicality": 0.8250965476036072
-    },
-    {
-      "mid": "/m/0fc1fy",
-      "description": "black hair",
-      "score": 0.75055992603302,
-      "topicality": 0.75055992603302
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.6757805347442627,
-      "topicality": 0.6757805347442627
-    },
-    {
-      "mid": "/m/02mf1n",
-      "description": "gadget",
-      "score": 0.6508008241653442,
-      "topicality": 0.6508008241653442
-    },
-    {
-      "mid": "/m/023j4r",
-      "description": "nail",
-      "score": 0.6338599324226379,
-      "topicality": 0.6338599324226379
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6242249608039856,
-      "topicality": 0.6242249608039856
-    },
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.6098915934562683,
-      "topicality": 0.6098915934562683
-    },
-    {
-      "mid": "/m/0gjxqj",
-      "description": "bangs",
-      "score": 0.5670292377471924,
-      "topicality": 0.5670292377471924
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02pkb8",
+    "description": "lady",
+    "score": 0.8953210711479187,
+    "topicality": 0.8953210711479187
+  },
+  {
+    "mid": "/m/01f43",
+    "description": "beauty",
+    "score": 0.8638556003570557,
+    "topicality": 0.8638556003570557
+  },
+  {
+    "mid": "/m/06pg22",
+    "description": "snapshot",
+    "score": 0.8250965476036072,
+    "topicality": 0.8250965476036072
+  },
+  {
+    "mid": "/m/0fc1fy",
+    "description": "black hair",
+    "score": 0.75055992603302,
+    "topicality": 0.75055992603302
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.6757805347442627,
+    "topicality": 0.6757805347442627
+  },
+  {
+    "mid": "/m/02mf1n",
+    "description": "gadget",
+    "score": 0.6508008241653442,
+    "topicality": 0.6508008241653442
+  },
+  {
+    "mid": "/m/023j4r",
+    "description": "nail",
+    "score": 0.6338599324226379,
+    "topicality": 0.6338599324226379
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6242249608039856,
+    "topicality": 0.6242249608039856
+  },
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.6098915934562683,
+    "topicality": 0.6098915934562683
+  },
+  {
+    "mid": "/m/0gjxqj",
+    "description": "bangs",
+    "score": 0.5670292377471924,
+    "topicality": 0.5670292377471924
+  }
+]

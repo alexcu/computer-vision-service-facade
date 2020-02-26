@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0b3yr",
-      "description": "beach",
-      "score": 0.9500899314880371,
-      "topicality": 0.9500899314880371
-    },
-    {
-      "mid": "/m/01lxd",
-      "description": "coast",
-      "score": 0.94312584400177,
-      "topicality": 0.94312584400177
-    },
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9347615242004395,
-      "topicality": 0.9347615242004395
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.9346346259117126,
-      "topicality": 0.9346346259117126
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9175203442573547,
-      "topicality": 0.9175203442573547
-    },
-    {
-      "mid": "/m/02c9_23",
-      "description": "coastal and oceanic landforms",
-      "score": 0.9156122803688049,
-      "topicality": 0.9156122803688049
-    },
-    {
-      "mid": "/m/02fm9k",
-      "description": "shore",
-      "score": 0.8399558663368225,
-      "topicality": 0.8399558663368225
-    },
-    {
-      "mid": "/m/02r3_7_",
-      "description": "promontory",
-      "score": 0.8303877115249634,
-      "topicality": 0.8303877115249634
-    },
-    {
-      "mid": "/m/099fz",
-      "description": "sand",
-      "score": 0.8154886364936829,
-      "topicality": 0.8154886364936829
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.7691113352775574,
-      "topicality": 0.7691113352775574
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0b3yr",
+    "description": "beach",
+    "score": 0.9500899314880371,
+    "topicality": 0.9500899314880371
+  },
+  {
+    "mid": "/m/01lxd",
+    "description": "coast",
+    "score": 0.94312584400177,
+    "topicality": 0.94312584400177
+  },
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9347615242004395,
+    "topicality": 0.9347615242004395
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.9346346259117126,
+    "topicality": 0.9346346259117126
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9175203442573547,
+    "topicality": 0.9175203442573547
+  },
+  {
+    "mid": "/m/02c9_23",
+    "description": "coastal and oceanic landforms",
+    "score": 0.9156122803688049,
+    "topicality": 0.9156122803688049
+  },
+  {
+    "mid": "/m/02fm9k",
+    "description": "shore",
+    "score": 0.8399558663368225,
+    "topicality": 0.8399558663368225
+  },
+  {
+    "mid": "/m/02r3_7_",
+    "description": "promontory",
+    "score": 0.8303877115249634,
+    "topicality": 0.8303877115249634
+  },
+  {
+    "mid": "/m/099fz",
+    "description": "sand",
+    "score": 0.8154886364936829,
+    "topicality": 0.8154886364936829
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.7691113352775574,
+    "topicality": 0.7691113352775574
+  }
+]

@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0b3fp9",
-      "description": "countertop",
-      "score": 0.9414403438568115,
-      "topicality": 0.9414403438568115
-    },
-    {
-      "mid": "/m/0d4wf",
-      "description": "kitchen",
-      "score": 0.933253824710846,
-      "topicality": 0.933253824710846
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.872546911239624,
-      "topicality": 0.872546911239624
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.6463476419448853,
-      "topicality": 0.6463476419448853
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0b3fp9",
+    "description": "countertop",
+    "score": 0.9414403438568115,
+    "topicality": 0.9414403438568115
+  },
+  {
+    "mid": "/m/0d4wf",
+    "description": "kitchen",
+    "score": 0.933253824710846,
+    "topicality": 0.933253824710846
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.872546911239624,
+    "topicality": 0.872546911239624
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.6463476419448853,
+    "topicality": 0.6463476419448853
+  }
+]

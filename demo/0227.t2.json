@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9424964785575867,
-      "topicality": 0.9424964785575867
-    },
-    {
-      "mid": "/m/02lgjk",
-      "description": "pimiento",
-      "score": 0.9210761189460754,
-      "topicality": 0.9210761189460754
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.8880667090415955,
-      "topicality": 0.8880667090415955
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.8791685700416565,
-      "topicality": 0.8791685700416565
-    },
-    {
-      "mid": "/m/05f725",
-      "description": "leaf vegetable",
-      "score": 0.8729041814804077,
-      "topicality": 0.8729041814804077
-    },
-    {
-      "mid": "/m/0f4s2w",
-      "description": "vegetable",
-      "score": 0.8547797203063965,
-      "topicality": 0.8547797203063965
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.8264793157577515,
-      "topicality": 0.8264793157577515
-    },
-    {
-      "mid": "/m/0bn7bg",
-      "description": "cruciferous vegetables",
-      "score": 0.817870020866394,
-      "topicality": 0.817870020866394
-    },
-    {
-      "mid": "/m/07_lq",
-      "description": "vegetarian food",
-      "score": 0.7860321402549744,
-      "topicality": 0.7860321402549744
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.7814560532569885,
-      "topicality": 0.7814560532569885
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9424964785575867,
+    "topicality": 0.9424964785575867
+  },
+  {
+    "mid": "/m/02lgjk",
+    "description": "pimiento",
+    "score": 0.9210761189460754,
+    "topicality": 0.9210761189460754
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.8880667090415955,
+    "topicality": 0.8880667090415955
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.8791685700416565,
+    "topicality": 0.8791685700416565
+  },
+  {
+    "mid": "/m/05f725",
+    "description": "leaf vegetable",
+    "score": 0.8729041814804077,
+    "topicality": 0.8729041814804077
+  },
+  {
+    "mid": "/m/0f4s2w",
+    "description": "vegetable",
+    "score": 0.8547797203063965,
+    "topicality": 0.8547797203063965
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.8264793157577515,
+    "topicality": 0.8264793157577515
+  },
+  {
+    "mid": "/m/0bn7bg",
+    "description": "cruciferous vegetables",
+    "score": 0.817870020866394,
+    "topicality": 0.817870020866394
+  },
+  {
+    "mid": "/m/07_lq",
+    "description": "vegetarian food",
+    "score": 0.7860321402549744,
+    "topicality": 0.7860321402549744
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.7814560532569885,
+    "topicality": 0.7814560532569885
+  }
+]

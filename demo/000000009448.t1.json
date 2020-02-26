@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01g5v",
-      "description": "blue",
-      "score": 0.9683875441551208,
-      "topicality": 0.9683875441551208
-    },
-    {
-      "mid": "/m/06fvc",
-      "description": "red",
-      "score": 0.95950847864151,
-      "topicality": 0.95950847864151
-    },
-    {
-      "mid": "/m/01fklc",
-      "description": "pink",
-      "score": 0.9529456496238708,
-      "topicality": 0.9529456496238708
-    },
-    {
-      "mid": "/m/09ggk",
-      "description": "purple",
-      "score": 0.9278383851051331,
-      "topicality": 0.9278383851051331
-    },
-    {
-      "mid": "/m/0463sg",
-      "description": "fashion accessory",
-      "score": 0.8586843013763428,
-      "topicality": 0.8586843013763428
-    },
-    {
-      "mid": "/m/01f43",
-      "description": "beauty",
-      "score": 0.8560190200805664,
-      "topicality": 0.8560190200805664
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.8535555601119995,
-      "topicality": 0.8535555601119995
-    },
-    {
-      "mid": "/m/05r655",
-      "description": "girl",
-      "score": 0.8530946373939514,
-      "topicality": 0.8530946373939514
-    },
-    {
-      "mid": "/m/0ytgt",
-      "description": "child",
-      "score": 0.7971981167793274,
-      "topicality": 0.7971981167793274
-    },
-    {
-      "mid": "/m/019nj4",
-      "description": "smile",
-      "score": 0.6709228754043579,
-      "topicality": 0.6709228754043579
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01g5v",
+    "description": "blue",
+    "score": 0.9683875441551208,
+    "topicality": 0.9683875441551208
+  },
+  {
+    "mid": "/m/06fvc",
+    "description": "red",
+    "score": 0.95950847864151,
+    "topicality": 0.95950847864151
+  },
+  {
+    "mid": "/m/01fklc",
+    "description": "pink",
+    "score": 0.9529456496238708,
+    "topicality": 0.9529456496238708
+  },
+  {
+    "mid": "/m/09ggk",
+    "description": "purple",
+    "score": 0.9278383851051331,
+    "topicality": 0.9278383851051331
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.9169571801583929,
+    "topicality": 0.9169571801583929
+  },
+  {
+    "mid": "/m/0463sg",
+    "description": "fashion accessory",
+    "score": 0.8586843013763428,
+    "topicality": 0.8586843013763428
+  },
+  {
+    "mid": "/m/01f43",
+    "description": "beauty",
+    "score": 0.8560190200805664,
+    "topicality": 0.8560190200805664
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.8535555601119995,
+    "topicality": 0.8535555601119995
+  },
+  {
+    "mid": "/m/05r655",
+    "description": "girl",
+    "score": 0.8530946373939514,
+    "topicality": 0.8530946373939514
+  },
+  {
+    "mid": "/m/0ytgt",
+    "description": "child",
+    "score": 0.7971981167793274,
+    "topicality": 0.7971981167793274
+  },
+  {
+    "mid": "/m/019nj4",
+    "description": "smile",
+    "score": 0.6709228754043579,
+    "topicality": 0.6709228754043579
+  }
+]

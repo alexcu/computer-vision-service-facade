@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01yjfd",
-      "description": "japanese architecture",
-      "score": 0.9126919507980347,
-      "topicality": 0.9126919507980347
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.9022051095962524,
-      "topicality": 0.9022051095962524
-    },
-    {
-      "mid": "/m/01l0mw",
-      "description": "home",
-      "score": 0.8451837301254272,
-      "topicality": 0.8451837301254272
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7938843965530396,
-      "topicality": 0.7938843965530396
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.7588815093040466,
-      "topicality": 0.7588815093040466
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.7242810726165771,
-      "topicality": 0.7242810726165771
-    },
-    {
-      "mid": "/m/038t8_",
-      "description": "estate",
-      "score": 0.6347663402557373,
-      "topicality": 0.6347663402557373
-    },
-    {
-      "mid": "/m/023907r",
-      "description": "real estate",
-      "score": 0.6240618228912354,
-      "topicality": 0.6240618228912354
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.6064848303794861,
-      "topicality": 0.6064848303794861
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.5920050740242004,
-      "topicality": 0.5920050740242004
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01yjfd",
+    "description": "japanese architecture",
+    "score": 0.9126919507980347,
+    "topicality": 0.9126919507980347
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.9022051095962524,
+    "topicality": 0.9022051095962524
+  },
+  {
+    "mid": "/m/01l0mw",
+    "description": "home",
+    "score": 0.8451837301254272,
+    "topicality": 0.8451837301254272
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7938843965530396,
+    "topicality": 0.7938843965530396
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.7588815093040466,
+    "topicality": 0.7588815093040466
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.7242810726165771,
+    "topicality": 0.7242810726165771
+  },
+  {
+    "mid": "/m/038t8_",
+    "description": "estate",
+    "score": 0.6347663402557373,
+    "topicality": 0.6347663402557373
+  },
+  {
+    "mid": "/m/023907r",
+    "description": "real estate",
+    "score": 0.6240618228912354,
+    "topicality": 0.6240618228912354
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.6064848303794861,
+    "topicality": 0.6064848303794861
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.5920050740242004,
+    "topicality": 0.5920050740242004
+  }
+]

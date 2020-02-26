@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03__z0",
-      "description": "bookcase",
-      "score": 0.9835521578788757,
-      "topicality": 0.9835521578788757
-    },
-    {
-      "mid": "/m/0h8n982",
-      "description": "shelving",
-      "score": 0.9807467460632324,
-      "topicality": 0.9807467460632324
-    },
-    {
-      "mid": "/m/04h8h",
-      "description": "library",
-      "score": 0.9796409606933594,
-      "topicality": 0.9796409606933594
-    },
-    {
-      "mid": "/m/0bt_c3",
-      "description": "book",
-      "score": 0.9715771675109863,
-      "topicality": 0.9715771675109863
-    },
-    {
-      "mid": "/m/0gjbg72",
-      "description": "shelf",
-      "score": 0.9699769020080566,
-      "topicality": 0.9699769020080566
-    },
-    {
-      "mid": "/m/08hnjb",
-      "description": "bookselling",
-      "score": 0.9412171244621277,
-      "topicality": 0.9412171244621277
-    },
-    {
-      "mid": "/m/01h1dd",
-      "description": "publication",
-      "score": 0.9405917525291443,
-      "topicality": 0.9405917525291443
-    },
-    {
-      "mid": "/m/018w1s",
-      "description": "public library",
-      "score": 0.8746916651725769,
-      "topicality": 0.8746916651725769
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8333935141563416,
-      "topicality": 0.8333935141563416
-    },
-    {
-      "mid": "/m/0191_7",
-      "description": "retail",
-      "score": 0.7927219867706299,
-      "topicality": 0.7927219867706299
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03__z0",
+    "description": "bookcase",
+    "score": 0.9835521578788757,
+    "topicality": 0.9835521578788757
+  },
+  {
+    "mid": "/m/0h8n982",
+    "description": "shelving",
+    "score": 0.9807467460632324,
+    "topicality": 0.9807467460632324
+  },
+  {
+    "mid": "/m/04h8h",
+    "description": "library",
+    "score": 0.9796409606933594,
+    "topicality": 0.9796409606933594
+  },
+  {
+    "mid": "/m/0bt_c3",
+    "description": "book",
+    "score": 0.9715771675109863,
+    "topicality": 0.9715771675109863
+  },
+  {
+    "mid": "/m/0gjbg72",
+    "description": "shelf",
+    "score": 0.9699769020080566,
+    "topicality": 0.9699769020080566
+  },
+  {
+    "mid": "/m/08hnjb",
+    "description": "bookselling",
+    "score": 0.9412171244621277,
+    "topicality": 0.9412171244621277
+  },
+  {
+    "mid": "/m/01h1dd",
+    "description": "publication",
+    "score": 0.9405917525291443,
+    "topicality": 0.9405917525291443
+  },
+  {
+    "mid": "/m/018w1s",
+    "description": "public library",
+    "score": 0.8746916651725769,
+    "topicality": 0.8746916651725769
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8333935141563416,
+    "topicality": 0.8333935141563416
+  },
+  {
+    "mid": "/m/0191_7",
+    "description": "retail",
+    "score": 0.7927219867706299,
+    "topicality": 0.7927219867706299
+  }
+]

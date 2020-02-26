@@ -1,28 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.5588493347167969,
-      "topicality": 0.5588493347167969
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.555023729801178,
-      "topicality": 0.555023729801178
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.5312003493309021,
-      "topicality": 0.5312003493309021
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.5310609936714172,
-      "topicality": 0.5310609936714172
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/synthesized",
+    "description": "vehicle",
+    "score": 0.8653334197170622,
+    "topicality": 0.8653334197170622
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.5588493347167969,
+    "topicality": 0.5588493347167969
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.555023729801178,
+    "topicality": 0.555023729801178
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.5312003493309021,
+    "topicality": 0.5312003493309021
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.5310609936714172,
+    "topicality": 0.5310609936714172
+  }
+]

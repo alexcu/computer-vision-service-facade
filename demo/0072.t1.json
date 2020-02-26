@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8923643231391907,
-      "topicality": 0.8923643231391907
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.8666170835494995,
-      "topicality": 0.8666170835494995
-    },
-    {
-      "mid": "/m/01lxd",
-      "description": "coast",
-      "score": 0.8360340595245361,
-      "topicality": 0.8360340595245361
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.75294029712677,
-      "topicality": 0.75294029712677
-    },
-    {
-      "mid": "/m/025tn5c",
-      "description": "terrain",
-      "score": 0.7437613606452942,
-      "topicality": 0.7437613606452942
-    },
-    {
-      "mid": "/m/018vpr",
-      "description": "cliff",
-      "score": 0.7053796648979187,
-      "topicality": 0.7053796648979187
-    },
-    {
-      "mid": "/m/03k5cs",
-      "description": "formation",
-      "score": 0.6828699707984924,
-      "topicality": 0.6828699707984924
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.6491274833679199,
-      "topicality": 0.6491274833679199
-    },
-    {
-      "mid": "/m/02r3_7_",
-      "description": "promontory",
-      "score": 0.6339577436447144,
-      "topicality": 0.6339577436447144
-    },
-    {
-      "mid": "/m/018vs6",
-      "description": "escarpment",
-      "score": 0.6195170283317566,
-      "topicality": 0.6195170283317566
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8923643231391907,
+    "topicality": 0.8923643231391907
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.8666170835494995,
+    "topicality": 0.8666170835494995
+  },
+  {
+    "mid": "/m/01lxd",
+    "description": "coast",
+    "score": 0.8360340595245361,
+    "topicality": 0.8360340595245361
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.75294029712677,
+    "topicality": 0.75294029712677
+  },
+  {
+    "mid": "/m/025tn5c",
+    "description": "terrain",
+    "score": 0.7437613606452942,
+    "topicality": 0.7437613606452942
+  },
+  {
+    "mid": "/m/018vpr",
+    "description": "cliff",
+    "score": 0.7053796648979187,
+    "topicality": 0.7053796648979187
+  },
+  {
+    "mid": "/m/03k5cs",
+    "description": "formation",
+    "score": 0.6828699707984924,
+    "topicality": 0.6828699707984924
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.6491274833679199,
+    "topicality": 0.6491274833679199
+  },
+  {
+    "mid": "/m/02r3_7_",
+    "description": "promontory",
+    "score": 0.6339577436447144,
+    "topicality": 0.6339577436447144
+  },
+  {
+    "mid": "/m/018vs6",
+    "description": "escarpment",
+    "score": 0.6195170283317566,
+    "topicality": 0.6195170283317566
+  }
+]

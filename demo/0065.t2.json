@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/013sbk",
-      "description": "aquatic plant",
-      "score": 0.9466124773025513,
-      "topicality": 0.9466124773025513
-    },
-    {
-      "mid": "/m/0c9ph5",
-      "description": "flower",
-      "score": 0.9447938203811646,
-      "topicality": 0.9447938203811646
-    },
-    {
-      "mid": "/m/0184rb",
-      "description": "pond",
-      "score": 0.907218873500824,
-      "topicality": 0.907218873500824
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.8989560604095459,
-      "topicality": 0.8989560604095459
-    },
-    {
-      "mid": "/m/0hqvc",
-      "description": "water lily",
-      "score": 0.8764594793319702,
-      "topicality": 0.8764594793319702
-    },
-    {
-      "mid": "/m/01bwr",
-      "description": "botany",
-      "score": 0.8645974397659302,
-      "topicality": 0.8645974397659302
-    },
-    {
-      "mid": "/m/069cxm",
-      "description": "lotus family",
-      "score": 0.8527294993400574,
-      "topicality": 0.8527294993400574
-    },
-    {
-      "mid": "/m/0bl0l",
-      "description": "garden",
-      "score": 0.7983546853065491,
-      "topicality": 0.7983546853065491
-    },
-    {
-      "mid": "/m/0j2hg",
-      "description": "botanical garden",
-      "score": 0.7828971147537231,
-      "topicality": 0.7828971147537231
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.7594611644744873,
-      "topicality": 0.7594611644744873
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/013sbk",
+    "description": "aquatic plant",
+    "score": 0.9466124773025513,
+    "topicality": 0.9466124773025513
+  },
+  {
+    "mid": "/m/0c9ph5",
+    "description": "flower",
+    "score": 0.9447938203811646,
+    "topicality": 0.9447938203811646
+  },
+  {
+    "mid": "/m/0184rb",
+    "description": "pond",
+    "score": 0.907218873500824,
+    "topicality": 0.907218873500824
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.8989560604095459,
+    "topicality": 0.8989560604095459
+  },
+  {
+    "mid": "/m/0hqvc",
+    "description": "water lily",
+    "score": 0.8764594793319702,
+    "topicality": 0.8764594793319702
+  },
+  {
+    "mid": "/m/01bwr",
+    "description": "botany",
+    "score": 0.8645974397659302,
+    "topicality": 0.8645974397659302
+  },
+  {
+    "mid": "/m/069cxm",
+    "description": "lotus family",
+    "score": 0.8527294993400574,
+    "topicality": 0.8527294993400574
+  },
+  {
+    "mid": "/m/0bl0l",
+    "description": "garden",
+    "score": 0.7983546853065491,
+    "topicality": 0.7983546853065491
+  },
+  {
+    "mid": "/m/0j2hg",
+    "description": "botanical garden",
+    "score": 0.7828971147537231,
+    "topicality": 0.7828971147537231
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.7594611644744873,
+    "topicality": 0.7594611644744873
+  }
+]

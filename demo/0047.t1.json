@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9408462643623352,
-      "topicality": 0.9408462643623352
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9142370820045471,
-      "topicality": 0.9142370820045471
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.8961840271949768,
-      "topicality": 0.8961840271949768
-    },
-    {
-      "mid": "/m/03kj4q",
-      "description": "watercourse",
-      "score": 0.8817630410194397,
-      "topicality": 0.8817630410194397
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.8642593026161194,
-      "topicality": 0.8642593026161194
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.8550419211387634,
-      "topicality": 0.8550419211387634
-    },
-    {
-      "mid": "/m/0j6m2",
-      "description": "stream",
-      "score": 0.8440240621566772,
-      "topicality": 0.8440240621566772
-    },
-    {
-      "mid": "/m/01v4lt",
-      "description": "arch bridge",
-      "score": 0.7801761627197266,
-      "topicality": 0.7801761627197266
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.7787474393844604,
-      "topicality": 0.7787474393844604
-    },
-    {
-      "mid": "/m/015kr",
-      "description": "bridge",
-      "score": 0.7305871248245239,
-      "topicality": 0.7305871248245239
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9408462643623352,
+    "topicality": 0.9408462643623352
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9142370820045471,
+    "topicality": 0.9142370820045471
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.8961840271949768,
+    "topicality": 0.8961840271949768
+  },
+  {
+    "mid": "/m/03kj4q",
+    "description": "watercourse",
+    "score": 0.8817630410194397,
+    "topicality": 0.8817630410194397
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.8642593026161194,
+    "topicality": 0.8642593026161194
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.8550419211387634,
+    "topicality": 0.8550419211387634
+  },
+  {
+    "mid": "/m/0j6m2",
+    "description": "stream",
+    "score": 0.8440240621566772,
+    "topicality": 0.8440240621566772
+  },
+  {
+    "mid": "/m/01v4lt",
+    "description": "arch bridge",
+    "score": 0.7801761627197266,
+    "topicality": 0.7801761627197266
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.7787474393844604,
+    "topicality": 0.7787474393844604
+  },
+  {
+    "mid": "/m/015kr",
+    "description": "bridge",
+    "score": 0.7305871248245239,
+    "topicality": 0.7305871248245239
+  }
+]

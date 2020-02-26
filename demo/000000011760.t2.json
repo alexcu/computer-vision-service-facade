@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0898b",
-      "description": "zebra",
-      "score": 0.9948734045028687,
-      "topicality": 0.9948734045028687
-    },
-    {
-      "mid": "/m/09686",
-      "description": "vertebrate",
-      "score": 0.9851104021072388,
-      "topicality": 0.9851104021072388
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9839575290679932,
-      "topicality": 0.9839575290679932
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9741635322570801,
-      "topicality": 0.9741635322570801
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9705943465232849,
-      "topicality": 0.9705943465232849
-    },
-    {
-      "mid": "/m/01c7d3",
-      "description": "savanna",
-      "score": 0.7598132491111755,
-      "topicality": 0.7598132491111755
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7469744682312012,
-      "topicality": 0.7469744682312012
-    },
-    {
-      "mid": "/m/03vd46",
-      "description": "herd",
-      "score": 0.7308181524276733,
-      "topicality": 0.7308181524276733
-    },
-    {
-      "mid": "/m/03r_vp",
-      "description": "adaptation",
-      "score": 0.6696612238883972,
-      "topicality": 0.6696612238883972
-    },
-    {
-      "mid": "/m/089v3",
-      "description": "zoo",
-      "score": 0.6664819717407227,
-      "topicality": 0.6664819717407227
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0898b",
+    "description": "zebra",
+    "score": 0.9948734045028687,
+    "topicality": 0.9948734045028687
+  },
+  {
+    "mid": "/m/09686",
+    "description": "vertebrate",
+    "score": 0.9851104021072388,
+    "topicality": 0.9851104021072388
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9839575290679932,
+    "topicality": 0.9839575290679932
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9741635322570801,
+    "topicality": 0.9741635322570801
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9705943465232849,
+    "topicality": 0.9705943465232849
+  },
+  {
+    "mid": "/m/01c7d3",
+    "description": "savanna",
+    "score": 0.7598132491111755,
+    "topicality": 0.7598132491111755
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7469744682312012,
+    "topicality": 0.7469744682312012
+  },
+  {
+    "mid": "/m/03vd46",
+    "description": "herd",
+    "score": 0.7308181524276733,
+    "topicality": 0.7308181524276733
+  },
+  {
+    "mid": "/m/03r_vp",
+    "description": "adaptation",
+    "score": 0.6696612238883972,
+    "topicality": 0.6696612238883972
+  },
+  {
+    "mid": "/m/089v3",
+    "description": "zoo",
+    "score": 0.6664819717407227,
+    "topicality": 0.6664819717407227
+  }
+]

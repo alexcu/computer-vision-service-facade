@@ -1,28 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/088fh",
-      "description": "yellow",
-      "score": 0.9406352639198303,
-      "topicality": 0.9406352639198303
-    },
-    {
-      "mid": "/m/02n3pb",
-      "description": "product",
-      "score": 0.8522055149078369,
-      "topicality": 0.8522055149078369
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.7193193435668945,
-      "topicality": 0.7193193435668945
-    },
-    {
-      "mid": "/m/03gq5hm",
-      "description": "font",
-      "score": 0.567328155040741,
-      "topicality": 0.567328155040741
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/088fh",
+    "description": "yellow",
+    "score": 0.9406352639198303,
+    "topicality": 0.9406352639198303
+  },
+  {
+    "mid": "/m/02n3pb",
+    "description": "product",
+    "score": 0.8522055149078369,
+    "topicality": 0.8522055149078369
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "food",
+    "score": 0.8271306391716944,
+    "topicality": 0.8271306391716944
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.7193193435668945,
+    "topicality": 0.7193193435668945
+  },
+  {
+    "mid": "/m/03gq5hm",
+    "description": "font",
+    "score": 0.567328155040741,
+    "topicality": 0.567328155040741
+  }
+]

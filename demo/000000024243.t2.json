@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02pkb8",
-      "description": "lady",
-      "score": 0.8778034448623657,
-      "topicality": 0.8778034448623657
-    },
-    {
-      "mid": "/m/02wzbmj",
-      "description": "standing",
-      "score": 0.866028904914856,
-      "topicality": 0.866028904914856
-    },
-    {
-      "mid": "/m/035r7c",
-      "description": "leg",
-      "score": 0.8608784675598145,
-      "topicality": 0.8608784675598145
-    },
-    {
-      "mid": "/m/06pg22",
-      "description": "snapshot",
-      "score": 0.8523098826408386,
-      "topicality": 0.8523098826408386
-    },
-    {
-      "mid": "/m/032tl",
-      "description": "fashion",
-      "score": 0.8283734917640686,
-      "topicality": 0.8283734917640686
-    },
-    {
-      "mid": "/m/09j5n",
-      "description": "footwear",
-      "score": 0.809019148349762,
-      "topicality": 0.809019148349762
-    },
-    {
-      "mid": "/m/09w5r",
-      "description": "human leg",
-      "score": 0.7813133001327515,
-      "topicality": 0.7813133001327515
-    },
-    {
-      "mid": "/m/0294jb",
-      "description": "blond",
-      "score": 0.7617785334587097,
-      "topicality": 0.7617785334587097
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.7497134804725647,
-      "topicality": 0.7497134804725647
-    },
-    {
-      "mid": "/m/0408t8_",
-      "description": "street fashion",
-      "score": 0.6962435245513916,
-      "topicality": 0.6962435245513916
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02pkb8",
+    "description": "lady",
+    "score": 0.8778034448623657,
+    "topicality": 0.8778034448623657
+  },
+  {
+    "mid": "/m/02wzbmj",
+    "description": "standing",
+    "score": 0.866028904914856,
+    "topicality": 0.866028904914856
+  },
+  {
+    "mid": "/m/035r7c",
+    "description": "leg",
+    "score": 0.8608784675598145,
+    "topicality": 0.8608784675598145
+  },
+  {
+    "mid": "/m/06pg22",
+    "description": "snapshot",
+    "score": 0.8523098826408386,
+    "topicality": 0.8523098826408386
+  },
+  {
+    "mid": "/m/032tl",
+    "description": "fashion",
+    "score": 0.8283734917640686,
+    "topicality": 0.8283734917640686
+  },
+  {
+    "mid": "/m/09j5n",
+    "description": "footwear",
+    "score": 0.809019148349762,
+    "topicality": 0.809019148349762
+  },
+  {
+    "mid": "/m/09w5r",
+    "description": "human leg",
+    "score": 0.7813133001327515,
+    "topicality": 0.7813133001327515
+  },
+  {
+    "mid": "/m/0294jb",
+    "description": "blond",
+    "score": 0.7617785334587097,
+    "topicality": 0.7617785334587097
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.7497134804725647,
+    "topicality": 0.7497134804725647
+  },
+  {
+    "mid": "/m/0408t8_",
+    "description": "street fashion",
+    "score": 0.6962435245513916,
+    "topicality": 0.6962435245513916
+  }
+]

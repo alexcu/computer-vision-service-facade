@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.7551554441452026,
-      "topicality": 0.7551554441452026
-    },
-    {
-      "mid": "/m/0gmk4",
-      "description": "mosaic",
-      "score": 0.7141092419624329,
-      "topicality": 0.7141092419624329
-    },
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.5700047016143799,
-      "topicality": 0.5700047016143799
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.5514788627624512,
-      "topicality": 0.5514788627624512
-    },
-    {
-      "mid": "/m/044p4l",
-      "description": "baptistery",
-      "score": 0.5165361166000366,
-      "topicality": 0.5165361166000366
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.5088438391685486,
-      "topicality": 0.5088438391685486
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.7551554441452026,
+    "topicality": 0.7551554441452026
+  },
+  {
+    "mid": "/m/0gmk4",
+    "description": "mosaic",
+    "score": 0.7141092419624329,
+    "topicality": 0.7141092419624329
+  },
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.5700047016143799,
+    "topicality": 0.5700047016143799
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.5514788627624512,
+    "topicality": 0.5514788627624512
+  },
+  {
+    "mid": "/m/044p4l",
+    "description": "baptistery",
+    "score": 0.5165361166000366,
+    "topicality": 0.5165361166000366
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.5088438391685486,
+    "topicality": 0.5088438391685486
+  }
+]

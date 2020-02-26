@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9476690888404846,
-      "topicality": 0.9476690888404846
-    },
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.9044680595397949,
-      "topicality": 0.9044680595397949
-    },
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.8325406908988953,
-      "topicality": 0.8325406908988953
-    },
-    {
-      "mid": "/m/051rmm",
-      "description": "steeple",
-      "score": 0.8079577088356018,
-      "topicality": 0.8079577088356018
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.77204430103302,
-      "topicality": 0.77204430103302
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.7325547933578491,
-      "topicality": 0.7325547933578491
-    },
-    {
-      "mid": "/m/0173tc",
-      "description": "chapel",
-      "score": 0.7028862833976746,
-      "topicality": 0.7028862833976746
-    },
-    {
-      "mid": "/m/01wb7",
-      "description": "church",
-      "score": 0.698457658290863,
-      "topicality": 0.698457658290863
-    },
-    {
-      "mid": "/m/02wc6z",
-      "description": "bell tower",
-      "score": 0.6865297555923462,
-      "topicality": 0.6865297555923462
-    },
-    {
-      "mid": "/m/01fdzj",
-      "description": "tower",
-      "score": 0.6526608467102051,
-      "topicality": 0.6526608467102051
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9476690888404846,
+    "topicality": 0.9476690888404846
+  },
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.9044680595397949,
+    "topicality": 0.9044680595397949
+  },
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.8325406908988953,
+    "topicality": 0.8325406908988953
+  },
+  {
+    "mid": "/m/051rmm",
+    "description": "steeple",
+    "score": 0.8079577088356018,
+    "topicality": 0.8079577088356018
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.77204430103302,
+    "topicality": 0.77204430103302
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.7325547933578491,
+    "topicality": 0.7325547933578491
+  },
+  {
+    "mid": "/m/0173tc",
+    "description": "chapel",
+    "score": 0.7028862833976746,
+    "topicality": 0.7028862833976746
+  },
+  {
+    "mid": "/m/01wb7",
+    "description": "church",
+    "score": 0.698457658290863,
+    "topicality": 0.698457658290863
+  },
+  {
+    "mid": "/m/02wc6z",
+    "description": "bell tower",
+    "score": 0.6865297555923462,
+    "topicality": 0.6865297555923462
+  },
+  {
+    "mid": "/m/01fdzj",
+    "description": "tower",
+    "score": 0.6526608467102051,
+    "topicality": 0.6526608467102051
+  }
+]

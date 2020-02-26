@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/096mb",
-      "description": "lion",
-      "score": 0.907139241695404,
-      "topicality": 0.907139241695404
-    },
-    {
-      "mid": "/m/0307l",
-      "description": "felidae",
-      "score": 0.8334167003631592,
-      "topicality": 0.8334167003631592
-    },
-    {
-      "mid": "/m/0cdnk",
-      "description": "big cats",
-      "score": 0.8248947858810425,
-      "topicality": 0.8248947858810425
-    },
-    {
-      "mid": "/m/012m47",
-      "description": "chinese new year",
-      "score": 0.8042413592338562,
-      "topicality": 0.8042413592338562
-    },
-    {
-      "mid": "/m/081pkj",
-      "description": "event",
-      "score": 0.6704323887825012,
-      "topicality": 0.6704323887825012
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.6566392779350281,
-      "topicality": 0.6566392779350281
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/096mb",
+    "description": "lion",
+    "score": 0.907139241695404,
+    "topicality": 0.907139241695404
+  },
+  {
+    "mid": "/m/0307l",
+    "description": "felidae",
+    "score": 0.8334167003631592,
+    "topicality": 0.8334167003631592
+  },
+  {
+    "mid": "/m/0cdnk",
+    "description": "big cats",
+    "score": 0.8248947858810425,
+    "topicality": 0.8248947858810425
+  },
+  {
+    "mid": "/m/012m47",
+    "description": "chinese new year",
+    "score": 0.8042413592338562,
+    "topicality": 0.8042413592338562
+  },
+  {
+    "mid": "/m/081pkj",
+    "description": "event",
+    "score": 0.6704323887825012,
+    "topicality": 0.6704323887825012
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.6566392779350281,
+    "topicality": 0.6566392779350281
+  }
+]

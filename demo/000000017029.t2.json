@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01z5f",
-      "description": "canidae",
-      "score": 0.9171384572982788,
-      "topicality": 0.9171384572982788
-    },
-    {
-      "mid": "/m/0bt9lr",
-      "description": "dog",
-      "score": 0.9143111109733582,
-      "topicality": 0.9143111109733582
-    },
-    {
-      "mid": "/m/01lrl",
-      "description": "carnivore",
-      "score": 0.8010256886482239,
-      "topicality": 0.8010256886482239
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7783679962158203,
-      "topicality": 0.7783679962158203
-    },
-    {
-      "mid": "/m/0265rtm",
-      "description": "sporting group",
-      "score": 0.7455107569694519,
-      "topicality": 0.7455107569694519
-    },
-    {
-      "mid": "/m/08gl4z",
-      "description": "dutch shepherd dog",
-      "score": 0.7381336688995361,
-      "topicality": 0.7381336688995361
-    },
-    {
-      "mid": "/m/06z_nw",
-      "description": "tail",
-      "score": 0.7263851761817932,
-      "topicality": 0.7263851761817932
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6244105100631714,
-      "topicality": 0.6244105100631714
-    },
-    {
-      "mid": "/m/0kpmf",
-      "description": "dog breed",
-      "score": 0.6155089735984802,
-      "topicality": 0.6155089735984802
-    },
-    {
-      "mid": "/m/0df_n8",
-      "description": "frisbee games",
-      "score": 0.5004873871803284,
-      "topicality": 0.5004873871803284
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01z5f",
+    "description": "canidae",
+    "score": 0.9171384572982788,
+    "topicality": 0.9171384572982788
+  },
+  {
+    "mid": "/m/0bt9lr",
+    "description": "dog",
+    "score": 0.9143111109733582,
+    "topicality": 0.9143111109733582
+  },
+  {
+    "mid": "/m/01lrl",
+    "description": "carnivore",
+    "score": 0.8010256886482239,
+    "topicality": 0.8010256886482239
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7783679962158203,
+    "topicality": 0.7783679962158203
+  },
+  {
+    "mid": "/m/0265rtm",
+    "description": "sporting group",
+    "score": 0.7455107569694519,
+    "topicality": 0.7455107569694519
+  },
+  {
+    "mid": "/m/08gl4z",
+    "description": "dutch shepherd dog",
+    "score": 0.7381336688995361,
+    "topicality": 0.7381336688995361
+  },
+  {
+    "mid": "/m/06z_nw",
+    "description": "tail",
+    "score": 0.7263851761817932,
+    "topicality": 0.7263851761817932
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6244105100631714,
+    "topicality": 0.6244105100631714
+  },
+  {
+    "mid": "/m/0kpmf",
+    "description": "dog breed",
+    "score": 0.6155089735984802,
+    "topicality": 0.6155089735984802
+  },
+  {
+    "mid": "/m/0df_n8",
+    "description": "frisbee games",
+    "score": 0.5004873871803284,
+    "topicality": 0.5004873871803284
+  }
+]

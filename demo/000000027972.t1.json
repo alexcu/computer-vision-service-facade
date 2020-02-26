@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06_g7",
-      "description": "surfing",
-      "score": 0.9768190979957581,
-      "topicality": 0.9768190979957581
-    },
-    {
-      "mid": "/m/0bq66hh",
-      "description": "surfing equipment and supplies",
-      "score": 0.9700886011123657,
-      "topicality": 0.9700886011123657
-    },
-    {
-      "mid": "/m/019w40",
-      "description": "surfboard",
-      "score": 0.9643539786338806,
-      "topicality": 0.9643539786338806
-    },
-    {
-      "mid": "/m/02p0sll",
-      "description": "wave",
-      "score": 0.9570608139038086,
-      "topicality": 0.9570608139038086
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9349448680877686,
-      "topicality": 0.9349448680877686
-    },
-    {
-      "mid": "/m/0dxnmb",
-      "description": "surface water sports",
-      "score": 0.9085138440132141,
-      "topicality": 0.9085138440132141
-    },
-    {
-      "mid": "/m/09qkx",
-      "description": "boardsport",
-      "score": 0.898977518081665,
-      "topicality": 0.898977518081665
-    },
-    {
-      "mid": "/m/04g3r",
-      "description": "leisure",
-      "score": 0.8821246027946472,
-      "topicality": 0.8821246027946472
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.8550450801849365,
-      "topicality": 0.8550450801849365
-    },
-    {
-      "mid": "/m/034srq",
-      "description": "wind wave",
-      "score": 0.8325227499008179,
-      "topicality": 0.8325227499008179
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06_g7",
+    "description": "surfing",
+    "score": 0.9768190979957581,
+    "topicality": 0.9768190979957581
+  },
+  {
+    "mid": "/m/0bq66hh",
+    "description": "surfing equipment and supplies",
+    "score": 0.9700886011123657,
+    "topicality": 0.9700886011123657
+  },
+  {
+    "mid": "/m/019w40",
+    "description": "surfboard",
+    "score": 0.9643539786338806,
+    "topicality": 0.9643539786338806
+  },
+  {
+    "mid": "/m/02p0sll",
+    "description": "wave",
+    "score": 0.9570608139038086,
+    "topicality": 0.9570608139038086
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9349448680877686,
+    "topicality": 0.9349448680877686
+  },
+  {
+    "mid": "/m/0dxnmb",
+    "description": "surface water sports",
+    "score": 0.9085138440132141,
+    "topicality": 0.9085138440132141
+  },
+  {
+    "mid": "/m/09qkx",
+    "description": "boardsport",
+    "score": 0.898977518081665,
+    "topicality": 0.898977518081665
+  },
+  {
+    "mid": "/m/04g3r",
+    "description": "leisure",
+    "score": 0.8821246027946472,
+    "topicality": 0.8821246027946472
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.8550450801849365,
+    "topicality": 0.8550450801849365
+  },
+  {
+    "mid": "/m/034srq",
+    "description": "wind wave",
+    "score": 0.8325227499008179,
+    "topicality": 0.8325227499008179
+  }
+]

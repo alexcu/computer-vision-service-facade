@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.7328993678092957,
-      "topicality": 0.7328993678092957
-    },
-    {
-      "mid": "/m/02cwm",
-      "description": "design",
-      "score": 0.7203227281570435,
-      "topicality": 0.7203227281570435
-    },
-    {
-      "mid": "/m/0dnr7",
-      "description": "textile",
-      "score": 0.7036221623420715,
-      "topicality": 0.7036221623420715
-    },
-    {
-      "mid": "/m/0641k",
-      "description": "paper",
-      "score": 0.6421319842338562,
-      "topicality": 0.6421319842338562
-    },
-    {
-      "mid": "/m/01kr8f",
-      "description": "illustration",
-      "score": 0.6402102112770081,
-      "topicality": 0.6402102112770081
-    },
-    {
-      "mid": "/m/01cndb",
-      "description": "stationery",
-      "score": 0.5733395218849182,
-      "topicality": 0.5733395218849182
-    },
-    {
-      "mid": "/m/05y4t",
-      "description": "paint",
-      "score": 0.5612807273864746,
-      "topicality": 0.5612807273864746
-    },
-    {
-      "mid": "/m/018ktp",
-      "description": "watercolor paint",
-      "score": 0.5540517568588257,
-      "topicality": 0.5540517568588257
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.539529025554657,
-      "topicality": 0.539529025554657
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.5389406681060791,
-      "topicality": 0.5389406681060791
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.7328993678092957,
+    "topicality": 0.7328993678092957
+  },
+  {
+    "mid": "/m/02cwm",
+    "description": "design",
+    "score": 0.7203227281570435,
+    "topicality": 0.7203227281570435
+  },
+  {
+    "mid": "/m/0dnr7",
+    "description": "textile",
+    "score": 0.7036221623420715,
+    "topicality": 0.7036221623420715
+  },
+  {
+    "mid": "/m/0641k",
+    "description": "paper",
+    "score": 0.6421319842338562,
+    "topicality": 0.6421319842338562
+  },
+  {
+    "mid": "/m/01kr8f",
+    "description": "illustration",
+    "score": 0.6402102112770081,
+    "topicality": 0.6402102112770081
+  },
+  {
+    "mid": "/m/01cndb",
+    "description": "stationery",
+    "score": 0.5733395218849182,
+    "topicality": 0.5733395218849182
+  },
+  {
+    "mid": "/m/05y4t",
+    "description": "paint",
+    "score": 0.5612807273864746,
+    "topicality": 0.5612807273864746
+  },
+  {
+    "mid": "/m/018ktp",
+    "description": "watercolor paint",
+    "score": 0.5540517568588257,
+    "topicality": 0.5540517568588257
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.539529025554657,
+    "topicality": 0.539529025554657
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.5389406681060791,
+    "topicality": 0.5389406681060791
+  }
+]

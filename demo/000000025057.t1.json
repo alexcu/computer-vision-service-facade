@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/04yx4",
-      "description": "man",
-      "score": 0.9321727156639099,
-      "topicality": 0.9321727156639099
-    },
-    {
-      "mid": "/m/09686",
-      "description": "vertebrate",
-      "score": 0.9037036299705505,
-      "topicality": 0.9037036299705505
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8921799063682556,
-      "topicality": 0.8921799063682556
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.842500627040863,
-      "topicality": 0.842500627040863
-    },
-    {
-      "mid": "/m/05zppz",
-      "description": "male",
-      "score": 0.841998279094696,
-      "topicality": 0.841998279094696
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.8156216740608215,
-      "topicality": 0.8156216740608215
-    },
-    {
-      "mid": "/m/05b0n7k",
-      "description": "outdoor recreation",
-      "score": 0.8124535083770752,
-      "topicality": 0.8124535083770752
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8116443753242493,
-      "topicality": 0.8116443753242493
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.7977912425994873,
-      "topicality": 0.7977912425994873
-    },
-    {
-      "mid": "/m/078qz",
-      "description": "summer",
-      "score": 0.6964744925498962,
-      "topicality": 0.6964744925498962
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/04yx4",
+    "description": "man",
+    "score": 0.9321727156639099,
+    "topicality": 0.9321727156639099
+  },
+  {
+    "mid": "/m/09686",
+    "description": "vertebrate",
+    "score": 0.9037036299705505,
+    "topicality": 0.9037036299705505
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8921799063682556,
+    "topicality": 0.8921799063682556
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.842500627040863,
+    "topicality": 0.842500627040863
+  },
+  {
+    "mid": "/m/05zppz",
+    "description": "male",
+    "score": 0.841998279094696,
+    "topicality": 0.841998279094696
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.8156216740608215,
+    "topicality": 0.8156216740608215
+  },
+  {
+    "mid": "/m/05b0n7k",
+    "description": "outdoor recreation",
+    "score": 0.8124535083770752,
+    "topicality": 0.8124535083770752
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8116443753242493,
+    "topicality": 0.8116443753242493
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.7977912425994873,
+    "topicality": 0.7977912425994873
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.7048236751974168,
+    "topicality": 0.7048236751974168
+  },
+  {
+    "mid": "/m/078qz",
+    "description": "summer",
+    "score": 0.6964744925498962,
+    "topicality": 0.6964744925498962
+  }
+]

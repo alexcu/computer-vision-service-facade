@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0911jt",
-      "description": "silo",
-      "score": 0.9685041904449463,
-      "topicality": 0.9685041904449463
-    },
-    {
-      "mid": "/m/09qqq",
-      "description": "wall",
-      "score": 0.8466088175773621,
-      "topicality": 0.8466088175773621
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.843872606754303,
-      "topicality": 0.843872606754303
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8254543542861938,
-      "topicality": 0.8254543542861938
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8220894932746887,
-      "topicality": 0.8220894932746887
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.7497134804725647,
-      "topicality": 0.7497134804725647
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.7440816164016724,
-      "topicality": 0.7440816164016724
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.667417585849762,
-      "topicality": 0.667417585849762
-    },
-    {
-      "mid": "/m/0ck43n",
-      "description": "storage tank",
-      "score": 0.6592408418655396,
-      "topicality": 0.6592408418655396
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.6590818166732788,
-      "topicality": 0.6590818166732788
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0911jt",
+    "description": "silo",
+    "score": 0.9685041904449463,
+    "topicality": 0.9685041904449463
+  },
+  {
+    "mid": "/m/09qqq",
+    "description": "wall",
+    "score": 0.8466088175773621,
+    "topicality": 0.8466088175773621
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.843872606754303,
+    "topicality": 0.843872606754303
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8254543542861938,
+    "topicality": 0.8254543542861938
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8220894932746887,
+    "topicality": 0.8220894932746887
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.7497134804725647,
+    "topicality": 0.7497134804725647
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.7440816164016724,
+    "topicality": 0.7440816164016724
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.667417585849762,
+    "topicality": 0.667417585849762
+  },
+  {
+    "mid": "/m/0ck43n",
+    "description": "storage tank",
+    "score": 0.6592408418655396,
+    "topicality": 0.6592408418655396
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.6590818166732788,
+    "topicality": 0.6590818166732788
+  }
+]

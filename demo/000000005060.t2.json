@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/020g49",
-      "description": "hardwood",
-      "score": 0.7987900972366333,
-      "topicality": 0.7987900972366333
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.791129469871521,
-      "topicality": 0.791129469871521
-    },
-    {
-      "mid": "/m/083vt",
-      "description": "wood",
-      "score": 0.7847472429275513,
-      "topicality": 0.7847472429275513
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.7681835293769836,
-      "topicality": 0.7681835293769836
-    },
-    {
-      "mid": "/m/054_l",
-      "description": "mirror",
-      "score": 0.7218388915061951,
-      "topicality": 0.7218388915061951
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.6980722546577454,
-      "topicality": 0.6980722546577454
-    },
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.6912566423416138,
-      "topicality": 0.6912566423416138
-    },
-    {
-      "mid": "/m/027xhm0",
-      "description": "wood flooring",
-      "score": 0.6836303472518921,
-      "topicality": 0.6836303472518921
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.6601293087005615,
-      "topicality": 0.6601293087005615
-    },
-    {
-      "mid": "/m/015c4z",
-      "description": "sitting",
-      "score": 0.6443530321121216,
-      "topicality": 0.6443530321121216
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/020g49",
+    "description": "hardwood",
+    "score": 0.7987900972366333,
+    "topicality": 0.7987900972366333
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.791129469871521,
+    "topicality": 0.791129469871521
+  },
+  {
+    "mid": "/m/083vt",
+    "description": "wood",
+    "score": 0.7847472429275513,
+    "topicality": 0.7847472429275513
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.7681835293769836,
+    "topicality": 0.7681835293769836
+  },
+  {
+    "mid": "/m/054_l",
+    "description": "mirror",
+    "score": 0.7218388915061951,
+    "topicality": 0.7218388915061951
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.6980722546577454,
+    "topicality": 0.6980722546577454
+  },
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.6912566423416138,
+    "topicality": 0.6912566423416138
+  },
+  {
+    "mid": "/m/027xhm0",
+    "description": "wood flooring",
+    "score": 0.6836303472518921,
+    "topicality": 0.6836303472518921
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.6601293087005615,
+    "topicality": 0.6601293087005615
+  },
+  {
+    "mid": "/m/015c4z",
+    "description": "sitting",
+    "score": 0.6443530321121216,
+    "topicality": 0.6443530321121216
+  }
+]

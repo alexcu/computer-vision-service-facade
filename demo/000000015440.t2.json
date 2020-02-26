@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bkqqh",
-      "description": "signage",
-      "score": 0.880066990852356,
-      "topicality": 0.880066990852356
-    },
-    {
-      "mid": "/m/02pv19",
-      "description": "stop sign",
-      "score": 0.8790885806083679,
-      "topicality": 0.8790885806083679
-    },
-    {
-      "mid": "/m/06zsq",
-      "description": "sign",
-      "score": 0.8657811880111694,
-      "topicality": 0.8657811880111694
-    },
-    {
-      "mid": "/m/01mqdt",
-      "description": "traffic sign",
-      "score": 0.7981745004653931,
-      "topicality": 0.7981745004653931
-    },
-    {
-      "mid": "/m/02_ktj",
-      "description": "morning",
-      "score": 0.7966179251670837,
-      "topicality": 0.7966179251670837
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/03scnj",
-      "description": "line",
-      "score": 0.7295002341270447,
-      "topicality": 0.7295002341270447
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.6971899271011353,
-      "topicality": 0.6971899271011353
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.6958826780319214,
-      "topicality": 0.6958826780319214
-    },
-    {
-      "mid": "/m/06z0n",
-      "description": "sunlight",
-      "score": 0.6876245737075806,
-      "topicality": 0.6876245737075806
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bkqqh",
+    "description": "signage",
+    "score": 0.880066990852356,
+    "topicality": 0.880066990852356
+  },
+  {
+    "mid": "/m/02pv19",
+    "description": "stop sign",
+    "score": 0.8790885806083679,
+    "topicality": 0.8790885806083679
+  },
+  {
+    "mid": "/m/06zsq",
+    "description": "sign",
+    "score": 0.8657811880111694,
+    "topicality": 0.8657811880111694
+  },
+  {
+    "mid": "/m/01mqdt",
+    "description": "traffic sign",
+    "score": 0.7981745004653931,
+    "topicality": 0.7981745004653931
+  },
+  {
+    "mid": "/m/02_ktj",
+    "description": "morning",
+    "score": 0.7966179251670837,
+    "topicality": 0.7966179251670837
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/03scnj",
+    "description": "line",
+    "score": 0.7295002341270447,
+    "topicality": 0.7295002341270447
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.6971899271011353,
+    "topicality": 0.6971899271011353
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.6958826780319214,
+    "topicality": 0.6958826780319214
+  },
+  {
+    "mid": "/m/06z0n",
+    "description": "sunlight",
+    "score": 0.6876245737075806,
+    "topicality": 0.6876245737075806
+  }
+]

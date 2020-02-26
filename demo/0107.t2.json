@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07s6nbt",
-      "description": "text",
-      "score": 0.9266893267631531,
-      "topicality": 0.9266893267631531
-    },
-    {
-      "mid": "/m/05hgj",
-      "description": "novel",
-      "score": 0.8469701409339905,
-      "topicality": 0.8469701409339905
-    },
-    {
-      "mid": "/m/0bt_c3",
-      "description": "book",
-      "score": 0.8177669048309326,
-      "topicality": 0.8177669048309326
-    },
-    {
-      "mid": "/m/01h1dd",
-      "description": "publication",
-      "score": 0.753265917301178,
-      "topicality": 0.753265917301178
-    },
-    {
-      "mid": "/m/05nnm",
-      "description": "organism",
-      "score": 0.7151590585708618,
-      "topicality": 0.7151590585708618
-    },
-    {
-      "mid": "/m/05y_mz",
-      "description": "brochure",
-      "score": 0.643081545829773,
-      "topicality": 0.643081545829773
-    },
-    {
-      "mid": "/m/02xlf",
-      "description": "fiction",
-      "score": 0.6103349924087524,
-      "topicality": 0.6103349924087524
-    },
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.5813031792640686,
-      "topicality": 0.5813031792640686
-    },
-    {
-      "mid": "/m/09xbm8",
-      "description": "book cover",
-      "score": 0.5745526552200317,
-      "topicality": 0.5745526552200317
-    },
-    {
-      "mid": "/m/09nm_",
-      "description": "world",
-      "score": 0.5313754081726074,
-      "topicality": 0.5313754081726074
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07s6nbt",
+    "description": "text",
+    "score": 0.9266893267631531,
+    "topicality": 0.9266893267631531
+  },
+  {
+    "mid": "/m/05hgj",
+    "description": "novel",
+    "score": 0.8469701409339905,
+    "topicality": 0.8469701409339905
+  },
+  {
+    "mid": "/m/0bt_c3",
+    "description": "book",
+    "score": 0.8177669048309326,
+    "topicality": 0.8177669048309326
+  },
+  {
+    "mid": "/m/01h1dd",
+    "description": "publication",
+    "score": 0.753265917301178,
+    "topicality": 0.753265917301178
+  },
+  {
+    "mid": "/m/05nnm",
+    "description": "organism",
+    "score": 0.7151590585708618,
+    "topicality": 0.7151590585708618
+  },
+  {
+    "mid": "/m/05y_mz",
+    "description": "brochure",
+    "score": 0.643081545829773,
+    "topicality": 0.643081545829773
+  },
+  {
+    "mid": "/m/02xlf",
+    "description": "fiction",
+    "score": 0.6103349924087524,
+    "topicality": 0.6103349924087524
+  },
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.5813031792640686,
+    "topicality": 0.5813031792640686
+  },
+  {
+    "mid": "/m/09xbm8",
+    "description": "book cover",
+    "score": 0.5745526552200317,
+    "topicality": 0.5745526552200317
+  },
+  {
+    "mid": "/m/09nm_",
+    "description": "world",
+    "score": 0.5313754081726074,
+    "topicality": 0.5313754081726074
+  }
+]

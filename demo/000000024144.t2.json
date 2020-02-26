@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9934034943580627,
-      "topicality": 0.9934034943580627
-    },
-    {
-      "mid": "/m/0663v",
-      "description": "pizza",
-      "score": 0.9932273030281067,
-      "topicality": 0.9932273030281067
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9903261065483093,
-      "topicality": 0.9903261065483093
-    },
-    {
-      "mid": "/m/068_x",
-      "description": "pizza cheese",
-      "score": 0.987895667552948,
-      "topicality": 0.987895667552948
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9864208102226257,
-      "topicality": 0.9864208102226257
-    },
-    {
-      "mid": "/m/09yjm8",
-      "description": "sicilian pizza",
-      "score": 0.9454852938652039,
-      "topicality": 0.9454852938652039
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.9207317233085632,
-      "topicality": 0.9207317233085632
-    },
-    {
-      "mid": "/m/06wypr",
-      "description": "california-style pizza",
-      "score": 0.9051806926727295,
-      "topicality": 0.9051806926727295
-    },
-    {
-      "mid": "/m/079ftr",
-      "description": "tarte flamb\u00e9e",
-      "score": 0.8794702291488647,
-      "topicality": 0.8794702291488647
-    },
-    {
-      "mid": "/m/07hr9x",
-      "description": "flatbread",
-      "score": 0.8587899208068848,
-      "topicality": 0.8587899208068848
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9934034943580627,
+    "topicality": 0.9934034943580627
+  },
+  {
+    "mid": "/m/0663v",
+    "description": "pizza",
+    "score": 0.9932273030281067,
+    "topicality": 0.9932273030281067
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9903261065483093,
+    "topicality": 0.9903261065483093
+  },
+  {
+    "mid": "/m/068_x",
+    "description": "pizza cheese",
+    "score": 0.987895667552948,
+    "topicality": 0.987895667552948
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9864208102226257,
+    "topicality": 0.9864208102226257
+  },
+  {
+    "mid": "/m/09yjm8",
+    "description": "sicilian pizza",
+    "score": 0.9454852938652039,
+    "topicality": 0.9454852938652039
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.9207317233085632,
+    "topicality": 0.9207317233085632
+  },
+  {
+    "mid": "/m/06wypr",
+    "description": "california-style pizza",
+    "score": 0.9051806926727295,
+    "topicality": 0.9051806926727295
+  },
+  {
+    "mid": "/m/079ftr",
+    "description": "tarte flamb\u00e9e",
+    "score": 0.8794702291488647,
+    "topicality": 0.8794702291488647
+  },
+  {
+    "mid": "/m/07hr9x",
+    "description": "flatbread",
+    "score": 0.8587899208068848,
+    "topicality": 0.8587899208068848
+  }
+]

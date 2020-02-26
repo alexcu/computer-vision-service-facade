@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.9224019050598145,
-      "topicality": 0.9224019050598145
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.7628921866416931,
-      "topicality": 0.7628921866416931
-    },
-    {
-      "mid": "/m/01mzpv",
-      "description": "chair",
-      "score": 0.7626729607582092,
-      "topicality": 0.7626729607582092
-    },
-    {
-      "mid": "/m/054_l",
-      "description": "mirror",
-      "score": 0.7452149391174316,
-      "topicality": 0.7452149391174316
-    },
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.7130587697029114,
-      "topicality": 0.7130587697029114
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.709364652633667,
-      "topicality": 0.709364652633667
-    },
-    {
-      "mid": "/m/083vt",
-      "description": "wood",
-      "score": 0.7093363404273987,
-      "topicality": 0.7093363404273987
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.6875231862068176,
-      "topicality": 0.6875231862068176
-    },
-    {
-      "mid": "/m/01l0mw",
-      "description": "home",
-      "score": 0.6374436020851135,
-      "topicality": 0.6374436020851135
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.6336224675178528,
-      "topicality": 0.6336224675178528
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.9224019050598145,
+    "topicality": 0.9224019050598145
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.8399096428239485,
+    "topicality": 0.8399096428239485
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.7628921866416931,
+    "topicality": 0.7628921866416931
+  },
+  {
+    "mid": "/m/01mzpv",
+    "description": "chair",
+    "score": 0.7626729607582092,
+    "topicality": 0.7626729607582092
+  },
+  {
+    "mid": "/m/054_l",
+    "description": "mirror",
+    "score": 0.7452149391174316,
+    "topicality": 0.7452149391174316
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.7130587697029114,
+    "topicality": 0.7130587697029114
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.709364652633667,
+    "topicality": 0.709364652633667
+  },
+  {
+    "mid": "/m/083vt",
+    "description": "wood",
+    "score": 0.7093363404273987,
+    "topicality": 0.7093363404273987
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.6875231862068176,
+    "topicality": 0.6875231862068176
+  },
+  {
+    "mid": "/m/01l0mw",
+    "description": "home",
+    "score": 0.6374436020851135,
+    "topicality": 0.6374436020851135
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.6336224675178528,
+    "topicality": 0.6336224675178528
+  }
+]

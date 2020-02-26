@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01yrx",
-      "description": "cat",
-      "score": 0.8046945929527283,
-      "topicality": 0.8046945929527283
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6242249608039856,
-      "topicality": 0.6242249608039856
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.578805685043335,
-      "topicality": 0.578805685043335
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.527410626411438,
-      "topicality": 0.527410626411438
-    },
-    {
-      "mid": "/m/0dkw5",
-      "description": "machine",
-      "score": 0.5137532949447632,
-      "topicality": 0.5137532949447632
-    },
-    {
-      "mid": "/m/01l7qd",
-      "description": "whiskers",
-      "score": 0.503665030002594,
-      "topicality": 0.503665030002594
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01yrx",
+    "description": "cat",
+    "score": 0.8046945929527283,
+    "topicality": 0.8046945929527283
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6242249608039856,
+    "topicality": 0.6242249608039856
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.578805685043335,
+    "topicality": 0.578805685043335
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.527410626411438,
+    "topicality": 0.527410626411438
+  },
+  {
+    "mid": "/m/0dkw5",
+    "description": "machine",
+    "score": 0.5137532949447632,
+    "topicality": 0.5137532949447632
+  },
+  {
+    "mid": "/m/01l7qd",
+    "description": "whiskers",
+    "score": 0.503665030002594,
+    "topicality": 0.503665030002594
+  }
+]

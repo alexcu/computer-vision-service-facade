@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01lynh",
-      "description": "stairs",
-      "score": 0.7794387936592102,
-      "topicality": 0.7794387936592102
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.6545118689537048,
-      "topicality": 0.6545118689537048
-    },
-    {
-      "mid": "/m/07p_zw",
-      "description": "handrail",
-      "score": 0.6464032530784607,
-      "topicality": 0.6464032530784607
-    },
-    {
-      "mid": "/m/0f5gs",
-      "description": "reinforced concrete",
-      "score": 0.5194658041000366,
-      "topicality": 0.5194658041000366
-    },
-    {
-      "mid": "/m/04t7l",
-      "description": "metal",
-      "score": 0.5114516019821167,
-      "topicality": 0.5114516019821167
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01lynh",
+    "description": "stairs",
+    "score": 0.7794387936592102,
+    "topicality": 0.7794387936592102
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.6545118689537048,
+    "topicality": 0.6545118689537048
+  },
+  {
+    "mid": "/m/07p_zw",
+    "description": "handrail",
+    "score": 0.6464032530784607,
+    "topicality": 0.6464032530784607
+  },
+  {
+    "mid": "/m/0f5gs",
+    "description": "reinforced concrete",
+    "score": 0.5194658041000366,
+    "topicality": 0.5194658041000366
+  },
+  {
+    "mid": "/m/04t7l",
+    "description": "metal",
+    "score": 0.5114516019821167,
+    "topicality": 0.5114516019821167
+  }
+]

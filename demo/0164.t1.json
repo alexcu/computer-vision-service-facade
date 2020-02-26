@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9891343712806702,
-      "topicality": 0.9891343712806702
-    },
-    {
-      "mid": "/m/034z7h",
-      "description": "cityscape",
-      "score": 0.9854831695556641,
-      "topicality": 0.9854831695556641
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.9849503040313721,
-      "topicality": 0.9849503040313721
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.9688980579376221,
-      "topicality": 0.9688980579376221
-    },
-    {
-      "mid": "/m/01d74z",
-      "description": "night",
-      "score": 0.9666745066642761,
-      "topicality": 0.9666745066642761
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.9646593332290649,
-      "topicality": 0.9646593332290649
-    },
-    {
-      "mid": "/m/0204fg",
-      "description": "skyline",
-      "score": 0.945285439491272,
-      "topicality": 0.945285439491272
-    },
-    {
-      "mid": "/m/079cl",
-      "description": "skyscraper",
-      "score": 0.8767415881156921,
-      "topicality": 0.8767415881156921
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8486842513084412,
-      "topicality": 0.8486842513084412
-    },
-    {
-      "mid": "/m/01l7t2",
-      "description": "downtown",
-      "score": 0.8274074792861938,
-      "topicality": 0.8274074792861938
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9891343712806702,
+    "topicality": 0.9891343712806702
+  },
+  {
+    "mid": "/m/034z7h",
+    "description": "cityscape",
+    "score": 0.9854831695556641,
+    "topicality": 0.9854831695556641
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.9849503040313721,
+    "topicality": 0.9849503040313721
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.9688980579376221,
+    "topicality": 0.9688980579376221
+  },
+  {
+    "mid": "/m/01d74z",
+    "description": "night",
+    "score": 0.9666745066642761,
+    "topicality": 0.9666745066642761
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.9646593332290649,
+    "topicality": 0.9646593332290649
+  },
+  {
+    "mid": "/m/0204fg",
+    "description": "skyline",
+    "score": 0.945285439491272,
+    "topicality": 0.945285439491272
+  },
+  {
+    "mid": "/m/079cl",
+    "description": "skyscraper",
+    "score": 0.8767415881156921,
+    "topicality": 0.8767415881156921
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8486842513084412,
+    "topicality": 0.8486842513084412
+  },
+  {
+    "mid": "/m/01l7t2",
+    "description": "downtown",
+    "score": 0.8274074792861938,
+    "topicality": 0.8274074792861938
+  }
+]

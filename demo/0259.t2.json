@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/012m47",
-      "description": "chinese new year",
-      "score": 0.878011167049408,
-      "topicality": 0.878011167049408
-    },
-    {
-      "mid": "/m/05nnm",
-      "description": "organism",
-      "score": 0.7671774625778198,
-      "topicality": 0.7671774625778198
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.7039424180984497,
-      "topicality": 0.7039424180984497
-    },
-    {
-      "mid": "/m/081pkj",
-      "description": "event",
-      "score": 0.6942809224128723,
-      "topicality": 0.6942809224128723
-    },
-    {
-      "mid": "/m/03gkl",
-      "description": "holiday",
-      "score": 0.6698740124702454,
-      "topicality": 0.6698740124702454
-    },
-    {
-      "mid": "/m/096mb",
-      "description": "lion",
-      "score": 0.6697349548339844,
-      "topicality": 0.6697349548339844
-    },
-    {
-      "mid": "/m/03r_vp",
-      "description": "adaptation",
-      "score": 0.6696612238883972,
-      "topicality": 0.6696612238883972
-    },
-    {
-      "mid": "/m/01gq53",
-      "description": "performance",
-      "score": 0.5472791790962219,
-      "topicality": 0.5472791790962219
-    },
-    {
-      "mid": "/m/0cdnk",
-      "description": "big cats",
-      "score": 0.5412453413009644,
-      "topicality": 0.5412453413009644
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/012m47",
+    "description": "chinese new year",
+    "score": 0.878011167049408,
+    "topicality": 0.878011167049408
+  },
+  {
+    "mid": "/m/05nnm",
+    "description": "organism",
+    "score": 0.7671774625778198,
+    "topicality": 0.7671774625778198
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.7039424180984497,
+    "topicality": 0.7039424180984497
+  },
+  {
+    "mid": "/m/081pkj",
+    "description": "event",
+    "score": 0.6942809224128723,
+    "topicality": 0.6942809224128723
+  },
+  {
+    "mid": "/m/03gkl",
+    "description": "holiday",
+    "score": 0.6698740124702454,
+    "topicality": 0.6698740124702454
+  },
+  {
+    "mid": "/m/096mb",
+    "description": "lion",
+    "score": 0.6697349548339844,
+    "topicality": 0.6697349548339844
+  },
+  {
+    "mid": "/m/03r_vp",
+    "description": "adaptation",
+    "score": 0.6696612238883972,
+    "topicality": 0.6696612238883972
+  },
+  {
+    "mid": "/m/01gq53",
+    "description": "performance",
+    "score": 0.5472791790962219,
+    "topicality": 0.5472791790962219
+  },
+  {
+    "mid": "/m/0cdnk",
+    "description": "big cats",
+    "score": 0.5412453413009644,
+    "topicality": 0.5412453413009644
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cd3bj",
-      "description": "chain-link fencing",
-      "score": 0.9424013495445251,
-      "topicality": 0.9424013495445251
-    },
-    {
-      "mid": "/m/0h8xdq1",
-      "description": "wire fencing",
-      "score": 0.9193384051322937,
-      "topicality": 0.9193384051322937
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7989127039909363,
-      "topicality": 0.7989127039909363
-    },
-    {
-      "mid": "/m/0blz9",
-      "description": "fence",
-      "score": 0.7666845321655273,
-      "topicality": 0.7666845321655273
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6616107821464539,
-      "topicality": 0.6616107821464539
-    },
-    {
-      "mid": "/m/0413y3",
-      "description": "mesh",
-      "score": 0.6317723393440247,
-      "topicality": 0.6317723393440247
-    },
-    {
-      "mid": "/m/02qdwbp",
-      "description": "net",
-      "score": 0.6231658458709717,
-      "topicality": 0.6231658458709717
-    },
-    {
-      "mid": "/m/0gs32y",
-      "description": "land lot",
-      "score": 0.5986059308052063,
-      "topicality": 0.5986059308052063
-    },
-    {
-      "mid": "/m/0bkqqh",
-      "description": "signage",
-      "score": 0.5319041013717651,
-      "topicality": 0.5319041013717651
-    },
-    {
-      "mid": "/m/0gqbt",
-      "description": "shrub",
-      "score": 0.518339991569519,
-      "topicality": 0.518339991569519
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cd3bj",
+    "description": "chain-link fencing",
+    "score": 0.9424013495445251,
+    "topicality": 0.9424013495445251
+  },
+  {
+    "mid": "/m/0h8xdq1",
+    "description": "wire fencing",
+    "score": 0.9193384051322937,
+    "topicality": 0.9193384051322937
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7989127039909363,
+    "topicality": 0.7989127039909363
+  },
+  {
+    "mid": "/m/0blz9",
+    "description": "fence",
+    "score": 0.7666845321655273,
+    "topicality": 0.7666845321655273
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6616107821464539,
+    "topicality": 0.6616107821464539
+  },
+  {
+    "mid": "/m/0413y3",
+    "description": "mesh",
+    "score": 0.6317723393440247,
+    "topicality": 0.6317723393440247
+  },
+  {
+    "mid": "/m/02qdwbp",
+    "description": "net",
+    "score": 0.6231658458709717,
+    "topicality": 0.6231658458709717
+  },
+  {
+    "mid": "/m/0gs32y",
+    "description": "land lot",
+    "score": 0.5986059308052063,
+    "topicality": 0.5986059308052063
+  },
+  {
+    "mid": "/m/0bkqqh",
+    "description": "signage",
+    "score": 0.5319041013717651,
+    "topicality": 0.5319041013717651
+  },
+  {
+    "mid": "/m/0gqbt",
+    "description": "shrub",
+    "score": 0.518339991569519,
+    "topicality": 0.518339991569519
+  }
+]

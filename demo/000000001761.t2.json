@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/015kr",
-      "description": "bridge",
-      "score": 0.9505065083503723,
-      "topicality": 0.9505065083503723
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9014298319816589,
-      "topicality": 0.9014298319816589
-    },
-    {
-      "mid": "/m/01515d",
-      "description": "flight",
-      "score": 0.8145638108253479,
-      "topicality": 0.8145638108253479
-    },
-    {
-      "mid": "/m/02500f",
-      "description": "overpass",
-      "score": 0.801499605178833,
-      "topicality": 0.801499605178833
-    },
-    {
-      "mid": "/m/0cmf2",
-      "description": "airplane",
-      "score": 0.7823544144630432,
-      "topicality": 0.7823544144630432
-    },
-    {
-      "mid": "/m/083s2",
-      "description": "wing",
-      "score": 0.7776490449905396,
-      "topicality": 0.7776490449905396
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.710040271282196,
-      "topicality": 0.710040271282196
-    },
-    {
-      "mid": "/m/0k5j",
-      "description": "aircraft",
-      "score": 0.7092834115028381,
-      "topicality": 0.7092834115028381
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.6919307708740234,
-      "topicality": 0.6919307708740234
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.6660800576210022,
-      "topicality": 0.6660800576210022
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/015kr",
+    "description": "bridge",
+    "score": 0.9505065083503723,
+    "topicality": 0.9505065083503723
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9014298319816589,
+    "topicality": 0.9014298319816589
+  },
+  {
+    "mid": "/m/01515d",
+    "description": "flight",
+    "score": 0.8145638108253479,
+    "topicality": 0.8145638108253479
+  },
+  {
+    "mid": "/m/02500f",
+    "description": "overpass",
+    "score": 0.801499605178833,
+    "topicality": 0.801499605178833
+  },
+  {
+    "mid": "/m/0cmf2",
+    "description": "airplane",
+    "score": 0.7823544144630432,
+    "topicality": 0.7823544144630432
+  },
+  {
+    "mid": "/m/083s2",
+    "description": "wing",
+    "score": 0.7776490449905396,
+    "topicality": 0.7776490449905396
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.710040271282196,
+    "topicality": 0.710040271282196
+  },
+  {
+    "mid": "/m/0k5j",
+    "description": "aircraft",
+    "score": 0.7092834115028381,
+    "topicality": 0.7092834115028381
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.6919307708740234,
+    "topicality": 0.6919307708740234
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.6660800576210022,
+    "topicality": 0.6660800576210022
+  }
+]

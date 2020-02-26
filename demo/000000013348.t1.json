@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cmf2",
-      "description": "airplane",
-      "score": 0.9698782563209534,
-      "topicality": 0.9698782563209534
-    },
-    {
-      "mid": "/m/0vg8",
-      "description": "airline",
-      "score": 0.9572415351867676,
-      "topicality": 0.9572415351867676
-    },
-    {
-      "mid": "/m/0dhz0",
-      "description": "airliner",
-      "score": 0.9540555477142334,
-      "topicality": 0.9540555477142334
-    },
-    {
-      "mid": "/m/0k5j",
-      "description": "aircraft",
-      "score": 0.9530007243156433,
-      "topicality": 0.9530007243156433
-    },
-    {
-      "mid": "/m/018rqw",
-      "description": "wide body aircraft",
-      "score": 0.9436845183372498,
-      "topicality": 0.9436845183372498
-    },
-    {
-      "mid": "/m/015zfz",
-      "description": "airbus",
-      "score": 0.8947129845619202,
-      "topicality": 0.8947129845619202
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8938660025596619,
-      "topicality": 0.8938660025596619
-    },
-    {
-      "mid": "/m/0m8_b",
-      "description": "boeing 777",
-      "score": 0.8671642541885376,
-      "topicality": 0.8671642541885376
-    },
-    {
-      "mid": "/m/025t3bg",
-      "description": "air travel",
-      "score": 0.8460693955421448,
-      "topicality": 0.8460693955421448
-    },
-    {
-      "mid": "/m/0178g",
-      "description": "boeing",
-      "score": 0.8431977033615112,
-      "topicality": 0.8431977033615112
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cmf2",
+    "description": "airplane",
+    "score": 0.9698782563209534,
+    "topicality": 0.9698782563209534
+  },
+  {
+    "mid": "/m/0vg8",
+    "description": "airline",
+    "score": 0.9572415351867676,
+    "topicality": 0.9572415351867676
+  },
+  {
+    "mid": "/m/0dhz0",
+    "description": "airliner",
+    "score": 0.9540555477142334,
+    "topicality": 0.9540555477142334
+  },
+  {
+    "mid": "/m/0k5j",
+    "description": "aircraft",
+    "score": 0.9530007243156433,
+    "topicality": 0.9530007243156433
+  },
+  {
+    "mid": "/m/018rqw",
+    "description": "wide body aircraft",
+    "score": 0.9436845183372498,
+    "topicality": 0.9436845183372498
+  },
+  {
+    "mid": "/m/015zfz",
+    "description": "airbus",
+    "score": 0.8947129845619202,
+    "topicality": 0.8947129845619202
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8938660025596619,
+    "topicality": 0.8938660025596619
+  },
+  {
+    "mid": "/m/0m8_b",
+    "description": "boeing 777",
+    "score": 0.8671642541885376,
+    "topicality": 0.8671642541885376
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "vehicle",
+    "score": 0.8587862300145157,
+    "topicality": 0.8587862300145157
+  },
+  {
+    "mid": "/m/025t3bg",
+    "description": "air travel",
+    "score": 0.8460693955421448,
+    "topicality": 0.8460693955421448
+  },
+  {
+    "mid": "/m/0178g",
+    "description": "boeing",
+    "score": 0.8431977033615112,
+    "topicality": 0.8431977033615112
+  }
+]

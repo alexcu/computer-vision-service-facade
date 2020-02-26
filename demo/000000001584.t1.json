@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03n9vx",
-      "description": "double decker bus",
-      "score": 0.9809720516204834,
-      "topicality": 0.9809720516204834
-    },
-    {
-      "mid": "/m/01bjv",
-      "description": "bus",
-      "score": 0.9799313545227051,
-      "topicality": 0.9799313545227051
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9751396179199219,
-      "topicality": 0.9751396179199219
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9564690589904785,
-      "topicality": 0.9564690589904785
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.875256359577179,
-      "topicality": 0.875256359577179
-    },
-    {
-      "mid": "/m/05zdp",
-      "description": "public transport",
-      "score": 0.7239017486572266,
-      "topicality": 0.7239017486572266
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.6701062321662903,
-      "topicality": 0.6701062321662903
-    },
-    {
-      "mid": "/m/05mqq3",
-      "description": "snout",
-      "score": 0.5550770163536072,
-      "topicality": 0.5550770163536072
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03n9vx",
+    "description": "double decker bus",
+    "score": 0.9809720516204834,
+    "topicality": 0.9809720516204834
+  },
+  {
+    "mid": "/m/01bjv",
+    "description": "bus",
+    "score": 0.9799313545227051,
+    "topicality": 0.9799313545227051
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9751396179199219,
+    "topicality": 0.9751396179199219
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9564690589904785,
+    "topicality": 0.9564690589904785
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.875256359577179,
+    "topicality": 0.875256359577179
+  },
+  {
+    "mid": "/m/05zdp",
+    "description": "public transport",
+    "score": 0.7239017486572266,
+    "topicality": 0.7239017486572266
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.6701062321662903,
+    "topicality": 0.6701062321662903
+  },
+  {
+    "mid": "/m/05mqq3",
+    "description": "snout",
+    "score": 0.5550770163536072,
+    "topicality": 0.5550770163536072
+  }
+]

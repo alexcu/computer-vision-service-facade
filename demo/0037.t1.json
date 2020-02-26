@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8500710129737854,
-      "topicality": 0.8500710129737854
-    },
-    {
-      "mid": "/m/05qdh",
-      "description": "painting",
-      "score": 0.7723091840744019,
-      "topicality": 0.7723091840744019
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.6758228540420532,
-      "topicality": 0.6758228540420532
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.6490091681480408,
-      "topicality": 0.6490091681480408
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6333399415016174,
-      "topicality": 0.6333399415016174
-    },
-    {
-      "mid": "/m/021krv",
-      "description": "state park",
-      "score": 0.5127113461494446,
-      "topicality": 0.5127113461494446
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8500710129737854,
+    "topicality": 0.8500710129737854
+  },
+  {
+    "mid": "/m/05qdh",
+    "description": "painting",
+    "score": 0.7723091840744019,
+    "topicality": 0.7723091840744019
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.6758228540420532,
+    "topicality": 0.6758228540420532
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.6490091681480408,
+    "topicality": 0.6490091681480408
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6333399415016174,
+    "topicality": 0.6333399415016174
+  },
+  {
+    "mid": "/m/021krv",
+    "description": "state park",
+    "score": 0.5127113461494446,
+    "topicality": 0.5127113461494446
+  }
+]

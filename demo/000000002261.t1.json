@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9717140197753906,
-      "topicality": 0.9717140197753906
-    },
-    {
-      "mid": "/m/02p0sll",
-      "description": "wave",
-      "score": 0.9673119783401489,
-      "topicality": 0.9673119783401489
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.9380201697349548,
-      "topicality": 0.9380201697349548
-    },
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9352471232414246,
-      "topicality": 0.9352471232414246
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.8845234513282776,
-      "topicality": 0.8845234513282776
-    },
-    {
-      "mid": "/m/034srq",
-      "description": "wind wave",
-      "score": 0.8731683492660522,
-      "topicality": 0.8731683492660522
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.8517216444015503,
-      "topicality": 0.8517216444015503
-    },
-    {
-      "mid": "/m/09qkx",
-      "description": "boardsport",
-      "score": 0.8382963538169861,
-      "topicality": 0.8382963538169861
-    },
-    {
-      "mid": "/m/02jwqh",
-      "description": "vacation",
-      "score": 0.8327841758728027,
-      "topicality": 0.8327841758728027
-    },
-    {
-      "mid": "/m/04g3r",
-      "description": "leisure",
-      "score": 0.8020962476730347,
-      "topicality": 0.8020962476730347
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9717140197753906,
+    "topicality": 0.9717140197753906
+  },
+  {
+    "mid": "/m/02p0sll",
+    "description": "wave",
+    "score": 0.9673119783401489,
+    "topicality": 0.9673119783401489
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.9380201697349548,
+    "topicality": 0.9380201697349548
+  },
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9352471232414246,
+    "topicality": 0.9352471232414246
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.8845234513282776,
+    "topicality": 0.8845234513282776
+  },
+  {
+    "mid": "/m/034srq",
+    "description": "wind wave",
+    "score": 0.8731683492660522,
+    "topicality": 0.8731683492660522
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.8517216444015503,
+    "topicality": 0.8517216444015503
+  },
+  {
+    "mid": "/m/09qkx",
+    "description": "boardsport",
+    "score": 0.8382963538169861,
+    "topicality": 0.8382963538169861
+  },
+  {
+    "mid": "/m/02jwqh",
+    "description": "vacation",
+    "score": 0.8327841758728027,
+    "topicality": 0.8327841758728027
+  },
+  {
+    "mid": "/m/04g3r",
+    "description": "leisure",
+    "score": 0.8020962476730347,
+    "topicality": 0.8020962476730347
+  }
+]

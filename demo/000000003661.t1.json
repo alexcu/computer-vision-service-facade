@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/09qck",
-      "description": "banana",
-      "score": 0.979171633720398,
-      "topicality": 0.979171633720398
-    },
-    {
-      "mid": "/m/013xk6",
-      "description": "banana family",
-      "score": 0.9708848595619202,
-      "topicality": 0.9708848595619202
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.9503286480903625,
-      "topicality": 0.9503286480903625
-    },
-    {
-      "mid": "/m/02xwb",
-      "description": "fruit",
-      "score": 0.9489703178405762,
-      "topicality": 0.9489703178405762
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.904215395450592,
-      "topicality": 0.904215395450592
-    },
-    {
-      "mid": "/m/01hxyd",
-      "description": "local food",
-      "score": 0.6442194581031799,
-      "topicality": 0.6442194581031799
-    },
-    {
-      "mid": "/m/09qdd",
-      "description": "cooking plantain",
-      "score": 0.6265085935592651,
-      "topicality": 0.6265085935592651
-    },
-    {
-      "mid": "/m/0g5pzh_",
-      "description": "saba banana",
-      "score": 0.6160613298416138,
-      "topicality": 0.6160613298416138
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.5967442393302917,
-      "topicality": 0.5967442393302917
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/09qck",
+    "description": "banana",
+    "score": 0.979171633720398,
+    "topicality": 0.979171633720398
+  },
+  {
+    "mid": "/m/013xk6",
+    "description": "banana family",
+    "score": 0.9708848595619202,
+    "topicality": 0.9708848595619202
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.9503286480903625,
+    "topicality": 0.9503286480903625
+  },
+  {
+    "mid": "/m/02xwb",
+    "description": "fruit",
+    "score": 0.9489703178405762,
+    "topicality": 0.9489703178405762
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.904215395450592,
+    "topicality": 0.904215395450592
+  },
+  {
+    "mid": "/m/01hxyd",
+    "description": "local food",
+    "score": 0.6442194581031799,
+    "topicality": 0.6442194581031799
+  },
+  {
+    "mid": "/m/09qdd",
+    "description": "cooking plantain",
+    "score": 0.6265085935592651,
+    "topicality": 0.6265085935592651
+  },
+  {
+    "mid": "/m/0g5pzh_",
+    "description": "saba banana",
+    "score": 0.6160613298416138,
+    "topicality": 0.6160613298416138
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.5967442393302917,
+    "topicality": 0.5967442393302917
+  }
+]

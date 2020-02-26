@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9903261065483093,
-      "topicality": 0.9903261065483093
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9165419340133667,
-      "topicality": 0.9165419340133667
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9027344584465027,
-      "topicality": 0.9027344584465027
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.8722639679908752,
-      "topicality": 0.8722639679908752
-    },
-    {
-      "mid": "/m/01482f",
-      "description": "brie",
-      "score": 0.6793174743652344,
-      "topicality": 0.6793174743652344
-    },
-    {
-      "mid": "/m/01_r_",
-      "description": "cheddar cheese",
-      "score": 0.6146945953369141,
-      "topicality": 0.6146945953369141
-    },
-    {
-      "mid": "/m/0284d",
-      "description": "dairy",
-      "score": 0.612869918346405,
-      "topicality": 0.612869918346405
-    },
-    {
-      "mid": "/m/052lwg6",
-      "description": "baked goods",
-      "score": 0.5897300839424133,
-      "topicality": 0.5897300839424133
-    },
-    {
-      "mid": "/m/01nkt",
-      "description": "cheese",
-      "score": 0.566927433013916,
-      "topicality": 0.566927433013916
-    },
-    {
-      "mid": "/m/02kg_6",
-      "description": "processed cheese",
-      "score": 0.5601629614830017,
-      "topicality": 0.5601629614830017
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9903261065483093,
+    "topicality": 0.9903261065483093
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9165419340133667,
+    "topicality": 0.9165419340133667
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9027344584465027,
+    "topicality": 0.9027344584465027
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.8722639679908752,
+    "topicality": 0.8722639679908752
+  },
+  {
+    "mid": "/m/01482f",
+    "description": "brie",
+    "score": 0.6793174743652344,
+    "topicality": 0.6793174743652344
+  },
+  {
+    "mid": "/m/01_r_",
+    "description": "cheddar cheese",
+    "score": 0.6146945953369141,
+    "topicality": 0.6146945953369141
+  },
+  {
+    "mid": "/m/0284d",
+    "description": "dairy",
+    "score": 0.612869918346405,
+    "topicality": 0.612869918346405
+  },
+  {
+    "mid": "/m/052lwg6",
+    "description": "baked goods",
+    "score": 0.5897300839424133,
+    "topicality": 0.5897300839424133
+  },
+  {
+    "mid": "/m/01nkt",
+    "description": "cheese",
+    "score": 0.566927433013916,
+    "topicality": 0.566927433013916
+  },
+  {
+    "mid": "/m/02kg_6",
+    "description": "processed cheese",
+    "score": 0.5601629614830017,
+    "topicality": 0.5601629614830017
+  }
+]

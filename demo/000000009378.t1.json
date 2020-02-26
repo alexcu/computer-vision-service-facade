@@ -1,22 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05r655",
-      "description": "girl",
-      "score": 0.6603497266769409,
-      "topicality": 0.6603497266769409
-    },
-    {
-      "mid": "/m/0k65p",
-      "description": "hand",
-      "score": 0.6140701174736023,
-      "topicality": 0.6140701174736023
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.5662739872932434,
-      "topicality": 0.5662739872932434
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05r655",
+    "description": "girl",
+    "score": 0.6603497266769409,
+    "topicality": 0.6603497266769409
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.6445099358575194,
+    "topicality": 0.6445099358575194
+  },
+  {
+    "mid": "/m/0k65p",
+    "description": "hand",
+    "score": 0.6140701174736023,
+    "topicality": 0.6140701174736023
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.5662739872932434,
+    "topicality": 0.5662739872932434
+  }
+]

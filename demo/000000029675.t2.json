@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9903261065483093,
-      "topicality": 0.9903261065483093
-    },
-    {
-      "mid": "/m/01_bhs",
-      "description": "fast food",
-      "score": 0.9805269837379456,
-      "topicality": 0.9805269837379456
-    },
-    {
-      "mid": "/m/07vh6y",
-      "description": "hot dog bun",
-      "score": 0.9631249308586121,
-      "topicality": 0.9631249308586121
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9282547831535339,
-      "topicality": 0.9282547831535339
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9078041315078735,
-      "topicality": 0.9078041315078735
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.8915150165557861,
-      "topicality": 0.8915150165557861
-    },
-    {
-      "mid": "/m/01b9xk",
-      "description": "hot dog",
-      "score": 0.8821357488632202,
-      "topicality": 0.8821357488632202
-    },
-    {
-      "mid": "/m/05_ykb",
-      "description": "dodger dog",
-      "score": 0.8806398510932922,
-      "topicality": 0.8806398510932922
-    },
-    {
-      "mid": "/m/0hhrcvd",
-      "description": "frankfurter w\u00fcrstchen",
-      "score": 0.8350768089294434,
-      "topicality": 0.8350768089294434
-    },
-    {
-      "mid": "/m/0kdzn",
-      "description": "sausage",
-      "score": 0.7866101264953613,
-      "topicality": 0.7866101264953613
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9903261065483093,
+    "topicality": 0.9903261065483093
+  },
+  {
+    "mid": "/m/01_bhs",
+    "description": "fast food",
+    "score": 0.9805269837379456,
+    "topicality": 0.9805269837379456
+  },
+  {
+    "mid": "/m/07vh6y",
+    "description": "hot dog bun",
+    "score": 0.9631249308586121,
+    "topicality": 0.9631249308586121
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9282547831535339,
+    "topicality": 0.9282547831535339
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9078041315078735,
+    "topicality": 0.9078041315078735
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.8915150165557861,
+    "topicality": 0.8915150165557861
+  },
+  {
+    "mid": "/m/01b9xk",
+    "description": "hot dog",
+    "score": 0.8821357488632202,
+    "topicality": 0.8821357488632202
+  },
+  {
+    "mid": "/m/05_ykb",
+    "description": "dodger dog",
+    "score": 0.8806398510932922,
+    "topicality": 0.8806398510932922
+  },
+  {
+    "mid": "/m/0hhrcvd",
+    "description": "frankfurter w\u00fcrstchen",
+    "score": 0.8350768089294434,
+    "topicality": 0.8350768089294434
+  },
+  {
+    "mid": "/m/0kdzn",
+    "description": "sausage",
+    "score": 0.7866101264953613,
+    "topicality": 0.7866101264953613
+  }
+]

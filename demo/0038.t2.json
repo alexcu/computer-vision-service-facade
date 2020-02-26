@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9175521731376648,
-      "topicality": 0.9175521731376648
-    },
-    {
-      "mid": "/m/065zs54",
-      "description": "holy places",
-      "score": 0.9002916812896729,
-      "topicality": 0.9002916812896729
-    },
-    {
-      "mid": "/m/019sc6",
-      "description": "lighting",
-      "score": 0.897481381893158,
-      "topicality": 0.897481381893158
-    },
-    {
-      "mid": "/m/02ws6z",
-      "description": "chandelier",
-      "score": 0.8445529341697693,
-      "topicality": 0.8445529341697693
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8443354964256287,
-      "topicality": 0.8443354964256287
-    },
-    {
-      "mid": "/m/08jpwt",
-      "description": "light fixture",
-      "score": 0.8322067260742188,
-      "topicality": 0.8322067260742188
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.7671104669570923,
-      "topicality": 0.7671104669570923
-    },
-    {
-      "mid": "/m/0dvh9",
-      "description": "classical architecture",
-      "score": 0.7535926699638367,
-      "topicality": 0.7535926699638367
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.6559603214263916,
-      "topicality": 0.6559603214263916
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.6369379758834839,
-      "topicality": 0.6369379758834839
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9175521731376648,
+    "topicality": 0.9175521731376648
+  },
+  {
+    "mid": "/m/065zs54",
+    "description": "holy places",
+    "score": 0.9002916812896729,
+    "topicality": 0.9002916812896729
+  },
+  {
+    "mid": "/m/019sc6",
+    "description": "lighting",
+    "score": 0.897481381893158,
+    "topicality": 0.897481381893158
+  },
+  {
+    "mid": "/m/02ws6z",
+    "description": "chandelier",
+    "score": 0.8445529341697693,
+    "topicality": 0.8445529341697693
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8443354964256287,
+    "topicality": 0.8443354964256287
+  },
+  {
+    "mid": "/m/08jpwt",
+    "description": "light fixture",
+    "score": 0.8322067260742188,
+    "topicality": 0.8322067260742188
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.7671104669570923,
+    "topicality": 0.7671104669570923
+  },
+  {
+    "mid": "/m/0dvh9",
+    "description": "classical architecture",
+    "score": 0.7535926699638367,
+    "topicality": 0.7535926699638367
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.6559603214263916,
+    "topicality": 0.6559603214263916
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.6369379758834839,
+    "topicality": 0.6369379758834839
+  }
+]

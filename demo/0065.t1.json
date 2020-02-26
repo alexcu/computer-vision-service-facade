@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.9699662923812866,
-      "topicality": 0.9699662923812866
-    },
-    {
-      "mid": "/m/0c9ph5",
-      "description": "flower",
-      "score": 0.9183721542358398,
-      "topicality": 0.9183721542358398
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9166678786277771,
-      "topicality": 0.9166678786277771
-    },
-    {
-      "mid": "/m/0j2hg",
-      "description": "botanical garden",
-      "score": 0.8852454423904419,
-      "topicality": 0.8852454423904419
-    },
-    {
-      "mid": "/m/03bmqb",
-      "description": "flora",
-      "score": 0.8702990412712097,
-      "topicality": 0.8702990412712097
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.8349833488464355,
-      "topicality": 0.8349833488464355
-    },
-    {
-      "mid": "/m/0bl0l",
-      "description": "garden",
-      "score": 0.8260467648506165,
-      "topicality": 0.8260467648506165
-    },
-    {
-      "mid": "/m/0184rb",
-      "description": "pond",
-      "score": 0.8154368996620178,
-      "topicality": 0.8154368996620178
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.8078712224960327,
-      "topicality": 0.8078712224960327
-    },
-    {
-      "mid": "/m/013sbk",
-      "description": "aquatic plant",
-      "score": 0.7379069924354553,
-      "topicality": 0.7379069924354553
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.9699662923812866,
+    "topicality": 0.9699662923812866
+  },
+  {
+    "mid": "/m/0c9ph5",
+    "description": "flower",
+    "score": 0.9183721542358398,
+    "topicality": 0.9183721542358398
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9166678786277771,
+    "topicality": 0.9166678786277771
+  },
+  {
+    "mid": "/m/0j2hg",
+    "description": "botanical garden",
+    "score": 0.8852454423904419,
+    "topicality": 0.8852454423904419
+  },
+  {
+    "mid": "/m/03bmqb",
+    "description": "flora",
+    "score": 0.8702990412712097,
+    "topicality": 0.8702990412712097
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.8349833488464355,
+    "topicality": 0.8349833488464355
+  },
+  {
+    "mid": "/m/0bl0l",
+    "description": "garden",
+    "score": 0.8260467648506165,
+    "topicality": 0.8260467648506165
+  },
+  {
+    "mid": "/m/0184rb",
+    "description": "pond",
+    "score": 0.8154368996620178,
+    "topicality": 0.8154368996620178
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.8078712224960327,
+    "topicality": 0.8078712224960327
+  },
+  {
+    "mid": "/m/013sbk",
+    "description": "aquatic plant",
+    "score": 0.7379069924354553,
+    "topicality": 0.7379069924354553
+  }
+]

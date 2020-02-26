@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0271t",
-      "description": "drink",
-      "score": 0.9003896117210388,
-      "topicality": 0.9003896117210388
-    },
-    {
-      "mid": "/m/01z1kdw",
-      "description": "juice",
-      "score": 0.84743332862854,
-      "topicality": 0.84743332862854
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.7024531364440918,
-      "topicality": 0.7024531364440918
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.5773195028305054,
-      "topicality": 0.5773195028305054
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0271t",
+    "description": "drink",
+    "score": 0.9003896117210388,
+    "topicality": 0.9003896117210388
+  },
+  {
+    "mid": "/m/01z1kdw",
+    "description": "juice",
+    "score": 0.84743332862854,
+    "topicality": 0.84743332862854
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.7024531364440918,
+    "topicality": 0.7024531364440918
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.5773195028305054,
+    "topicality": 0.5773195028305054
+  }
+]

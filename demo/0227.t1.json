@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.8815553784370422,
-      "topicality": 0.8815553784370422
-    },
-    {
-      "mid": "/m/0f4s2w",
-      "description": "vegetable",
-      "score": 0.8482641577720642,
-      "topicality": 0.8482641577720642
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.7932870984077454,
-      "topicality": 0.7932870984077454
-    },
-    {
-      "mid": "/m/07_lq",
-      "description": "vegetarian food",
-      "score": 0.7766883969306946,
-      "topicality": 0.7766883969306946
-    },
-    {
-      "mid": "/m/05f725",
-      "description": "leaf vegetable",
-      "score": 0.6841934323310852,
-      "topicality": 0.6841934323310852
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.8815553784370422,
+    "topicality": 0.8815553784370422
+  },
+  {
+    "mid": "/m/0f4s2w",
+    "description": "vegetable",
+    "score": 0.8482641577720642,
+    "topicality": 0.8482641577720642
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.7932870984077454,
+    "topicality": 0.7932870984077454
+  },
+  {
+    "mid": "/m/07_lq",
+    "description": "vegetarian food",
+    "score": 0.7766883969306946,
+    "topicality": 0.7766883969306946
+  },
+  {
+    "mid": "/m/05f725",
+    "description": "leaf vegetable",
+    "score": 0.6841934323310852,
+    "topicality": 0.6841934323310852
+  }
+]

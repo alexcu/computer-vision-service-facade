@@ -25,14 +25,15 @@ module ICVSB
   Thread.abort_on_exception = true
   # The valid services this version of the ICVSB module supports. At present the
   # only services supported are Google Cloud Vision, Amazon Rekognition, and
-  # Azure Computer Vision and their respective labelling/tagging endpoints.
+  # Azure Computer Vision and their respective labelling/tagging endpoints. You
+  # can also request the demo.
   # @see https://cloud.google.com/vision/docs/labels
   #   Google Cloud Vision labelling endpoint.
   # @see https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectLabels.html
   #   Amazon Rekognition's labelling endpoint.
   # @see https://docs.microsoft.com/en-us/rest/api/cognitiveservices/computervision/tagimage/tagimage
   #   Azure Computer Visions's tagging endpoint.
-  VALID_SERVICES = %i[google_cloud_vision amazon_rekognition azure_computer_vision].freeze
+  VALID_SERVICES = %i[google_cloud_vision amazon_rekognition azure_computer_vision demo].freeze
 
   # A list of the valid severities that the ICVSB module supports. Exception
   # prevents the response from being accessed; warning will still produce a
@@ -178,6 +179,9 @@ module ICVSB
     # @see https://docs.microsoft.com/en-us/rest/api/cognitiveservices/computervision/tagimage/tagimage
     #   Azure Computer Visions's tagging endpoint.
     AZURE  = Service[name: VALID_SERVICES[2].to_s]
+
+    # The Service representing a demonstration of the facade.
+    DEMO   = Service[name: VALID_SERVICES[3].to_s]
   end
 
   # Severity representing the list of VALID_SEVERITIES the ICVSB module
@@ -264,6 +268,8 @@ module ICVSB
           _amazon_rekognition_labels
         when Service::AZURE
           _azure_computer_vision_labels
+        when Service::DEMO
+          _demo_service_labels
         end
       else
         {}
@@ -323,6 +329,13 @@ module ICVSB
         [label[:name].downcase, label[:confidence]]
       end.to_h
     end
+
+    # Decodes the mock demo service response into a simple hash. This is simply
+    # a relay of Google's as the data is from Google Cloud Vision.
+    # @return [Hash] A key-value-pair representing label => confidence.
+    def _demo_service_labels
+      _google_cloud_vision_labels
+    end
   end
 
   # The batch request class collates multiple requests (URIs) invoked to a
@@ -367,7 +380,7 @@ module ICVSB
     # Class that encapsulates reasons why a benchmark key can be invalided.
     class InvalidKeyError
       module InvalidKeyErrorType
-        NO_KEY_YET = 'No key yet exists. It is likely still benchmarking its results.'
+        NO_KEY_YET = 'No key yet exists. It is likely key is still benchmarking its first results.'
         SERVICE_MISMATCH = 'Keys use different services'
         DATASET_MISTMATCH = 'Keys have different benchmark datasets'
         SUCCESS_MISMATCH = 'One or both keys do not have successful service responses'
@@ -543,17 +556,20 @@ module ICVSB
         # 7a. Label delta
         symm_diff_labels = our_labels ^ their_labels
 
+        msg_suffix = "URI = #{this_uri} from #{their_request.created_at} (req_id=#{their_request.id})"\
+          " to #{our_request.created_at} (req_id=#{our_request.id})."
+
         ICVSB.ldebug("Request id=#{our_request.id} {#{our_labels.to_a}} against "\
           "id=#{their_request.id} {#{their_labels.to_a}} - symm diff "\
           "= {#{symm_diff_labels.to_a}}")
         if symm_diff_labels.length > delta_labels
           ICVSB.lwarn("Number of labels mismatch in key validation (margin of error=#{delta_labels}): "\
-            "Symmetric difference = #{symm_diff_labels.to_a}.")
+            "Symmetric difference = #{symm_diff_labels.to_a}. #{msg_suffix}.")
           return false, BenchmarkKey::InvalidKeyError.new(
             BenchmarkKey::InvalidKeyError::LABEL_DELTA_MISMATCH,
             "Source key (id=#{id}) and validation key (id=#{key.id}) have #{symm_diff_labels.length} "\
             "differing labels, which exceeds the delta label value of #{delta_labels}. "\
-            "Symmetric difference is #{symm_diff_labels.to_a}."
+            "Symmetric difference is #{symm_diff_labels.to_a}. #{msg_suffix}."
           )
         end
         ICVSB.ldebug("Number of labels match both keys (within margin of error #{delta_labels})")
@@ -574,7 +590,10 @@ module ICVSB
           ICVSB.ldebug("Request id=#{our_request.id} against id=#{their_request.id} "\
             "for label '#{label}' confidence: #{our_conf}, #{their_conf} (delta=#{delta})")
           if delta > delta_confidence
-            ICVSB.lwarn("Maximum confidence delta breached in key validation (margin of error=#{delta_confidence})")
+            ICVSB.lwarn(
+              "Maximum confidence delta breached in key validation (margin of error=#{delta_confidence}). "\
+              "#{msg_suffix}."
+            )
             delta_confs_exceeded << {
               label: label,
               source_key_conf: our_conf,
@@ -631,7 +650,7 @@ module ICVSB
     #   are returned. Only supported if the service supports this parameter.
     #   Default is 0.50.
     def initialize(service, max_labels: 100, min_confidence: 0.50)
-      unless service.is_a?(Service) && [Service::GOOGLE, Service::AMAZON, Service::AZURE].include?(service)
+      unless service.is_a?(Service) && [Service::GOOGLE, Service::AMAZON, Service::AZURE, Service::DEMO].include?(service)
         raise ArgumentError, "Service with name #{service.name} not supported."
       end
 
@@ -649,6 +668,8 @@ module ICVSB
           Aws::Rekognition::Client.new
         when Service::AZURE
           URI('https://australiaeast.api.cognitive.microsoft.com/vision/v2.0/tag')
+        when Service::DEMO
+          nil # Not client needed for mock...
         end
       @config = {
         max_labels: max_labels,
@@ -685,6 +706,8 @@ module ICVSB
           response = _request_amazon_rekognition(uri)
         when Service::AZURE
           response = _request_azure_computer_vision(uri)
+        when Service::DEMO
+          response = _request_demo_service(uri)
         end
         ICVSB.ldebug("Succesful response for URI #{uri} to #{@service.name} (batch_id=#{batch_id})")
       rescue StandardError => e
@@ -812,7 +835,7 @@ module ICVSB
     # @see https://docs.aws.amazon.com/rekognition/latest/dg/API_DetectLabels.html
     # @param [String] uri A URI to an image to detect labels. Amazon Rekognition
     #   only supports JPEGs and PNGs.
-    # @returns (see #_request_google_cloud_vision)
+    # @return (see #_request_google_cloud_vision)
     def _request_amazon_rekognition(uri)
       begin
         image = _download_image(uri, %w[image/jpeg image/png])
@@ -837,8 +860,8 @@ module ICVSB
     # Makes a request to Azure's +analyze+ endpoint with +visualFeatures+ of
     #   +Tags+.
     # @see https://docs.microsoft.com/en-us/rest/api/cognitiveservices/computervision/tagimage/tagimage
-    # @param [String] uri A URI to an image to detect labels. Amazon Rekognition
-    #   only supports JPEGs, PNGs, GIFs, and BMPs.
+    # @param [String] uri A URI to an image to detect labels. Azure Computer
+    #   Vision only supports JPEGs, PNGs, GIFs, and BMPs.
     # @return (see #_request_google_cloud_vision)
     def _request_azure_computer_vision(uri)
       image = _download_image(uri, %w[image/jpeg image/png image/gif image/bmp])
@@ -857,6 +880,38 @@ module ICVSB
       {
         body: tags_present ? http_res.body : { service_error: http_res.body },
         success: tags_present
+      }
+    end
+
+    # Makes a request to the mock demo server, returning JSON data at time 1
+    # (t1) or time 2 (t2), depending on the timestamp flip (which can be
+    # triggered by the PATCH /benchmark/:key endpoint).
+    # @param [String] uri A URI to an image to detect labels.
+    # @return (see #_request_google_cloud_vision)
+    def _request_demo_service(uri)
+      # Get the image id from the URI...
+      rexp = %r{http:\/\/localhost:4567\/demo\/data\/(\d{4,12})\.jpe?g}
+
+      all_image_ids = JSON.parse(
+        File.read(File.join('demo', 'categories.json'))
+      )['all']
+
+      invalid_uri = (uri =~ rexp).nil?
+      image_id = uri.match(rexp)[1] unless invalid_uri
+      invalid_image_id = !all_image_ids.include?(image_id)
+
+      # Mock service can be switched to t1 or t2 at demo endpoint...
+      body =
+        if invalid_uri || invalid_image_id
+          { service_error: 'The URI is not a valid demo URI.' }
+        else
+          body = JSON.parse(File.read(File.join('demo', "#{image_id}.#{demo_timestamp}.json")))
+          { responses: [{ label_annotations: body }] }
+        end
+
+      {
+        body: body.to_json,
+        success: !(invalid_uri || invalid_image_id)
       }
     end
 
@@ -965,6 +1020,7 @@ module ICVSB
       end
 
       @created_at = DateTime.now
+      @demo_timestamp = 't1' if @service == Service::DEMO
       @is_benchmarking = false
       @last_benchmark_time = nil
       @benchmark_count = 0
@@ -1008,6 +1064,13 @@ module ICVSB
       @scheduler.last_work_time
     end
 
+    # Flips the demo `mock' service timestamp from +t1+ to +t2+ or vice-versa.
+    # @return [void]
+    def flip_demo_timestamp
+      @demo_timestamp = @demo_timestamp == 't1' ? 't2' : 't1'
+      ICVSB.linfo("Flipped the demo timestamp to #{@demo_timestamp}.")
+    end
+
     attr_reader *%i[
       invalid_state_count
       current_key
@@ -1018,6 +1081,7 @@ module ICVSB
       benchmark_config
       key_config
       service
+      demo_timestamp
     ]
 
     # Sends an image to this client's respective labelling endpoint, verifying
@@ -1062,7 +1126,7 @@ module ICVSB
         cached: nil
       }
 
-      # Check for a cached result w/ this service
+      # Check for a cached result w/ this service unless demo...
       ICVSB.ldebug("Attempting to use a cached response for #{uri} + #{@service.name}...")
       Request.where(uri: uri, service_id: @service.id).order(Sequel.desc(:created_at)).each do |request|
         response = request.response
@@ -1072,7 +1136,8 @@ module ICVSB
 
         # Check if the response's benchmark is still valid -- if so, just
         # reuse that result... (no need to actually ping service)
-        if !response.benchmark_key.nil? && @current_key.valid_against?(response.benchmark_key)
+        key_is_valid, = @current_key.valid_against?(response.benchmark_key)
+        if !response.benchmark_key.nil? && key_is_valid
           return { labels: response.labels, response: response.hash, cached: DateTime.parse(response.created_at.to_s) }
         end
       end
@@ -1099,12 +1164,15 @@ module ICVSB
         # Update the benchmark key id
         response.benchmark_key_id = @current_key.id
         ICVSB.ldebug("Updated response (id=#{response.id}) with benchmark key = #{response.benchmark_key_id}...")
-        # Now check to see if it was valid...
-        ICVSB.ldebug("Checking if this response (id=#{response.id}) is valid against current key (id=#{key.id})")
-        response_valid, response_invalid_reason = @current_key.valid_against?(response)
+        # Now check to see if it was valid given that the response was successful
+        if response.success?
+          ICVSB.ldebug("Checking if this response (id=#{response.id}) is valid against current key (id=#{key.id})")
+          response_valid, response_invalid_reason = @current_key.valid_against?(response)
+        end
         result[:labels] = response.labels
         result[:response] = response.hash
-        result[:service_error] = result[:response][:service_error].to_s
+        result[:service_error] = result[:response][:service_error].to_s unless result[:response][:service_error].nil?
+        response_valid ||= !result[:response][:service_error].nil?
         # Incremenet invalid state count if response error ONLY (i.e., not service error)
         unless response_valid
           ICVSB.ldebug("Validation of current key (id=#{@current_key.id}) failed against response "\
@@ -1128,8 +1196,18 @@ module ICVSB
       # Response behaviour is dependent on the severity encoded within the key
       case @current_key.benchmark_severity
       when BenchmarkSeverity::EXCEPTION
-        # Only expose errors...
-        { key_error: result[:key_error], response_error: result[:response_error], service_error: result[:service_error] }
+        # Only expose errors if they exist
+        if result[:key_error].nil? &&
+           result[:response_error].nil? &&
+           result[:service_error].nil?
+          result
+        else
+          {
+            key_error: result[:key_error],
+            response_error: result[:response_error],
+            service_error: result[:service_error]
+          }
+        end
       when BenchmarkSeverity::WARNING
         # Flag a warning to the warning endpoint about this result if sev is WARN
         _flag_warning(result)
@@ -1154,7 +1232,7 @@ module ICVSB
     # Makes a request to benchmark's the client's current key against the
     # client's URIs to benchmark against. Expires the existing current key
     # if a new benchmark key is no longer valid against the old benchmark key.
-    # @returns [void]
+    # @return [void]
     def trigger_benchmark
       @is_benchmarking = true
       new_key = _benchmark
@@ -1213,7 +1291,7 @@ module ICVSB
 
     # Forwards a full result to the benchmarked request client's warning endpoint
     # @param [Hash] result See #send_uri_with_key
-    # @returns [void]
+    # @return [void]
     def _flag_warning(result)
       return if @benchmark_config[:warning_callback_uri].nil? || @key_config[:severity] != BenchmarkSeverity::WARNING
 
@@ -1240,7 +1318,7 @@ module ICVSB
     #   not occur, or the old key if expiry did occur.
     # @param [Boolean] expiry_occured Indicates if the current_key was expired
     #   and replaced with the new_key.
-    # @returns [void]
+    # @return [void]
     def _flag_benchmarking_complete(new_key, old_or_current_key, expiry_occured)
       return if @benchmark_config[:benchmark_callback_uri].nil?
 

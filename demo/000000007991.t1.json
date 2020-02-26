@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.8395815491676331,
-      "topicality": 0.8395815491676331
-    },
-    {
-      "mid": "/m/0f4s2w",
-      "description": "vegetable",
-      "score": 0.7674310803413391,
-      "topicality": 0.7674310803413391
-    },
-    {
-      "mid": "/m/0fj52s",
-      "description": "carrot",
-      "score": 0.7445208430290222,
-      "topicality": 0.7445208430290222
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.7214328646659851,
-      "topicality": 0.7214328646659851
-    },
-    {
-      "mid": "/m/07_lq",
-      "description": "vegetarian food",
-      "score": 0.713320791721344,
-      "topicality": 0.713320791721344
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.6407978534698486,
-      "topicality": 0.6407978534698486
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.8395815491676331,
+    "topicality": 0.8395815491676331
+  },
+  {
+    "mid": "/m/0f4s2w",
+    "description": "vegetable",
+    "score": 0.7674310803413391,
+    "topicality": 0.7674310803413391
+  },
+  {
+    "mid": "/m/0fj52s",
+    "description": "carrot",
+    "score": 0.7445208430290222,
+    "topicality": 0.7445208430290222
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.7214328646659851,
+    "topicality": 0.7214328646659851
+  },
+  {
+    "mid": "/m/07_lq",
+    "description": "vegetarian food",
+    "score": 0.713320791721344,
+    "topicality": 0.713320791721344
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.6407978534698486,
+    "topicality": 0.6407978534698486
+  }
+]

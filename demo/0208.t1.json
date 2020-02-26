@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01l0y0",
-      "description": "material",
-      "score": 0.6510791778564453,
-      "topicality": 0.6510791778564453
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.5370046496391296,
-      "topicality": 0.5370046496391296
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.5177240967750549,
-      "topicality": 0.5177240967750549
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.5004870891571045,
-      "topicality": 0.5004870891571045
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01l0y0",
+    "description": "material",
+    "score": 0.6510791778564453,
+    "topicality": 0.6510791778564453
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.5370046496391296,
+    "topicality": 0.5370046496391296
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.5177240967750549,
+    "topicality": 0.5177240967750549
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.5004870891571045,
+    "topicality": 0.5004870891571045
+  }
+]

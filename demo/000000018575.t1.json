@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0krfg",
-      "description": "meal",
-      "score": 0.934443473815918,
-      "topicality": 0.934443473815918
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9284367561340332,
-      "topicality": 0.9284367561340332
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9220718741416931,
-      "topicality": 0.9220718741416931
-    },
-    {
-      "mid": "/m/0h55b",
-      "description": "junk food",
-      "score": 0.8536657094955444,
-      "topicality": 0.8536657094955444
-    },
-    {
-      "mid": "/m/0jfd5",
-      "description": "lunch",
-      "score": 0.8369565010070801,
-      "topicality": 0.8369565010070801
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.8234967589378357,
-      "topicality": 0.8234967589378357
-    },
-    {
-      "mid": "/m/01_bhs",
-      "description": "fast food",
-      "score": 0.7426968216896057,
-      "topicality": 0.7426968216896057
-    },
-    {
-      "mid": "/m/07_lq",
-      "description": "vegetarian food",
-      "score": 0.7412099242210388,
-      "topicality": 0.7412099242210388
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.699036717414856,
-      "topicality": 0.699036717414856
-    },
-    {
-      "mid": "/m/07l8p5",
-      "description": "side dish",
-      "score": 0.6904171705245972,
-      "topicality": 0.6904171705245972
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0krfg",
+    "description": "meal",
+    "score": 0.934443473815918,
+    "topicality": 0.934443473815918
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9284367561340332,
+    "topicality": 0.9284367561340332
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9220718741416931,
+    "topicality": 0.9220718741416931
+  },
+  {
+    "mid": "/m/0h55b",
+    "description": "junk food",
+    "score": 0.8536657094955444,
+    "topicality": 0.8536657094955444
+  },
+  {
+    "mid": "/m/0jfd5",
+    "description": "lunch",
+    "score": 0.8369565010070801,
+    "topicality": 0.8369565010070801
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.8234967589378357,
+    "topicality": 0.8234967589378357
+  },
+  {
+    "mid": "/m/01_bhs",
+    "description": "fast food",
+    "score": 0.7426968216896057,
+    "topicality": 0.7426968216896057
+  },
+  {
+    "mid": "/m/07_lq",
+    "description": "vegetarian food",
+    "score": 0.7412099242210388,
+    "topicality": 0.7412099242210388
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.699036717414856,
+    "topicality": 0.699036717414856
+  },
+  {
+    "mid": "/m/07l8p5",
+    "description": "side dish",
+    "score": 0.6904171705245972,
+    "topicality": 0.6904171705245972
+  }
+]

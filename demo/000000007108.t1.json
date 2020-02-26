@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bwd_0j",
-      "description": "elephant",
-      "score": 0.9926275014877319,
-      "topicality": 0.9926275014877319
-    },
-    {
-      "mid": "/m/07kbbhf",
-      "description": "elephants and mammoths",
-      "score": 0.9871743321418762,
-      "topicality": 0.9871743321418762
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9620455503463745,
-      "topicality": 0.9620455503463745
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9526004791259766,
-      "topicality": 0.9526004791259766
-    },
-    {
-      "mid": "/m/0dflpy",
-      "description": "indian elephant",
-      "score": 0.9344608783721924,
-      "topicality": 0.9344608783721924
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.923786461353302,
-      "topicality": 0.923786461353302
-    },
-    {
-      "mid": "/m/04_r5c",
-      "description": "african elephant",
-      "score": 0.8934081196784973,
-      "topicality": 0.8934081196784973
-    },
-    {
-      "mid": "/m/01n_j_",
-      "description": "tusk",
-      "score": 0.8716030120849609,
-      "topicality": 0.8716030120849609
-    },
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.8423168659210205,
-      "topicality": 0.8423168659210205
-    },
-    {
-      "mid": "/m/0199b0",
-      "description": "safari",
-      "score": 0.7080934643745422,
-      "topicality": 0.7080934643745422
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bwd_0j",
+    "description": "elephant",
+    "score": 0.9926275014877319,
+    "topicality": 0.9926275014877319
+  },
+  {
+    "mid": "/m/07kbbhf",
+    "description": "elephants and mammoths",
+    "score": 0.9871743321418762,
+    "topicality": 0.9871743321418762
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9620455503463745,
+    "topicality": 0.9620455503463745
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9526004791259766,
+    "topicality": 0.9526004791259766
+  },
+  {
+    "mid": "/m/0dflpy",
+    "description": "indian elephant",
+    "score": 0.9344608783721924,
+    "topicality": 0.9344608783721924
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.923786461353302,
+    "topicality": 0.923786461353302
+  },
+  {
+    "mid": "/m/04_r5c",
+    "description": "african elephant",
+    "score": 0.8934081196784973,
+    "topicality": 0.8934081196784973
+  },
+  {
+    "mid": "/m/01n_j_",
+    "description": "tusk",
+    "score": 0.8716030120849609,
+    "topicality": 0.8716030120849609
+  },
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.8423168659210205,
+    "topicality": 0.8423168659210205
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.7705578561100432,
+    "topicality": 0.7705578561100432
+  },
+  {
+    "mid": "/m/0199b0",
+    "description": "safari",
+    "score": 0.7080934643745422,
+    "topicality": 0.7080934643745422
+  }
+]

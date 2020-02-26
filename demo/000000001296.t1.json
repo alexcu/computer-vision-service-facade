@@ -1,46 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05r655",
-      "description": "girl",
-      "score": 0.8958958983421326,
-      "topicality": 0.8958958983421326
-    },
-    {
-      "mid": "/m/01f43",
-      "description": "beauty",
-      "score": 0.8874995708465576,
-      "topicality": 0.8874995708465576
-    },
-    {
-      "mid": "/m/02pkb8",
-      "description": "lady",
-      "score": 0.8599684238433838,
-      "topicality": 0.8599684238433838
-    },
-    {
-      "mid": "/m/06pg22",
-      "description": "snapshot",
-      "score": 0.8176745176315308,
-      "topicality": 0.8176745176315308
-    },
-    {
-      "mid": "/m/0ds4x",
-      "description": "hairstyle",
-      "score": 0.8152675628662109,
-      "topicality": 0.8152675628662109
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.7612695097923279,
-      "topicality": 0.7612695097923279
-    },
-    {
-      "mid": "/m/0fc1fy",
-      "description": "black hair",
-      "score": 0.7019560933113098,
-      "topicality": 0.7019560933113098
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05r655",
+    "description": "girl",
+    "score": 0.8958958983421326,
+    "topicality": 0.8958958983421326
+  },
+  {
+    "mid": "/m/01f43",
+    "description": "beauty",
+    "score": 0.8874995708465576,
+    "topicality": 0.8874995708465576
+  },
+  {
+    "mid": "/m/02pkb8",
+    "description": "lady",
+    "score": 0.8599684238433838,
+    "topicality": 0.8599684238433838
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.8231201315058605,
+    "topicality": 0.8231201315058605
+  },
+  {
+    "mid": "/m/06pg22",
+    "description": "snapshot",
+    "score": 0.8176745176315308,
+    "topicality": 0.8176745176315308
+  },
+  {
+    "mid": "/m/0ds4x",
+    "description": "hairstyle",
+    "score": 0.8152675628662109,
+    "topicality": 0.8152675628662109
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.7612695097923279,
+    "topicality": 0.7612695097923279
+  },
+  {
+    "mid": "/m/0fc1fy",
+    "description": "black hair",
+    "score": 0.7019560933113098,
+    "topicality": 0.7019560933113098
+  }
+]

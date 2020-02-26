@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02l215",
-      "description": "reflection",
-      "score": 0.9856327176094055,
-      "topicality": 0.9856327176094055,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.9763058423995972,
-      "topicality": 0.9763058423995972,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9751192927360535,
-      "topicality": 0.9751192927360535,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9750754833221436,
-      "topicality": 0.9750754833221436,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9617570638656616,
-      "topicality": 0.9617570638656616,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.9613779187202454,
-      "topicality": 0.9613779187202454,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.9318427443504333,
-      "topicality": 0.9318427443504333,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.9255515336990356,
-      "topicality": 0.9255515336990356,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/05t0z3q",
-      "description": "bank",
-      "score": 0.9182685613632202,
-      "topicality": 0.9182685613632202,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0184rb",
-      "description": "pond",
-      "score": 0.9128689169883728,
-      "topicality": 0.9128689169883728,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02l215",
+    "description": "reflection",
+    "score": 0.9856327176094055,
+    "topicality": 0.9856327176094055,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.9763058423995972,
+    "topicality": 0.9763058423995972,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9751192927360535,
+    "topicality": 0.9751192927360535,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9750754833221436,
+    "topicality": 0.9750754833221436,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9617570638656616,
+    "topicality": 0.9617570638656616,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.9613779187202454,
+    "topicality": 0.9613779187202454,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.9318427443504333,
+    "topicality": 0.9318427443504333,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.9255515336990356,
+    "topicality": 0.9255515336990356,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/05t0z3q",
+    "description": "bank",
+    "score": 0.9182685613632202,
+    "topicality": 0.9182685613632202,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0184rb",
+    "description": "pond",
+    "score": 0.9128689169883728,
+    "topicality": 0.9128689169883728,
+    "bounding_poly": {}
+  }
+]

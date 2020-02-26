@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0hkf",
-      "description": "agriculture",
-      "score": 0.9654955267906189,
-      "topicality": 0.9654955267906189
-    },
-    {
-      "mid": "/m/016btq",
-      "description": "vineyard",
-      "score": 0.8886711597442627,
-      "topicality": 0.8886711597442627
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8767248392105103,
-      "topicality": 0.8767248392105103
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.869421660900116,
-      "topicality": 0.869421660900116
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.6855424642562866,
-      "topicality": 0.6855424642562866
-    },
-    {
-      "mid": "/m/0263lr1",
-      "description": "crop",
-      "score": 0.6352660655975342,
-      "topicality": 0.6352660655975342
-    },
-    {
-      "mid": "/m/06w1j5",
-      "description": "shrubland",
-      "score": 0.5921518802642822,
-      "topicality": 0.5921518802642822
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.576776921749115,
-      "topicality": 0.576776921749115
-    },
-    {
-      "mid": "/m/011yvr",
-      "description": "plantation",
-      "score": 0.5556284189224243,
-      "topicality": 0.5556284189224243
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.5384083986282349,
-      "topicality": 0.5384083986282349
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0hkf",
+    "description": "agriculture",
+    "score": 0.9654955267906189,
+    "topicality": 0.9654955267906189
+  },
+  {
+    "mid": "/m/016btq",
+    "description": "vineyard",
+    "score": 0.8886711597442627,
+    "topicality": 0.8886711597442627
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8767248392105103,
+    "topicality": 0.8767248392105103
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.869421660900116,
+    "topicality": 0.869421660900116
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.6855424642562866,
+    "topicality": 0.6855424642562866
+  },
+  {
+    "mid": "/m/0263lr1",
+    "description": "crop",
+    "score": 0.6352660655975342,
+    "topicality": 0.6352660655975342
+  },
+  {
+    "mid": "/m/06w1j5",
+    "description": "shrubland",
+    "score": 0.5921518802642822,
+    "topicality": 0.5921518802642822
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.576776921749115,
+    "topicality": 0.576776921749115
+  },
+  {
+    "mid": "/m/011yvr",
+    "description": "plantation",
+    "score": 0.5556284189224243,
+    "topicality": 0.5556284189224243
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.5384083986282349,
+    "topicality": 0.5384083986282349
+  }
+]

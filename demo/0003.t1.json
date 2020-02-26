@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9578201174736023,
-      "topicality": 0.9578201174736023
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9569454193115234,
-      "topicality": 0.9569454193115234
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.9359399080276489,
-      "topicality": 0.9359399080276489
-    },
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9342687129974365,
-      "topicality": 0.9342687129974365
-    },
-    {
-      "mid": "/m/0bl0l",
-      "description": "garden",
-      "score": 0.932193398475647,
-      "topicality": 0.932193398475647
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9264843463897705,
-      "topicality": 0.9264843463897705
-    },
-    {
-      "mid": "/m/0184rb",
-      "description": "pond",
-      "score": 0.9213990569114685,
-      "topicality": 0.9213990569114685
-    },
-    {
-      "mid": "/m/02l215",
-      "description": "reflection",
-      "score": 0.8945394158363342,
-      "topicality": 0.8945394158363342
-    },
-    {
-      "mid": "/m/0j2hg",
-      "description": "botanical garden",
-      "score": 0.8872998356819153,
-      "topicality": 0.8872998356819153
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.8808954954147339,
-      "topicality": 0.8808954954147339
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9578201174736023,
+    "topicality": 0.9578201174736023
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9569454193115234,
+    "topicality": 0.9569454193115234
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.9359399080276489,
+    "topicality": 0.9359399080276489
+  },
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9342687129974365,
+    "topicality": 0.9342687129974365
+  },
+  {
+    "mid": "/m/0bl0l",
+    "description": "garden",
+    "score": 0.932193398475647,
+    "topicality": 0.932193398475647
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9264843463897705,
+    "topicality": 0.9264843463897705
+  },
+  {
+    "mid": "/m/0184rb",
+    "description": "pond",
+    "score": 0.9213990569114685,
+    "topicality": 0.9213990569114685
+  },
+  {
+    "mid": "/m/02l215",
+    "description": "reflection",
+    "score": 0.8945394158363342,
+    "topicality": 0.8945394158363342
+  },
+  {
+    "mid": "/m/0j2hg",
+    "description": "botanical garden",
+    "score": 0.8872998356819153,
+    "topicality": 0.8872998356819153
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.8808954954147339,
+    "topicality": 0.8808954954147339
+  }
+]

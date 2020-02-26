@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01prls",
-      "description": "land vehicle",
-      "score": 0.9961627125740051,
-      "topicality": 0.9961627125740051
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9903031587600708,
-      "topicality": 0.9903031587600708
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9743772745132446,
-      "topicality": 0.9743772745132446
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.9500004649162292,
-      "topicality": 0.9500004649162292
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.932481050491333,
-      "topicality": 0.932481050491333
-    },
-    {
-      "mid": "/m/0dgc3t",
-      "description": "automobile repair shop",
-      "score": 0.8867084980010986,
-      "topicality": 0.8867084980010986
-    },
-    {
-      "mid": "/m/0h8ls87",
-      "description": "automotive exterior",
-      "score": 0.7311965227127075,
-      "topicality": 0.7311965227127075
-    },
-    {
-      "mid": "/m/0dkw5",
-      "description": "machine",
-      "score": 0.7055875062942505,
-      "topicality": 0.7055875062942505
-    },
-    {
-      "mid": "/m/03p66g",
-      "description": "crossover suv",
-      "score": 0.7018160223960876,
-      "topicality": 0.7018160223960876
-    },
-    {
-      "mid": "/m/01lcwm",
-      "description": "luxury vehicle",
-      "score": 0.6844155192375183,
-      "topicality": 0.6844155192375183
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01prls",
+    "description": "land vehicle",
+    "score": 0.9961627125740051,
+    "topicality": 0.9961627125740051
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9903031587600708,
+    "topicality": 0.9903031587600708
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9743772745132446,
+    "topicality": 0.9743772745132446
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.9500004649162292,
+    "topicality": 0.9500004649162292
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.932481050491333,
+    "topicality": 0.932481050491333
+  },
+  {
+    "mid": "/m/0dgc3t",
+    "description": "automobile repair shop",
+    "score": 0.8867084980010986,
+    "topicality": 0.8867084980010986
+  },
+  {
+    "mid": "/m/0h8ls87",
+    "description": "automotive exterior",
+    "score": 0.7311965227127075,
+    "topicality": 0.7311965227127075
+  },
+  {
+    "mid": "/m/0dkw5",
+    "description": "machine",
+    "score": 0.7055875062942505,
+    "topicality": 0.7055875062942505
+  },
+  {
+    "mid": "/m/03p66g",
+    "description": "crossover suv",
+    "score": 0.7018160223960876,
+    "topicality": 0.7018160223960876
+  },
+  {
+    "mid": "/m/01lcwm",
+    "description": "luxury vehicle",
+    "score": 0.6844155192375183,
+    "topicality": 0.6844155192375183
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9812576174736023,
-      "topicality": 0.9812576174736023
-    },
-    {
-      "mid": "/m/0898b",
-      "description": "zebra",
-      "score": 0.9669758677482605,
-      "topicality": 0.9669758677482605
-    },
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.9297634363174438,
-      "topicality": 0.9297634363174438
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9253283739089966,
-      "topicality": 0.9253283739089966
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9066323041915894,
-      "topicality": 0.9066323041915894
-    },
-    {
-      "mid": "/m/0199b0",
-      "description": "safari",
-      "score": 0.6730360388755798,
-      "topicality": 0.6730360388755798
-    },
-    {
-      "mid": "/m/01c7d3",
-      "description": "savanna",
-      "score": 0.6613759398460388,
-      "topicality": 0.6613759398460388
-    },
-    {
-      "mid": "/m/05gz5",
-      "description": "national park",
-      "score": 0.6524721384048462,
-      "topicality": 0.6524721384048462
-    },
-    {
-      "mid": "/m/05nnm",
-      "description": "organism",
-      "score": 0.6337997913360596,
-      "topicality": 0.6337997913360596
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6250694990158081,
-      "topicality": 0.6250694990158081
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9812576174736023,
+    "topicality": 0.9812576174736023
+  },
+  {
+    "mid": "/m/0898b",
+    "description": "zebra",
+    "score": 0.9669758677482605,
+    "topicality": 0.9669758677482605
+  },
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.9297634363174438,
+    "topicality": 0.9297634363174438
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9253283739089966,
+    "topicality": 0.9253283739089966
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9066323041915894,
+    "topicality": 0.9066323041915894
+  },
+  {
+    "mid": "/m/0199b0",
+    "description": "safari",
+    "score": 0.6730360388755798,
+    "topicality": 0.6730360388755798
+  },
+  {
+    "mid": "/m/01c7d3",
+    "description": "savanna",
+    "score": 0.6613759398460388,
+    "topicality": 0.6613759398460388
+  },
+  {
+    "mid": "/m/05gz5",
+    "description": "national park",
+    "score": 0.6524721384048462,
+    "topicality": 0.6524721384048462
+  },
+  {
+    "mid": "/m/05nnm",
+    "description": "organism",
+    "score": 0.6337997913360596,
+    "topicality": 0.6337997913360596
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6250694990158081,
+    "topicality": 0.6250694990158081
+  }
+]

@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0138tl",
-      "description": "toy",
-      "score": 0.8376281261444092,
-      "topicality": 0.8376281261444092
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.6065555810928345,
-      "topicality": 0.6065555810928345
-    },
-    {
-      "mid": "/m/017h86",
-      "description": "action figure",
-      "score": 0.5180387496948242,
-      "topicality": 0.5180387496948242
-    },
-    {
-      "mid": "/m/0hr5k",
-      "description": "festival",
-      "score": 0.5034088492393494,
-      "topicality": 0.5034088492393494
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0138tl",
+    "description": "toy",
+    "score": 0.8376281261444092,
+    "topicality": 0.8376281261444092
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.6065555810928345,
+    "topicality": 0.6065555810928345
+  },
+  {
+    "mid": "/m/017h86",
+    "description": "action figure",
+    "score": 0.5180387496948242,
+    "topicality": 0.5180387496948242
+  },
+  {
+    "mid": "/m/0hr5k",
+    "description": "festival",
+    "score": 0.5034088492393494,
+    "topicality": 0.5034088492393494
+  }
+]

@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01gd91",
-      "description": "pasture",
-      "score": 0.9652280807495117,
-      "topicality": 0.9652280807495117
-    },
-    {
-      "mid": "/m/01c7cq",
-      "description": "grassland",
-      "score": 0.9587328433990479,
-      "topicality": 0.9587328433990479
-    },
-    {
-      "mid": "/m/03k3r",
-      "description": "horse",
-      "score": 0.957744300365448,
-      "topicality": 0.957744300365448
-    },
-    {
-      "mid": "/m/03hh2k",
-      "description": "grazing",
-      "score": 0.9462965726852417,
-      "topicality": 0.9462965726852417
-    },
-    {
-      "mid": "/m/02mhj",
-      "description": "ecosystem",
-      "score": 0.9191393256187439,
-      "topicality": 0.9191393256187439
-    },
-    {
-      "mid": "/m/02s3y",
-      "description": "horse like mammal",
-      "score": 0.8781527280807495,
-      "topicality": 0.8781527280807495
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8723236918449402,
-      "topicality": 0.8723236918449402
-    },
-    {
-      "mid": "/m/0c23pz",
-      "description": "mare",
-      "score": 0.8300814628601074,
-      "topicality": 0.8300814628601074
-    },
-    {
-      "mid": "/m/01fzz2",
-      "description": "pony",
-      "score": 0.8032526969909668,
-      "topicality": 0.8032526969909668
-    },
-    {
-      "mid": "/m/025st_8",
-      "description": "meadow",
-      "score": 0.8021628856658936,
-      "topicality": 0.8021628856658936
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01gd91",
+    "description": "pasture",
+    "score": 0.9652280807495117,
+    "topicality": 0.9652280807495117
+  },
+  {
+    "mid": "/m/01c7cq",
+    "description": "grassland",
+    "score": 0.9587328433990479,
+    "topicality": 0.9587328433990479
+  },
+  {
+    "mid": "/m/03k3r",
+    "description": "horse",
+    "score": 0.957744300365448,
+    "topicality": 0.957744300365448
+  },
+  {
+    "mid": "/m/03hh2k",
+    "description": "grazing",
+    "score": 0.9462965726852417,
+    "topicality": 0.9462965726852417
+  },
+  {
+    "mid": "/m/02mhj",
+    "description": "ecosystem",
+    "score": 0.9191393256187439,
+    "topicality": 0.9191393256187439
+  },
+  {
+    "mid": "/m/02s3y",
+    "description": "horse like mammal",
+    "score": 0.8781527280807495,
+    "topicality": 0.8781527280807495
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8723236918449402,
+    "topicality": 0.8723236918449402
+  },
+  {
+    "mid": "/m/0c23pz",
+    "description": "mare",
+    "score": 0.8300814628601074,
+    "topicality": 0.8300814628601074
+  },
+  {
+    "mid": "/m/01fzz2",
+    "description": "pony",
+    "score": 0.8032526969909668,
+    "topicality": 0.8032526969909668
+  },
+  {
+    "mid": "/m/025st_8",
+    "description": "meadow",
+    "score": 0.8021628856658936,
+    "topicality": 0.8021628856658936
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.7497389544091253,
+    "topicality": 0.7497389544091253
+  }
+]

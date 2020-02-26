@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8854506015777588,
-      "topicality": 0.8854506015777588
-    },
-    {
-      "mid": "/m/0b7pvt",
-      "description": "color guard (flag spinning)",
-      "score": 0.8506688475608826,
-      "topicality": 0.8506688475608826
-    },
-    {
-      "mid": "/m/011l78",
-      "description": "team",
-      "score": 0.8345943093299866,
-      "topicality": 0.8345943093299866
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.8011429905891418,
-      "topicality": 0.8011429905891418
-    },
-    {
-      "mid": "/m/03bt1gh",
-      "description": "games",
-      "score": 0.6903212666511536,
-      "topicality": 0.6903212666511536
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6869218349456787,
-      "topicality": 0.6869218349456787
-    },
-    {
-      "mid": "/m/04g3r",
-      "description": "leisure",
-      "score": 0.6809553503990173,
-      "topicality": 0.6809553503990173
-    },
-    {
-      "mid": "/m/02zt3",
-      "description": "kite",
-      "score": 0.6540511846542358,
-      "topicality": 0.6540511846542358
-    },
-    {
-      "mid": "/m/01v327",
-      "description": "lawn",
-      "score": 0.64983731508255,
-      "topicality": 0.64983731508255
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6463999152183533,
-      "topicality": 0.6463999152183533
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8854506015777588,
+    "topicality": 0.8854506015777588
+  },
+  {
+    "mid": "/m/0b7pvt",
+    "description": "color guard (flag spinning)",
+    "score": 0.8506688475608826,
+    "topicality": 0.8506688475608826
+  },
+  {
+    "mid": "/m/011l78",
+    "description": "team",
+    "score": 0.8345943093299866,
+    "topicality": 0.8345943093299866
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.8011429905891418,
+    "topicality": 0.8011429905891418
+  },
+  {
+    "mid": "/m/03bt1gh",
+    "description": "games",
+    "score": 0.6903212666511536,
+    "topicality": 0.6903212666511536
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6869218349456787,
+    "topicality": 0.6869218349456787
+  },
+  {
+    "mid": "/m/04g3r",
+    "description": "leisure",
+    "score": 0.6809553503990173,
+    "topicality": 0.6809553503990173
+  },
+  {
+    "mid": "/m/02zt3",
+    "description": "kite",
+    "score": 0.6540511846542358,
+    "topicality": 0.6540511846542358
+  },
+  {
+    "mid": "/m/01v327",
+    "description": "lawn",
+    "score": 0.64983731508255,
+    "topicality": 0.64983731508255
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6463999152183533,
+    "topicality": 0.6463999152183533
+  }
+]

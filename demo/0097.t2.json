@@ -1,46 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01ww8y",
-      "description": "snack",
-      "score": 0.8286308646202087,
-      "topicality": 0.8286308646202087,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0h55b",
-      "description": "junk food",
-      "score": 0.7872939109802246,
-      "topicality": 0.7872939109802246,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.7043061256408691,
-      "topicality": 0.7043061256408691,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/09qck",
-      "description": "banana",
-      "score": 0.6168387532234192,
-      "topicality": 0.6168387532234192,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0c5yy",
-      "description": "confectionery",
-      "score": 0.5765045285224915,
-      "topicality": 0.5765045285224915,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0b3dyl",
-      "description": "finger food",
-      "score": 0.536959171295166,
-      "topicality": 0.536959171295166,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01ww8y",
+    "description": "snack",
+    "score": 0.8286308646202087,
+    "topicality": 0.8286308646202087,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0h55b",
+    "description": "junk food",
+    "score": 0.7872939109802246,
+    "topicality": 0.7872939109802246,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.7043061256408691,
+    "topicality": 0.7043061256408691,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/09qck",
+    "description": "banana",
+    "score": 0.6168387532234192,
+    "topicality": 0.6168387532234192,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0c5yy",
+    "description": "confectionery",
+    "score": 0.5765045285224915,
+    "topicality": 0.5765045285224915,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0b3dyl",
+    "description": "finger food",
+    "score": 0.536959171295166,
+    "topicality": 0.536959171295166,
+    "bounding_poly": {}
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.9532259106636047,
-      "topicality": 0.9532259106636047
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9378499984741211,
-      "topicality": 0.9378499984741211
-    },
-    {
-      "mid": "/m/02q13x7",
-      "description": "fishing vessel",
-      "score": 0.9264451861381531,
-      "topicality": 0.9264451861381531
-    },
-    {
-      "mid": "/m/08rrcl",
-      "description": "water transportation",
-      "score": 0.9153425097465515,
-      "topicality": 0.9153425097465515
-    },
-    {
-      "mid": "/m/01rzcn",
-      "description": "watercraft",
-      "score": 0.8254269957542419,
-      "topicality": 0.8254269957542419
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.8073040843009949,
-      "topicality": 0.8073040843009949
-    },
-    {
-      "mid": "/m/03htg",
-      "description": "harbor",
-      "score": 0.8036543130874634,
-      "topicality": 0.8036543130874634
-    },
-    {
-      "mid": "/m/03b0sm",
-      "description": "fishing trawler",
-      "score": 0.8016210198402405,
-      "topicality": 0.8016210198402405
-    },
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.7336461544036865,
-      "topicality": 0.7336461544036865
-    },
-    {
-      "mid": "/m/06q74",
-      "description": "ship",
-      "score": 0.6628687977790833,
-      "topicality": 0.6628687977790833
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.9532259106636047,
+    "topicality": 0.9532259106636047
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9378499984741211,
+    "topicality": 0.9378499984741211
+  },
+  {
+    "mid": "/m/02q13x7",
+    "description": "fishing vessel",
+    "score": 0.9264451861381531,
+    "topicality": 0.9264451861381531
+  },
+  {
+    "mid": "/m/08rrcl",
+    "description": "water transportation",
+    "score": 0.9153425097465515,
+    "topicality": 0.9153425097465515
+  },
+  {
+    "mid": "/m/01rzcn",
+    "description": "watercraft",
+    "score": 0.8254269957542419,
+    "topicality": 0.8254269957542419
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.8073040843009949,
+    "topicality": 0.8073040843009949
+  },
+  {
+    "mid": "/m/03htg",
+    "description": "harbor",
+    "score": 0.8036543130874634,
+    "topicality": 0.8036543130874634
+  },
+  {
+    "mid": "/m/03b0sm",
+    "description": "fishing trawler",
+    "score": 0.8016210198402405,
+    "topicality": 0.8016210198402405
+  },
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.7336461544036865,
+    "topicality": 0.7336461544036865
+  },
+  {
+    "mid": "/m/06q74",
+    "description": "ship",
+    "score": 0.6628687977790833,
+    "topicality": 0.6628687977790833
+  }
+]

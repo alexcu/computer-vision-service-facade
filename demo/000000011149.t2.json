@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01prls",
-      "description": "land vehicle",
-      "score": 0.9961627125740051,
-      "topicality": 0.9961627125740051
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9903031587600708,
-      "topicality": 0.9903031587600708
-    },
-    {
-      "mid": "/m/0199g",
-      "description": "bicycle",
-      "score": 0.9836284518241882,
-      "topicality": 0.9836284518241882
-    },
-    {
-      "mid": "/m/01bqk0",
-      "description": "bicycle wheel",
-      "score": 0.9697408676147461,
-      "topicality": 0.9697408676147461
-    },
-    {
-      "mid": "/m/0h8m1ct",
-      "description": "bicycle accessory",
-      "score": 0.9534517526626587,
-      "topicality": 0.9534517526626587
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.9076903462409973,
-      "topicality": 0.9076903462409973
-    },
-    {
-      "mid": "/m/03pyqb",
-      "description": "bicycle fork",
-      "score": 0.8790429830551147,
-      "topicality": 0.8790429830551147
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.8718088865280151,
-      "topicality": 0.8718088865280151
-    },
-    {
-      "mid": "/m/01bqgn",
-      "description": "bicycle frame",
-      "score": 0.8481146693229675,
-      "topicality": 0.8481146693229675
-    },
-    {
-      "mid": "/m/016xt7",
-      "description": "spoke",
-      "score": 0.8428419828414917,
-      "topicality": 0.8428419828414917
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01prls",
+    "description": "land vehicle",
+    "score": 0.9961627125740051,
+    "topicality": 0.9961627125740051
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9903031587600708,
+    "topicality": 0.9903031587600708
+  },
+  {
+    "mid": "/m/0199g",
+    "description": "bicycle",
+    "score": 0.9836284518241882,
+    "topicality": 0.9836284518241882
+  },
+  {
+    "mid": "/m/01bqk0",
+    "description": "bicycle wheel",
+    "score": 0.9697408676147461,
+    "topicality": 0.9697408676147461
+  },
+  {
+    "mid": "/m/0h8m1ct",
+    "description": "bicycle accessory",
+    "score": 0.9534517526626587,
+    "topicality": 0.9534517526626587
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.9076903462409973,
+    "topicality": 0.9076903462409973
+  },
+  {
+    "mid": "/m/03pyqb",
+    "description": "bicycle fork",
+    "score": 0.8790429830551147,
+    "topicality": 0.8790429830551147
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.8718088865280151,
+    "topicality": 0.8718088865280151
+  },
+  {
+    "mid": "/m/01bqgn",
+    "description": "bicycle frame",
+    "score": 0.8481146693229675,
+    "topicality": 0.8481146693229675
+  },
+  {
+    "mid": "/m/016xt7",
+    "description": "spoke",
+    "score": 0.8428419828414917,
+    "topicality": 0.8428419828414917
+  }
+]

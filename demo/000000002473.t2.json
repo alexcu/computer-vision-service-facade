@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06_dn",
-      "description": "snow",
-      "score": 0.9821116328239441,
-      "topicality": 0.9821116328239441
-    },
-    {
-      "mid": "/m/02h6653",
-      "description": "skier",
-      "score": 0.9630308151245117,
-      "topicality": 0.9630308151245117
-    },
-    {
-      "mid": "/m/09_b4",
-      "description": "freestyle skiing",
-      "score": 0.9576003551483154,
-      "topicality": 0.9576003551483154
-    },
-    {
-      "mid": "/m/09qf5",
-      "description": "winter sport",
-      "score": 0.9352575540542603,
-      "topicality": 0.9352575540542603
-    },
-    {
-      "mid": "/m/071k0",
-      "description": "skiing",
-      "score": 0.9217820763587952,
-      "topicality": 0.9217820763587952
-    },
-    {
-      "mid": "/m/05b0n7k",
-      "description": "outdoor recreation",
-      "score": 0.901249349117279,
-      "topicality": 0.901249349117279
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.8974936604499817,
-      "topicality": 0.8974936604499817
-    },
-    {
-      "mid": "/m/0fbm_g",
-      "description": "slopestyle",
-      "score": 0.8951641321182251,
-      "topicality": 0.8951641321182251
-    },
-    {
-      "mid": "/m/086mh",
-      "description": "winter",
-      "score": 0.866746187210083,
-      "topicality": 0.866746187210083
-    },
-    {
-      "mid": "/m/08t0vy",
-      "description": "individual sports",
-      "score": 0.8332842588424683,
-      "topicality": 0.8332842588424683
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06_dn",
+    "description": "snow",
+    "score": 0.9821116328239441,
+    "topicality": 0.9821116328239441
+  },
+  {
+    "mid": "/m/02h6653",
+    "description": "skier",
+    "score": 0.9630308151245117,
+    "topicality": 0.9630308151245117
+  },
+  {
+    "mid": "/m/09_b4",
+    "description": "freestyle skiing",
+    "score": 0.9576003551483154,
+    "topicality": 0.9576003551483154
+  },
+  {
+    "mid": "/m/09qf5",
+    "description": "winter sport",
+    "score": 0.9352575540542603,
+    "topicality": 0.9352575540542603
+  },
+  {
+    "mid": "/m/071k0",
+    "description": "skiing",
+    "score": 0.9217820763587952,
+    "topicality": 0.9217820763587952
+  },
+  {
+    "mid": "/m/05b0n7k",
+    "description": "outdoor recreation",
+    "score": 0.901249349117279,
+    "topicality": 0.901249349117279
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.8974936604499817,
+    "topicality": 0.8974936604499817
+  },
+  {
+    "mid": "/m/0fbm_g",
+    "description": "slopestyle",
+    "score": 0.8951641321182251,
+    "topicality": 0.8951641321182251
+  },
+  {
+    "mid": "/m/086mh",
+    "description": "winter",
+    "score": 0.866746187210083,
+    "topicality": 0.866746187210083
+  },
+  {
+    "mid": "/m/08t0vy",
+    "description": "individual sports",
+    "score": 0.8332842588424683,
+    "topicality": 0.8332842588424683
+  }
+]

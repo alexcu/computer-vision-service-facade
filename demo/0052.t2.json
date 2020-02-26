@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/08_jw6",
-      "description": "iguania",
-      "score": 0.9835183024406433,
-      "topicality": 0.9835183024406433
-    },
-    {
-      "mid": "/m/06bt6",
-      "description": "reptile",
-      "score": 0.9833670854568481,
-      "topicality": 0.9833670854568481
-    },
-    {
-      "mid": "/m/01vq7_",
-      "description": "iguana",
-      "score": 0.9796721339225769,
-      "topicality": 0.9796721339225769
-    },
-    {
-      "mid": "/m/013r_l",
-      "description": "green iguana",
-      "score": 0.966553270816803,
-      "topicality": 0.966553270816803
-    },
-    {
-      "mid": "/m/01vqky",
-      "description": "iguanidae",
-      "score": 0.9625852108001709,
-      "topicality": 0.9625852108001709
-    },
-    {
-      "mid": "/m/04m9y",
-      "description": "lizard",
-      "score": 0.9496372938156128,
-      "topicality": 0.9496372938156128
-    },
-    {
-      "mid": "/m/01shdw",
-      "description": "scaled reptile",
-      "score": 0.9407387375831604,
-      "topicality": 0.9407387375831604
-    },
-    {
-      "mid": "/m/0623qg",
-      "description": "marine iguana",
-      "score": 0.8965558409690857,
-      "topicality": 0.8965558409690857
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.7443860769271851,
-      "topicality": 0.7443860769271851
-    },
-    {
-      "mid": "/m/05nnm",
-      "description": "organism",
-      "score": 0.7151590585708618,
-      "topicality": 0.7151590585708618
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/08_jw6",
+    "description": "iguania",
+    "score": 0.9835183024406433,
+    "topicality": 0.9835183024406433
+  },
+  {
+    "mid": "/m/06bt6",
+    "description": "reptile",
+    "score": 0.9833670854568481,
+    "topicality": 0.9833670854568481
+  },
+  {
+    "mid": "/m/01vq7_",
+    "description": "iguana",
+    "score": 0.9796721339225769,
+    "topicality": 0.9796721339225769
+  },
+  {
+    "mid": "/m/013r_l",
+    "description": "green iguana",
+    "score": 0.966553270816803,
+    "topicality": 0.966553270816803
+  },
+  {
+    "mid": "/m/01vqky",
+    "description": "iguanidae",
+    "score": 0.9625852108001709,
+    "topicality": 0.9625852108001709
+  },
+  {
+    "mid": "/m/04m9y",
+    "description": "lizard",
+    "score": 0.9496372938156128,
+    "topicality": 0.9496372938156128
+  },
+  {
+    "mid": "/m/01shdw",
+    "description": "scaled reptile",
+    "score": 0.9407387375831604,
+    "topicality": 0.9407387375831604
+  },
+  {
+    "mid": "/m/0623qg",
+    "description": "marine iguana",
+    "score": 0.8965558409690857,
+    "topicality": 0.8965558409690857
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.7443860769271851,
+    "topicality": 0.7443860769271851
+  },
+  {
+    "mid": "/m/05nnm",
+    "description": "organism",
+    "score": 0.7151590585708618,
+    "topicality": 0.7151590585708618
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0898b",
-      "description": "zebra",
-      "score": 0.9943537712097168,
-      "topicality": 0.9943537712097168
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9894160032272339,
-      "topicality": 0.9894160032272339
-    },
-    {
-      "mid": "/m/09686",
-      "description": "vertebrate",
-      "score": 0.9851104021072388,
-      "topicality": 0.9851104021072388
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.9710619449615479,
-      "topicality": 0.9710619449615479
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9705943465232849,
-      "topicality": 0.9705943465232849
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9007679224014282,
-      "topicality": 0.9007679224014282
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8805264234542847,
-      "topicality": 0.8805264234542847
-    },
-    {
-      "mid": "/m/03hh2k",
-      "description": "grazing",
-      "score": 0.8737800717353821,
-      "topicality": 0.8737800717353821
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.8714959025382996,
-      "topicality": 0.8714959025382996
-    },
-    {
-      "mid": "/m/089v3",
-      "description": "zoo",
-      "score": 0.8610362410545349,
-      "topicality": 0.8610362410545349
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0898b",
+    "description": "zebra",
+    "score": 0.9943537712097168,
+    "topicality": 0.9943537712097168
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9894160032272339,
+    "topicality": 0.9894160032272339
+  },
+  {
+    "mid": "/m/09686",
+    "description": "vertebrate",
+    "score": 0.9851104021072388,
+    "topicality": 0.9851104021072388
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.9710619449615479,
+    "topicality": 0.9710619449615479
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9705943465232849,
+    "topicality": 0.9705943465232849
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9007679224014282,
+    "topicality": 0.9007679224014282
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8805264234542847,
+    "topicality": 0.8805264234542847
+  },
+  {
+    "mid": "/m/03hh2k",
+    "description": "grazing",
+    "score": 0.8737800717353821,
+    "topicality": 0.8737800717353821
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.8714959025382996,
+    "topicality": 0.8714959025382996
+  },
+  {
+    "mid": "/m/089v3",
+    "description": "zoo",
+    "score": 0.8610362410545349,
+    "topicality": 0.8610362410545349
+  }
+]

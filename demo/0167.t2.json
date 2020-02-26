@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9824004173278809,
-      "topicality": 0.9824004173278809
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.9763058423995972,
-      "topicality": 0.9763058423995972
-    },
-    {
-      "mid": "/m/02l215",
-      "description": "reflection",
-      "score": 0.9714431166648865,
-      "topicality": 0.9714431166648865
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9713540077209473,
-      "topicality": 0.9713540077209473
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.9694857001304626,
-      "topicality": 0.9694857001304626
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.966123640537262,
-      "topicality": 0.966123640537262
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9469940066337585,
-      "topicality": 0.9469940066337585
-    },
-    {
-      "mid": "/m/01g5v",
-      "description": "blue",
-      "score": 0.9371774196624756,
-      "topicality": 0.9371774196624756
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9365465044975281,
-      "topicality": 0.9365465044975281
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9281086325645447,
-      "topicality": 0.9281086325645447
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9824004173278809,
+    "topicality": 0.9824004173278809
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.9763058423995972,
+    "topicality": 0.9763058423995972
+  },
+  {
+    "mid": "/m/02l215",
+    "description": "reflection",
+    "score": 0.9714431166648865,
+    "topicality": 0.9714431166648865
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9713540077209473,
+    "topicality": 0.9713540077209473
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.9694857001304626,
+    "topicality": 0.9694857001304626
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.966123640537262,
+    "topicality": 0.966123640537262
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9469940066337585,
+    "topicality": 0.9469940066337585
+  },
+  {
+    "mid": "/m/01g5v",
+    "description": "blue",
+    "score": 0.9371774196624756,
+    "topicality": 0.9371774196624756
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9365465044975281,
+    "topicality": 0.9365465044975281
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9281086325645447,
+    "topicality": 0.9281086325645447
+  }
+]

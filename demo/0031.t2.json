@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01b958",
-      "description": "scaffolding",
-      "score": 0.7917440533638,
-      "topicality": 0.7917440533638
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.7632943391799927,
-      "topicality": 0.7632943391799927
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/0bkqqh",
-      "description": "signage",
-      "score": 0.6808435916900635,
-      "topicality": 0.6808435916900635
-    },
-    {
-      "mid": "/m/01fdzj",
-      "description": "tower",
-      "score": 0.6635391712188721,
-      "topicality": 0.6635391712188721
-    },
-    {
-      "mid": "/m/0522cz4",
-      "description": "electronic signage",
-      "score": 0.6258332133293152,
-      "topicality": 0.6258332133293152
-    },
-    {
-      "mid": "/m/016znt",
-      "description": "public utility",
-      "score": 0.5817087292671204,
-      "topicality": 0.5817087292671204
-    },
-    {
-      "mid": "/m/06zsq",
-      "description": "sign",
-      "score": 0.5661367774009705,
-      "topicality": 0.5661367774009705
-    },
-    {
-      "mid": "/m/01s4b5",
-      "description": "neon sign",
-      "score": 0.5609753131866455,
-      "topicality": 0.5609753131866455
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.5263331532478333,
-      "topicality": 0.5263331532478333
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01b958",
+    "description": "scaffolding",
+    "score": 0.7917440533638,
+    "topicality": 0.7917440533638
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.7632943391799927,
+    "topicality": 0.7632943391799927
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/0bkqqh",
+    "description": "signage",
+    "score": 0.6808435916900635,
+    "topicality": 0.6808435916900635
+  },
+  {
+    "mid": "/m/01fdzj",
+    "description": "tower",
+    "score": 0.6635391712188721,
+    "topicality": 0.6635391712188721
+  },
+  {
+    "mid": "/m/0522cz4",
+    "description": "electronic signage",
+    "score": 0.6258332133293152,
+    "topicality": 0.6258332133293152
+  },
+  {
+    "mid": "/m/016znt",
+    "description": "public utility",
+    "score": 0.5817087292671204,
+    "topicality": 0.5817087292671204
+  },
+  {
+    "mid": "/m/06zsq",
+    "description": "sign",
+    "score": 0.5661367774009705,
+    "topicality": 0.5661367774009705
+  },
+  {
+    "mid": "/m/01s4b5",
+    "description": "neon sign",
+    "score": 0.5609753131866455,
+    "topicality": 0.5609753131866455
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.5263331532478333,
+    "topicality": 0.5263331532478333
+  }
+]

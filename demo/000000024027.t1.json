@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9770764708518982,
-      "topicality": 0.9770764708518982
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.9402074813842773,
-      "topicality": 0.9402074813842773
-    },
-    {
-      "mid": "/m/0wgq355",
-      "description": "kite sports",
-      "score": 0.9289309978485107,
-      "topicality": 0.9289309978485107
-    },
-    {
-      "mid": "/m/041q5g",
-      "description": "windsports",
-      "score": 0.8721904754638672,
-      "topicality": 0.8721904754638672
-    },
-    {
-      "mid": "/m/02zt3",
-      "description": "kite",
-      "score": 0.8495800495147705,
-      "topicality": 0.8495800495147705
-    },
-    {
-      "mid": "/m/02q7ylj",
-      "description": "daytime",
-      "score": 0.8124850392341614,
-      "topicality": 0.8124850392341614
-    },
-    {
-      "mid": "/m/01ctsf",
-      "description": "atmosphere",
-      "score": 0.7142031192779541,
-      "topicality": 0.7142031192779541
-    },
-    {
-      "mid": "/m/03m9d0z",
-      "description": "wind",
-      "score": 0.6386809349060059,
-      "topicality": 0.6386809349060059
-    },
-    {
-      "mid": "/g/11k2xz7mr",
-      "description": "meteorological phenomenon",
-      "score": 0.629223644733429,
-      "topicality": 0.629223644733429
-    },
-    {
-      "mid": "/m/0csh5",
-      "description": "cumulus",
-      "score": 0.589250385761261,
-      "topicality": 0.589250385761261
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9770764708518982,
+    "topicality": 0.9770764708518982
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.9402074813842773,
+    "topicality": 0.9402074813842773
+  },
+  {
+    "mid": "/m/0wgq355",
+    "description": "kite sports",
+    "score": 0.9289309978485107,
+    "topicality": 0.9289309978485107
+  },
+  {
+    "mid": "/m/041q5g",
+    "description": "windsports",
+    "score": 0.8721904754638672,
+    "topicality": 0.8721904754638672
+  },
+  {
+    "mid": "/m/02zt3",
+    "description": "kite",
+    "score": 0.8495800495147705,
+    "topicality": 0.8495800495147705
+  },
+  {
+    "mid": "/m/02q7ylj",
+    "description": "daytime",
+    "score": 0.8124850392341614,
+    "topicality": 0.8124850392341614
+  },
+  {
+    "mid": "/m/01ctsf",
+    "description": "atmosphere",
+    "score": 0.7142031192779541,
+    "topicality": 0.7142031192779541
+  },
+  {
+    "mid": "/m/03m9d0z",
+    "description": "wind",
+    "score": 0.6386809349060059,
+    "topicality": 0.6386809349060059
+  },
+  {
+    "mid": "/g/11k2xz7mr",
+    "description": "meteorological phenomenon",
+    "score": 0.629223644733429,
+    "topicality": 0.629223644733429
+  },
+  {
+    "mid": "/m/0csh5",
+    "description": "cumulus",
+    "score": 0.589250385761261,
+    "topicality": 0.589250385761261
+  }
+]

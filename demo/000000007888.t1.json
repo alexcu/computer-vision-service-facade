@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01g6gs",
-      "description": "black and white",
-      "score": 0.9402025938034058,
-      "topicality": 0.9402025938034058
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9291218519210815,
-      "topicality": 0.9291218519210815
-    },
-    {
-      "mid": "/m/03d49p1",
-      "description": "monochrome photography",
-      "score": 0.8907351493835449,
-      "topicality": 0.8907351493835449
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.8144224286079407,
-      "topicality": 0.8144224286079407
-    },
-    {
-      "mid": "/m/01mwkf",
-      "description": "monochrome",
-      "score": 0.7743581533432007,
-      "topicality": 0.7743581533432007
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.7136954069137573,
-      "topicality": 0.7136954069137573
-    },
-    {
-      "mid": "/m/02q7ylj",
-      "description": "daytime",
-      "score": 0.6869533061981201,
-      "topicality": 0.6869533061981201
-    },
-    {
-      "mid": "/m/036jvk",
-      "description": "stock photography",
-      "score": 0.5508946180343628,
-      "topicality": 0.5508946180343628
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.5506752133369446,
-      "topicality": 0.5506752133369446
-    },
-    {
-      "mid": "/m/027_ny3",
-      "description": "still life photography",
-      "score": 0.5133228898048401,
-      "topicality": 0.5133228898048401
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01g6gs",
+    "description": "black and white",
+    "score": 0.9402025938034058,
+    "topicality": 0.9402025938034058
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9291218519210815,
+    "topicality": 0.9291218519210815
+  },
+  {
+    "mid": "/m/03d49p1",
+    "description": "monochrome photography",
+    "score": 0.8907351493835449,
+    "topicality": 0.8907351493835449
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.8144224286079407,
+    "topicality": 0.8144224286079407
+  },
+  {
+    "mid": "/m/01mwkf",
+    "description": "monochrome",
+    "score": 0.7743581533432007,
+    "topicality": 0.7743581533432007
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.7136954069137573,
+    "topicality": 0.7136954069137573
+  },
+  {
+    "mid": "/m/02q7ylj",
+    "description": "daytime",
+    "score": 0.6869533061981201,
+    "topicality": 0.6869533061981201
+  },
+  {
+    "mid": "/m/036jvk",
+    "description": "stock photography",
+    "score": 0.5508946180343628,
+    "topicality": 0.5508946180343628
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.5506752133369446,
+    "topicality": 0.5506752133369446
+  },
+  {
+    "mid": "/m/027_ny3",
+    "description": "still life photography",
+    "score": 0.5133228898048401,
+    "topicality": 0.5133228898048401
+  }
+]

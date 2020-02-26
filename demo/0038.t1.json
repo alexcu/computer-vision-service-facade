@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8560793995857239,
-      "topicality": 0.8560793995857239
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.7967647314071655,
-      "topicality": 0.7967647314071655
-    },
-    {
-      "mid": "/m/01_m7",
-      "description": "column",
-      "score": 0.7804152965545654,
-      "topicality": 0.7804152965545654
-    },
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.6902313232421875,
-      "topicality": 0.6902313232421875
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.6817387938499451,
-      "topicality": 0.6817387938499451
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.6733546853065491,
-      "topicality": 0.6733546853065491
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.6551677584648132,
-      "topicality": 0.6551677584648132
-    },
-    {
-      "mid": "/m/0h64tv6",
-      "description": "religious institute",
-      "score": 0.6243533492088318,
-      "topicality": 0.6243533492088318
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.6174726486206055,
-      "topicality": 0.6174726486206055
-    },
-    {
-      "mid": "/m/01ht1r",
-      "description": "medieval architecture",
-      "score": 0.6144241690635681,
-      "topicality": 0.6144241690635681
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8560793995857239,
+    "topicality": 0.8560793995857239
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.7967647314071655,
+    "topicality": 0.7967647314071655
+  },
+  {
+    "mid": "/m/01_m7",
+    "description": "column",
+    "score": 0.7804152965545654,
+    "topicality": 0.7804152965545654
+  },
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.6902313232421875,
+    "topicality": 0.6902313232421875
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.6817387938499451,
+    "topicality": 0.6817387938499451
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.6733546853065491,
+    "topicality": 0.6733546853065491
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.6551677584648132,
+    "topicality": 0.6551677584648132
+  },
+  {
+    "mid": "/m/0h64tv6",
+    "description": "religious institute",
+    "score": 0.6243533492088318,
+    "topicality": 0.6243533492088318
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.6174726486206055,
+    "topicality": 0.6174726486206055
+  },
+  {
+    "mid": "/m/01ht1r",
+    "description": "medieval architecture",
+    "score": 0.6144241690635681,
+    "topicality": 0.6144241690635681
+  }
+]

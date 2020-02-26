@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03gq5hm",
-      "description": "font",
-      "score": 0.7825835347175598,
-      "topicality": 0.7825835347175598
-    },
-    {
-      "mid": "/m/0bkqqh",
-      "description": "signage",
-      "score": 0.7111775875091553,
-      "topicality": 0.7111775875091553
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6869218349456787,
-      "topicality": 0.6869218349456787
-    },
-    {
-      "mid": "/m/06zsq",
-      "description": "sign",
-      "score": 0.6397789120674133,
-      "topicality": 0.6397789120674133
-    },
-    {
-      "mid": "/m/011s0",
-      "description": "advertising",
-      "score": 0.5303263664245605,
-      "topicality": 0.5303263664245605
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03gq5hm",
+    "description": "font",
+    "score": 0.7825835347175598,
+    "topicality": 0.7825835347175598
+  },
+  {
+    "mid": "/m/0bkqqh",
+    "description": "signage",
+    "score": 0.7111775875091553,
+    "topicality": 0.7111775875091553
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6869218349456787,
+    "topicality": 0.6869218349456787
+  },
+  {
+    "mid": "/m/06zsq",
+    "description": "sign",
+    "score": 0.6397789120674133,
+    "topicality": 0.6397789120674133
+  },
+  {
+    "mid": "/m/011s0",
+    "description": "advertising",
+    "score": 0.5303263664245605,
+    "topicality": 0.5303263664245605
+  }
+]

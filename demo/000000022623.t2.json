@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.8958286643028259,
-      "topicality": 0.8958286643028259
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.8863099813461304,
-      "topicality": 0.8863099813461304
-    },
-    {
-      "mid": "/m/02mrp",
-      "description": "electronics",
-      "score": 0.8846179246902466,
-      "topicality": 0.8846179246902466
-    },
-    {
-      "mid": "/m/02mf1n",
-      "description": "gadget",
-      "score": 0.8838809132575989,
-      "topicality": 0.8838809132575989
-    },
-    {
-      "mid": "/m/0qjjc",
-      "description": "remote control",
-      "score": 0.6343632936477661,
-      "topicality": 0.6343632936477661
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6242249608039856,
-      "topicality": 0.6242249608039856
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.8958286643028259,
+    "topicality": 0.8958286643028259
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.8863099813461304,
+    "topicality": 0.8863099813461304
+  },
+  {
+    "mid": "/m/02mrp",
+    "description": "electronics",
+    "score": 0.8846179246902466,
+    "topicality": 0.8846179246902466
+  },
+  {
+    "mid": "/m/02mf1n",
+    "description": "gadget",
+    "score": 0.8838809132575989,
+    "topicality": 0.8838809132575989
+  },
+  {
+    "mid": "/m/0qjjc",
+    "description": "remote control",
+    "score": 0.6343632936477661,
+    "topicality": 0.6343632936477661
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6242249608039856,
+    "topicality": 0.6242249608039856
+  }
+]

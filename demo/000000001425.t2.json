@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9734369516372681,
-      "topicality": 0.9734369516372681
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.918995201587677,
-      "topicality": 0.918995201587677
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.8937329053878784,
-      "topicality": 0.8937329053878784
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.8408950567245483,
-      "topicality": 0.8408950567245483
-    },
-    {
-      "mid": "/m/0270h",
-      "description": "dessert",
-      "score": 0.7851303815841675,
-      "topicality": 0.7851303815841675
-    },
-    {
-      "mid": "/m/02dmwz",
-      "description": "souffl\u00e9",
-      "score": 0.7422885894775391,
-      "topicality": 0.7422885894775391
-    },
-    {
-      "mid": "/m/052lwg6",
-      "description": "baked goods",
-      "score": 0.6827284097671509,
-      "topicality": 0.6827284097671509
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.5832678079605103,
-      "topicality": 0.5832678079605103
-    },
-    {
-      "mid": "/m/0465mr4",
-      "description": "frozen dessert",
-      "score": 0.5728039741516113,
-      "topicality": 0.5728039741516113
-    },
-    {
-      "mid": "/m/027_ny3",
-      "description": "still life photography",
-      "score": 0.5690662264823914,
-      "topicality": 0.5690662264823914
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9734369516372681,
+    "topicality": 0.9734369516372681
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.918995201587677,
+    "topicality": 0.918995201587677
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.8937329053878784,
+    "topicality": 0.8937329053878784
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.8408950567245483,
+    "topicality": 0.8408950567245483
+  },
+  {
+    "mid": "/m/0270h",
+    "description": "dessert",
+    "score": 0.7851303815841675,
+    "topicality": 0.7851303815841675
+  },
+  {
+    "mid": "/m/02dmwz",
+    "description": "souffl\u00e9",
+    "score": 0.7422885894775391,
+    "topicality": 0.7422885894775391
+  },
+  {
+    "mid": "/m/052lwg6",
+    "description": "baked goods",
+    "score": 0.6827284097671509,
+    "topicality": 0.6827284097671509
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.5832678079605103,
+    "topicality": 0.5832678079605103
+  },
+  {
+    "mid": "/m/0465mr4",
+    "description": "frozen dessert",
+    "score": 0.5728039741516113,
+    "topicality": 0.5728039741516113
+  },
+  {
+    "mid": "/m/027_ny3",
+    "description": "still life photography",
+    "score": 0.5690662264823914,
+    "topicality": 0.5690662264823914
+  }
+]

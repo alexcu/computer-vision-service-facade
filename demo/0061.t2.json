@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0kmg4",
-      "description": "teddy bear",
-      "score": 0.980940580368042,
-      "topicality": 0.980940580368042
-    },
-    {
-      "mid": "/m/021mh_",
-      "description": "stuffed toy",
-      "score": 0.9806810021400452,
-      "topicality": 0.9806810021400452
-    },
-    {
-      "mid": "/m/025rgl",
-      "description": "plush",
-      "score": 0.9610989689826965,
-      "topicality": 0.9610989689826965
-    },
-    {
-      "mid": "/m/01yttv",
-      "description": "audio equipment",
-      "score": 0.9172099828720093,
-      "topicality": 0.9172099828720093
-    },
-    {
-      "mid": "/m/0138tl",
-      "description": "toy",
-      "score": 0.9135334491729736,
-      "topicality": 0.9135334491729736
-    },
-    {
-      "mid": "/m/01b7fy",
-      "description": "headphones",
-      "score": 0.8448876142501831,
-      "topicality": 0.8448876142501831
-    },
-    {
-      "mid": "/m/01dws",
-      "description": "bear",
-      "score": 0.761741042137146,
-      "topicality": 0.761741042137146
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.6757805347442627,
-      "topicality": 0.6757805347442627
-    },
-    {
-      "mid": "/m/039xj_",
-      "description": "ear",
-      "score": 0.6300452351570129,
-      "topicality": 0.6300452351570129
-    },
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.6098915934562683,
-      "topicality": 0.6098915934562683
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0kmg4",
+    "description": "teddy bear",
+    "score": 0.980940580368042,
+    "topicality": 0.980940580368042
+  },
+  {
+    "mid": "/m/021mh_",
+    "description": "stuffed toy",
+    "score": 0.9806810021400452,
+    "topicality": 0.9806810021400452
+  },
+  {
+    "mid": "/m/025rgl",
+    "description": "plush",
+    "score": 0.9610989689826965,
+    "topicality": 0.9610989689826965
+  },
+  {
+    "mid": "/m/01yttv",
+    "description": "audio equipment",
+    "score": 0.9172099828720093,
+    "topicality": 0.9172099828720093
+  },
+  {
+    "mid": "/m/0138tl",
+    "description": "toy",
+    "score": 0.9135334491729736,
+    "topicality": 0.9135334491729736
+  },
+  {
+    "mid": "/m/01b7fy",
+    "description": "headphones",
+    "score": 0.8448876142501831,
+    "topicality": 0.8448876142501831
+  },
+  {
+    "mid": "/m/01dws",
+    "description": "bear",
+    "score": 0.761741042137146,
+    "topicality": 0.761741042137146
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.6757805347442627,
+    "topicality": 0.6757805347442627
+  },
+  {
+    "mid": "/m/039xj_",
+    "description": "ear",
+    "score": 0.6300452351570129,
+    "topicality": 0.6300452351570129
+  },
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.6098915934562683,
+    "topicality": 0.6098915934562683
+  }
+]

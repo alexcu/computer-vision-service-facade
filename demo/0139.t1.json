@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.9665094017982483,
-      "topicality": 0.9665094017982483
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9616361856460571,
-      "topicality": 0.9616361856460571
-    },
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9344017505645752,
-      "topicality": 0.9344017505645752
-    },
-    {
-      "mid": "/m/08rrcl",
-      "description": "water transportation",
-      "score": 0.9228696227073669,
-      "topicality": 0.9228696227073669
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.8836986422538757,
-      "topicality": 0.8836986422538757
-    },
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.8257378339767456,
-      "topicality": 0.8257378339767456
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7834334969520569,
-      "topicality": 0.7834334969520569
-    },
-    {
-      "mid": "/m/03m4wn",
-      "description": "boating",
-      "score": 0.7079437375068665,
-      "topicality": 0.7079437375068665
-    },
-    {
-      "mid": "/m/02c9_23",
-      "description": "coastal and oceanic landforms",
-      "score": 0.684638500213623,
-      "topicality": 0.684638500213623
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.6786103248596191,
-      "topicality": 0.6786103248596191
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.9665094017982483,
+    "topicality": 0.9665094017982483
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9616361856460571,
+    "topicality": 0.9616361856460571
+  },
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9344017505645752,
+    "topicality": 0.9344017505645752
+  },
+  {
+    "mid": "/m/08rrcl",
+    "description": "water transportation",
+    "score": 0.9228696227073669,
+    "topicality": 0.9228696227073669
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.8836986422538757,
+    "topicality": 0.8836986422538757
+  },
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.8257378339767456,
+    "topicality": 0.8257378339767456
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7834334969520569,
+    "topicality": 0.7834334969520569
+  },
+  {
+    "mid": "/m/03m4wn",
+    "description": "boating",
+    "score": 0.7079437375068665,
+    "topicality": 0.7079437375068665
+  },
+  {
+    "mid": "/m/02c9_23",
+    "description": "coastal and oceanic landforms",
+    "score": 0.684638500213623,
+    "topicality": 0.684638500213623
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.6786103248596191,
+    "topicality": 0.6786103248596191
+  }
+]

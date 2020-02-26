@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cmf2",
-      "description": "airplane",
-      "score": 0.9719833135604858,
-      "topicality": 0.9719833135604858
-    },
-    {
-      "mid": "/m/025t3bg",
-      "description": "air travel",
-      "score": 0.9616652131080627,
-      "topicality": 0.9616652131080627
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9381980895996094,
-      "topicality": 0.9381980895996094
-    },
-    {
-      "mid": "/m/0k5j",
-      "description": "aircraft",
-      "score": 0.9210453629493713,
-      "topicality": 0.9210453629493713
-    },
-    {
-      "mid": "/m/0fzyg",
-      "description": "aviation",
-      "score": 0.9170629978179932,
-      "topicality": 0.9170629978179932
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.8877683281898499,
-      "topicality": 0.8877683281898499
-    },
-    {
-      "mid": "/m/015z_b",
-      "description": "takeoff",
-      "score": 0.8840556740760803,
-      "topicality": 0.8840556740760803
-    },
-    {
-      "mid": "/m/0vg8",
-      "description": "airline",
-      "score": 0.8825985193252563,
-      "topicality": 0.8825985193252563
-    },
-    {
-      "mid": "/m/09cjl",
-      "description": "airport",
-      "score": 0.8794658780097961,
-      "topicality": 0.8794658780097961
-    },
-    {
-      "mid": "/m/01515d",
-      "description": "flight",
-      "score": 0.8789002895355225,
-      "topicality": 0.8789002895355225
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cmf2",
+    "description": "airplane",
+    "score": 0.9719833135604858,
+    "topicality": 0.9719833135604858
+  },
+  {
+    "mid": "/m/025t3bg",
+    "description": "air travel",
+    "score": 0.9616652131080627,
+    "topicality": 0.9616652131080627
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9381980895996094,
+    "topicality": 0.9381980895996094
+  },
+  {
+    "mid": "/m/0k5j",
+    "description": "aircraft",
+    "score": 0.9210453629493713,
+    "topicality": 0.9210453629493713
+  },
+  {
+    "mid": "/m/0fzyg",
+    "description": "aviation",
+    "score": 0.9170629978179932,
+    "topicality": 0.9170629978179932
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.8877683281898499,
+    "topicality": 0.8877683281898499
+  },
+  {
+    "mid": "/m/015z_b",
+    "description": "takeoff",
+    "score": 0.8840556740760803,
+    "topicality": 0.8840556740760803
+  },
+  {
+    "mid": "/m/0vg8",
+    "description": "airline",
+    "score": 0.8825985193252563,
+    "topicality": 0.8825985193252563
+  },
+  {
+    "mid": "/m/09cjl",
+    "description": "airport",
+    "score": 0.8794658780097961,
+    "topicality": 0.8794658780097961
+  },
+  {
+    "mid": "/m/01515d",
+    "description": "flight",
+    "score": 0.8789002895355225,
+    "topicality": 0.8789002895355225
+  }
+]

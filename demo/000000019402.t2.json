@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cnmr",
-      "description": "fur",
-      "score": 0.7917680740356445,
-      "topicality": 0.7917680740356445
-    },
-    {
-      "mid": "/m/047vlmn",
-      "description": "outerwear",
-      "score": 0.73502516746521,
-      "topicality": 0.73502516746521
-    },
-    {
-      "mid": "/m/0283dt1",
-      "description": "mouth",
-      "score": 0.6794861555099487,
-      "topicality": 0.6794861555099487
-    },
-    {
-      "mid": "/m/01443y",
-      "description": "headgear",
-      "score": 0.6747809648513794,
-      "topicality": 0.6747809648513794
-    },
-    {
-      "mid": "/m/032b3c",
-      "description": "jacket",
-      "score": 0.5303628444671631,
-      "topicality": 0.5303628444671631
-    },
-    {
-      "mid": "/m/0fc1fy",
-      "description": "black hair",
-      "score": 0.5165854096412659,
-      "topicality": 0.5165854096412659
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cnmr",
+    "description": "fur",
+    "score": 0.7917680740356445,
+    "topicality": 0.7917680740356445
+  },
+  {
+    "mid": "/m/047vlmn",
+    "description": "outerwear",
+    "score": 0.73502516746521,
+    "topicality": 0.73502516746521
+  },
+  {
+    "mid": "/m/0283dt1",
+    "description": "mouth",
+    "score": 0.6794861555099487,
+    "topicality": 0.6794861555099487
+  },
+  {
+    "mid": "/m/01443y",
+    "description": "headgear",
+    "score": 0.6747809648513794,
+    "topicality": 0.6747809648513794
+  },
+  {
+    "mid": "/m/032b3c",
+    "description": "jacket",
+    "score": 0.5303628444671631,
+    "topicality": 0.5303628444671631
+  },
+  {
+    "mid": "/m/0fc1fy",
+    "description": "black hair",
+    "score": 0.5165854096412659,
+    "topicality": 0.5165854096412659
+  }
+]

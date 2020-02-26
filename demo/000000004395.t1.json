@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/04yx4",
-      "description": "man",
-      "score": 0.9409971833229065,
-      "topicality": 0.9409971833229065
-    },
-    {
-      "mid": "/m/01xyhv",
-      "description": "suit",
-      "score": 0.9374459981918335,
-      "topicality": 0.9374459981918335
-    },
-    {
-      "mid": "/m/02w3_2",
-      "description": "formal wear",
-      "score": 0.8633083701133728,
-      "topicality": 0.8633083701133728
-    },
-    {
-      "mid": "/m/01rkbr",
-      "description": "necktie",
-      "score": 0.8478899002075195,
-      "topicality": 0.8478899002075195
-    },
-    {
-      "mid": "/m/019p5q",
-      "description": "gentleman",
-      "score": 0.840202808380127,
-      "topicality": 0.840202808380127
-    },
-    {
-      "mid": "/m/0463sg",
-      "description": "fashion accessory",
-      "score": 0.834618330001831,
-      "topicality": 0.834618330001831
-    },
-    {
-      "mid": "/m/047vlmn",
-      "description": "outerwear",
-      "score": 0.7534970641136169,
-      "topicality": 0.7534970641136169
-    },
-    {
-      "mid": "/m/06hwcd",
-      "description": "dress shirt",
-      "score": 0.7306782007217407,
-      "topicality": 0.7306782007217407
-    },
-    {
-      "mid": "/m/019nj4",
-      "description": "smile",
-      "score": 0.7098388075828552,
-      "topicality": 0.7098388075828552
-    },
-    {
-      "mid": "/m/0dgw9r",
-      "description": "human",
-      "score": 0.7090514302253723,
-      "topicality": 0.7090514302253723
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/04yx4",
+    "description": "man",
+    "score": 0.9409971833229065,
+    "topicality": 0.9409971833229065
+  },
+  {
+    "mid": "/m/01xyhv",
+    "description": "suit",
+    "score": 0.9374459981918335,
+    "topicality": 0.9374459981918335
+  },
+  {
+    "mid": "/m/02w3_2",
+    "description": "formal wear",
+    "score": 0.8633083701133728,
+    "topicality": 0.8633083701133728
+  },
+  {
+    "mid": "/m/01rkbr",
+    "description": "necktie",
+    "score": 0.8478899002075195,
+    "topicality": 0.8478899002075195
+  },
+  {
+    "mid": "/m/019p5q",
+    "description": "gentleman",
+    "score": 0.840202808380127,
+    "topicality": 0.840202808380127
+  },
+  {
+    "mid": "/m/0463sg",
+    "description": "fashion accessory",
+    "score": 0.834618330001831,
+    "topicality": 0.834618330001831
+  },
+  {
+    "mid": "/m/047vlmn",
+    "description": "outerwear",
+    "score": 0.7534970641136169,
+    "topicality": 0.7534970641136169
+  },
+  {
+    "mid": "/m/06hwcd",
+    "description": "dress shirt",
+    "score": 0.7306782007217407,
+    "topicality": 0.7306782007217407
+  },
+  {
+    "mid": "/m/019nj4",
+    "description": "smile",
+    "score": 0.7098388075828552,
+    "topicality": 0.7098388075828552
+  },
+  {
+    "mid": "/m/0dgw9r",
+    "description": "human",
+    "score": 0.7090514302253723,
+    "topicality": 0.7090514302253723
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9859583377838135,
-      "topicality": 0.9859583377838135
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.9755668640136719,
-      "topicality": 0.9755668640136719
-    },
-    {
-      "mid": "/m/01lxd",
-      "description": "coast",
-      "score": 0.9740740060806274,
-      "topicality": 0.9740740060806274
-    },
-    {
-      "mid": "/m/03k5cs",
-      "description": "formation",
-      "score": 0.949353814125061,
-      "topicality": 0.949353814125061
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.9464390873908997,
-      "topicality": 0.9464390873908997
-    },
-    {
-      "mid": "/m/0b3yr",
-      "description": "beach",
-      "score": 0.9449180960655212,
-      "topicality": 0.9449180960655212
-    },
-    {
-      "mid": "/m/04gv79h",
-      "description": "headland",
-      "score": 0.9417802691459656,
-      "topicality": 0.9417802691459656
-    },
-    {
-      "mid": "/m/05v17t",
-      "description": "bight",
-      "score": 0.9340660572052002,
-      "topicality": 0.9340660572052002
-    },
-    {
-      "mid": "/m/02c9_23",
-      "description": "coastal and oceanic landforms",
-      "score": 0.9329187870025635,
-      "topicality": 0.9329187870025635
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.9315679669380188,
-      "topicality": 0.9315679669380188
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9859583377838135,
+    "topicality": 0.9859583377838135
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.9755668640136719,
+    "topicality": 0.9755668640136719
+  },
+  {
+    "mid": "/m/01lxd",
+    "description": "coast",
+    "score": 0.9740740060806274,
+    "topicality": 0.9740740060806274
+  },
+  {
+    "mid": "/m/03k5cs",
+    "description": "formation",
+    "score": 0.949353814125061,
+    "topicality": 0.949353814125061
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.9464390873908997,
+    "topicality": 0.9464390873908997
+  },
+  {
+    "mid": "/m/0b3yr",
+    "description": "beach",
+    "score": 0.9449180960655212,
+    "topicality": 0.9449180960655212
+  },
+  {
+    "mid": "/m/04gv79h",
+    "description": "headland",
+    "score": 0.9417802691459656,
+    "topicality": 0.9417802691459656
+  },
+  {
+    "mid": "/m/05v17t",
+    "description": "bight",
+    "score": 0.9340660572052002,
+    "topicality": 0.9340660572052002
+  },
+  {
+    "mid": "/m/02c9_23",
+    "description": "coastal and oceanic landforms",
+    "score": 0.9329187870025635,
+    "topicality": 0.9329187870025635
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.9315679669380188,
+    "topicality": 0.9315679669380188
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01d74z",
-      "description": "night",
-      "score": 0.9213979244232178,
-      "topicality": 0.9213979244232178
-    },
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.8913570046424866,
-      "topicality": 0.8913570046424866
-    },
-    {
-      "mid": "/m/04k84",
-      "description": "light",
-      "score": 0.8871192336082458,
-      "topicality": 0.8871192336082458
-    },
-    {
-      "mid": "/m/03qtwd",
-      "description": "crowd",
-      "score": 0.8767040371894836,
-      "topicality": 0.8767040371894836
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8278814554214478,
-      "topicality": 0.8278814554214478
-    },
-    {
-      "mid": "/m/019sc6",
-      "description": "lighting",
-      "score": 0.8236098289489746,
-      "topicality": 0.8236098289489746
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8220894932746887,
-      "topicality": 0.8220894932746887
-    },
-    {
-      "mid": "/m/04_5hy",
-      "description": "stage",
-      "score": 0.7947136759757996,
-      "topicality": 0.7947136759757996
-    },
-    {
-      "mid": "/m/07b2m8",
-      "description": "music venue",
-      "score": 0.7019289135932922,
-      "topicality": 0.7019289135932922
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.6851748824119568,
-      "topicality": 0.6851748824119568
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01d74z",
+    "description": "night",
+    "score": 0.9213979244232178,
+    "topicality": 0.9213979244232178
+  },
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.8913570046424866,
+    "topicality": 0.8913570046424866
+  },
+  {
+    "mid": "/m/04k84",
+    "description": "light",
+    "score": 0.8871192336082458,
+    "topicality": 0.8871192336082458
+  },
+  {
+    "mid": "/m/03qtwd",
+    "description": "crowd",
+    "score": 0.8767040371894836,
+    "topicality": 0.8767040371894836
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8278814554214478,
+    "topicality": 0.8278814554214478
+  },
+  {
+    "mid": "/m/019sc6",
+    "description": "lighting",
+    "score": 0.8236098289489746,
+    "topicality": 0.8236098289489746
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8220894932746887,
+    "topicality": 0.8220894932746887
+  },
+  {
+    "mid": "/m/04_5hy",
+    "description": "stage",
+    "score": 0.7947136759757996,
+    "topicality": 0.7947136759757996
+  },
+  {
+    "mid": "/m/07b2m8",
+    "description": "music venue",
+    "score": 0.7019289135932922,
+    "topicality": 0.7019289135932922
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.6851748824119568,
+    "topicality": 0.6851748824119568
+  }
+]

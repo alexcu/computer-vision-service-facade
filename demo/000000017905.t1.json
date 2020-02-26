@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.893985390663147,
-      "topicality": 0.893985390663147
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.879562258720398,
-      "topicality": 0.879562258720398
-    },
-    {
-      "mid": "/m/03bmqb",
-      "description": "flora",
-      "score": 0.8119534850120544,
-      "topicality": 0.8119534850120544
-    },
-    {
-      "mid": "/m/0bl0l",
-      "description": "garden",
-      "score": 0.7440345883369446,
-      "topicality": 0.7440345883369446
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.6905627250671387,
-      "topicality": 0.6905627250671387
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.6152127385139465,
-      "topicality": 0.6152127385139465
-    },
-    {
-      "mid": "/m/02jwqh",
-      "description": "vacation",
-      "score": 0.5774585604667664,
-      "topicality": 0.5774585604667664
-    },
-    {
-      "mid": "/m/0h8lhsd",
-      "description": "outdoor structure",
-      "score": 0.5603272318840027,
-      "topicality": 0.5603272318840027
-    },
-    {
-      "mid": "/m/01y3fy",
-      "description": "jungle",
-      "score": 0.5589700937271118,
-      "topicality": 0.5589700937271118
-    },
-    {
-      "mid": "/m/0lhr",
-      "description": "arecales",
-      "score": 0.5369896292686462,
-      "topicality": 0.5369896292686462
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.893985390663147,
+    "topicality": 0.893985390663147
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.879562258720398,
+    "topicality": 0.879562258720398
+  },
+  {
+    "mid": "/m/03bmqb",
+    "description": "flora",
+    "score": 0.8119534850120544,
+    "topicality": 0.8119534850120544
+  },
+  {
+    "mid": "/m/0bl0l",
+    "description": "garden",
+    "score": 0.7440345883369446,
+    "topicality": 0.7440345883369446
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.716245863899149,
+    "topicality": 0.716245863899149
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.6905627250671387,
+    "topicality": 0.6905627250671387
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.6152127385139465,
+    "topicality": 0.6152127385139465
+  },
+  {
+    "mid": "/m/02jwqh",
+    "description": "vacation",
+    "score": 0.5774585604667664,
+    "topicality": 0.5774585604667664
+  },
+  {
+    "mid": "/m/0h8lhsd",
+    "description": "outdoor structure",
+    "score": 0.5603272318840027,
+    "topicality": 0.5603272318840027
+  },
+  {
+    "mid": "/m/01y3fy",
+    "description": "jungle",
+    "score": 0.5589700937271118,
+    "topicality": 0.5589700937271118
+  },
+  {
+    "mid": "/m/0lhr",
+    "description": "arecales",
+    "score": 0.5369896292686462,
+    "topicality": 0.5369896292686462
+  }
+]

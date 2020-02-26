@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01lxd",
-      "description": "coast",
-      "score": 0.9636883735656738,
-      "topicality": 0.9636883735656738
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.9216419458389282,
-      "topicality": 0.9216419458389282
-    },
-    {
-      "mid": "/m/02c9_23",
-      "description": "coastal and oceanic landforms",
-      "score": 0.9192981123924255,
-      "topicality": 0.9192981123924255
-    },
-    {
-      "mid": "/m/04gv79h",
-      "description": "headland",
-      "score": 0.9052330255508423,
-      "topicality": 0.9052330255508423
-    },
-    {
-      "mid": "/m/02r3_7_",
-      "description": "promontory",
-      "score": 0.8520761728286743,
-      "topicality": 0.8520761728286743
-    },
-    {
-      "mid": "/m/01jyr1",
-      "description": "islet",
-      "score": 0.7827398180961609,
-      "topicality": 0.7827398180961609
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.77559494972229,
-      "topicality": 0.77559494972229
-    },
-    {
-      "mid": "/m/02fm9k",
-      "description": "shore",
-      "score": 0.7717438340187073,
-      "topicality": 0.7717438340187073
-    },
-    {
-      "mid": "/m/080byt0",
-      "description": "cape",
-      "score": 0.7642955780029297,
-      "topicality": 0.7642955780029297
-    },
-    {
-      "mid": "/m/04ggh49",
-      "description": "bay",
-      "score": 0.7591554522514343,
-      "topicality": 0.7591554522514343
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01lxd",
+    "description": "coast",
+    "score": 0.9636883735656738,
+    "topicality": 0.9636883735656738
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.9216419458389282,
+    "topicality": 0.9216419458389282
+  },
+  {
+    "mid": "/m/02c9_23",
+    "description": "coastal and oceanic landforms",
+    "score": 0.9192981123924255,
+    "topicality": 0.9192981123924255
+  },
+  {
+    "mid": "/m/04gv79h",
+    "description": "headland",
+    "score": 0.9052330255508423,
+    "topicality": 0.9052330255508423
+  },
+  {
+    "mid": "/m/02r3_7_",
+    "description": "promontory",
+    "score": 0.8520761728286743,
+    "topicality": 0.8520761728286743
+  },
+  {
+    "mid": "/m/01jyr1",
+    "description": "islet",
+    "score": 0.7827398180961609,
+    "topicality": 0.7827398180961609
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.77559494972229,
+    "topicality": 0.77559494972229
+  },
+  {
+    "mid": "/m/02fm9k",
+    "description": "shore",
+    "score": 0.7717438340187073,
+    "topicality": 0.7717438340187073
+  },
+  {
+    "mid": "/m/080byt0",
+    "description": "cape",
+    "score": 0.7642955780029297,
+    "topicality": 0.7642955780029297
+  },
+  {
+    "mid": "/m/04ggh49",
+    "description": "bay",
+    "score": 0.7591554522514343,
+    "topicality": 0.7591554522514343
+  }
+]

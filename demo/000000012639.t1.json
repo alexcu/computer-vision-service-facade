@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06ntj",
-      "description": "sports",
-      "score": 0.9646633267402649,
-      "topicality": 0.9646633267402649
-    },
-    {
-      "mid": "/m/03x045",
-      "description": "team sport",
-      "score": 0.9573150277137756,
-      "topicality": 0.9573150277137756
-    },
-    {
-      "mid": "/m/027zgtw",
-      "description": "bat and ball games",
-      "score": 0.8959445357322693,
-      "topicality": 0.8959445357322693
-    },
-    {
-      "mid": "/m/018kg",
-      "description": "baseball positions",
-      "score": 0.8803178071975708,
-      "topicality": 0.8803178071975708
-    },
-    {
-      "mid": "/m/020m7t",
-      "description": "ball game",
-      "score": 0.8798580765724182,
-      "topicality": 0.8798580765724182
-    },
-    {
-      "mid": "/m/06wtgq",
-      "description": "play",
-      "score": 0.7906505465507507,
-      "topicality": 0.7906505465507507
-    },
-    {
-      "mid": "/m/0ytgt",
-      "description": "child",
-      "score": 0.7648728489875793,
-      "topicality": 0.7648728489875793
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.7612558603286743,
-      "topicality": 0.7612558603286743
-    },
-    {
-      "mid": "/m/04stdlw",
-      "description": "competition event",
-      "score": 0.736403226852417,
-      "topicality": 0.736403226852417
-    },
-    {
-      "mid": "/m/07pdzb4",
-      "description": "baseball equipment",
-      "score": 0.7317477464675903,
-      "topicality": 0.7317477464675903
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06ntj",
+    "description": "sports",
+    "score": 0.9646633267402649,
+    "topicality": 0.9646633267402649
+  },
+  {
+    "mid": "/m/03x045",
+    "description": "team sport",
+    "score": 0.9573150277137756,
+    "topicality": 0.9573150277137756
+  },
+  {
+    "mid": "/m/027zgtw",
+    "description": "bat and ball games",
+    "score": 0.8959445357322693,
+    "topicality": 0.8959445357322693
+  },
+  {
+    "mid": "/m/018kg",
+    "description": "baseball positions",
+    "score": 0.8803178071975708,
+    "topicality": 0.8803178071975708
+  },
+  {
+    "mid": "/m/020m7t",
+    "description": "ball game",
+    "score": 0.8798580765724182,
+    "topicality": 0.8798580765724182
+  },
+  {
+    "mid": "/m/06wtgq",
+    "description": "play",
+    "score": 0.7906505465507507,
+    "topicality": 0.7906505465507507
+  },
+  {
+    "mid": "/m/0ytgt",
+    "description": "child",
+    "score": 0.7648728489875793,
+    "topicality": 0.7648728489875793
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.7612558603286743,
+    "topicality": 0.7612558603286743
+  },
+  {
+    "mid": "/m/04stdlw",
+    "description": "competition event",
+    "score": 0.736403226852417,
+    "topicality": 0.736403226852417
+  },
+  {
+    "mid": "/m/07pdzb4",
+    "description": "baseball equipment",
+    "score": 0.7317477464675903,
+    "topicality": 0.7317477464675903
+  }
+]

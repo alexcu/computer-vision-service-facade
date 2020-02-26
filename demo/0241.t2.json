@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.8263952136039734,
-      "topicality": 0.8263952136039734
-    },
-    {
-      "mid": "/m/09cmq",
-      "description": "museum",
-      "score": 0.7958877682685852,
-      "topicality": 0.7958877682685852
-    },
-    {
-      "mid": "/m/03931h",
-      "description": "stele",
-      "score": 0.7508295178413391,
-      "topicality": 0.7508295178413391
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.7263345718383789,
-      "topicality": 0.7263345718383789
-    },
-    {
-      "mid": "/m/02skpt",
-      "description": "artifact",
-      "score": 0.699322521686554,
-      "topicality": 0.699322521686554
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.6970930695533752,
-      "topicality": 0.6970930695533752
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.6697244048118591,
-      "topicality": 0.6697244048118591
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.6438128352165222,
-      "topicality": 0.6438128352165222
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.6230400204658508,
-      "topicality": 0.6230400204658508
-    },
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.5992311835289001,
-      "topicality": 0.5992311835289001
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.8263952136039734,
+    "topicality": 0.8263952136039734
+  },
+  {
+    "mid": "/m/09cmq",
+    "description": "museum",
+    "score": 0.7958877682685852,
+    "topicality": 0.7958877682685852
+  },
+  {
+    "mid": "/m/03931h",
+    "description": "stele",
+    "score": 0.7508295178413391,
+    "topicality": 0.7508295178413391
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.7263345718383789,
+    "topicality": 0.7263345718383789
+  },
+  {
+    "mid": "/m/02skpt",
+    "description": "artifact",
+    "score": 0.699322521686554,
+    "topicality": 0.699322521686554
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.6970930695533752,
+    "topicality": 0.6970930695533752
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.6697244048118591,
+    "topicality": 0.6697244048118591
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.6438128352165222,
+    "topicality": 0.6438128352165222
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.6230400204658508,
+    "topicality": 0.6230400204658508
+  },
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.5992311835289001,
+    "topicality": 0.5992311835289001
+  }
+]

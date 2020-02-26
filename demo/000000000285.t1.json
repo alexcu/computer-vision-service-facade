@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01dxs",
-      "description": "brown bear",
-      "score": 0.9734700918197632,
-      "topicality": 0.9734700918197632
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9404957294464111,
-      "topicality": 0.9404957294464111
-    },
-    {
-      "mid": "/m/037_v",
-      "description": "grizzly bear",
-      "score": 0.9307245016098022,
-      "topicality": 0.9307245016098022
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.925079882144928,
-      "topicality": 0.925079882144928
-    },
-    {
-      "mid": "/m/01dws",
-      "description": "bear",
-      "score": 0.9170299768447876,
-      "topicality": 0.9170299768447876
-    },
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.8292170166969299,
-      "topicality": 0.8292170166969299
-    },
-    {
-      "mid": "/m/05mqq3",
-      "description": "snout",
-      "score": 0.7803928852081299,
-      "topicality": 0.7803928852081299
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.7791268229484558,
-      "topicality": 0.7791268229484558
-    },
-    {
-      "mid": "/m/01lrl",
-      "description": "carnivoran",
-      "score": 0.6199626922607422,
-      "topicality": 0.6199626922607422
-    },
-    {
-      "mid": "/m/05nnm",
-      "description": "organism",
-      "score": 0.6159161925315857,
-      "topicality": 0.6159161925315857
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01dxs",
+    "description": "brown bear",
+    "score": 0.9734700918197632,
+    "topicality": 0.9734700918197632
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9404957294464111,
+    "topicality": 0.9404957294464111
+  },
+  {
+    "mid": "/m/037_v",
+    "description": "grizzly bear",
+    "score": 0.9307245016098022,
+    "topicality": 0.9307245016098022
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.925079882144928,
+    "topicality": 0.925079882144928
+  },
+  {
+    "mid": "/m/01dws",
+    "description": "bear",
+    "score": 0.9170299768447876,
+    "topicality": 0.9170299768447876
+  },
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.8292170166969299,
+    "topicality": 0.8292170166969299
+  },
+  {
+    "mid": "/m/05mqq3",
+    "description": "snout",
+    "score": 0.7803928852081299,
+    "topicality": 0.7803928852081299
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.7791268229484558,
+    "topicality": 0.7791268229484558
+  },
+  {
+    "mid": "/m/01lrl",
+    "description": "carnivoran",
+    "score": 0.6199626922607422,
+    "topicality": 0.6199626922607422
+  },
+  {
+    "mid": "/m/05nnm",
+    "description": "organism",
+    "score": 0.6159161925315857,
+    "topicality": 0.6159161925315857
+  }
+]

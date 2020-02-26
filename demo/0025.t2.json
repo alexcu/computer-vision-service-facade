@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9381980895996094,
-      "topicality": 0.9381980895996094
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.9185777306556702,
-      "topicality": 0.9185777306556702
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9093363285064697,
-      "topicality": 0.9093363285064697
-    },
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.9013980627059937,
-      "topicality": 0.9013980627059937
-    },
-    {
-      "mid": "/m/0cdl1",
-      "description": "palm tree",
-      "score": 0.8922014236450195,
-      "topicality": 0.8922014236450195
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8873310685157776,
-      "topicality": 0.8873310685157776
-    },
-    {
-      "mid": "/m/02q7ylj",
-      "description": "daytime",
-      "score": 0.8634399771690369,
-      "topicality": 0.8634399771690369
-    },
-    {
-      "mid": "/m/0lhr",
-      "description": "arecales",
-      "score": 0.7767272591590881,
-      "topicality": 0.7767272591590881
-    },
-    {
-      "mid": "/m/02hnx9",
-      "description": "woody plant",
-      "score": 0.7638684511184692,
-      "topicality": 0.7638684511184692
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.7497134804725647,
-      "topicality": 0.7497134804725647
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9381980895996094,
+    "topicality": 0.9381980895996094
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.9185777306556702,
+    "topicality": 0.9185777306556702
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9093363285064697,
+    "topicality": 0.9093363285064697
+  },
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.9013980627059937,
+    "topicality": 0.9013980627059937
+  },
+  {
+    "mid": "/m/0cdl1",
+    "description": "palm tree",
+    "score": 0.8922014236450195,
+    "topicality": 0.8922014236450195
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8873310685157776,
+    "topicality": 0.8873310685157776
+  },
+  {
+    "mid": "/m/02q7ylj",
+    "description": "daytime",
+    "score": 0.8634399771690369,
+    "topicality": 0.8634399771690369
+  },
+  {
+    "mid": "/m/0lhr",
+    "description": "arecales",
+    "score": 0.7767272591590881,
+    "topicality": 0.7767272591590881
+  },
+  {
+    "mid": "/m/02hnx9",
+    "description": "woody plant",
+    "score": 0.7638684511184692,
+    "topicality": 0.7638684511184692
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.7497134804725647,
+    "topicality": 0.7497134804725647
+  }
+]

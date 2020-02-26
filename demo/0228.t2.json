@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.9742156863212585,
-      "topicality": 0.9742156863212585,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01ht1r",
-      "description": "medieval architecture",
-      "score": 0.9018682837486267,
-      "topicality": 0.9018682837486267,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9006657004356384,
-      "topicality": 0.9006657004356384,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.8856949210166931,
-      "topicality": 0.8856949210166931,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03d1rd",
-      "description": "ruins",
-      "score": 0.8836407661437988,
-      "topicality": 0.8836407661437988,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.7888284921646118,
-      "topicality": 0.7888284921646118,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0nsv",
-      "description": "abbey",
-      "score": 0.7850746512413025,
-      "topicality": 0.7850746512413025,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/012ww9",
-      "description": "archaeological site",
-      "score": 0.7744009494781494,
-      "topicality": 0.7744009494781494,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.7623292207717896,
-      "topicality": 0.7623292207717896,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.6614471077919006,
-      "topicality": 0.6614471077919006,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.9742156863212585,
+    "topicality": 0.9742156863212585,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01ht1r",
+    "description": "medieval architecture",
+    "score": 0.9018682837486267,
+    "topicality": 0.9018682837486267,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9006657004356384,
+    "topicality": 0.9006657004356384,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.8856949210166931,
+    "topicality": 0.8856949210166931,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03d1rd",
+    "description": "ruins",
+    "score": 0.8836407661437988,
+    "topicality": 0.8836407661437988,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.7888284921646118,
+    "topicality": 0.7888284921646118,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0nsv",
+    "description": "abbey",
+    "score": 0.7850746512413025,
+    "topicality": 0.7850746512413025,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/012ww9",
+    "description": "archaeological site",
+    "score": 0.7744009494781494,
+    "topicality": 0.7744009494781494,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.7623292207717896,
+    "topicality": 0.7623292207717896,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.6614471077919006,
+    "topicality": 0.6614471077919006,
+    "bounding_poly": {}
+  }
+]

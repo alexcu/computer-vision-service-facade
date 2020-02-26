@@ -1,16 +1,14 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02cqfm",
-      "description": "close up",
-      "score": 0.748684287071228,
-      "topicality": 0.748684287071228
-    },
-    {
-      "mid": "/m/01vkl",
-      "description": "circle",
-      "score": 0.5467942357063293,
-      "topicality": 0.5467942357063293
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02cqfm",
+    "description": "close up",
+    "score": 0.748684287071228,
+    "topicality": 0.748684287071228
+  },
+  {
+    "mid": "/m/01vkl",
+    "description": "circle",
+    "score": 0.5467942357063293,
+    "topicality": 0.5467942357063293
+  }
+]

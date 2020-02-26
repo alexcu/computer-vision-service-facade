@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.8798316121101379,
-      "topicality": 0.8798316121101379
-    },
-    {
-      "mid": "/m/015c4z",
-      "description": "sitting",
-      "score": 0.8405541777610779,
-      "topicality": 0.8405541777610779
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.7782981395721436,
-      "topicality": 0.7782981395721436
-    },
-    {
-      "mid": "/m/01lhf",
-      "description": "communication",
-      "score": 0.6125391125679016,
-      "topicality": 0.6125391125679016
-    },
-    {
-      "mid": "/m/05r655",
-      "description": "girl",
-      "score": 0.5853233933448792,
-      "topicality": 0.5853233933448792
-    },
-    {
-      "mid": "/m/01h8n0",
-      "description": "conversation",
-      "score": 0.5249070525169373,
-      "topicality": 0.5249070525169373
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.8798316121101379,
+    "topicality": 0.8798316121101379
+  },
+  {
+    "mid": "/m/015c4z",
+    "description": "sitting",
+    "score": 0.8405541777610779,
+    "topicality": 0.8405541777610779
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.7782981395721436,
+    "topicality": 0.7782981395721436
+  },
+  {
+    "mid": "/m/01lhf",
+    "description": "communication",
+    "score": 0.6125391125679016,
+    "topicality": 0.6125391125679016
+  },
+  {
+    "mid": "/m/05r655",
+    "description": "girl",
+    "score": 0.5853233933448792,
+    "topicality": 0.5853233933448792
+  },
+  {
+    "mid": "/m/01h8n0",
+    "description": "conversation",
+    "score": 0.5249070525169373,
+    "topicality": 0.5249070525169373
+  }
+]

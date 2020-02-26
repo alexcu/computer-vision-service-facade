@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03k3r",
-      "description": "horse",
-      "score": 0.9960860013961792,
-      "topicality": 0.9960860013961792
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.975814163684845,
-      "topicality": 0.975814163684845
-    },
-    {
-      "mid": "/m/07hgcp",
-      "description": "rein",
-      "score": 0.9698105454444885,
-      "topicality": 0.9698105454444885
-    },
-    {
-      "mid": "/m/03pgm",
-      "description": "horse tack",
-      "score": 0.9608790278434753,
-      "topicality": 0.9608790278434753
-    },
-    {
-      "mid": "/m/019ww6",
-      "description": "harness racing",
-      "score": 0.9579379558563232,
-      "topicality": 0.9579379558563232
-    },
-    {
-      "mid": "/m/0wfrc8w",
-      "description": "animal sports",
-      "score": 0.9550862312316895,
-      "topicality": 0.9550862312316895
-    },
-    {
-      "mid": "/m/02z6033",
-      "description": "horse harness",
-      "score": 0.9506238102912903,
-      "topicality": 0.9506238102912903
-    },
-    {
-      "mid": "/m/0h8m5n6",
-      "description": "horse supplies",
-      "score": 0.9458165168762207,
-      "topicality": 0.9458165168762207
-    },
-    {
-      "mid": "/m/01r_pn",
-      "description": "race track",
-      "score": 0.9446873068809509,
-      "topicality": 0.9446873068809509
-    },
-    {
-      "mid": "/m/0jxxt",
-      "description": "horse racing",
-      "score": 0.9367521405220032,
-      "topicality": 0.9367521405220032
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03k3r",
+    "description": "horse",
+    "score": 0.9960860013961792,
+    "topicality": 0.9960860013961792
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.975814163684845,
+    "topicality": 0.975814163684845
+  },
+  {
+    "mid": "/m/07hgcp",
+    "description": "rein",
+    "score": 0.9698105454444885,
+    "topicality": 0.9698105454444885
+  },
+  {
+    "mid": "/m/03pgm",
+    "description": "horse tack",
+    "score": 0.9608790278434753,
+    "topicality": 0.9608790278434753
+  },
+  {
+    "mid": "/m/019ww6",
+    "description": "harness racing",
+    "score": 0.9579379558563232,
+    "topicality": 0.9579379558563232
+  },
+  {
+    "mid": "/m/0wfrc8w",
+    "description": "animal sports",
+    "score": 0.9550862312316895,
+    "topicality": 0.9550862312316895
+  },
+  {
+    "mid": "/m/02z6033",
+    "description": "horse harness",
+    "score": 0.9506238102912903,
+    "topicality": 0.9506238102912903
+  },
+  {
+    "mid": "/m/0h8m5n6",
+    "description": "horse supplies",
+    "score": 0.9458165168762207,
+    "topicality": 0.9458165168762207
+  },
+  {
+    "mid": "/m/01r_pn",
+    "description": "race track",
+    "score": 0.9446873068809509,
+    "topicality": 0.9446873068809509
+  },
+  {
+    "mid": "/m/0jxxt",
+    "description": "horse racing",
+    "score": 0.9367521405220032,
+    "topicality": 0.9367521405220032
+  }
+]

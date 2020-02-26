@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03d1rd",
-      "description": "ruins",
-      "score": 0.9079697728157043,
-      "topicality": 0.9079697728157043
-    },
-    {
-      "mid": "/m/012ww9",
-      "description": "archaeological site",
-      "score": 0.8794189095497131,
-      "topicality": 0.8794189095497131
-    },
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.874327540397644,
-      "topicality": 0.874327540397644
-    },
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.824028730392456,
-      "topicality": 0.824028730392456
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8121234178543091,
-      "topicality": 0.8121234178543091
-    },
-    {
-      "mid": "/m/01czv3",
-      "description": "fortification",
-      "score": 0.7706215977668762,
-      "topicality": 0.7706215977668762
-    },
-    {
-      "mid": "/m/0c7g7",
-      "description": "unesco world heritage site",
-      "score": 0.6372084617614746,
-      "topicality": 0.6372084617614746
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.5759063363075256,
-      "topicality": 0.5759063363075256
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.5134755373001099,
-      "topicality": 0.5134755373001099
-    },
-    {
-      "mid": "/m/07bxq",
-      "description": "tourism",
-      "score": 0.5114328861236572,
-      "topicality": 0.5114328861236572
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03d1rd",
+    "description": "ruins",
+    "score": 0.9079697728157043,
+    "topicality": 0.9079697728157043
+  },
+  {
+    "mid": "/m/012ww9",
+    "description": "archaeological site",
+    "score": 0.8794189095497131,
+    "topicality": 0.8794189095497131
+  },
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.874327540397644,
+    "topicality": 0.874327540397644
+  },
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.824028730392456,
+    "topicality": 0.824028730392456
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8121234178543091,
+    "topicality": 0.8121234178543091
+  },
+  {
+    "mid": "/m/01czv3",
+    "description": "fortification",
+    "score": 0.7706215977668762,
+    "topicality": 0.7706215977668762
+  },
+  {
+    "mid": "/m/0c7g7",
+    "description": "unesco world heritage site",
+    "score": 0.6372084617614746,
+    "topicality": 0.6372084617614746
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.5759063363075256,
+    "topicality": 0.5759063363075256
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.5134755373001099,
+    "topicality": 0.5134755373001099
+  },
+  {
+    "mid": "/m/07bxq",
+    "description": "tourism",
+    "score": 0.5114328861236572,
+    "topicality": 0.5114328861236572
+  }
+]

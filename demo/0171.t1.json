@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/013_1c",
-      "description": "statue",
-      "score": 0.7824522256851196,
-      "topicality": 0.7824522256851196
-    },
-    {
-      "mid": "/m/09cmq",
-      "description": "museum",
-      "score": 0.7533586621284485,
-      "topicality": 0.7533586621284485
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.6879839897155762,
-      "topicality": 0.6879839897155762
-    },
-    {
-      "mid": "/m/02ljgl",
-      "description": "monument",
-      "score": 0.6599534153938293,
-      "topicality": 0.6599534153938293
-    },
-    {
-      "mid": "/m/06msq",
-      "description": "sculpture",
-      "score": 0.6225270628929138,
-      "topicality": 0.6225270628929138
-    },
-    {
-      "mid": "/m/02q3d5",
-      "description": "memorial",
-      "score": 0.5718719959259033,
-      "topicality": 0.5718719959259033
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/013_1c",
+    "description": "statue",
+    "score": 0.7824522256851196,
+    "topicality": 0.7824522256851196
+  },
+  {
+    "mid": "/m/09cmq",
+    "description": "museum",
+    "score": 0.7533586621284485,
+    "topicality": 0.7533586621284485
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.6879839897155762,
+    "topicality": 0.6879839897155762
+  },
+  {
+    "mid": "/m/02ljgl",
+    "description": "monument",
+    "score": 0.6599534153938293,
+    "topicality": 0.6599534153938293
+  },
+  {
+    "mid": "/m/06msq",
+    "description": "sculpture",
+    "score": 0.6225270628929138,
+    "topicality": 0.6225270628929138
+  },
+  {
+    "mid": "/m/02q3d5",
+    "description": "memorial",
+    "score": 0.5718719959259033,
+    "topicality": 0.5718719959259033
+  }
+]

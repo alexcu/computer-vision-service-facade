@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/083jv",
-      "description": "white",
-      "score": 0.9596375823020935,
-      "topicality": 0.9596375823020935
-    },
-    {
-      "mid": "/m/019sc",
-      "description": "black",
-      "score": 0.956516444683075,
-      "topicality": 0.956516444683075
-    },
-    {
-      "mid": "/m/068jd",
-      "description": "photograph",
-      "score": 0.9494602084159851,
-      "topicality": 0.9494602084159851
-    },
-    {
-      "mid": "/m/01g6gs",
-      "description": "black and white",
-      "score": 0.9440790414810181,
-      "topicality": 0.9440790414810181
-    },
-    {
-      "mid": "/m/03k3r",
-      "description": "horse",
-      "score": 0.9263002872467041,
-      "topicality": 0.9263002872467041
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9245981574058533,
-      "topicality": 0.9245981574058533
-    },
-    {
-      "mid": "/m/02s3y",
-      "description": "horse like mammal",
-      "score": 0.8945939540863037,
-      "topicality": 0.8945939540863037
-    },
-    {
-      "mid": "/m/03d49p1",
-      "description": "monochrome photography",
-      "score": 0.8920448422431946,
-      "topicality": 0.8920448422431946
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.8344295024871826,
-      "topicality": 0.8344295024871826
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8233767747879028,
-      "topicality": 0.8233767747879028
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/083jv",
+    "description": "white",
+    "score": 0.9596375823020935,
+    "topicality": 0.9596375823020935
+  },
+  {
+    "mid": "/m/019sc",
+    "description": "black",
+    "score": 0.956516444683075,
+    "topicality": 0.956516444683075
+  },
+  {
+    "mid": "/m/068jd",
+    "description": "photograph",
+    "score": 0.9494602084159851,
+    "topicality": 0.9494602084159851
+  },
+  {
+    "mid": "/m/01g6gs",
+    "description": "black and white",
+    "score": 0.9440790414810181,
+    "topicality": 0.9440790414810181
+  },
+  {
+    "mid": "/m/03k3r",
+    "description": "horse",
+    "score": 0.9263002872467041,
+    "topicality": 0.9263002872467041
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9245981574058533,
+    "topicality": 0.9245981574058533
+  },
+  {
+    "mid": "/m/02s3y",
+    "description": "horse like mammal",
+    "score": 0.8945939540863037,
+    "topicality": 0.8945939540863037
+  },
+  {
+    "mid": "/m/03d49p1",
+    "description": "monochrome photography",
+    "score": 0.8920448422431946,
+    "topicality": 0.8920448422431946
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.8344295024871826,
+    "topicality": 0.8344295024871826
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8233767747879028,
+    "topicality": 0.8233767747879028
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.7381360491766633,
+    "topicality": 0.7381360491766633
+  }
+]

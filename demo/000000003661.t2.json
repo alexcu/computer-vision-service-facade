@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/013xk6",
-      "description": "banana family",
-      "score": 0.9850584864616394,
-      "topicality": 0.9850584864616394
-    },
-    {
-      "mid": "/m/09qck",
-      "description": "banana",
-      "score": 0.9749172329902649,
-      "topicality": 0.9749172329902649
-    },
-    {
-      "mid": "/m/0g5pzh_",
-      "description": "saba banana",
-      "score": 0.9567499160766602,
-      "topicality": 0.9567499160766602
-    },
-    {
-      "mid": "/m/02xwb",
-      "description": "fruit",
-      "score": 0.9049001336097717,
-      "topicality": 0.9049001336097717
-    },
-    {
-      "mid": "/m/088fh",
-      "description": "yellow",
-      "score": 0.9021002054214478,
-      "topicality": 0.9021002054214478
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.8698522448539734,
-      "topicality": 0.8698522448539734
-    },
-    {
-      "mid": "/m/09qdd",
-      "description": "cooking plantain",
-      "score": 0.864408552646637,
-      "topicality": 0.864408552646637
-    },
-    {
-      "mid": "/m/0g4fr",
-      "description": "papaya",
-      "score": 0.8615389466285706,
-      "topicality": 0.8615389466285706
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.8224931359291077,
-      "topicality": 0.8224931359291077
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.5871221423149109,
-      "topicality": 0.5871221423149109
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/013xk6",
+    "description": "banana family",
+    "score": 0.9850584864616394,
+    "topicality": 0.9850584864616394
+  },
+  {
+    "mid": "/m/09qck",
+    "description": "banana",
+    "score": 0.9749172329902649,
+    "topicality": 0.9749172329902649
+  },
+  {
+    "mid": "/m/0g5pzh_",
+    "description": "saba banana",
+    "score": 0.9567499160766602,
+    "topicality": 0.9567499160766602
+  },
+  {
+    "mid": "/m/02xwb",
+    "description": "fruit",
+    "score": 0.9049001336097717,
+    "topicality": 0.9049001336097717
+  },
+  {
+    "mid": "/m/088fh",
+    "description": "yellow",
+    "score": 0.9021002054214478,
+    "topicality": 0.9021002054214478
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.8698522448539734,
+    "topicality": 0.8698522448539734
+  },
+  {
+    "mid": "/m/09qdd",
+    "description": "cooking plantain",
+    "score": 0.864408552646637,
+    "topicality": 0.864408552646637
+  },
+  {
+    "mid": "/m/0g4fr",
+    "description": "papaya",
+    "score": 0.8615389466285706,
+    "topicality": 0.8615389466285706
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.8224931359291077,
+    "topicality": 0.8224931359291077
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.5871221423149109,
+    "topicality": 0.5871221423149109
+  }
+]

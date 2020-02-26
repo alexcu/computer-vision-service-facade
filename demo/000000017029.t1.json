@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bt9lr",
-      "description": "dog",
-      "score": 0.9506848454475403,
-      "topicality": 0.9506848454475403
-    },
-    {
-      "mid": "/m/01z5f",
-      "description": "dog like mammal",
-      "score": 0.9392220377922058,
-      "topicality": 0.9392220377922058
-    },
-    {
-      "mid": "/m/0kpmf",
-      "description": "dog breed",
-      "score": 0.8760879039764404,
-      "topicality": 0.8760879039764404
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8382019996643066,
-      "topicality": 0.8382019996643066
-    },
-    {
-      "mid": "/m/02xl47d",
-      "description": "dog breed group",
-      "score": 0.7716140747070312,
-      "topicality": 0.7716140747070312
-    },
-    {
-      "mid": "/m/0bdbpn",
-      "description": "obedience trial",
-      "score": 0.7611855268478394,
-      "topicality": 0.7611855268478394
-    },
-    {
-      "mid": "/m/0296c5",
-      "description": "obedience training",
-      "score": 0.7422428727149963,
-      "topicality": 0.7422428727149963
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.680536687374115,
-      "topicality": 0.680536687374115
-    },
-    {
-      "mid": "/m/01v327",
-      "description": "lawn",
-      "score": 0.6139587163925171,
-      "topicality": 0.6139587163925171
-    },
-    {
-      "mid": "/m/06z_nw",
-      "description": "tail",
-      "score": 0.5690688490867615,
-      "topicality": 0.5690688490867615
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bt9lr",
+    "description": "dog",
+    "score": 0.9506848454475403,
+    "topicality": 0.9506848454475403
+  },
+  {
+    "mid": "/m/01z5f",
+    "description": "dog like mammal",
+    "score": 0.9392220377922058,
+    "topicality": 0.9392220377922058
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.9363654863133201,
+    "topicality": 0.9363654863133201
+  },
+  {
+    "mid": "/m/0kpmf",
+    "description": "dog breed",
+    "score": 0.8760879039764404,
+    "topicality": 0.8760879039764404
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8382019996643066,
+    "topicality": 0.8382019996643066
+  },
+  {
+    "mid": "/m/02xl47d",
+    "description": "dog breed group",
+    "score": 0.7716140747070312,
+    "topicality": 0.7716140747070312
+  },
+  {
+    "mid": "/m/0bdbpn",
+    "description": "obedience trial",
+    "score": 0.7611855268478394,
+    "topicality": 0.7611855268478394
+  },
+  {
+    "mid": "/m/0296c5",
+    "description": "obedience training",
+    "score": 0.7422428727149963,
+    "topicality": 0.7422428727149963
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.680536687374115,
+    "topicality": 0.680536687374115
+  },
+  {
+    "mid": "/m/01v327",
+    "description": "lawn",
+    "score": 0.6139587163925171,
+    "topicality": 0.6139587163925171
+  },
+  {
+    "mid": "/m/06z_nw",
+    "description": "tail",
+    "score": 0.5690688490867615,
+    "topicality": 0.5690688490867615
+  }
+]

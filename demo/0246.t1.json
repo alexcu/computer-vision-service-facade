@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9614125490188599,
-      "topicality": 0.9614125490188599
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.95140540599823,
-      "topicality": 0.95140540599823
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.9459605813026428,
-      "topicality": 0.9459605813026428
-    },
-    {
-      "mid": "/m/02mhj",
-      "description": "ecosystem",
-      "score": 0.9310675859451294,
-      "topicality": 0.9310675859451294
-    },
-    {
-      "mid": "/m/0134l",
-      "description": "autumn",
-      "score": 0.9296804070472717,
-      "topicality": 0.9296804070472717
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9131342768669128,
-      "topicality": 0.9131342768669128
-    },
-    {
-      "mid": "/m/02hnx9",
-      "description": "woody plant",
-      "score": 0.9022870063781738,
-      "topicality": 0.9022870063781738
-    },
-    {
-      "mid": "/m/01cv98",
-      "description": "temperate broadleaf and mixed forest",
-      "score": 0.8876746892929077,
-      "topicality": 0.8876746892929077
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.8831242918968201,
-      "topicality": 0.8831242918968201
-    },
-    {
-      "mid": "/m/0hnc1",
-      "description": "woodland",
-      "score": 0.8592283129692078,
-      "topicality": 0.8592283129692078
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9614125490188599,
+    "topicality": 0.9614125490188599
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.95140540599823,
+    "topicality": 0.95140540599823
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.9459605813026428,
+    "topicality": 0.9459605813026428
+  },
+  {
+    "mid": "/m/02mhj",
+    "description": "ecosystem",
+    "score": 0.9310675859451294,
+    "topicality": 0.9310675859451294
+  },
+  {
+    "mid": "/m/0134l",
+    "description": "autumn",
+    "score": 0.9296804070472717,
+    "topicality": 0.9296804070472717
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9131342768669128,
+    "topicality": 0.9131342768669128
+  },
+  {
+    "mid": "/m/02hnx9",
+    "description": "woody plant",
+    "score": 0.9022870063781738,
+    "topicality": 0.9022870063781738
+  },
+  {
+    "mid": "/m/01cv98",
+    "description": "temperate broadleaf and mixed forest",
+    "score": 0.8876746892929077,
+    "topicality": 0.8876746892929077
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.8831242918968201,
+    "topicality": 0.8831242918968201
+  },
+  {
+    "mid": "/m/0hnc1",
+    "description": "woodland",
+    "score": 0.8592283129692078,
+    "topicality": 0.8592283129692078
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0271t",
-      "description": "drink",
-      "score": 0.9681325554847717,
-      "topicality": 0.9681325554847717
-    },
-    {
-      "mid": "/m/012mj",
-      "description": "alcoholic beverage",
-      "score": 0.948263943195343,
-      "topicality": 0.948263943195343
-    },
-    {
-      "mid": "/m/04shl0",
-      "description": "distilled beverage",
-      "score": 0.9273395538330078,
-      "topicality": 0.9273395538330078
-    },
-    {
-      "mid": "/m/04qgp",
-      "description": "liqueur",
-      "score": 0.8946183919906616,
-      "topicality": 0.8946183919906616
-    },
-    {
-      "mid": "/m/01599",
-      "description": "beer",
-      "score": 0.8884363770484924,
-      "topicality": 0.8884363770484924
-    },
-    {
-      "mid": "/m/0lqk",
-      "description": "alcohol",
-      "score": 0.8535919189453125,
-      "topicality": 0.8535919189453125
-    },
-    {
-      "mid": "/m/039jq",
-      "description": "glass",
-      "score": 0.745455265045166,
-      "topicality": 0.745455265045166
-    },
-    {
-      "mid": "/m/04dr76w",
-      "description": "bottle",
-      "score": 0.7309167385101318,
-      "topicality": 0.7309167385101318
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.7284687161445618,
-      "topicality": 0.7284687161445618
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.718271791934967,
-      "topicality": 0.718271791934967
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0271t",
+    "description": "drink",
+    "score": 0.9681325554847717,
+    "topicality": 0.9681325554847717
+  },
+  {
+    "mid": "/m/012mj",
+    "description": "alcoholic beverage",
+    "score": 0.948263943195343,
+    "topicality": 0.948263943195343
+  },
+  {
+    "mid": "/m/04shl0",
+    "description": "distilled beverage",
+    "score": 0.9273395538330078,
+    "topicality": 0.9273395538330078
+  },
+  {
+    "mid": "/m/04qgp",
+    "description": "liqueur",
+    "score": 0.8946183919906616,
+    "topicality": 0.8946183919906616
+  },
+  {
+    "mid": "/m/01599",
+    "description": "beer",
+    "score": 0.8884363770484924,
+    "topicality": 0.8884363770484924
+  },
+  {
+    "mid": "/m/0lqk",
+    "description": "alcohol",
+    "score": 0.8535919189453125,
+    "topicality": 0.8535919189453125
+  },
+  {
+    "mid": "/m/039jq",
+    "description": "glass",
+    "score": 0.745455265045166,
+    "topicality": 0.745455265045166
+  },
+  {
+    "mid": "/m/04dr76w",
+    "description": "bottle",
+    "score": 0.7309167385101318,
+    "topicality": 0.7309167385101318
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.7284687161445618,
+    "topicality": 0.7284687161445618
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.718271791934967,
+    "topicality": 0.718271791934967
+  }
+]

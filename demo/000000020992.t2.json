@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01_bhs",
-      "description": "fast food",
-      "score": 0.8407855033874512,
-      "topicality": 0.8407855033874512
-    },
-    {
-      "mid": "/m/0h55b",
-      "description": "junk food",
-      "score": 0.7872939109802246,
-      "topicality": 0.7872939109802246
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6242249608039856,
-      "topicality": 0.6242249608039856
-    },
-    {
-      "mid": "/m/05xnqg",
-      "description": "street food",
-      "score": 0.5890335440635681,
-      "topicality": 0.5890335440635681
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.5684025287628174,
-      "topicality": 0.5684025287628174
-    },
-    {
-      "mid": "/m/0bp3f6m",
-      "description": "fried food",
-      "score": 0.5556408166885376,
-      "topicality": 0.5556408166885376
-    },
-    {
-      "mid": "/m/019nj4",
-      "description": "smile",
-      "score": 0.5404295921325684,
-      "topicality": 0.5404295921325684
-    },
-    {
-      "mid": "/m/0b3dyl",
-      "description": "finger food",
-      "score": 0.536959171295166,
-      "topicality": 0.536959171295166
-    },
-    {
-      "mid": "/m/07l8p5",
-      "description": "side dish",
-      "score": 0.5311752557754517,
-      "topicality": 0.5311752557754517
-    },
-    {
-      "mid": "/m/0b76y0",
-      "description": "food craving",
-      "score": 0.5027591586112976,
-      "topicality": 0.5027591586112976
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01_bhs",
+    "description": "fast food",
+    "score": 0.8407855033874512,
+    "topicality": 0.8407855033874512
+  },
+  {
+    "mid": "/m/0h55b",
+    "description": "junk food",
+    "score": 0.7872939109802246,
+    "topicality": 0.7872939109802246
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6242249608039856,
+    "topicality": 0.6242249608039856
+  },
+  {
+    "mid": "/m/05xnqg",
+    "description": "street food",
+    "score": 0.5890335440635681,
+    "topicality": 0.5890335440635681
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.5684025287628174,
+    "topicality": 0.5684025287628174
+  },
+  {
+    "mid": "/m/0bp3f6m",
+    "description": "fried food",
+    "score": 0.5556408166885376,
+    "topicality": 0.5556408166885376
+  },
+  {
+    "mid": "/m/019nj4",
+    "description": "smile",
+    "score": 0.5404295921325684,
+    "topicality": 0.5404295921325684
+  },
+  {
+    "mid": "/m/0b3dyl",
+    "description": "finger food",
+    "score": 0.536959171295166,
+    "topicality": 0.536959171295166
+  },
+  {
+    "mid": "/m/07l8p5",
+    "description": "side dish",
+    "score": 0.5311752557754517,
+    "topicality": 0.5311752557754517
+  },
+  {
+    "mid": "/m/0b76y0",
+    "description": "food craving",
+    "score": 0.5027591586112976,
+    "topicality": 0.5027591586112976
+  }
+]

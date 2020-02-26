@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05sm1",
-      "description": "plain",
-      "score": 0.9055783152580261,
-      "topicality": 0.9055783152580261
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.8843857049942017,
-      "topicality": 0.8843857049942017
-    },
-    {
-      "mid": "/m/01c7cq",
-      "description": "grassland",
-      "score": 0.8601839542388916,
-      "topicality": 0.8601839542388916
-    },
-    {
-      "mid": "/m/0brn2d",
-      "description": "field",
-      "score": 0.7671588659286499,
-      "topicality": 0.7671588659286499
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/03fcmz",
-      "description": "transmission tower",
-      "score": 0.7059021592140198,
-      "topicality": 0.7059021592140198
-    },
-    {
-      "mid": "/m/0gs32y",
-      "description": "land lot",
-      "score": 0.6682165861129761,
-      "topicality": 0.6682165861129761
-    },
-    {
-      "mid": "/m/0cws7",
-      "description": "polder",
-      "score": 0.6139628887176514,
-      "topicality": 0.6139628887176514
-    },
-    {
-      "mid": "/m/0hkvx",
-      "description": "prairie",
-      "score": 0.5700573325157166,
-      "topicality": 0.5700573325157166
-    },
-    {
-      "mid": "/m/01gd91",
-      "description": "pasture",
-      "score": 0.5527365803718567,
-      "topicality": 0.5527365803718567
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05sm1",
+    "description": "plain",
+    "score": 0.9055783152580261,
+    "topicality": 0.9055783152580261
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.8843857049942017,
+    "topicality": 0.8843857049942017
+  },
+  {
+    "mid": "/m/01c7cq",
+    "description": "grassland",
+    "score": 0.8601839542388916,
+    "topicality": 0.8601839542388916
+  },
+  {
+    "mid": "/m/0brn2d",
+    "description": "field",
+    "score": 0.7671588659286499,
+    "topicality": 0.7671588659286499
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/03fcmz",
+    "description": "transmission tower",
+    "score": 0.7059021592140198,
+    "topicality": 0.7059021592140198
+  },
+  {
+    "mid": "/m/0gs32y",
+    "description": "land lot",
+    "score": 0.6682165861129761,
+    "topicality": 0.6682165861129761
+  },
+  {
+    "mid": "/m/0cws7",
+    "description": "polder",
+    "score": 0.6139628887176514,
+    "topicality": 0.6139628887176514
+  },
+  {
+    "mid": "/m/0hkvx",
+    "description": "prairie",
+    "score": 0.5700573325157166,
+    "topicality": 0.5700573325157166
+  },
+  {
+    "mid": "/m/01gd91",
+    "description": "pasture",
+    "score": 0.5527365803718567,
+    "topicality": 0.5527365803718567
+  }
+]

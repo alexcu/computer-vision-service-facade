@@ -1,40 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9255471229553223,
-      "topicality": 0.9255471229553223
-    },
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.8819301128387451,
-      "topicality": 0.8819301128387451
-    },
-    {
-      "mid": "/m/04cp_",
-      "description": "koala",
-      "score": 0.8062167763710022,
-      "topicality": 0.8062167763710022
-    },
-    {
-      "mid": "/m/052bc",
-      "description": "marsupial",
-      "score": 0.7880592346191406,
-      "topicality": 0.7880592346191406
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.6231358647346497,
-      "topicality": 0.6231358647346497
-    },
-    {
-      "mid": "/m/089v3",
-      "description": "zoo",
-      "score": 0.528972864151001,
-      "topicality": 0.528972864151001
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9255471229553223,
+    "topicality": 0.9255471229553223
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.9089777036241748,
+    "topicality": 0.9089777036241748
+  },
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.8819301128387451,
+    "topicality": 0.8819301128387451
+  },
+  {
+    "mid": "/m/04cp_",
+    "description": "koala",
+    "score": 0.8062167763710022,
+    "topicality": 0.8062167763710022
+  },
+  {
+    "mid": "/m/052bc",
+    "description": "marsupial",
+    "score": 0.7880592346191406,
+    "topicality": 0.7880592346191406
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.6231358647346497,
+    "topicality": 0.6231358647346497
+  },
+  {
+    "mid": "/m/089v3",
+    "description": "zoo",
+    "score": 0.528972864151001,
+    "topicality": 0.528972864151001
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01sqnx",
-      "description": "byzantine architecture",
-      "score": 0.9284826517105103,
-      "topicality": 0.9284826517105103
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9272152781486511,
-      "topicality": 0.9272152781486511
-    },
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.9210565686225891,
-      "topicality": 0.9210565686225891
-    },
-    {
-      "mid": "/m/065zs54",
-      "description": "holy places",
-      "score": 0.9204334616661072,
-      "topicality": 0.9204334616661072
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.8956407904624939,
-      "topicality": 0.8956407904624939
-    },
-    {
-      "mid": "/m/02bqth",
-      "description": "vault",
-      "score": 0.8745837807655334,
-      "topicality": 0.8745837807655334
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8657962679862976,
-      "topicality": 0.8657962679862976
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.8081941604614258,
-      "topicality": 0.8081941604614258
-    },
-    {
-      "mid": "/m/01wb7",
-      "description": "church",
-      "score": 0.7850437164306641,
-      "topicality": 0.7850437164306641
-    },
-    {
-      "mid": "/m/0f85g",
-      "description": "basilica",
-      "score": 0.7706705927848816,
-      "topicality": 0.7706705927848816
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01sqnx",
+    "description": "byzantine architecture",
+    "score": 0.9284826517105103,
+    "topicality": 0.9284826517105103
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9272152781486511,
+    "topicality": 0.9272152781486511
+  },
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.9210565686225891,
+    "topicality": 0.9210565686225891
+  },
+  {
+    "mid": "/m/065zs54",
+    "description": "holy places",
+    "score": 0.9204334616661072,
+    "topicality": 0.9204334616661072
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.8956407904624939,
+    "topicality": 0.8956407904624939
+  },
+  {
+    "mid": "/m/02bqth",
+    "description": "vault",
+    "score": 0.8745837807655334,
+    "topicality": 0.8745837807655334
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8657962679862976,
+    "topicality": 0.8657962679862976
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.8081941604614258,
+    "topicality": 0.8081941604614258
+  },
+  {
+    "mid": "/m/01wb7",
+    "description": "church",
+    "score": 0.7850437164306641,
+    "topicality": 0.7850437164306641
+  },
+  {
+    "mid": "/m/0f85g",
+    "description": "basilica",
+    "score": 0.7706705927848816,
+    "topicality": 0.7706705927848816
+  }
+]

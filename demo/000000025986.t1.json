@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0krfg",
-      "description": "meal",
-      "score": 0.970905601978302,
-      "topicality": 0.970905601978302
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.954077959060669,
-      "topicality": 0.954077959060669
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.951461911201477,
-      "topicality": 0.951461911201477
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.8846263885498047,
-      "topicality": 0.8846263885498047
-    },
-    {
-      "mid": "/m/07pt9wt",
-      "description": "appetizer",
-      "score": 0.7910552620887756,
-      "topicality": 0.7910552620887756
-    },
-    {
-      "mid": "/m/0jfd5",
-      "description": "lunch",
-      "score": 0.7736259698867798,
-      "topicality": 0.7736259698867798
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.7319881319999695,
-      "topicality": 0.7319881319999695
-    },
-    {
-      "mid": "/m/07_lq",
-      "description": "vegetarian food",
-      "score": 0.7265253067016602,
-      "topicality": 0.7265253067016602
-    },
-    {
-      "mid": "/m/01r1z5",
-      "description": "asian food",
-      "score": 0.6947083473205566,
-      "topicality": 0.6947083473205566
-    },
-    {
-      "mid": "/m/0dw_m",
-      "description": "brunch",
-      "score": 0.6446542143821716,
-      "topicality": 0.6446542143821716
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0krfg",
+    "description": "meal",
+    "score": 0.970905601978302,
+    "topicality": 0.970905601978302
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.954077959060669,
+    "topicality": 0.954077959060669
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.951461911201477,
+    "topicality": 0.951461911201477
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.8846263885498047,
+    "topicality": 0.8846263885498047
+  },
+  {
+    "mid": "/m/07pt9wt",
+    "description": "appetizer",
+    "score": 0.7910552620887756,
+    "topicality": 0.7910552620887756
+  },
+  {
+    "mid": "/m/0jfd5",
+    "description": "lunch",
+    "score": 0.7736259698867798,
+    "topicality": 0.7736259698867798
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.7319881319999695,
+    "topicality": 0.7319881319999695
+  },
+  {
+    "mid": "/m/07_lq",
+    "description": "vegetarian food",
+    "score": 0.7265253067016602,
+    "topicality": 0.7265253067016602
+  },
+  {
+    "mid": "/m/01r1z5",
+    "description": "asian food",
+    "score": 0.6947083473205566,
+    "topicality": 0.6947083473205566
+  },
+  {
+    "mid": "/m/0dw_m",
+    "description": "brunch",
+    "score": 0.6446542143821716,
+    "topicality": 0.6446542143821716
+  }
+]

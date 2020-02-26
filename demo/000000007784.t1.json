@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9534215331077576,
-      "topicality": 0.9534215331077576
-    },
-    {
-      "mid": "/m/07wpp2",
-      "description": "air sports",
-      "score": 0.9273356795310974,
-      "topicality": 0.9273356795310974
-    },
-    {
-      "mid": "/m/0wgq355",
-      "description": "kite sports",
-      "score": 0.925574004650116,
-      "topicality": 0.925574004650116
-    },
-    {
-      "mid": "/m/041q5g",
-      "description": "windsports",
-      "score": 0.9009745121002197,
-      "topicality": 0.9009745121002197
-    },
-    {
-      "mid": "/m/05zmb",
-      "description": "parachuting",
-      "score": 0.8929898738861084,
-      "topicality": 0.8929898738861084
-    },
-    {
-      "mid": "/m/02zt3",
-      "description": "kite",
-      "score": 0.8450385332107544,
-      "topicality": 0.8450385332107544
-    },
-    {
-      "mid": "/m/0cyfs",
-      "description": "parachute",
-      "score": 0.7879303693771362,
-      "topicality": 0.7879303693771362
-    },
-    {
-      "mid": "/m/018hjb",
-      "description": "sport kite",
-      "score": 0.7572298049926758,
-      "topicality": 0.7572298049926758
-    },
-    {
-      "mid": "/m/0h1j7",
-      "description": "paragliding",
-      "score": 0.6691623330116272,
-      "topicality": 0.6691623330116272
-    },
-    {
-      "mid": "/m/03m9d0z",
-      "description": "wind",
-      "score": 0.6680352091789246,
-      "topicality": 0.6680352091789246
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9534215331077576,
+    "topicality": 0.9534215331077576
+  },
+  {
+    "mid": "/m/07wpp2",
+    "description": "air sports",
+    "score": 0.9273356795310974,
+    "topicality": 0.9273356795310974
+  },
+  {
+    "mid": "/m/0wgq355",
+    "description": "kite sports",
+    "score": 0.925574004650116,
+    "topicality": 0.925574004650116
+  },
+  {
+    "mid": "/m/041q5g",
+    "description": "windsports",
+    "score": 0.9009745121002197,
+    "topicality": 0.9009745121002197
+  },
+  {
+    "mid": "/m/05zmb",
+    "description": "parachuting",
+    "score": 0.8929898738861084,
+    "topicality": 0.8929898738861084
+  },
+  {
+    "mid": "/m/02zt3",
+    "description": "kite",
+    "score": 0.8450385332107544,
+    "topicality": 0.8450385332107544
+  },
+  {
+    "mid": "/m/0cyfs",
+    "description": "parachute",
+    "score": 0.7879303693771362,
+    "topicality": 0.7879303693771362
+  },
+  {
+    "mid": "/m/018hjb",
+    "description": "sport kite",
+    "score": 0.7572298049926758,
+    "topicality": 0.7572298049926758
+  },
+  {
+    "mid": "/m/0h1j7",
+    "description": "paragliding",
+    "score": 0.6691623330116272,
+    "topicality": 0.6691623330116272
+  },
+  {
+    "mid": "/m/03m9d0z",
+    "description": "wind",
+    "score": 0.6680352091789246,
+    "topicality": 0.6680352091789246
+  }
+]

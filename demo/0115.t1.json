@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9582721590995789,
-      "topicality": 0.9582721590995789
-    },
-    {
-      "mid": "/m/02mhj",
-      "description": "ecosystem",
-      "score": 0.9414700269699097,
-      "topicality": 0.9414700269699097
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9037492871284485,
-      "topicality": 0.9037492871284485
-    },
-    {
-      "mid": "/m/0fkrk",
-      "description": "grass family",
-      "score": 0.9022470712661743,
-      "topicality": 0.9022470712661743
-    },
-    {
-      "mid": "/m/018ktp",
-      "description": "watercolor paint",
-      "score": 0.8988602161407471,
-      "topicality": 0.8988602161407471
-    },
-    {
-      "mid": "/m/05qdh",
-      "description": "painting",
-      "score": 0.8278486132621765,
-      "topicality": 0.8278486132621765
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.7750406265258789,
-      "topicality": 0.7750406265258789
-    },
-    {
-      "mid": "/m/0brn2d",
-      "description": "field",
-      "score": 0.7493075728416443,
-      "topicality": 0.7493075728416443
-    },
-    {
-      "mid": "/m/04rd7",
-      "description": "mural",
-      "score": 0.7043338418006897,
-      "topicality": 0.7043338418006897
-    },
-    {
-      "mid": "/m/06z0n",
-      "description": "sunlight",
-      "score": 0.6763702034950256,
-      "topicality": 0.6763702034950256
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9582721590995789,
+    "topicality": 0.9582721590995789
+  },
+  {
+    "mid": "/m/02mhj",
+    "description": "ecosystem",
+    "score": 0.9414700269699097,
+    "topicality": 0.9414700269699097
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9037492871284485,
+    "topicality": 0.9037492871284485
+  },
+  {
+    "mid": "/m/0fkrk",
+    "description": "grass family",
+    "score": 0.9022470712661743,
+    "topicality": 0.9022470712661743
+  },
+  {
+    "mid": "/m/018ktp",
+    "description": "watercolor paint",
+    "score": 0.8988602161407471,
+    "topicality": 0.8988602161407471
+  },
+  {
+    "mid": "/m/05qdh",
+    "description": "painting",
+    "score": 0.8278486132621765,
+    "topicality": 0.8278486132621765
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.7750406265258789,
+    "topicality": 0.7750406265258789
+  },
+  {
+    "mid": "/m/0brn2d",
+    "description": "field",
+    "score": 0.7493075728416443,
+    "topicality": 0.7493075728416443
+  },
+  {
+    "mid": "/m/04rd7",
+    "description": "mural",
+    "score": 0.7043338418006897,
+    "topicality": 0.7043338418006897
+  },
+  {
+    "mid": "/m/06z0n",
+    "description": "sunlight",
+    "score": 0.6763702034950256,
+    "topicality": 0.6763702034950256
+  }
+]

@@ -1,34 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.814633846282959,
-      "topicality": 0.814633846282959
-    },
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.7692591547966003,
-      "topicality": 0.7692591547966003
-    },
-    {
-      "mid": "/m/0bhmh",
-      "description": "telephony",
-      "score": 0.6851792335510254,
-      "topicality": 0.6851792335510254
-    },
-    {
-      "mid": "/m/07cx4",
-      "description": "telephone",
-      "score": 0.6093188524246216,
-      "topicality": 0.6093188524246216
-    },
-    {
-      "mid": "/m/02mrp",
-      "description": "electronics",
-      "score": 0.5276617407798767,
-      "topicality": 0.5276617407798767
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.814633846282959,
+    "topicality": 0.814633846282959
+  },
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.7692591547966003,
+    "topicality": 0.7692591547966003
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "food",
+    "score": 0.7595084598744666,
+    "topicality": 0.7595084598744666
+  },
+  {
+    "mid": "/m/0bhmh",
+    "description": "telephony",
+    "score": 0.6851792335510254,
+    "topicality": 0.6851792335510254
+  },
+  {
+    "mid": "/m/07cx4",
+    "description": "telephone",
+    "score": 0.6093188524246216,
+    "topicality": 0.6093188524246216
+  },
+  {
+    "mid": "/m/02mrp",
+    "description": "electronics",
+    "score": 0.5276617407798767,
+    "topicality": 0.5276617407798767
+  }
+]

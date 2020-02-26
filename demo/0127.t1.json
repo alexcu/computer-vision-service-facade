@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.9241752624511719,
-      "topicality": 0.9241752624511719
-    },
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.8775403499603271,
-      "topicality": 0.8775403499603271
-    },
-    {
-      "mid": "/m/012ww9",
-      "description": "archaeological site",
-      "score": 0.8500586152076721,
-      "topicality": 0.8500586152076721
-    },
-    {
-      "mid": "/m/03d1rd",
-      "description": "ruins",
-      "score": 0.8129627704620361,
-      "topicality": 0.8129627704620361
-    },
-    {
-      "mid": "/m/09qqq",
-      "description": "wall",
-      "score": 0.7860023379325867,
-      "topicality": 0.7860023379325867
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.7053897976875305,
-      "topicality": 0.7053897976875305
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.671286940574646,
-      "topicality": 0.671286940574646
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.6052398681640625,
-      "topicality": 0.6052398681640625
-    },
-    {
-      "mid": "/m/07s3m",
-      "description": "tours",
-      "score": 0.5948475003242493,
-      "topicality": 0.5948475003242493
-    },
-    {
-      "mid": "/m/02l341",
-      "description": "ancient rome",
-      "score": 0.5921027064323425,
-      "topicality": 0.5921027064323425
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.9241752624511719,
+    "topicality": 0.9241752624511719
+  },
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.8775403499603271,
+    "topicality": 0.8775403499603271
+  },
+  {
+    "mid": "/m/012ww9",
+    "description": "archaeological site",
+    "score": 0.8500586152076721,
+    "topicality": 0.8500586152076721
+  },
+  {
+    "mid": "/m/03d1rd",
+    "description": "ruins",
+    "score": 0.8129627704620361,
+    "topicality": 0.8129627704620361
+  },
+  {
+    "mid": "/m/09qqq",
+    "description": "wall",
+    "score": 0.7860023379325867,
+    "topicality": 0.7860023379325867
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.7053897976875305,
+    "topicality": 0.7053897976875305
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.671286940574646,
+    "topicality": 0.671286940574646
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.6052398681640625,
+    "topicality": 0.6052398681640625
+  },
+  {
+    "mid": "/m/07s3m",
+    "description": "tours",
+    "score": 0.5948475003242493,
+    "topicality": 0.5948475003242493
+  },
+  {
+    "mid": "/m/02l341",
+    "description": "ancient rome",
+    "score": 0.5921027064323425,
+    "topicality": 0.5921027064323425
+  }
+]

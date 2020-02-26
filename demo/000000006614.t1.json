@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01g6gs",
-      "description": "black and white",
-      "score": 0.9201950430870056,
-      "topicality": 0.9201950430870056
-    },
-    {
-      "mid": "/m/03d49p1",
-      "description": "monochrome photography",
-      "score": 0.7808535695075989,
-      "topicality": 0.7808535695075989
-    },
-    {
-      "mid": "/m/01mwkf",
-      "description": "monochrome",
-      "score": 0.6746073365211487,
-      "topicality": 0.6746073365211487
-    },
-    {
-      "mid": "/m/027_ny3",
-      "description": "still life photography",
-      "score": 0.6370745301246643,
-      "topicality": 0.6370745301246643
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.5825142860412598,
-      "topicality": 0.5825142860412598
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.5453948378562927,
-      "topicality": 0.5453948378562927
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01g6gs",
+    "description": "black and white",
+    "score": 0.9201950430870056,
+    "topicality": 0.9201950430870056
+  },
+  {
+    "mid": "/m/03d49p1",
+    "description": "monochrome photography",
+    "score": 0.7808535695075989,
+    "topicality": 0.7808535695075989
+  },
+  {
+    "mid": "/m/01mwkf",
+    "description": "monochrome",
+    "score": 0.6746073365211487,
+    "topicality": 0.6746073365211487
+  },
+  {
+    "mid": "/m/027_ny3",
+    "description": "still life photography",
+    "score": 0.6370745301246643,
+    "topicality": 0.6370745301246643
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.5825142860412598,
+    "topicality": 0.5825142860412598
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.5453948378562927,
+    "topicality": 0.5453948378562927
+  }
+]

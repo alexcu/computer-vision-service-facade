@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02393",
-      "description": "chaparral",
-      "score": 0.9704198837280273,
-      "topicality": 0.9704198837280273
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9559751749038696,
-      "topicality": 0.9559751749038696
-    },
-    {
-      "mid": "/m/02mhj",
-      "description": "ecosystem",
-      "score": 0.9435263872146606,
-      "topicality": 0.9435263872146606
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9413062930107117,
-      "topicality": 0.9413062930107117
-    },
-    {
-      "mid": "/m/06w1j5",
-      "description": "shrubland",
-      "score": 0.9407612085342407,
-      "topicality": 0.9407612085342407
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.9295804500579834,
-      "topicality": 0.9295804500579834
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.8750352263450623,
-      "topicality": 0.8750352263450623
-    },
-    {
-      "mid": "/m/03cjrt",
-      "description": "highland",
-      "score": 0.8736865520477295,
-      "topicality": 0.8736865520477295
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.8725361227989197,
-      "topicality": 0.8725361227989197
-    },
-    {
-      "mid": "/m/09d_r",
-      "description": "mountain",
-      "score": 0.8350836634635925,
-      "topicality": 0.8350836634635925
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02393",
+    "description": "chaparral",
+    "score": 0.9704198837280273,
+    "topicality": 0.9704198837280273
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9559751749038696,
+    "topicality": 0.9559751749038696
+  },
+  {
+    "mid": "/m/02mhj",
+    "description": "ecosystem",
+    "score": 0.9435263872146606,
+    "topicality": 0.9435263872146606
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9413062930107117,
+    "topicality": 0.9413062930107117
+  },
+  {
+    "mid": "/m/06w1j5",
+    "description": "shrubland",
+    "score": 0.9407612085342407,
+    "topicality": 0.9407612085342407
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.9295804500579834,
+    "topicality": 0.9295804500579834
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.8750352263450623,
+    "topicality": 0.8750352263450623
+  },
+  {
+    "mid": "/m/03cjrt",
+    "description": "highland",
+    "score": 0.8736865520477295,
+    "topicality": 0.8736865520477295
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.8725361227989197,
+    "topicality": 0.8725361227989197
+  },
+  {
+    "mid": "/m/09d_r",
+    "description": "mountain",
+    "score": 0.8350836634635925,
+    "topicality": 0.8350836634635925
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/057yl",
-      "description": "mojito",
-      "score": 0.971543550491333,
-      "topicality": 0.971543550491333
-    },
-    {
-      "mid": "/m/0271t",
-      "description": "drink",
-      "score": 0.9618247747421265,
-      "topicality": 0.9618247747421265
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9033390283584595,
-      "topicality": 0.9033390283584595
-    },
-    {
-      "mid": "/m/0dpj6t",
-      "description": "non-alcoholic beverage",
-      "score": 0.8803712129592896,
-      "topicality": 0.8803712129592896
-    },
-    {
-      "mid": "/m/0207sy",
-      "description": "caipirinha",
-      "score": 0.8607702851295471,
-      "topicality": 0.8607702851295471
-    },
-    {
-      "mid": "/m/012mj",
-      "description": "alcoholic beverage",
-      "score": 0.8605247735977173,
-      "topicality": 0.8605247735977173
-    },
-    {
-      "mid": "/m/028ylt",
-      "description": "mint julep",
-      "score": 0.8547211289405823,
-      "topicality": 0.8547211289405823
-    },
-    {
-      "mid": "/m/027ct3y",
-      "description": "cocktail garnish",
-      "score": 0.8488088846206665,
-      "topicality": 0.8488088846206665
-    },
-    {
-      "mid": "/m/024g6",
-      "description": "cocktail",
-      "score": 0.8206115365028381,
-      "topicality": 0.8206115365028381
-    },
-    {
-      "mid": "/m/04shl0",
-      "description": "distilled beverage",
-      "score": 0.7818901538848877,
-      "topicality": 0.7818901538848877
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/057yl",
+    "description": "mojito",
+    "score": 0.971543550491333,
+    "topicality": 0.971543550491333
+  },
+  {
+    "mid": "/m/0271t",
+    "description": "drink",
+    "score": 0.9618247747421265,
+    "topicality": 0.9618247747421265
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9033390283584595,
+    "topicality": 0.9033390283584595
+  },
+  {
+    "mid": "/m/0dpj6t",
+    "description": "non-alcoholic beverage",
+    "score": 0.8803712129592896,
+    "topicality": 0.8803712129592896
+  },
+  {
+    "mid": "/m/0207sy",
+    "description": "caipirinha",
+    "score": 0.8607702851295471,
+    "topicality": 0.8607702851295471
+  },
+  {
+    "mid": "/m/012mj",
+    "description": "alcoholic beverage",
+    "score": 0.8605247735977173,
+    "topicality": 0.8605247735977173
+  },
+  {
+    "mid": "/m/028ylt",
+    "description": "mint julep",
+    "score": 0.8547211289405823,
+    "topicality": 0.8547211289405823
+  },
+  {
+    "mid": "/m/027ct3y",
+    "description": "cocktail garnish",
+    "score": 0.8488088846206665,
+    "topicality": 0.8488088846206665
+  },
+  {
+    "mid": "/m/024g6",
+    "description": "cocktail",
+    "score": 0.8206115365028381,
+    "topicality": 0.8206115365028381
+  },
+  {
+    "mid": "/m/04shl0",
+    "description": "distilled beverage",
+    "score": 0.7818901538848877,
+    "topicality": 0.7818901538848877
+  }
+]

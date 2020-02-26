@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.96468585729599,
-      "topicality": 0.96468585729599
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9637080430984497,
-      "topicality": 0.9637080430984497
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9345153570175171,
-      "topicality": 0.9345153570175171
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9186007976531982,
-      "topicality": 0.9186007976531982
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8750935196876526,
-      "topicality": 0.8750935196876526
-    },
-    {
-      "mid": "/m/0hr8",
-      "description": "asphalt",
-      "score": 0.7488549947738647,
-      "topicality": 0.7488549947738647
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.7392465472221375,
-      "topicality": 0.7392465472221375
-    },
-    {
-      "mid": "/m/0btp2",
-      "description": "traffic",
-      "score": 0.7057778835296631,
-      "topicality": 0.7057778835296631
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.6887584328651428,
-      "topicality": 0.6887584328651428
-    },
-    {
-      "mid": "/m/01lcwm",
-      "description": "luxury vehicle",
-      "score": 0.642240583896637,
-      "topicality": 0.642240583896637
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.96468585729599,
+    "topicality": 0.96468585729599
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9637080430984497,
+    "topicality": 0.9637080430984497
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9345153570175171,
+    "topicality": 0.9345153570175171
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9186007976531982,
+    "topicality": 0.9186007976531982
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8750935196876526,
+    "topicality": 0.8750935196876526
+  },
+  {
+    "mid": "/m/0hr8",
+    "description": "asphalt",
+    "score": 0.7488549947738647,
+    "topicality": 0.7488549947738647
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.7392465472221375,
+    "topicality": 0.7392465472221375
+  },
+  {
+    "mid": "/m/0btp2",
+    "description": "traffic",
+    "score": 0.7057778835296631,
+    "topicality": 0.7057778835296631
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.6887584328651428,
+    "topicality": 0.6887584328651428
+  },
+  {
+    "mid": "/m/01lcwm",
+    "description": "luxury vehicle",
+    "score": 0.642240583896637,
+    "topicality": 0.642240583896637
+  }
+]

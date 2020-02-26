@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03k3r",
-      "description": "horse",
-      "score": 0.9002892971038818,
-      "topicality": 0.9002892971038818
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8588771224021912,
-      "topicality": 0.8588771224021912
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8492692708969116,
-      "topicality": 0.8492692708969116
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.8014847636222839,
-      "topicality": 0.8014847636222839
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.7997934222221375,
-      "topicality": 0.7997934222221375
-    },
-    {
-      "mid": "/m/0hr8",
-      "description": "asphalt",
-      "score": 0.7836852669715881,
-      "topicality": 0.7836852669715881
-    },
-    {
-      "mid": "/m/01k0mv",
-      "description": "road surface",
-      "score": 0.7701973915100098,
-      "topicality": 0.7701973915100098
-    },
-    {
-      "mid": "/m/017kvv",
-      "description": "infrastructure",
-      "score": 0.7313721776008606,
-      "topicality": 0.7313721776008606
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.7297405004501343,
-      "topicality": 0.7297405004501343
-    },
-    {
-      "mid": "/m/033j3c",
-      "description": "lane",
-      "score": 0.7023887038230896,
-      "topicality": 0.7023887038230896
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03k3r",
+    "description": "horse",
+    "score": 0.9002892971038818,
+    "topicality": 0.9002892971038818
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8588771224021912,
+    "topicality": 0.8588771224021912
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8492692708969116,
+    "topicality": 0.8492692708969116
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.8014847636222839,
+    "topicality": 0.8014847636222839
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.7997934222221375,
+    "topicality": 0.7997934222221375
+  },
+  {
+    "mid": "/m/0hr8",
+    "description": "asphalt",
+    "score": 0.7836852669715881,
+    "topicality": 0.7836852669715881
+  },
+  {
+    "mid": "/m/01k0mv",
+    "description": "road surface",
+    "score": 0.7701973915100098,
+    "topicality": 0.7701973915100098
+  },
+  {
+    "mid": "/m/017kvv",
+    "description": "infrastructure",
+    "score": 0.7313721776008606,
+    "topicality": 0.7313721776008606
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.7297405004501343,
+    "topicality": 0.7297405004501343
+  },
+  {
+    "mid": "/m/033j3c",
+    "description": "lane",
+    "score": 0.7023887038230896,
+    "topicality": 0.7023887038230896
+  }
+]

@@ -18,20 +18,15 @@ label.control-label {
   font-style: normal;
 }
 
-.card#check-benchmark-log-results-card {
-  height: 15rem;
-}
-
-pre#new-benchmark-form-results {
-  height: 100%;
-}
-pre#check-benchmark-log-results {
-  overflow-x: scroll;
-  overflow-y: scroll;
-}
-
 .card-img-top {
   background-color: #CCCCCC;
+}
+
+.card > pre.card-body {
+  max-height: 400px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  overflow-wrap: initial;
 }
 
 img#submit-request-image-preview {

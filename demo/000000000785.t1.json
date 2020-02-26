@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03pj6l",
-      "description": "ski pole",
-      "score": 0.9691202044487,
-      "topicality": 0.9691202044487
-    },
-    {
-      "mid": "/m/071k0",
-      "description": "skiing",
-      "score": 0.9667192697525024,
-      "topicality": 0.9667192697525024
-    },
-    {
-      "mid": "/m/071p9",
-      "description": "ski",
-      "score": 0.9392013549804688,
-      "topicality": 0.9392013549804688
-    },
-    {
-      "mid": "/m/09w1n",
-      "description": "alpine skiing",
-      "score": 0.9215460419654846,
-      "topicality": 0.9215460419654846
-    },
-    {
-      "mid": "/m/01z27",
-      "description": "cross country skiing",
-      "score": 0.8751454949378967,
-      "topicality": 0.8751454949378967
-    },
-    {
-      "mid": "/m/02cgt",
-      "description": "slalom skiing",
-      "score": 0.8546698689460754,
-      "topicality": 0.8546698689460754
-    },
-    {
-      "mid": "/m/0cl9t3p",
-      "description": "ski equipment",
-      "score": 0.8380177021026611,
-      "topicality": 0.8380177021026611
-    },
-    {
-      "mid": "/m/017knx",
-      "description": "nordic skiing",
-      "score": 0.8174573183059692,
-      "topicality": 0.8174573183059692
-    },
-    {
-      "mid": "/m/01c2f2",
-      "description": "ski binding",
-      "score": 0.8095334768295288,
-      "topicality": 0.8095334768295288
-    },
-    {
-      "mid": "/m/09qf5",
-      "description": "winter sport",
-      "score": 0.7911959886550903,
-      "topicality": 0.7911959886550903
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03pj6l",
+    "description": "ski pole",
+    "score": 0.9691202044487,
+    "topicality": 0.9691202044487
+  },
+  {
+    "mid": "/m/071k0",
+    "description": "skiing",
+    "score": 0.9667192697525024,
+    "topicality": 0.9667192697525024
+  },
+  {
+    "mid": "/m/071p9",
+    "description": "ski",
+    "score": 0.9392013549804688,
+    "topicality": 0.9392013549804688
+  },
+  {
+    "mid": "/m/09w1n",
+    "description": "alpine skiing",
+    "score": 0.9215460419654846,
+    "topicality": 0.9215460419654846
+  },
+  {
+    "mid": "/m/01z27",
+    "description": "cross country skiing",
+    "score": 0.8751454949378967,
+    "topicality": 0.8751454949378967
+  },
+  {
+    "mid": "/m/02cgt",
+    "description": "slalom skiing",
+    "score": 0.8546698689460754,
+    "topicality": 0.8546698689460754
+  },
+  {
+    "mid": "/m/0cl9t3p",
+    "description": "ski equipment",
+    "score": 0.8380177021026611,
+    "topicality": 0.8380177021026611
+  },
+  {
+    "mid": "/m/017knx",
+    "description": "nordic skiing",
+    "score": 0.8174573183059692,
+    "topicality": 0.8174573183059692
+  },
+  {
+    "mid": "/m/01c2f2",
+    "description": "ski binding",
+    "score": 0.8095334768295288,
+    "topicality": 0.8095334768295288
+  },
+  {
+    "mid": "/m/09qf5",
+    "description": "winter sport",
+    "score": 0.7911959886550903,
+    "topicality": 0.7911959886550903
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.725004856763223,
+    "topicality": 0.725004856763223
+  }
+]

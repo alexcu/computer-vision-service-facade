@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.8314884305000305,
-      "topicality": 0.8314884305000305
-    },
-    {
-      "mid": "/m/09cmq",
-      "description": "museum",
-      "score": 0.7197238206863403,
-      "topicality": 0.7197238206863403
-    },
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.7111952304840088,
-      "topicality": 0.7111952304840088
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.5749542117118835,
-      "topicality": 0.5749542117118835
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.5130162835121155,
-      "topicality": 0.5130162835121155
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.8314884305000305,
+    "topicality": 0.8314884305000305
+  },
+  {
+    "mid": "/m/09cmq",
+    "description": "museum",
+    "score": 0.7197238206863403,
+    "topicality": 0.7197238206863403
+  },
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.7111952304840088,
+    "topicality": 0.7111952304840088
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.5749542117118835,
+    "topicality": 0.5749542117118835
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.5130162835121155,
+    "topicality": 0.5130162835121155
+  }
+]

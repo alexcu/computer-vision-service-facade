@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/027_ny3",
-      "description": "still life photography",
-      "score": 0.939775824546814,
-      "topicality": 0.939775824546814
-    },
-    {
-      "mid": "/m/019sc6",
-      "description": "lighting",
-      "score": 0.9170914888381958,
-      "topicality": 0.9170914888381958
-    },
-    {
-      "mid": "/m/01spzs",
-      "description": "still life",
-      "score": 0.8597519993782043,
-      "topicality": 0.8597519993782043
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/03yp9t",
-      "description": "nightlight",
-      "score": 0.6474997997283936,
-      "topicality": 0.6474997997283936
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6242249608039856,
-      "topicality": 0.6242249608039856
-    },
-    {
-      "mid": "/m/09nm_",
-      "description": "world",
-      "score": 0.5313754081726074,
-      "topicality": 0.5313754081726074
-    },
-    {
-      "mid": "/m/0h8nzzj",
-      "description": "interior design",
-      "score": 0.500938355922699,
-      "topicality": 0.500938355922699
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/027_ny3",
+    "description": "still life photography",
+    "score": 0.939775824546814,
+    "topicality": 0.939775824546814
+  },
+  {
+    "mid": "/m/019sc6",
+    "description": "lighting",
+    "score": 0.9170914888381958,
+    "topicality": 0.9170914888381958
+  },
+  {
+    "mid": "/m/01spzs",
+    "description": "still life",
+    "score": 0.8597519993782043,
+    "topicality": 0.8597519993782043
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/03yp9t",
+    "description": "nightlight",
+    "score": 0.6474997997283936,
+    "topicality": 0.6474997997283936
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6242249608039856,
+    "topicality": 0.6242249608039856
+  },
+  {
+    "mid": "/m/09nm_",
+    "description": "world",
+    "score": 0.5313754081726074,
+    "topicality": 0.5313754081726074
+  },
+  {
+    "mid": "/m/0h8nzzj",
+    "description": "interior design",
+    "score": 0.500938355922699,
+    "topicality": 0.500938355922699
+  }
+]

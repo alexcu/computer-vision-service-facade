@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/099fz",
-      "description": "sand",
-      "score": 0.9030033349990845,
-      "topicality": 0.9030033349990845
-    },
-    {
-      "mid": "/m/01w5c_",
-      "description": "aerial photography",
-      "score": 0.7908030152320862,
-      "topicality": 0.7908030152320862
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.7872574329376221,
-      "topicality": 0.7872574329376221
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.7448689341545105,
-      "topicality": 0.7448689341545105
-    },
-    {
-      "mid": "/m/02fm9k",
-      "description": "shore",
-      "score": 0.7420578002929688,
-      "topicality": 0.7420578002929688
-    },
-    {
-      "mid": "/m/07sn5gn",
-      "description": "geological phenomenon",
-      "score": 0.7332372069358826,
-      "topicality": 0.7332372069358826
-    },
-    {
-      "mid": "/m/036hv",
-      "description": "geology",
-      "score": 0.6769669651985168,
-      "topicality": 0.6769669651985168
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.6504233479499817,
-      "topicality": 0.6504233479499817
-    },
-    {
-      "mid": "/m/026dd",
-      "description": "dune",
-      "score": 0.6286981701850891,
-      "topicality": 0.6286981701850891
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.6145039200782776,
-      "topicality": 0.6145039200782776
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/099fz",
+    "description": "sand",
+    "score": 0.9030033349990845,
+    "topicality": 0.9030033349990845
+  },
+  {
+    "mid": "/m/01w5c_",
+    "description": "aerial photography",
+    "score": 0.7908030152320862,
+    "topicality": 0.7908030152320862
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.7872574329376221,
+    "topicality": 0.7872574329376221
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.7448689341545105,
+    "topicality": 0.7448689341545105
+  },
+  {
+    "mid": "/m/02fm9k",
+    "description": "shore",
+    "score": 0.7420578002929688,
+    "topicality": 0.7420578002929688
+  },
+  {
+    "mid": "/m/07sn5gn",
+    "description": "geological phenomenon",
+    "score": 0.7332372069358826,
+    "topicality": 0.7332372069358826
+  },
+  {
+    "mid": "/m/036hv",
+    "description": "geology",
+    "score": 0.6769669651985168,
+    "topicality": 0.6769669651985168
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.6504233479499817,
+    "topicality": 0.6504233479499817
+  },
+  {
+    "mid": "/m/026dd",
+    "description": "dune",
+    "score": 0.6286981701850891,
+    "topicality": 0.6286981701850891
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.6145039200782776,
+    "topicality": 0.6145039200782776
+  }
+]

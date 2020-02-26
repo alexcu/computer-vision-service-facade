@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.9730473756790161,
-      "topicality": 0.9730473756790161
-    },
-    {
-      "mid": "/m/02nfxt",
-      "description": "residential area",
-      "score": 0.9581137299537659,
-      "topicality": 0.9581137299537659
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9528487920761108,
-      "topicality": 0.9528487920761108
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.9244588017463684,
-      "topicality": 0.9244588017463684
-    },
-    {
-      "mid": "/m/0fpdgl",
-      "description": "human settlement",
-      "score": 0.9152264595031738,
-      "topicality": 0.9152264595031738
-    },
-    {
-      "mid": "/m/0750y",
-      "description": "suburb",
-      "score": 0.9145746231079102,
-      "topicality": 0.9145746231079102
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.8992405533790588,
-      "topicality": 0.8992405533790588
-    },
-    {
-      "mid": "/m/034z7h",
-      "description": "cityscape",
-      "score": 0.8892922401428223,
-      "topicality": 0.8892922401428223
-    },
-    {
-      "mid": "/m/0180xr",
-      "description": "neighbourhood",
-      "score": 0.8393835425376892,
-      "topicality": 0.8393835425376892
-    },
-    {
-      "mid": "/m/04_5sg",
-      "description": "hill",
-      "score": 0.7947000861167908,
-      "topicality": 0.7947000861167908
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.9730473756790161,
+    "topicality": 0.9730473756790161
+  },
+  {
+    "mid": "/m/02nfxt",
+    "description": "residential area",
+    "score": 0.9581137299537659,
+    "topicality": 0.9581137299537659
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9528487920761108,
+    "topicality": 0.9528487920761108
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.9244588017463684,
+    "topicality": 0.9244588017463684
+  },
+  {
+    "mid": "/m/0fpdgl",
+    "description": "human settlement",
+    "score": 0.9152264595031738,
+    "topicality": 0.9152264595031738
+  },
+  {
+    "mid": "/m/0750y",
+    "description": "suburb",
+    "score": 0.9145746231079102,
+    "topicality": 0.9145746231079102
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.8992405533790588,
+    "topicality": 0.8992405533790588
+  },
+  {
+    "mid": "/m/034z7h",
+    "description": "cityscape",
+    "score": 0.8892922401428223,
+    "topicality": 0.8892922401428223
+  },
+  {
+    "mid": "/m/0180xr",
+    "description": "neighbourhood",
+    "score": 0.8393835425376892,
+    "topicality": 0.8393835425376892
+  },
+  {
+    "mid": "/m/04_5sg",
+    "description": "hill",
+    "score": 0.7947000861167908,
+    "topicality": 0.7947000861167908
+  }
+]

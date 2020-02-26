@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9512578248977661,
-      "topicality": 0.9512578248977661
-    },
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.9116073846817017,
-      "topicality": 0.9116073846817017
-    },
-    {
-      "mid": "/m/08rrcl",
-      "description": "water transportation",
-      "score": 0.8950062990188599,
-      "topicality": 0.8950062990188599
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.7846073508262634,
-      "topicality": 0.7846073508262634
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.7563799023628235,
-      "topicality": 0.7563799023628235
-    },
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.7539607882499695,
-      "topicality": 0.7539607882499695
-    },
-    {
-      "mid": "/m/03120",
-      "description": "flag",
-      "score": 0.7466418147087097,
-      "topicality": 0.7466418147087097
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/03h5wy",
-      "description": "channel",
-      "score": 0.7087923884391785,
-      "topicality": 0.7087923884391785
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.6994819045066833,
-      "topicality": 0.6994819045066833
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9512578248977661,
+    "topicality": 0.9512578248977661
+  },
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.9116073846817017,
+    "topicality": 0.9116073846817017
+  },
+  {
+    "mid": "/m/08rrcl",
+    "description": "water transportation",
+    "score": 0.8950062990188599,
+    "topicality": 0.8950062990188599
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.7846073508262634,
+    "topicality": 0.7846073508262634
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.7563799023628235,
+    "topicality": 0.7563799023628235
+  },
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.7539607882499695,
+    "topicality": 0.7539607882499695
+  },
+  {
+    "mid": "/m/03120",
+    "description": "flag",
+    "score": 0.7466418147087097,
+    "topicality": 0.7466418147087097
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/03h5wy",
+    "description": "channel",
+    "score": 0.7087923884391785,
+    "topicality": 0.7087923884391785
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.6994819045066833,
+    "topicality": 0.6994819045066833
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.9666682481765747,
-      "topicality": 0.9666682481765747
-    },
-    {
-      "mid": "/m/05wrt",
-      "description": "property",
-      "score": 0.962284505367279,
-      "topicality": 0.962284505367279
-    },
-    {
-      "mid": "/m/01j2bj",
-      "description": "bathroom",
-      "score": 0.8104801774024963,
-      "topicality": 0.8104801774024963
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.7858952283859253,
-      "topicality": 0.7858952283859253
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.7349420785903931,
-      "topicality": 0.7349420785903931
-    },
-    {
-      "mid": "/m/03rszm",
-      "description": "curtain",
-      "score": 0.7205867767333984,
-      "topicality": 0.7205867767333984
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.6601293087005615,
-      "topicality": 0.6601293087005615
-    },
-    {
-      "mid": "/m/023907r",
-      "description": "real estate",
-      "score": 0.6516035199165344,
-      "topicality": 0.6516035199165344
-    },
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.6324014663696289,
-      "topicality": 0.6324014663696289
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.5888292193412781,
-      "topicality": 0.5888292193412781
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.9666682481765747,
+    "topicality": 0.9666682481765747
+  },
+  {
+    "mid": "/m/05wrt",
+    "description": "property",
+    "score": 0.962284505367279,
+    "topicality": 0.962284505367279
+  },
+  {
+    "mid": "/m/01j2bj",
+    "description": "bathroom",
+    "score": 0.8104801774024963,
+    "topicality": 0.8104801774024963
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.7858952283859253,
+    "topicality": 0.7858952283859253
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.7349420785903931,
+    "topicality": 0.7349420785903931
+  },
+  {
+    "mid": "/m/03rszm",
+    "description": "curtain",
+    "score": 0.7205867767333984,
+    "topicality": 0.7205867767333984
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.6601293087005615,
+    "topicality": 0.6601293087005615
+  },
+  {
+    "mid": "/m/023907r",
+    "description": "real estate",
+    "score": 0.6516035199165344,
+    "topicality": 0.6516035199165344
+  },
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.6324014663696289,
+    "topicality": 0.6324014663696289
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.5888292193412781,
+    "topicality": 0.5888292193412781
+  }
+]

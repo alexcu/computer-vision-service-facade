@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.9749792814254761,
-      "topicality": 0.9749792814254761
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.9574499726295471,
-      "topicality": 0.9574499726295471
-    },
-    {
-      "mid": "/m/05t0z3q",
-      "description": "bank",
-      "score": 0.9549576640129089,
-      "topicality": 0.9549576640129089
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.9476847648620605,
-      "topicality": 0.9476847648620605
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9388793110847473,
-      "topicality": 0.9388793110847473
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9358304142951965,
-      "topicality": 0.9358304142951965
-    },
-    {
-      "mid": "/m/0gg8brk",
-      "description": "water bird",
-      "score": 0.9275946021080017,
-      "topicality": 0.9275946021080017
-    },
-    {
-      "mid": "/m/09ddx",
-      "description": "duck",
-      "score": 0.9217344522476196,
-      "topicality": 0.9217344522476196
-    },
-    {
-      "mid": "/m/0184rb",
-      "description": "pond",
-      "score": 0.9204931259155273,
-      "topicality": 0.9204931259155273
-    },
-    {
-      "mid": "/m/015p6",
-      "description": "bird",
-      "score": 0.901602566242218,
-      "topicality": 0.901602566242218
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.9749792814254761,
+    "topicality": 0.9749792814254761
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.9574499726295471,
+    "topicality": 0.9574499726295471
+  },
+  {
+    "mid": "/m/05t0z3q",
+    "description": "bank",
+    "score": 0.9549576640129089,
+    "topicality": 0.9549576640129089
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.9476847648620605,
+    "topicality": 0.9476847648620605
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9388793110847473,
+    "topicality": 0.9388793110847473
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9358304142951965,
+    "topicality": 0.9358304142951965
+  },
+  {
+    "mid": "/m/0gg8brk",
+    "description": "water bird",
+    "score": 0.9275946021080017,
+    "topicality": 0.9275946021080017
+  },
+  {
+    "mid": "/m/09ddx",
+    "description": "duck",
+    "score": 0.9217344522476196,
+    "topicality": 0.9217344522476196
+  },
+  {
+    "mid": "/m/0184rb",
+    "description": "pond",
+    "score": 0.9204931259155273,
+    "topicality": 0.9204931259155273
+  },
+  {
+    "mid": "/m/015p6",
+    "description": "bird",
+    "score": 0.901602566242218,
+    "topicality": 0.901602566242218
+  }
+]

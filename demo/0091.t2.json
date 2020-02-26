@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.9827584028244019,
-      "topicality": 0.9827584028244019
-    },
-    {
-      "mid": "/m/0vlys",
-      "description": "tower block",
-      "score": 0.9709488749504089,
-      "topicality": 0.9709488749504089
-    },
-    {
-      "mid": "/m/079cl",
-      "description": "skyscraper",
-      "score": 0.9613072872161865,
-      "topicality": 0.9613072872161865
-    },
-    {
-      "mid": "/m/020ys5",
-      "description": "condominium",
-      "score": 0.9549128413200378,
-      "topicality": 0.9549128413200378
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.9356526136398315,
-      "topicality": 0.9356526136398315
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.9346737861633301,
-      "topicality": 0.9346737861633301
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9123501181602478,
-      "topicality": 0.9123501181602478
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8884065747261047,
-      "topicality": 0.8884065747261047
-    },
-    {
-      "mid": "/m/02q7ylj",
-      "description": "daytime",
-      "score": 0.8869926333427429,
-      "topicality": 0.8869926333427429
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.8851726651191711,
-      "topicality": 0.8851726651191711
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.9827584028244019,
+    "topicality": 0.9827584028244019
+  },
+  {
+    "mid": "/m/0vlys",
+    "description": "tower block",
+    "score": 0.9709488749504089,
+    "topicality": 0.9709488749504089
+  },
+  {
+    "mid": "/m/079cl",
+    "description": "skyscraper",
+    "score": 0.9613072872161865,
+    "topicality": 0.9613072872161865
+  },
+  {
+    "mid": "/m/020ys5",
+    "description": "condominium",
+    "score": 0.9549128413200378,
+    "topicality": 0.9549128413200378
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.9356526136398315,
+    "topicality": 0.9356526136398315
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.9346737861633301,
+    "topicality": 0.9346737861633301
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9123501181602478,
+    "topicality": 0.9123501181602478
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8884065747261047,
+    "topicality": 0.8884065747261047
+  },
+  {
+    "mid": "/m/02q7ylj",
+    "description": "daytime",
+    "score": 0.8869926333427429,
+    "topicality": 0.8869926333427429
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.8851726651191711,
+    "topicality": 0.8851726651191711
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0h_m",
-      "description": "adventure",
-      "score": 0.8752254843711853,
-      "topicality": 0.8752254843711853
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.8691481947898865,
-      "topicality": 0.8691481947898865
-    },
-    {
-      "mid": "/m/0hm03",
-      "description": "trail",
-      "score": 0.8289303779602051,
-      "topicality": 0.8289303779602051
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.7824655175209045,
-      "topicality": 0.7824655175209045
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7783679962158203,
-      "topicality": 0.7783679962158203
-    },
-    {
-      "mid": "/m/03hfn0",
-      "description": "backpacking",
-      "score": 0.7013462781906128,
-      "topicality": 0.7013462781906128
-    },
-    {
-      "mid": "/m/07h51",
-      "description": "trail riding",
-      "score": 0.6983669996261597,
-      "topicality": 0.6983669996261597
-    },
-    {
-      "mid": "/m/05gz5",
-      "description": "national park",
-      "score": 0.5989939570426941,
-      "topicality": 0.5989939570426941
-    },
-    {
-      "mid": "/m/02zr8",
-      "description": "forest",
-      "score": 0.5858384370803833,
-      "topicality": 0.5858384370803833
-    },
-    {
-      "mid": "/m/0464z4",
-      "description": "pack animal",
-      "score": 0.5768375396728516,
-      "topicality": 0.5768375396728516
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0h_m",
+    "description": "adventure",
+    "score": 0.8752254843711853,
+    "topicality": 0.8752254843711853
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.8691481947898865,
+    "topicality": 0.8691481947898865
+  },
+  {
+    "mid": "/m/0hm03",
+    "description": "trail",
+    "score": 0.8289303779602051,
+    "topicality": 0.8289303779602051
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.7824655175209045,
+    "topicality": 0.7824655175209045
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7783679962158203,
+    "topicality": 0.7783679962158203
+  },
+  {
+    "mid": "/m/03hfn0",
+    "description": "backpacking",
+    "score": 0.7013462781906128,
+    "topicality": 0.7013462781906128
+  },
+  {
+    "mid": "/m/07h51",
+    "description": "trail riding",
+    "score": 0.6983669996261597,
+    "topicality": 0.6983669996261597
+  },
+  {
+    "mid": "/m/05gz5",
+    "description": "national park",
+    "score": 0.5989939570426941,
+    "topicality": 0.5989939570426941
+  },
+  {
+    "mid": "/m/02zr8",
+    "description": "forest",
+    "score": 0.5858384370803833,
+    "topicality": 0.5858384370803833
+  },
+  {
+    "mid": "/m/0464z4",
+    "description": "pack animal",
+    "score": 0.5768375396728516,
+    "topicality": 0.5768375396728516
+  }
+]

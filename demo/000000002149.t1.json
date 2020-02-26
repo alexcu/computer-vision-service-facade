@@ -1,46 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/08tlbj",
-      "description": "natural foods",
-      "score": 0.9557694792747498,
-      "topicality": 0.9557694792747498
-    },
-    {
-      "mid": "/m/02xwb",
-      "description": "fruit",
-      "score": 0.9506146311759949,
-      "topicality": 0.9506146311759949
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.9245144724845886,
-      "topicality": 0.9245144724845886
-    },
-    {
-      "mid": "/m/014j1m",
-      "description": "apple",
-      "score": 0.8855847716331482,
-      "topicality": 0.8855847716331482
-    },
-    {
-      "mid": "/m/01_12b",
-      "description": "granny smith",
-      "score": 0.8760281801223755,
-      "topicality": 0.8760281801223755
-    },
-    {
-      "mid": "/m/01hxyd",
-      "description": "local food",
-      "score": 0.8753470182418823,
-      "topicality": 0.8753470182418823
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.8665432929992676,
-      "topicality": 0.8665432929992676
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/08tlbj",
+    "description": "natural foods",
+    "score": 0.9557694792747498,
+    "topicality": 0.9557694792747498
+  },
+  {
+    "mid": "/m/02xwb",
+    "description": "fruit",
+    "score": 0.9506146311759949,
+    "topicality": 0.9506146311759949
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.9245144724845886,
+    "topicality": 0.9245144724845886
+  },
+  {
+    "mid": "/m/014j1m",
+    "description": "apple",
+    "score": 0.8855847716331482,
+    "topicality": 0.8855847716331482
+  },
+  {
+    "mid": "/m/01_12b",
+    "description": "granny smith",
+    "score": 0.8760281801223755,
+    "topicality": 0.8760281801223755
+  },
+  {
+    "mid": "/m/01hxyd",
+    "description": "local food",
+    "score": 0.8753470182418823,
+    "topicality": 0.8753470182418823
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.8665432929992676,
+    "topicality": 0.8665432929992676
+  }
+]

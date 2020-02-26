@@ -1,10 +1,14 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01fklc",
-      "description": "pink",
-      "score": 0.9425609707832336,
-      "topicality": 0.9425609707832336
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/synthesized",
+    "description": "food",
+    "score": 0.9612647733850102,
+    "topicality": 0.9612647733850102
+  },
+  {
+    "mid": "/m/01fklc",
+    "description": "pink",
+    "score": 0.9425609707832336,
+    "topicality": 0.9425609707832336
+  }
+]

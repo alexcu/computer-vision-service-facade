@@ -1,46 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01443y",
-      "description": "headgear",
-      "score": 0.8170802593231201,
-      "topicality": 0.8170802593231201
-    },
-    {
-      "mid": "/m/0zvk5",
-      "description": "helmet",
-      "score": 0.8124556541442871,
-      "topicality": 0.8124556541442871
-    },
-    {
-      "mid": "/m/0ffjr",
-      "description": "personal protective equipment",
-      "score": 0.7836611866950989,
-      "topicality": 0.7836611866950989
-    },
-    {
-      "mid": "/m/02d46y",
-      "description": "cap",
-      "score": 0.7700603604316711,
-      "topicality": 0.7700603604316711
-    },
-    {
-      "mid": "/m/0n49352",
-      "description": "protective gear in sports",
-      "score": 0.6657823920249939,
-      "topicality": 0.6657823920249939
-    },
-    {
-      "mid": "/m/07pdzb4",
-      "description": "baseball equipment",
-      "score": 0.662742555141449,
-      "topicality": 0.662742555141449
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.5854610204696655,
-      "topicality": 0.5854610204696655
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01443y",
+    "description": "headgear",
+    "score": 0.8170802593231201,
+    "topicality": 0.8170802593231201
+  },
+  {
+    "mid": "/m/0zvk5",
+    "description": "helmet",
+    "score": 0.8124556541442871,
+    "topicality": 0.8124556541442871
+  },
+  {
+    "mid": "/m/0ffjr",
+    "description": "personal protective equipment",
+    "score": 0.7836611866950989,
+    "topicality": 0.7836611866950989
+  },
+  {
+    "mid": "/m/02d46y",
+    "description": "cap",
+    "score": 0.7700603604316711,
+    "topicality": 0.7700603604316711
+  },
+  {
+    "mid": "/m/0n49352",
+    "description": "protective gear in sports",
+    "score": 0.6657823920249939,
+    "topicality": 0.6657823920249939
+  },
+  {
+    "mid": "/m/07pdzb4",
+    "description": "baseball equipment",
+    "score": 0.662742555141449,
+    "topicality": 0.662742555141449
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.5854610204696655,
+    "topicality": 0.5854610204696655
+  }
+]

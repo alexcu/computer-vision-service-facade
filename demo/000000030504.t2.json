@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06_dn",
-      "description": "snow",
-      "score": 0.9919360280036926,
-      "topicality": 0.9919360280036926
-    },
-    {
-      "mid": "/m/02h6653",
-      "description": "skier",
-      "score": 0.9857955574989319,
-      "topicality": 0.9857955574989319
-    },
-    {
-      "mid": "/m/026vz7",
-      "description": "ski mountaineering",
-      "score": 0.9639579057693481,
-      "topicality": 0.9639579057693481
-    },
-    {
-      "mid": "/m/071p9",
-      "description": "ski",
-      "score": 0.9574471116065979,
-      "topicality": 0.9574471116065979
-    },
-    {
-      "mid": "/m/03vcgb",
-      "description": "ski touring",
-      "score": 0.948859453201294,
-      "topicality": 0.948859453201294
-    },
-    {
-      "mid": "/m/03pj6l",
-      "description": "ski pole",
-      "score": 0.9349269866943359,
-      "topicality": 0.9349269866943359
-    },
-    {
-      "mid": "/m/071k0",
-      "description": "skiing",
-      "score": 0.9343844056129456,
-      "topicality": 0.9343844056129456
-    },
-    {
-      "mid": "/m/05b0n7k",
-      "description": "outdoor recreation",
-      "score": 0.9268761277198792,
-      "topicality": 0.9268761277198792
-    },
-    {
-      "mid": "/m/086mh",
-      "description": "winter",
-      "score": 0.9209749698638916,
-      "topicality": 0.9209749698638916
-    },
-    {
-      "mid": "/m/017knx",
-      "description": "nordic skiing",
-      "score": 0.9132871627807617,
-      "topicality": 0.9132871627807617
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06_dn",
+    "description": "snow",
+    "score": 0.9919360280036926,
+    "topicality": 0.9919360280036926
+  },
+  {
+    "mid": "/m/02h6653",
+    "description": "skier",
+    "score": 0.9857955574989319,
+    "topicality": 0.9857955574989319
+  },
+  {
+    "mid": "/m/026vz7",
+    "description": "ski mountaineering",
+    "score": 0.9639579057693481,
+    "topicality": 0.9639579057693481
+  },
+  {
+    "mid": "/m/071p9",
+    "description": "ski",
+    "score": 0.9574471116065979,
+    "topicality": 0.9574471116065979
+  },
+  {
+    "mid": "/m/03vcgb",
+    "description": "ski touring",
+    "score": 0.948859453201294,
+    "topicality": 0.948859453201294
+  },
+  {
+    "mid": "/m/03pj6l",
+    "description": "ski pole",
+    "score": 0.9349269866943359,
+    "topicality": 0.9349269866943359
+  },
+  {
+    "mid": "/m/071k0",
+    "description": "skiing",
+    "score": 0.9343844056129456,
+    "topicality": 0.9343844056129456
+  },
+  {
+    "mid": "/m/05b0n7k",
+    "description": "outdoor recreation",
+    "score": 0.9268761277198792,
+    "topicality": 0.9268761277198792
+  },
+  {
+    "mid": "/m/086mh",
+    "description": "winter",
+    "score": 0.9209749698638916,
+    "topicality": 0.9209749698638916
+  },
+  {
+    "mid": "/m/017knx",
+    "description": "nordic skiing",
+    "score": 0.9132871627807617,
+    "topicality": 0.9132871627807617
+  }
+]

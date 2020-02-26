@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9674451947212219,
-      "topicality": 0.9674451947212219
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.9504397511482239,
-      "topicality": 0.9504397511482239
-    },
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9240736365318298,
-      "topicality": 0.9240736365318298
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.8967528343200684,
-      "topicality": 0.8967528343200684
-    },
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.7541154026985168,
-      "topicality": 0.7541154026985168
-    },
-    {
-      "mid": "/m/0h8ls87",
-      "description": "automotive exterior",
-      "score": 0.7096766233444214,
-      "topicality": 0.7096766233444214
-    },
-    {
-      "mid": "/m/039jq",
-      "description": "glass",
-      "score": 0.6911633610725403,
-      "topicality": 0.6911633610725403
-    },
-    {
-      "mid": "/m/01lrnl",
-      "description": "windshield",
-      "score": 0.6431199312210083,
-      "topicality": 0.6431199312210083
-    },
-    {
-      "mid": "/m/01lcwm",
-      "description": "luxury vehicle",
-      "score": 0.6178638339042664,
-      "topicality": 0.6178638339042664
-    },
-    {
-      "mid": "/m/05mqq3",
-      "description": "snout",
-      "score": 0.6027827262878418,
-      "topicality": 0.6027827262878418
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9674451947212219,
+    "topicality": 0.9674451947212219
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.9504397511482239,
+    "topicality": 0.9504397511482239
+  },
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9240736365318298,
+    "topicality": 0.9240736365318298
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.8967528343200684,
+    "topicality": 0.8967528343200684
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.7541154026985168,
+    "topicality": 0.7541154026985168
+  },
+  {
+    "mid": "/m/0h8ls87",
+    "description": "automotive exterior",
+    "score": 0.7096766233444214,
+    "topicality": 0.7096766233444214
+  },
+  {
+    "mid": "/m/039jq",
+    "description": "glass",
+    "score": 0.6911633610725403,
+    "topicality": 0.6911633610725403
+  },
+  {
+    "mid": "/m/01lrnl",
+    "description": "windshield",
+    "score": 0.6431199312210083,
+    "topicality": 0.6431199312210083
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.638846302713672,
+    "topicality": 0.638846302713672
+  },
+  {
+    "mid": "/m/01lcwm",
+    "description": "luxury vehicle",
+    "score": 0.6178638339042664,
+    "topicality": 0.6178638339042664
+  },
+  {
+    "mid": "/m/05mqq3",
+    "description": "snout",
+    "score": 0.6027827262878418,
+    "topicality": 0.6027827262878418
+  }
+]

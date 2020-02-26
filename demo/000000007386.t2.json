@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.963193953037262,
-      "topicality": 0.963193953037262
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9010037183761597,
-      "topicality": 0.9010037183761597
-    },
-    {
-      "mid": "/m/01786t",
-      "description": "tricycle",
-      "score": 0.8471720814704895,
-      "topicality": 0.8471720814704895
-    },
-    {
-      "mid": "/m/0362v5",
-      "description": "chopper",
-      "score": 0.8103965520858765,
-      "topicality": 0.8103965520858765
-    },
-    {
-      "mid": "/m/04_sv",
-      "description": "motorcycle",
-      "score": 0.7179684638977051,
-      "topicality": 0.7179684638977051
-    },
-    {
-      "mid": "/m/0h9mv",
-      "description": "tire",
-      "score": 0.6583924293518066,
-      "topicality": 0.6583924293518066
-    },
-    {
-      "mid": "/m/083wq",
-      "description": "wheel",
-      "score": 0.6516416668891907,
-      "topicality": 0.6516416668891907
-    },
-    {
-      "mid": "/m/0h8pb3l",
-      "description": "automotive tire",
-      "score": 0.629613995552063,
-      "topicality": 0.629613995552063
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.6007809638977051,
-      "topicality": 0.6007809638977051
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.963193953037262,
+    "topicality": 0.963193953037262
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9010037183761597,
+    "topicality": 0.9010037183761597
+  },
+  {
+    "mid": "/m/01786t",
+    "description": "tricycle",
+    "score": 0.8471720814704895,
+    "topicality": 0.8471720814704895
+  },
+  {
+    "mid": "/m/0362v5",
+    "description": "chopper",
+    "score": 0.8103965520858765,
+    "topicality": 0.8103965520858765
+  },
+  {
+    "mid": "/m/04_sv",
+    "description": "motorcycle",
+    "score": 0.7179684638977051,
+    "topicality": 0.7179684638977051
+  },
+  {
+    "mid": "/m/0h9mv",
+    "description": "tire",
+    "score": 0.6583924293518066,
+    "topicality": 0.6583924293518066
+  },
+  {
+    "mid": "/m/083wq",
+    "description": "wheel",
+    "score": 0.6516416668891907,
+    "topicality": 0.6516416668891907
+  },
+  {
+    "mid": "/m/0h8pb3l",
+    "description": "automotive tire",
+    "score": 0.629613995552063,
+    "topicality": 0.629613995552063
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.6007809638977051,
+    "topicality": 0.6007809638977051
+  }
+]

@@ -1,58 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/035qhg",
-      "description": "fauna",
-      "score": 0.9415672421455383,
-      "topicality": 0.9415672421455383
-    },
-    {
-      "mid": "/m/0gv1x",
-      "description": "parrot",
-      "score": 0.9036786556243896,
-      "topicality": 0.9036786556243896
-    },
-    {
-      "mid": "/m/015p6",
-      "description": "bird",
-      "score": 0.8847805857658386,
-      "topicality": 0.8847805857658386
-    },
-    {
-      "mid": "/m/01c4rd",
-      "description": "beak",
-      "score": 0.8774551749229431,
-      "topicality": 0.8774551749229431
-    },
-    {
-      "mid": "/m/0jt59tb",
-      "description": "cockatoo",
-      "score": 0.8074672222137451,
-      "topicality": 0.8074672222137451
-    },
-    {
-      "mid": "/m/089v3",
-      "description": "zoo",
-      "score": 0.7408753633499146,
-      "topicality": 0.7408753633499146
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.668982207775116,
-      "topicality": 0.668982207775116
-    },
-    {
-      "mid": "/m/0gv35",
-      "description": "macaw",
-      "score": 0.5597562193870544,
-      "topicality": 0.5597562193870544
-    },
-    {
-      "mid": "/m/03fgtt",
-      "description": "sulphur crested cockatoo",
-      "score": 0.5155836343765259,
-      "topicality": 0.5155836343765259
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/035qhg",
+    "description": "fauna",
+    "score": 0.9415672421455383,
+    "topicality": 0.9415672421455383
+  },
+  {
+    "mid": "/m/0gv1x",
+    "description": "parrot",
+    "score": 0.9036786556243896,
+    "topicality": 0.9036786556243896
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.9006664178683588,
+    "topicality": 0.9006664178683588
+  },
+  {
+    "mid": "/m/015p6",
+    "description": "bird",
+    "score": 0.8847805857658386,
+    "topicality": 0.8847805857658386
+  },
+  {
+    "mid": "/m/01c4rd",
+    "description": "beak",
+    "score": 0.8774551749229431,
+    "topicality": 0.8774551749229431
+  },
+  {
+    "mid": "/m/0jt59tb",
+    "description": "cockatoo",
+    "score": 0.8074672222137451,
+    "topicality": 0.8074672222137451
+  },
+  {
+    "mid": "/m/089v3",
+    "description": "zoo",
+    "score": 0.7408753633499146,
+    "topicality": 0.7408753633499146
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.668982207775116,
+    "topicality": 0.668982207775116
+  },
+  {
+    "mid": "/m/0gv35",
+    "description": "macaw",
+    "score": 0.5597562193870544,
+    "topicality": 0.5597562193870544
+  },
+  {
+    "mid": "/m/03fgtt",
+    "description": "sulphur crested cockatoo",
+    "score": 0.5155836343765259,
+    "topicality": 0.5155836343765259
+  }
+]

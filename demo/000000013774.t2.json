@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9822792410850525,
-      "topicality": 0.9822792410850525
-    },
-    {
-      "mid": "/m/0d1n2",
-      "description": "horizon",
-      "score": 0.9757842421531677,
-      "topicality": 0.9757842421531677
-    },
-    {
-      "mid": "/m/01b2w5",
-      "description": "sunset",
-      "score": 0.9022021293640137,
-      "topicality": 0.9022021293640137
-    },
-    {
-      "mid": "/m/01b2q6",
-      "description": "sunrise",
-      "score": 0.8957619071006775,
-      "topicality": 0.8957619071006775
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.856974184513092,
-      "topicality": 0.856974184513092
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.8277208805084229,
-      "topicality": 0.8277208805084229
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.8073040843009949,
-      "topicality": 0.8073040843009949
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.7873555421829224,
-      "topicality": 0.7873555421829224
-    },
-    {
-      "mid": "/m/06m_p",
-      "description": "sun",
-      "score": 0.7854887843132019,
-      "topicality": 0.7854887843132019
-    },
-    {
-      "mid": "/m/026fm63",
-      "description": "calm",
-      "score": 0.7785761952400208,
-      "topicality": 0.7785761952400208
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9822792410850525,
+    "topicality": 0.9822792410850525
+  },
+  {
+    "mid": "/m/0d1n2",
+    "description": "horizon",
+    "score": 0.9757842421531677,
+    "topicality": 0.9757842421531677
+  },
+  {
+    "mid": "/m/01b2w5",
+    "description": "sunset",
+    "score": 0.9022021293640137,
+    "topicality": 0.9022021293640137
+  },
+  {
+    "mid": "/m/01b2q6",
+    "description": "sunrise",
+    "score": 0.8957619071006775,
+    "topicality": 0.8957619071006775
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.856974184513092,
+    "topicality": 0.856974184513092
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.8277208805084229,
+    "topicality": 0.8277208805084229
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.8073040843009949,
+    "topicality": 0.8073040843009949
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.7873555421829224,
+    "topicality": 0.7873555421829224
+  },
+  {
+    "mid": "/m/06m_p",
+    "description": "sun",
+    "score": 0.7854887843132019,
+    "topicality": 0.7854887843132019
+  },
+  {
+    "mid": "/m/026fm63",
+    "description": "calm",
+    "score": 0.7785761952400208,
+    "topicality": 0.7785761952400208
+  }
+]

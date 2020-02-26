@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/09g5pq",
-      "description": "people",
-      "score": 0.9433480501174927,
-      "topicality": 0.9433480501174927
-    },
-    {
-      "mid": "/m/01qls",
-      "description": "community",
-      "score": 0.8630163669586182,
-      "topicality": 0.8630163669586182
-    },
-    {
-      "mid": "/m/026t6",
-      "description": "drum",
-      "score": 0.8439753651618958,
-      "topicality": 0.8439753651618958
-    },
-    {
-      "mid": "/m/0ytgt",
-      "description": "child",
-      "score": 0.7543214559555054,
-      "topicality": 0.7543214559555054
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.7039424180984497,
-      "topicality": 0.7039424180984497
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.6880232691764832,
-      "topicality": 0.6880232691764832
-    },
-    {
-      "mid": "/m/011l78",
-      "description": "team",
-      "score": 0.6768946051597595,
-      "topicality": 0.6768946051597595
-    },
-    {
-      "mid": "/m/03r_vp",
-      "description": "adaptation",
-      "score": 0.6696612238883972,
-      "topicality": 0.6696612238883972
-    },
-    {
-      "mid": "/m/0l14md",
-      "description": "percussion",
-      "score": 0.6126418113708496,
-      "topicality": 0.6126418113708496
-    },
-    {
-      "mid": "/m/011_dp",
-      "description": "membranophone",
-      "score": 0.6047912240028381,
-      "topicality": 0.6047912240028381
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/09g5pq",
+    "description": "people",
+    "score": 0.9433480501174927,
+    "topicality": 0.9433480501174927
+  },
+  {
+    "mid": "/m/01qls",
+    "description": "community",
+    "score": 0.8630163669586182,
+    "topicality": 0.8630163669586182
+  },
+  {
+    "mid": "/m/026t6",
+    "description": "drum",
+    "score": 0.8439753651618958,
+    "topicality": 0.8439753651618958
+  },
+  {
+    "mid": "/m/0ytgt",
+    "description": "child",
+    "score": 0.7543214559555054,
+    "topicality": 0.7543214559555054
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.7039424180984497,
+    "topicality": 0.7039424180984497
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.6880232691764832,
+    "topicality": 0.6880232691764832
+  },
+  {
+    "mid": "/m/011l78",
+    "description": "team",
+    "score": 0.6768946051597595,
+    "topicality": 0.6768946051597595
+  },
+  {
+    "mid": "/m/03r_vp",
+    "description": "adaptation",
+    "score": 0.6696612238883972,
+    "topicality": 0.6696612238883972
+  },
+  {
+    "mid": "/m/0l14md",
+    "description": "percussion",
+    "score": 0.6126418113708496,
+    "topicality": 0.6126418113708496
+  },
+  {
+    "mid": "/m/011_dp",
+    "description": "membranophone",
+    "score": 0.6047912240028381,
+    "topicality": 0.6047912240028381
+  }
+]

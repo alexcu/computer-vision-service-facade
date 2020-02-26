@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/083jv",
-      "description": "white",
-      "score": 0.9547066688537598,
-      "topicality": 0.9547066688537598
-    },
-    {
-      "mid": "/m/019sc",
-      "description": "black",
-      "score": 0.9449019432067871,
-      "topicality": 0.9449019432067871
-    },
-    {
-      "mid": "/m/01mwkf",
-      "description": "monochrome",
-      "score": 0.8748961687088013,
-      "topicality": 0.8748961687088013
-    },
-    {
-      "mid": "/m/01g6gs",
-      "description": "black-and-white",
-      "score": 0.8717613220214844,
-      "topicality": 0.8717613220214844
-    },
-    {
-      "mid": "/m/033rq4",
-      "description": "street light",
-      "score": 0.7866294384002686,
-      "topicality": 0.7866294384002686
-    },
-    {
-      "mid": "/m/03d49p1",
-      "description": "monochrome photography",
-      "score": 0.7622230648994446,
-      "topicality": 0.7622230648994446
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6242249608039856,
-      "topicality": 0.6242249608039856
-    },
-    {
-      "mid": "/m/08jpwt",
-      "description": "light fixture",
-      "score": 0.6237260103225708,
-      "topicality": 0.6237260103225708
-    },
-    {
-      "mid": "/m/0dtln",
-      "description": "lamp",
-      "score": 0.5913633108139038,
-      "topicality": 0.5913633108139038
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/083jv",
+    "description": "white",
+    "score": 0.9547066688537598,
+    "topicality": 0.9547066688537598
+  },
+  {
+    "mid": "/m/019sc",
+    "description": "black",
+    "score": 0.9449019432067871,
+    "topicality": 0.9449019432067871
+  },
+  {
+    "mid": "/m/01mwkf",
+    "description": "monochrome",
+    "score": 0.8748961687088013,
+    "topicality": 0.8748961687088013
+  },
+  {
+    "mid": "/m/01g6gs",
+    "description": "black-and-white",
+    "score": 0.8717613220214844,
+    "topicality": 0.8717613220214844
+  },
+  {
+    "mid": "/m/033rq4",
+    "description": "street light",
+    "score": 0.7866294384002686,
+    "topicality": 0.7866294384002686
+  },
+  {
+    "mid": "/m/03d49p1",
+    "description": "monochrome photography",
+    "score": 0.7622230648994446,
+    "topicality": 0.7622230648994446
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6242249608039856,
+    "topicality": 0.6242249608039856
+  },
+  {
+    "mid": "/m/08jpwt",
+    "description": "light fixture",
+    "score": 0.6237260103225708,
+    "topicality": 0.6237260103225708
+  },
+  {
+    "mid": "/m/0dtln",
+    "description": "lamp",
+    "score": 0.5913633108139038,
+    "topicality": 0.5913633108139038
+  }
+]

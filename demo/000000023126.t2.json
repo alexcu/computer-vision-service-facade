@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03k3r",
-      "description": "horse",
-      "score": 0.9863802790641785,
-      "topicality": 0.9863802790641785
-    },
-    {
-      "mid": "/m/083jv",
-      "description": "white",
-      "score": 0.9654507637023926,
-      "topicality": 0.9654507637023926
-    },
-    {
-      "mid": "/m/019sc",
-      "description": "black",
-      "score": 0.9620810151100159,
-      "topicality": 0.9620810151100159
-    },
-    {
-      "mid": "/m/01g6gs",
-      "description": "black-and-white",
-      "score": 0.930566668510437,
-      "topicality": 0.930566668510437
-    },
-    {
-      "mid": "/m/07hgcp",
-      "description": "rein",
-      "score": 0.9287241101264954,
-      "topicality": 0.9287241101264954
-    },
-    {
-      "mid": "/m/04jkpd",
-      "description": "bridle",
-      "score": 0.9185386300086975,
-      "topicality": 0.9185386300086975
-    },
-    {
-      "mid": "/m/03d49p1",
-      "description": "monochrome photography",
-      "score": 0.9142610430717468,
-      "topicality": 0.9142610430717468
-    },
-    {
-      "mid": "/m/01mwkf",
-      "description": "monochrome",
-      "score": 0.8924214839935303,
-      "topicality": 0.8924214839935303
-    },
-    {
-      "mid": "/m/0fy9p2",
-      "description": "mane",
-      "score": 0.8278260231018066,
-      "topicality": 0.8278260231018066
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.7968425750732422,
-      "topicality": 0.7968425750732422
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03k3r",
+    "description": "horse",
+    "score": 0.9863802790641785,
+    "topicality": 0.9863802790641785
+  },
+  {
+    "mid": "/m/083jv",
+    "description": "white",
+    "score": 0.9654507637023926,
+    "topicality": 0.9654507637023926
+  },
+  {
+    "mid": "/m/019sc",
+    "description": "black",
+    "score": 0.9620810151100159,
+    "topicality": 0.9620810151100159
+  },
+  {
+    "mid": "/m/01g6gs",
+    "description": "black-and-white",
+    "score": 0.930566668510437,
+    "topicality": 0.930566668510437
+  },
+  {
+    "mid": "/m/07hgcp",
+    "description": "rein",
+    "score": 0.9287241101264954,
+    "topicality": 0.9287241101264954
+  },
+  {
+    "mid": "/m/04jkpd",
+    "description": "bridle",
+    "score": 0.9185386300086975,
+    "topicality": 0.9185386300086975
+  },
+  {
+    "mid": "/m/03d49p1",
+    "description": "monochrome photography",
+    "score": 0.9142610430717468,
+    "topicality": 0.9142610430717468
+  },
+  {
+    "mid": "/m/01mwkf",
+    "description": "monochrome",
+    "score": 0.8924214839935303,
+    "topicality": 0.8924214839935303
+  },
+  {
+    "mid": "/m/0fy9p2",
+    "description": "mane",
+    "score": 0.8278260231018066,
+    "topicality": 0.8278260231018066
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.7968425750732422,
+    "topicality": 0.7968425750732422
+  }
+]

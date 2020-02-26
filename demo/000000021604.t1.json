@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0hg7b",
-      "description": "microphone",
-      "score": 0.8577890992164612,
-      "topicality": 0.8577890992164612
-    },
-    {
-      "mid": "/m/019p5q",
-      "description": "gentleman",
-      "score": 0.8327256441116333,
-      "topicality": 0.8327256441116333
-    },
-    {
-      "mid": "/m/01xyhv",
-      "description": "suit",
-      "score": 0.8000295162200928,
-      "topicality": 0.8000295162200928
-    },
-    {
-      "mid": "/m/0h8jxfl",
-      "description": "vision care",
-      "score": 0.7241655588150024,
-      "topicality": 0.7241655588150024
-    },
-    {
-      "mid": "/m/0ds5b",
-      "description": "facial hair",
-      "score": 0.714188277721405,
-      "topicality": 0.714188277721405
-    },
-    {
-      "mid": "/m/0jyfg",
-      "description": "glasses",
-      "score": 0.6849713325500488,
-      "topicality": 0.6849713325500488
-    },
-    {
-      "mid": "/m/02w3_2",
-      "description": "formal wear",
-      "score": 0.6804424524307251,
-      "topicality": 0.6804424524307251
-    },
-    {
-      "mid": "/m/01rkbr",
-      "description": "necktie",
-      "score": 0.6328840255737305,
-      "topicality": 0.6328840255737305
-    },
-    {
-      "mid": "/m/0h91fqv",
-      "description": "audio",
-      "score": 0.5534374713897705,
-      "topicality": 0.5534374713897705
-    },
-    {
-      "mid": "/m/01yttv",
-      "description": "audio equipment",
-      "score": 0.5073174238204956,
-      "topicality": 0.5073174238204956
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0hg7b",
+    "description": "microphone",
+    "score": 0.8577890992164612,
+    "topicality": 0.8577890992164612
+  },
+  {
+    "mid": "/m/019p5q",
+    "description": "gentleman",
+    "score": 0.8327256441116333,
+    "topicality": 0.8327256441116333
+  },
+  {
+    "mid": "/m/01xyhv",
+    "description": "suit",
+    "score": 0.8000295162200928,
+    "topicality": 0.8000295162200928
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.7366885475570539,
+    "topicality": 0.7366885475570539
+  },
+  {
+    "mid": "/m/0h8jxfl",
+    "description": "vision care",
+    "score": 0.7241655588150024,
+    "topicality": 0.7241655588150024
+  },
+  {
+    "mid": "/m/0ds5b",
+    "description": "facial hair",
+    "score": 0.714188277721405,
+    "topicality": 0.714188277721405
+  },
+  {
+    "mid": "/m/0jyfg",
+    "description": "glasses",
+    "score": 0.6849713325500488,
+    "topicality": 0.6849713325500488
+  },
+  {
+    "mid": "/m/02w3_2",
+    "description": "formal wear",
+    "score": 0.6804424524307251,
+    "topicality": 0.6804424524307251
+  },
+  {
+    "mid": "/m/01rkbr",
+    "description": "necktie",
+    "score": 0.6328840255737305,
+    "topicality": 0.6328840255737305
+  },
+  {
+    "mid": "/m/0h91fqv",
+    "description": "audio",
+    "score": 0.5534374713897705,
+    "topicality": 0.5534374713897705
+  },
+  {
+    "mid": "/m/01yttv",
+    "description": "audio equipment",
+    "score": 0.5073174238204956,
+    "topicality": 0.5073174238204956
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.84142005443573,
-      "topicality": 0.84142005443573
-    },
-    {
-      "mid": "/m/036hv",
-      "description": "geology",
-      "score": 0.7884581089019775,
-      "topicality": 0.7884581089019775
-    },
-    {
-      "mid": "/m/07sn5gn",
-      "description": "geological phenomenon",
-      "score": 0.7866460084915161,
-      "topicality": 0.7866460084915161
-    },
-    {
-      "mid": "/m/03k5cs",
-      "description": "formation",
-      "score": 0.7483794093132019,
-      "topicality": 0.7483794093132019
-    },
-    {
-      "mid": "/m/09dv7",
-      "description": "soil",
-      "score": 0.7472162842750549,
-      "topicality": 0.7472162842750549
-    },
-    {
-      "mid": "/m/0kh8w",
-      "description": "canyon",
-      "score": 0.7290043830871582,
-      "topicality": 0.7290043830871582
-    },
-    {
-      "mid": "/m/025tn5c",
-      "description": "terrain",
-      "score": 0.7248231768608093,
-      "topicality": 0.7248231768608093
-    },
-    {
-      "mid": "/m/099fz",
-      "description": "sand",
-      "score": 0.690204918384552,
-      "topicality": 0.690204918384552
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.6896170377731323,
-      "topicality": 0.6896170377731323
-    },
-    {
-      "mid": "/m/01jnvt",
-      "description": "badlands",
-      "score": 0.6330248117446899,
-      "topicality": 0.6330248117446899
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.84142005443573,
+    "topicality": 0.84142005443573
+  },
+  {
+    "mid": "/m/036hv",
+    "description": "geology",
+    "score": 0.7884581089019775,
+    "topicality": 0.7884581089019775
+  },
+  {
+    "mid": "/m/07sn5gn",
+    "description": "geological phenomenon",
+    "score": 0.7866460084915161,
+    "topicality": 0.7866460084915161
+  },
+  {
+    "mid": "/m/03k5cs",
+    "description": "formation",
+    "score": 0.7483794093132019,
+    "topicality": 0.7483794093132019
+  },
+  {
+    "mid": "/m/09dv7",
+    "description": "soil",
+    "score": 0.7472162842750549,
+    "topicality": 0.7472162842750549
+  },
+  {
+    "mid": "/m/0kh8w",
+    "description": "canyon",
+    "score": 0.7290043830871582,
+    "topicality": 0.7290043830871582
+  },
+  {
+    "mid": "/m/025tn5c",
+    "description": "terrain",
+    "score": 0.7248231768608093,
+    "topicality": 0.7248231768608093
+  },
+  {
+    "mid": "/m/099fz",
+    "description": "sand",
+    "score": 0.690204918384552,
+    "topicality": 0.690204918384552
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.6896170377731323,
+    "topicality": 0.6896170377731323
+  },
+  {
+    "mid": "/m/01jnvt",
+    "description": "badlands",
+    "score": 0.6330248117446899,
+    "topicality": 0.6330248117446899
+  }
+]

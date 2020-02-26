@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/09qqq",
-      "description": "wall",
-      "score": 0.910028874874115,
-      "topicality": 0.910028874874115
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9093363285064697,
-      "topicality": 0.9093363285064697
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.8932986259460449,
-      "topicality": 0.8932986259460449
-    },
-    {
-      "mid": "/m/01g0g",
-      "description": "brick",
-      "score": 0.8237412571907043,
-      "topicality": 0.8237412571907043
-    },
-    {
-      "mid": "/m/01__sk",
-      "description": "brickwork",
-      "score": 0.7678806185722351,
-      "topicality": 0.7678806185722351
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.7666565775871277,
-      "topicality": 0.7666565775871277
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.7326111197471619,
-      "topicality": 0.7326111197471619
-    },
-    {
-      "mid": "/m/0457gc6",
-      "description": "material property",
-      "score": 0.6991998553276062,
-      "topicality": 0.6991998553276062
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.6907426118850708,
-      "topicality": 0.6907426118850708
-    },
-    {
-      "mid": "/m/01d74z",
-      "description": "night",
-      "score": 0.6044018268585205,
-      "topicality": 0.6044018268585205
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/09qqq",
+    "description": "wall",
+    "score": 0.910028874874115,
+    "topicality": 0.910028874874115
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9093363285064697,
+    "topicality": 0.9093363285064697
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.8932986259460449,
+    "topicality": 0.8932986259460449
+  },
+  {
+    "mid": "/m/01g0g",
+    "description": "brick",
+    "score": 0.8237412571907043,
+    "topicality": 0.8237412571907043
+  },
+  {
+    "mid": "/m/01__sk",
+    "description": "brickwork",
+    "score": 0.7678806185722351,
+    "topicality": 0.7678806185722351
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.7666565775871277,
+    "topicality": 0.7666565775871277
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.7326111197471619,
+    "topicality": 0.7326111197471619
+  },
+  {
+    "mid": "/m/0457gc6",
+    "description": "material property",
+    "score": 0.6991998553276062,
+    "topicality": 0.6991998553276062
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.6907426118850708,
+    "topicality": 0.6907426118850708
+  },
+  {
+    "mid": "/m/01d74z",
+    "description": "night",
+    "score": 0.6044018268585205,
+    "topicality": 0.6044018268585205
+  }
+]

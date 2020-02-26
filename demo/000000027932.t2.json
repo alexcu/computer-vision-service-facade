@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0zvk5",
-      "description": "helmet",
-      "score": 0.9832026362419128,
-      "topicality": 0.9832026362419128
-    },
-    {
-      "mid": "/m/0n49352",
-      "description": "sports gear",
-      "score": 0.969748318195343,
-      "topicality": 0.969748318195343
-    },
-    {
-      "mid": "/m/0ffjr",
-      "description": "personal protective equipment",
-      "score": 0.9152205586433411,
-      "topicality": 0.9152205586433411
-    },
-    {
-      "mid": "/m/02d46y",
-      "description": "cap",
-      "score": 0.8860428929328918,
-      "topicality": 0.8860428929328918
-    },
-    {
-      "mid": "/m/027xyl",
-      "description": "baseball cap",
-      "score": 0.7765953540802002,
-      "topicality": 0.7765953540802002
-    },
-    {
-      "mid": "/m/01443y",
-      "description": "headgear",
-      "score": 0.7638959288597107,
-      "topicality": 0.7638959288597107
-    },
-    {
-      "mid": "/m/07pdzb4",
-      "description": "baseball equipment",
-      "score": 0.7542019486427307,
-      "topicality": 0.7542019486427307
-    },
-    {
-      "mid": "/m/0174n1",
-      "description": "glove",
-      "score": 0.7134978771209717,
-      "topicality": 0.7134978771209717
-    },
-    {
-      "mid": "/m/01bb9b",
-      "description": "motorcycle helmet",
-      "score": 0.7014046907424927,
-      "topicality": 0.7014046907424927
-    },
-    {
-      "mid": "/m/0463sg",
-      "description": "fashion accessory",
-      "score": 0.6797813773155212,
-      "topicality": 0.6797813773155212
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0zvk5",
+    "description": "helmet",
+    "score": 0.9832026362419128,
+    "topicality": 0.9832026362419128
+  },
+  {
+    "mid": "/m/0n49352",
+    "description": "sports gear",
+    "score": 0.969748318195343,
+    "topicality": 0.969748318195343
+  },
+  {
+    "mid": "/m/0ffjr",
+    "description": "personal protective equipment",
+    "score": 0.9152205586433411,
+    "topicality": 0.9152205586433411
+  },
+  {
+    "mid": "/m/02d46y",
+    "description": "cap",
+    "score": 0.8860428929328918,
+    "topicality": 0.8860428929328918
+  },
+  {
+    "mid": "/m/027xyl",
+    "description": "baseball cap",
+    "score": 0.7765953540802002,
+    "topicality": 0.7765953540802002
+  },
+  {
+    "mid": "/m/01443y",
+    "description": "headgear",
+    "score": 0.7638959288597107,
+    "topicality": 0.7638959288597107
+  },
+  {
+    "mid": "/m/07pdzb4",
+    "description": "baseball equipment",
+    "score": 0.7542019486427307,
+    "topicality": 0.7542019486427307
+  },
+  {
+    "mid": "/m/0174n1",
+    "description": "glove",
+    "score": 0.7134978771209717,
+    "topicality": 0.7134978771209717
+  },
+  {
+    "mid": "/m/01bb9b",
+    "description": "motorcycle helmet",
+    "score": 0.7014046907424927,
+    "topicality": 0.7014046907424927
+  },
+  {
+    "mid": "/m/0463sg",
+    "description": "fashion accessory",
+    "score": 0.6797813773155212,
+    "topicality": 0.6797813773155212
+  }
+]

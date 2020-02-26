@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.6119579672813416,
-      "topicality": 0.6119579672813416
-    },
-    {
-      "mid": "/m/01lhf",
-      "description": "communication",
-      "score": 0.5945454835891724,
-      "topicality": 0.5945454835891724
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.5874203443527222,
-      "topicality": 0.5874203443527222
-    },
-    {
-      "mid": "/m/01h8n0",
-      "description": "conversation",
-      "score": 0.5170301198959351,
-      "topicality": 0.5170301198959351
-    },
-    {
-      "mid": "/m/04rlf",
-      "description": "music",
-      "score": 0.5153679251670837,
-      "topicality": 0.5153679251670837
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.6119579672813416,
+    "topicality": 0.6119579672813416
+  },
+  {
+    "mid": "/m/01lhf",
+    "description": "communication",
+    "score": 0.5945454835891724,
+    "topicality": 0.5945454835891724
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.5874203443527222,
+    "topicality": 0.5874203443527222
+  },
+  {
+    "mid": "/m/01h8n0",
+    "description": "conversation",
+    "score": 0.5170301198959351,
+    "topicality": 0.5170301198959351
+  },
+  {
+    "mid": "/m/04rlf",
+    "description": "music",
+    "score": 0.5153679251670837,
+    "topicality": 0.5153679251670837
+  }
+]

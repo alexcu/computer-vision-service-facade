@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03htg",
-      "description": "harbor",
-      "score": 0.9514877200126648,
-      "topicality": 0.9514877200126648
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9461051225662231,
-      "topicality": 0.9461051225662231
-    },
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.9397494196891785,
-      "topicality": 0.9397494196891785
-    },
-    {
-      "mid": "/m/01cs_p",
-      "description": "marina",
-      "score": 0.9385690093040466,
-      "topicality": 0.9385690093040466
-    },
-    {
-      "mid": "/m/03ktm1",
-      "description": "body of water",
-      "score": 0.934508740901947,
-      "topicality": 0.934508740901947
-    },
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.8743234872817993,
-      "topicality": 0.8743234872817993
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8532969355583191,
-      "topicality": 0.8532969355583191
-    },
-    {
-      "mid": "/m/03218s",
-      "description": "dock",
-      "score": 0.8084802627563477,
-      "topicality": 0.8084802627563477
-    },
-    {
-      "mid": "/m/02q13x7",
-      "description": "fishing vessel",
-      "score": 0.7987945079803467,
-      "topicality": 0.7987945079803467
-    },
-    {
-      "mid": "/m/03m4wn",
-      "description": "boating",
-      "score": 0.7933604717254639,
-      "topicality": 0.7933604717254639
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03htg",
+    "description": "harbor",
+    "score": 0.9514877200126648,
+    "topicality": 0.9514877200126648
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9461051225662231,
+    "topicality": 0.9461051225662231
+  },
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.9397494196891785,
+    "topicality": 0.9397494196891785
+  },
+  {
+    "mid": "/m/01cs_p",
+    "description": "marina",
+    "score": 0.9385690093040466,
+    "topicality": 0.9385690093040466
+  },
+  {
+    "mid": "/m/03ktm1",
+    "description": "body of water",
+    "score": 0.934508740901947,
+    "topicality": 0.934508740901947
+  },
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.8743234872817993,
+    "topicality": 0.8743234872817993
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8532969355583191,
+    "topicality": 0.8532969355583191
+  },
+  {
+    "mid": "/m/03218s",
+    "description": "dock",
+    "score": 0.8084802627563477,
+    "topicality": 0.8084802627563477
+  },
+  {
+    "mid": "/m/02q13x7",
+    "description": "fishing vessel",
+    "score": 0.7987945079803467,
+    "topicality": 0.7987945079803467
+  },
+  {
+    "mid": "/m/03m4wn",
+    "description": "boating",
+    "score": 0.7933604717254639,
+    "topicality": 0.7933604717254639
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "vehicle",
+    "score": 0.6267143174041239,
+    "topicality": 0.6267143174041239
+  }
+]

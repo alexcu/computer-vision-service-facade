@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9337177872657776,
-      "topicality": 0.9337177872657776
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8672521114349365,
-      "topicality": 0.8672521114349365
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.837279200553894,
-      "topicality": 0.837279200553894
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.7436434626579285,
-      "topicality": 0.7436434626579285
-    },
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.6250683069229126,
-      "topicality": 0.6250683069229126
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.6214529275894165,
-      "topicality": 0.6214529275894165
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.5928719639778137,
-      "topicality": 0.5928719639778137
-    },
-    {
-      "mid": "/m/0dvh9",
-      "description": "classical architecture",
-      "score": 0.5491619110107422,
-      "topicality": 0.5491619110107422
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9337177872657776,
+    "topicality": 0.9337177872657776
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8672521114349365,
+    "topicality": 0.8672521114349365
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.837279200553894,
+    "topicality": 0.837279200553894
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.7436434626579285,
+    "topicality": 0.7436434626579285
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.6250683069229126,
+    "topicality": 0.6250683069229126
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.6214529275894165,
+    "topicality": 0.6214529275894165
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.5928719639778137,
+    "topicality": 0.5928719639778137
+  },
+  {
+    "mid": "/m/0dvh9",
+    "description": "classical architecture",
+    "score": 0.5491619110107422,
+    "topicality": 0.5491619110107422
+  }
+]

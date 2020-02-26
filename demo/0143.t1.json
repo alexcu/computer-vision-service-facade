@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.94297856092453,
-      "topicality": 0.94297856092453
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.8870575428009033,
-      "topicality": 0.8870575428009033
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.8836225271224976,
-      "topicality": 0.8836225271224976
-    },
-    {
-      "mid": "/m/0j6m2",
-      "description": "stream",
-      "score": 0.8751580715179443,
-      "topicality": 0.8751580715179443
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8746838569641113,
-      "topicality": 0.8746838569641113
-    },
-    {
-      "mid": "/m/0hnc1",
-      "description": "woodland",
-      "score": 0.8020720481872559,
-      "topicality": 0.8020720481872559
-    },
-    {
-      "mid": "/m/02zh30",
-      "description": "path",
-      "score": 0.8010481595993042,
-      "topicality": 0.8010481595993042
-    },
-    {
-      "mid": "/m/03ybsm",
-      "description": "creek",
-      "score": 0.798508882522583,
-      "topicality": 0.798508882522583
-    },
-    {
-      "mid": "/m/02zr8",
-      "description": "forest",
-      "score": 0.7709859013557434,
-      "topicality": 0.7709859013557434
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.7321663498878479,
-      "topicality": 0.7321663498878479
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.94297856092453,
+    "topicality": 0.94297856092453
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.8870575428009033,
+    "topicality": 0.8870575428009033
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.8836225271224976,
+    "topicality": 0.8836225271224976
+  },
+  {
+    "mid": "/m/0j6m2",
+    "description": "stream",
+    "score": 0.8751580715179443,
+    "topicality": 0.8751580715179443
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8746838569641113,
+    "topicality": 0.8746838569641113
+  },
+  {
+    "mid": "/m/0hnc1",
+    "description": "woodland",
+    "score": 0.8020720481872559,
+    "topicality": 0.8020720481872559
+  },
+  {
+    "mid": "/m/02zh30",
+    "description": "path",
+    "score": 0.8010481595993042,
+    "topicality": 0.8010481595993042
+  },
+  {
+    "mid": "/m/03ybsm",
+    "description": "creek",
+    "score": 0.798508882522583,
+    "topicality": 0.798508882522583
+  },
+  {
+    "mid": "/m/02zr8",
+    "description": "forest",
+    "score": 0.7709859013557434,
+    "topicality": 0.7709859013557434
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.7321663498878479,
+    "topicality": 0.7321663498878479
+  }
+]

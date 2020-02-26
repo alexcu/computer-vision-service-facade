@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.8951561450958252,
-      "topicality": 0.8951561450958252
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8402379751205444,
-      "topicality": 0.8402379751205444
-    },
-    {
-      "mid": "/m/09qqq",
-      "description": "wall",
-      "score": 0.8095976114273071,
-      "topicality": 0.8095976114273071
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8006661534309387,
-      "topicality": 0.8006661534309387
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.7676041722297668,
-      "topicality": 0.7676041722297668
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.6273587942123413,
-      "topicality": 0.6273587942123413
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.6175698637962341,
-      "topicality": 0.6175698637962341
-    },
-    {
-      "mid": "/m/01g0g",
-      "description": "brick",
-      "score": 0.6095669269561768,
-      "topicality": 0.6095669269561768
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.6041590571403503,
-      "topicality": 0.6041590571403503
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.8951561450958252,
+    "topicality": 0.8951561450958252
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8402379751205444,
+    "topicality": 0.8402379751205444
+  },
+  {
+    "mid": "/m/09qqq",
+    "description": "wall",
+    "score": 0.8095976114273071,
+    "topicality": 0.8095976114273071
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8006661534309387,
+    "topicality": 0.8006661534309387
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.7676041722297668,
+    "topicality": 0.7676041722297668
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.6273587942123413,
+    "topicality": 0.6273587942123413
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.6175698637962341,
+    "topicality": 0.6175698637962341
+  },
+  {
+    "mid": "/m/01g0g",
+    "description": "brick",
+    "score": 0.6095669269561768,
+    "topicality": 0.6095669269561768
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.6041590571403503,
+    "topicality": 0.6041590571403503
+  }
+]

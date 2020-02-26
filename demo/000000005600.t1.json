@@ -1,22 +1,20 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.8196548819541931,
-      "topicality": 0.8196548819541931
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.8029755353927612,
-      "topicality": 0.8029755353927612
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.7932040691375732,
-      "topicality": 0.7932040691375732
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.8196548819541931,
+    "topicality": 0.8196548819541931
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.8029755353927612,
+    "topicality": 0.8029755353927612
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.7932040691375732,
+    "topicality": 0.7932040691375732
+  }
+]

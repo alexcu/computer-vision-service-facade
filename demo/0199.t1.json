@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bkqqh",
-      "description": "signage",
-      "score": 0.6794344186782837,
-      "topicality": 0.6794344186782837
-    },
-    {
-      "mid": "/m/011s0",
-      "description": "advertising",
-      "score": 0.6784834861755371,
-      "topicality": 0.6784834861755371
-    },
-    {
-      "mid": "/m/06zsq",
-      "description": "sign",
-      "score": 0.6150121688842773,
-      "topicality": 0.6150121688842773
-    },
-    {
-      "mid": "/m/03gq5hm",
-      "description": "font",
-      "score": 0.6148687601089478,
-      "topicality": 0.6148687601089478
-    },
-    {
-      "mid": "/m/01cd9",
-      "description": "brand",
-      "score": 0.5067874193191528,
-      "topicality": 0.5067874193191528
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bkqqh",
+    "description": "signage",
+    "score": 0.6794344186782837,
+    "topicality": 0.6794344186782837
+  },
+  {
+    "mid": "/m/011s0",
+    "description": "advertising",
+    "score": 0.6784834861755371,
+    "topicality": 0.6784834861755371
+  },
+  {
+    "mid": "/m/06zsq",
+    "description": "sign",
+    "score": 0.6150121688842773,
+    "topicality": 0.6150121688842773
+  },
+  {
+    "mid": "/m/03gq5hm",
+    "description": "font",
+    "score": 0.6148687601089478,
+    "topicality": 0.6148687601089478
+  },
+  {
+    "mid": "/m/01cd9",
+    "description": "brand",
+    "score": 0.5067874193191528,
+    "topicality": 0.5067874193191528
+  }
+]

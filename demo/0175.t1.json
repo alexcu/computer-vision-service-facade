@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.9445265531539917,
-      "topicality": 0.9445265531539917
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.9339903593063354,
-      "topicality": 0.9339903593063354
-    },
-    {
-      "mid": "/m/0fkrk",
-      "description": "grass family",
-      "score": 0.8367556929588318,
-      "topicality": 0.8367556929588318
-    },
-    {
-      "mid": "/m/03bmqb",
-      "description": "flora",
-      "score": 0.835024356842041,
-      "topicality": 0.835024356842041
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.77152419090271,
-      "topicality": 0.77152419090271
-    },
-    {
-      "mid": "/m/01v327",
-      "description": "lawn",
-      "score": 0.7065346240997314,
-      "topicality": 0.7065346240997314
-    },
-    {
-      "mid": "/m/06600f2",
-      "description": "plant community",
-      "score": 0.5992710590362549,
-      "topicality": 0.5992710590362549
-    },
-    {
-      "mid": "/m/049_3v",
-      "description": "yard",
-      "score": 0.5984158515930176,
-      "topicality": 0.5984158515930176
-    },
-    {
-      "mid": "/m/06w1j5",
-      "description": "shrubland",
-      "score": 0.5767799019813538,
-      "topicality": 0.5767799019813538
-    },
-    {
-      "mid": "/m/025st_8",
-      "description": "meadow",
-      "score": 0.5408862829208374,
-      "topicality": 0.5408862829208374
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.9445265531539917,
+    "topicality": 0.9445265531539917
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.9339903593063354,
+    "topicality": 0.9339903593063354
+  },
+  {
+    "mid": "/m/0fkrk",
+    "description": "grass family",
+    "score": 0.8367556929588318,
+    "topicality": 0.8367556929588318
+  },
+  {
+    "mid": "/m/03bmqb",
+    "description": "flora",
+    "score": 0.835024356842041,
+    "topicality": 0.835024356842041
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.77152419090271,
+    "topicality": 0.77152419090271
+  },
+  {
+    "mid": "/m/01v327",
+    "description": "lawn",
+    "score": 0.7065346240997314,
+    "topicality": 0.7065346240997314
+  },
+  {
+    "mid": "/m/06600f2",
+    "description": "plant community",
+    "score": 0.5992710590362549,
+    "topicality": 0.5992710590362549
+  },
+  {
+    "mid": "/m/049_3v",
+    "description": "yard",
+    "score": 0.5984158515930176,
+    "topicality": 0.5984158515930176
+  },
+  {
+    "mid": "/m/06w1j5",
+    "description": "shrubland",
+    "score": 0.5767799019813538,
+    "topicality": 0.5767799019813538
+  },
+  {
+    "mid": "/m/025st_8",
+    "description": "meadow",
+    "score": 0.5408862829208374,
+    "topicality": 0.5408862829208374
+  }
+]

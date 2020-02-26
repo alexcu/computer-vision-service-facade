@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05qdh",
-      "description": "painting",
-      "score": 0.7603292465209961,
-      "topicality": 0.7603292465209961
-    },
-    {
-      "mid": "/m/03k5cs",
-      "description": "formation",
-      "score": 0.7244125008583069,
-      "topicality": 0.7244125008583069
-    },
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.6897883415222168,
-      "topicality": 0.6897883415222168
-    },
-    {
-      "mid": "/m/036hv",
-      "description": "geology",
-      "score": 0.6553133130073547,
-      "topicality": 0.6553133130073547
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05qdh",
+    "description": "painting",
+    "score": 0.7603292465209961,
+    "topicality": 0.7603292465209961
+  },
+  {
+    "mid": "/m/03k5cs",
+    "description": "formation",
+    "score": 0.7244125008583069,
+    "topicality": 0.7244125008583069
+  },
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.6897883415222168,
+    "topicality": 0.6897883415222168
+  },
+  {
+    "mid": "/m/036hv",
+    "description": "geology",
+    "score": 0.6553133130073547,
+    "topicality": 0.6553133130073547
+  }
+]

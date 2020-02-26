@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9388793110847473,
-      "topicality": 0.9388793110847473
-    },
-    {
-      "mid": "/m/07sn5gn",
-      "description": "geological phenomenon",
-      "score": 0.9266952872276306,
-      "topicality": 0.9266952872276306
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.9209389090538025,
-      "topicality": 0.9209389090538025
-    },
-    {
-      "mid": "/m/099fz",
-      "description": "sand",
-      "score": 0.9159864187240601,
-      "topicality": 0.9159864187240601
-    },
-    {
-      "mid": "/m/01w5c_",
-      "description": "aerial photography",
-      "score": 0.834479808807373,
-      "topicality": 0.834479808807373
-    },
-    {
-      "mid": "/m/01lxd",
-      "description": "coast",
-      "score": 0.7609717845916748,
-      "topicality": 0.7609717845916748
-    },
-    {
-      "mid": "/m/02fm9k",
-      "description": "shore",
-      "score": 0.7317634224891663,
-      "topicality": 0.7317634224891663
-    },
-    {
-      "mid": "/m/036hv",
-      "description": "geology",
-      "score": 0.7192013263702393,
-      "topicality": 0.7192013263702393
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6869218349456787,
-      "topicality": 0.6869218349456787
-    },
-    {
-      "mid": "/m/05wkw",
-      "description": "photography",
-      "score": 0.6778864860534668,
-      "topicality": 0.6778864860534668
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9388793110847473,
+    "topicality": 0.9388793110847473
+  },
+  {
+    "mid": "/m/07sn5gn",
+    "description": "geological phenomenon",
+    "score": 0.9266952872276306,
+    "topicality": 0.9266952872276306
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.9209389090538025,
+    "topicality": 0.9209389090538025
+  },
+  {
+    "mid": "/m/099fz",
+    "description": "sand",
+    "score": 0.9159864187240601,
+    "topicality": 0.9159864187240601
+  },
+  {
+    "mid": "/m/01w5c_",
+    "description": "aerial photography",
+    "score": 0.834479808807373,
+    "topicality": 0.834479808807373
+  },
+  {
+    "mid": "/m/01lxd",
+    "description": "coast",
+    "score": 0.7609717845916748,
+    "topicality": 0.7609717845916748
+  },
+  {
+    "mid": "/m/02fm9k",
+    "description": "shore",
+    "score": 0.7317634224891663,
+    "topicality": 0.7317634224891663
+  },
+  {
+    "mid": "/m/036hv",
+    "description": "geology",
+    "score": 0.7192013263702393,
+    "topicality": 0.7192013263702393
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6869218349456787,
+    "topicality": 0.6869218349456787
+  },
+  {
+    "mid": "/m/05wkw",
+    "description": "photography",
+    "score": 0.6778864860534668,
+    "topicality": 0.6778864860534668
+  }
+]

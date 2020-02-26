@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01j2bj",
-      "description": "bathroom",
-      "score": 0.919465184211731,
-      "topicality": 0.919465184211731
-    },
-    {
-      "mid": "/m/09g1w",
-      "description": "toilet",
-      "score": 0.8807716369628906,
-      "topicality": 0.8807716369628906
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.791129469871521,
-      "topicality": 0.791129469871521
-    },
-    {
-      "mid": "/m/02pkr5",
-      "description": "plumbing fixture",
-      "score": 0.7702435255050659,
-      "topicality": 0.7702435255050659
-    },
-    {
-      "mid": "/m/0b_zf",
-      "description": "plumbing",
-      "score": 0.6180993318557739,
-      "topicality": 0.6180993318557739
-    },
-    {
-      "mid": "/m/02553v",
-      "description": "toilet seat",
-      "score": 0.6009415984153748,
-      "topicality": 0.6009415984153748
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01j2bj",
+    "description": "bathroom",
+    "score": 0.919465184211731,
+    "topicality": 0.919465184211731
+  },
+  {
+    "mid": "/m/09g1w",
+    "description": "toilet",
+    "score": 0.8807716369628906,
+    "topicality": 0.8807716369628906
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.791129469871521,
+    "topicality": 0.791129469871521
+  },
+  {
+    "mid": "/m/02pkr5",
+    "description": "plumbing fixture",
+    "score": 0.7702435255050659,
+    "topicality": 0.7702435255050659
+  },
+  {
+    "mid": "/m/0b_zf",
+    "description": "plumbing",
+    "score": 0.6180993318557739,
+    "topicality": 0.6180993318557739
+  },
+  {
+    "mid": "/m/02553v",
+    "description": "toilet seat",
+    "score": 0.6009415984153748,
+    "topicality": 0.6009415984153748
+  }
+]

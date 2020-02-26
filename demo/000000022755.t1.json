@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.9311957955360413,
-      "topicality": 0.9311957955360413
-    },
-    {
-      "mid": "/m/02l215",
-      "description": "reflection",
-      "score": 0.8772068023681641,
-      "topicality": 0.8772068023681641
-    },
-    {
-      "mid": "/m/0h8lk4b",
-      "description": "automotive mirror",
-      "score": 0.7119200825691223,
-      "topicality": 0.7119200825691223
-    },
-    {
-      "mid": "/m/039jq",
-      "description": "glass",
-      "score": 0.6872333288192749,
-      "topicality": 0.6872333288192749
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.6308263540267944,
-      "topicality": 0.6308263540267944
-    },
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.5901484489440918,
-      "topicality": 0.5901484489440918
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.5887005925178528,
-      "topicality": 0.5887005925178528
-    },
-    {
-      "mid": "/m/05j11x",
-      "description": "rear view mirror",
-      "score": 0.5417355298995972,
-      "topicality": 0.5417355298995972
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.9311957955360413,
+    "topicality": 0.9311957955360413
+  },
+  {
+    "mid": "/m/02l215",
+    "description": "reflection",
+    "score": 0.8772068023681641,
+    "topicality": 0.8772068023681641
+  },
+  {
+    "mid": "/m/0h8lk4b",
+    "description": "automotive mirror",
+    "score": 0.7119200825691223,
+    "topicality": 0.7119200825691223
+  },
+  {
+    "mid": "/m/039jq",
+    "description": "glass",
+    "score": 0.6872333288192749,
+    "topicality": 0.6872333288192749
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.6308263540267944,
+    "topicality": 0.6308263540267944
+  },
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.5901484489440918,
+    "topicality": 0.5901484489440918
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.5887005925178528,
+    "topicality": 0.5887005925178528
+  },
+  {
+    "mid": "/m/05j11x",
+    "description": "rear view mirror",
+    "score": 0.5417355298995972,
+    "topicality": 0.5417355298995972
+  }
+]

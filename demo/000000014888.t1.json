@@ -1,34 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0fktr",
-      "description": "dairy",
-      "score": 0.7849071621894836,
-      "topicality": 0.7849071621894836
-    },
-    {
-      "mid": "/m/0jzz1",
-      "description": "cattle like mammal",
-      "score": 0.766295313835144,
-      "topicality": 0.766295313835144
-    },
-    {
-      "mid": "/m/03vcw7",
-      "description": "dairy cow",
-      "score": 0.7474945187568665,
-      "topicality": 0.7474945187568665
-    },
-    {
-      "mid": "/m/05mqq3",
-      "description": "snout",
-      "score": 0.6684015393257141,
-      "topicality": 0.6684015393257141
-    },
-    {
-      "mid": "/m/0ch8v",
-      "description": "livestock",
-      "score": 0.6291110515594482,
-      "topicality": 0.6291110515594482
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.7945288615181654,
+    "topicality": 0.7945288615181654
+  },
+  {
+    "mid": "/m/0fktr",
+    "description": "dairy",
+    "score": 0.7849071621894836,
+    "topicality": 0.7849071621894836
+  },
+  {
+    "mid": "/m/0jzz1",
+    "description": "cattle like mammal",
+    "score": 0.766295313835144,
+    "topicality": 0.766295313835144
+  },
+  {
+    "mid": "/m/03vcw7",
+    "description": "dairy cow",
+    "score": 0.7474945187568665,
+    "topicality": 0.7474945187568665
+  },
+  {
+    "mid": "/m/05mqq3",
+    "description": "snout",
+    "score": 0.6684015393257141,
+    "topicality": 0.6684015393257141
+  },
+  {
+    "mid": "/m/0ch8v",
+    "description": "livestock",
+    "score": 0.6291110515594482,
+    "topicality": 0.6291110515594482
+  }
+]

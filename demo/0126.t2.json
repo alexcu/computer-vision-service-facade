@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0bmgjqz",
-      "description": "sport venue",
-      "score": 0.8305807709693909,
-      "topicality": 0.8305807709693909
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8220894932746887,
-      "topicality": 0.8220894932746887
-    },
-    {
-      "mid": "/m/0gs32y",
-      "description": "land lot",
-      "score": 0.7263906598091125,
-      "topicality": 0.7263906598091125
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.6880232691764832,
-      "topicality": 0.6880232691764832
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.6244322061538696,
-      "topicality": 0.6244322061538696
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.594909131526947,
-      "topicality": 0.594909131526947
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.5930580496788025,
-      "topicality": 0.5930580496788025
-    },
-    {
-      "mid": "/m/0bm8qyq",
-      "description": "thoroughfare",
-      "score": 0.5766003131866455,
-      "topicality": 0.5766003131866455
-    },
-    {
-      "mid": "/m/04_5sg",
-      "description": "hill",
-      "score": 0.5224876403808594,
-      "topicality": 0.5224876403808594
-    },
-    {
-      "mid": "/m/025sv9y",
-      "description": "landscaping",
-      "score": 0.5173459649085999,
-      "topicality": 0.5173459649085999
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0bmgjqz",
+    "description": "sport venue",
+    "score": 0.8305807709693909,
+    "topicality": 0.8305807709693909
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8220894932746887,
+    "topicality": 0.8220894932746887
+  },
+  {
+    "mid": "/m/0gs32y",
+    "description": "land lot",
+    "score": 0.7263906598091125,
+    "topicality": 0.7263906598091125
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.6880232691764832,
+    "topicality": 0.6880232691764832
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.6244322061538696,
+    "topicality": 0.6244322061538696
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.594909131526947,
+    "topicality": 0.594909131526947
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.5930580496788025,
+    "topicality": 0.5930580496788025
+  },
+  {
+    "mid": "/m/0bm8qyq",
+    "description": "thoroughfare",
+    "score": 0.5766003131866455,
+    "topicality": 0.5766003131866455
+  },
+  {
+    "mid": "/m/04_5sg",
+    "description": "hill",
+    "score": 0.5224876403808594,
+    "topicality": 0.5224876403808594
+  },
+  {
+    "mid": "/m/025sv9y",
+    "description": "landscaping",
+    "score": 0.5173459649085999,
+    "topicality": 0.5173459649085999
+  }
+]

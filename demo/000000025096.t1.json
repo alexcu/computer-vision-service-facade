@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02cwm",
-      "description": "design",
-      "score": 0.6630216836929321,
-      "topicality": 0.6630216836929321
-    },
-    {
-      "mid": "/m/06wtgq",
-      "description": "play",
-      "score": 0.6315091848373413,
-      "topicality": 0.6315091848373413
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.6279651522636414,
-      "topicality": 0.6279651522636414
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.5440605878829956,
-      "topicality": 0.5440605878829956
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.5207394361495972,
-      "topicality": 0.5207394361495972
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02cwm",
+    "description": "design",
+    "score": 0.6630216836929321,
+    "topicality": 0.6630216836929321
+  },
+  {
+    "mid": "/m/06wtgq",
+    "description": "play",
+    "score": 0.6315091848373413,
+    "topicality": 0.6315091848373413
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.6279651522636414,
+    "topicality": 0.6279651522636414
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.5440605878829956,
+    "topicality": 0.5440605878829956
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.5207394361495972,
+    "topicality": 0.5207394361495972
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9584875702857971,
-      "topicality": 0.9584875702857971
-    },
-    {
-      "mid": "/m/06w1j5",
-      "description": "shrubland",
-      "score": 0.9501801133155823,
-      "topicality": 0.9501801133155823
-    },
-    {
-      "mid": "/g/11jxkqbpp",
-      "description": "mountainous landforms",
-      "score": 0.9454964995384216,
-      "topicality": 0.9454964995384216
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.9398155808448792,
-      "topicality": 0.9398155808448792
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.9394673705101013,
-      "topicality": 0.9394673705101013
-    },
-    {
-      "mid": "/m/06600f2",
-      "description": "plant community",
-      "score": 0.9336618781089783,
-      "topicality": 0.9336618781089783
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9281086325645447,
-      "topicality": 0.9281086325645447
-    },
-    {
-      "mid": "/m/03cjrt",
-      "description": "highland",
-      "score": 0.9253867268562317,
-      "topicality": 0.9253867268562317
-    },
-    {
-      "mid": "/m/02py09",
-      "description": "natural environment",
-      "score": 0.9248972535133362,
-      "topicality": 0.9248972535133362
-    },
-    {
-      "mid": "/m/09d_r",
-      "description": "mountain",
-      "score": 0.8966034054756165,
-      "topicality": 0.8966034054756165
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9584875702857971,
+    "topicality": 0.9584875702857971
+  },
+  {
+    "mid": "/m/06w1j5",
+    "description": "shrubland",
+    "score": 0.9501801133155823,
+    "topicality": 0.9501801133155823
+  },
+  {
+    "mid": "/g/11jxkqbpp",
+    "description": "mountainous landforms",
+    "score": 0.9454964995384216,
+    "topicality": 0.9454964995384216
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.9398155808448792,
+    "topicality": 0.9398155808448792
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.9394673705101013,
+    "topicality": 0.9394673705101013
+  },
+  {
+    "mid": "/m/06600f2",
+    "description": "plant community",
+    "score": 0.9336618781089783,
+    "topicality": 0.9336618781089783
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9281086325645447,
+    "topicality": 0.9281086325645447
+  },
+  {
+    "mid": "/m/03cjrt",
+    "description": "highland",
+    "score": 0.9253867268562317,
+    "topicality": 0.9253867268562317
+  },
+  {
+    "mid": "/m/02py09",
+    "description": "natural environment",
+    "score": 0.9248972535133362,
+    "topicality": 0.9248972535133362
+  },
+  {
+    "mid": "/m/09d_r",
+    "description": "mountain",
+    "score": 0.8966034054756165,
+    "topicality": 0.8966034054756165
+  }
+]

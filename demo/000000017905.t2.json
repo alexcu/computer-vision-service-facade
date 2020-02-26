@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bwr",
-      "description": "botany",
-      "score": 0.7869240641593933,
-      "topicality": 0.7869240641593933
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7469744682312012,
-      "topicality": 0.7469744682312012
-    },
-    {
-      "mid": "/m/02jwqh",
-      "description": "vacation",
-      "score": 0.7037737369537354,
-      "topicality": 0.7037737369537354
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6616107821464539,
-      "topicality": 0.6616107821464539
-    },
-    {
-      "mid": "/m/0gqbt",
-      "description": "shrub",
-      "score": 0.518339991569519,
-      "topicality": 0.518339991569519
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bwr",
+    "description": "botany",
+    "score": 0.7869240641593933,
+    "topicality": 0.7869240641593933
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7469744682312012,
+    "topicality": 0.7469744682312012
+  },
+  {
+    "mid": "/m/02jwqh",
+    "description": "vacation",
+    "score": 0.7037737369537354,
+    "topicality": 0.7037737369537354
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6616107821464539,
+    "topicality": 0.6616107821464539
+  },
+  {
+    "mid": "/m/0gqbt",
+    "description": "shrub",
+    "score": 0.518339991569519,
+    "topicality": 0.518339991569519
+  }
+]

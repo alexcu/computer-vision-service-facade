@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/033j3c",
-      "description": "lane",
-      "score": 0.9125671982765198,
-      "topicality": 0.9125671982765198,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.9113925099372864,
-      "topicality": 0.9113925099372864,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.9109576940536499,
-      "topicality": 0.9109576940536499,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.9103212952613831,
-      "topicality": 0.9103212952613831,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.9085273146629333,
-      "topicality": 0.9085273146629333,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/07vwy6",
-      "description": "street art",
-      "score": 0.9057360887527466,
-      "topicality": 0.9057360887527466,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01lqfm",
-      "description": "public space",
-      "score": 0.8904669284820557,
-      "topicality": 0.8904669284820557,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.8525246977806091,
-      "topicality": 0.8525246977806091,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0180xr",
-      "description": "neighbourhood",
-      "score": 0.8435182571411133,
-      "topicality": 0.8435182571411133,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0fpdgl",
-      "description": "human settlement",
-      "score": 0.8428758978843689,
-      "topicality": 0.8428758978843689,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/033j3c",
+    "description": "lane",
+    "score": 0.9125671982765198,
+    "topicality": 0.9125671982765198,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.9113925099372864,
+    "topicality": 0.9113925099372864,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.9109576940536499,
+    "topicality": 0.9109576940536499,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.9103212952613831,
+    "topicality": 0.9103212952613831,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.9085273146629333,
+    "topicality": 0.9085273146629333,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/07vwy6",
+    "description": "street art",
+    "score": 0.9057360887527466,
+    "topicality": 0.9057360887527466,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01lqfm",
+    "description": "public space",
+    "score": 0.8904669284820557,
+    "topicality": 0.8904669284820557,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.8525246977806091,
+    "topicality": 0.8525246977806091,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0180xr",
+    "description": "neighbourhood",
+    "score": 0.8435182571411133,
+    "topicality": 0.8435182571411133,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0fpdgl",
+    "description": "human settlement",
+    "score": 0.8428758978843689,
+    "topicality": 0.8428758978843689,
+    "bounding_poly": {}
+  }
+]

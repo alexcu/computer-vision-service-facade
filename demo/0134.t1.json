@@ -1,46 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/088fh",
-      "description": "yellow",
-      "score": 0.9350817799568176,
-      "topicality": 0.9350817799568176
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.6418799161911011,
-      "topicality": 0.6418799161911011
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.6272504925727844,
-      "topicality": 0.6272504925727844
-    },
-    {
-      "mid": "/m/06wtgq",
-      "description": "play",
-      "score": 0.622899055480957,
-      "topicality": 0.622899055480957
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.5418812036514282,
-      "topicality": 0.5418812036514282
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.5167853832244873,
-      "topicality": 0.5167853832244873
-    },
-    {
-      "mid": "/m/01mzpv",
-      "description": "chair",
-      "score": 0.5027331709861755,
-      "topicality": 0.5027331709861755
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/088fh",
+    "description": "yellow",
+    "score": 0.9350817799568176,
+    "topicality": 0.9350817799568176
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.6418799161911011,
+    "topicality": 0.6418799161911011
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.6272504925727844,
+    "topicality": 0.6272504925727844
+  },
+  {
+    "mid": "/m/06wtgq",
+    "description": "play",
+    "score": 0.622899055480957,
+    "topicality": 0.622899055480957
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.5418812036514282,
+    "topicality": 0.5418812036514282
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.5167853832244873,
+    "topicality": 0.5167853832244873
+  },
+  {
+    "mid": "/m/01mzpv",
+    "description": "chair",
+    "score": 0.5027331709861755,
+    "topicality": 0.5027331709861755
+  }
+]

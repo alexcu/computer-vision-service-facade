@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/029bm2",
-      "description": "computer desk",
-      "score": 0.9571878910064697,
-      "topicality": 0.9571878910064697
-    },
-    {
-      "mid": "/m/01y9k5",
-      "description": "desk",
-      "score": 0.950527548789978,
-      "topicality": 0.950527548789978
-    },
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.9499960541725159,
-      "topicality": 0.9499960541725159
-    },
-    {
-      "mid": "/m/0dvvc",
-      "description": "desktop computer",
-      "score": 0.8926382064819336,
-      "topicality": 0.8926382064819336
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.8629218339920044,
-      "topicality": 0.8629218339920044
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.8430538773536682,
-      "topicality": 0.8430538773536682
-    },
-    {
-      "mid": "/m/0643t",
-      "description": "personal computer",
-      "score": 0.8228427767753601,
-      "topicality": 0.8228427767753601
-    },
-    {
-      "mid": "/m/021sj1",
-      "description": "office",
-      "score": 0.8145787119865417,
-      "topicality": 0.8145787119865417
-    },
-    {
-      "mid": "/m/01mzpv",
-      "description": "chair",
-      "score": 0.8026971817016602,
-      "topicality": 0.8026971817016602
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.7642231583595276,
-      "topicality": 0.7642231583595276
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/029bm2",
+    "description": "computer desk",
+    "score": 0.9571878910064697,
+    "topicality": 0.9571878910064697
+  },
+  {
+    "mid": "/m/01y9k5",
+    "description": "desk",
+    "score": 0.950527548789978,
+    "topicality": 0.950527548789978
+  },
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.9499960541725159,
+    "topicality": 0.9499960541725159
+  },
+  {
+    "mid": "/m/0dvvc",
+    "description": "desktop computer",
+    "score": 0.8926382064819336,
+    "topicality": 0.8926382064819336
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.8629218339920044,
+    "topicality": 0.8629218339920044
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.8430538773536682,
+    "topicality": 0.8430538773536682
+  },
+  {
+    "mid": "/m/0643t",
+    "description": "personal computer",
+    "score": 0.8228427767753601,
+    "topicality": 0.8228427767753601
+  },
+  {
+    "mid": "/m/021sj1",
+    "description": "office",
+    "score": 0.8145787119865417,
+    "topicality": 0.8145787119865417
+  },
+  {
+    "mid": "/m/01mzpv",
+    "description": "chair",
+    "score": 0.8026971817016602,
+    "topicality": 0.8026971817016602
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.7642231583595276,
+    "topicality": 0.7642231583595276
+  }
+]

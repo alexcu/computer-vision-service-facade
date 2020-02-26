@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/08rrcl",
-      "description": "water transportation",
-      "score": 0.9237623810768127,
-      "topicality": 0.9237623810768127
-    },
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.9131245613098145,
-      "topicality": 0.9131245613098145
-    },
-    {
-      "mid": "/m/019jd",
-      "description": "boat",
-      "score": 0.8850498795509338,
-      "topicality": 0.8850498795509338
-    },
-    {
-      "mid": "/m/01rzcn",
-      "description": "watercraft",
-      "score": 0.8176718950271606,
-      "topicality": 0.8176718950271606
-    },
-    {
-      "mid": "/m/02q13x7",
-      "description": "fishing vessel",
-      "score": 0.7789005637168884,
-      "topicality": 0.7789005637168884
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.7615041732788086,
-      "topicality": 0.7615041732788086
-    },
-    {
-      "mid": "/m/06q74",
-      "description": "ship",
-      "score": 0.7394125461578369,
-      "topicality": 0.7394125461578369
-    },
-    {
-      "mid": "/m/03m4wn",
-      "description": "boating",
-      "score": 0.7270077466964722,
-      "topicality": 0.7270077466964722
-    },
-    {
-      "mid": "/m/01fpmd",
-      "description": "tugboat",
-      "score": 0.68848717212677,
-      "topicality": 0.68848717212677
-    },
-    {
-      "mid": "/m/03htg",
-      "description": "harbor",
-      "score": 0.6171454787254333,
-      "topicality": 0.6171454787254333
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/08rrcl",
+    "description": "water transportation",
+    "score": 0.9237623810768127,
+    "topicality": 0.9237623810768127
+  },
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.9131245613098145,
+    "topicality": 0.9131245613098145
+  },
+  {
+    "mid": "/m/019jd",
+    "description": "boat",
+    "score": 0.8850498795509338,
+    "topicality": 0.8850498795509338
+  },
+  {
+    "mid": "/m/01rzcn",
+    "description": "watercraft",
+    "score": 0.8176718950271606,
+    "topicality": 0.8176718950271606
+  },
+  {
+    "mid": "/m/02q13x7",
+    "description": "fishing vessel",
+    "score": 0.7789005637168884,
+    "topicality": 0.7789005637168884
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.7615041732788086,
+    "topicality": 0.7615041732788086
+  },
+  {
+    "mid": "/m/06q74",
+    "description": "ship",
+    "score": 0.7394125461578369,
+    "topicality": 0.7394125461578369
+  },
+  {
+    "mid": "/m/03m4wn",
+    "description": "boating",
+    "score": 0.7270077466964722,
+    "topicality": 0.7270077466964722
+  },
+  {
+    "mid": "/m/01fpmd",
+    "description": "tugboat",
+    "score": 0.68848717212677,
+    "topicality": 0.68848717212677
+  },
+  {
+    "mid": "/m/03htg",
+    "description": "harbor",
+    "score": 0.6171454787254333,
+    "topicality": 0.6171454787254333
+  }
+]

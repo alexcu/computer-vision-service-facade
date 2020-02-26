@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07bgp",
-      "description": "sheep",
-      "score": 0.9796940088272095,
-      "topicality": 0.9796940088272095
-    },
-    {
-      "mid": "/m/08hhz2",
-      "description": "sheep",
-      "score": 0.9509651064872742,
-      "topicality": 0.9509651064872742
-    },
-    {
-      "mid": "/m/01gd91",
-      "description": "pasture",
-      "score": 0.8851385712623596,
-      "topicality": 0.8851385712623596
-    },
-    {
-      "mid": "/m/01c7cq",
-      "description": "grassland",
-      "score": 0.8235598802566528,
-      "topicality": 0.8235598802566528
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.7966601252555847,
-      "topicality": 0.7966601252555847
-    },
-    {
-      "mid": "/m/01k050",
-      "description": "cow goat family",
-      "score": 0.7963623404502869,
-      "topicality": 0.7963623404502869
-    },
-    {
-      "mid": "/m/0ch8v",
-      "description": "livestock",
-      "score": 0.7850752472877502,
-      "topicality": 0.7850752472877502
-    },
-    {
-      "mid": "/m/03vd46",
-      "description": "herd",
-      "score": 0.7842894196510315,
-      "topicality": 0.7842894196510315
-    },
-    {
-      "mid": "/m/03hh2k",
-      "description": "grazing",
-      "score": 0.7762858271598816,
-      "topicality": 0.7762858271598816
-    },
-    {
-      "mid": "/m/01hcps",
-      "description": "lamb and mutton",
-      "score": 0.5870118737220764,
-      "topicality": 0.5870118737220764
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07bgp",
+    "description": "sheep",
+    "score": 0.9796940088272095,
+    "topicality": 0.9796940088272095
+  },
+  {
+    "mid": "/m/08hhz2",
+    "description": "sheep",
+    "score": 0.9509651064872742,
+    "topicality": 0.9509651064872742
+  },
+  {
+    "mid": "/m/01gd91",
+    "description": "pasture",
+    "score": 0.8851385712623596,
+    "topicality": 0.8851385712623596
+  },
+  {
+    "mid": "/m/01c7cq",
+    "description": "grassland",
+    "score": 0.8235598802566528,
+    "topicality": 0.8235598802566528
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.7966601252555847,
+    "topicality": 0.7966601252555847
+  },
+  {
+    "mid": "/m/01k050",
+    "description": "cow goat family",
+    "score": 0.7963623404502869,
+    "topicality": 0.7963623404502869
+  },
+  {
+    "mid": "/m/0ch8v",
+    "description": "livestock",
+    "score": 0.7850752472877502,
+    "topicality": 0.7850752472877502
+  },
+  {
+    "mid": "/m/03vd46",
+    "description": "herd",
+    "score": 0.7842894196510315,
+    "topicality": 0.7842894196510315
+  },
+  {
+    "mid": "/m/03hh2k",
+    "description": "grazing",
+    "score": 0.7762858271598816,
+    "topicality": 0.7762858271598816
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "organism",
+    "score": 0.6119592189687032,
+    "topicality": 0.6119592189687032
+  },
+  {
+    "mid": "/m/01hcps",
+    "description": "lamb and mutton",
+    "score": 0.5870118737220764,
+    "topicality": 0.5870118737220764
+  }
+]

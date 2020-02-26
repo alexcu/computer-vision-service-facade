@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/g/11jxkqbpp",
-      "description": "mountainous landforms",
-      "score": 0.9788169264793396,
-      "topicality": 0.9788169264793396
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9620778560638428,
-      "topicality": 0.9620778560638428
-    },
-    {
-      "mid": "/m/09d_r",
-      "description": "mountain",
-      "score": 0.9551309943199158,
-      "topicality": 0.9551309943199158
-    },
-    {
-      "mid": "/m/040h04",
-      "description": "hill station",
-      "score": 0.9332762956619263,
-      "topicality": 0.9332762956619263
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9281086325645447,
-      "topicality": 0.9281086325645447
-    },
-    {
-      "mid": "/m/04wxr",
-      "description": "mountain range",
-      "score": 0.9166073203086853,
-      "topicality": 0.9166073203086853
-    },
-    {
-      "mid": "/m/03cjrt",
-      "description": "highland",
-      "score": 0.8890284895896912,
-      "topicality": 0.8890284895896912
-    },
-    {
-      "mid": "/m/03d28y3",
-      "description": "natural landscape",
-      "score": 0.8855189085006714,
-      "topicality": 0.8855189085006714
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.855692982673645,
-      "topicality": 0.855692982673645
-    },
-    {
-      "mid": "/m/04_5sg",
-      "description": "hill",
-      "score": 0.7994003891944885,
-      "topicality": 0.7994003891944885
-    }
-  ]
-}
+[
+  {
+    "mid": "/g/11jxkqbpp",
+    "description": "mountainous landforms",
+    "score": 0.9788169264793396,
+    "topicality": 0.9788169264793396
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9620778560638428,
+    "topicality": 0.9620778560638428
+  },
+  {
+    "mid": "/m/09d_r",
+    "description": "mountain",
+    "score": 0.9551309943199158,
+    "topicality": 0.9551309943199158
+  },
+  {
+    "mid": "/m/040h04",
+    "description": "hill station",
+    "score": 0.9332762956619263,
+    "topicality": 0.9332762956619263
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9281086325645447,
+    "topicality": 0.9281086325645447
+  },
+  {
+    "mid": "/m/04wxr",
+    "description": "mountain range",
+    "score": 0.9166073203086853,
+    "topicality": 0.9166073203086853
+  },
+  {
+    "mid": "/m/03cjrt",
+    "description": "highland",
+    "score": 0.8890284895896912,
+    "topicality": 0.8890284895896912
+  },
+  {
+    "mid": "/m/03d28y3",
+    "description": "natural landscape",
+    "score": 0.8855189085006714,
+    "topicality": 0.8855189085006714
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.855692982673645,
+    "topicality": 0.855692982673645
+  },
+  {
+    "mid": "/m/04_5sg",
+    "description": "hill",
+    "score": 0.7994003891944885,
+    "topicality": 0.7994003891944885
+  }
+]

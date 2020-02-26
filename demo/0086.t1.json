@@ -1,22 +1,20 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/083vt",
-      "description": "wood",
-      "score": 0.6634867191314697,
-      "topicality": 0.6634867191314697
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.5935975313186646,
-      "topicality": 0.5935975313186646
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.5466334819793701,
-      "topicality": 0.5466334819793701
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/083vt",
+    "description": "wood",
+    "score": 0.6634867191314697,
+    "topicality": 0.6634867191314697
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.5935975313186646,
+    "topicality": 0.5935975313186646
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.5466334819793701,
+    "topicality": 0.5466334819793701
+  }
+]

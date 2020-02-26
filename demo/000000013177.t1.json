@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9612466096878052,
-      "topicality": 0.9612466096878052
-    },
-    {
-      "mid": "/m/0h9mv",
-      "description": "tire",
-      "score": 0.9378238320350647,
-      "topicality": 0.9378238320350647
-    },
-    {
-      "mid": "/m/0h8pb3l",
-      "description": "automotive tire",
-      "score": 0.9228379130363464,
-      "topicality": 0.9228379130363464
-    },
-    {
-      "mid": "/m/083wq",
-      "description": "wheel",
-      "score": 0.9211841225624084,
-      "topicality": 0.9211841225624084
-    },
-    {
-      "mid": "/m/0h8ly30",
-      "description": "automotive wheel system",
-      "score": 0.8212389349937439,
-      "topicality": 0.8212389349937439
-    },
-    {
-      "mid": "/m/03f_s3",
-      "description": "mechanic",
-      "score": 0.8146852850914001,
-      "topicality": 0.8146852850914001
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.814279317855835,
-      "topicality": 0.814279317855835
-    },
-    {
-      "mid": "/m/016xt7",
-      "description": "spoke",
-      "score": 0.6775117516517639,
-      "topicality": 0.6775117516517639
-    },
-    {
-      "mid": "/m/04_sv",
-      "description": "motorcycle",
-      "score": 0.6737748384475708,
-      "topicality": 0.6737748384475708
-    },
-    {
-      "mid": "/m/08dz3q",
-      "description": "auto part",
-      "score": 0.6608870625495911,
-      "topicality": 0.6608870625495911
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9612466096878052,
+    "topicality": 0.9612466096878052
+  },
+  {
+    "mid": "/m/0h9mv",
+    "description": "tire",
+    "score": 0.9378238320350647,
+    "topicality": 0.9378238320350647
+  },
+  {
+    "mid": "/m/0h8pb3l",
+    "description": "automotive tire",
+    "score": 0.9228379130363464,
+    "topicality": 0.9228379130363464
+  },
+  {
+    "mid": "/m/083wq",
+    "description": "wheel",
+    "score": 0.9211841225624084,
+    "topicality": 0.9211841225624084
+  },
+  {
+    "mid": "/m/0h8ly30",
+    "description": "automotive wheel system",
+    "score": 0.8212389349937439,
+    "topicality": 0.8212389349937439
+  },
+  {
+    "mid": "/m/03f_s3",
+    "description": "mechanic",
+    "score": 0.8146852850914001,
+    "topicality": 0.8146852850914001
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.814279317855835,
+    "topicality": 0.814279317855835
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.7991673424371035,
+    "topicality": 0.7991673424371035
+  },
+  {
+    "mid": "/m/016xt7",
+    "description": "spoke",
+    "score": 0.6775117516517639,
+    "topicality": 0.6775117516517639
+  },
+  {
+    "mid": "/m/04_sv",
+    "description": "motorcycle",
+    "score": 0.6737748384475708,
+    "topicality": 0.6737748384475708
+  },
+  {
+    "mid": "/m/08dz3q",
+    "description": "auto part",
+    "score": 0.6608870625495911,
+    "topicality": 0.6608870625495911
+  }
+]

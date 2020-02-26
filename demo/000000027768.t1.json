@@ -1,46 +1,44 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/012f08",
-      "description": "motor vehicle",
-      "score": 0.9587519764900208,
-      "topicality": 0.9587519764900208
-    },
-    {
-      "mid": "/m/01bjv",
-      "description": "bus",
-      "score": 0.9340647459030151,
-      "topicality": 0.9340647459030151
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.924238920211792,
-      "topicality": 0.924238920211792
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9185718297958374,
-      "topicality": 0.9185718297958374
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8751303553581238,
-      "topicality": 0.8751303553581238
-    },
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.5550861954689026,
-      "topicality": 0.5550861954689026
-    },
-    {
-      "mid": "/m/02swz_",
-      "description": "compact car",
-      "score": 0.5043817758560181,
-      "topicality": 0.5043817758560181
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/012f08",
+    "description": "motor vehicle",
+    "score": 0.9587519764900208,
+    "topicality": 0.9587519764900208
+  },
+  {
+    "mid": "/m/01bjv",
+    "description": "bus",
+    "score": 0.9340647459030151,
+    "topicality": 0.9340647459030151
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.924238920211792,
+    "topicality": 0.924238920211792
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9185718297958374,
+    "topicality": 0.9185718297958374
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8751303553581238,
+    "topicality": 0.8751303553581238
+  },
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.5550861954689026,
+    "topicality": 0.5550861954689026
+  },
+  {
+    "mid": "/m/02swz_",
+    "description": "compact car",
+    "score": 0.5043817758560181,
+    "topicality": 0.5043817758560181
+  }
+]

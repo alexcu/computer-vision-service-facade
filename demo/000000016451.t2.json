@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/j/148skd",
-      "description": "people on beach",
-      "score": 0.9855071902275085,
-      "topicality": 0.9855071902275085
-    },
-    {
-      "mid": "/m/0b3yr",
-      "description": "beach",
-      "score": 0.9763727188110352,
-      "topicality": 0.9763727188110352
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9530806541442871,
-      "topicality": 0.9530806541442871
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.9436393976211548,
-      "topicality": 0.9436393976211548
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9100271463394165,
-      "topicality": 0.9100271463394165
-    },
-    {
-      "mid": "/m/02jwqh",
-      "description": "vacation",
-      "score": 0.9067181348800659,
-      "topicality": 0.9067181348800659
-    },
-    {
-      "mid": "/m/06npx",
-      "description": "sea",
-      "score": 0.9008474946022034,
-      "topicality": 0.9008474946022034
-    },
-    {
-      "mid": "/m/099fz",
-      "description": "sand",
-      "score": 0.8829233050346375,
-      "topicality": 0.8829233050346375
-    },
-    {
-      "mid": "/m/04f6rz",
-      "description": "turquoise",
-      "score": 0.8829098343849182,
-      "topicality": 0.8829098343849182
-    },
-    {
-      "mid": "/m/078qz",
-      "description": "summer",
-      "score": 0.8712862730026245,
-      "topicality": 0.8712862730026245
-    }
-  ]
-}
+[
+  {
+    "mid": "/j/148skd",
+    "description": "people on beach",
+    "score": 0.9855071902275085,
+    "topicality": 0.9855071902275085
+  },
+  {
+    "mid": "/m/0b3yr",
+    "description": "beach",
+    "score": 0.9763727188110352,
+    "topicality": 0.9763727188110352
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9530806541442871,
+    "topicality": 0.9530806541442871
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.9436393976211548,
+    "topicality": 0.9436393976211548
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9100271463394165,
+    "topicality": 0.9100271463394165
+  },
+  {
+    "mid": "/m/02jwqh",
+    "description": "vacation",
+    "score": 0.9067181348800659,
+    "topicality": 0.9067181348800659
+  },
+  {
+    "mid": "/m/06npx",
+    "description": "sea",
+    "score": 0.9008474946022034,
+    "topicality": 0.9008474946022034
+  },
+  {
+    "mid": "/m/099fz",
+    "description": "sand",
+    "score": 0.8829233050346375,
+    "topicality": 0.8829233050346375
+  },
+  {
+    "mid": "/m/04f6rz",
+    "description": "turquoise",
+    "score": 0.8829098343849182,
+    "topicality": 0.8829098343849182
+  },
+  {
+    "mid": "/m/078qz",
+    "description": "summer",
+    "score": 0.8712862730026245,
+    "topicality": 0.8712862730026245
+  }
+]

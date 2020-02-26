@@ -1,16 +1,14 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/032b3c",
-      "description": "jacket",
-      "score": 0.9265661239624023,
-      "topicality": 0.9265661239624023
-    },
-    {
-      "mid": "/m/01jwgf",
-      "description": "product",
-      "score": 0.5317137241363525,
-      "topicality": 0.5317137241363525
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/032b3c",
+    "description": "jacket",
+    "score": 0.9265661239624023,
+    "topicality": 0.9265661239624023
+  },
+  {
+    "mid": "/m/01jwgf",
+    "description": "product",
+    "score": 0.5317137241363525,
+    "topicality": 0.5317137241363525
+  }
+]

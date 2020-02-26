@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/04rky",
-      "description": "mammal",
-      "score": 0.9890478253364563,
-      "topicality": 0.9890478253364563
-    },
-    {
-      "mid": "/m/09686",
-      "description": "vertebrate",
-      "score": 0.9851104021072388,
-      "topicality": 0.9851104021072388
-    },
-    {
-      "mid": "/m/01dxs",
-      "description": "brown bear",
-      "score": 0.983595073223114,
-      "topicality": 0.983595073223114
-    },
-    {
-      "mid": "/m/0fbf1m",
-      "description": "terrestrial animal",
-      "score": 0.9824591875076294,
-      "topicality": 0.9824591875076294
-    },
-    {
-      "mid": "/m/01dws",
-      "description": "bear",
-      "score": 0.981849193572998,
-      "topicality": 0.981849193572998
-    },
-    {
-      "mid": "/m/037_v",
-      "description": "grizzly bear",
-      "score": 0.9780259728431702,
-      "topicality": 0.9780259728431702
-    },
-    {
-      "mid": "/m/01lrl",
-      "description": "carnivore",
-      "score": 0.8834781050682068,
-      "topicality": 0.8834781050682068
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.8794228434562683,
-      "topicality": 0.8794228434562683
-    },
-    {
-      "mid": "/m/05mqq3",
-      "description": "snout",
-      "score": 0.8634109497070312,
-      "topicality": 0.8634109497070312
-    },
-    {
-      "mid": "/m/03z_3s",
-      "description": "kodiak bear",
-      "score": 0.8326768279075623,
-      "topicality": 0.8326768279075623
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/04rky",
+    "description": "mammal",
+    "score": 0.9890478253364563,
+    "topicality": 0.9890478253364563
+  },
+  {
+    "mid": "/m/09686",
+    "description": "vertebrate",
+    "score": 0.9851104021072388,
+    "topicality": 0.9851104021072388
+  },
+  {
+    "mid": "/m/01dxs",
+    "description": "brown bear",
+    "score": 0.983595073223114,
+    "topicality": 0.983595073223114
+  },
+  {
+    "mid": "/m/0fbf1m",
+    "description": "terrestrial animal",
+    "score": 0.9824591875076294,
+    "topicality": 0.9824591875076294
+  },
+  {
+    "mid": "/m/01dws",
+    "description": "bear",
+    "score": 0.981849193572998,
+    "topicality": 0.981849193572998
+  },
+  {
+    "mid": "/m/037_v",
+    "description": "grizzly bear",
+    "score": 0.9780259728431702,
+    "topicality": 0.9780259728431702
+  },
+  {
+    "mid": "/m/01lrl",
+    "description": "carnivore",
+    "score": 0.8834781050682068,
+    "topicality": 0.8834781050682068
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.8794228434562683,
+    "topicality": 0.8794228434562683
+  },
+  {
+    "mid": "/m/05mqq3",
+    "description": "snout",
+    "score": 0.8634109497070312,
+    "topicality": 0.8634109497070312
+  },
+  {
+    "mid": "/m/03z_3s",
+    "description": "kodiak bear",
+    "score": 0.8326768279075623,
+    "topicality": 0.8326768279075623
+  }
+]

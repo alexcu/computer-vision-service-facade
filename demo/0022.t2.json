@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.9573844075202942,
-      "topicality": 0.9573844075202942
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.9100271463394165,
-      "topicality": 0.9100271463394165
-    },
-    {
-      "mid": "/m/03k5cs",
-      "description": "formation",
-      "score": 0.859618067741394,
-      "topicality": 0.859618067741394
-    },
-    {
-      "mid": "/m/036hv",
-      "description": "geology",
-      "score": 0.7962014079093933,
-      "topicality": 0.7962014079093933
-    },
-    {
-      "mid": "/m/0308t8",
-      "description": "bedrock",
-      "score": 0.7306478023529053,
-      "topicality": 0.7306478023529053
-    },
-    {
-      "mid": "/m/07cwvn",
-      "description": "outcrop",
-      "score": 0.7226003408432007,
-      "topicality": 0.7226003408432007
-    },
-    {
-      "mid": "/m/0ghpy",
-      "description": "boulder",
-      "score": 0.7202856540679932,
-      "topicality": 0.7202856540679932
-    },
-    {
-      "mid": "/m/02309j",
-      "description": "wadi",
-      "score": 0.6959241628646851,
-      "topicality": 0.6959241628646851
-    },
-    {
-      "mid": "/m/01280g",
-      "description": "wildlife",
-      "score": 0.5761504173278809,
-      "topicality": 0.5761504173278809
-    },
-    {
-      "mid": "/m/05t0z3q",
-      "description": "bank",
-      "score": 0.5653655529022217,
-      "topicality": 0.5653655529022217
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.9573844075202942,
+    "topicality": 0.9573844075202942
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.9100271463394165,
+    "topicality": 0.9100271463394165
+  },
+  {
+    "mid": "/m/03k5cs",
+    "description": "formation",
+    "score": 0.859618067741394,
+    "topicality": 0.859618067741394
+  },
+  {
+    "mid": "/m/036hv",
+    "description": "geology",
+    "score": 0.7962014079093933,
+    "topicality": 0.7962014079093933
+  },
+  {
+    "mid": "/m/0308t8",
+    "description": "bedrock",
+    "score": 0.7306478023529053,
+    "topicality": 0.7306478023529053
+  },
+  {
+    "mid": "/m/07cwvn",
+    "description": "outcrop",
+    "score": 0.7226003408432007,
+    "topicality": 0.7226003408432007
+  },
+  {
+    "mid": "/m/0ghpy",
+    "description": "boulder",
+    "score": 0.7202856540679932,
+    "topicality": 0.7202856540679932
+  },
+  {
+    "mid": "/m/02309j",
+    "description": "wadi",
+    "score": 0.6959241628646851,
+    "topicality": 0.6959241628646851
+  },
+  {
+    "mid": "/m/01280g",
+    "description": "wildlife",
+    "score": 0.5761504173278809,
+    "topicality": 0.5761504173278809
+  },
+  {
+    "mid": "/m/05t0z3q",
+    "description": "bank",
+    "score": 0.5653655529022217,
+    "topicality": 0.5653655529022217
+  }
+]

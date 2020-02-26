@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/09g1w",
-      "description": "toilet",
-      "score": 0.9764009714126587,
-      "topicality": 0.9764009714126587
-    },
-    {
-      "mid": "/m/01j2bj",
-      "description": "bathroom",
-      "score": 0.923914909362793,
-      "topicality": 0.923914909362793
-    },
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.8945538997650146,
-      "topicality": 0.8945538997650146
-    },
-    {
-      "mid": "/m/02pkr5",
-      "description": "plumbing fixture",
-      "score": 0.8385540843009949,
-      "topicality": 0.8385540843009949
-    },
-    {
-      "mid": "/m/033qwb",
-      "description": "urinal",
-      "score": 0.7144128084182739,
-      "topicality": 0.7144128084182739
-    },
-    {
-      "mid": "/m/041x_j",
-      "description": "public toilet",
-      "score": 0.6985083222389221,
-      "topicality": 0.6985083222389221
-    },
-    {
-      "mid": "/m/021w6f",
-      "description": "tile",
-      "score": 0.6607582569122314,
-      "topicality": 0.6607582569122314
-    },
-    {
-      "mid": "/m/02553v",
-      "description": "toilet seat",
-      "score": 0.659831702709198,
-      "topicality": 0.659831702709198
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.653216540813446,
-      "topicality": 0.653216540813446
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.6308675408363342,
-      "topicality": 0.6308675408363342
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/09g1w",
+    "description": "toilet",
+    "score": 0.9764009714126587,
+    "topicality": 0.9764009714126587
+  },
+  {
+    "mid": "/m/01j2bj",
+    "description": "bathroom",
+    "score": 0.923914909362793,
+    "topicality": 0.923914909362793
+  },
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.8945538997650146,
+    "topicality": 0.8945538997650146
+  },
+  {
+    "mid": "/m/02pkr5",
+    "description": "plumbing fixture",
+    "score": 0.8385540843009949,
+    "topicality": 0.8385540843009949
+  },
+  {
+    "mid": "/m/033qwb",
+    "description": "urinal",
+    "score": 0.7144128084182739,
+    "topicality": 0.7144128084182739
+  },
+  {
+    "mid": "/m/041x_j",
+    "description": "public toilet",
+    "score": 0.6985083222389221,
+    "topicality": 0.6985083222389221
+  },
+  {
+    "mid": "/m/021w6f",
+    "description": "tile",
+    "score": 0.6607582569122314,
+    "topicality": 0.6607582569122314
+  },
+  {
+    "mid": "/m/02553v",
+    "description": "toilet seat",
+    "score": 0.659831702709198,
+    "topicality": 0.659831702709198
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.653216540813446,
+    "topicality": 0.653216540813446
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.6308675408363342,
+    "topicality": 0.6308675408363342
+  }
+]

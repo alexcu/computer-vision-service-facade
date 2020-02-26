@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9668610095977783,
-      "topicality": 0.9668610095977783
-    },
-    {
-      "mid": "/m/0krfg",
-      "description": "meal",
-      "score": 0.9447948336601257,
-      "topicality": 0.9447948336601257
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.918995201587677,
-      "topicality": 0.918995201587677
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.8756023049354553,
-      "topicality": 0.8756023049354553
-    },
-    {
-      "mid": "/m/0h8nvk9",
-      "description": "dishware",
-      "score": 0.8574320077896118,
-      "topicality": 0.8574320077896118
-    },
-    {
-      "mid": "/m/04q6ng",
-      "description": "comfort food",
-      "score": 0.824183464050293,
-      "topicality": 0.824183464050293
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.8115525841712952,
-      "topicality": 0.8115525841712952
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.7385119795799255,
-      "topicality": 0.7385119795799255
-    },
-    {
-      "mid": "/m/0hyyb",
-      "description": "supper",
-      "score": 0.7352314591407776,
-      "topicality": 0.7352314591407776
-    },
-    {
-      "mid": "/m/050gv4",
-      "description": "plate",
-      "score": 0.7098071575164795,
-      "topicality": 0.7098071575164795
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9668610095977783,
+    "topicality": 0.9668610095977783
+  },
+  {
+    "mid": "/m/0krfg",
+    "description": "meal",
+    "score": 0.9447948336601257,
+    "topicality": 0.9447948336601257
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.918995201587677,
+    "topicality": 0.918995201587677
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.8756023049354553,
+    "topicality": 0.8756023049354553
+  },
+  {
+    "mid": "/m/0h8nvk9",
+    "description": "dishware",
+    "score": 0.8574320077896118,
+    "topicality": 0.8574320077896118
+  },
+  {
+    "mid": "/m/04q6ng",
+    "description": "comfort food",
+    "score": 0.824183464050293,
+    "topicality": 0.824183464050293
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.8115525841712952,
+    "topicality": 0.8115525841712952
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.7385119795799255,
+    "topicality": 0.7385119795799255
+  },
+  {
+    "mid": "/m/0hyyb",
+    "description": "supper",
+    "score": 0.7352314591407776,
+    "topicality": 0.7352314591407776
+  },
+  {
+    "mid": "/m/050gv4",
+    "description": "plate",
+    "score": 0.7098071575164795,
+    "topicality": 0.7098071575164795
+  }
+]

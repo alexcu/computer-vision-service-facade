@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03r_vp",
-      "description": "adaptation",
-      "score": 0.6696612238883972,
-      "topicality": 0.6696612238883972
-    },
-    {
-      "mid": "/m/0cl6l",
-      "description": "straw",
-      "score": 0.6520324945449829,
-      "topicality": 0.6520324945449829
-    },
-    {
-      "mid": "/m/0ytgt",
-      "description": "child",
-      "score": 0.6134581565856934,
-      "topicality": 0.6134581565856934
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.585474967956543,
-      "topicality": 0.585474967956543
-    },
-    {
-      "mid": "/m/019nj4",
-      "description": "smile",
-      "score": 0.5404295921325684,
-      "topicality": 0.5404295921325684
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03r_vp",
+    "description": "adaptation",
+    "score": 0.6696612238883972,
+    "topicality": 0.6696612238883972
+  },
+  {
+    "mid": "/m/0cl6l",
+    "description": "straw",
+    "score": 0.6520324945449829,
+    "topicality": 0.6520324945449829
+  },
+  {
+    "mid": "/m/0ytgt",
+    "description": "child",
+    "score": 0.6134581565856934,
+    "topicality": 0.6134581565856934
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.585474967956543,
+    "topicality": 0.585474967956543
+  },
+  {
+    "mid": "/m/019nj4",
+    "description": "smile",
+    "score": 0.5404295921325684,
+    "topicality": 0.5404295921325684
+  }
+]

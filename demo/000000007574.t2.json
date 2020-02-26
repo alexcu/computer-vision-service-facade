@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06ht1",
-      "description": "room",
-      "score": 0.9039502739906311,
-      "topicality": 0.9039502739906311
-    },
-    {
-      "mid": "/m/0d4wf",
-      "description": "kitchen",
-      "score": 0.8537676930427551,
-      "topicality": 0.8537676930427551
-    },
-    {
-      "mid": "/m/0b3fp9",
-      "description": "countertop",
-      "score": 0.7957870364189148,
-      "topicality": 0.7957870364189148
-    },
-    {
-      "mid": "/m/0c_jw",
-      "description": "furniture",
-      "score": 0.7940655946731567,
-      "topicality": 0.7940655946731567
-    },
-    {
-      "mid": "/m/01s105",
-      "description": "cabinetry",
-      "score": 0.788138210773468,
-      "topicality": 0.788138210773468
-    },
-    {
-      "mid": "/m/01l0mw",
-      "description": "home",
-      "score": 0.6371706128120422,
-      "topicality": 0.6371706128120422
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.6313194632530212,
-      "topicality": 0.6313194632530212
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.6247112154960632,
-      "topicality": 0.6247112154960632
-    },
-    {
-      "mid": "/m/017z18",
-      "description": "small appliance",
-      "score": 0.6072752475738525,
-      "topicality": 0.6072752475738525
-    },
-    {
-      "mid": "/m/0gjbg72",
-      "description": "shelf",
-      "score": 0.5899279117584229,
-      "topicality": 0.5899279117584229
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06ht1",
+    "description": "room",
+    "score": 0.9039502739906311,
+    "topicality": 0.9039502739906311
+  },
+  {
+    "mid": "/m/0d4wf",
+    "description": "kitchen",
+    "score": 0.8537676930427551,
+    "topicality": 0.8537676930427551
+  },
+  {
+    "mid": "/m/0b3fp9",
+    "description": "countertop",
+    "score": 0.7957870364189148,
+    "topicality": 0.7957870364189148
+  },
+  {
+    "mid": "/m/0c_jw",
+    "description": "furniture",
+    "score": 0.7940655946731567,
+    "topicality": 0.7940655946731567
+  },
+  {
+    "mid": "/m/01s105",
+    "description": "cabinetry",
+    "score": 0.788138210773468,
+    "topicality": 0.788138210773468
+  },
+  {
+    "mid": "/m/01l0mw",
+    "description": "home",
+    "score": 0.6371706128120422,
+    "topicality": 0.6371706128120422
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.6313194632530212,
+    "topicality": 0.6313194632530212
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.6247112154960632,
+    "topicality": 0.6247112154960632
+  },
+  {
+    "mid": "/m/017z18",
+    "description": "small appliance",
+    "score": 0.6072752475738525,
+    "topicality": 0.6072752475738525
+  },
+  {
+    "mid": "/m/0gjbg72",
+    "description": "shelf",
+    "score": 0.5899279117584229,
+    "topicality": 0.5899279117584229
+  }
+]

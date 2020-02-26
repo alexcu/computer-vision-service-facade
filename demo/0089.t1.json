@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02mhj",
-      "description": "ecosystem",
-      "score": 0.9353870153427124,
-      "topicality": 0.9353870153427124
-    },
-    {
-      "mid": "/m/0fkrk",
-      "description": "grass family",
-      "score": 0.8970785140991211,
-      "topicality": 0.8970785140991211
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8787519335746765,
-      "topicality": 0.8787519335746765
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.8391175270080566,
-      "topicality": 0.8391175270080566
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.8317736387252808,
-      "topicality": 0.8317736387252808
-    },
-    {
-      "mid": "/m/03bmqb",
-      "description": "flora",
-      "score": 0.8125462532043457,
-      "topicality": 0.8125462532043457
-    },
-    {
-      "mid": "/m/05qdh",
-      "description": "painting",
-      "score": 0.738906741142273,
-      "topicality": 0.738906741142273
-    },
-    {
-      "mid": "/m/02h_hw",
-      "description": "phragmites",
-      "score": 0.7298641204833984,
-      "topicality": 0.7298641204833984
-    },
-    {
-      "mid": "/m/01jb4",
-      "description": "biome",
-      "score": 0.6852936148643494,
-      "topicality": 0.6852936148643494
-    },
-    {
-      "mid": "/m/018ktp",
-      "description": "watercolor paint",
-      "score": 0.5271298289299011,
-      "topicality": 0.5271298289299011
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02mhj",
+    "description": "ecosystem",
+    "score": 0.9353870153427124,
+    "topicality": 0.9353870153427124
+  },
+  {
+    "mid": "/m/0fkrk",
+    "description": "grass family",
+    "score": 0.8970785140991211,
+    "topicality": 0.8970785140991211
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8787519335746765,
+    "topicality": 0.8787519335746765
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.8391175270080566,
+    "topicality": 0.8391175270080566
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.8317736387252808,
+    "topicality": 0.8317736387252808
+  },
+  {
+    "mid": "/m/03bmqb",
+    "description": "flora",
+    "score": 0.8125462532043457,
+    "topicality": 0.8125462532043457
+  },
+  {
+    "mid": "/m/05qdh",
+    "description": "painting",
+    "score": 0.738906741142273,
+    "topicality": 0.738906741142273
+  },
+  {
+    "mid": "/m/02h_hw",
+    "description": "phragmites",
+    "score": 0.7298641204833984,
+    "topicality": 0.7298641204833984
+  },
+  {
+    "mid": "/m/01jb4",
+    "description": "biome",
+    "score": 0.6852936148643494,
+    "topicality": 0.6852936148643494
+  },
+  {
+    "mid": "/m/018ktp",
+    "description": "watercolor paint",
+    "score": 0.5271298289299011,
+    "topicality": 0.5271298289299011
+  }
+]

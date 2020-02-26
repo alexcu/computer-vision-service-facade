@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05_5t0l",
-      "description": "landmark",
-      "score": 0.9323904514312744,
-      "topicality": 0.9323904514312744
-    },
-    {
-      "mid": "/m/01d74z",
-      "description": "night",
-      "score": 0.9233483672142029,
-      "topicality": 0.9233483672142029
-    },
-    {
-      "mid": "/m/056mk",
-      "description": "metropolis",
-      "score": 0.879281222820282,
-      "topicality": 0.879281222820282
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.8726656436920166,
-      "topicality": 0.8726656436920166
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.8349619507789612,
-      "topicality": 0.8349619507789612
-    },
-    {
-      "mid": "/m/04k84",
-      "description": "light",
-      "score": 0.8222869038581848,
-      "topicality": 0.8222869038581848
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.8188431859016418,
-      "topicality": 0.8188431859016418
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.8145759105682373,
-      "topicality": 0.8145759105682373
-    },
-    {
-      "mid": "/m/04_5hy",
-      "description": "stage",
-      "score": 0.8046510219573975,
-      "topicality": 0.8046510219573975
-    },
-    {
-      "mid": "/m/02jjt",
-      "description": "entertainment",
-      "score": 0.7717764377593994,
-      "topicality": 0.7717764377593994
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05_5t0l",
+    "description": "landmark",
+    "score": 0.9323904514312744,
+    "topicality": 0.9323904514312744
+  },
+  {
+    "mid": "/m/01d74z",
+    "description": "night",
+    "score": 0.9233483672142029,
+    "topicality": 0.9233483672142029
+  },
+  {
+    "mid": "/m/056mk",
+    "description": "metropolis",
+    "score": 0.879281222820282,
+    "topicality": 0.879281222820282
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.8726656436920166,
+    "topicality": 0.8726656436920166
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.8349619507789612,
+    "topicality": 0.8349619507789612
+  },
+  {
+    "mid": "/m/04k84",
+    "description": "light",
+    "score": 0.8222869038581848,
+    "topicality": 0.8222869038581848
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.8188431859016418,
+    "topicality": 0.8188431859016418
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.8145759105682373,
+    "topicality": 0.8145759105682373
+  },
+  {
+    "mid": "/m/04_5hy",
+    "description": "stage",
+    "score": 0.8046510219573975,
+    "topicality": 0.8046510219573975
+  },
+  {
+    "mid": "/m/02jjt",
+    "description": "entertainment",
+    "score": 0.7717764377593994,
+    "topicality": 0.7717764377593994
+  }
+]

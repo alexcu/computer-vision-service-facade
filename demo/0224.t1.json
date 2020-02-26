@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02zh30",
-      "description": "path",
-      "score": 0.9196892380714417,
-      "topicality": 0.9196892380714417
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8888896703720093,
-      "topicality": 0.8888896703720093
-    },
-    {
-      "mid": "/m/023bbt",
-      "description": "wilderness",
-      "score": 0.8599924445152283,
-      "topicality": 0.8599924445152283
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.7923299074172974,
-      "topicality": 0.7923299074172974
-    },
-    {
-      "mid": "/m/0hm03",
-      "description": "trail",
-      "score": 0.748492419719696,
-      "topicality": 0.748492419719696
-    },
-    {
-      "mid": "/m/02zr8",
-      "description": "forest",
-      "score": 0.7375543713569641,
-      "topicality": 0.7375543713569641
-    },
-    {
-      "mid": "/m/021krv",
-      "description": "state park",
-      "score": 0.707191526889801,
-      "topicality": 0.707191526889801
-    },
-    {
-      "mid": "/m/083vt",
-      "description": "wood",
-      "score": 0.6119380593299866,
-      "topicality": 0.6119380593299866
-    },
-    {
-      "mid": "/m/0hnc1",
-      "description": "woodland",
-      "score": 0.6113801002502441,
-      "topicality": 0.6113801002502441
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.5742813944816589,
-      "topicality": 0.5742813944816589
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02zh30",
+    "description": "path",
+    "score": 0.9196892380714417,
+    "topicality": 0.9196892380714417
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8888896703720093,
+    "topicality": 0.8888896703720093
+  },
+  {
+    "mid": "/m/023bbt",
+    "description": "wilderness",
+    "score": 0.8599924445152283,
+    "topicality": 0.8599924445152283
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.7923299074172974,
+    "topicality": 0.7923299074172974
+  },
+  {
+    "mid": "/m/0hm03",
+    "description": "trail",
+    "score": 0.748492419719696,
+    "topicality": 0.748492419719696
+  },
+  {
+    "mid": "/m/02zr8",
+    "description": "forest",
+    "score": 0.7375543713569641,
+    "topicality": 0.7375543713569641
+  },
+  {
+    "mid": "/m/021krv",
+    "description": "state park",
+    "score": 0.707191526889801,
+    "topicality": 0.707191526889801
+  },
+  {
+    "mid": "/m/083vt",
+    "description": "wood",
+    "score": 0.6119380593299866,
+    "topicality": 0.6119380593299866
+  },
+  {
+    "mid": "/m/0hnc1",
+    "description": "woodland",
+    "score": 0.6113801002502441,
+    "topicality": 0.6113801002502441
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.5742813944816589,
+    "topicality": 0.5742813944816589
+  }
+]

@@ -1,22 +1,30 @@
 var category_data = null;
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  document.getElementById('benchmark-dataset').value = [
+  var default_dataset = [
     'https://picsum.photos/id/1025/800/600.jpg',
     'https://images.dog.ceo/breeds/pug/n02110958_10842.jpg',
     'https://cdn.shopify.com/s/files/1/2193/4553/products/pug_1400x.jpg'
   ].join('\n');
 
+  document.getElementById('benchmark-dataset').value = default_dataset;
+  document.getElementById('service').onchange = function (e) {
+    if (e.target.value == "demo") {
+      prefillDatasetWith("all");
+    } else {
+      document.getElementById('benchmark-dataset').value = default_dataset;
+    }
+  }
+
   document.getElementById('new-benchmark-form').onsubmit = submitNewBenchmarkForm;
-  document.getElementById('check-benchmark-form').onsubmit = submitCheckBenchmarkForm;
   document.getElementById('submit-request-form').onsubmit = submitRequestForm;
   document.getElementById('submit-request-image-uri').oninput = updateImagePreview;
-  document.getElementById('benchmark-callback-uri').value = '/callbacks/benchmark';
+  document.getElementById('benchmark-callback-uri').value = window.location.origin + '/callbacks/benchmark';
 
   document.getElementById('severity').onchange = function (e) {
     var el = document.getElementById('warning-callback-uri')
     var iswarn = e.target.value == 'warning';
-    el.value = iswarn ? '/callbacks/warning' : '';
+    el.value = iswarn ? window.location.origin + '/callbacks/warning' : '';
     el.required = iswarn;
     document.getElementById('warning-callback-uri-form-group').classList.toggle('required', iswarn);
   }
@@ -34,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 function prefillDatasetWith(type) {
   document.getElementById('benchmark-dataset').value = category_data[type].map(function (v) {
-    return "/demo/data/" + v + ".jpeg";
+    return window.location.origin + "/demo/data/" + v + ".jpeg";
   }).join("\n");
   if (type != 'all') {
     document.getElementById('expected-labels').value = type;
@@ -54,9 +62,24 @@ function randomImage() {
 }
 
 function randomTestImage(type) {
-  document.getElementById('submit-request-image-uri').value =
-    '/demo/random/' + type + '.jpg'
-  updateImagePreview();
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", window.location.origin + '/demo/random/' + type + '.jpg');
+  xhr.onreadystatechange = function (e) {
+    if (xhr.readyState == xhr.DONE) {
+      document.getElementById('submit-request-image-uri').value = xhr.responseURL;
+      updateImagePreview();
+    }
+  }
+  xhr.send();
+}
+
+function isJson(str) {
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return false;
+  }
+  return true;
 }
 
 function escapeHtml(unsafe) {
@@ -70,7 +93,7 @@ function escapeHtml(unsafe) {
 
 function xhr(method, to, resultDiv, data, headers) {
   var xhr = new XMLHttpRequest();
-  data = data == undefined ? '' : JSON.stringify(data);
+  data = data == undefined ? '' : JSON.stringify(data, null, 2);
   url = new URL(to, location)
   xhr.open(method, to, true);
   for (var header in headers) {
@@ -79,12 +102,16 @@ function xhr(method, to, resultDiv, data, headers) {
   xhr.setRequestHeader('Content-Type', 'application/json;charset=utf-8');
   xhr.onreadystatechange = function () {
     if (xhr.readyState == xhr.DONE) {
+      var resText = xhr.responseText;
+      if (isJson(resText)) {
+        resText = JSON.stringify(JSON.parse(resText), null, 2);
+      }
       resultDiv.innerHTML +=
         (data.length > 0 ? '\r\n\r\n' : '') +
         '<<<<<<<<<\r\n' +
         'HTTP/1.1 ' + xhr.status + ' ' + xhr.statusText + '\r\n' +
         xhr.getAllResponseHeaders() + '\r\n' +
-        escapeHtml(xhr.responseText);
+        escapeHtml(resText);
     }
   };
   xhr.send(data);
@@ -165,4 +192,29 @@ function submitRequestForm() {
   xhr('GET', '/labels?image=' + encodeURI(imageUri), results, null, headers);
 
   return false;
+}
+
+function triggerBenchmark(evolution = false) {
+  var id = document.getElementById('check-benchmark-benchmark-id').value;
+
+  if (isNaN(id) || id.trim().length == 0) {
+    return false;
+  }
+
+  var statusResults = document.getElementById('check-benchmark-status-results');
+  var logResults = document.getElementById('check-benchmark-log-results');
+  var patchPayloadData = {
+    is_benchmarking: true
+  }
+
+  if (evolution) {
+    patchPayloadData['flip_demo_timestamp'] = evolution;
+  }
+
+  xhr('GET', '/benchmark/' + id + '/log', logResults);
+  xhr('PATCH', '/benchmark/' + id, statusResults, patchPayloadData);
+}
+
+function triggerBenchmarkWithEvolution() {
+  triggerBenchmark(true);
 }

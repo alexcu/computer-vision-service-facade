@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.9045347571372986,
-      "topicality": 0.9045347571372986
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9012271165847778,
-      "topicality": 0.9012271165847778
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.8946694135665894,
-      "topicality": 0.8946694135665894
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8908902406692505,
-      "topicality": 0.8908902406692505
-    },
-    {
-      "mid": "/m/04_sv",
-      "description": "motorcycle",
-      "score": 0.8794978857040405,
-      "topicality": 0.8794978857040405
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8069474101066589,
-      "topicality": 0.8069474101066589
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8042545914649963,
-      "topicality": 0.8042545914649963
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.792295515537262,
-      "topicality": 0.792295515537262
-    },
-    {
-      "mid": "/m/0180xr",
-      "description": "neighbourhood",
-      "score": 0.7848086357116699,
-      "topicality": 0.7848086357116699
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.7423370480537415,
-      "topicality": 0.7423370480537415
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.9045347571372986,
+    "topicality": 0.9045347571372986
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9012271165847778,
+    "topicality": 0.9012271165847778
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.8946694135665894,
+    "topicality": 0.8946694135665894
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8908902406692505,
+    "topicality": 0.8908902406692505
+  },
+  {
+    "mid": "/m/04_sv",
+    "description": "motorcycle",
+    "score": 0.8794978857040405,
+    "topicality": 0.8794978857040405
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8069474101066589,
+    "topicality": 0.8069474101066589
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8042545914649963,
+    "topicality": 0.8042545914649963
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.792295515537262,
+    "topicality": 0.792295515537262
+  },
+  {
+    "mid": "/m/0180xr",
+    "description": "neighbourhood",
+    "score": 0.7848086357116699,
+    "topicality": 0.7848086357116699
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.7423370480537415,
+    "topicality": 0.7423370480537415
+  }
+]

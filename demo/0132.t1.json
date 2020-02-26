@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0krfg",
-      "description": "meal",
-      "score": 0.9120755791664124,
-      "topicality": 0.9120755791664124
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.8986096382141113,
-      "topicality": 0.8986096382141113
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.894367516040802,
-      "topicality": 0.894367516040802
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.873383104801178,
-      "topicality": 0.873383104801178
-    },
-    {
-      "mid": "/m/04brg2",
-      "description": "tableware",
-      "score": 0.7470200657844543,
-      "topicality": 0.7470200657844543
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.7100793123245239,
-      "topicality": 0.7100793123245239
-    },
-    {
-      "mid": "/m/0dw_m",
-      "description": "brunch",
-      "score": 0.5522999167442322,
-      "topicality": 0.5522999167442322
-    },
-    {
-      "mid": "/m/04bcr3",
-      "description": "table",
-      "score": 0.5478997826576233,
-      "topicality": 0.5478997826576233
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.5050390362739563,
-      "topicality": 0.5050390362739563
-    },
-    {
-      "mid": "/m/01r1z5",
-      "description": "asian food",
-      "score": 0.5041422843933105,
-      "topicality": 0.5041422843933105
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0krfg",
+    "description": "meal",
+    "score": 0.9120755791664124,
+    "topicality": 0.9120755791664124
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.8986096382141113,
+    "topicality": 0.8986096382141113
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.894367516040802,
+    "topicality": 0.894367516040802
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.873383104801178,
+    "topicality": 0.873383104801178
+  },
+  {
+    "mid": "/m/04brg2",
+    "description": "tableware",
+    "score": 0.7470200657844543,
+    "topicality": 0.7470200657844543
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.7100793123245239,
+    "topicality": 0.7100793123245239
+  },
+  {
+    "mid": "/m/0dw_m",
+    "description": "brunch",
+    "score": 0.5522999167442322,
+    "topicality": 0.5522999167442322
+  },
+  {
+    "mid": "/m/04bcr3",
+    "description": "table",
+    "score": 0.5478997826576233,
+    "topicality": 0.5478997826576233
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.5050390362739563,
+    "topicality": 0.5050390362739563
+  },
+  {
+    "mid": "/m/01r1z5",
+    "description": "asian food",
+    "score": 0.5041422843933105,
+    "topicality": 0.5041422843933105
+  }
+]

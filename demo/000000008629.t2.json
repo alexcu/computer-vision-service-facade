@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.9864208102226257,
-      "topicality": 0.9864208102226257
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9668610095977783,
-      "topicality": 0.9668610095977783
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.9629323482513428,
-      "topicality": 0.9629323482513428
-    },
-    {
-      "mid": "/m/07xgrh",
-      "description": "ingredient",
-      "score": 0.8654614090919495,
-      "topicality": 0.8654614090919495
-    },
-    {
-      "mid": "/m/01f79n",
-      "description": "quiche",
-      "score": 0.8562545776367188,
-      "topicality": 0.8562545776367188
-    },
-    {
-      "mid": "/m/052lwg6",
-      "description": "baked goods",
-      "score": 0.798771321773529,
-      "topicality": 0.798771321773529
-    },
-    {
-      "mid": "/m/04q6ng",
-      "description": "comfort food",
-      "score": 0.7505161762237549,
-      "topicality": 0.7505161762237549
-    },
-    {
-      "mid": "/m/0p57p",
-      "description": "recipe",
-      "score": 0.746128499507904,
-      "topicality": 0.746128499507904
-    },
-    {
-      "mid": "/m/09gpqv1",
-      "description": "flamiche",
-      "score": 0.7417436838150024,
-      "topicality": 0.7417436838150024
-    },
-    {
-      "mid": "/m/036qh8",
-      "description": "produce",
-      "score": 0.6698353290557861,
-      "topicality": 0.6698353290557861
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.9864208102226257,
+    "topicality": 0.9864208102226257
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9668610095977783,
+    "topicality": 0.9668610095977783
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.9629323482513428,
+    "topicality": 0.9629323482513428
+  },
+  {
+    "mid": "/m/07xgrh",
+    "description": "ingredient",
+    "score": 0.8654614090919495,
+    "topicality": 0.8654614090919495
+  },
+  {
+    "mid": "/m/01f79n",
+    "description": "quiche",
+    "score": 0.8562545776367188,
+    "topicality": 0.8562545776367188
+  },
+  {
+    "mid": "/m/052lwg6",
+    "description": "baked goods",
+    "score": 0.798771321773529,
+    "topicality": 0.798771321773529
+  },
+  {
+    "mid": "/m/04q6ng",
+    "description": "comfort food",
+    "score": 0.7505161762237549,
+    "topicality": 0.7505161762237549
+  },
+  {
+    "mid": "/m/0p57p",
+    "description": "recipe",
+    "score": 0.746128499507904,
+    "topicality": 0.746128499507904
+  },
+  {
+    "mid": "/m/09gpqv1",
+    "description": "flamiche",
+    "score": 0.7417436838150024,
+    "topicality": 0.7417436838150024
+  },
+  {
+    "mid": "/m/036qh8",
+    "description": "produce",
+    "score": 0.6698353290557861,
+    "topicality": 0.6698353290557861
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.8556573390960693,
-      "topicality": 0.8556573390960693
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8303635716438293,
-      "topicality": 0.8303635716438293
-    },
-    {
-      "mid": "/m/01jb4",
-      "description": "biome",
-      "score": 0.6785987615585327,
-      "topicality": 0.6785987615585327
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.6654875874519348,
-      "topicality": 0.6654875874519348
-    },
-    {
-      "mid": "/m/025s3q0",
-      "description": "landscape",
-      "score": 0.6367523074150085,
-      "topicality": 0.6367523074150085
-    },
-    {
-      "mid": "/m/06w1j5",
-      "description": "shrubland",
-      "score": 0.6342077255249023,
-      "topicality": 0.6342077255249023
-    },
-    {
-      "mid": "/m/036hv",
-      "description": "geology",
-      "score": 0.6127045154571533,
-      "topicality": 0.6127045154571533
-    },
-    {
-      "mid": "/m/021krv",
-      "description": "state park",
-      "score": 0.6119729280471802,
-      "topicality": 0.6119729280471802
-    },
-    {
-      "mid": "/m/0hnc1",
-      "description": "woodland",
-      "score": 0.5672621726989746,
-      "topicality": 0.5672621726989746
-    },
-    {
-      "mid": "/m/06600f2",
-      "description": "plant community",
-      "score": 0.5609033703804016,
-      "topicality": 0.5609033703804016
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.8556573390960693,
+    "topicality": 0.8556573390960693
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8303635716438293,
+    "topicality": 0.8303635716438293
+  },
+  {
+    "mid": "/m/01jb4",
+    "description": "biome",
+    "score": 0.6785987615585327,
+    "topicality": 0.6785987615585327
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.6654875874519348,
+    "topicality": 0.6654875874519348
+  },
+  {
+    "mid": "/m/025s3q0",
+    "description": "landscape",
+    "score": 0.6367523074150085,
+    "topicality": 0.6367523074150085
+  },
+  {
+    "mid": "/m/06w1j5",
+    "description": "shrubland",
+    "score": 0.6342077255249023,
+    "topicality": 0.6342077255249023
+  },
+  {
+    "mid": "/m/036hv",
+    "description": "geology",
+    "score": 0.6127045154571533,
+    "topicality": 0.6127045154571533
+  },
+  {
+    "mid": "/m/021krv",
+    "description": "state park",
+    "score": 0.6119729280471802,
+    "topicality": 0.6119729280471802
+  },
+  {
+    "mid": "/m/0hnc1",
+    "description": "woodland",
+    "score": 0.5672621726989746,
+    "topicality": 0.5672621726989746
+  },
+  {
+    "mid": "/m/06600f2",
+    "description": "plant community",
+    "score": 0.5609033703804016,
+    "topicality": 0.5609033703804016
+  }
+]

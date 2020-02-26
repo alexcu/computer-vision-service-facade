@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/017m8l",
-      "description": "waterway",
-      "score": 0.9451872110366821,
-      "topicality": 0.9451872110366821
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8927319645881653,
-      "topicality": 0.8927319645881653
-    },
-    {
-      "mid": "/m/06cnp",
-      "description": "river",
-      "score": 0.8834801912307739,
-      "topicality": 0.8834801912307739
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.8733556866645813,
-      "topicality": 0.8733556866645813
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.8212234973907471,
-      "topicality": 0.8212234973907471
-    },
-    {
-      "mid": "/m/093shy",
-      "description": "reservoir",
-      "score": 0.6849678754806519,
-      "topicality": 0.6849678754806519
-    },
-    {
-      "mid": "/m/04h4w",
-      "description": "lake",
-      "score": 0.6714558005332947,
-      "topicality": 0.6714558005332947
-    },
-    {
-      "mid": "/m/017rtb",
-      "description": "panorama",
-      "score": 0.6394795775413513,
-      "topicality": 0.6394795775413513
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6246010661125183,
-      "topicality": 0.6246010661125183
-    },
-    {
-      "mid": "/m/015s2f",
-      "description": "water resources",
-      "score": 0.6174015402793884,
-      "topicality": 0.6174015402793884
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/017m8l",
+    "description": "waterway",
+    "score": 0.9451872110366821,
+    "topicality": 0.9451872110366821
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8927319645881653,
+    "topicality": 0.8927319645881653
+  },
+  {
+    "mid": "/m/06cnp",
+    "description": "river",
+    "score": 0.8834801912307739,
+    "topicality": 0.8834801912307739
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.8733556866645813,
+    "topicality": 0.8733556866645813
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.8212234973907471,
+    "topicality": 0.8212234973907471
+  },
+  {
+    "mid": "/m/093shy",
+    "description": "reservoir",
+    "score": 0.6849678754806519,
+    "topicality": 0.6849678754806519
+  },
+  {
+    "mid": "/m/04h4w",
+    "description": "lake",
+    "score": 0.6714558005332947,
+    "topicality": 0.6714558005332947
+  },
+  {
+    "mid": "/m/017rtb",
+    "description": "panorama",
+    "score": 0.6394795775413513,
+    "topicality": 0.6394795775413513
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6246010661125183,
+    "topicality": 0.6246010661125183
+  },
+  {
+    "mid": "/m/015s2f",
+    "description": "water resources",
+    "score": 0.6174015402793884,
+    "topicality": 0.6174015402793884
+  }
+]

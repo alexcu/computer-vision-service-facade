@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/05qdh",
-      "description": "painting",
-      "score": 0.9054957628250122,
-      "topicality": 0.9054957628250122
-    },
-    {
-      "mid": "/m/06z37_",
-      "description": "picture frame",
-      "score": 0.8890030384063721,
-      "topicality": 0.8890030384063721
-    },
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.7814725041389465,
-      "topicality": 0.7814725041389465
-    },
-    {
-      "mid": "/m/036jvk",
-      "description": "stock photography",
-      "score": 0.7457039952278137,
-      "topicality": 0.7457039952278137
-    },
-    {
-      "mid": "/m/04zhd",
-      "description": "mythology",
-      "score": 0.6442607641220093,
-      "topicality": 0.6442607641220093
-    },
-    {
-      "mid": "/m/04rd7",
-      "description": "mural",
-      "score": 0.6171280145645142,
-      "topicality": 0.6171280145645142
-    },
-    {
-      "mid": "/m/0hhbr",
-      "description": "art gallery",
-      "score": 0.5839232802391052,
-      "topicality": 0.5839232802391052
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.5813664197921753,
-      "topicality": 0.5813664197921753
-    },
-    {
-      "mid": "/m/0p9xx",
-      "description": "visual arts",
-      "score": 0.5502874255180359,
-      "topicality": 0.5502874255180359
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/05qdh",
+    "description": "painting",
+    "score": 0.9054957628250122,
+    "topicality": 0.9054957628250122
+  },
+  {
+    "mid": "/m/06z37_",
+    "description": "picture frame",
+    "score": 0.8890030384063721,
+    "topicality": 0.8890030384063721
+  },
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.7814725041389465,
+    "topicality": 0.7814725041389465
+  },
+  {
+    "mid": "/m/036jvk",
+    "description": "stock photography",
+    "score": 0.7457039952278137,
+    "topicality": 0.7457039952278137
+  },
+  {
+    "mid": "/m/04zhd",
+    "description": "mythology",
+    "score": 0.6442607641220093,
+    "topicality": 0.6442607641220093
+  },
+  {
+    "mid": "/m/04rd7",
+    "description": "mural",
+    "score": 0.6171280145645142,
+    "topicality": 0.6171280145645142
+  },
+  {
+    "mid": "/m/0hhbr",
+    "description": "art gallery",
+    "score": 0.5839232802391052,
+    "topicality": 0.5839232802391052
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.5813664197921753,
+    "topicality": 0.5813664197921753
+  },
+  {
+    "mid": "/m/0p9xx",
+    "description": "visual arts",
+    "score": 0.5502874255180359,
+    "topicality": 0.5502874255180359
+  }
+]

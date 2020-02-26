@@ -1,16 +1,14 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.59281325340271,
-      "topicality": 0.59281325340271
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.5045450329780579,
-      "topicality": 0.5045450329780579
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.59281325340271,
+    "topicality": 0.59281325340271
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.5045450329780579,
+    "topicality": 0.5045450329780579
+  }
+]

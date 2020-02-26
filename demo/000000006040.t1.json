@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07kfm",
-      "description": "tram",
-      "score": 0.9443065524101257,
-      "topicality": 0.9443065524101257
-    },
-    {
-      "mid": "/m/07bsy",
-      "description": "transport",
-      "score": 0.9161645770072937,
-      "topicality": 0.9161645770072937
-    },
-    {
-      "mid": "/m/079bkr",
-      "description": "mode of transport",
-      "score": 0.8752450942993164,
-      "topicality": 0.8752450942993164
-    },
-    {
-      "mid": "/m/0j_s4",
-      "description": "metropolitan area",
-      "score": 0.8508074879646301,
-      "topicality": 0.8508074879646301
-    },
-    {
-      "mid": "/m/05zdp",
-      "description": "public transport",
-      "score": 0.8085628151893616,
-      "topicality": 0.8085628151893616
-    },
-    {
-      "mid": "/m/0195fx",
-      "description": "rapid transit",
-      "score": 0.6726981401443481,
-      "topicality": 0.6726981401443481
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.6309782266616821,
-      "topicality": 0.6309782266616821
-    },
-    {
-      "mid": "/m/01g50p",
-      "description": "railroad car",
-      "score": 0.6277157068252563,
-      "topicality": 0.6277157068252563
-    },
-    {
-      "mid": "/m/025s53m",
-      "description": "rolling stock",
-      "score": 0.5968483090400696,
-      "topicality": 0.5968483090400696
-    },
-    {
-      "mid": "/m/07jdr",
-      "description": "train",
-      "score": 0.581582248210907,
-      "topicality": 0.581582248210907
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07kfm",
+    "description": "tram",
+    "score": 0.9443065524101257,
+    "topicality": 0.9443065524101257
+  },
+  {
+    "mid": "/m/07bsy",
+    "description": "transport",
+    "score": 0.9161645770072937,
+    "topicality": 0.9161645770072937
+  },
+  {
+    "mid": "/m/079bkr",
+    "description": "mode of transport",
+    "score": 0.8752450942993164,
+    "topicality": 0.8752450942993164
+  },
+  {
+    "mid": "/m/0j_s4",
+    "description": "metropolitan area",
+    "score": 0.8508074879646301,
+    "topicality": 0.8508074879646301
+  },
+  {
+    "mid": "/m/05zdp",
+    "description": "public transport",
+    "score": 0.8085628151893616,
+    "topicality": 0.8085628151893616
+  },
+  {
+    "mid": "/m/0195fx",
+    "description": "rapid transit",
+    "score": 0.6726981401443481,
+    "topicality": 0.6726981401443481
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.6309782266616821,
+    "topicality": 0.6309782266616821
+  },
+  {
+    "mid": "/m/01g50p",
+    "description": "railroad car",
+    "score": 0.6277157068252563,
+    "topicality": 0.6277157068252563
+  },
+  {
+    "mid": "/m/025s53m",
+    "description": "rolling stock",
+    "score": 0.5968483090400696,
+    "topicality": 0.5968483090400696
+  },
+  {
+    "mid": "/m/07jdr",
+    "description": "train",
+    "score": 0.581582248210907,
+    "topicality": 0.581582248210907
+  }
+]

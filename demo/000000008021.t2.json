@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/081pkj",
-      "description": "event",
-      "score": 0.8051171898841858,
-      "topicality": 0.8051171898841858
-    },
-    {
-      "mid": "/m/068k4",
-      "description": "public speaking",
-      "score": 0.7768301367759705,
-      "topicality": 0.7768301367759705
-    },
-    {
-      "mid": "/m/029zz6",
-      "description": "display device",
-      "score": 0.7718707919120789,
-      "topicality": 0.7718707919120789
-    },
-    {
-      "mid": "/m/02cwm",
-      "description": "design",
-      "score": 0.7375450134277344,
-      "topicality": 0.7375450134277344
-    },
-    {
-      "mid": "/m/09cynt",
-      "description": "convention",
-      "score": 0.7342662215232849,
-      "topicality": 0.7342662215232849
-    },
-    {
-      "mid": "/m/07c1v",
-      "description": "technology",
-      "score": 0.7120628952980042,
-      "topicality": 0.7120628952980042
-    },
-    {
-      "mid": "/m/03qh03g",
-      "description": "media",
-      "score": 0.6868262887001038,
-      "topicality": 0.6868262887001038
-    },
-    {
-      "mid": "/m/03r_vp",
-      "description": "adaptation",
-      "score": 0.6696612238883972,
-      "topicality": 0.6696612238883972
-    },
-    {
-      "mid": "/m/0bs7_0t",
-      "description": "electronic device",
-      "score": 0.6612973213195801,
-      "topicality": 0.6612973213195801
-    },
-    {
-      "mid": "/m/0hpjt",
-      "description": "orator",
-      "score": 0.6092771887779236,
-      "topicality": 0.6092771887779236
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/081pkj",
+    "description": "event",
+    "score": 0.8051171898841858,
+    "topicality": 0.8051171898841858
+  },
+  {
+    "mid": "/m/068k4",
+    "description": "public speaking",
+    "score": 0.7768301367759705,
+    "topicality": 0.7768301367759705
+  },
+  {
+    "mid": "/m/029zz6",
+    "description": "display device",
+    "score": 0.7718707919120789,
+    "topicality": 0.7718707919120789
+  },
+  {
+    "mid": "/m/02cwm",
+    "description": "design",
+    "score": 0.7375450134277344,
+    "topicality": 0.7375450134277344
+  },
+  {
+    "mid": "/m/09cynt",
+    "description": "convention",
+    "score": 0.7342662215232849,
+    "topicality": 0.7342662215232849
+  },
+  {
+    "mid": "/m/07c1v",
+    "description": "technology",
+    "score": 0.7120628952980042,
+    "topicality": 0.7120628952980042
+  },
+  {
+    "mid": "/m/03qh03g",
+    "description": "media",
+    "score": 0.6868262887001038,
+    "topicality": 0.6868262887001038
+  },
+  {
+    "mid": "/m/03r_vp",
+    "description": "adaptation",
+    "score": 0.6696612238883972,
+    "topicality": 0.6696612238883972
+  },
+  {
+    "mid": "/m/0bs7_0t",
+    "description": "electronic device",
+    "score": 0.6612973213195801,
+    "topicality": 0.6612973213195801
+  },
+  {
+    "mid": "/m/0hpjt",
+    "description": "orator",
+    "score": 0.6092771887779236,
+    "topicality": 0.6092771887779236
+  }
+]

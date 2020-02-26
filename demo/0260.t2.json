@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/038hg",
-      "description": "green",
-      "score": 0.9407991766929626,
-      "topicality": 0.9407991766929626
-    },
-    {
-      "mid": "/m/03fp41",
-      "description": "houseplant",
-      "score": 0.9195058941841125,
-      "topicality": 0.9195058941841125
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.8731867074966431,
-      "topicality": 0.8731867074966431
-    },
-    {
-      "mid": "/m/01bwr",
-      "description": "botany",
-      "score": 0.8219682574272156,
-      "topicality": 0.8219682574272156
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.8058615326881409,
-      "topicality": 0.8058615326881409
-    },
-    {
-      "mid": "/m/0c9ph5",
-      "description": "flower",
-      "score": 0.7217335104942322,
-      "topicality": 0.7217335104942322
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.6869218349456787,
-      "topicality": 0.6869218349456787
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.6545118689537048,
-      "topicality": 0.6545118689537048
-    },
-    {
-      "mid": "/m/0hn6w",
-      "description": "vascular plant",
-      "score": 0.5506042242050171,
-      "topicality": 0.5506042242050171
-    },
-    {
-      "mid": "/m/0cdl1",
-      "description": "palm tree",
-      "score": 0.5201168656349182,
-      "topicality": 0.5201168656349182
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/038hg",
+    "description": "green",
+    "score": 0.9407991766929626,
+    "topicality": 0.9407991766929626
+  },
+  {
+    "mid": "/m/03fp41",
+    "description": "houseplant",
+    "score": 0.9195058941841125,
+    "topicality": 0.9195058941841125
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.8731867074966431,
+    "topicality": 0.8731867074966431
+  },
+  {
+    "mid": "/m/01bwr",
+    "description": "botany",
+    "score": 0.8219682574272156,
+    "topicality": 0.8219682574272156
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.8058615326881409,
+    "topicality": 0.8058615326881409
+  },
+  {
+    "mid": "/m/0c9ph5",
+    "description": "flower",
+    "score": 0.7217335104942322,
+    "topicality": 0.7217335104942322
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.6869218349456787,
+    "topicality": 0.6869218349456787
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.6545118689537048,
+    "topicality": 0.6545118689537048
+  },
+  {
+    "mid": "/m/0hn6w",
+    "description": "vascular plant",
+    "score": 0.5506042242050171,
+    "topicality": 0.5506042242050171
+  },
+  {
+    "mid": "/m/0cdl1",
+    "description": "palm tree",
+    "score": 0.5201168656349182,
+    "topicality": 0.5201168656349182
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.9113913178443909,
-      "topicality": 0.9113913178443909
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.9093667268753052,
-      "topicality": 0.9093667268753052
-    },
-    {
-      "mid": "/m/05wrt",
-      "description": "property",
-      "score": 0.8800742030143738,
-      "topicality": 0.8800742030143738
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.8686530590057373,
-      "topicality": 0.8686530590057373
-    },
-    {
-      "mid": "/m/01_x9",
-      "description": "campus",
-      "score": 0.8590180277824402,
-      "topicality": 0.8590180277824402
-    },
-    {
-      "mid": "/m/01lqfm",
-      "description": "public space",
-      "score": 0.8541156649589539,
-      "topicality": 0.8541156649589539
-    },
-    {
-      "mid": "/m/09t49",
-      "description": "leaf",
-      "score": 0.8058615326881409,
-      "topicality": 0.8058615326881409
-    },
-    {
-      "mid": "/m/01txr2",
-      "description": "spring",
-      "score": 0.7775745391845703,
-      "topicality": 0.7775745391845703
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.7636188268661499,
-      "topicality": 0.7636188268661499
-    },
-    {
-      "mid": "/m/02p0qmm",
-      "description": "college",
-      "score": 0.762256920337677,
-      "topicality": 0.762256920337677
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.9113913178443909,
+    "topicality": 0.9113913178443909
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.9093667268753052,
+    "topicality": 0.9093667268753052
+  },
+  {
+    "mid": "/m/05wrt",
+    "description": "property",
+    "score": 0.8800742030143738,
+    "topicality": 0.8800742030143738
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.8686530590057373,
+    "topicality": 0.8686530590057373
+  },
+  {
+    "mid": "/m/01_x9",
+    "description": "campus",
+    "score": 0.8590180277824402,
+    "topicality": 0.8590180277824402
+  },
+  {
+    "mid": "/m/01lqfm",
+    "description": "public space",
+    "score": 0.8541156649589539,
+    "topicality": 0.8541156649589539
+  },
+  {
+    "mid": "/m/09t49",
+    "description": "leaf",
+    "score": 0.8058615326881409,
+    "topicality": 0.8058615326881409
+  },
+  {
+    "mid": "/m/01txr2",
+    "description": "spring",
+    "score": 0.7775745391845703,
+    "topicality": 0.7775745391845703
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.7636188268661499,
+    "topicality": 0.7636188268661499
+  },
+  {
+    "mid": "/m/02p0qmm",
+    "description": "college",
+    "score": 0.762256920337677,
+    "topicality": 0.762256920337677
+  }
+]

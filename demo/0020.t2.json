@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01k17j",
-      "description": "milkshake",
-      "score": 0.9567220211029053,
-      "topicality": 0.9567220211029053,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.9508603811264038,
-      "topicality": 0.9508603811264038,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0271t",
-      "description": "drink",
-      "score": 0.9461467266082764,
-      "topicality": 0.9461467266082764,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/058hry",
-      "description": "smoothie",
-      "score": 0.9414961934089661,
-      "topicality": 0.9414961934089661,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0cp0f9s",
-      "description": "health shake",
-      "score": 0.9041644930839539,
-      "topicality": 0.9041644930839539,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/05n1hzw",
-      "description": "batida",
-      "score": 0.8616814017295837,
-      "topicality": 0.8616814017295837,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01fklc",
-      "description": "pink",
-      "score": 0.8449604511260986,
-      "topicality": 0.8449604511260986,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0dpj6t",
-      "description": "non-alcoholic beverage",
-      "score": 0.8365973234176636,
-      "topicality": 0.8365973234176636,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0270h",
-      "description": "dessert",
-      "score": 0.7624396085739136,
-      "topicality": 0.7624396085739136,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0684hw",
-      "description": "falooda",
-      "score": 0.7463536262512207,
-      "topicality": 0.7463536262512207,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01k17j",
+    "description": "milkshake",
+    "score": 0.9567220211029053,
+    "topicality": 0.9567220211029053,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.9508603811264038,
+    "topicality": 0.9508603811264038,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0271t",
+    "description": "drink",
+    "score": 0.9461467266082764,
+    "topicality": 0.9461467266082764,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/058hry",
+    "description": "smoothie",
+    "score": 0.9414961934089661,
+    "topicality": 0.9414961934089661,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0cp0f9s",
+    "description": "health shake",
+    "score": 0.9041644930839539,
+    "topicality": 0.9041644930839539,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/05n1hzw",
+    "description": "batida",
+    "score": 0.8616814017295837,
+    "topicality": 0.8616814017295837,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01fklc",
+    "description": "pink",
+    "score": 0.8449604511260986,
+    "topicality": 0.8449604511260986,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0dpj6t",
+    "description": "non-alcoholic beverage",
+    "score": 0.8365973234176636,
+    "topicality": 0.8365973234176636,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0270h",
+    "description": "dessert",
+    "score": 0.7624396085739136,
+    "topicality": 0.7624396085739136,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0684hw",
+    "description": "falooda",
+    "score": 0.7463536262512207,
+    "topicality": 0.7463536262512207,
+    "bounding_poly": {}
+  }
+]

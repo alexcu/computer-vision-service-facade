@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.8879677057266235,
-      "topicality": 0.8879677057266235,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.8655388355255127,
-      "topicality": 0.8655388355255127,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8501737713813782,
-      "topicality": 0.8501737713813782,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0180xr",
-      "description": "neighbourhood",
-      "score": 0.8474065065383911,
-      "topicality": 0.8474065065383911,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8015407919883728,
-      "topicality": 0.8015407919883728,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01lwf0",
-      "description": "alley",
-      "score": 0.7437734007835388,
-      "topicality": 0.7437734007835388,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.7436434626579285,
-      "topicality": 0.7436434626579285,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/017kvv",
-      "description": "infrastructure",
-      "score": 0.7313721776008606,
-      "topicality": 0.7313721776008606,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/07bxq",
-      "description": "tourism",
-      "score": 0.6617092490196228,
-      "topicality": 0.6617092490196228,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01n32",
-      "description": "city",
-      "score": 0.6420290470123291,
-      "topicality": 0.6420290470123291,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.8879677057266235,
+    "topicality": 0.8879677057266235,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.8655388355255127,
+    "topicality": 0.8655388355255127,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8501737713813782,
+    "topicality": 0.8501737713813782,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0180xr",
+    "description": "neighbourhood",
+    "score": 0.8474065065383911,
+    "topicality": 0.8474065065383911,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8015407919883728,
+    "topicality": 0.8015407919883728,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01lwf0",
+    "description": "alley",
+    "score": 0.7437734007835388,
+    "topicality": 0.7437734007835388,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.7436434626579285,
+    "topicality": 0.7436434626579285,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/017kvv",
+    "description": "infrastructure",
+    "score": 0.7313721776008606,
+    "topicality": 0.7313721776008606,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/07bxq",
+    "description": "tourism",
+    "score": 0.6617092490196228,
+    "topicality": 0.6617092490196228,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01n32",
+    "description": "city",
+    "score": 0.6420290470123291,
+    "topicality": 0.6420290470123291,
+    "bounding_poly": {}
+  }
+]

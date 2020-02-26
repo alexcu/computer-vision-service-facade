@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/08tlbj",
-      "description": "natural foods",
-      "score": 0.9936100840568542,
-      "topicality": 0.9936100840568542
-    },
-    {
-      "mid": "/m/013xk6",
-      "description": "banana family",
-      "score": 0.9792479276657104,
-      "topicality": 0.9792479276657104
-    },
-    {
-      "mid": "/m/09qck",
-      "description": "banana",
-      "score": 0.970344066619873,
-      "topicality": 0.970344066619873
-    },
-    {
-      "mid": "/m/02xwb",
-      "description": "fruit",
-      "score": 0.9471133947372437,
-      "topicality": 0.9471133947372437
-    },
-    {
-      "mid": "/m/027_ny3",
-      "description": "still life photography",
-      "score": 0.9285140633583069,
-      "topicality": 0.9285140633583069
-    },
-    {
-      "mid": "/m/01hxyd",
-      "description": "local food",
-      "score": 0.9251117706298828,
-      "topicality": 0.9251117706298828
-    },
-    {
-      "mid": "/m/0jhmw",
-      "description": "accessory fruit",
-      "score": 0.9068830609321594,
-      "topicality": 0.9068830609321594
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.8646729588508606,
-      "topicality": 0.8646729588508606
-    },
-    {
-      "mid": "/m/088fh",
-      "description": "yellow",
-      "score": 0.8363301753997803,
-      "topicality": 0.8363301753997803
-    },
-    {
-      "mid": "/m/04jdhxy",
-      "description": "superfood",
-      "score": 0.8270129561424255,
-      "topicality": 0.8270129561424255
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/08tlbj",
+    "description": "natural foods",
+    "score": 0.9936100840568542,
+    "topicality": 0.9936100840568542
+  },
+  {
+    "mid": "/m/013xk6",
+    "description": "banana family",
+    "score": 0.9792479276657104,
+    "topicality": 0.9792479276657104
+  },
+  {
+    "mid": "/m/09qck",
+    "description": "banana",
+    "score": 0.970344066619873,
+    "topicality": 0.970344066619873
+  },
+  {
+    "mid": "/m/02xwb",
+    "description": "fruit",
+    "score": 0.9471133947372437,
+    "topicality": 0.9471133947372437
+  },
+  {
+    "mid": "/m/027_ny3",
+    "description": "still life photography",
+    "score": 0.9285140633583069,
+    "topicality": 0.9285140633583069
+  },
+  {
+    "mid": "/m/01hxyd",
+    "description": "local food",
+    "score": 0.9251117706298828,
+    "topicality": 0.9251117706298828
+  },
+  {
+    "mid": "/m/0jhmw",
+    "description": "accessory fruit",
+    "score": 0.9068830609321594,
+    "topicality": 0.9068830609321594
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.8646729588508606,
+    "topicality": 0.8646729588508606
+  },
+  {
+    "mid": "/m/088fh",
+    "description": "yellow",
+    "score": 0.8363301753997803,
+    "topicality": 0.8363301753997803
+  },
+  {
+    "mid": "/m/04jdhxy",
+    "description": "superfood",
+    "score": 0.8270129561424255,
+    "topicality": 0.8270129561424255
+  }
+]

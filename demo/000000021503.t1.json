@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0dv34",
-      "description": "baking",
-      "score": 0.7929918766021729,
-      "topicality": 0.7929918766021729
-    },
-    {
-      "mid": "/m/02wbm",
-      "description": "food",
-      "score": 0.6895099878311157,
-      "topicality": 0.6895099878311157
-    },
-    {
-      "mid": "/m/01ykh",
-      "description": "cuisine",
-      "score": 0.6558294892311096,
-      "topicality": 0.6558294892311096
-    },
-    {
-      "mid": "/m/07hr9x",
-      "description": "flatbread",
-      "score": 0.5881878733634949,
-      "topicality": 0.5881878733634949
-    },
-    {
-      "mid": "/m/052lwg6",
-      "description": "baked goods",
-      "score": 0.5587638020515442,
-      "topicality": 0.5587638020515442
-    },
-    {
-      "mid": "/m/01nkt",
-      "description": "cheese",
-      "score": 0.534514307975769,
-      "topicality": 0.534514307975769
-    },
-    {
-      "mid": "/m/02q08p0",
-      "description": "dish",
-      "score": 0.5310462117195129,
-      "topicality": 0.5310462117195129
-    },
-    {
-      "mid": "/m/0b3dyl",
-      "description": "finger food",
-      "score": 0.5062636733055115,
-      "topicality": 0.5062636733055115
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0dv34",
+    "description": "baking",
+    "score": 0.7929918766021729,
+    "topicality": 0.7929918766021729
+  },
+  {
+    "mid": "/m/02wbm",
+    "description": "food",
+    "score": 0.6895099878311157,
+    "topicality": 0.6895099878311157
+  },
+  {
+    "mid": "/m/01ykh",
+    "description": "cuisine",
+    "score": 0.6558294892311096,
+    "topicality": 0.6558294892311096
+  },
+  {
+    "mid": "/m/07hr9x",
+    "description": "flatbread",
+    "score": 0.5881878733634949,
+    "topicality": 0.5881878733634949
+  },
+  {
+    "mid": "/m/052lwg6",
+    "description": "baked goods",
+    "score": 0.5587638020515442,
+    "topicality": 0.5587638020515442
+  },
+  {
+    "mid": "/m/01nkt",
+    "description": "cheese",
+    "score": 0.534514307975769,
+    "topicality": 0.534514307975769
+  },
+  {
+    "mid": "/m/02q08p0",
+    "description": "dish",
+    "score": 0.5310462117195129,
+    "topicality": 0.5310462117195129
+  },
+  {
+    "mid": "/m/0b3dyl",
+    "description": "finger food",
+    "score": 0.5062636733055115,
+    "topicality": 0.5062636733055115
+  }
+]

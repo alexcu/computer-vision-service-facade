@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.8856949210166931,
-      "topicality": 0.8856949210166931,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03d1rd",
-      "description": "ruins",
-      "score": 0.8555284738540649,
-      "topicality": 0.8555284738540649,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.8388379216194153,
-      "topicality": 0.8388379216194153,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.8165667057037354,
-      "topicality": 0.8165667057037354,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.7632943391799927,
-      "topicality": 0.7632943391799927,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03k5cs",
-      "description": "formation",
-      "score": 0.733099102973938,
-      "topicality": 0.733099102973938,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.6990000009536743,
-      "topicality": 0.6990000009536743,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01cbzq",
-      "description": "rock",
-      "score": 0.6981205940246582,
-      "topicality": 0.6981205940246582,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.6496437191963196,
-      "topicality": 0.6496437191963196,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/08g_yr",
-      "description": "temple",
-      "score": 0.6256434917449951,
-      "topicality": 0.6256434917449951,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.8856949210166931,
+    "topicality": 0.8856949210166931,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03d1rd",
+    "description": "ruins",
+    "score": 0.8555284738540649,
+    "topicality": 0.8555284738540649,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.8388379216194153,
+    "topicality": 0.8388379216194153,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.8165667057037354,
+    "topicality": 0.8165667057037354,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.7632943391799927,
+    "topicality": 0.7632943391799927,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03k5cs",
+    "description": "formation",
+    "score": 0.733099102973938,
+    "topicality": 0.733099102973938,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.6990000009536743,
+    "topicality": 0.6990000009536743,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01cbzq",
+    "description": "rock",
+    "score": 0.6981205940246582,
+    "topicality": 0.6981205940246582,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.6496437191963196,
+    "topicality": 0.6496437191963196,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/08g_yr",
+    "description": "temple",
+    "score": 0.6256434917449951,
+    "topicality": 0.6256434917449951,
+    "bounding_poly": {}
+  }
+]

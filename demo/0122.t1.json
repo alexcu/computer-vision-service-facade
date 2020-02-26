@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.7547615170478821,
-      "topicality": 0.7547615170478821
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.751185953617096,
-      "topicality": 0.751185953617096
-    },
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.7495871186256409,
-      "topicality": 0.7495871186256409
-    },
-    {
-      "mid": "/m/027dwg0",
-      "description": "lobby",
-      "score": 0.7017329335212708,
-      "topicality": 0.7017329335212708
-    },
-    {
-      "mid": "/m/025s8bs",
-      "description": "shopping mall",
-      "score": 0.6372717022895813,
-      "topicality": 0.6372717022895813
-    },
-    {
-      "mid": "/m/0k2n5",
-      "description": "daylighting",
-      "score": 0.5945882797241211,
-      "topicality": 0.5945882797241211
-    },
-    {
-      "mid": "/m/0191_7",
-      "description": "retail",
-      "score": 0.5566433072090149,
-      "topicality": 0.5566433072090149
-    },
-    {
-      "mid": "/m/07cqtx",
-      "description": "leisure centre",
-      "score": 0.514523446559906,
-      "topicality": 0.514523446559906
-    },
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.5041950345039368,
-      "topicality": 0.5041950345039368
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.7547615170478821,
+    "topicality": 0.7547615170478821
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.751185953617096,
+    "topicality": 0.751185953617096
+  },
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.7495871186256409,
+    "topicality": 0.7495871186256409
+  },
+  {
+    "mid": "/m/027dwg0",
+    "description": "lobby",
+    "score": 0.7017329335212708,
+    "topicality": 0.7017329335212708
+  },
+  {
+    "mid": "/m/025s8bs",
+    "description": "shopping mall",
+    "score": 0.6372717022895813,
+    "topicality": 0.6372717022895813
+  },
+  {
+    "mid": "/m/0k2n5",
+    "description": "daylighting",
+    "score": 0.5945882797241211,
+    "topicality": 0.5945882797241211
+  },
+  {
+    "mid": "/m/0191_7",
+    "description": "retail",
+    "score": 0.5566433072090149,
+    "topicality": 0.5566433072090149
+  },
+  {
+    "mid": "/m/07cqtx",
+    "description": "leisure centre",
+    "score": 0.514523446559906,
+    "topicality": 0.514523446559906
+  },
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.5041950345039368,
+    "topicality": 0.5041950345039368
+  }
+]

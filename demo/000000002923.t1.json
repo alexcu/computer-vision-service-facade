@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01c7cq",
-      "description": "grassland",
-      "score": 0.9303678870201111,
-      "topicality": 0.9303678870201111
-    },
-    {
-      "mid": "/m/0brn2d",
-      "description": "field",
-      "score": 0.9259597063064575,
-      "topicality": 0.9259597063064575
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.9131725430488586,
-      "topicality": 0.9131725430488586
-    },
-    {
-      "mid": "/m/05sm1",
-      "description": "plain",
-      "score": 0.8410033583641052,
-      "topicality": 0.8410033583641052
-    },
-    {
-      "mid": "/m/016nsr",
-      "description": "marsh",
-      "score": 0.8198923468589783,
-      "topicality": 0.8198923468589783
-    },
-    {
-      "mid": "/m/0hkvx",
-      "description": "prairie",
-      "score": 0.8087729215621948,
-      "topicality": 0.8087729215621948
-    },
-    {
-      "mid": "/m/02mm_",
-      "description": "energy",
-      "score": 0.8077133297920227,
-      "topicality": 0.8077133297920227
-    },
-    {
-      "mid": "/m/0csby",
-      "description": "cloud",
-      "score": 0.7960049510002136,
-      "topicality": 0.7960049510002136
-    },
-    {
-      "mid": "/m/08t9c_",
-      "description": "grass",
-      "score": 0.7806957960128784,
-      "topicality": 0.7806957960128784
-    },
-    {
-      "mid": "/m/0pvlz",
-      "description": "wetland",
-      "score": 0.7447271347045898,
-      "topicality": 0.7447271347045898
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01c7cq",
+    "description": "grassland",
+    "score": 0.9303678870201111,
+    "topicality": 0.9303678870201111
+  },
+  {
+    "mid": "/m/0brn2d",
+    "description": "field",
+    "score": 0.9259597063064575,
+    "topicality": 0.9259597063064575
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.9131725430488586,
+    "topicality": 0.9131725430488586
+  },
+  {
+    "mid": "/m/05sm1",
+    "description": "plain",
+    "score": 0.8410033583641052,
+    "topicality": 0.8410033583641052
+  },
+  {
+    "mid": "/m/016nsr",
+    "description": "marsh",
+    "score": 0.8198923468589783,
+    "topicality": 0.8198923468589783
+  },
+  {
+    "mid": "/m/0hkvx",
+    "description": "prairie",
+    "score": 0.8087729215621948,
+    "topicality": 0.8087729215621948
+  },
+  {
+    "mid": "/m/02mm_",
+    "description": "energy",
+    "score": 0.8077133297920227,
+    "topicality": 0.8077133297920227
+  },
+  {
+    "mid": "/m/0csby",
+    "description": "cloud",
+    "score": 0.7960049510002136,
+    "topicality": 0.7960049510002136
+  },
+  {
+    "mid": "/m/08t9c_",
+    "description": "grass",
+    "score": 0.7806957960128784,
+    "topicality": 0.7806957960128784
+  },
+  {
+    "mid": "/m/0pvlz",
+    "description": "wetland",
+    "score": 0.7447271347045898,
+    "topicality": 0.7447271347045898
+  }
+]

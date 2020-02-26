@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0k4j",
-      "description": "car",
-      "score": 0.9812734127044678,
-      "topicality": 0.9812734127044678
-    },
-    {
-      "mid": "/m/01prls",
-      "description": "land vehicle",
-      "score": 0.9688422083854675,
-      "topicality": 0.9688422083854675
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.936739981174469,
-      "topicality": 0.936739981174469
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.8722216486930847,
-      "topicality": 0.8722216486930847
-    },
-    {
-      "mid": "/m/017kvv",
-      "description": "infrastructure",
-      "score": 0.8574248552322388,
-      "topicality": 0.8574248552322388
-    },
-    {
-      "mid": "/m/01c8br",
-      "description": "street",
-      "score": 0.8544563055038452,
-      "topicality": 0.8544563055038452
-    },
-    {
-      "mid": "/m/04_sv",
-      "description": "motorcycle",
-      "score": 0.6439825296401978,
-      "topicality": 0.6439825296401978
-    },
-    {
-      "mid": "/m/01r_pn",
-      "description": "race track",
-      "score": 0.6168532967567444,
-      "topicality": 0.6168532967567444
-    },
-    {
-      "mid": "/m/06d4_",
-      "description": "race",
-      "score": 0.5680708885192871,
-      "topicality": 0.5680708885192871
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.5452627539634705,
-      "topicality": 0.5452627539634705
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0k4j",
+    "description": "car",
+    "score": 0.9812734127044678,
+    "topicality": 0.9812734127044678
+  },
+  {
+    "mid": "/m/01prls",
+    "description": "land vehicle",
+    "score": 0.9688422083854675,
+    "topicality": 0.9688422083854675
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.936739981174469,
+    "topicality": 0.936739981174469
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.8722216486930847,
+    "topicality": 0.8722216486930847
+  },
+  {
+    "mid": "/m/017kvv",
+    "description": "infrastructure",
+    "score": 0.8574248552322388,
+    "topicality": 0.8574248552322388
+  },
+  {
+    "mid": "/m/01c8br",
+    "description": "street",
+    "score": 0.8544563055038452,
+    "topicality": 0.8544563055038452
+  },
+  {
+    "mid": "/m/04_sv",
+    "description": "motorcycle",
+    "score": 0.6439825296401978,
+    "topicality": 0.6439825296401978
+  },
+  {
+    "mid": "/m/01r_pn",
+    "description": "race track",
+    "score": 0.6168532967567444,
+    "topicality": 0.6168532967567444
+  },
+  {
+    "mid": "/m/06d4_",
+    "description": "race",
+    "score": 0.5680708885192871,
+    "topicality": 0.5680708885192871
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.5452627539634705,
+    "topicality": 0.5452627539634705
+  }
+]

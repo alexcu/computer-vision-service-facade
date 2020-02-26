@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02p0sll",
-      "description": "wave",
-      "score": 0.9321216344833374,
-      "topicality": 0.9321216344833374
-    },
-    {
-      "mid": "/m/034srq",
-      "description": "wind wave",
-      "score": 0.8790309429168701,
-      "topicality": 0.8790309429168701
-    },
-    {
-      "mid": "/m/0838f",
-      "description": "water",
-      "score": 0.8073040843009949,
-      "topicality": 0.8073040843009949
-    },
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.7684727907180786,
-      "topicality": 0.7684727907180786
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.7595607042312622,
-      "topicality": 0.7595607042312622
-    },
-    {
-      "mid": "/m/0dxnmb",
-      "description": "surface water sports",
-      "score": 0.6671190857887268,
-      "topicality": 0.6671190857887268
-    },
-    {
-      "mid": "/m/01814z",
-      "description": "bodyboarding",
-      "score": 0.6510503888130188,
-      "topicality": 0.6510503888130188
-    },
-    {
-      "mid": "/m/04g3r",
-      "description": "leisure",
-      "score": 0.6388171315193176,
-      "topicality": 0.6388171315193176
-    },
-    {
-      "mid": "/m/02jwqh",
-      "description": "vacation",
-      "score": 0.6369329690933228,
-      "topicality": 0.6369329690933228
-    },
-    {
-      "mid": "/m/05kq4",
-      "description": "ocean",
-      "score": 0.6242488026618958,
-      "topicality": 0.6242488026618958
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02p0sll",
+    "description": "wave",
+    "score": 0.9321216344833374,
+    "topicality": 0.9321216344833374
+  },
+  {
+    "mid": "/m/034srq",
+    "description": "wind wave",
+    "score": 0.8790309429168701,
+    "topicality": 0.8790309429168701
+  },
+  {
+    "mid": "/m/0838f",
+    "description": "water",
+    "score": 0.8073040843009949,
+    "topicality": 0.8073040843009949
+  },
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.7684727907180786,
+    "topicality": 0.7684727907180786
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.7595607042312622,
+    "topicality": 0.7595607042312622
+  },
+  {
+    "mid": "/m/0dxnmb",
+    "description": "surface water sports",
+    "score": 0.6671190857887268,
+    "topicality": 0.6671190857887268
+  },
+  {
+    "mid": "/m/01814z",
+    "description": "bodyboarding",
+    "score": 0.6510503888130188,
+    "topicality": 0.6510503888130188
+  },
+  {
+    "mid": "/m/04g3r",
+    "description": "leisure",
+    "score": 0.6388171315193176,
+    "topicality": 0.6388171315193176
+  },
+  {
+    "mid": "/m/02jwqh",
+    "description": "vacation",
+    "score": 0.6369329690933228,
+    "topicality": 0.6369329690933228
+  },
+  {
+    "mid": "/m/05kq4",
+    "description": "ocean",
+    "score": 0.6242488026618958,
+    "topicality": 0.6242488026618958
+  }
+]

@@ -1,58 +1,56 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0jjw",
-      "description": "art",
-      "score": 0.8751814961433411,
-      "topicality": 0.8751814961433411
-    },
-    {
-      "mid": "/m/0pgl9",
-      "description": "tourist attraction",
-      "score": 0.860942006111145,
-      "topicality": 0.860942006111145
-    },
-    {
-      "mid": "/m/05qdh",
-      "description": "painting",
-      "score": 0.7978471517562866,
-      "topicality": 0.7978471517562866
-    },
-    {
-      "mid": "/m/06z37_",
-      "description": "picture frame",
-      "score": 0.7634927034378052,
-      "topicality": 0.7634927034378052
-    },
-    {
-      "mid": "/m/0hhbr",
-      "description": "art gallery",
-      "score": 0.7598046064376831,
-      "topicality": 0.7598046064376831
-    },
-    {
-      "mid": "/m/09cmq",
-      "description": "museum",
-      "score": 0.6979143023490906,
-      "topicality": 0.6979143023490906
-    },
-    {
-      "mid": "/m/0dgsmq8",
-      "description": "artwork",
-      "score": 0.536663293838501,
-      "topicality": 0.536663293838501
-    },
-    {
-      "mid": "/m/036jvk",
-      "description": "stock photography",
-      "score": 0.5271458029747009,
-      "topicality": 0.5271458029747009
-    },
-    {
-      "mid": "/m/015r61",
-      "description": "modern art",
-      "score": 0.512773334980011,
-      "topicality": 0.512773334980011
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0jjw",
+    "description": "art",
+    "score": 0.8751814961433411,
+    "topicality": 0.8751814961433411
+  },
+  {
+    "mid": "/m/0pgl9",
+    "description": "tourist attraction",
+    "score": 0.860942006111145,
+    "topicality": 0.860942006111145
+  },
+  {
+    "mid": "/m/05qdh",
+    "description": "painting",
+    "score": 0.7978471517562866,
+    "topicality": 0.7978471517562866
+  },
+  {
+    "mid": "/m/06z37_",
+    "description": "picture frame",
+    "score": 0.7634927034378052,
+    "topicality": 0.7634927034378052
+  },
+  {
+    "mid": "/m/0hhbr",
+    "description": "art gallery",
+    "score": 0.7598046064376831,
+    "topicality": 0.7598046064376831
+  },
+  {
+    "mid": "/m/09cmq",
+    "description": "museum",
+    "score": 0.6979143023490906,
+    "topicality": 0.6979143023490906
+  },
+  {
+    "mid": "/m/0dgsmq8",
+    "description": "artwork",
+    "score": 0.536663293838501,
+    "topicality": 0.536663293838501
+  },
+  {
+    "mid": "/m/036jvk",
+    "description": "stock photography",
+    "score": 0.5271458029747009,
+    "topicality": 0.5271458029747009
+  },
+  {
+    "mid": "/m/015r61",
+    "description": "modern art",
+    "score": 0.512773334980011,
+    "topicality": 0.512773334980011
+  }
+]

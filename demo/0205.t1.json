@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.9782646298408508,
-      "topicality": 0.9782646298408508
-    },
-    {
-      "mid": "/m/01fnns",
-      "description": "vegetation",
-      "score": 0.9707737565040588,
-      "topicality": 0.9707737565040588
-    },
-    {
-      "mid": "/m/038hg",
-      "description": "green",
-      "score": 0.9466679096221924,
-      "topicality": 0.9466679096221924
-    },
-    {
-      "mid": "/m/05h0n",
-      "description": "nature",
-      "score": 0.9463142156600952,
-      "topicality": 0.9463142156600952
-    },
-    {
-      "mid": "/m/03cjrt",
-      "description": "highland",
-      "score": 0.9264453649520874,
-      "topicality": 0.9264453649520874
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.909826397895813,
-      "topicality": 0.909826397895813
-    },
-    {
-      "mid": "/m/040h04",
-      "description": "hill station",
-      "score": 0.8964637517929077,
-      "topicality": 0.8964637517929077
-    },
-    {
-      "mid": "/m/0swq_",
-      "description": "nature reserve",
-      "score": 0.8869033455848694,
-      "topicality": 0.8869033455848694
-    },
-    {
-      "mid": "/m/04_5sg",
-      "description": "hill",
-      "score": 0.8815464377403259,
-      "topicality": 0.8815464377403259
-    },
-    {
-      "mid": "/m/01c7cq",
-      "description": "grassland",
-      "score": 0.8777965903282166,
-      "topicality": 0.8777965903282166
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.9782646298408508,
+    "topicality": 0.9782646298408508
+  },
+  {
+    "mid": "/m/01fnns",
+    "description": "vegetation",
+    "score": 0.9707737565040588,
+    "topicality": 0.9707737565040588
+  },
+  {
+    "mid": "/m/038hg",
+    "description": "green",
+    "score": 0.9466679096221924,
+    "topicality": 0.9466679096221924
+  },
+  {
+    "mid": "/m/05h0n",
+    "description": "nature",
+    "score": 0.9463142156600952,
+    "topicality": 0.9463142156600952
+  },
+  {
+    "mid": "/m/03cjrt",
+    "description": "highland",
+    "score": 0.9264453649520874,
+    "topicality": 0.9264453649520874
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.909826397895813,
+    "topicality": 0.909826397895813
+  },
+  {
+    "mid": "/m/040h04",
+    "description": "hill station",
+    "score": 0.8964637517929077,
+    "topicality": 0.8964637517929077
+  },
+  {
+    "mid": "/m/0swq_",
+    "description": "nature reserve",
+    "score": 0.8869033455848694,
+    "topicality": 0.8869033455848694
+  },
+  {
+    "mid": "/m/04_5sg",
+    "description": "hill",
+    "score": 0.8815464377403259,
+    "topicality": 0.8815464377403259
+  },
+  {
+    "mid": "/m/01c7cq",
+    "description": "grassland",
+    "score": 0.8777965903282166,
+    "topicality": 0.8777965903282166
+  }
+]

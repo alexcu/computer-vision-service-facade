@@ -1,74 +1,72 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0cx45",
-      "description": "temple",
-      "score": 0.9260762333869934,
-      "topicality": 0.9260762333869934,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.9255392551422119,
-      "topicality": 0.9255392551422119,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.9217652678489685,
-      "topicality": 0.9217652678489685,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/065zs54",
-      "description": "holy places",
-      "score": 0.9118549227714539,
-      "topicality": 0.9118549227714539,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/06y_bg",
-      "description": "hindu temple",
-      "score": 0.8604338765144348,
-      "topicality": 0.8604338765144348,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.817379355430603,
-      "topicality": 0.817379355430603,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.7555798292160034,
-      "topicality": 0.7555798292160034,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/08g_yr",
-      "description": "temple",
-      "score": 0.7482442855834961,
-      "topicality": 0.7482442855834961,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/02cwf_",
-      "description": "shrine",
-      "score": 0.6758778691291809,
-      "topicality": 0.6758778691291809,
-      "bounding_poly": {}
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.667417585849762,
-      "topicality": 0.667417585849762,
-      "bounding_poly": {}
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0cx45",
+    "description": "temple",
+    "score": 0.9260762333869934,
+    "topicality": 0.9260762333869934,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.9255392551422119,
+    "topicality": 0.9255392551422119,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.9217652678489685,
+    "topicality": 0.9217652678489685,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/065zs54",
+    "description": "holy places",
+    "score": 0.9118549227714539,
+    "topicality": 0.9118549227714539,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/06y_bg",
+    "description": "hindu temple",
+    "score": 0.8604338765144348,
+    "topicality": 0.8604338765144348,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.817379355430603,
+    "topicality": 0.817379355430603,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.7555798292160034,
+    "topicality": 0.7555798292160034,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/08g_yr",
+    "description": "temple",
+    "score": 0.7482442855834961,
+    "topicality": 0.7482442855834961,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/02cwf_",
+    "description": "shrine",
+    "score": 0.6758778691291809,
+    "topicality": 0.6758778691291809,
+    "bounding_poly": {}
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.667417585849762,
+    "topicality": 0.667417585849762,
+    "bounding_poly": {}
+  }
+]

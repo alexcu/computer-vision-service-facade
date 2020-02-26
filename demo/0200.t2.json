@@ -1,52 +1,50 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0ds99lh",
-      "description": "fun",
-      "score": 0.7039424180984497,
-      "topicality": 0.7039424180984497
-    },
-    {
-      "mid": "/m/05s2s",
-      "description": "plant",
-      "score": 0.585474967956543,
-      "topicality": 0.585474967956543
-    },
-    {
-      "mid": "/m/030zlf",
-      "description": "colorfulness",
-      "score": 0.5623385310173035,
-      "topicality": 0.5623385310173035
-    },
-    {
-      "mid": "/m/0cmqr_4",
-      "description": "party supply",
-      "score": 0.560744047164917,
-      "topicality": 0.560744047164917
-    },
-    {
-      "mid": "/m/0138tl",
-      "description": "toy",
-      "score": 0.5583110451698303,
-      "topicality": 0.5583110451698303
-    },
-    {
-      "mid": "/m/02h7lkt",
-      "description": "fictional character",
-      "score": 0.5279175639152527,
-      "topicality": 0.5279175639152527
-    },
-    {
-      "mid": "/m/03qtwd",
-      "description": "crowd",
-      "score": 0.5069608092308044,
-      "topicality": 0.5069608092308044
-    },
-    {
-      "mid": "/m/01j51",
-      "description": "balloon",
-      "score": 0.5053830146789551,
-      "topicality": 0.5053830146789551
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0ds99lh",
+    "description": "fun",
+    "score": 0.7039424180984497,
+    "topicality": 0.7039424180984497
+  },
+  {
+    "mid": "/m/05s2s",
+    "description": "plant",
+    "score": 0.585474967956543,
+    "topicality": 0.585474967956543
+  },
+  {
+    "mid": "/m/030zlf",
+    "description": "colorfulness",
+    "score": 0.5623385310173035,
+    "topicality": 0.5623385310173035
+  },
+  {
+    "mid": "/m/0cmqr_4",
+    "description": "party supply",
+    "score": 0.560744047164917,
+    "topicality": 0.560744047164917
+  },
+  {
+    "mid": "/m/0138tl",
+    "description": "toy",
+    "score": 0.5583110451698303,
+    "topicality": 0.5583110451698303
+  },
+  {
+    "mid": "/m/02h7lkt",
+    "description": "fictional character",
+    "score": 0.5279175639152527,
+    "topicality": 0.5279175639152527
+  },
+  {
+    "mid": "/m/03qtwd",
+    "description": "crowd",
+    "score": 0.5069608092308044,
+    "topicality": 0.5069608092308044
+  },
+  {
+    "mid": "/m/01j51",
+    "description": "balloon",
+    "score": 0.5053830146789551,
+    "topicality": 0.5053830146789551
+  }
+]

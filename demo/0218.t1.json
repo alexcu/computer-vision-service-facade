@@ -1,34 +1,32 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/02rfdq",
-      "description": "interior design",
-      "score": 0.7902334928512573,
-      "topicality": 0.7902334928512573
-    },
-    {
-      "mid": "/m/027dwg0",
-      "description": "lobby",
-      "score": 0.7076604962348938,
-      "topicality": 0.7076604962348938
-    },
-    {
-      "mid": "/m/01c34b",
-      "description": "flooring",
-      "score": 0.6959051489830017,
-      "topicality": 0.6959051489830017
-    },
-    {
-      "mid": "/m/0l7_8",
-      "description": "floor",
-      "score": 0.6743468046188354,
-      "topicality": 0.6743468046188354
-    },
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.5062031149864197,
-      "topicality": 0.5062031149864197
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/02rfdq",
+    "description": "interior design",
+    "score": 0.7902334928512573,
+    "topicality": 0.7902334928512573
+  },
+  {
+    "mid": "/m/027dwg0",
+    "description": "lobby",
+    "score": 0.7076604962348938,
+    "topicality": 0.7076604962348938
+  },
+  {
+    "mid": "/m/01c34b",
+    "description": "flooring",
+    "score": 0.6959051489830017,
+    "topicality": 0.6959051489830017
+  },
+  {
+    "mid": "/m/0l7_8",
+    "description": "floor",
+    "score": 0.6743468046188354,
+    "topicality": 0.6743468046188354
+  },
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.5062031149864197,
+    "topicality": 0.5062031149864197
+  }
+]

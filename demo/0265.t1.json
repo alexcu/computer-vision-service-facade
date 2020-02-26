@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/0ctfk",
-      "description": "espresso",
-      "score": 0.8371697068214417,
-      "topicality": 0.8371697068214417
-    },
-    {
-      "mid": "/m/08gqpm",
-      "description": "cup",
-      "score": 0.7880809903144836,
-      "topicality": 0.7880809903144836
-    },
-    {
-      "mid": "/m/07ptj3n",
-      "description": "cup",
-      "score": 0.7721183896064758,
-      "topicality": 0.7721183896064758
-    },
-    {
-      "mid": "/m/02vqfm",
-      "description": "coffee",
-      "score": 0.7680953145027161,
-      "topicality": 0.7680953145027161
-    },
-    {
-      "mid": "/m/02p5f1q",
-      "description": "coffee cup",
-      "score": 0.7376164197921753,
-      "topicality": 0.7376164197921753
-    },
-    {
-      "mid": "/m/07clx",
-      "description": "tea",
-      "score": 0.718098521232605,
-      "topicality": 0.718098521232605
-    },
-    {
-      "mid": "/m/04brg2",
-      "description": "tableware",
-      "score": 0.7117825150489807,
-      "topicality": 0.7117825150489807
-    },
-    {
-      "mid": "/m/0hz4q",
-      "description": "breakfast",
-      "score": 0.6678977012634277,
-      "topicality": 0.6678977012634277
-    },
-    {
-      "mid": "/m/0dv34",
-      "description": "baking",
-      "score": 0.5533448457717896,
-      "topicality": 0.5533448457717896
-    },
-    {
-      "mid": "/m/0271t",
-      "description": "drink",
-      "score": 0.5189684629440308,
-      "topicality": 0.5189684629440308
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/0ctfk",
+    "description": "espresso",
+    "score": 0.8371697068214417,
+    "topicality": 0.8371697068214417
+  },
+  {
+    "mid": "/m/08gqpm",
+    "description": "cup",
+    "score": 0.7880809903144836,
+    "topicality": 0.7880809903144836
+  },
+  {
+    "mid": "/m/07ptj3n",
+    "description": "cup",
+    "score": 0.7721183896064758,
+    "topicality": 0.7721183896064758
+  },
+  {
+    "mid": "/m/synthesized",
+    "description": "food",
+    "score": 0.7715670280392636,
+    "topicality": 0.7715670280392636
+  },
+  {
+    "mid": "/m/02vqfm",
+    "description": "coffee",
+    "score": 0.7680953145027161,
+    "topicality": 0.7680953145027161
+  },
+  {
+    "mid": "/m/02p5f1q",
+    "description": "coffee cup",
+    "score": 0.7376164197921753,
+    "topicality": 0.7376164197921753
+  },
+  {
+    "mid": "/m/07clx",
+    "description": "tea",
+    "score": 0.718098521232605,
+    "topicality": 0.718098521232605
+  },
+  {
+    "mid": "/m/04brg2",
+    "description": "tableware",
+    "score": 0.7117825150489807,
+    "topicality": 0.7117825150489807
+  },
+  {
+    "mid": "/m/0hz4q",
+    "description": "breakfast",
+    "score": 0.6678977012634277,
+    "topicality": 0.6678977012634277
+  },
+  {
+    "mid": "/m/0dv34",
+    "description": "baking",
+    "score": 0.5533448457717896,
+    "topicality": 0.5533448457717896
+  },
+  {
+    "mid": "/m/0271t",
+    "description": "drink",
+    "score": 0.5189684629440308,
+    "topicality": 0.5189684629440308
+  }
+]

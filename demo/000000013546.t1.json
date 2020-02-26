@@ -1,64 +1,68 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01lqfm",
-      "description": "public space",
-      "score": 0.8829938173294067,
-      "topicality": 0.8829938173294067
-    },
-    {
-      "mid": "/m/06zfw",
-      "description": "skateboarding",
-      "score": 0.873231053352356,
-      "topicality": 0.873231053352356
-    },
-    {
-      "mid": "/m/017kvv",
-      "description": "infrastructure",
-      "score": 0.8558208346366882,
-      "topicality": 0.8558208346366882
-    },
-    {
-      "mid": "/m/06gfj",
-      "description": "road",
-      "score": 0.8012920618057251,
-      "topicality": 0.8012920618057251
-    },
-    {
-      "mid": "/m/07j7r",
-      "description": "tree",
-      "score": 0.7855337858200073,
-      "topicality": 0.7855337858200073
-    },
-    {
-      "mid": "/m/0235lp9",
-      "description": "skateboarder",
-      "score": 0.7678259015083313,
-      "topicality": 0.7678259015083313
-    },
-    {
-      "mid": "/m/09qkx",
-      "description": "boardsport",
-      "score": 0.7675501704216003,
-      "topicality": 0.7675501704216003
-    },
-    {
-      "mid": "/m/06_fw",
-      "description": "skateboard",
-      "score": 0.7628568410873413,
-      "topicality": 0.7628568410873413
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.7384851574897766,
-      "topicality": 0.7384851574897766
-    },
-    {
-      "mid": "/m/05y5lj",
-      "description": "sports equipment",
-      "score": 0.7251155972480774,
-      "topicality": 0.7251155972480774
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/synthesized",
+    "description": "human",
+    "score": 0.9610646064150759,
+    "topicality": 0.9610646064150759
+  },
+  {
+    "mid": "/m/01lqfm",
+    "description": "public space",
+    "score": 0.8829938173294067,
+    "topicality": 0.8829938173294067
+  },
+  {
+    "mid": "/m/06zfw",
+    "description": "skateboarding",
+    "score": 0.873231053352356,
+    "topicality": 0.873231053352356
+  },
+  {
+    "mid": "/m/017kvv",
+    "description": "infrastructure",
+    "score": 0.8558208346366882,
+    "topicality": 0.8558208346366882
+  },
+  {
+    "mid": "/m/06gfj",
+    "description": "road",
+    "score": 0.8012920618057251,
+    "topicality": 0.8012920618057251
+  },
+  {
+    "mid": "/m/07j7r",
+    "description": "tree",
+    "score": 0.7855337858200073,
+    "topicality": 0.7855337858200073
+  },
+  {
+    "mid": "/m/0235lp9",
+    "description": "skateboarder",
+    "score": 0.7678259015083313,
+    "topicality": 0.7678259015083313
+  },
+  {
+    "mid": "/m/09qkx",
+    "description": "boardsport",
+    "score": 0.7675501704216003,
+    "topicality": 0.7675501704216003
+  },
+  {
+    "mid": "/m/06_fw",
+    "description": "skateboard",
+    "score": 0.7628568410873413,
+    "topicality": 0.7628568410873413
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.7384851574897766,
+    "topicality": 0.7384851574897766
+  },
+  {
+    "mid": "/m/05y5lj",
+    "description": "sports equipment",
+    "score": 0.7251155972480774,
+    "topicality": 0.7251155972480774
+  }
+]

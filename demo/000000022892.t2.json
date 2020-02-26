@@ -1,28 +1,26 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01z5f",
-      "description": "canidae",
-      "score": 0.9005341529846191,
-      "topicality": 0.9005341529846191
-    },
-    {
-      "mid": "/m/0bt9lr",
-      "description": "dog",
-      "score": 0.8623506426811218,
-      "topicality": 0.8623506426811218
-    },
-    {
-      "mid": "/m/0kpmf",
-      "description": "dog breed",
-      "score": 0.8161184787750244,
-      "topicality": 0.8161184787750244
-    },
-    {
-      "mid": "/m/01lrl",
-      "description": "carnivore",
-      "score": 0.7800981402397156,
-      "topicality": 0.7800981402397156
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01z5f",
+    "description": "canidae",
+    "score": 0.9005341529846191,
+    "topicality": 0.9005341529846191
+  },
+  {
+    "mid": "/m/0bt9lr",
+    "description": "dog",
+    "score": 0.8623506426811218,
+    "topicality": 0.8623506426811218
+  },
+  {
+    "mid": "/m/0kpmf",
+    "description": "dog breed",
+    "score": 0.8161184787750244,
+    "topicality": 0.8161184787750244
+  },
+  {
+    "mid": "/m/01lrl",
+    "description": "carnivore",
+    "score": 0.7800981402397156,
+    "topicality": 0.7800981402397156
+  }
+]

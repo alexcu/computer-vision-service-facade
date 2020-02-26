@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01fklc",
-      "description": "pink",
-      "score": 0.9428813457489014,
-      "topicality": 0.9428813457489014
-    },
-    {
-      "mid": "/m/06z04",
-      "description": "skin",
-      "score": 0.9407886266708374,
-      "topicality": 0.9407886266708374
-    },
-    {
-      "mid": "/m/05r655",
-      "description": "girl",
-      "score": 0.9073158502578735,
-      "topicality": 0.9073158502578735
-    },
-    {
-      "mid": "/m/01ntw3",
-      "description": "human hair color",
-      "score": 0.9048612713813782,
-      "topicality": 0.9048612713813782
-    },
-    {
-      "mid": "/m/01f43",
-      "description": "beauty",
-      "score": 0.8830715417861938,
-      "topicality": 0.8830715417861938
-    },
-    {
-      "mid": "/m/02pkb8",
-      "description": "lady",
-      "score": 0.8735499382019043,
-      "topicality": 0.8735499382019043
-    },
-    {
-      "mid": "/m/035r7c",
-      "description": "leg",
-      "score": 0.755090594291687,
-      "topicality": 0.755090594291687
-    },
-    {
-      "mid": "/m/0k65p",
-      "description": "hand",
-      "score": 0.6430389881134033,
-      "topicality": 0.6430389881134033
-    },
-    {
-      "mid": "/m/02ksmb",
-      "description": "brown hair",
-      "score": 0.6423745155334473,
-      "topicality": 0.6423745155334473
-    },
-    {
-      "mid": "/m/02pd__z",
-      "description": "long hair",
-      "score": 0.625389814376831,
-      "topicality": 0.625389814376831
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01fklc",
+    "description": "pink",
+    "score": 0.9428813457489014,
+    "topicality": 0.9428813457489014
+  },
+  {
+    "mid": "/m/06z04",
+    "description": "skin",
+    "score": 0.9407886266708374,
+    "topicality": 0.9407886266708374
+  },
+  {
+    "mid": "/m/05r655",
+    "description": "girl",
+    "score": 0.9073158502578735,
+    "topicality": 0.9073158502578735
+  },
+  {
+    "mid": "/m/01ntw3",
+    "description": "human hair color",
+    "score": 0.9048612713813782,
+    "topicality": 0.9048612713813782
+  },
+  {
+    "mid": "/m/01f43",
+    "description": "beauty",
+    "score": 0.8830715417861938,
+    "topicality": 0.8830715417861938
+  },
+  {
+    "mid": "/m/02pkb8",
+    "description": "lady",
+    "score": 0.8735499382019043,
+    "topicality": 0.8735499382019043
+  },
+  {
+    "mid": "/m/035r7c",
+    "description": "leg",
+    "score": 0.755090594291687,
+    "topicality": 0.755090594291687
+  },
+  {
+    "mid": "/m/0k65p",
+    "description": "hand",
+    "score": 0.6430389881134033,
+    "topicality": 0.6430389881134033
+  },
+  {
+    "mid": "/m/02ksmb",
+    "description": "brown hair",
+    "score": 0.6423745155334473,
+    "topicality": 0.6423745155334473
+  },
+  {
+    "mid": "/m/02pd__z",
+    "description": "long hair",
+    "score": 0.625389814376831,
+    "topicality": 0.625389814376831
+  }
+]

@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/07yr8h",
-      "description": "historic site",
-      "score": 0.9365050196647644,
-      "topicality": 0.9365050196647644
-    },
-    {
-      "mid": "/m/03d1rd",
-      "description": "ruins",
-      "score": 0.9128847122192383,
-      "topicality": 0.9128847122192383
-    },
-    {
-      "mid": "/m/012ww9",
-      "description": "archaeological site",
-      "score": 0.8885301947593689,
-      "topicality": 0.8885301947593689
-    },
-    {
-      "mid": "/m/0djmp",
-      "description": "ancient history",
-      "score": 0.8609091639518738,
-      "topicality": 0.8609091639518738
-    },
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.8421168327331543,
-      "topicality": 0.8421168327331543
-    },
-    {
-      "mid": "/m/09qqq",
-      "description": "wall",
-      "score": 0.7895928621292114,
-      "topicality": 0.7895928621292114
-    },
-    {
-      "mid": "/m/02ljgl",
-      "description": "monument",
-      "score": 0.7318207621574402,
-      "topicality": 0.7318207621574402
-    },
-    {
-      "mid": "/m/03g3w",
-      "description": "history",
-      "score": 0.6709663271903992,
-      "topicality": 0.6709663271903992
-    },
-    {
-      "mid": "/m/0pb0b",
-      "description": "national trust for places of historic interest or natural beauty",
-      "score": 0.6545218229293823,
-      "topicality": 0.6545218229293823
-    },
-    {
-      "mid": "/m/0f0q9",
-      "description": "village",
-      "score": 0.6507585644721985,
-      "topicality": 0.6507585644721985
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/07yr8h",
+    "description": "historic site",
+    "score": 0.9365050196647644,
+    "topicality": 0.9365050196647644
+  },
+  {
+    "mid": "/m/03d1rd",
+    "description": "ruins",
+    "score": 0.9128847122192383,
+    "topicality": 0.9128847122192383
+  },
+  {
+    "mid": "/m/012ww9",
+    "description": "archaeological site",
+    "score": 0.8885301947593689,
+    "topicality": 0.8885301947593689
+  },
+  {
+    "mid": "/m/0djmp",
+    "description": "ancient history",
+    "score": 0.8609091639518738,
+    "topicality": 0.8609091639518738
+  },
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.8421168327331543,
+    "topicality": 0.8421168327331543
+  },
+  {
+    "mid": "/m/09qqq",
+    "description": "wall",
+    "score": 0.7895928621292114,
+    "topicality": 0.7895928621292114
+  },
+  {
+    "mid": "/m/02ljgl",
+    "description": "monument",
+    "score": 0.7318207621574402,
+    "topicality": 0.7318207621574402
+  },
+  {
+    "mid": "/m/03g3w",
+    "description": "history",
+    "score": 0.6709663271903992,
+    "topicality": 0.6709663271903992
+  },
+  {
+    "mid": "/m/0pb0b",
+    "description": "national trust for places of historic interest or natural beauty",
+    "score": 0.6545218229293823,
+    "topicality": 0.6545218229293823
+  },
+  {
+    "mid": "/m/0f0q9",
+    "description": "village",
+    "score": 0.6507585644721985,
+    "topicality": 0.6507585644721985
+  }
+]

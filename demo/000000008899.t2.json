@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01g5v",
-      "description": "blue",
-      "score": 0.926959753036499,
-      "topicality": 0.926959753036499
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.9028977751731873,
-      "topicality": 0.9028977751731873
-    },
-    {
-      "mid": "/m/0180xr",
-      "description": "neighbourhood",
-      "score": 0.8955264091491699,
-      "topicality": 0.8955264091491699
-    },
-    {
-      "mid": "/m/03nfmq",
-      "description": "architecture",
-      "score": 0.8687887787818909,
-      "topicality": 0.8687887787818909
-    },
-    {
-      "mid": "/m/01x314",
-      "description": "facade",
-      "score": 0.859969437122345,
-      "topicality": 0.859969437122345
-    },
-    {
-      "mid": "/m/09qqq",
-      "description": "wall",
-      "score": 0.8466088175773621,
-      "topicality": 0.8466088175773621
-    },
-    {
-      "mid": "/m/03jm5",
-      "description": "house",
-      "score": 0.8406708240509033,
-      "topicality": 0.8406708240509033
-    },
-    {
-      "mid": "/m/0dx1j",
-      "description": "town",
-      "score": 0.8347687721252441,
-      "topicality": 0.8347687721252441
-    },
-    {
-      "mid": "/m/039jbq",
-      "description": "urban area",
-      "score": 0.8029192090034485,
-      "topicality": 0.8029192090034485
-    },
-    {
-      "mid": "/m/0d4v4",
-      "description": "window",
-      "score": 0.774055540561676,
-      "topicality": 0.774055540561676
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01g5v",
+    "description": "blue",
+    "score": 0.926959753036499,
+    "topicality": 0.926959753036499
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.9028977751731873,
+    "topicality": 0.9028977751731873
+  },
+  {
+    "mid": "/m/0180xr",
+    "description": "neighbourhood",
+    "score": 0.8955264091491699,
+    "topicality": 0.8955264091491699
+  },
+  {
+    "mid": "/m/03nfmq",
+    "description": "architecture",
+    "score": 0.8687887787818909,
+    "topicality": 0.8687887787818909
+  },
+  {
+    "mid": "/m/01x314",
+    "description": "facade",
+    "score": 0.859969437122345,
+    "topicality": 0.859969437122345
+  },
+  {
+    "mid": "/m/09qqq",
+    "description": "wall",
+    "score": 0.8466088175773621,
+    "topicality": 0.8466088175773621
+  },
+  {
+    "mid": "/m/03jm5",
+    "description": "house",
+    "score": 0.8406708240509033,
+    "topicality": 0.8406708240509033
+  },
+  {
+    "mid": "/m/0dx1j",
+    "description": "town",
+    "score": 0.8347687721252441,
+    "topicality": 0.8347687721252441
+  },
+  {
+    "mid": "/m/039jbq",
+    "description": "urban area",
+    "score": 0.8029192090034485,
+    "topicality": 0.8029192090034485
+  },
+  {
+    "mid": "/m/0d4v4",
+    "description": "window",
+    "score": 0.774055540561676,
+    "topicality": 0.774055540561676
+  }
+]

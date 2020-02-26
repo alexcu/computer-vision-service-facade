@@ -1,64 +1,62 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/03gfsp",
-      "description": "ceiling",
-      "score": 0.8870536088943481,
-      "topicality": 0.8870536088943481
-    },
-    {
-      "mid": "/m/0dpvm",
-      "description": "arch",
-      "score": 0.855205237865448,
-      "topicality": 0.855205237865448
-    },
-    {
-      "mid": "/m/0cgh4",
-      "description": "building",
-      "score": 0.8198301792144775,
-      "topicality": 0.8198301792144775
-    },
-    {
-      "mid": "/m/0173tc",
-      "description": "chapel",
-      "score": 0.8013558387756348,
-      "topicality": 0.8013558387756348
-    },
-    {
-      "mid": "/m/0n68_",
-      "description": "structure",
-      "score": 0.7773793935775757,
-      "topicality": 0.7773793935775757
-    },
-    {
-      "mid": "/m/0f85g",
-      "description": "basilica",
-      "score": 0.7668144106864929,
-      "topicality": 0.7668144106864929
-    },
-    {
-      "mid": "/m/02bqth",
-      "description": "vault",
-      "score": 0.7591062188148499,
-      "topicality": 0.7591062188148499
-    },
-    {
-      "mid": "/m/016br2",
-      "description": "dome",
-      "score": 0.7591027021408081,
-      "topicality": 0.7591027021408081
-    },
-    {
-      "mid": "/m/02nvjx",
-      "description": "place of worship",
-      "score": 0.7361832857131958,
-      "topicality": 0.7361832857131958
-    },
-    {
-      "mid": "/m/01sqnx",
-      "description": "byzantine architecture",
-      "score": 0.7108175158500671,
-      "topicality": 0.7108175158500671
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/03gfsp",
+    "description": "ceiling",
+    "score": 0.8870536088943481,
+    "topicality": 0.8870536088943481
+  },
+  {
+    "mid": "/m/0dpvm",
+    "description": "arch",
+    "score": 0.855205237865448,
+    "topicality": 0.855205237865448
+  },
+  {
+    "mid": "/m/0cgh4",
+    "description": "building",
+    "score": 0.8198301792144775,
+    "topicality": 0.8198301792144775
+  },
+  {
+    "mid": "/m/0173tc",
+    "description": "chapel",
+    "score": 0.8013558387756348,
+    "topicality": 0.8013558387756348
+  },
+  {
+    "mid": "/m/0n68_",
+    "description": "structure",
+    "score": 0.7773793935775757,
+    "topicality": 0.7773793935775757
+  },
+  {
+    "mid": "/m/0f85g",
+    "description": "basilica",
+    "score": 0.7668144106864929,
+    "topicality": 0.7668144106864929
+  },
+  {
+    "mid": "/m/02bqth",
+    "description": "vault",
+    "score": 0.7591062188148499,
+    "topicality": 0.7591062188148499
+  },
+  {
+    "mid": "/m/016br2",
+    "description": "dome",
+    "score": 0.7591027021408081,
+    "topicality": 0.7591027021408081
+  },
+  {
+    "mid": "/m/02nvjx",
+    "description": "place of worship",
+    "score": 0.7361832857131958,
+    "topicality": 0.7361832857131958
+  },
+  {
+    "mid": "/m/01sqnx",
+    "description": "byzantine architecture",
+    "score": 0.7108175158500671,
+    "topicality": 0.7108175158500671
+  }
+]

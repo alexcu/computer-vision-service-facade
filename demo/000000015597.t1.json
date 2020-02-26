@@ -1,40 +1,38 @@
-{
-  "label_annotations": [
-    {
-      "mid": "/m/01bqvp",
-      "description": "sky",
-      "score": 0.6263647079467773,
-      "topicality": 0.6263647079467773
-    },
-    {
-      "mid": "/m/02jwqh",
-      "description": "vacation",
-      "score": 0.6144919395446777,
-      "topicality": 0.6144919395446777
-    },
-    {
-      "mid": "/m/07yv9",
-      "description": "vehicle",
-      "score": 0.6067735552787781,
-      "topicality": 0.6067735552787781
-    },
-    {
-      "mid": "/m/099fz",
-      "description": "sand",
-      "score": 0.5166733264923096,
-      "topicality": 0.5166733264923096
-    },
-    {
-      "mid": "/m/06bm2",
-      "description": "recreation",
-      "score": 0.5092628002166748,
-      "topicality": 0.5092628002166748
-    },
-    {
-      "mid": "/m/036jvk",
-      "description": "stock photography",
-      "score": 0.5067270398139954,
-      "topicality": 0.5067270398139954
-    }
-  ]
-}
+[
+  {
+    "mid": "/m/01bqvp",
+    "description": "sky",
+    "score": 0.6263647079467773,
+    "topicality": 0.6263647079467773
+  },
+  {
+    "mid": "/m/02jwqh",
+    "description": "vacation",
+    "score": 0.6144919395446777,
+    "topicality": 0.6144919395446777
+  },
+  {
+    "mid": "/m/07yv9",
+    "description": "vehicle",
+    "score": 0.6067735552787781,
+    "topicality": 0.6067735552787781
+  },
+  {
+    "mid": "/m/099fz",
+    "description": "sand",
+    "score": 0.5166733264923096,
+    "topicality": 0.5166733264923096
+  },
+  {
+    "mid": "/m/06bm2",
+    "description": "recreation",
+    "score": 0.5092628002166748,
+    "topicality": 0.5092628002166748
+  },
+  {
+    "mid": "/m/036jvk",
+    "description": "stock photography",
+    "score": 0.5067270398139954,
+    "topicality": 0.5067270398139954
+  }
+]
