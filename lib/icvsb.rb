@@ -703,7 +703,7 @@ module ICVSB
               "Maximum confidence delta breached in key validation (margin of error=#{delta_confidence}). "\
               "#{msg_suffix}."
             )
-            delta_confs_exceeded[label] = delta.negative? ? delta.to_s : "+#{delta}"
+            delta_confs_exceeded[label] = delta
           end
         end
         if delta_confs_exceeded.empty?
