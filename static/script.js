@@ -194,7 +194,7 @@ function submitRequestForm() {
   return false;
 }
 
-function triggerBenchmark(evolution = false) {
+function triggerBenchmark(newTimestamp = null) {
   var id = document.getElementById('check-benchmark-benchmark-id').value;
 
   if (isNaN(id) || id.trim().length == 0) {
@@ -207,8 +207,8 @@ function triggerBenchmark(evolution = false) {
     is_benchmarking: true
   }
 
-  if (evolution) {
-    patchPayloadData['flip_demo_timestamp'] = evolution;
+  if (newTimestamp) {
+    patchPayloadData['demo_timestamp'] = newTimestamp;
   }
 
   xhr('GET', '/benchmark/' + id + '/log', logResults);
@@ -216,5 +216,10 @@ function triggerBenchmark(evolution = false) {
 }
 
 function triggerBenchmarkWithEvolution() {
-  triggerBenchmark(true);
+  var newTimestamp = prompt(
+    "Please enter the new demo timestamp (either 't1' or 't2' are accepted by the PATCH request).",
+    "t2"
+  );
+
+  triggerBenchmark(newTimestamp);
 }

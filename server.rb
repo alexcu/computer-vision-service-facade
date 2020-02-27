@@ -162,8 +162,6 @@ patch '/benchmark/:id' do
   check_brc_id(id, store)
   brc = store[id]
 
-  brc.trigger_benchmark if params[:is_benchmarking] && !brc.benchmarking?
-
   status 202
   response = {
     id: id,
@@ -171,10 +169,13 @@ patch '/benchmark/:id' do
     current_key_id: brc.current_key ? brc.current_key.id : nil,
     is_benchmarking: brc.benchmarking?
   }
-  if brc.service == ICVSB::Service::DEMO && params[:flip_demo_timestamp]
-    brc.flip_demo_timestamp
+  if brc.service == ICVSB::Service::DEMO && params[:demo_timestamp]
+    brc.demo_timestamp = params[:demo_timestamp] if ['t1','t2'].include?(params[:demo_timestamp])
     response[:timestamp] = brc.demo_timestamp
   end
+
+  brc.trigger_benchmark if params[:is_benchmarking] && !brc.benchmarking?
+
   response.to_json
 end
 
@@ -357,12 +358,32 @@ get '/labels' do
     # Set HTTP status+body as appropriate if there is no more ETags or if
     # this was a successful response (i.e., no errors so don't keep trying other
     # ETags...)
-    error = result.key?(:key_error) || result.key?(:response_error) || result.key?(:service_error)
+    error = result.key?(:key_errors) || result.key?(:response_errors) || result.key?(:service_error)
     if [etag] == etags.last || !error
-      if result[:key_error] || result[:response_error]
+      if result[:key_errors] || result[:response_errors]
         status 412
-        content_type 'text/plain'
-        relay_body = result[:key_error] || result[:response_error]
+        content_type 'application/json;charset=utf-8'
+
+        key_error_len = result[:key_errors].nil? ? 0 : result[:key_errors].length
+        res_error_len = result[:response_errors].nil? ? 0 : result[:response_errors].length
+
+        key_error_data = result[:key_errors].nil? ? [] : result[:key_errors].map(&:to_h)
+        res_error_data = result[:response_errors].nil? ? [] : result[:response_errors].map(&:to_h)
+
+        relay_body = {
+          num_key_errors: key_error_len,
+          num_response_errors: res_error_len,
+          key_errors: key_error_data,
+          response_errors: res_error_data
+        }.to_json
+
+
+        # relay_body = "There are #{key_error_len} key errors and"\
+        #              " #{res_error_len} response errors:\n"\
+        #              "  Key Errors:\n"\
+        #              "    * #{key_error_str}\n"\
+        #              "  Response Errors:\n"\
+        #              "    * #{res_error_str}\n"\
       elsif result[:service_error]
         status 422
         content_type 'text/plain'
