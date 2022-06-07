@@ -56,7 +56,7 @@ GEM
     grpc (1.24.0)
       google-protobuf (~> 3.8)
       googleapis-common-protos-types (~> 1.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     jwt (2.2.1)
     memoist (0.16.0)
     multi_json (1.14.1)
